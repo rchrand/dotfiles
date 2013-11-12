@@ -1,0 +1,1487 @@
+2013-11-10 14:53:10	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #clojure
+2013-11-10 14:53:10	--	Topic for #clojure is "Clojure, the Language. Docs: http://clojure.org Discussion: http://groups.google.com/group/clojure"
+2013-11-10 14:53:10	--	Topic set by chouser on Thu, 21 Jul 2011 02:57:02
+2013-11-10 14:53:10	--	Nicks #clojure: [@ChanServ [Neurotic] _1126 _5kg _Bravado _janne abuiles acagle adamhill adammh addisaden Adeon adx ahihi AimHere aka akhudek_ aking akurilin alambert_ alexbaranosky alexyakushev algernon alindeman alisdair allenj12 amalloy_ ambroff ambrosebs amerinese amro ananthakumaran1 andersf andrewclegg andrewmcveigh andrewmcveigh|wo andrewstewart andreypopp anekos_ anhall anthonyl Apage43 aravind arbscht ari` arrdem asabil Ash astrolin augustl averell AWizzArd axiom_ Ayey_ babilen bakedb bakkdoor bamse bbloom bdash beawesomeinstead beberlei benizi_ benkay benmoss beppu bifido_ BigTom bio bitemyapp bjorkintosh Blkt blooberr_ blrm bobbrahms2 bobbycalderwood bobwilliams Bodil boodle bostonou_ brainproxy brianloveswords brianwong brixen Bronsa broquaint bruceadams bryanl calebmpeterson cannedprimates cantsin carif cark carlosgaldino casper1 cdombroski certaint1 cespare charliekilo|away Chasm chenjf chewbranca ChiralSym choas ChongLi chouser_log Chousuke chrisrossi chriswk cldwalker__ clojurebot cmajor7 cmbntr codejury coffeejunk conan CookedGryphon coventry cow-orker cross cYmen Daeken daemian dakrone dan danielgl_ danlarkin danlentz danvet_ dark_element daveliepmann david118 davidboy dcolish ddima_ dean|away demolithion Derander DerGuteMoritz devinus_ devn dhm dnolen dobry-den doctorinserenity DomKM doomlord_ dotemacs dottedmag dougs87 drewr drmegahertz dsantiago dyad dyreshark dziga e0n_ ea- eagleflo eci edw eevar effy efjboss egghead ehd ehtesh eigenjoy eigenlicht Ember- endou ered erewhon Ernestas EToS Excureo expez fbernier FDFlock felipe` fikusz fmu fmu____ foolano ForNeVeR Foxboron fpk^away francis_wolke frankgerhardt__ franks42 freiksenet fridim fsargent fu86^off gary_poster|away gaYak gcmalloc genehack_ GeneralMaximus geoffeg geoffh_ gerard0 gf3 gfredericks ggherdov ggreg gideonite gko gko_ glosoli gluegadget gozala grandy gravity_ gridaphobe grim_radical grncdr groot_ ground4 gstamp gtuckerkellogg Guest52726 guilleiguaran_ gwillickers gws H4ns hakvroot hanDerPeder heath hfaafb hhatch hhenkel hiredman hive-mind hlprmnky honkfest1val honza housejester hsalokor_ hsestupin hugod hum_ph hungryblank hvesalai hyko hyperboreean hyPiRion ibdknox icedp idryman ieure igorw indigo Inoperable instilled ipostelnik ivan ivan\ ivan` iwilcox j0ni jaffe__ jaimef jalcine jamiei_ Janiczek Jarda jarpiain jarrison jave jayne jcromartie jebberjeb jeremyheiler jetlag jimrthy_away jjido jkj jlewis jml joegallo johann john2x jonasac JonMR jonsmock joshbamboo1 joshskidmore josteink jschairb jstepien JStoker jtoy JulienFantin_ julienXX julio_ justicefries justinjaffray justinmcp jwatt jyeo jzelinskie karls karnowski kategeek katratxo kaw keen__ kitofr kittylyst kkrusty klobucar klokbaske kludge` kmicu Kneferilis knyppeldynan konr kraft kral|off_ kristian- Kruppe ktsuji l1x l2x l3dx L42y l4u Lajjla lancepantz lazybot lazyshot leathekd leifw Leonidas leptonix lfranchi Licenser liszt llambda llasram llorllale lluchs lnostdal1 lobotomy lodin lokydor looper lopex lpvb lunk_ Luyt lynaghk` m_3 m_m15 mabes MacCoaster machuga madscientist_ magnars mahnve maio majyk malyn Mandus marcopolo2 matko matt_c matt`` matthavener mcav mccraig mdrogalis mdupont Mendor|scr metadaddy___ metellus mgaare_ Mikalv miloshadzic mimieux mischov mishok13 mjc1 mjmoriarity mlb- mnemnion moogatro1ic moquist_ moratti Morgawr mrb_bk mrBliss mrhanky mrowe_away msassak msgodf mtd mtp muhoo musicalchair n_b napper Natch nathanic navgeet_ nDuff neaer neaterthan necronian necronian_ nightfly nighty- nighty^ ninjudd noahc noakes noidi nollidj noplamodo nseger_ nuclearsandwich nullman octagon_ octe Oddman Odinodin ohcibi Okasu OlegYch4 omarkj opqdonut orkaa Orva OscarZ osnr owenb__ ozzloy patricko1 paulweb515 pcarrier pepijndevos peterdec_ petterw pfeyz pisketti pjstadig plains pobody1 poggio poutsi pradeepc prip Pupnik pyrtsa pyykkis qz rafaelferreira rafl Ragnor rasmusto Raynes Raynos rbolkey rboyd rbranson reder redinger reeses reiddraper rfarrjr rhg135 richardiii rippy rivarun rkneufeld rkz rlb rlr robink rotty rowth rplaca rrc rtl ruff rufoa rxe1 ryland s_e safety saiam^ saint_cypher samflores samrat_ saolsen satshabad sauerkrause saurik scalabl3 scgilardi- scizo Scorchin scottj seanaway seangone seantallen sebastianb SegFaultAX septomin sethalves Sgeo Shambles_ SHODAN shoky si14 silven simcop2387 sjl slj slpsys sluukkonen smiler so solvip sontek Sorella sorenmacbeth spjt_ spligak srcerer ssedano ssfrr_afk ssideris st3fan staafl stask strax sundbp_ sw1nn_ swarthy sxn synfinatic t_hash TakeV tauntaun tcrawley technomancy teemu_f telex tephra terjesb terom TEttinger3 tfnico thasc the-kenny TheBusby TheBusby1 thelorax123 TheMoonMaster tieTYT2 TimMc tmarble tobyo1 tobyp tomaw tomhs_ tomku toretore tos9 ToxicFrog tpatja tpope Tristam TristamWrk troezen tsantos tsurutom Tuna-Fish turbofail twem2 tylergillies_ Uatec ucb unsymbol Viesti_ vili vojd vsync vurma waf wdouglas` wedr wei whee whilo whoahbot Wild_Cat wilfredh willb wink wjlroe wkelly wolfes_ wormphlegm wunki WWWest xeqi Xorlev yacin Yamazaki-kun yazirian yogthos|away yumike zaiste zakwilson zamaterian zaphar_ps Zariel zenoli zerokarmaleft zeroz zilti zju3 zodiak zoldar_ zz_karupanerura]
+2013-11-10 14:53:10	--	Channel #clojure: 628 nicks (1 op, 0 voices, 627 normals)
+2013-11-10 14:53:14	--	Mode #clojure [+cnt]
+2013-11-10 14:53:15	--	Channel created on Tue, 11 Dec 2007 23:04:26
+2013-11-10 14:53:26	-->	jacobm (~jacobm@2-107-246-54-static.dk.customer.tdc.net) has joined #clojure
+2013-11-10 14:54:29	-->	danielszmulewicz (~danielszm@5.22.135.157) has joined #clojure
+2013-11-10 14:54:36	-->	tutysara (~tutysara@122.179.29.90) has joined #clojure
+2013-11-10 14:54:42	<--	zamaterian (~Thomas@port13.ds1-oebr.adsl.cybercity.dk) has quit (Read error: Connection reset by peer)
+2013-11-10 14:55:00	<--	richardiii (~richardii@ip72-201-207-83.ph.ph.cox.net) has quit (Ping timeout: 240 seconds)
+2013-11-10 14:55:09	-->	lasers_in_the_ju (~hetano10@98.156.79.245) has joined #clojure
+2013-11-10 14:55:23	-->	przl (~przlrkt@193.158.80.42) has joined #clojure
+2013-11-10 14:56:31	<--	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has quit (Remote host closed the connection)
+2013-11-10 14:57:13	<--	ananthakumaran1 (~Adium@117.192.141.23) has quit (Ping timeout: 245 seconds)
+2013-11-10 14:58:12	-->	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has joined #clojure
+2013-11-10 14:58:29	-->	Guest9352 (~marco@75-146-81-41-Chattanooga.hfc.comcastbusiness.net) has joined #clojure
+2013-11-10 15:00:35	-->	atyz (~atyz@196-215-23-216.dynamic.isadsl.co.za) has joined #clojure
+2013-11-10 15:01:06	<--	dyad (~dan@2.218.87.103) has quit (Ping timeout: 264 seconds)
+2013-11-10 15:01:14	-->	ananthakumaran (~Adium@117.192.140.85) has joined #clojure
+2013-11-10 15:02:14	<--	napper (~napper@173-165-56-246-Illinois.hfc.comcastbusiness.net) has quit (Quit: leaving)
+2013-11-10 15:02:49	<--	Guest9352 (~marco@75-146-81-41-Chattanooga.hfc.comcastbusiness.net) has quit (Ping timeout: 245 seconds)
+2013-11-10 15:06:10	<--	ananthakumaran (~Adium@117.192.140.85) has quit (Ping timeout: 272 seconds)
+2013-11-10 15:06:10	<--	atyz (~atyz@196-215-23-216.dynamic.isadsl.co.za) has quit (Ping timeout: 272 seconds)
+2013-11-10 15:06:19	-->	ananthakumaran (~Adium@117.192.137.198) has joined #clojure
+2013-11-10 15:07:06	-->	casper2 (~Adium@x1-6-30-46-9a-7a-89-b4.k512.webspeed.dk) has joined #clojure
+2013-11-10 15:07:15	<--	glosoli (~glosoli@unaffiliated/glosoli) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-10 15:07:26	<--	casper1 (~Adium@x1-6-30-46-9a-7a-89-b4.k512.webspeed.dk) has quit (Read error: Connection reset by peer)
+2013-11-10 15:08:33	<--	noakes (~noakes@192.210.214.197) has quit (Remote host closed the connection)
+2013-11-10 15:08:49	-->	tombooth (~tombooth@host86-173-60-63.range86-173.btcentralplus.com) has joined #clojure
+2013-11-10 15:09:36	--	yogthos|away is now known as yogthos
+2013-11-10 15:09:46	-->	zamaterian (~Thomas@port13.ds1-oebr.adsl.cybercity.dk) has joined #clojure
+2013-11-10 15:10:08	<--	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has quit (Remote host closed the connection)
+2013-11-10 15:10:58	<--	majyk (~majyk@pool-71-191-72-147.washdc.fios.verizon.net) has left #clojure ("Leaving")
+2013-11-10 15:11:05	-->	lochan (~lochan@192.210.214.197) has joined #clojure
+2013-11-10 15:11:06	-->	sszzqq (~sszzqq@112.90.222.131) has joined #clojure
+2013-11-10 15:11:13	<--	sszzqq (~sszzqq@112.90.222.131) has left #clojure
+2013-11-10 15:11:50	-->	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has joined #clojure
+2013-11-11 17:33:37	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #clojure
+2013-11-11 17:33:37	--	Topic for #clojure is "Clojure, the Language. Docs: http://clojure.org Discussion: http://groups.google.com/group/clojure"
+2013-11-11 17:33:37	--	Topic set by chouser on Thu, 21 Jul 2011 02:57:02
+2013-11-11 17:33:37	--	Nicks #clojure: [@ChanServ [Neurotic] _1126 _5kg _adie _bob _Bravado _janne _KK _Vi `cbp abaker abuiles acagle adamhill adammh Adeon adx ahihi AimHere aka akhudek_ aking akrikos alambert_ alexbaranosky alexyakushev algernon alindeman amalloy_ ambroff ambroff_ ambroseb_ amro ananthakumaran andersf andrewclegg andrewmcveigh andrewstewart andreypopp anekos_ anhall anthonyl Apage43 aravind arbscht arenz ari` arrdem asabil Ash asteve astrolin augustl averell avishai AWizzArd Ayey_ babilen bakedb bakkdoor balanceiskey bamse bdash beawesomeinstead bengillies benizi_ benkay benmoss benmoss_ benny_ beppu bifido Biohazard bitemyapp bja bjorkintosh Blkt blooberr_ blrm bobbycalderwood boblarrick BobSchack bobwilliams Bodil boodle bostonou_ brainproxy brand0 brianwong brixen broquaint bruceadams bryanl bwreilly calebmpeterson1 calumet cannedprimates cantsin carlosgaldino cdombroski cemerick certaint1 cespare charliekilo|away Chasm chewbranca ChiralSym choas ChongLi chouser_log Chousuke chrisrossi chriswk cldwalker__ clojurebot cmbntr cmiles74 cmn CoconutCrab codejury coffeejunk conan CookedGryphon coventry cow-orker cross cursork cYmen Daeken daemian dakrone dan danielgl_ danlarkin danlentz danoyoung danvet_ daveliepmann david118 davidboy dcolish ddima_ dean demolithion Derander DerGuteMoritz devinus_ devn dhm dmi3y dnolen dobladez dobry-den doctorinserenity doomlord_ dotemacs dottedmag dougs87 drbobbeaty drewr drmegahertz dsantiago dyreshark dziga e0n_ ea- eagleflo echo-area eci edoloughlin eevar effy efjboss egghead ehd ehtesh eigenjoy eigenlicht elfenlaid Ember- endou enzoaquino ered erewhon Ernestas EToS Excureo expez ez121sl faust45 fbernier FDFlock felipe` fikusz flashingpumpkin fmu foolano ForNeVeR Foxboron frankgerhardt__ franks42 freiksenet fridim fsargent fu86^off gary_poster|away gaYak gcatlin gcmalloc genehack_ geoffeg geoffh_ gerard0 gerardcahill gf3 gfredericks ggherdov ggreg gideonite gko gko_ gluegadget Gooder gozala graeme_f grandy gravity_ gridaphobe grim_radical grncdr groot_ ground4 gstamp Guest52726 Guest58762 guilleiguaran_ guns gws h0bbit_ H4ns hakvroot hanDerPeder heath hfaafb hhatch hhenkel hhutch` hiredman hive-mind hlprmnky HolyJak1 honkfestival honza housejester hsalokor_ hsestupin hugod hungryblank hvesalai hyko hyperboreean hyPiRion iamjarvo ibdknox icedp idryman ieure igorw indigo infynyxx Inoperable instilled ivan ivan\ ivan` iwilcox iwillig j-wang j0ni jaffe__ jaimef jalcine jamiei_ Janiczek JanxSpirit Jarda jarpiain jarrison jasonbray jave jayne jballanc jcromartie jcrossley3 JDShu je jebberjeb jeremyheiler jergason jespada jetlag jimduey jimrthy_away jkj jlewis jml joegallo_ johann_ jonasac jonasen JonMR jonsmock joshbamboo1 joshskidmore josteink jschairb jstepien JStoker jtoy JulienFantin_ julienXX julio_ justicefries justin_smith justinjaffray justinmcp jwatt jweiss jyeo jzelinskie karls karnowski kategeek katratxo kaw kazimir42 keen__ kephale kgerman kittylyst kizzx2 klobucar kludge` kmicu Kneferilis knyppeldynan kofno konr kraft kral|off_ kristian- Kruppe ktsuji kushal kwmiebach kzar l1x l2x l3dx L42y l4u lancepantz lasers_in_the_ju lazybot lazyshot leathekd leifw Leonidas leptonix Lewnskie lfranchi Licenser liszt llambda llasram lluchs lnostdal lobotomy lodin lokydor looper lopex lozh lpvb ltw lunk_ Luyt lynaghk` m_3 m_m15 MacCoaster machuga madscientist_ magnars mahnve maio majoh malyn Mandus marcopolo2 matko matt_c matt`` matthavener mattmoss mattyw mcav mccraig mdrogalis Mendor|scr meoblast001 metadaddy___ metellus mgaare_ Mikalv mimieux mischov mishok13 mjc1 mjmoriarity mknoszlig mlb- mmullis mnemnion moogatro1ic moquist_ moratti Morgawr mpenet mrb_bk mrBliss mrhanky mrowe msassak msgodf mtd mtp mucker muhoo musicalchair myguidingstar n_b napper Natch nathanic navgeet_ nDuff neaer neaterthan necronian nightfly nighty- nighty^ ninjudd no7hing noahc noidi nollidj noplamodo nseger_ nuclearsandwich nullman octagon_ octe Odinodin ohcibi OlegYch4 oliverro omarkj onthestairs opqdonut orkaa Orva OscarZ osnr OtherRaven oubiwann owenb__ owengalenjones ozzloy p14n pashields patricko1 paulweb515 pcarrier pepijndevos peterdecroos petterw pfeyz pisketti pjstadig plains pobody1 poggio poutsi pradeepc prip przl Pupnik pyrtsa pyykkis qingant qz rafaelferreira rafl Ragnor ranek rasmusto Raynes Raynos rbolkey rboyd rbranson rcg reder redinger reeses reiddraper rfarrjr rhg135 rhoml rippy rkneufeld rkz rlb rlr robink rotty rowth rplaca rstandy rtl rufoa rurumate rxe1 ryland s_e saiam^ saint_cypher samflores samrat_ saolsen satshabad sauerkrause saurik scalabl3 scgilardi- schmir scizo Scorchin scottj seanaway seangrove seantallen sebastianb sebhoss SegFaultAX septomin sethalves sevvie sghai Shambles_ shdwprince shiftyeyes shiranai_ SHODAN shoshin si14 Sigma silven simcop2387 sjl slj slpsys sluukkonen smiler so Sonderblade sontek sorella Sorella_ sorenmacbeth spligak srcerer ssedano ssfrr_afk ssideris staafl stask statonjr strangemonad strax strobegen sundbp_ sures sw1nn_ swarthy synfinatic t_hash TakeV tauntaun tazjin tbaldridge tcrawley technomancy teemu_f Telefaggus telex tephra terjesb terom teslanick TEttinger3 tfnico thasc the-kenny TheBusby TheBusby1 TheLastProject thelorax123 TheMoonMaster thoughtmanifest tieTYT2 TimMc tmarble tobyp tomaw tomhs_ tomku tomobrien toretore tos9 ToxicFrog tpatja tpope Tristam TristamWrk troezen tsantos tsurutom Tuna-Fish turbofail tutysara twem2 tylergillies_ Uatec ucb und3rt unsymbol uris77 ustunozgur Viesti vili vishesh vojd vsync waf warmgurn wdouglas` wedr whee whilo whoahbot Wild_Cat wilfredh willb wink wjlroe wkelly wolfes wolfes_ wunki WWWest xeqi Xorlev yacin yacks Yamazaki-kun yazirian yogthos yumike zachallaun zaiste zakwilson zaphar_ps Zariel zenoli zerokarmaleft zeroz zju3 zodiak zoldar_ zz_karupanerura]
+2013-11-11 17:33:37	--	Channel #clojure: 694 nicks (1 op, 0 voices, 693 normals)
+2013-11-11 17:33:37	--	Notice(rajaniemi.freenode.net) -> #clojure: [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+2013-11-11 17:33:41	--	Mode #clojure [+cnt]
+2013-11-11 17:33:41	--	Channel created on Tue, 11 Dec 2007 23:04:26
+2013-11-11 17:33:58	justin_smith	TheLastProject: the order of assigning the values in the let is a little tangled, but yeah, that looks great
+2013-11-11 17:34:08	justin_smith	by tangled I don't mean incorrect, just not in the easiest to read order
+2013-11-11 17:34:28	<--	thoughtmanifest (~Adium@ip-64-134-70-202.public.wayport.net) has quit (Quit: Leaving.)
+2013-11-11 17:34:28	<--	rhoml (~rhoml@80.Red-81-38-30.dynamicIP.rima-tde.net) has quit (Quit: rhoml)
+2013-11-11 17:34:34	TheLastProject	I guess collection-string should go for args
+2013-11-11 17:34:35	TheLastProject	Makes more sense
+2013-11-11 17:34:42	TheLastProject	But I'm mostly glad it works now, heh...
+2013-11-11 17:34:44	-->	alpheus (~user@chi-pat.cashnetusa.com) has joined #clojure
+2013-11-11 17:34:53	justin_smith	heh, yeah, it is an accomplishment
+2013-11-11 17:35:19	-->	bbaumgar (~bbaumgar@137.54.24.53) has joined #clojure
+2013-11-11 17:35:49	napper	has anyone putout a repl like ipdb in clojure?
+2013-11-11 17:35:49	justin_smith	another suggestion is to put everything after the last defn (and all the printlns) into a -main function
+2013-11-11 17:35:53	justin_smith	then lein run will work
+2013-11-11 17:36:02	-->	rhoml (~rhoml@80.Red-81-38-30.dynamicIP.rima-tde.net) has joined #clojure
+2013-11-11 17:36:15	napper	I'd like the opition to break in my code without having to use an ide.
+2013-11-11 17:36:34	TheLastProject	Ah, I'm running it with "clojure" but I've heard leiningen is really popular, should probably strive for leiningen-compatibility
+2013-11-11 17:36:34	<--	lnostdal (~lnostdal@83.223.237.192) has quit (Quit: Leaving.)
+2013-11-11 17:36:41	-->	lnostdal (~lnostdal@83.223.237.192) has joined #clojure
+2013-11-11 17:36:44	-->	lnostdal1 (~lnostdal@bl11-81-214.dsl.telepac.pt) has joined #clojure
+2013-11-11 17:36:50	justin_smith	TheLastProject: it makes things much easier, eventually
+2013-11-11 17:37:21	justin_smith	and even if you are just running the clojure command, you can put (-main) at the end of the file, to explicitly execute it
+2013-11-11 17:37:35	<--	pashields (~pashields@rrcs-96-10-231-235.midsouth.biz.rr.com) has quit (Ping timeout: 264 seconds)
+2013-11-11 17:37:44	TheLastProject	clojure-main?
+2013-11-11 17:38:15	justin_smith	napper: cdt can do breaks that you define in a repl, and you can use it without swank pretty easily
+2013-11-11 17:38:33	<--	no7hing (~anonymous@62.217.45.66) has quit (Quit: no7hing)
+2013-11-11 17:39:04	justin_smith	napper: we've been working on a web UI that would let us set breakpoints and investigate values / run code in a clojure project we attach to
+2013-11-11 17:39:08	justin_smith	we use cdt for that
+2013-11-11 17:39:42	justin_smith	TheLastProject: ?
+2013-11-11 17:39:57	TheLastProject	justin_smith: I'll take that question mark as a "no"
+2013-11-11 17:40:06	<--	gerardcahill (~gerardcah@sjrq.vpn.fitzbiz.com) has quit (Remote host closed the connection)
+2013-11-11 17:40:07	justin_smith	I don't understand the question
+2013-11-11 17:40:15	justin_smith	the magic function name defaults to -main
+2013-11-11 17:40:42	-->	gerardcahill (~gerardcah@sjrq.vpn.fitzbiz.com) has joined #clojure
+2013-11-11 17:40:55	-->	shoky (uuuggg@37.19.118.168) has joined #clojure
+2013-11-11 17:40:57	TheLastProject	justin_smith: (defn -main [] (doseq [line (repeatedly read-line) :while line] (getinput line) (request-command)))
+2013-11-11 17:41:00	TheLastProject	So, that stuff?
+2013-11-11 17:41:06	<--	lnostdal (~lnostdal@83.223.237.192) has quit (Ping timeout: 248 seconds)
+2013-11-11 17:41:11	napper	justin_smith, interesting, I'm curious as to how you would break on a line with a gui per thread. - How do you trace anom functions?
+2013-11-11 17:41:11	TheLastProject	(Put it on one line to not spam, I'm not undoing your improvements)
+2013-11-11 17:41:12	justin_smith	yeah, put all the printlns in there too
+2013-11-11 17:41:18	-->	pashields (~pashields@rrcs-96-10-231-235.midsouth.biz.rr.com) has joined #clojure
+2013-11-11 17:41:31	TheLastProject	Ah
+2013-11-11 17:41:33	justin_smith	napper: that is a UI for stack traces on exception
+2013-11-11 17:41:37	TheLastProject	So that they execute when it is first run
+2013-11-11 17:41:38	TheLastProject	Got it!
+2013-11-11 17:41:46	 *	TheLastProject goes AFK to eat dinner
+2013-11-11 17:41:47	justin_smith	napper: we haven't done source line breakpoints, but that would be a different UI
+2013-11-11 17:42:26	<--	rfarrjr (~rfarrjr@159.140.254.99) has quit (Remote host closed the connection)
+2013-11-11 17:42:33	<--	carlosgaldino (~carlosgal@187.121.89.30) has quit (Read error: Connection reset by peer)
+2013-11-11 17:42:44	<--	gerardcahill (~gerardcah@sjrq.vpn.fitzbiz.com) has quit (Remote host closed the connection)
+2013-11-11 17:42:54	napper	justin_smith: when using ipdb, it would break/stop tho code execution in a single thread allowing you to inspect what is in memory. Much like the gdb interface ( at least what I know of the gdb interface. )
+2013-11-11 17:42:57	-->	gerardcahill (~gerardcah@sjrq.vpn.fitzbiz.com) has joined #clojure
+2013-11-11 17:43:06	-->	rfarrjr (~rfarrjr@159.140.254.99) has joined #clojure
+2013-11-11 17:43:21	justin_smith	napper: yes, same idea
+2013-11-11 17:43:25	napper	justin_smith: ideally, you'd build a pure function and concat them together with threads in mind.
+2013-11-11 17:43:30	justin_smith	but we show all the available stacks at once
+2013-11-11 17:43:45	napper	justin_smith: neat, I'm eager to see it - it's the last thing I need to convert. :P
+2013-11-11 17:43:49	justin_smith	*available frames
+2013-11-11 17:43:53	<--	tutysara (~tutysara@122.172.189.253) has quit (Ping timeout: 244 seconds)
+2013-11-11 17:44:21	-->	paddymahoney (~paddymaho@24.137.221.230) has joined #clojure
+2013-11-11 17:44:36	justin_smith	source line breakpoints is something we may do later - but that gets weird when you are using the repl / debugger to redefine things
+2013-11-11 17:44:56	<--	rurumate (~scanty@213.23.120.114) has quit (Quit: Lost terminal)
+2013-11-11 17:45:40	CookedGryphon	justin_smith: it'd be cool if defn attached the source as metadata
+2013-11-11 17:45:51	justin_smith	CookedGryphon: it does
+2013-11-11 17:46:02	justin_smith	but that doesn't give you line number breaks inside it :)
+2013-11-11 17:46:05	CookedGryphon	oh, cool, well in that case I don't care what line it is in a file, as long as i can look at the source.
+2013-11-11 17:46:20	justin_smith	CookedGryphon: (source fn)
+2013-11-11 17:46:22	<--	j-wang (~j-wang@108-65-1-75.lightspeed.sntcca.sbcglobal.net) has quit (Quit: j-wang)
+2013-11-11 17:46:27	napper	justin_smith: redefine? Well, yeah, but if a user does that at run time, it's their prerogative - using in debugging would be ideal, redfined code at runtime, I agree can create issues
+2013-11-11 17:46:34	CookedGryphon	or is it that your stack traces no longer relate to anything
+2013-11-11 17:46:40	justin_smith	that's in the clojure.repl ns, so you may need to use that first
+2013-11-11 17:46:41	<--	stask (~stask@212.25.110.130) has quit (Ping timeout: 245 seconds)
+2013-11-11 17:47:08	-->	carlosgaldino (~carlosgal@187.121.89.30) has joined #clojure
+2013-11-11 17:47:09	justin_smith	napper: this debugger lets you redefine things while debugging
+2013-11-11 17:47:22	<--	je (~je@77.66.65.40) has quit (Ping timeout: 272 seconds)
+2013-11-11 17:47:24	<--	rfarrjr (~rfarrjr@159.140.254.99) has quit (Ping timeout: 252 seconds)
+2013-11-11 17:47:31	napper	are we talking about cdt or your webui?
+2013-11-11 17:47:44	justin_smith	the webui is just a view of cdt
+2013-11-11 17:48:00	justin_smith	all the functionality, including changing remote definitions, is in cdt
+2013-11-11 17:48:04	<--	tephra (~tephra@pagefault.se) has quit (Read error: Connection reset by peer)
+2013-11-11 17:48:19	<--	Guest58762 (~b@c-98-228-65-59.hsd1.il.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-11-11 17:48:38	napper	right
+2013-11-11 17:49:05	napper	I'm reading over the main-page. it looks like what I want is already accomplishable via the debug-repl
+2013-11-11 17:49:22	justin_smith	napper: I think the problem with that is it is swank
+2013-11-11 17:49:35	napper	oh
+2013-11-11 17:49:48	justin_smith	ritz tries to provide an alternative
+2013-11-11 17:49:56	justin_smith	but I couldn't make any sense of ritz
+2013-11-11 17:50:46	-->	rfarrjr (~rfarrjr@159.140.254.99) has joined #clojure
+2013-11-11 17:50:57	<--	dmi3y (~dmi3y@98-194-201-46.pool.ukrtel.net) has quit
+2013-11-11 17:51:09	<--	lozh (~loz@195.59.191.91) has quit (Quit: Leaving.)
+2013-11-11 17:51:59	<--	alexyakushev (~unlogic@2001:700:1d00:26:3e97:eff:fe0b:bae3) has quit (Ping timeout: 264 seconds)
+2013-11-11 17:52:45	justin_smith	if your workflow is "I am starting the debugger and the debugged process as one action", then the nrepl ritz module probably does what you want
+2013-11-11 17:52:50	-->	tutysara (~tutysara@122.179.41.1) has joined #clojure
+2013-11-11 17:53:15	justin_smith	in my case, I am running ring, ring creates a repl I can interact with, and I want to fire up an external debugger to connect to it and investigate if something breaks
+2013-11-11 17:53:48	muhoo	http://www.youtube.com/watch?v=9m3lu59Cz4g
+2013-11-11 17:53:57	-->	harpreet_ has joined #clojure
+2013-11-11 17:54:21	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #clojure
+2013-11-11 17:54:21	--	Topic for #clojure is "Clojure, the Language. Docs: http://clojure.org Discussion: http://groups.google.com/group/clojure"
+2013-11-11 17:54:21	--	Topic set by chouser on Thu, 21 Jul 2011 02:57:02
+2013-11-11 17:54:22	--	Nicks #clojure: [@ChanServ [Neurotic] _1126 _5kg _adie _bob _Bravado _janne _KK _Vi `cbp abaker abuiles acagle adamhill adammh Adeon adx ahihi AimHere aka akhudek_ aking akrikos alambert_ alexbaranosky algernon alindeman alpheus amalloy_ ambroff ambroff_ ambroseb_ amro ananthakumaran andersf andrewclegg andrewmcveigh andrewstewart andreypopp anekos_ anhall anthonyl Apage43 aravind arbscht arenz ari` arrdem asabil Ash asteve astrolin augustl averell avishai AWizzArd Ayey_ babilen bakedb bakkdoor balanceiskey bamse bbaumgar bdash beawesomeinstead bengillies benizi_ benkay benmoss benmoss_ benny_ beppu bifido Biohazard bitemyapp bja bjorkintosh Blkt blooberr_ blrm bobbycalderwood boblarrick BobSchack bobwilliams Bodil boodle bostonou_ brainproxy brand0 brianwong brixen broquaint bruceadams bryanl bwreilly calebmpeterson1 calumet cannedprimates cantsin carlosgaldino cdombroski cemerick certaint1 cespare charliekilo|away Chasm chewbranca ChiralSym choas ChongLi chouser_log Chousuke chrisrossi chriswk cldwalker__ clojurebot cmbntr cmiles74 cmn CoconutCrab codejury coffeejunk conan CookedGryphon coventry cow-orker cross cursork cYmen Daeken daemian dakrone dan danielgl_ danlarkin danlentz danoyoung danvet_ daveliepmann david118 davidboy dcolish ddima_ dean demolithion Derander DerGuteMoritz devinus_ devn dhm dnolen dobladez dobry-den doctorinserenity doomlord_ dotemacs dottedmag dougs87 drbobbeaty drewr drmegahertz dsantiago dyreshark dziga e0n_ ea- eagleflo echo-area eci edoloughlin eevar effy efjboss egghead ehd ehtesh eigenjoy eigenlicht elfenlaid Ember- endou enzoaquino ered erewhon Ernestas EToS Excureo expez ez121sl faust45 fbernier FDFlock felipe` fikusz flashingpumpkin fmu foolano ForNeVeR Foxboron frankgerhardt__ franks42 freiksenet fridim fsargent fu86^off gary_poster|away gaYak gcatlin gcmalloc genehack_ geoffeg geoffh_ gerard0 gerardcahill gf3 gfredericks ggherdov ggreg gideonite gko gko_ gluegadget Gooder gozala graeme_f grandy gravity_ gridaphobe grim_radical grncdr groot_ ground4 gstamp Guest52726 guilleiguaran_ guns gws h0bbit_ H4ns hakvroot hanDerPeder harpreet_ heath hfaafb hhatch hhenkel hhutch` hiredman hive-mind hlprmnky HolyJak1 honkfestival honza housejester hsalokor_ hsestupin hugod hungryblank hvesalai hyko hyperboreean hyPiRion iamjarvo ibdknox icedp idryman ieure igorw indigo infynyxx Inoperable instilled ivan ivan\ ivan` iwilcox iwillig j0ni jaffe__ jaimef jalcine jamiei_ Janiczek JanxSpirit Jarda jarpiain jarrison jasonbray jave jayne jballanc jcromartie jcrossley3 JDShu jebberjeb jeremyheiler jergason jespada jetlag jimduey jimrthy_away jkj jlewis jml joegallo_ johann_ jonasac jonasen JonMR jonsmock joshbamboo1 joshskidmore josteink jschairb jstepien JStoker jtoy JulienFantin_ julienXX julio_ justicefries justin_smith justinjaffray justinmcp jwatt jweiss jyeo jzelinskie karls karnowski kategeek katratxo kaw kazimir42 keen__ kephale kgerman kittylyst kizzx2 klobucar kludge` kmicu Kneferilis knyppeldynan kofno konr kraft kral|off_ kristian- Kruppe ktsuji kushal kwmiebach kzar l1x l2x l3dx L42y l4u lancepantz lasers_in_the_ju lazybot lazyshot leathekd leifw Leonidas leptonix Lewnskie lfranchi Licenser liszt llambda llasram lluchs lnostdal1 lobotomy lodin lokydor looper lopex lpvb ltw lunk_ Luyt lynaghk` m_3 m_m15 MacCoaster machuga madscientist_ magnars mahnve maio majoh malyn Mandus marcopolo2 matko matt_c matt`` matthavener mattmoss mattyw mcav mccraig mdrogalis Mendor|scr meoblast001 metadaddy___ metellus mgaare_ Mikalv mimieux mischov mishok13 mjc1 mjmoriarity mknoszlig mlb- mmullis mnemnion moogatro1ic moquist_ moratti Morgawr mpenet mrb_bk mrBliss mrhanky mrowe msassak msgodf mtd mtp mucker muhoo musicalchair myguidingstar n_b napper Natch nathanic navgeet_ nDuff neaer neaterthan necronian nightfly nighty- nighty^ ninjudd noahc noidi nollidj noplamodo nseger_ nuclearsandwich nullman octagon_ octe Odinodin ohcibi OlegYch4 oliverro omarkj onthestairs opqdonut orkaa Orva OscarZ osnr OtherRaven oubiwann owenb__ owengalenjones ozzloy p14n paddymahoney pashields patricko1 paulweb515 pcarrier pepijndevos peterdecroos petterw pfeyz pisketti pjstadig plains pobody1 poggio poutsi pradeepc prip przl Pupnik pyrtsa pyykkis qingant qz rafaelferreira rafl Ragnor ranek rasmusto Raynes Raynos rbolkey rboyd rbranson rcg reder redinger reeses reiddraper rfarrjr rhg135 rhoml rippy rkneufeld rkz rlb rlr robink rotty rowth rplaca rstandy rtl rufoa rxe1 ryland s_e saiam^ saint_cypher samflores samrat_ saolsen satshabad sauerkrause saurik scalabl3 scgilardi- schmir scizo Scorchin scottj seanaway seangrove seantallen sebastianb sebhoss SegFaultAX septomin sethalves sevvie sghai Shambles_ shdwprince shiftyeyes shiranai_ SHODAN shoky shoshin si14 Sigma silven simcop2387 sjl slj slpsys sluukkonen smiler so Sonderblade sontek sorella Sorella_ sorenmacbeth spligak srcerer ssedano ssfrr_afk ssideris staafl statonjr strangemonad strax strobegen sundbp_ sures sw1nn_ swarthy synfinatic t_hash TakeV tauntaun tazjin tbaldridge tcrawley technomancy teemu_f Telefaggus telex terjesb terom teslanick TEttinger3 tfnico thasc the-kenny TheBusby TheBusby1 TheLastProject thelorax123 TheMoonMaster tieTYT2 TimMc tmarble tobyp tomaw tomhs_ tomku tomobrien toretore tos9 ToxicFrog tpatja tpope Tristam TristamWrk troezen tsantos tsurutom Tuna-Fish turbofail tutysara twem2 tylergillies_ Uatec ucb und3rt unsymbol uris77 ustunozgur Viesti vili vishesh vojd vsync waf warmgurn wdouglas` wedr whee whilo whoahbot Wild_Cat wilfredh willb wink wjlroe wkelly wolfes wolfes_ wunki WWWest xeqi Xorlev yacin yacks Yamazaki-kun yazirian yogthos yumike zachallaun zaiste zakwilson zaphar_ps Zariel zenoli zerokarmaleft zeroz zju3 zodiak zoldar_ zz_karupanerura]
+2013-11-11 17:54:22	--	Channel #clojure: 688 nicks (1 op, 0 voices, 687 normals)
+2013-11-11 17:54:25	--	Mode #clojure [+cnt]
+2013-11-11 17:54:25	--	Channel created on Tue, 11 Dec 2007 23:04:26
+2013-11-11 17:54:30	napper	eventually I'll be running ring, my next question is how can you pause execution. looking through cdt, it seems that might be pretty straightforward. - I think I have what I need.
+2013-11-11 17:54:37	<--	bwreilly has quit (Ping timeout: 264 seconds)
+2013-11-11 17:54:50	dnolen	cemerick: yeah I don't think we should change the current behavior
+2013-11-11 17:55:01	justin_smith	napper: yeah, you can set a break, if you know how to specify the location
+2013-11-11 17:55:05	napper	justin_smith, is your webui public or closedsource?
+2013-11-11 17:55:19	justin_smith	napper: open source, but not really "there" yet
+2013-11-11 17:55:32	napper	I understand
+2013-11-11 17:55:38	napper	do let me know when it's there
+2013-11-11 17:55:52	justin_smith	someone else is doing the main development, I don't even know how much he has pushed as opposed to just mostly working on his box at this point
+2013-11-11 17:56:09	<--	zachallaun has quit (Remote host closed the connection)
+2013-11-11 17:56:18	justin_smith	https://github.com/prismofeverything/schmetterling repo
+2013-11-11 17:56:25	justin_smith	may be a pile of bugs right now
+2013-11-11 17:56:30	cemerick	dnolen: hah, here I just finished a writeup on the ticket :-P
+2013-11-11 17:56:41	-->	tephra has joined #clojure
+2013-11-11 17:57:14	justin_smith	napper: it is something you would check out and run, standalone
+2013-11-11 17:57:16	-->	jamesaanderson has joined #clojure
+2013-11-11 17:57:21	justin_smith	not a lib you include
+2013-11-11 17:58:09	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #clojure
+2013-11-11 17:58:09	--	Topic for #clojure is "Clojure, the Language. Docs: http://clojure.org Discussion: http://groups.google.com/group/clojure"
+2013-11-11 17:58:09	--	Topic set by chouser on Thu, 21 Jul 2011 02:57:02
+2013-11-11 17:58:10	--	Nicks #clojure: [@ChanServ [Neurotic] _1126 _5kg _adie _bob _Bravado _janne _KK _Vi `cbp abaker abuiles acagle adamhill adammh Adeon adx ahihi AimHere aka akhudek_ aking akrikos alambert_ alexbaranosky algernon alindeman alpheus amalloy_ ambroff ambroff_ ambroseb_ amro ananthakumaran andersf andrewclegg andrewmcveigh andrewstewart andreypopp anekos_ anhall anthonyl Apage43 aravind arbscht arenz ari` arrdem asabil Ash asteve astrolin augustl averell avishai AWizzArd Ayey_ babilen bakedb bakkdoor balanceiskey bamse bbaumgar bdash beawesomeinstead bengillies benizi_ benkay benmoss benmoss_ benny_ beppu bifido Biohazard bitemyapp bja bjorkintosh Blkt blooberr_ blrm bobbycalderwood boblarrick BobSchack bobwilliams Bodil boodle bostonou_ brainproxy brand0 brianwong brixen broquaint bruceadams bryanl calebmpeterson1 calumet cannedprimates cantsin carlosgaldino cdombroski cemerick certaint1 cespare charliekilo|away Chasm chewbranca ChiralSym choas ChongLi chouser_log Chousuke chrisrossi chriswk cldwalker__ clojurebot cmbntr cmiles74 cmn CoconutCrab codejury coffeejunk conan CookedGryphon coventry cow-orker cross cursork cYmen Daeken daemian dakrone dan danielgl_ danlarkin danlentz danoyoung danvet_ daveliepmann david118 davidboy dcolish ddima_ dean demolithion Derander DerGuteMoritz devinus_ devn dhm dnolen dobladez dobry-den doctorinserenity doomlord_ dotemacs dottedmag dougs87 drbobbeaty drewr drmegahertz dsantiago dyreshark dziga e0n_ ea- eagleflo echo-area eci edoloughlin eevar effy efjboss egghead ehd ehtesh eigenjoy eigenlicht elfenlaid Ember- endou enzoaquino ered erewhon Ernestas EToS Excureo expez ez121sl faust45 fbernier FDFlock felipe` fikusz flashingpumpkin fmu foolano ForNeVeR Foxboron frankgerhardt__ franks42 freiksenet fridim fsargent fu86^off gary_poster|away gaYak gcatlin gcmalloc genehack_ geoffeg geoffh_ gerard0 gerardcahill gf3 gfredericks ggherdov ggreg gideonite gko gko_ gluegadget Gooder gozala graeme_f grandy gravity_ gridaphobe grim_radical grncdr groot_ ground4 gstamp Guest52726 guilleiguaran_ guns gws h0bbit_ H4ns hakvroot hanDerPeder harpreet_ heath hfaafb hhatch hhenkel hhutch` hiredman hive-mind hlprmnky HolyJak1 honkfestival honza housejester hsalokor_ hsestupin hugod hungryblank hvesalai hyko hyperboreean hyPiRion iamjarvo ibdknox icedp idryman ieure igorw indigo infynyxx Inoperable instilled ivan ivan\ ivan` iwilcox iwillig j0ni jaffe__ jaimef jalcine jamesaanderson jamiei_ Janiczek JanxSpirit Jarda jarpiain jarrison jasonbray jave jayne jballanc jcromartie jcrossley3 JDShu jebberjeb jeremyheiler jergason jespada jetlag jimduey jimrthy_away jkj jlewis jml joegallo_ johann_ jonasac jonasen JonMR jonsmock joshbamboo1 joshskidmore josteink jschairb jstepien JStoker jtoy JulienFantin_ julienXX julio_ justicefries justin_smith justinjaffray justinmcp jwatt jweiss jyeo jzelinskie karls karnowski kategeek katratxo kaw kazimir42 keen__ kephale kgerman kittylyst kizzx2 klobucar kludge` kmicu Kneferilis knyppeldynan kofno konr kraft kral|off_ kristian- Kruppe ktsuji kushal kwmiebach kzar l1x l2x l3dx L42y l4u lancepantz lasers_in_the_ju lazybot lazyshot leathekd leifw Leonidas leptonix Lewnskie lfranchi Licenser liszt llambda llasram lluchs lnostdal1 lobotomy lodin lokydor looper lopex lpvb ltw lunk_ Luyt lynaghk` m_3 m_m15 MacCoaster machuga madscientist_ magnars mahnve maio majoh malyn Mandus marcopolo2 matko matt_c matt`` matthavener mattmoss mattyw mcav mccraig mdrogalis Mendor|scr meoblast001 metadaddy___ metellus mgaare_ Mikalv mimieux mischov mishok13 mjc1 mjmoriarity mknoszlig mlb- mmullis mnemnion moogatro1ic moquist_ moratti Morgawr mpenet mrb_bk mrBliss mrhanky mrowe msassak msgodf mtd mtp mucker muhoo musicalchair myguidingstar n_b napper Natch nathanic navgeet_ nDuff neaer neaterthan necronian nightfly nighty- nighty^ ninjudd noahc noidi nollidj noplamodo nseger_ nuclearsandwich nullman octagon_ octe Odinodin ohcibi OlegYch4 oliverro omarkj onthestairs opqdonut orkaa Orva OscarZ osnr OtherRaven oubiwann owenb__ owengalenjones ozzloy p14n paddymahoney pashields patricko1 paulweb515 pcarrier pepijndevos peterdecroos petterw pfeyz pisketti pjstadig plains pobody1 poggio poutsi pradeepc prip przl Pupnik pyrtsa pyykkis qingant qz rafaelferreira rafl Ragnor ranek rasmusto Raynes Raynos rbolkey rboyd rbranson rcg reder redinger reeses reiddraper rfarrjr rhg135 rhoml rippy rkneufeld rkz rlb rlr robink rotty rowth rplaca rstandy rtl rufoa rxe1 ryland s_e saiam^ saint_cypher samflores samrat_ saolsen satshabad sauerkrause saurik scalabl3 scgilardi- schmir scizo Scorchin scottj seanaway seangrove seantallen sebastianb sebhoss SegFaultAX septomin sethalves sevvie sghai Shambles_ shdwprince shiftyeyes shiranai_ SHODAN shoky shoshin si14 Sigma silven simcop2387 sjl slj slpsys sluukkonen smiler so Sonderblade sontek sorella Sorella_ sorenmacbeth spligak srcerer ssedano ssfrr_afk ssideris staafl statonjr strangemonad strax strobegen sundbp_ sures sw1nn_ swarthy synfinatic t_hash TakeV tauntaun tazjin tbaldridge tcrawley technomancy teemu_f Telefaggus telex tephra terjesb terom teslanick TEttinger3 tfnico thasc the-kenny TheBusby TheBusby1 TheLastProject thelorax123 TheMoonMaster tieTYT2 TimMc tmarble tobyp tomaw tomhs_ tomku tomobrien toretore tos9 ToxicFrog tpatja tpope Tristam TristamWrk troezen tsantos tsurutom Tuna-Fish turbofail tutysara twem2 tylergillies_ Uatec ucb und3rt unsymbol uris77 ustunozgur Viesti vili vishesh vojd vsync waf warmgurn wdouglas` wedr whee whilo whoahbot Wild_Cat wilfredh willb wink wjlroe wkelly wolfes wolfes_ wunki WWWest xeqi Xorlev yacin yacks Yamazaki-kun yazirian yogthos yumike zaiste zakwilson zaphar_ps Zariel zenoli zerokarmaleft zeroz zju3 zodiak zoldar_ zz_karupanerura]
+2013-11-11 17:58:10	--	Channel #clojure: 688 nicks (1 op, 0 voices, 687 normals)
+2013-11-11 17:58:13	--	Mode #clojure [+cnt]
+2013-11-11 17:58:13	--	Channel created on Tue, 11 Dec 2007 23:04:26
+2013-11-11 17:58:26	justin_smith	because you sure as hell don't want a dt-thread socket available to the outside world :)
+2013-11-11 17:58:57	dnolen	cemerick: also I don't really like the idea of adding any compiler support for this - just export a config function?
+2013-11-11 17:59:03	napper	hah
+2013-11-11 17:59:20	-->	mrevil has joined #clojure
+2013-11-11 17:59:22	napper	i take it you've seen that before?
+2013-11-11 17:59:33	-->	atyz has joined #clojure
+2013-11-11 17:59:59	--	tcrawley is now known as tcrawley|away
+2013-11-11 18:00:02	justin_smith	no, but it's something that could be a disaster
+2013-11-11 18:00:09	justin_smith	full control of your app's state
+2013-11-11 18:00:15	justin_smith	and full access and introspection
+2013-11-11 18:00:26	justin_smith	someone with malice could do a lot with that
+2013-11-11 18:00:34	lpvb	how do I use vector-of to create a filled vector of a specified length?
+2013-11-11 18:00:45	lpvb	(vector-of :int & elements)
+2013-11-11 18:00:59	--	Telefaggus is now known as Shaolinburpr
+2013-11-11 18:01:00	lpvb	,(vector-of :int)
+2013-11-11 18:01:01	clojurebot	[]
+2013-11-11 18:01:03	--	Shaolinburpr is now known as Shaolinburper
+2013-11-11 18:01:03	<--	tazjin has quit (Ping timeout: 252 seconds)
+2013-11-11 18:01:04	-->	ly- has joined #clojure
+2013-11-11 18:01:24	lpvb	,(vector-of :int (repeat 5 0))
+2013-11-11 18:01:25	clojurebot	#<ClassCastException java.lang.ClassCastException: clojure.lang.LazySeq cannot be cast to java.lang.Character>
+2013-11-11 18:02:16	justin_smith	,(apply vector-of :int (repeat 3 6))
+2013-11-11 18:02:17	clojurebot	[6 6 6]
+2013-11-11 18:02:30	justin_smith	lml
+2013-11-11 18:02:48	-->	zachallaun has joined #clojure
+2013-11-11 18:02:55	-->	lizzin_ has joined #clojure
+2013-11-11 18:03:39	-->	edw has joined #clojure
+2013-11-11 18:03:54	<--	atyz has quit (Ping timeout: 252 seconds)
+2013-11-11 18:04:13	<--	carlosgaldino has quit (Ping timeout: 264 seconds)
+2013-11-11 18:04:21	cemerick	dnolen: The original use case was being able to change test-time parameters. There are workarounds, including the config function notion, having a fixture that looks up params set from the test runner on window, etc.
+2013-11-11 18:04:28	<--	ltw has quit (Remote host closed the connection)
+2013-11-11 18:04:31	lpvb	oh cool
+2013-11-11 18:04:40	<--	tomobrien has quit (Remote host closed the connection)
+2013-11-11 18:04:52	-->	tomobrien has joined #clojure
+2013-11-11 18:05:01	<--	rstandy has quit (Ping timeout: 245 seconds)
+2013-11-11 18:05:01	justin_smith	lpvb: apply is good when a function expects a bunch of args at the end that you already have in a list
+2013-11-11 18:05:03	-->	ltw has joined #clojure
+2013-11-11 18:05:13	<--	bbaumgar has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 18:05:19	-->	richardi_ has joined #clojure
+2013-11-11 18:05:28	justin_smith	with how many varargs functions clojure has, this comes up a lot
+2013-11-11 18:06:17	<--	kazimir42 has quit (Remote host closed the connection)
+2013-11-11 18:06:19	cemerick	What ^:export does now is pretty surprising tho.  If someone wants some low-hanging contrib fruit, documenting that @ https://github.com/clojure/clojurescript/wiki/Quick-Start#using-clojurescript-on-a-web-page (the only place I know of that mentions ^:export?) would be one such spot.
+2013-11-11 18:06:29	<--	iwillig has quit (Read error: Operation timed out)
+2013-11-11 18:06:31	justin_smith	,(apply vector-of int "Hello World")
+2013-11-11 18:06:31	clojurebot	#<NullPointerException java.lang.NullPointerException>
+2013-11-11 18:06:31	--	yogthos is now known as yogthos|away
+2013-11-11 18:06:34	justin_smith	erm
+2013-11-11 18:06:45	<--	mimieux has quit (Quit: WeeChat 0.3.9.2)
+2013-11-11 18:06:45	<--	iamjarvo has quit (Remote host closed the connection)
+2013-11-11 18:07:00	<--	JanxSpirit has quit (Quit: JanxSpirit)
+2013-11-11 18:07:11	justin_smith	,(apply vector-of :int (seq "hello world"))
+2013-11-11 18:07:11	clojurebot	[104 101 108 108 111 ...]
+2013-11-11 18:07:13	justin_smith	neato
+2013-11-11 18:07:18	dnolen	cemerick: you're one of the few people that have asked for this or been surprised by the behavior. ^:export is mostly used for exporting functions note constants that will be mutated as this isn't considered good CLJS style. The testing case is not even particularly interesting IMO since it's trivially worked around.
+2013-11-11 18:07:26	dnolen	s/note/not
+2013-11-11 18:07:41	-->	ustunozg_ has joined #clojure
+2013-11-11 18:08:15	-->	carlosgaldino has joined #clojure
+2013-11-11 18:08:22	<--	mishok13 has quit (Ping timeout: 272 seconds)
+2013-11-11 18:08:32	<--	jergason has quit (Quit: jergason)
+2013-11-11 18:08:41	<--	mrevil has quit (Ping timeout: 244 seconds)
+2013-11-11 18:08:41	<--	CoconutCrab has quit (Ping timeout: 244 seconds)
+2013-11-11 18:08:43	dnolen	cemerick: it has come up once before in a different ticket I believe, but I'm not convinced any of this requires compiler changes. I think just make the documentation more clear is sufficient for now.
+2013-11-11 18:08:59	<--	ltw has quit (Ping timeout: 240 seconds)
+2013-11-11 18:09:20	-->	mimieux has joined #clojure
+2013-11-11 18:09:22	-->	bobbrahms has joined #clojure
+2013-11-11 18:09:38	<--	sebhoss has quit (Ping timeout: 272 seconds)
+2013-11-11 18:09:42	-->	bbaumgar has joined #clojure
+2013-11-11 18:09:47	<--	HolyJak1 has quit (Ping timeout: 245 seconds)
+2013-11-11 18:10:00	<--	richardi_ has quit (Ping timeout: 265 seconds)
+2013-11-11 18:10:01	-->	TEttinger has joined #clojure
+2013-11-11 18:10:18	-->	mrevil has joined #clojure
+2013-11-11 18:10:32	cemerick	dnolen: Fair enough, I'm not lobbying hard or anything. :-)  My understanding of ^:export was that it was primarily there to provide entry points and to make providing JS-friendly APIs (where mutable properties are common).
+2013-11-11 18:10:39	-->	mikerod has joined #clojure
+2013-11-11 18:10:53	cemerick	APIs easy*
+2013-11-11 18:10:58	-->	Bronsa has joined #clojure
+2013-11-11 18:11:00	-->	nighty-_ has joined #clojure
+2013-11-11 18:11:10	-->	CoconutCrab has joined #clojure
+2013-11-11 18:11:27	<--	ustunozgur has quit (Ping timeout: 265 seconds)
+2013-11-11 18:11:30	dnolen	cemerick: I don't recall anyone suggesting ^:export for mutable properties, nor do I see such documented anywhere (could be wrong)
+2013-11-11 18:11:55	<--	zachallaun has quit (Remote host closed the connection)
+2013-11-11 18:12:03	cemerick	dnolen: No, I inferred "JS APIs" => "mutable properties".
+2013-11-11 18:12:57	cemerick	I'll close the issue and leave a note potential workarounds, etc.
+2013-11-11 18:13:05	dnolen	cemerick: cool, thanks
+2013-11-11 18:13:26	-->	zachalla_ has joined #clojure
+2013-11-11 18:13:40	<--	bobbrahms has quit (Ping timeout: 240 seconds)
+2013-11-11 18:13:49	<--	przl has quit (Ping timeout: 252 seconds)
+2013-11-11 18:14:20	technomancy	huh; I could have sworn the `hub` CLI tool had gist support in it; am I making that up?
+2013-11-11 18:14:33	-->	jergason has joined #clojure
+2013-11-11 18:14:37	nDuff	...I've seen a separate ''gist'' tool
+2013-11-11 18:14:51	-->	deech has joined #clojure
+2013-11-11 18:14:51	--	yogthos|away is now known as yogthos
+2013-11-11 18:14:52	nDuff	perhaps its functionality has been split out from ''hub''.
+2013-11-11 18:14:52	<--	zachalla_ has quit (Remote host closed the connection)
+2013-11-11 18:14:53	--	seanaway is now known as seancorfield
+2013-11-11 18:15:09	Sigma	technomancy: not that I remember. there's a separate "gist" tool though
+2013-11-11 18:15:12	technomancy	oh, I was thinking of gist-mode for emacs
+2013-11-11 18:15:28	-->	zachallaun has joined #clojure
+2013-11-11 18:15:50	-->	bwreilly has joined #clojure
+2013-11-11 18:15:53	technomancy	which supports fetching but not cloning; oh well
+2013-11-11 18:16:37	Sigma	technomancy: patches welcome :)
+2013-11-11 18:16:48	deech	Hi all, how do I make a set with a custom comparator?
+2013-11-11 18:16:50	technomancy	Sigma: nice =)
+2013-11-11 18:17:34	Sigma	btw I'm considering (as of yesterday) implementing a tramp method for accessing gists. guess it might make the whole experience a bit better
+2013-11-11 18:17:35	faust45	guys, how i can attache some static info to my deftype ?
+2013-11-11 18:17:42	TEttinger	deech, like sorted-set-by but not sorted?
+2013-11-11 18:18:00	-->	seangone has joined #clojure
+2013-11-11 18:18:10	technomancy	Sigma: huh... I never thought of it that way, but tramp can be considered a FUSE alternative in a way.
+2013-11-11 18:18:12	-->	closures999 has joined #clojure
+2013-11-11 18:18:15	 *	technomancy strokes beard
+2013-11-11 18:18:36	<--	shoshin has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 18:18:37	Sigma	technomancy: I already have one for git itself, sounds like a logicial next step :)
+2013-11-11 18:18:48	-->	inerte has joined #clojure
+2013-11-11 18:18:48	technomancy	that's wild =)
+2013-11-11 18:19:03	-->	pel_daniel has joined #clojure
+2013-11-11 18:19:07	deech	TEttinger: I thought that function took a set and sorted it. Guess I was wrong.
+2013-11-11 18:19:27	-->	jacobm has joined #clojure
+2013-11-11 18:19:29	<--	frankgerhardt__ has quit (Quit: Connection closed for inactivity)
+2013-11-11 18:19:30	justin_smith	tramp access to well designed RESTful apis all over the web would finally catch us all up to plan9 networking
+2013-11-11 18:19:33	faust45	any ideas ?
+2013-11-11 18:19:45	technomancy	Sigma: lemme know if you ever end up tackling issues; that's the main pain point for me with github currently
+2013-11-11 18:19:48	<--	calumet has quit (Quit: Leaving.)
+2013-11-11 18:19:52	faust45	how attach static info to deftype ?
+2013-11-11 18:20:12	<--	msgodf has quit (Read error: Connection reset by peer)
+2013-11-11 18:20:28	Sigma	technomancy: I guess the final step would be to reimplement magit over a tramp method that would use github API instead of local git commands. Then I can die
+2013-11-11 18:20:40	<--	rcg has quit (Remote host closed the connection)
+2013-11-11 18:20:51	technomancy	Sigma: the technical term is "ascend"
+2013-11-11 18:20:58	justin_smith	faust45: you could make the data be a method that ignores the value of this and returns the data
+2013-11-11 18:21:55	<--	und3rt has quit (Quit: Colloquy for iPhone - http://colloquy.mobi)
+2013-11-11 18:22:04	<--	CoconutCrab has quit (Quit: óe)
+2013-11-11 18:22:15	faust45	justin_smith: yes, but sounds strange
+2013-11-11 18:22:47	<--	gerardcahill has quit (Remote host closed the connection)
+2013-11-11 18:22:49	<--	seangone has quit (Ping timeout: 264 seconds)
+2013-11-11 18:22:50	faust45	justin_smith: i don't need behavior i need static data
+2013-11-11 18:22:58	justin_smith	(getStatic [this] {:foo "bar"})
+2013-11-11 18:23:05	TEttinger	deech, fun stuff: ##(sorted-set-by #(= %1 %2) 1 1 1 2 2 3 3)
+2013-11-11 18:23:05	lazybot	⇒ #{1 1 1}
+2013-11-11 18:23:08	justin_smith	a behavior can mimic static data :)
+2013-11-11 18:23:22	-->	gerardcahill has joined #clojure
+2013-11-11 18:23:26	faust45	ok thanks
+2013-11-11 18:23:36	justin_smith	faust45: or you could use genclass instead of deftype
+2013-11-11 18:23:43	justin_smith	they generate the same kind of thing under the hood
+2013-11-11 18:23:44	<--	gerardcahill has quit (Remote host closed the connection)
+2013-11-11 18:23:53	<--	instilled has quit (Quit: Leaving.)
+2013-11-11 18:24:03	justin_smith	then you can have a final data member in the class itself
+2013-11-11 18:24:05	<--	jballanc has quit (Ping timeout: 252 seconds)
+2013-11-11 18:24:14	<--	myguidingstar has quit (Quit: Leaving)
+2013-11-11 18:24:20	--	yogthos is now known as yogthos|away
+2013-11-11 18:24:36	justin_smith	just think of how java would do it, then figure out the interop that would make that happen, because all this is defined by the java model
+2013-11-11 18:25:03	--	closures999 is now known as linhmtran
+2013-11-11 18:25:56	-->	instilled has joined #clojure
+2013-11-11 18:26:05	-->	blk has joined #clojure
+2013-11-11 18:26:07	<--	kushal has quit (Quit: Leaving)
+2013-11-11 18:26:28	<--	instilled has quit (Client Quit)
+2013-11-11 18:26:56	<--	schmir has left #clojure ("Killed buffer")
+2013-11-11 18:27:01	-->	iwillig has joined #clojure
+2013-11-11 18:27:01	-->	normanrichards has joined #clojure
+2013-11-11 18:27:11	<--	sorella has quit (Disconnected by services)
+2013-11-11 18:27:19	--	Sorella_ is now known as Sorella
+2013-11-11 18:27:27	<--	Sorella has quit (Changing host)
+2013-11-11 18:27:27	-->	Sorella has joined #clojure
+2013-11-11 18:27:38	<--	linhmtran has quit
+2013-11-11 18:27:48	<--	cemerick has quit (Ping timeout: 244 seconds)
+2013-11-11 18:28:02	<--	infynyxx has quit (Remote host closed the connection)
+2013-11-11 18:28:16	-->	iamjarvo has joined #clojure
+2013-11-11 18:28:42	-->	zeroem has joined #clojure
+2013-11-11 18:28:42	-->	L1fescape has joined #clojure
+2013-11-11 18:29:12	-->	zamaterian has joined #clojure
+2013-11-11 18:29:25	-->	ToBeReplaced has joined #clojure
+2013-11-11 18:30:15	-->	tupi has joined #clojure
+2013-11-11 18:30:31	-->	cheeseen has joined #clojure
+2013-11-11 18:31:01	<--	jacobm has quit (Remote host closed the connection)
+2013-11-11 18:31:05	<--	wolfes has quit (Quit: Leaving.)
+2013-11-11 18:31:23	<--	jespada has quit (Quit: Leaving)
+2013-11-11 18:31:49	<--	avishai has quit (Ping timeout: 260 seconds)
+2013-11-11 18:32:21	-->	j-wang has joined #clojure
+2013-11-11 18:32:59	<--	kwmiebach has quit (Ping timeout: 272 seconds)
+2013-11-11 18:33:25	-->	solvip has joined #clojure
+2013-11-11 18:33:35	-->	kwmiebach has joined #clojure
+2013-11-11 18:34:05	<--	zachallaun has quit (Remote host closed the connection)
+2013-11-11 18:34:11	--	charliekilo|away is now known as charliekilo
+2013-11-11 18:34:12	-->	infynyxx has joined #clojure
+2013-11-11 18:34:20	TimMc	faust45: I think you can attach :static to methods in a gen-class :methods form.
+2013-11-11 18:34:21	<--	`cbp has quit (Read error: Connection reset by peer)
+2013-11-11 18:34:35	-->	`cbp has joined #clojure
+2013-11-11 18:34:53	<--	thelorax123 has quit (Remote host closed the connection)
+2013-11-11 18:35:00	-->	banjara has joined #clojure
+2013-11-11 18:35:12	<--	gko_ has quit (Ping timeout: 264 seconds)
+2013-11-11 18:35:27	-->	racycle has joined #clojure
+2013-11-11 18:35:40	<--	cheeseen has quit (Quit: Page closed)
+2013-11-11 18:36:25	-->	zachallaun has joined #clojure
+2013-11-11 18:36:27	<--	p14n has quit (Remote host closed the connection)
+2013-11-11 18:36:32	-->	thelorax123 has joined #clojure
+2013-11-11 18:36:35	<--	arenz has quit (Ping timeout: 248 seconds)
+2013-11-11 18:36:36	<--	oliverro has quit (Read error: Connection reset by peer)
+2013-11-11 18:36:47	<--	qingant has quit (Quit: Leaving.)
+2013-11-11 18:36:50	-->	oliverro has joined #clojure
+2013-11-11 18:37:53	-->	qingant has joined #clojure
+2013-11-11 18:38:20	-->	thoughtmanifest has joined #clojure
+2013-11-11 18:38:40	-->	ltw has joined #clojure
+2013-11-11 18:39:10	<--	banjara has quit (Client Quit)
+2013-11-11 18:39:15	--	charliekilo is now known as charliekilo|away
+2013-11-11 18:39:18	-->	davidchambers has joined #clojure
+2013-11-11 18:40:04	-->	JanxSpirit has joined #clojure
+2013-11-11 18:40:31	-->	bobbrahms has joined #clojure
+2013-11-11 18:40:34	<--	Sonderblade has quit (Quit: Lämnar)
+2013-11-11 18:40:36	<--	h0bbit_ has quit (Ping timeout: 264 seconds)
+2013-11-11 18:40:45	<--	L1fescape has quit (Remote host closed the connection)
+2013-11-11 18:41:11	-->	L1fescape has joined #clojure
+2013-11-11 18:42:29	-->	yedi has joined #clojure
+2013-11-11 18:42:57	-->	jhulten has joined #clojure
+2013-11-11 18:43:00	<--	ltw has quit (Ping timeout: 240 seconds)
+2013-11-11 18:43:15	-->	und3rt has joined #clojure
+2013-11-11 18:43:17	<--	yedi has quit (Remote host closed the connection)
+2013-11-11 18:43:44	-->	yedi has joined #clojure
+2013-11-11 18:44:51	<--	bobbrahms has quit (Ping timeout: 244 seconds)
+2013-11-11 18:44:52	--	yogthos|away is now known as yogthos
+2013-11-11 18:45:12	justin_smith	TimMc: is that the only way to make static methods?
+2013-11-11 18:45:17	<--	ly- has quit (Read error: Connection reset by peer)
+2013-11-11 18:45:35	justin_smith	I was looking at it, it seemed like you would only be able to define one :static key?
+2013-11-11 18:45:44	justin_smith	sorry
+2013-11-11 18:45:46	justin_smith	not :static
+2013-11-11 18:45:47	<--	zachallaun has quit (Remote host closed the connection)
+2013-11-11 18:45:47	-->	ly- has joined #clojure
+2013-11-11 18:45:51	justin_smith	it's :state
+2013-11-11 18:45:58	justin_smith	or are these two separate things?
+2013-11-11 18:46:03	justin_smith	http://clojuredocs.org/clojure_core/clojure.core/gen-class
+2013-11-11 18:46:10	-->	thorwil has joined #clojure
+2013-11-11 18:46:14	<--	L1fescape has quit (Ping timeout: 264 seconds)
+2013-11-11 18:46:23	-->	zachallaun has joined #clojure
+2013-11-11 18:46:33	-->	yedi_ has joined #clojure
+2013-11-11 18:46:37	dobry-den	gen-class OO in clojure is fun
+2013-11-11 18:46:44	<--	yedi has quit (Read error: Connection reset by peer)
+2013-11-11 18:46:57	<--	infynyxx has quit (Remote host closed the connection)
+2013-11-11 18:47:08	dobry-den	feels like some newfangled OO language
+2013-11-11 18:47:14	<--	normanrichards has quit
+2013-11-11 18:47:17	<--	zachallaun has quit (Read error: Connection reset by peer)
+2013-11-11 18:47:26	tbaldridge	for certain definitions of fun
+2013-11-11 18:47:29	dobry-den	^
+2013-11-11 18:47:33	-->	zachallaun has joined #clojure
+2013-11-11 18:47:43	dobry-den	funny*
+2013-11-11 18:47:57	<--	ustunozg_ has quit (Remote host closed the connection)
+2013-11-11 18:48:08	<--	zachallaun has quit (Client Quit)
+2013-11-11 18:48:09	justin_smith	clearly gen-class is missing the essential :laffs key
+2013-11-11 18:48:35	dobry-den	every time i use gen-class, i do the same google search to knit together the same 4 blog posts that show how to use it
+2013-11-11 18:48:37	-->	jacobm has joined #clojure
+2013-11-11 18:48:45	-->	ustunozgur has joined #clojure
+2013-11-11 18:49:00	<--	saiam^ has quit (Ping timeout: 264 seconds)
+2013-11-11 18:49:31	-->	und3rt_ has joined #clojure
+2013-11-11 18:50:24	<--	cldwalker__ has quit (Quit: Connection closed for inactivity)
+2013-11-11 18:50:50	-->	p14n has joined #clojure
+2013-11-11 18:51:19	-->	przl has joined #clojure
+2013-11-11 18:51:45	-->	infynyxx has joined #clojure
+2013-11-11 18:52:01	-->	banjara has joined #clojure
+2013-11-11 18:52:17	lpvb	how do I split a vector into chunks of a specified length like [1 2 3 4 5 6 7 8 9] -> [[1 2 3] [4 5 6] [7 8 9]]
+2013-11-11 18:52:29	AimHere	lpvb > partition
+2013-11-11 18:52:31	rasmusto	,(partition 3 (range 10))
+2013-11-11 18:52:32	clojurebot	((0 1 2) (3 4 5) (6 7 8))
+2013-11-11 18:52:41	justin_smith	,(partition-all 3 (range 10))
+2013-11-11 18:52:41	clojurebot	((0 1 2) (3 4 5) (6 7 8) (9))
+2013-11-11 18:52:46	justin_smith	if you wanted all of it :)
+2013-11-11 18:52:54	<--	shdwprince has quit (Quit: WeeChat 0.4.2)
+2013-11-11 18:53:05	<--	und3rt_ has quit (Client Quit)
+2013-11-11 18:53:06	rasmusto	,(partition 3 1 (range 10))
+2013-11-11 18:53:06	clojurebot	((0 1 2) (1 2 3) (2 3 4) (3 4 5) (4 5 6) ...)
+2013-11-11 18:53:10	rasmusto	if you want overlap
+2013-11-11 18:53:12	<--	und3rt has quit (Ping timeout: 264 seconds)
+2013-11-11 18:53:25	lpvb	thanks
+2013-11-11 18:53:54	<--	jimduey has quit (Quit: jimduey)
+2013-11-11 18:54:09	-->	nlew has joined #clojure
+2013-11-11 18:54:15	-->	cmdrdats has joined #clojure
+2013-11-11 18:54:41	<--	qingant has quit (Ping timeout: 244 seconds)
+2013-11-11 18:54:54	-->	saiam^ has joined #clojure
+2013-11-11 18:55:10	<--	thoughtmanifest has quit (Read error: Connection reset by peer)
+2013-11-11 18:55:17	-->	thoughtmanifest has joined #clojure
+2013-11-11 18:55:21	-->	Okasu has joined #clojure
+2013-11-11 18:56:39	-->	qingant has joined #clojure
+2013-11-11 18:56:55	-->	alexyakushev has joined #clojure
+2013-11-11 18:57:36	<--	ananthakumaran has quit (Quit: Leaving.)
+2013-11-11 18:57:45	<--	qingant has left #clojure
+2013-11-11 18:57:55	<--	graeme_f has quit (Quit: Computer has gone to sleep.)
+2013-11-11 18:59:30	-->	richardi_ has joined #clojure
+2013-11-11 18:59:47	-->	atyz has joined #clojure
+2013-11-11 19:01:03	<--	`cbp has quit (Read error: Connection reset by peer)
+2013-11-11 19:02:03	-->	und3rt has joined #clojure
+2013-11-11 19:02:52	-->	sritchie has joined #clojure
+2013-11-11 19:03:03	<--	rhoml has quit (Quit: rhoml)
+2013-11-11 19:03:40	<--	lizzin_ has quit (Ping timeout: 265 seconds)
+2013-11-11 19:04:04	<--	richardi_ has quit (Ping timeout: 252 seconds)
+2013-11-11 19:04:19	<--	banjara has quit (Quit: Leaving.)
+2013-11-11 19:04:28	<--	dobry-den has quit (Quit: weechat 0.4.0)
+2013-11-11 19:04:30	<--	shiftyeyes has quit (Ping timeout: 244 seconds)
+2013-11-11 19:04:30	<--	bbaumgar has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 19:04:37	<--	atyz has quit (Ping timeout: 240 seconds)
+2013-11-11 19:04:51	<--	tomobrien has quit (Ping timeout: 248 seconds)
+2013-11-11 19:04:55	-->	ltw has joined #clojure
+2013-11-11 19:05:05	-->	banjara has joined #clojure
+2013-11-11 19:05:09	<--	JanxSpirit has quit (Quit: JanxSpirit)
+2013-11-11 19:05:30	-->	lizzin has joined #clojure
+2013-11-11 19:05:45	<--	inerte has quit (Quit: Leaving.)
+2013-11-11 19:05:56	--	lizzin is now known as Guest40563
+2013-11-11 19:05:57	-->	danneu has joined #clojure
+2013-11-11 19:06:05	-->	avishai has joined #clojure
+2013-11-11 19:06:12	<--	danneu has quit (Client Quit)
+2013-11-11 19:06:33	-->	calumet has joined #clojure
+2013-11-11 19:06:39	<--	andreypopp has quit (Quit: andreypopp)
+2013-11-11 19:06:53	<--	tutysara has quit (Quit: tutysara)
+2013-11-11 19:07:13	<--	benmoss_ has quit (Quit: benmoss_)
+2013-11-11 19:07:37	<--	nlew has quit (Remote host closed the connection)
+2013-11-11 19:07:46	-->	scott__ has joined #clojure
+2013-11-11 19:08:00	-->	atyz has joined #clojure
+2013-11-11 19:08:10	-->	nlew has joined #clojure
+2013-11-11 19:08:43	-->	danneu has joined #clojure
+2013-11-11 19:09:12	<--	TEttinger has quit (Ping timeout: 245 seconds)
+2013-11-11 19:10:18	<--	kizzx2 has left #clojure
+2013-11-11 19:11:37	<--	cmdrdats has quit (Quit: The power of faith is quiet. It is the leaf unmoved by a hurricane.)
+2013-11-11 19:11:56	<--	ly- has quit (Read error: Connection reset by peer)
+2013-11-11 19:12:23	-->	ly- has joined #clojure
+2013-11-11 19:12:54	<--	nlew has quit (Ping timeout: 272 seconds)
+2013-11-11 19:13:18	<--	jaimef has quit (Excess Flood)
+2013-11-11 19:13:23	-->	sxn has joined #clojure
+2013-11-11 19:15:05	<--	jamesaanderson has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 19:15:22	-->	JanxSpirit has joined #clojure
+2013-11-11 19:16:24	<--	ltw has quit (Remote host closed the connection)
+2013-11-11 19:16:28	-->	jaimef has joined #clojure
+2013-11-11 19:16:32	<--	und3rt has quit (Ping timeout: 252 seconds)
+2013-11-11 19:16:58	-->	ltw has joined #clojure
+2013-11-11 19:17:16	<--	dobladez has quit (Read error: Operation timed out)
+2013-11-11 19:17:31	-->	jhaals has joined #clojure
+2013-11-11 19:18:07	-->	und3rt has joined #clojure
+2013-11-11 19:18:10	danneu	I've never done something like this before - If I wanted to distribute Datomic along with my app.jar, what would that sort of thing look like?
+2013-11-11 19:18:11	llasram	I've come to the opinion that there's ~0 situations where `gen-class` is the right solution
+2013-11-11 19:18:12	<--	przl has quit (Ping timeout: 248 seconds)
+2013-11-11 19:18:16	-->	eis_ has joined #clojure
+2013-11-11 19:18:55	danneu	Naively, I imagine my app.jar would boot another jvm that runs the transactor and java would handle things like shutting down the child jvm
+2013-11-11 19:19:32	-->	DomKM has joined #clojure
+2013-11-11 19:19:53	mdrogalis	danneu: Can you put a wire between those 2 components?
+2013-11-11 19:19:53	-->	Joreji has joined #clojure
+2013-11-11 19:19:58	mdrogalis	Just avoid all that.
+2013-11-11 19:20:04	-->	inerte has joined #clojure
+2013-11-11 19:20:07	danneu	What do you mean?
+2013-11-11 19:20:11	bitemyapp	yeah don't do that.
+2013-11-11 19:20:20	-->	seangone has joined #clojure
+2013-11-11 19:20:35	<--	blk has quit (Ping timeout: 272 seconds)
+2013-11-11 19:20:42	mdrogalis	Well, if I was to tell you that you can avoid the oddness that is multiple JVMs on a machine, doesnt that sound nice?
+2013-11-11 19:20:52	<--	napper has quit (Ping timeout: 272 seconds)
+2013-11-11 19:20:59	danneu	Basically, all I know is that I can't distribute a single jar that contains my app + datomic-db, so I'm looking up solutions
+2013-11-11 19:21:01	<--	ltw has quit (Ping timeout: 240 seconds)
+2013-11-11 19:21:40	mdrogalis	danneu: What's your deployment scenario?
+2013-11-11 19:21:54	-->	blk has joined #clojure
+2013-11-11 19:22:22	danneu	mdrogalis: I have a bitcoin node that uses datomic to store the blockchain. I'm not sure how to distribute it to other people
+2013-11-11 19:23:51	-->	rcg has joined #clojure
+2013-11-11 19:23:54	-->	ltw has joined #clojure
+2013-11-11 19:24:12	--	dean is now known as dean|away
+2013-11-11 19:24:14	danneu	really, just a project that uses datomic as the db, and im not sure how to package it for end users
+2013-11-11 19:24:19	mdrogalis	danneu: I mean, do you *have* to ship just 1 jar?
+2013-11-11 19:24:24	<--	sxn has quit (Remote host closed the connection)
+2013-11-11 19:24:55	mdrogalis	I dont think there's anything wrong with saying "Here's my app jar. Go stand up Datomic and they'll place nicely."
+2013-11-11 19:25:01	nDuff	...folks don't try to ship PostgreSQL built into their applications. :)
+2013-11-11 19:25:10	<--	seangone has quit (Ping timeout: 244 seconds)
+2013-11-11 19:25:16	mdrogalis	nDuff: Thanks, was trying to verbalize that.
+2013-11-11 19:25:18	bitemyapp	danneu: yeah I'm not buying that should be baked in.
+2013-11-11 19:25:25	-->	sxn has joined #clojure
+2013-11-11 19:25:38	bitemyapp	danneu: use environment variables so users can point your app at their datomic instance.
+2013-11-11 19:25:40	<--	zamaterian has quit (Read error: Connection reset by peer)
+2013-11-11 19:25:44	coventry	danneu: Could you pull in the datomic depepndency from your code using something like pomegranate?
+2013-11-11 19:25:52	bitemyapp	danneu: This is a good library for that: http://github.com/weavejester/environ/
+2013-11-11 19:25:55	bitemyapp	coventry: dude. No.
+2013-11-11 19:25:59	-->	shoshin has joined #clojure
+2013-11-11 19:26:13	-->	cmdrdats has joined #clojure
+2013-11-11 19:26:40	-->	andreypopp has joined #clojure
+2013-11-11 19:27:52	<--	atyz has quit (Quit: Leaving...)
+2013-11-11 19:28:09	-->	glosoli has joined #clojure
+2013-11-11 19:28:42	-->	benmoss_ has joined #clojure
+2013-11-11 19:28:47	-->	ustunozg_ has joined #clojure
+2013-11-11 19:29:05	danneu	nDuff: yeah, you're right. i'm just trying to arrive at the easiest solution for the end-user
+2013-11-11 19:29:09	<--	und3rt has quit (Quit: Colloquy for iPhone - http://colloquy.mobi)
+2013-11-11 19:30:42	lpvb	,(replace {1 0} (vector-of :int 0xF0))
+2013-11-11 19:30:44	clojurebot	[240]
+2013-11-11 19:30:52	lpvb	why is that not working
+2013-11-11 19:31:19	coventry	lpvb: What answer are you expecting?
+2013-11-11 19:31:20	lpvb	oh wait I get it now
+2013-11-11 19:32:04	lpvb	I thought the key was the index to replace
+2013-11-11 19:32:38	<--	ustunozgur has quit (Ping timeout: 272 seconds)
+2013-11-11 19:32:46	-->	kazimir42 has joined #clojure
+2013-11-11 19:32:48	justin_smith	 ,(replace {0 0} (vector-of :int 0xF0))
+2013-11-11 19:32:48	clojurebot	[240]
+2013-11-11 19:32:56	justin_smith	ok, that I did not expect
+2013-11-11 19:33:26	<--	ustunozg_ has quit (Ping timeout: 260 seconds)
+2013-11-11 19:33:57	-->	gerardcahill has joined #clojure
+2013-11-11 19:34:07	-->	mishok13 has joined #clojure
+2013-11-11 19:34:21	justin_smith	 ,((vector-of :int 0xF0) 0)
+2013-11-11 19:34:21	clojurebot	240
+2013-11-11 19:34:43	bitemyapp	justin_smith: what are you even doing that these experiments come to mind? seriously, wtf.
+2013-11-11 19:34:58	justin_smith	bitemyapp: it was lpvb's question
+2013-11-11 19:35:06	Morgawr	I have a static java method that can take 1, 2 or 3 parameters, I want to write a wrapper in clojure, but I can't get it to work with "apply"
+2013-11-11 19:35:13	bitemyapp	lpvb: okay, my question, applied to you. What the fuck?
+2013-11-11 19:35:17	Morgawr	(apply StaticClass/method args) doesn't work
+2013-11-11 19:35:24	lpvb	bitemyapp: ?
+2013-11-11 19:35:27	sritchie	Morgawr: you could write a macro that expands out into all the arities
+2013-11-11 19:35:27	-->	noncom has joined #clojure
+2013-11-11 19:35:28	bitemyapp	Morgawr: make a clojure function
+2013-11-11 19:35:29	coventry	"Here's a nickle, kid.  Buy yourself your own goddamn repl." :-)
+2013-11-11 19:35:34	llasram	lpvb, justin_smith: `replace` replaces by value, not key
+2013-11-11 19:35:40	lpvb	I know that now
+2013-11-11 19:35:44	llasram	kk
+2013-11-11 19:35:45	noncom	what is the fastest and the most idiomatic way to add N same elements to a vector?
+2013-11-11 19:35:51	sritchie	Morgawr: but I think you need to recreate each one
+2013-11-11 19:35:51	Morgawr	I know I could do that but a one liner feels better, isn't there a way?
+2013-11-11 19:35:52	justin_smith	llasram: the doc string says key
+2013-11-11 19:36:00	mdrogalis	bitemyapp: Possibly relevant for encryption, by the way
+2013-11-11 19:36:01	justin_smith	oh, = key, not at key
+2013-11-11 19:36:02	Morgawr	I mean, I can't use "apply"?
+2013-11-11 19:36:03	justin_smith	never mind
+2013-11-11 19:36:10	sritchie	Morgawr: nope
+2013-11-11 19:36:13	danneu	noncom: conj with repeat?
+2013-11-11 19:36:20	<--	looper has quit (Quit: Computer has gone to sleep.)
+2013-11-11 19:36:28	Morgawr	why not? doesn't apply work with java methods?
+2013-11-11 19:36:47	noncom	danneu: is it the fastest? i can think of several ways, but i wonder which is the fastest...
+2013-11-11 19:36:54	danneu	,(into [1 2 3] (repeat 5 :a))
+2013-11-11 19:36:54	clojurebot	[1 2 3 :a :a ...]
+2013-11-11 19:36:57	bitemyapp	Morgawr: why would some random Java method implement IFn?
+2013-11-11 19:37:14	Morgawr	bitemyapp: I don't know how apply works, so I don't know why it wouldn't work ^^
+2013-11-11 19:37:14	bitemyapp	Morgawr: it's not like java libraries are designed with Clojure integration in mind.
+2013-11-11 19:37:17	rasmusto	,(replace {0xF0 1} (vector-of :int 0xF0))
+2013-11-11 19:37:17	danneu	noncom: oh. in that case i would just mock up those several ways and bench them
+2013-11-11 19:37:17	clojurebot	[1]
+2013-11-11 19:37:23	bitemyapp	Morgawr: well...learn how Clojure works :)
+2013-11-11 19:37:31	bitemyapp	Morgawr: in particular, Seqable, IFn, etc.
+2013-11-11 19:37:45	Morgawr	I'll go check apply's source
+2013-11-11 19:37:45	bitemyapp	enables you to anticipate what should and shouldn't work, what makes sense, etc.
+2013-11-11 19:37:50	sritchie	to be fair that's what he's trying to do
+2013-11-11 19:38:03	noncom	danneu: yeah, looks liek..
+2013-11-11 19:38:06	<--	gerardcahill has quit (Ping timeout: 244 seconds)
+2013-11-11 19:38:11	danneu	noncom: oh, you asked for the fastest
+2013-11-11 19:38:25	-->	TEttinger has joined #clojure
+2013-11-11 19:38:26	-->	arohner has joined #clojure
+2013-11-11 19:38:30	sritchie	Morgawr: a clojure function is an object, a first class object
+2013-11-11 19:38:30	noncom	yes, speed is the criterium
+2013-11-11 19:38:36	<--	infynyxx has quit (Remote host closed the connection)
+2013-11-11 19:38:39	sritchie	that implements IFn
+2013-11-11 19:38:43	coventry	Morgawr: The only way I can think of doing it in one line is uglier than using multiple lines.
+2013-11-11 19:38:52	sritchie	a static method isn't first class, it's defined on a particular class -
+2013-11-11 19:39:00	Morgawr	I see
+2013-11-11 19:39:02	Morgawr	makes sense
+2013-11-11 19:39:03	sritchie	so you have to make a first-class clojure function that delegates through in each arity
+2013-11-11 19:39:10	<--	bengillies has quit (Quit: bengillies)
+2013-11-11 19:39:10	Morgawr	alright, thanks
+2013-11-11 19:39:26	justin_smith	lpvb: this is what you wanted, I think:
+2013-11-11 19:39:28	justin_smith	,(assoc (vector-of :int 0xF0) 0 0)
+2013-11-11 19:39:28	clojurebot	[0]
+2013-11-11 19:39:48	<--	ly- has quit (Read error: Connection reset by peer)
+2013-11-11 19:39:56	lpvb	I know how to use assoc, I thought I could use replace to do a list of assocs at a time though
+2013-11-11 19:40:06	justin_smith	assoc is varargs
+2013-11-11 19:40:07	-->	ly- has joined #clojure
+2013-11-11 19:40:12	justin_smith	,(assoc (vector-of :int 0xF0) 0 0 1 6)
+2013-11-11 19:40:12	clojurebot	[0 6]
+2013-11-11 19:40:16	<--	sritchie has quit (Quit: sritchie)
+2013-11-11 19:40:28	lpvb	ah I keep forgetting most clojure functions like this have varargs
+2013-11-11 19:40:46	llasram	Morgawr: Not necessarily recommended, but you can use reflection to wrap methods as functions w/ correct arities, then `apply` those functions
+2013-11-11 19:40:47	<--	JanxSpirit has quit (Quit: JanxSpirit)
+2013-11-11 19:40:53	-->	zamaterian has joined #clojure
+2013-11-11 19:40:54	justin_smith	,(apply < (range 42))
+2013-11-11 19:40:55	clojurebot	true
+2013-11-11 19:41:01	Morgawr	llasram: sounds like a lot of work for nothing
+2013-11-11 19:41:06	<--	staafl has quit (Read error: Connection reset by peer)
+2013-11-11 19:41:06	llasram	Morgawr: https://github.com/llasram/method-fn for a proof-of-concept
+2013-11-11 19:41:07	llasram	haha
+2013-11-11 19:41:10	-->	bobbrahms has joined #clojure
+2013-11-11 19:41:11	llasram	Well, depends on what you're trying to do
+2013-11-11 19:41:13	-->	theshizzah has joined #clojure
+2013-11-11 19:41:27	-->	L1fescape has joined #clojure
+2013-11-11 19:41:50	-->	ruff has joined #clojure
+2013-11-11 19:41:50	-->	abeaumont has joined #clojure
+2013-11-11 19:41:57	-->	jballanc has joined #clojure
+2013-11-11 19:42:00	Morgawr	llasram: I was just being lazy
+2013-11-11 19:42:11	danneu	noncom: is (concat [1 2 3] (repeat n :a)) too slow?
+2013-11-11 19:42:13	Morgawr	hoping I could get a simple and elegant one-liner for a java wrapper
+2013-11-11 19:42:19	llasram	I see
+2013-11-11 19:42:27	coventry	As long as we're proposing awkward ideas, there's (eval `(StaticClass/method ~@args)). :-)
+2013-11-11 19:42:28	Morgawr	but it's just a function with 3 different parameter combinations
+2013-11-11 19:42:33	Morgawr	so I can just wrote those, no biggie
+2013-11-11 19:42:42	<--	jballanc has quit (Client Quit)
+2013-11-11 19:42:46	<--	Guest40563 has quit (Quit: leaving)
+2013-11-11 19:42:54	Morgawr	coventry: that's actually interesting
+2013-11-11 19:42:55	-->	jballanc has joined #clojure
+2013-11-11 19:43:10	-->	infynyxx_ has joined #clojure
+2013-11-11 19:43:17	coventry	Morgawr: Yeah, it's interesting, but people will look askance if you do that.
+2013-11-11 19:43:33	-->	mabes has joined #clojure
+2013-11-11 19:43:39	justin_smith	eval is a big gun for such a small rabbit
+2013-11-11 19:43:40	noncom	danneu: umm, looks quite fast.. "Elapsed time: 0.08244 msecs" after warm-up
+2013-11-11 19:43:50	noncom	thats faster than with (into)
+2013-11-11 19:43:53	-->	JanxSpirit has joined #clojure
+2013-11-11 19:44:02	Morgawr	I mean, wouldn't it just possible to do (defmacro wrapped-method [& args] `(Static/Methodname ~@args)) ?
+2013-11-11 19:44:07	danneu	noncom: right, into uses conj for each element. concat does it all at once
+2013-11-11 19:44:20	Morgawr	be possible*
+2013-11-11 19:44:38	<--	avishai has quit (Ping timeout: 260 seconds)
+2013-11-11 19:44:41	llasram	noncom, danneu: Er, `concat` is lazy, so just calling `concat` does almost nothing
+2013-11-11 19:44:50	coventry	Morgawr: You lose function composition that way.
+2013-11-11 19:44:50	--	zju3 is now known as zju
+2013-11-11 19:45:00	Morgawr	mmm.. true
+2013-11-11 19:45:40	-->	infynyxx has joined #clojure
+2013-11-11 19:45:52	noncom	llasram: well, i tried it and it printed the output to the console, so it actualle did evaluate it. however, i wonder, if it did before or after (time) :)
+2013-11-11 19:45:58	<--	bobbrahms has quit (Ping timeout: 260 seconds)
+2013-11-11 19:46:12	-->	dobladez has joined #clojure
+2013-11-11 19:46:21	danneu	noncom: you can realize it trivially with `count` or `dorun`
+2013-11-11 19:46:33	justin_smith	noncom: if you are wondering what is efficient, use criterium
+2013-11-11 19:46:36	llasram	noncom: If you use criterium for benchmarking, it handles many of these issues
+2013-11-11 19:46:37	-->	trinary has joined #clojure
+2013-11-11 19:47:21	justin_smith	also, criterium is very simple to use, so there is no excuse
+2013-11-11 19:47:46	Morgawr	is there any downside in using eval?
+2013-11-11 19:47:47	llasram	Especially if you also use hugod's alembic, because then you can slurp it into any REPL :-)
+2013-11-11 19:48:04	danneu	sometimes you've just gotta grind it out on that dollar menu with (time (dotimes [_ N] ...))
+2013-11-11 19:48:29	llasram	danneu: 100% in disagreement!
+2013-11-11 19:48:39	justin_smith	Morgawr: it creates a whole environment context, we were using eval in our templates and when we switched to read our performance shot up more than an order of magnitude
+2013-11-11 19:48:48	danneu	;)
+2013-11-11 19:48:55	<--	jhaals has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-11-11 19:49:00	<--	infynyxx_ has quit (Ping timeout: 272 seconds)
+2013-11-11 19:49:06	justin_smith	danneu: that would make sense if criterium somehow cost money
+2013-11-11 19:49:06	-->	S11001001 has joined #clojure
+2013-11-11 19:49:12	Morgawr	this is just for a simple function (binding to OpenAL) that creates an audio device, it's used just in the initialization of a game engine
+2013-11-11 19:49:16	Morgawr	I'm wondering how lazy I can be
+2013-11-11 19:49:20	danneu	it's nice to have criterium's `bench` and `quick-bench` imported into your util namespace so theyre always handy
+2013-11-11 19:49:29	Morgawr	as in, I know I'm talking about bike shedding atm
+2013-11-11 19:49:29	--	amalloy_ is now known as amalloy
+2013-11-11 19:49:34	danneu	quick-bench because time is money
+2013-11-11 19:50:00	Morgawr	but honestly unless there's any security/consistency/stability problem, if it's only just losing a bit of performance, then I'd say that eval looks more elegant
+2013-11-11 19:50:07	Morgawr	unless I'm missing something
+2013-11-11 19:50:18	justin_smith	client data sneaking arbitrary code into the string?
+2013-11-11 19:50:21	justin_smith	hah
+2013-11-11 19:50:31	<--	inerte has quit (Quit: Leaving.)
+2013-11-11 19:50:40	Morgawr	it's a library, it's not an end-user application
+2013-11-11 19:50:46	Morgawr	as in, other developers call that function
+2013-11-11 19:50:53	Morgawr	if they want to break their own application, it's not my fault D:
+2013-11-11 19:50:57	-->	und3rt has joined #clojure
+2013-11-11 19:51:01	lpvb	what complexity is concat on two vectors?
+2013-11-11 19:51:05	justin_smith	just covering the bases, mentioning other downsides that may apply :)
+2013-11-11 19:51:10	Morgawr	true true
+2013-11-11 19:51:48	-->	`cbp has joined #clojure
+2013-11-11 19:52:01	justin_smith	lpvb: they are implemented by narrow hash trees, with something like 7 items on each level iirc
+2013-11-11 19:52:04	-->	microamp has joined #clojure
+2013-11-11 19:52:16	<--	ruff has quit (Ping timeout: 272 seconds)
+2013-11-11 19:52:23	coventry	Morgawr: If you want to use eval, you probably actually want something more like (eval (list* StaticClass/method args)), so that it works at runtime.
+2013-11-11 19:52:36	justin_smith	lpvb: http://hypirion.com/musings/understanding-persistent-vector-pt-1
+2013-11-11 19:52:47	-->	riley526 has joined #clojure
+2013-11-11 19:52:48	Morgawr	coventry: alright, thanks
+2013-11-11 19:52:51	TimMc	lpvb: O(1), i think
+2013-11-11 19:53:00	coventry	Morgawr: And wash your hands afterwards.
+2013-11-11 19:53:00	TimMc	(It's lazy.)
+2013-11-11 19:53:01	justin_smith	TimMc: no way, it is log something
+2013-11-11 19:53:13	-->	mk has joined #clojure
+2013-11-11 19:53:17	Morgawr	doesn't seem to be working though
+2013-11-11 19:53:31	-->	msgodf has joined #clojure
+2013-11-11 19:53:36	noncom	danneu, llasram: thanks, i'll check the criterium out!
+2013-11-11 19:53:37	--	mk is now known as Guest76593
+2013-11-11 19:53:37	-->	inerte has joined #clojure
+2013-11-11 19:53:42	-->	napper has joined #clojure
+2013-11-11 19:53:42	Morgawr	should it be (list* 'StaticClass/metod  args) ?
+2013-11-11 19:53:45	Morgawr	with the quote?
+2013-11-11 19:54:07	coventry	Morgawr: Right.
+2013-11-11 19:54:09	<--	cmdrdats has quit (Quit: The power of faith is quiet. It is the leaf unmoved by a hurricane.)
+2013-11-11 19:54:18	Morgawr	ah ok, at least I understand what it does ;) thanks
+2013-11-11 19:54:19	--	Guest76593 is now known as mk12
+2013-11-11 19:54:21	-->	ruff has joined #clojure
+2013-11-11 19:54:31	-->	atyz has joined #clojure
+2013-11-11 19:54:47	TimMc	justin_smith: concat returns a lazy seq; I'm pretty sure it does nothing involving the elements of input vectors
+2013-11-11 19:54:52	coventry	,(eval (list* 'System/getProperty '("java.vm.version")))
+2013-11-11 19:54:53	clojurebot	#<Exception java.lang.Exception: SANBOX DENIED>
+2013-11-11 19:54:59	<--	mrevil has quit (Remote host closed the connection)
+2013-11-11 19:55:04	Morgawr	haha
+2013-11-11 19:55:26	-->	cmdrdats has joined #clojure
+2013-11-11 19:55:36	TimMc	lpvb: Concat returns a seq; if you want a vector from a seq you have to call vec on it. If you want to combine two vectors into another vector, the efficient thing is to use clojure.core/into.
+2013-11-11 19:55:41	-->	mrevil has joined #clojure
+2013-11-11 19:55:48	TimMc	&(into [1 2 3] [4 5 6])
+2013-11-11 19:55:48	lazybot	⇒ [1 2 3 4 5 6]
+2013-11-11 19:55:53	<--	ly- has quit (Read error: Connection reset by peer)
+2013-11-11 19:56:03	justin_smith	TimMc: ok, now I get it
+2013-11-11 19:56:09	TimMc	That should be something like O(n) or O(n log n).
+2013-11-11 19:56:16	-->	ly- has joined #clojure
+2013-11-11 19:56:31	noncom	conventry: what is the difference of list* and list?
+2013-11-11 19:56:39	justin_smith	so since concat only returns a seq, you look at the complexity of realizing the seq (if it needs full realization)
+2013-11-11 19:56:51	<--	mk12 has quit (Client Quit)
+2013-11-11 19:56:58	coventry	noncom: &[(list* 'System/getProperty '("java.vm.version")) (list 'System/getProperty '("java.vm.version"))]
+2013-11-11 19:56:58	justin_smith	realizing a seq will be O(n) for the length you need to realize
+2013-11-11 19:57:04	danneu	I see that `into` uses transients
+2013-11-11 19:57:53	noncom	conventry: sorry i don't get it..
+2013-11-11 19:57:56	-->	p14n_ has joined #clojure
+2013-11-11 19:57:56	danneu	justin_smith: yeah, i made that mistake too. i didn't think about how concat is a lazy-seq of `cat`s
+2013-11-11 19:58:06	<--	gstamp has quit (Ping timeout: 256 seconds)
+2013-11-11 19:58:12	coventry	noncom: list* splices the last argument into the list, like ~@ in a syntax quote.
+2013-11-11 19:58:20	noncom	oh!
+2013-11-11 19:58:28	coventry	,[(list* 'System/getProperty '("java.vm.version")) (list 'System/getProperty '("java.vm.version"))]
+2013-11-11 19:58:28	clojurebot	[(System/getProperty "java.vm.version") (System/getProperty ("java.vm.version"))]
+2013-11-11 19:59:07	-->	danielszmulewicz has joined #clojure
+2013-11-11 19:59:14	<--	p14n has quit (Ping timeout: 272 seconds)
+2013-11-11 19:59:22	-->	gstamp has joined #clojure
+2013-11-11 19:59:26	cYmen	Is there a list of clojure user groups somewhere?
+2013-11-11 19:59:26	-->	avishai has joined #clojure
+2013-11-11 19:59:38	coventry	Hmm, I could have used juxt, there. :-)
+2013-11-11 20:00:25	<--	balanceiskey has quit (Ping timeout: 272 seconds)
+2013-11-11 20:00:25	justin_smith	coventry: so is what differentiates list* from cons the resulting data type?
+2013-11-11 20:00:25	<--	oliverro has quit (Ping timeout: 264 seconds)
+2013-11-11 20:00:27	<--	mrevil has quit (Ping timeout: 260 seconds)
+2013-11-11 20:00:38	<--	und3rt has quit (Quit: Colloquy for iPhone - http://colloquy.mobi)
+2013-11-11 20:00:45	<--	jballanc has quit (Quit: Reconnecting)
+2013-11-11 20:00:53	Morgawr	talking about clojure user groups... anybody from Amsterdam/Netherlands going to wednesday's clojure meeting in Amsterdam?
+2013-11-11 20:01:11	danneu	Speaking of juxt, I often do this: ((juxt :a :b :c) {:a 1, :b 2, :c 3}) -> [1 2 3]. Is there a different way to do that?
+2013-11-11 20:01:20	coventry	justin_smith: It's a series cons under the covers.
+2013-11-11 20:01:27	coventry	~def list*
+2013-11-11 20:01:28	--	Notice(clojurebot) -> #clojure: list*: http://is.gd/1pHk9U
+2013-11-11 20:01:38	Morgawr	danneu: vals
+2013-11-11 20:01:42	Morgawr	if you want all of them, of course
+2013-11-11 20:01:45	justin_smith	coventry: ahh, so it is a reverse varargs with the conses in front
+2013-11-11 20:02:01	<--	ltw has quit (Remote host closed the connection)
+2013-11-11 20:02:08	danneu	My trouble with `cons` is that I don't know what to do with the resulting Cons object
+2013-11-11 20:02:33	cYmen	danneu: the result is a list not a cons object ;)
+2013-11-11 20:02:36	-->	ltw has joined #clojure
+2013-11-11 20:02:51	cYmen	well...I guess it could also be a tree
+2013-11-11 20:02:53	cYmen	nevermind ;)
+2013-11-11 20:03:00	danneu	,(class (cons 1 [2 3]))
+2013-11-11 20:03:01	clojurebot	clojure.lang.Cons
+2013-11-11 20:03:10	justin_smith	,(map type [(list* 1 [2]) (cons 1 [2])])
+2013-11-11 20:03:10	clojurebot	(clojure.lang.Cons clojure.lang.Cons)
+2013-11-11 20:03:19	<--	Joreji has quit (Ping timeout: 260 seconds)
+2013-11-11 20:03:25	<--	danielszmulewicz has quit (Ping timeout: 244 seconds)
+2013-11-11 20:04:17	<--	p14n_ has quit (Read error: Connection reset by peer)
+2013-11-11 20:04:32	amalloy	danneu: ##(map {:a 1, :b 2, :c 3} [:a :b :c])
+2013-11-11 20:04:33	lazybot	⇒ (1 2 3)
+2013-11-11 20:04:34	<--	j-wang has quit (Quit: j-wang)
+2013-11-11 20:04:46	-->	p14n has joined #clojure
+2013-11-11 20:05:07	llasram	justin_smith: Yeah, `list*` returning a `Cons` is kind of brutal
+2013-11-11 20:05:13	Morgawr	,(vals {:a 1 :b 2 :c 3})
+2013-11-11 20:05:14	clojurebot	(1 3 2)
+2013-11-11 20:05:15	Morgawr	:V
+2013-11-11 20:05:41	-->	przl has joined #clojure
+2013-11-11 20:06:13	<--	eigenjoy has quit (Ping timeout: 248 seconds)
+2013-11-11 20:06:18	justin_smith	llasram: from an implementation perspective, it is perfectly understandable though - a list is just a cons tacked onto another cons
+2013-11-11 20:06:38	<--	ltw has quit (Ping timeout: 240 seconds)
+2013-11-11 20:06:48	-->	nlew has joined #clojure
+2013-11-11 20:07:35	llasram	justin_smith: That's actually not quite true in the Clojure implementation.  Clojure's actual persistent list is `Counted` and supports acts as a (counted) stack with `conj`, `peek`, and `pop`
+2013-11-11 20:07:52	justin_smith	oh, interesting
+2013-11-11 20:08:02	-->	eigenjoy has joined #clojure
+2013-11-11 20:08:11	-->	ltw has joined #clojure
+2013-11-11 20:08:12	-->	jimduey has joined #clojure
+2013-11-11 20:08:31	<--	nlew has quit (Remote host closed the connection)
+2013-11-11 20:08:46	llasram	If you just need a seq, `Cons`es work fine, but sometimes you really want a PersistentList
+2013-11-11 20:08:59	<--	p14n has quit (Ping timeout: 252 seconds)
+2013-11-11 20:09:04	-->	Joreji has joined #clojure
+2013-11-11 20:09:06	-->	nlew has joined #clojure
+2013-11-11 20:09:09	justin_smith	,(pop (into () (list* 1 [2])))
+2013-11-11 20:09:09	clojurebot	(1)
+2013-11-11 20:09:16	-->	amerinese has joined #clojure
+2013-11-11 20:09:18	justin_smith	I never though I would need (into ())
+2013-11-11 20:09:32	llasram	I think then you might as well just ##(apply list 1 [2])
+2013-11-11 20:09:33	lazybot	⇒ (1 2)
+2013-11-11 20:09:52	justin_smith	llasram: yeah, probably true
+2013-11-11 20:09:58	llasram	Oh, yeah -- `into` will end up reversing the list
+2013-11-11 20:10:13	danneu	reduces with conj
+2013-11-11 20:10:13	-->	alisdair has joined #clojure
+2013-11-11 20:10:17	justin_smith	ahh
+2013-11-11 20:10:24	justin_smith	fun!
+2013-11-11 20:10:33	<--	WWWest has quit (Read error: Operation timed out)
+2013-11-11 20:10:44	<--	glosoli has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 20:10:46	<--	iamjarvo has quit (Remote host closed the connection)
+2013-11-11 20:11:07	TimMc	list* is awful
+2013-11-11 20:11:13	justin_smith	it seems so!
+2013-11-11 20:11:20	-->	graeme_f has joined #clojure
+2013-11-11 20:11:23	-->	jballanc has joined #clojure
+2013-11-11 20:11:26	-->	iamjarvo has joined #clojure
+2013-11-11 20:11:36	amalloy	TimMc: aw, list* is great!
+2013-11-11 20:12:10	TimMc	The funcionality is nice; the name is not.
+2013-11-11 20:12:23	TimMc	and the doc
+2013-11-11 20:12:30	amalloy	it's much nicer than repeated conses, and it's not like i've ever in my life cared that it doesn't return a List
+2013-11-11 20:12:38	amalloy	if it did, i'd have to stop using it
+2013-11-11 20:13:45	<--	onthestairs has quit (Ping timeout: 244 seconds)
+2013-11-11 20:14:01	Raynes	TimMc: Don't be so mean to list*.
+2013-11-11 20:14:03	amalloy	(defn all-integers [n] (lazy-seq (list* n (- n) (all-integers (inc n))))), for example, suddenly can't use list*
+2013-11-11 20:14:09	Raynes	He doesn't mean to be different.
+2013-11-11 20:14:27	-->	h0bbit_ has joined #clojure
+2013-11-11 20:14:51	coventry	What are the drawbacks to list*?
+2013-11-11 20:14:58	mischov	He's just looking for a connection.. :(
+2013-11-11 20:15:02	llasram	coventry: It doesn't actually return a list
+2013-11-11 20:15:10	amalloy	coventry: whenever you use it, you have to listen to someone in irc reminding you it doesn't return a list
+2013-11-11 20:15:18	llasram	heh
+2013-11-11 20:15:20	TimMc	(inc amalloy)
+2013-11-11 20:15:20	lazybot	⇒ 76
+2013-11-11 20:15:23	llasram	(inc amalloy)
+2013-11-11 20:15:23	<--	atyz has quit (Ping timeout: 260 seconds)
+2013-11-11 20:15:23	lazybot	⇒ 77
+2013-11-11 20:15:34	danneu	haha
+2013-11-11 20:16:45	<--	meoblast001 has quit (Quit: Leaving)
+2013-11-11 20:16:49	technomancy	no, it's the other way around
+2013-11-11 20:16:53	<--	solvip has quit (Ping timeout: 248 seconds)
+2013-11-11 20:16:59	amalloy	anyway, it does return a list*, so what's the problem?
+2013-11-11 20:16:59	amalloy	* sequence
+2013-11-11 20:17:00	technomancy	list? is the rubbish one; list* is entirely reasonable
+2013-11-11 20:17:07	TimMc	hrmph
+2013-11-11 20:17:10	-->	und3rt has joined #clojure
+2013-11-11 20:17:24	technomancy	focusing on concrete types is misguided
+2013-11-11 20:17:45	TimMc	Actually, the problem is memoize.
+2013-11-11 20:17:48	 *	TimMc ducks
+2013-11-11 20:17:56	amalloy	yeah, list? is awful. i love to agree with technomancy when he wanders in to say that
+2013-11-11 20:18:11	llasram	I'm sure this will never happen to me again, but I once did want the behavior `pop` documents for "a list", and was surprised the result of `list*` didn't work with it
+2013-11-11 20:18:35	justin_smith	we should have a database of functions in core clojure and everyone's yes or no opinions on them
+2013-11-11 20:18:39	<--	graeme_f has quit (Quit: Computer has gone to sleep.)
+2013-11-11 20:18:39	justin_smith	then we could find the winner
+2013-11-11 20:18:44	justin_smith	juxt for president!
+2013-11-11 20:18:48	llasram	~juxt
+2013-11-11 20:18:49	clojurebot	juxt is the bestest option though if it doesn't weird you out
+2013-11-11 20:18:58	technomancy	whaaat why is pop a c.l.RT method?
+2013-11-11 20:18:59	llasram	Aww, not the one I was hoping for
+2013-11-11 20:19:02	<--	paulweb515 has quit (Ping timeout: 264 seconds)
+2013-11-11 20:19:14	justin_smith	~juxt
+2013-11-11 20:19:15	clojurebot	juxt is a little hard to grok but it's the best thing ever
+2013-11-11 20:19:25	rasmusto	~grok
+2013-11-11 20:19:26	clojurebot	grok is a little hard to juxt but it's the best thing ever
+2013-11-11 20:19:26	-->	typicalbender has joined #clojure
+2013-11-11 20:19:30	llasram	lol
+2013-11-11 20:19:32	coventry	It would be pretty handy to have a table of which clojure.core functions suck and why, actually.
+2013-11-11 20:19:35	mdrogalis	Hah
+2013-11-11 20:19:38	<--	amerinese has quit (Remote host closed the connection)
+2013-11-11 20:19:47	ToBeReplaced	~complement
+2013-11-11 20:19:48	clojurebot	It's greek to me.
+2013-11-11 20:20:03	justin_smith	coventry: we could make a funcation that puts a :sucks and a :rocks metadata on each function
+2013-11-11 20:20:10	-->	amerinese has joined #clojure
+2013-11-11 20:20:20	technomancy	am I right  in recalling that contains? isn't as bad as it used to be?
+2013-11-11 20:20:36	ToBeReplaced	as long as "flatten" is marked with :worst
+2013-11-11 20:20:45	justin_smith	yes!
+2013-11-11 20:20:45	amalloy	technomancy: i forget if it's contains? or get
+2013-11-11 20:20:53	-->	eldariof has joined #clojure
+2013-11-11 20:21:00	ToBeReplaced	what's wrong with either of those?
+2013-11-11 20:21:00	justin_smith	maybe if we could just inc or dec core functions in irc
+2013-11-11 20:21:15	coventry	justin_smith: I think we should hack the compiler so that it instruments code with calls to lazybot to (inc) and (dec) the author when :sucks and :rocks functions are used.
+2013-11-11 20:21:20	<--	napper has quit (Ping timeout: 252 seconds)
+2013-11-11 20:21:20	technomancy	ToBeReplaced: contains? is actually contains-key?
+2013-11-11 20:21:26	justin_smith	lol
+2013-11-11 20:21:41	lpvb	how do I coerce the types of record fields, do I just type hint them?
+2013-11-11 20:21:42	technomancy	ToBeReplaced: and it's worse because there's a .contains method that actually does what you'd expect
+2013-11-11 20:21:54	ToBeReplaced	yeah, that doesn't smell fishy to me for some reason
+2013-11-11 20:21:59	technomancy	I think at least now it throws instead of silently returning false
+2013-11-11 20:22:16	<--	Sigma has quit (Quit: WeeChat 0.4.2)
+2013-11-11 20:22:23	ToBeReplaced	throws on what, nil/
+2013-11-11 20:22:44	-->	Sigma has joined #clojure
+2013-11-11 20:22:45	justin_smith	non-int key on a sequential type
+2013-11-11 20:22:51	<--	TEttinger has quit (Ping timeout: 260 seconds)
+2013-11-11 20:22:55	-->	seangone has joined #clojure
+2013-11-11 20:23:02	<--	blk has quit (Ping timeout: 240 seconds)
+2013-11-11 20:23:06	ToBeReplaced	,(contains? [] :foo)
+2013-11-11 20:23:08	clojurebot	false
+2013-11-11 20:23:29	<--	faust45 has quit (Quit: faust45)
+2013-11-11 20:23:34	amalloy	,(contains? 'q :foo)
+2013-11-11 20:23:35	clojurebot	#<IllegalArgumentException java.lang.IllegalArgumentException: contains? not supported on type: clojure.lang.Symbol>
+2013-11-11 20:23:48	-->	bbloom has joined #clojure
+2013-11-11 20:23:54	-->	ipostelnik has joined #clojure
+2013-11-11 20:24:04	justin_smith	but for that case, I think it always threw
+2013-11-11 20:24:07	amalloy	no
+2013-11-11 20:24:07	-->	blk has joined #clojure
+2013-11-11 20:24:11	justin_smith	oh
+2013-11-11 20:24:14	justin_smith	never mind then
+2013-11-11 20:24:18	amalloy	&(contains? 'q :foo)
+2013-11-11 20:24:18	lazybot	⇒ false
+2013-11-11 20:24:34	<--	scott__ has quit (Quit: Page closed)
+2013-11-11 20:24:41	ToBeReplaced	amalloy: what's the diff between those two commands?
+2013-11-11 20:24:43	<--	amerinese has quit (Ping timeout: 260 seconds)
+2013-11-11 20:24:45	ToBeReplaced	the & vs the ,
+2013-11-11 20:25:02	-->	shoshin_ has joined #clojure
+2013-11-11 20:25:03	<--	shoshin_ has quit (Max SendQ exceeded)
+2013-11-11 20:25:04	amalloy	did you notice anything different happen when i used them?
+2013-11-11 20:25:07	coventry	&*clojure-version*
+2013-11-11 20:25:07	lazybot	⇒ {:major 1, :minor 4, :incremental 0, :qualifier nil}
+2013-11-11 20:25:09	coventry	,*clojure-version*
+2013-11-11 20:25:09	clojurebot	{:interim true, :major 1, :minor 6, :incremental 0, :qualifier "master"}
+2013-11-11 20:25:10	<--	ruff has quit (Quit: ChatZilla 0.9.90.1 [Firefox 25.0/20131028112627])
+2013-11-11 20:25:30	ToBeReplaced	kk sweet
+2013-11-11 20:25:38	-->	shoshin_ has joined #clojure
+2013-11-11 20:26:09	<--	harpreet_ has quit (Quit: harpreet_)
+2013-11-11 20:26:52	<--	und3rt has quit (Quit: Colloquy for iPhone - http://colloquy.mobi)
+2013-11-11 20:27:41	<--	seangone has quit (Ping timeout: 252 seconds)
+2013-11-11 20:27:44	<--	fikusz has quit (Ping timeout: 245 seconds)
+2013-11-11 20:28:10	-->	fikusz has joined #clojure
+2013-11-11 20:29:09	<--	zamaterian has quit (Read error: Connection reset by peer)
+2013-11-11 20:29:24	<--	_Vi has quit (Ping timeout: 245 seconds)
+2013-11-11 20:30:11	TimMc	ToBeReplaced: The bots have different Clojure versions in their sandbox evaluators.
+2013-11-11 20:30:35	<--	benmoss_ has quit (Quit: benmoss_)
+2013-11-11 20:30:43	Raynes	Funfact: I have 396 public pastes and 395 private pastes. This was not intentional.w
+2013-11-11 20:30:51	Raynes	(on refheap)
+2013-11-11 20:31:42	-->	benmoss_ has joined #clojure
+2013-11-11 20:31:42	amalloy	Raynes: really? that number seems way too low
+2013-11-11 20:31:52	amalloy	or do you mean, just pastes you, personally, made
+2013-11-11 20:31:57	Raynes	amalloy: Me of course.
+2013-11-11 20:32:26	cYmen	It says here that the vector returned by subvec shares structure with the original one. Isn't that rather odd considering all the immutabiliy everywhere?
+2013-11-11 20:32:29	<--	ltw has quit (Remote host closed the connection)
+2013-11-11 20:32:30	Raynes	If Refheap only had 791 pastes, I should probably have given up on it ages ago :P
+2013-11-11 20:33:00	dnolen	cYmen: Clojure data structures generally share structure
+2013-11-11 20:33:03	-->	ltw has joined #clojure
+2013-11-11 20:33:28	cYmen	dnolen: But that doesn't matter if I never mutate any...
+2013-11-11 20:33:28	justin_smith	cYmen: that is one of the advantages of immutability, is being able to safely share structure whenever possible
+2013-11-11 20:33:42	justin_smith	in terms of memory usage
+2013-11-11 20:34:09	-->	ustunozgur has joined #clojure
+2013-11-11 20:34:10	dnolen	cYmen: structure sharing is how/why Clojure data structures perform well
+2013-11-11 20:34:13	amalloy	well, not so much memory usage as time, justin_smith
+2013-11-11 20:34:14	justin_smith	maybe make that saving graces, making up for the extra mem usage because you don't update in place
+2013-11-11 20:34:16	<--	ustunozgur has quit (Remote host closed the connection)
+2013-11-11 20:34:22	-->	ustunozgur has joined #clojure
+2013-11-11 20:34:34	technomancy	cYmen: what you pasted is not odd, but subvec does have some weirdness in its trade-off between efficiency and possible memory leaks
+2013-11-11 20:34:35	danneu	cYmen: mutability is opt-in.
+2013-11-11 20:34:56	amalloy	usually you just throw away the old version, so the fact that you share structure with it impacts only speed, not space
+2013-11-11 20:35:04	<--	alpheus has quit (Ping timeout: 245 seconds)
+2013-11-11 20:35:20	amalloy	of course, you don't *have* to throw it away, which is the point of immutability
+2013-11-11 20:35:23	technomancy	amalloy: except it's a reference to the whole original vector, not just part
+2013-11-11 20:35:39	amalloy	technomancy: i'm not talking about subvec; that's your hobby horse
+2013-11-11 20:35:54	amalloy	just sharing in general
+2013-11-11 20:36:00	technomancy	oh, I didn't bring it up
+2013-11-11 20:36:15	justin_smith	see, more evidence that we need a :sucks or :rocks metadata on every core function
+2013-11-11 20:36:40	technomancy	justin_smith: dunno; I think subvec is more nuanced. needs :perilous.
+2013-11-11 20:36:42	cYmen	so if I go (let [foo [1 2 3] bar (subvec foo 2)] ...) I can screw myself because changes to foo or bar also change the other?
+2013-11-11 20:36:49	technomancy	cYmen: no
+2013-11-11 20:37:02	<--	ltw has quit (Ping timeout: 240 seconds)
+2013-11-11 20:37:08	TimMc	:docs-actually-important
+2013-11-11 20:37:12	<--	ly- has quit (Read error: Connection reset by peer)
+2013-11-11 20:37:14	technomancy	you can screw yourself up because of a memory leak, but you can't change either vector
+2013-11-11 20:37:19	-->	rivarun has joined #clojure
+2013-11-11 20:37:28	amalloy	cYmen: it's impossible to change foo or bar
+2013-11-11 20:37:32	-->	ly- has joined #clojure
+2013-11-11 20:37:36	amalloy	so that doesn't matter
+2013-11-11 20:37:47	<--	Joreji has quit (Ping timeout: 272 seconds)
+2013-11-11 20:38:00	cYmen	so how is immutability opt-in?
+2013-11-11 20:38:09	justin_smith	cYmen: you can use java arrays
+2013-11-11 20:38:12	justin_smith	or java lists
+2013-11-11 20:38:17	danneu	mutability*
+2013-11-11 20:38:18	technomancy	cYmen: just try to modify a clojure vector
+2013-11-11 20:38:18	TimMc	You can change vectors if you do some very naughty things, but you really can't do it by accident.
+2013-11-11 20:38:39	TimMc	cYmen: *Mutability* is opt-in.
+2013-11-11 20:38:45	-->	napper has joined #clojure
+2013-11-11 20:38:51	danneu	cYmen: You can also 'mark' clojure datastructures as "mutable" http://clojure.org/transients
+2013-11-11 20:38:56	justin_smith	it is opt in, in that you can choose what data structures you use
+2013-11-11 20:39:15	amalloy	danneu: that is totally wrong. transients do not make data structures mutable
+2013-11-11 20:39:21	danneu	damn
+2013-11-11 20:39:36	-->	harpreet_ has joined #clojure
+2013-11-11 20:39:42	amalloy	they permit the data structures to use mutability as an optimization; they do not allow you to mutate them without restraint
+2013-11-11 20:39:44	technomancy	welllll. not *totally* wrong.
+2013-11-11 20:39:47	technomancy	just misses the point.
+2013-11-11 20:39:59	danneu	yeah, it was too haste a simplification
+2013-11-11 20:40:02	Raynes	amalloy technomancy fight: go!
+2013-11-11 20:40:10	danneu	too dumb*
+2013-11-11 20:40:22	danneu	i really just wanted to share the link
+2013-11-11 20:40:28	nDuff	...more than that, one can't assume that calculating a mutated version of a transient will change it.
+2013-11-11 20:40:33	nDuff	one simply can't assume that doing so _won't_.
+2013-11-11 20:41:09	 *	technomancy searches for a "call a function; data structure changes... you can't explain that" gif
+2013-11-11 20:41:12	<--	yedi_ has quit (Remote host closed the connection)
+2013-11-11 20:41:20	-->	und3rt has joined #clojure
+2013-11-11 20:41:31	cYmen	Where is #clojure-noobs? :)
+2013-11-11 20:41:36	danneu	right hurr
+2013-11-11 20:41:40	-->	yedi has joined #clojure
+2013-11-11 20:41:43	danneu	right hurr with me, homie
+2013-11-11 20:41:44	-->	bobbrahms has joined #clojure
+2013-11-11 20:42:31	-->	addisaden has joined #clojure
+2013-11-11 20:42:50	TimMc	Hmm, what's this TransactionalHashMap thingy?
+2013-11-11 20:43:25	justin_smith	technomancy: http://memegenerator.net/instance/42894672
+2013-11-11 20:43:28	<--	typicalbender has quit (Quit: Leaving.)
+2013-11-11 20:43:40	TimMc	public TransactionalHashMap() { this(421); } Nothing like a magic number to spice things up.
+2013-11-11 20:43:46	TimMc	https://github.com/clojure/clojure/blob/clojure-1.5.1/src/jvm/clojure/lang/TransactionalHashMap.java
+2013-11-11 20:43:46	-->	Joreji has joined #clojure
+2013-11-11 20:43:51	technomancy	justin_smith: it's like you read my mind
+2013-11-11 20:44:01	justin_smith	or maybe your words on irc
+2013-11-11 20:44:12	-->	zamaterian has joined #clojure
+2013-11-11 20:44:47	-->	malesch has joined #clojure
+2013-11-11 20:44:58	technomancy	it's another possibility
+2013-11-11 20:45:15	<--	eldariof has quit (Ping timeout: 260 seconds)
+2013-11-11 20:45:25	danneu	Question: Some contributors on my project have started bikeshedding about my preference to refer to coordinates as {:x _, :y _} instead of a tuple [x y]. [x y] is only nice if you're always destructuring it. but otherwise, (coords 0) and (coords 1) are heinous to my eyes.
+2013-11-11 20:45:54	justin_smith	danneu: I agree, I even do :x :y :x' :y' for quads
+2013-11-11 20:45:57	-->	glosoli has joined #clojure
+2013-11-11 20:45:58	-->	yedi_ has joined #clojure
+2013-11-11 20:46:06	<--	yedi has quit (Ping timeout: 252 seconds)
+2013-11-11 20:46:15	danneu	thanks. bro-support. i'll remain adamant
+2013-11-11 20:46:15	<--	bobbrahms has quit (Ping timeout: 260 seconds)
+2013-11-11 20:46:25	justin_smith	then you can just do a {:keys [x y x' y']} and be done with it
+2013-11-11 20:46:36	-->	jessup has joined #clojure
+2013-11-11 20:46:36	justin_smith	destructuring ftw
+2013-11-11 20:46:43	 *	`cbp always destructures never not destructures
+2013-11-11 20:47:07	TimMc	https://groups.google.com/forum/#!msg/clojure/A9Y9wml49_s/EUF4E43PJRIJ
+2013-11-11 20:47:17	<--	mahnve has quit (Ping timeout: 272 seconds)
+2013-11-11 20:47:42	<--	jasonbray has quit (Quit: Computer has gone to sleep.)
+2013-11-11 20:47:52	-->	richardiii has joined #clojure
+2013-11-11 20:48:25	-->	mahnve has joined #clojure
+2013-11-11 20:48:38	<--	jalcine has quit (Excess Flood)
+2013-11-11 20:50:42	<--	asabil has quit (Quit: Connection closed for inactivity)
+2013-11-11 20:50:56	<--	jacobm has quit (Quit: Leaving)
+2013-11-11 20:51:40	<--	ranek has quit (Ping timeout: 264 seconds)
+2013-11-11 20:52:59	<--	richardiii has quit (Ping timeout: 272 seconds)
+2013-11-11 20:53:26	cYmen	Could somebody please explain this to me: Also, in some cases keys can be used as functions of maps. For example, keyword keys can, but string and integer keys cannot.
+2013-11-11 20:53:53	`cbp	,(:a {:a 1})
+2013-11-11 20:53:55	clojurebot	1
+2013-11-11 20:54:02	cYmen	I apparently have no useful notion of what a keyword is internally.
+2013-11-11 20:54:23	cYmen	Because I am very surprised that it can be looked up in a way that allows using it as a function.
+2013-11-11 20:54:26	<--	jessup has quit (Quit: leaving)
+2013-11-11 20:54:32	cYmen	Wouldn't that require knowing that it is in a map?
+2013-11-11 20:54:45	justin_smith	cYmen: it is an object, that is callable
+2013-11-11 20:54:45	-->	jessup has joined #clojure
+2013-11-11 20:55:07	justin_smith	it has the right method to try and look itself up if the arg is a map or struct
+2013-11-11 20:55:12	-->	akurilin has joined #clojure
+2013-11-11 20:55:43	<--	slj has quit (Quit: Lost terminal)
+2013-11-11 20:55:55	tbaldridge	cYmen: https://github.com/clojure/clojure/blob/master/src/jvm/clojure/lang/Keyword.java it's pretty simple stuff
+2013-11-11 20:55:58	`cbp	cYmen: here https://github.com/clojure/clojure/blob/master/src/jvm/clojure/lang/Keyword.java#L24
+2013-11-11 20:56:08	`cbp	:-(
+2013-11-11 20:56:47	<--	Sorella has quit (Quit: Ex-Chat)
+2013-11-11 20:56:51	<--	und3rt has quit (Quit: Colloquy for iPhone - http://colloquy.mobi)
+2013-11-11 20:57:25	<--	zamaterian has quit (Ping timeout: 272 seconds)
+2013-11-11 20:57:28	-->	poppingtonic has joined #clojure
+2013-11-11 20:57:33	poppingtonic	Hello
+2013-11-11 20:57:41	`cbp	hi
+2013-11-11 20:57:50	<--	jhulten has quit (Remote host closed the connection)
+2013-11-11 20:57:52	-->	graeme_f has joined #clojure
+2013-11-11 20:58:16	-->	jhulten has joined #clojure
+2013-11-11 20:58:34	poppingtonic	Is ClojureScript One still relevant? I'm working through it, but the instructions in the Getting Started guide aren't working out...
+2013-11-11 20:58:42	<--	ambroseb_ has quit (Remote host closed the connection)
+2013-11-11 20:58:52	poppingtonic	I'm not sure what needs to be fixed
+2013-11-11 20:59:00	tbaldridge	poppingtonic: it was replaced by Pedestal App
+2013-11-11 20:59:07	-->	WWWest has joined #clojure
+2013-11-11 20:59:08	<--	daveliepmann has quit (Read error: Connection reset by peer)
+2013-11-11 20:59:11	tbaldridge	poppingtonic: http://pedestal.io/
+2013-11-11 20:59:22	-->	Hebo has joined #clojure
+2013-11-11 20:59:35	<--	graeme_f has quit (Client Quit)
+2013-11-11 20:59:36	-->	daveliepmann has joined #clojure
+2013-11-11 20:59:49	<--	rfarrjr has quit (Remote host closed the connection)
+2013-11-11 20:59:50	-->	jhulten_ has joined #clojure
+2013-11-11 21:00:14	<--	jhulten has quit (Read error: Connection reset by peer)
+2013-11-11 21:00:38	<--	malesch has left #clojure
+2013-11-11 21:00:54	<--	sevvie has quit (Ping timeout: 245 seconds)
+2013-11-11 21:01:12	-->	rfarrjr has joined #clojure
+2013-11-11 21:02:09	cYmen	tbaldridge, `cbp: thanks
+2013-11-11 21:02:22	<--	strangemonad has quit (Quit: strangemonad)
+2013-11-11 21:02:30	-->	graeme_f has joined #clojure
+2013-11-11 21:03:13	<--	eigenlicht has quit (Ping timeout: 272 seconds)
+2013-11-11 21:03:27	-->	typicalbender has joined #clojure
+2013-11-11 21:03:28	<--	napper has quit (Ping timeout: 260 seconds)
+2013-11-11 21:04:28	-->	jalcine- has joined #clojure
+2013-11-11 21:05:01	-->	klokbaske has joined #clojure
+2013-11-11 21:05:02	<--	iwillig has quit (Quit: Leaving.)
+2013-11-11 21:05:27	--	jalcine- is now known as jacky
+2013-11-11 21:05:27	<--	jacky has quit (Changing host)
+2013-11-11 21:05:27	-->	jacky has joined #clojure
+2013-11-11 21:05:41	<--	Mandus has quit (Quit: leaving)
+2013-11-11 21:05:41	--	jacky is now known as jalcine
+2013-11-11 21:06:08	-->	Mandus has joined #clojure
+2013-11-11 21:06:59	-->	napper has joined #clojure
+2013-11-11 21:07:21	danneu	tbaldridge: it seems like https://github.com/magomimmo/modern-cljs is more of a Clojurescript One surrogate (a ground-up tutorial)
+2013-11-11 21:07:31	-->	vijaykiran has joined #clojure
+2013-11-11 21:08:13	tbaldridge	danneu: true, I was just stating that the author of Pedestal App is the same as ClojureScript One.
+2013-11-11 21:08:29	<--	sures has quit (Remote host closed the connection)
+2013-11-11 21:08:59	-->	p14n has joined #clojure
+2013-11-11 21:09:14	TimMc	cYmen: It's more that keyword-as-function and map-as-function are convenient ways to call get.
+2013-11-11 21:09:32	tbaldridge	Brenton Ashworth dropped ClojureScript one when he started on the Pedestal App code, so one could be considered the spiritual successor of the other.
+2013-11-11 21:10:01	-->	stask has joined #clojure
+2013-11-11 21:10:14	cYmen	TimMc: I totally get map as function but the benefit of allowing to turn the function and the argument around elude me.
+2013-11-11 21:10:56	-->	gebel has joined #clojure
+2013-11-11 21:11:05	<--	banjara has quit (Quit: Leaving.)
+2013-11-11 21:11:09	ToxicFrog	I've actually gotten into the habit of using (:key map) and I'm not sure why.
+2013-11-11 21:11:34	`cbp	cYmen: so you can get the same attribute from many maps using the function `map` and other such things
+2013-11-11 21:11:40	<--	_KK has quit (Quit: Time for me to sleep)
+2013-11-11 21:11:48	-->	banjara has joined #clojure
+2013-11-11 21:11:56	danneu	cYmen: (map :username users)
+2013-11-11 21:12:15	-->	paulweb515 has joined #clojure
+2013-11-11 21:12:20	justin_smith	also filtering by key (filter :key [{:key false} {} {:key true} {:key 1}])
+2013-11-11 21:12:33	cYmen	hm... as opposed to #(% :foo) ?well I mean...why not ..whatever I won't be confused by it any longer! harr!
+2013-11-11 21:12:39	justin_smith	or even something like (filter (comp zero? :key) coll)
+2013-11-11 21:12:54	justin_smith	that gets all items with :key that is 0
+2013-11-11 21:12:56	justin_smith	very handy
+2013-11-11 21:13:18	-->	jasonbray has joined #clojure
+2013-11-11 21:13:23	danneu	cYmen: there are some other good cases that are just hard to think of on the spot
+2013-11-11 21:13:55	<--	yedi_ has quit (Remote host closed the connection)
+2013-11-11 21:13:56	`cbp	like avoiding null pointer exceptions
+2013-11-11 21:14:21	-->	yedi has joined #clojure
+2013-11-11 21:14:24	lpvb	is there a table somewhere of clojure data structure complexities
+2013-11-11 21:14:41	danneu	`cbp: that's a good pt i often take for granted
+2013-11-11 21:14:45	danneu	,(:a nil)
+2013-11-11 21:14:46	clojurebot	nil
+2013-11-11 21:14:47	<--	davidchambers has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-11-11 21:15:13	-->	davidchambers has joined #clojure
+2013-11-11 21:15:29	<--	jergason has quit (Quit: jergason)
+2013-11-11 21:15:49	<--	shoshin_ has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 21:15:55	<--	jasonbray has quit (Client Quit)
+2013-11-11 21:16:08	-->	infynyxx_ has joined #clojure
+2013-11-11 21:17:05	<--	p14n has quit (Remote host closed the connection)
+2013-11-11 21:18:10	<--	tbaldridge has quit (Remote host closed the connection)
+2013-11-11 21:18:47	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #clojure
+2013-11-11 21:18:47	--	Topic for #clojure is "Clojure, the Language. Docs: http://clojure.org Discussion: http://groups.google.com/group/clojure"
+2013-11-11 21:18:47	--	Topic set by chouser on Thu, 21 Jul 2011 02:57:02
+2013-11-11 21:18:47	--	Nicks #clojure: [@ChanServ [Neurotic] _1126 _5kg _adie _bob _Bravado _janne `cbp abaker abeaumont abuiles acagle adamhill adammh addisaden Adeon adx ahihi AimHere aka akhudek_ aking akrikos akurilin alambert_ alexbaranosky alexyakushev algernon alindeman alisdair amalloy ambroff ambroff_ amro andersf andrewclegg andrewmcveigh andrewstewart andreypopp anekos_ anhall anthonyl Apage43 aravind arbscht ari` arohner arrdem Ash asteve astrolin augustl averell avishai AWizzArd Ayey_ babilen bakedb bakkdoor bamse banjara bbloom bdash beawesomeinstead benizi_ benkay benmoss benmoss_ benny_ beppu bifido Biohazard bitemyapp bja bjorkintosh blk Blkt blooberr_ blrm bobbycalderwood boblarrick BobSchack bobwilliams Bodil boodle bostonou_ brainproxy brand0 brianwong brixen Bronsa broquaint bruceadams bryanl bwreilly calebmpeterson1 calumet cannedprimates cantsin carlosgaldino cdombroski certaint1 cespare charliekilo|away Chasm chewbranca ChiralSym choas ChongLi chouser_log Chousuke chrisrossi chriswk clojurebot cmbntr cmdrdats cmiles74 cmn codejury coffeejunk conan CookedGryphon coventry cow-orker cross cursork cYmen Daeken daemian dakrone dan danielgl_ danlarkin danlentz danneu danoyoung danvet_ daveliepmann david118 davidboy davidchambers dcolish ddima_ dean|away deech demolithion Derander DerGuteMoritz devinus_ devn dhm dnolen dobladez doctorinserenity DomKM doomlord_ dotemacs dottedmag dougs87 drbobbeaty drewr drmegahertz dsantiago dyreshark dziga e0n_ ea- eagleflo echo-area eci edoloughlin edw eevar effy efjboss egghead ehd ehtesh eigenjoy eis_ elfenlaid Ember- endou enzoaquino ered erewhon Ernestas EToS Excureo expez ez121sl fbernier FDFlock felipe` fikusz flashingpumpkin fmu foolano ForNeVeR Foxboron franks42 freiksenet fridim fsargent fu86^off gary_poster|away gaYak gcatlin gcmalloc gebel genehack_ geoffeg geoffh_ gerard0 gf3 gfredericks ggherdov ggreg gideonite gko glosoli gluegadget Gooder gozala graeme_f grandy gravity_ gridaphobe grim_radical grncdr groot_ ground4 gstamp Guest52726 guilleiguaran_ guns gws h0bbit_ H4ns hakvroot hanDerPeder harpreet_ heath Hebo hfaafb hhatch hhenkel hhutch` hiredman hive-mind hlprmnky honkfestival honza housejester hsalokor_ hsestupin hugod hungryblank hvesalai hyko hyperboreean hyPiRion iamjarvo ibdknox icedp idryman ieure igorw indigo inerte infynyxx infynyxx_ Inoperable ipostelnik ivan ivan\ ivan` iwilcox j0ni jaffe__ jaimef jalcine jamiei_ Janiczek JanxSpirit Jarda jarpiain jarrison jave jayne jballanc jcromartie jcrossley3 JDShu jebberjeb jeremyheiler jessup jetlag jhulten_ jimduey jimrthy_away jkj jlewis jml joegallo_ johann_ jonasac jonasen JonMR jonsmock Joreji joshbamboo1 joshskidmore josteink jschairb jstepien JStoker jtoy JulienFantin_ julienXX julio_ justicefries justin_smith justinjaffray justinmcp jwatt jweiss jyeo jzelinskie karls karnowski kategeek katratxo kaw kazimir42 keen__ kephale kgerman kittylyst klobucar klokbaske kludge` kmicu Kneferilis knyppeldynan kofno konr kraft kral|off_ kristian- Kruppe ktsuji kwmiebach kzar L1fescape l1x l2x l3dx L42y l4u lancepantz lasers_in_the_ju lazybot lazyshot leathekd leifw Leonidas leptonix Lewnskie lfranchi Licenser liszt llambda llasram lluchs lnostdal1 lobotomy lodin lokydor lopex lpvb lunk_ Luyt ly- lynaghk` m_3 m_m15 MacCoaster machuga madscientist_ magnars mahnve maio majoh malyn Mandus marcopolo2 matko matt_c matt`` matthavener mattmoss mattyw mcav mccraig mdrogalis Mendor|scr metadaddy___ metellus mgaare_ microamp Mikalv mikerod mimieux mischov mishok13 mjc1 mjmoriarity mknoszlig mlb- mmullis mnemnion moogatro1ic moquist_ moratti Morgawr mpenet mrb_bk mrBliss mrhanky mrowe msassak msgodf mtd mtp mucker muhoo musicalchair n_b napper Natch nathanic navgeet_ nDuff neaer neaterthan necronian nightfly nighty- nighty-_ nighty^ ninjudd nlew noahc noidi nollidj noncom noplamodo nseger_ nuclearsandwich nullman octagon_ octe Odinodin ohcibi Okasu OlegYch4 omarkj opqdonut orkaa Orva OscarZ osnr OtherRaven oubiwann owenb__ owengalenjones ozzloy paddymahoney pashields patricko1 paulweb515 pcarrier pel_daniel pepijndevos peterdecroos petterw pfeyz pisketti pjstadig plains pobody1 poggio poppingtonic poutsi pradeepc prip przl Pupnik pyrtsa pyykkis qz racycle rafaelferreira rafl Ragnor rasmusto Raynes Raynos rbolkey rboyd rbranson rcg reder redinger reeses reiddraper rfarrjr rhg135 riley526 rippy rivarun rkneufeld rkz rlb rlr robink rotty rowth rplaca rtl rufoa rxe1 ryland S11001001 s_e saiam^ saint_cypher samflores samrat_ saolsen satshabad sauerkrause saurik scalabl3 scgilardi- scizo Scorchin scottj seancorfield seangrove seantallen sebastianb SegFaultAX septomin sethalves sghai Shambles_ Shaolinburper shiranai_ SHODAN shoky shoshin si14 Sigma silven simcop2387 sjl slpsys sluukkonen smiler so sontek sorenmacbeth spligak srcerer ssedano ssfrr_afk ssideris stask statonjr strax strobegen sundbp_ sw1nn_ swarthy sxn synfinatic t_hash TakeV tauntaun tbaldridge tcrawley|away technomancy teemu_f telex tephra terjesb terom teslanick TEttinger3 tfnico thasc the-kenny TheBusby TheBusby1 TheLastProject thelorax123 TheMoonMaster theshizzah thorwil thoughtmanifest tieTYT2 TimMc tmarble ToBeReplaced tobyp tomaw tomhs_ tomku toretore tos9 ToxicFrog tpatja tpope trinary Tristam TristamWrk troezen tsantos tsurutom Tuna-Fish tupi turbofail twem2 tylergillies_ typicalbender Uatec ucb unsymbol uris77 ustunozgur Viesti vijaykiran vili vishesh vojd vsync waf warmgurn wdouglas` wedr whee whilo whoahbot Wild_Cat wilfredh willb wink wjlroe wkelly wolfes_ wunki WWWest xeqi Xorlev yacin yacks Yamazaki-kun yazirian yedi yogthos yumike zaiste zakwilson zaphar_ps Zariel zenoli zeroem zerokarmaleft zeroz zju zodiak zoldar_ zz_karupanerura]
+2013-11-11 21:18:47	--	Channel #clojure: 686 nicks (1 op, 0 voices, 685 normals)
+2013-11-11 21:18:51	--	Mode #clojure [+cnt]
+2013-11-11 21:18:51	--	Channel created on Tue, 11 Dec 2007 23:04:26
+2013-11-11 21:19:05	<--	yedi has quit (Ping timeout: 268 seconds)
+2013-11-11 21:19:20	-->	cldwalker__ has joined #clojure
+2013-11-11 21:19:20	<--	infynyxx has quit (Ping timeout: 260 seconds)
+2013-11-11 21:19:48	-->	pbostrom has joined #clojure
+2013-11-11 21:19:58	bja	apparently we can now set! *print-fn* in cljs. Whenever that support landed was a good day.
+2013-11-11 21:20:09	-->	elliottw has joined #clojure
+2013-11-11 21:20:49	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #clojure
+2013-11-11 21:20:49	--	Topic for #clojure is "Clojure, the Language. Docs: http://clojure.org Discussion: http://groups.google.com/group/clojure"
+2013-11-11 21:20:49	--	Topic set by chouser on Thu, 21 Jul 2011 02:57:02
+2013-11-11 21:20:50	--	Nicks #clojure: [@ChanServ [Neurotic] _1126 _5kg _adie _bob _Bravado _janne `cbp abaker abeaumont abuiles acagle adamhill adammh addisaden Adeon adx ahihi AimHere aka akhudek_ aking akrikos akurilin alambert_ alexbaranosky alexyakushev algernon alindeman alisdair amalloy ambroff ambroff_ amro andersf andrewclegg andrewmcveigh andrewstewart andreypopp anekos_ anhall anthonyl Apage43 aravind arbscht ari` arohner arrdem Ash asteve astrolin augustl averell avishai AWizzArd Ayey_ babilen bakedb bakkdoor bamse banjara bbloom bdash beawesomeinstead benizi_ benkay benmoss benmoss_ benny_ beppu bifido Biohazard bitemyapp bja bjorkintosh blk Blkt blooberr_ blrm bobbycalderwood boblarrick BobSchack bobwilliams Bodil boodle bostonou_ brainproxy brand0 brianwong brixen Bronsa broquaint bruceadams bryanl bwreilly calebmpeterson1 calumet cannedprimates cantsin carlosgaldino cdombroski certaint1 cespare charliekilo|away Chasm chewbranca ChiralSym choas ChongLi chouser_log Chousuke chrisrossi chriswk cldwalker__ clojurebot cmbntr cmdrdats cmiles74 cmn codejury coffeejunk conan CookedGryphon coventry cow-orker cross cursork cYmen Daeken daemian dakrone dan danielgl_ danlarkin danlentz danneu danoyoung danvet_ daveliepmann david118 davidboy davidchambers dcolish ddima_ dean|away deech demolithion Derander DerGuteMoritz devinus_ devn dhm dnolen dobladez doctorinserenity DomKM doomlord_ dotemacs dottedmag dougs87 drbobbeaty drewr drmegahertz dsantiago dyreshark dziga e0n_ ea- eagleflo echo-area eci edoloughlin edw eevar effy efjboss egghead ehd ehtesh eigenjoy eis_ elfenlaid elliottw Ember- endou enzoaquino ered erewhon Ernestas EToS Excureo expez ez121sl fbernier FDFlock felipe` fikusz flashingpumpkin fmu foolano ForNeVeR Foxboron franks42 freiksenet fridim fsargent fu86^off gary_poster|away gaYak gcatlin gcmalloc gebel genehack_ geoffeg geoffh_ gerard0 gf3 gfredericks ggherdov ggreg gideonite gko glosoli gluegadget Gooder gozala graeme_f grandy gravity_ gridaphobe grim_radical grncdr groot_ ground4 gstamp Guest52726 guilleiguaran_ guns gws h0bbit_ H4ns hakvroot hanDerPeder harpreet_ heath Hebo hfaafb hhatch hhenkel hhutch` hiredman hive-mind hlprmnky honkfestival honza housejester hsalokor_ hsestupin hugod hungryblank hvesalai hyko hyperboreean hyPiRion iamjarvo ibdknox icedp idryman ieure igorw indigo inerte infynyxx_ Inoperable ipostelnik ivan ivan\ ivan` iwilcox j0ni jaffe__ jaimef jalcine jamiei_ Janiczek JanxSpirit Jarda jarpiain jarrison jave jayne jballanc jcromartie jcrossley3 JDShu jebberjeb jeremyheiler jessup jetlag jhulten_ jimduey jimrthy_away jkj jlewis jml joegallo_ johann_ jonasac jonasen JonMR jonsmock Joreji joshbamboo1 joshskidmore josteink jschairb jstepien JStoker jtoy JulienFantin_ julienXX julio_ justicefries justin_smith justinjaffray justinmcp jwatt jweiss jyeo jzelinskie karls karnowski kategeek katratxo kaw kazimir42 keen__ kephale kgerman kittylyst klobucar klokbaske kludge` kmicu Kneferilis knyppeldynan kofno konr kraft kral|off_ kristian- Kruppe ktsuji kwmiebach kzar L1fescape l1x l2x l3dx L42y l4u lancepantz lasers_in_the_ju lazybot lazyshot leathekd leifw Leonidas leptonix Lewnskie lfranchi Licenser liszt llambda llasram lluchs lnostdal1 lobotomy lodin lokydor lopex lpvb lunk_ Luyt ly- lynaghk` m_3 m_m15 MacCoaster machuga madscientist_ magnars mahnve maio majoh malyn Mandus marcopolo2 matko matt_c matt`` matthavener mattmoss mattyw mcav mccraig mdrogalis Mendor|scr metadaddy___ metellus mgaare_ microamp Mikalv mikerod mimieux mischov mishok13 mjc1 mjmoriarity mknoszlig mlb- mmullis mnemnion moogatro1ic moquist_ moratti Morgawr mpenet mrb_bk mrBliss mrhanky mrowe msassak msgodf mtd mtp muhoo musicalchair n_b napper Natch nathanic navgeet_ nDuff neaer neaterthan necronian nightfly nighty- nighty-_ nighty^ ninjudd nlew noahc noidi nollidj noncom noplamodo nseger_ nuclearsandwich nullman octagon_ octe Odinodin ohcibi Okasu OlegYch4 omarkj opqdonut orkaa Orva OscarZ osnr OtherRaven oubiwann owenb__ owengalenjones ozzloy paddymahoney pashields patricko1 paulweb515 pbostrom pcarrier pel_daniel pepijndevos peterdecroos petterw pfeyz pisketti pjstadig plains pobody1 poggio poppingtonic poutsi pradeepc prip przl Pupnik pyrtsa pyykkis qz racycle rafaelferreira rafl Ragnor rasmusto Raynes Raynos rbolkey rboyd rbranson rcg reder redinger reeses reiddraper rfarrjr rhg135 riley526 rippy rivarun rkneufeld rkz rlb rlr robink rotty rowth rplaca rtl rufoa rxe1 ryland S11001001 s_e saiam^ saint_cypher samflores samrat_ saolsen satshabad sauerkrause saurik scalabl3 scgilardi- scizo Scorchin scottj seancorfield seangrove seantallen sebastianb SegFaultAX septomin sethalves sghai Shambles_ Shaolinburper shiranai_ SHODAN shoky shoshin si14 Sigma silven simcop2387 sjl slpsys sluukkonen smiler so sontek sorenmacbeth spligak srcerer ssedano ssfrr_afk ssideris stask statonjr strax strobegen sundbp_ sw1nn_ swarthy sxn synfinatic t_hash TakeV tauntaun tbaldridge tcrawley|away technomancy teemu_f telex tephra terjesb terom teslanick TEttinger3 tfnico thasc the-kenny TheBusby TheBusby1 TheLastProject thelorax123 TheMoonMaster theshizzah thorwil thoughtmanifest tieTYT2 TimMc tmarble ToBeReplaced tobyp tomaw tomhs_ tomku toretore tos9 ToxicFrog tpatja tpope trinary Tristam TristamWrk troezen tsantos tsurutom Tuna-Fish tupi turbofail twem2 tylergillies_ typicalbender Uatec ucb unsymbol uris77 ustunozgur Viesti vijaykiran vili vishesh vojd vsync waf warmgurn wdouglas` wedr whee whilo whoahbot Wild_Cat wilfredh willb wink wjlroe wkelly wolfes_ wunki WWWest xeqi Xorlev yacin yacks Yamazaki-kun yazirian yogthos yumike zaiste zakwilson zaphar_ps Zariel zenoli zeroem zerokarmaleft zeroz zju zodiak zoldar_ zz_karupanerura]
+2013-11-11 21:20:50	--	Channel #clojure: 686 nicks (1 op, 0 voices, 685 normals)
+2013-11-11 21:20:55	--	Mode #clojure [+cnt]
+2013-11-11 21:20:55	--	Channel created on Tue, 11 Dec 2007 23:04:26
+2013-11-11 21:20:57	danneu	Is there a good place to manipulate the jvm state like inserting a provider (Security/insertProviderAt (BouncyCastleProvider.) 1)
+2013-11-11 21:21:04	danneu	A central place*
+2013-11-11 21:21:26	-->	mucker has joined #clojure
+2013-11-11 21:21:31	lpvb	,(range \a \z)
+2013-11-11 21:21:31	clojurebot	#<ClassCastException java.lang.ClassCastException: java.lang.Character cannot be cast to java.lang.Number>
+2013-11-11 21:22:15	<--	napper has quit (Ping timeout: 240 seconds)
+2013-11-11 21:23:06	lpvb	,(map char (range (int \a) (inc (int \z))))
+2013-11-11 21:23:06	clojurebot	(\a \b \c \d \e ...)
+2013-11-11 21:23:14	poppingtonic	tbaldridge: ok, pedestal is a great starter
+2013-11-11 21:23:59	<--	dotemacs has quit (Quit: Connection closed for inactivity)
+2013-11-11 21:24:37	danneu	lpvb: frankly i like (seq "abcdef...xyz") better
+2013-11-11 21:24:37	-->	noncom|2 has joined #clojure
+2013-11-11 21:25:26	-->	seangone has joined #clojure
+2013-11-11 21:25:42	<--	mucker has quit (Ping timeout: 252 seconds)
+2013-11-11 21:27:12	TimMc	&(map (comp char (partial + 16r61)) (range 26))
+2013-11-11 21:27:12	lazybot	⇒ (\a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z)
+2013-11-11 21:27:27	-->	biggbear has joined #clojure
+2013-11-11 21:27:27	TimMc	^ magic numbers like the palindromic 16r61 are just better :-P
+2013-11-11 21:27:55	lpvb	,16r61
+2013-11-11 21:27:57	clojurebot	97
+2013-11-11 21:27:58	-->	EzeQL has joined #clojure
+2013-11-11 21:28:11	<--	banjara has quit (Quit: Leaving.)
+2013-11-11 21:28:33	-->	napper has joined #clojure
+2013-11-11 21:28:35	TimMc	61 is 97 in base (radix) 16
+2013-11-11 21:28:56	-->	banjara has joined #clojure
+2013-11-11 21:29:00	lpvb	I know
+2013-11-11 21:29:29	-->	jergason has joined #clojure
+2013-11-11 21:29:33	lpvb	why not just
+2013-11-11 21:29:36	lpvb	,0x61
+2013-11-11 21:29:36	clojurebot	97
+2013-11-11 21:29:52	TimMc	Because palindromes!
+2013-11-11 21:29:58	lpvb	lol
+2013-11-11 21:30:03	TimMc	Exactly.
+2013-11-11 21:30:16	danneu	isn't it so you can use decimal 26 in the range?
+2013-11-11 21:30:35	<--	banjara has quit (Client Quit)
+2013-11-11 21:30:36	danneu	oh
+2013-11-11 21:30:40	<--	edw has quit (Quit: Computer has gone to sleep.)
+2013-11-11 21:30:45	-->	amerinese has joined #clojure
+2013-11-11 21:31:03	<--	seangone has quit (Ping timeout: 240 seconds)
+2013-11-11 21:31:17	-->	banjara has joined #clojure
+2013-11-11 21:31:43	danneu	hope a convo starts so thatll get pushed above the fold.
+2013-11-11 21:31:48	-->	alpheus has joined #clojure
+2013-11-11 21:32:05	TimMc	&(map read-string (for [n (range 10)] (str 1 n \r n 1)))
+2013-11-11 21:32:05	lazybot	⇒ (1 12 25 40 57 76 97 120 145 172)
+2013-11-11 21:32:34	<--	graeme_f has quit (Quit: Computer has gone to sleep.)
+2013-11-11 21:32:36	lpvb	how do I define namespace privte constants?
+2013-11-11 21:32:42	lpvb	(def- x 5) doesn't work
+2013-11-11 21:32:45	<--	mpenet has quit (Remote host closed the connection)
+2013-11-11 21:33:14	lpvb	(defn- x [] 5) is tedious
+2013-11-11 21:33:15	-->	jergason_ has joined #clojure
+2013-11-11 21:33:25	llasram	(def ^:private foo ...)
+2013-11-11 21:33:32	TimMc	defn- is just sugar for defn ^:private
+2013-11-11 21:33:46	TimMc	(Macro sugar, not reader sugar.)
+2013-11-11 21:34:14	<--	nlew has quit (Remote host closed the connection)
+2013-11-11 21:34:20	<--	glosoli has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 21:34:48	<--	jergason has quit (Ping timeout: 252 seconds)
+2013-11-11 21:34:48	--	jergason_ is now known as jergason
+2013-11-11 21:34:50	-->	je has joined #clojure
+2013-11-11 21:34:51	-->	nlew has joined #clojure
+2013-11-11 21:34:51	TimMc	lpvb: Private vars are overrated; people will argue about this, but you should know that it's still easy to get ahold of private vars from outside of the namespace.
+2013-11-11 21:34:52	lpvb	seems like a def- macro should be included by default
+2013-11-11 21:34:59	lpvb	unless that isn't idiomatic
+2013-11-11 21:35:16	tbaldridge	(inc TimMc)
+2013-11-11 21:35:16	lazybot	⇒ 52
+2013-11-11 21:35:19	justin_smith	lpvb: information hiding is not very popular with clojure
+2013-11-11 21:35:20	llasram	I think people decided that having separate private variations for everything was a bad idea
+2013-11-11 21:35:23	-->	edw has joined #clojure
+2013-11-11 21:35:24	tbaldridge	private vars are just wrong, imo
+2013-11-11 21:35:34	llasram	I just use ^:private even for defn
+2013-11-11 21:35:39	danneu	yeah me too
+2013-11-11 21:35:41	llasram	tbaldridge: Er.  Why so?
+2013-11-11 21:35:44	<--	gcatlin has quit (Read error: Operation timed out)
+2013-11-11 21:35:44	<--	amerinese has quit (Ping timeout: 268 seconds)
+2013-11-11 21:35:52	<--	benmoss_ has quit (Quit: benmoss_)
+2013-11-11 21:36:20	mdrogalis	There was a good talk by Stu Halloway about why. Can't remember which one.
+2013-11-11 21:36:25	tbaldridge	llasram: they make code harder to test, and manage imo. It's much better to put your public API in a different ns. Put all the "private" stuff somewhere else.
+2013-11-11 21:36:26	mdrogalis	It was just a slide or two, but he nailed it..
+2013-11-11 21:36:34	danneu	:private is mostly helpful for me as the developer since a namespace is otherwise an interleave of "public" functions and helper functions
+2013-11-11 21:36:39	TimMc	,@#'*loaded-libs*
+2013-11-11 21:36:40	clojurebot	#<CompilerException java.lang.RuntimeException: Unable to resolve var: *loaded-libs* in this context, compiling:(NO_SOURCE_PATH:0:0)>
+2013-11-11 21:36:45	danneu	Not :private, but the idea of private
+2013-11-11 21:36:49	`cbp	(ns cant.touch.this)
+2013-11-11 21:36:52	TimMc	,@#'clojure.core/*loaded-libs*
+2013-11-11 21:36:52	clojurebot	#<Ref@1071e40: #{clojure.core.protocols clojure.instant clojure.java.io clojure.repl clojure.string ...}>
+2013-11-11 21:36:58	TimMc	,clojure.core/*loaded-libs*
+2013-11-11 21:36:59	clojurebot	#<CompilerException java.lang.IllegalStateException: var: clojure.core/*loaded-libs* is not public, compiling:(NO_SOURCE_PATH:0:0)>
+2013-11-11 21:37:36	danneu	in fact, it's hard to scan a clojure namespace for the intended entry-points.
+2013-11-11 21:37:41	<--	daveliepmann has quit (Remote host closed the connection)
+2013-11-11 21:38:05	lpvb	mdrogalis: can you show me the slides?
+2013-11-11 21:38:16	-->	daveliepmann has joined #clojure
+2013-11-11 21:38:25	mikerod	mdrogalis: I'd be interested in these slides
+2013-11-11 21:38:35	TimMc	lpvb: All it does is control what is exported from the namespace when it is refer'd by another.
+2013-11-11 21:38:36	mdrogalis	lpvb: Looking.. Not successful yet.
+2013-11-11 21:38:39	-->	benmoss_ has joined #clojure
+2013-11-11 21:38:51	mikerod	I've struggled over the idea of no :private vars
+2013-11-11 21:39:03	<--	nlew has quit (Ping timeout: 240 seconds)
+2013-11-11 21:39:04	mikerod	hard to say it is frowned upon when it is done in clojure.core though right
+2013-11-11 21:39:18	llasram	tbaldridge: I could see that if you're testing private functions.  Usually functions I mark as :private I see no value in testing independently
+2013-11-11 21:39:37	-->	logic_prog has joined #clojure
+2013-11-11 21:39:40	<--	banjara has quit (Quit: Leaving.)
+2013-11-11 21:39:44	logic_prog	we have number?
+2013-11-11 21:39:47	logic_prog	is there a bool? or boolean?
+2013-11-11 21:39:57	`cbp	there is no bool?
+2013-11-11 21:40:17	`cbp	ahem, there is no `bool?`
+2013-11-11 21:40:26	-->	banjara has joined #clojure
+2013-11-11 21:40:29	tbaldridge	llasram: I just don't see a reason to restrict code for no apparent reason. Putting private vars into foo.impl.bar is a much better I idea.
+2013-11-11 21:40:42	tbaldridge	llasram: then it's just normal code, why does it have to be special?
+2013-11-11 21:41:04	-->	danielszmulewicz has joined #clojure
+2013-11-11 21:41:10	--	tcrawley|away is now known as tcrawley
+2013-11-11 21:41:15	TimMc	mikerod: clojure.core is not a good example -- there's some weird-ass code in there
+2013-11-11 21:41:23	-->	glosoli has joined #clojure
+2013-11-11 21:41:31	<--	glosoli has quit (Max SendQ exceeded)
+2013-11-11 21:41:39	mikerod	TimMc: fair enough
+2013-11-11 21:41:56	<--	_adie has quit (Quit: Computer has gone to sleep.)
+2013-11-11 21:42:11	TimMc	It's also supposed to be fairly stable, so minorly bad decisions do not get corrected.
+2013-11-11 21:42:11	-->	glosoli has joined #clojure
+2013-11-11 21:42:18	-->	richardiii has joined #clojure
+2013-11-11 21:42:19	<--	glosoli has quit (Max SendQ exceeded)
+2013-11-11 21:42:26	logic_prog	wtf
+2013-11-11 21:42:26	-->	bobbrahms has joined #clojure
+2013-11-11 21:42:28	logic_prog	there is no bool?
+2013-11-11 21:42:32	mikerod	I have started questioning myself when I want to do a defn-
+2013-11-11 21:42:35	logic_prog	how do I check if a varaible is a bool in java?
+2013-11-11 21:42:39	<--	daveliepmann has quit (Ping timeout: 240 seconds)
+2013-11-11 21:42:41	<--	L1fescape has quit (Remote host closed the connection)
+2013-11-11 21:42:47	logic_prog	maybe insanity like (== x (not (not x)) ?
+2013-11-11 21:42:53	-->	gcatlin has joined #clojure
+2013-11-11 21:42:56	-->	glosoli has joined #clojure
+2013-11-11 21:42:57	`cbp	logic_prog: if by that you mean clojure: (or (false? x) (true? x))
+2013-11-11 21:43:04	TimMc	&(== true (not (not 5)))
+2013-11-11 21:43:05	lazybot	java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.Number
+2013-11-11 21:43:06	mikerod	I start thinking *maybe I shouldn't need so many one-off-specific-case private implementation functions*
+2013-11-11 21:43:07	tbaldridge	logic_prog: perhaps instance?
+2013-11-11 21:43:10	TimMc	&(= true (not (not 5)))
+2013-11-11 21:43:10	lazybot	⇒ true
+2013-11-11 21:43:13	-->	L1fescape has joined #clojure
+2013-11-11 21:43:21	llasram	tbaldridge: I see it mostly as a hint that a function is internal.  Putting in a separate namespace gets the same result, but having a separate ns & file seems like a heavier solution programmer-wise than just a :private annotation
+2013-11-11 21:43:24	<--	h0bbit_ has quit (Quit: Computer has gone to sleep.)
+2013-11-11 21:43:51	mikerod	private function needed?  `letfn` local binding
+2013-11-11 21:43:57	tbaldridge	llasram: I hear that, I just hate it whenever I decide to tap into someone's library and find out something is private, because they thought they knew more about it than I did. :-P
+2013-11-11 21:44:10	logic_prog	`cbp: nice, thanks
+2013-11-11 21:44:16	-->	L1fescap_ has joined #clojure
+2013-11-11 21:44:16	mdrogalis	Dang, I can't find it. He was making a point that if you only emit X amount of information, you can only perceive, at most X information
+2013-11-11 21:44:16	-->	yedi has joined #clojure
+2013-11-11 21:44:18	tbaldridge	,(instance? Boolean true)
+2013-11-11 21:44:18	TimMc	I tend to use :private if *most* of my namespace is intended to be public and people should be able to use ns-publics to browse it.
+2013-11-11 21:44:19	clojurebot	true
+2013-11-11 21:44:21	mdrogalis	And private minimizes X
+2013-11-11 21:44:28	<--	alisdair has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 21:44:29	tbaldridge	,(instance? Boolean false)
+2013-11-11 21:44:30	clojurebot	true
+2013-11-11 21:44:36	llasram	tbaldridge: I feel the same way in languages like Java, but I've never had a problem accessing a :private Clojure var when I needed it :-)
+2013-11-11 21:44:38	TimMc	I also make dangerous fns private -- ones that back safer interfaces.
+2013-11-11 21:44:41	<--	L1fescape has quit (Remote host closed the connection)
+2013-11-11 21:44:55	-->	noonian has joined #clojure
+2013-11-11 21:45:00	<--	coventry has quit (Remote host closed the connection)
+2013-11-11 21:45:12	mikerod	private functions are sort of a "code smell" of non-reusable code aren't they? :)
+2013-11-11 21:45:37	TimMc	If I have only a couple of API fns in a namespace, I just list them in the namespace's docstring and default to leaving things public.
+2013-11-11 21:45:42	mikerod	I guess not if you are using it all over in a lib of some sort, but you don't wnat others to get involved with it
+2013-11-11 21:45:50	mdrogalis	There are probably more valuable problems you can spend your brain cycles on that something small like this :)
+2013-11-11 21:45:57	mdrogalis	Than*
+2013-11-11 21:46:05	noonian	yeah i think they are mainly used to hide things that aren't part of the public api
+2013-11-11 21:46:08	TimMc	The problem is that namespaces conflate namespacing and APIs.
+2013-11-11 21:46:17	TimMc	APIs/modules
+2013-11-11 21:46:32	<--	richardiii has quit (Ping timeout: 252 seconds)
+2013-11-11 21:46:56	<--	bobbrahms has quit (Ping timeout: 260 seconds)
+2013-11-11 21:46:59	<--	danielszmulewicz has quit (Quit: danielszmulewicz)
+2013-11-11 21:47:54	<--	kazimir42 has quit (Ping timeout: 240 seconds)
+2013-11-11 21:48:33	mikerod	true
+2013-11-11 21:48:48	<--	yedi has quit (Ping timeout: 252 seconds)
+2013-11-11 21:48:55	<--	jergason has quit (Quit: jergason)
+2013-11-11 21:49:17	-->	DrNex has joined #clojure
+2013-11-11 21:50:33	<--	jballanc has quit (Ping timeout: 268 seconds)
+2013-11-11 21:50:40	dnolen	tbaldridge: it seems it would be possible to improve core.async source map support w/o waiting on that ticket no? but I guess you would need to change core.async macros to pass around line/col info
+2013-11-11 21:50:51	-->	nlew has joined #clojure
+2013-11-11 21:51:23	tbaldridge	dnolen: yeah I could use some help on that. I had a patch that passed around line/col info but it doesn't go far enough.
+2013-11-11 21:51:40	dnolen	tbaldridge: ok cool is this in a branch somewhere?
+2013-11-11 21:51:58	tbaldridge	dnolen: from what I can tell, there's a general issue with how metadata is handled in Clojure. I haven't figured it out yet.
+2013-11-11 21:52:30	-->	j-wang has joined #clojure
+2013-11-11 21:52:37	-->	schmir has joined #clojure
+2013-11-11 21:52:42	tbaldridge	dnolen: not yet, I'll try to get it up soon
+2013-11-11 21:52:49	dnolen	tbaldridge: I guess I don't see how this could be true since macros seems to ok w/ source maps for the most part?
+2013-11-11 21:53:03	-->	yedi has joined #clojure
+2013-11-11 21:53:07	dnolen	"seem to be ok"
+2013-11-11 21:53:07	<--	banjara has quit (Quit: Leaving.)
+2013-11-11 21:53:24	-->	instilled has joined #clojure
+2013-11-11 21:53:49	-->	banjara has joined #clojure
+2013-11-11 21:54:15	<--	j-wang has quit (Client Quit)
+2013-11-11 21:55:00	bja	has anyone seen: "Uncaught Error: URI file:/robots.txt is invalid for field ppu " out of the browser repl lately?
+2013-11-11 21:55:22	<--	L1fescap_ has quit (Remote host closed the connection)
+2013-11-11 21:55:23	<--	iamjarvo has quit (Remote host closed the connection)
+2013-11-11 21:55:30	-->	Joreji_ has joined #clojure
+2013-11-11 21:55:31	bja	I get it when I attempt to clojure.browser.repl/connect
+2013-11-11 21:55:33	tbaldridge	dnolen: it's been over a month since I tried out this code, so I could have a bug in it. I'll dig into it again and see what I find.
+2013-11-11 21:55:40	-->	strangemonad has joined #clojure
+2013-11-11 21:55:47	<--	ambroff_ has quit (Quit: Leaving...)
+2013-11-11 21:55:48	-->	L1fescape has joined #clojure
+2013-11-11 21:57:39	dnolen	tbaldridge: I'm happy to contribute here, would give me an excuse to understand the macro stuff
+2013-11-11 21:57:48	--	tcrawley is now known as tcrawley|away
+2013-11-11 21:57:54	mdrogalis	tbaldridge: Do you have a general stance on serialization formats like Thrift and Protocol Buffers? e.g. when is it appropriate?
+2013-11-11 21:58:20	<--	banjara has quit (Client Quit)
+2013-11-11 21:58:40	<--	biggbear has quit (Ping timeout: 244 seconds)
+2013-11-11 21:59:01	tbaldridge	mdrogalis: not really. I used Fressian the other day and really liked it.
+2013-11-11 21:59:04	-->	banjara has joined #clojure
+2013-11-11 21:59:11	<--	banjara has quit (Changing host)
+2013-11-11 21:59:11	-->	banjara has joined #clojure
+2013-11-11 21:59:27	tbaldridge	mdrogalis: https://github.com/Datomic/fressian
+2013-11-11 21:59:34	mdrogalis	Fressian doesn't really fall into the same category as those two, does it?
+2013-11-11 21:59:38	<--	banjara has quit (Client Quit)
+2013-11-11 21:59:46	mdrogalis	Its self-describing IIRC?
+2013-11-11 21:59:53	--	tcrawley|away is now known as tcrawley
+2013-11-11 21:59:56	<--	harpreet_ has quit (Quit: harpreet_)
+2013-11-11 22:00:15	-->	looper has joined #clojure
+2013-11-11 22:00:15	<--	L1fescape has quit (Ping timeout: 240 seconds)
+2013-11-11 22:00:16	<--	jimduey has quit (Quit: jimduey)
+2013-11-11 22:00:23	-->	banjara has joined #clojure
+2013-11-11 22:01:30	-->	jimduey has joined #clojure
+2013-11-11 22:01:52	-->	L1fescape has joined #clojure
+2013-11-11 22:02:13	<--	nlew has quit (Remote host closed the connection)
+2013-11-11 22:02:16	<--	przl has quit (Ping timeout: 268 seconds)
+2013-11-11 22:02:29	<--	banjara has quit (Client Quit)
+2013-11-11 22:02:48	-->	nlew has joined #clojure
+2013-11-11 22:03:11	-->	banjara has joined #clojure
+2013-11-11 22:03:15	tbaldridge	mdrogalis: yeah it is, that's what I default to I guess. I don't have much of a use for contract based serialization.
+2013-11-11 22:03:30	<--	banjara has quit (Client Quit)
+2013-11-11 22:03:33	-->	danielszmulewicz has joined #clojure
+2013-11-11 22:03:37	<--	samrat_ has quit (Quit: Connection closed for inactivity)
+2013-11-11 22:03:41	-->	jamesaanderson has joined #clojure
+2013-11-11 22:03:41	mdrogalis	Hm, alright. Thanks.
+2013-11-11 22:04:13	-->	banjara has joined #clojure
+2013-11-11 22:04:15	<--	noonian has quit (Remote host closed the connection)
+2013-11-11 22:04:23	-->	alisdair has joined #clojure
+2013-11-11 22:04:38	-->	mrevil has joined #clojure
+2013-11-11 22:04:49	<--	logic_prog has quit (Quit: Page closed)
+2013-11-11 22:05:30	<--	chrisrossi has quit (Ping timeout: 245 seconds)
+2013-11-11 22:07:03	<--	nlew has quit (Ping timeout: 240 seconds)
+2013-11-11 22:07:33	llasram	mdrogalis: If you're evaluating thrift, protobufs, etc, I've got Clojure integration for Avro I'm quite happy with: https://github.com/damballa/abracad  </pitch>
+2013-11-11 22:08:04	<--	strangemonad has quit (Quit: strangemonad)
+2013-11-11 22:09:44	-->	io2 has joined #clojure
+2013-11-11 22:10:05	-->	iwillig has joined #clojure
+2013-11-11 22:10:32	-->	meoblast001 has joined #clojure
+2013-11-11 22:11:35	-->	przl has joined #clojure
+2013-11-11 22:11:54	<--	boblarrick has quit (Quit: Leaving.)
+2013-11-11 22:12:02	-->	coventry has joined #clojure
+2013-11-11 22:12:37	<--	thasc has quit (Ping timeout: 244 seconds)
+2013-11-11 22:13:49	<--	mattmoss has quit (Ping timeout: 272 seconds)
+2013-11-11 22:33:54	--	irc: disconnected from server
+2013-11-11 22:34:37	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #clojure
+2013-11-11 22:34:38	--	Topic for #clojure is "Clojure, the Language. Docs: http://clojure.org Discussion: http://groups.google.com/group/clojure"
+2013-11-11 22:34:38	--	Topic set by chouser on Thu, 21 Jul 2011 02:57:02
+2013-11-11 22:34:41	--	Nicks #clojure: [@ChanServ [Neurotic] _1126 _5kg _bob _Bravado _janne _Vi `cbp abaker abeaumont abuiles acagle adamhill adammh addisaden Adeon adx ahihi AimHere aka akhudek_ aking akrikos akurilin alambert_ alexbaranosky alexyakushev algernon alindeman alisdair alpheus amalloy ambroff amro andersf andrewclegg andrewmcveigh andrewstewart andreypopp anekos_ anhall anthonyl Apage43 aravind arbscht ari` arohner arrdem Ash asteve astoon astrolin augustl averell avishai AWizzArd Ayey_ babilen bakedb bakkdoor bamse banjara bbloom bdash beawesomeinstead benizi_ benkay benmoss benmoss_ benny_ beppu bifido Biohazard bitemyapp bja bjorkintosh blk Blkt blooberr_ blrm bobbycalderwood BobSchack bobwilliams Bodil boodle bostonou_ brainproxy brand0 brianwong brixen Bronsa broquaint bruceadams bryanl bwreilly calebmpeterson1 calumet cannedprimates cantsin carlosgaldino ccs cdombroski certaint1 cespare charliekilo|away Chasm chewbranca ChiralSym choas ChongLi chouser_log Chousuke chrisrossi chriswk cldwalker__ clojurebot cmbntr cmdrdats cmn codejury coffeejunk conan CookedGryphon coventry cow-orker cross cursork cYmen Daeken daemian dakrone dan danielgl_ danielszmulewicz danlarkin danlentz danneu danoyoung danvet_ david118 davidboy davidchambers dcolish ddima_ dean|away deech demolithion Derander DerGuteMoritz devinus_ devn dhm dnolen dobladez doctorinserenity DomKM doomlord_ dottedmag dougs87 drbobbeaty drewr drmegahertz DrNex dsantiago dyreshark dziga e0n_ ea- eagleflo echo-area eci edoloughlin edw eevar effy efjboss egghead ehd ehtesh eigenjoy eis_ elfenlaid elliottw Ember- endou enzoaquino ered erewhon Ernestas EToS Excureo expez ez121sl EzeQL fbernier FDFlock felipe` fikusz flashingpumpkin fmu foolano ForNeVeR Foxboron franks42 freiksenet fridim fsargent fu86^off gary_poster|away gaYak gcmalloc gebel genehack_ geoffeg geoffh_ gerard0 gf3 gfredericks ggherdov ggreg gideonite gko gluegadget Gooder gozala graeme_f grandy gravity_ gridaphobe grim_radical grncdr groot_ ground4 gstamp Guest52726 guilleiguaran_ guns gws H4ns hakvroot hanDerPeder harpreet_ heath Hebo hfaafb hhatch hhenkel hhutch` hiredman hive-mind hlprmnky HolyJak honkfestival honza housejester hsalokor_ hsestupin hugod hungryblank hvesalai hyko hyperboreean hyPiRion ibdknox icedp idryman ieure igorw indigo inerte infynyxx_ Inoperable instilled io2 ipostelnik ivan ivan\ ivan` iwilcox iwillig j0ni jack_rabbit jaffe__ jaimef jalcine jamesaanderson jamiei_ Janiczek JanxSpirit Jarda jarpiain jarrison jave jayne jcromartie jcrossley3 JDShu jebberjeb jeremyheiler jessup jetlag jhulten_ jimduey jimrthy_away jjido jkj jlewis jml joegallo_ johann_ jonasac JonMR jonsmock Joreji Joreji_ joshbamboo1 joshskidmore josteink jschairb jstepien JStoker jtoy JulienFantin_ julienXX julio_ justicefries justin_smith justinjaffray justinmcp jwatt jweiss jyeo jzelinskie karls karnowski kategeek katratxo kaw keen__ kephale kgerman kittylyst klobucar klokbaske kludge` kmicu Kneferilis knyppeldynan kofno konr kraft kral|off_ kristian- Kruppe ktsuji kwmiebach kzar L1fescape l1x l2x l3dx L42y l4u lancepantz lasers_in_the_ju lazybot lazyshot leathekd leifw Leonidas leptonix Lewnskie lfranchi Licenser liszt llambda llasram lluchs lnostdal1 lobotomy lodin lokydor looper lopex lpvb ltw lunk_ Luyt ly- lynaghk` m_3 m_m15 mabes MacCoaster machuga madscientist_ magnars mahnve maio majoh malyn Mandus marcopolo2 matko matt_c matt`` matthavener mattyw mcav mccraig mdrogalis Mendor|scr mengu meoblast001 metadaddy___ metellus mgaare_ michaelneale microamp Mikalv mikerod mimieux mischov mishok13 mjc1 mjmoriarity mknoszlig mlb- mmullis mnemnion moogatro1ic moquist_ moratti Morgawr mrb_bk mrBliss mrevil mrhanky mrowe msassak msgodf mtd mtp muhoo musicalchair n_b napper Natch nathanic navgeet_ nDuff neaer neaterthan necronian nightfly nighty- nighty-_ nighty^ ninjudd nlew_ noahc noidi nollidj noncom noncom|2 noplamodo nseger_ nuclearsandwich nullman octagon_ octe Odinodin ohcibi Okasu OlegYch4 omarkj opqdonut orkaa Orva OscarZ osnr OtherRaven oubiwann owenb__ owengalenjones ozzloy paddymahoney pashields patricko1 paulweb515 pbostrom pcarrier pel_daniel pepijndevos peterdecroos petterw pfeyz pisketti pjstadig plains pobody1 poggio poppingtonic poutsi pradeepc prip przl Pupnik pyrtsa pyykkis qz racycle rafaelferreira rafl Ragnor rasmusto Raynes Raynos rbolkey rboyd rbranson rcg reder redinger reeses reiddraper rfarrjr rhg135 riley526 rippy rivarun rkneufeld rkz rlb rlr robink rotty rowth rplaca rtl rufoa rxe1 ryland S11001001 s_e saiam^ saint_cypher samflores saolsen satshabad sauerkrause saurik scalabl3 scgilardi- scizo Scorchin scottj seancorfield seangone seangrove seantallen sebastianb SegFaultAX septomin sethalves sghai Shambles_ Shaolinburper shiranai_ SHODAN shoky shoshin si14 Sigma silven simcop2387 sjl slpsys sluukkonen smiler so Somelauw sontek spligak srcerer ssedano ssfrr_afk ssideris stask statonjr strangemonad strax strobegen sundbp_ sw1nn_ swarthy sxn synfinatic t_hash TakeV tauntaun tbaldridge tcrawley technomancy teemu_f telex tephra terjesb terom teslanick TEttinger3 tfnico the-kenny TheBusby TheBusby1 TheLastProject thelorax123 TheMoonMaster theshizzah tieTYT2 TimMc tmarble ToBeReplaced tobyp tomaw tomhs_ tomku toretore tos9 ToxicFrog tpatja tpope trinary Tristam TristamWrk troezen tsantos tsurutom Tuna-Fish tupi turbofail twem2 tylergillies_ typicalbender Uatec ucb unsymbol uris77 ustunozgur Viesti vijaykiran vili vishesh vojd vsync waf warmgurn wdouglas` wedr whee whilo whoahbot Wild_Cat wilfredh willb wink wjlroe wkelly wolfes_ wunki WWWest1 xeqi Xorlev yacin yacks Yamazaki-kun yazirian yedi yogthos yumike zaiste zakwilson zaphar_ps Zariel zenoli zeroem zerokarmaleft zeroz zju zodiak zoldar_ zz_karupanerura]
+2013-11-11 22:34:41	--	Channel #clojure: 693 nicks (1 op, 0 voices, 692 normals)
+2013-11-11 22:34:50	--	Mode #clojure [+cnt]
+2013-11-11 22:34:51	--	Channel created on Tue, 11 Dec 2007 23:04:26
+2013-11-11 22:35:02	-->	thasc has joined #clojure
+2013-11-11 22:35:25	<--	hhatch has quit (Ping timeout: 244 seconds)
+2013-11-11 22:36:25	<--	seangone has quit (Ping timeout: 272 seconds)
+2013-11-11 22:36:25	-->	richardiii has joined #clojure
+2013-11-11 22:36:26	<--	mengu has quit (Quit: Leaving)
+2013-11-11 22:36:40	-->	mengu has joined #clojure
+2013-11-11 22:37:06	<--	rivarun has quit (Quit: ZNC)
+2013-11-11 22:38:02	<--	benmoss_ has quit (Quit: benmoss_)
+2013-11-11 22:39:27	-->	brehaut has joined #clojure
+2013-11-11 22:39:57	<--	andreypopp has quit (Quit: andreypopp)
+2013-11-11 22:40:04	<--	graeme_f has quit (Quit: Computer has gone to sleep.)
+2013-11-11 22:41:06	-->	benmoss_ has joined #clojure
+2013-11-11 22:41:08	<--	richardiii has quit (Ping timeout: 268 seconds)
+2013-11-11 22:41:13	<--	carlosgaldino has quit (Ping timeout: 240 seconds)
+2013-11-11 22:42:30	<--	avishai has quit (Ping timeout: 260 seconds)
+2013-11-11 22:42:33	-->	francis_wolke has joined #clojure
+2013-11-11 22:43:11	-->	bobbrahms has joined #clojure
+2013-11-11 22:43:38	-->	andreypopp has joined #clojure
+2013-11-11 22:44:06	<--	matko has quit (Remote host closed the connection)
+2013-11-11 22:44:59	-->	carlosgaldino has joined #clojure
+2013-11-11 22:44:59	<--	keen__ has quit (Read error: Connection reset by peer)
+2013-11-11 22:44:59	-->	keen_ has joined #clojure
+2013-11-11 22:44:59	<--	statonjr has quit (Quit: statonjr)
+2013-11-11 22:44:59	<--	Joreji_ has quit (Ping timeout: 268 seconds)
+2013-11-11 22:45:29	<--	przl has quit (Ping timeout: 252 seconds)
+2013-11-11 22:46:58	<--	thelorax123 has quit (Remote host closed the connection)
+2013-11-11 22:47:24	<--	typicalbender has quit (Quit: Leaving.)
+2013-11-11 22:47:38	<--	bobbrahms has quit (Ping timeout: 260 seconds)
+2013-11-11 22:48:31	-->	joshbamboo has joined #clojure
+2013-11-11 22:48:35	-->	thelorax123 has joined #clojure
+2013-11-11 22:49:07	<--	io2 has quit
+2013-11-11 22:49:23	<--	TheMoonMaster has quit (Excess Flood)
+2013-11-11 22:50:01	<--	Okasu has quit (Quit: leaving)
+2013-11-11 22:50:25	-->	TheMoonMaster has joined #clojure
+2013-11-11 22:50:40	<--	joshbamboo1 has quit (Ping timeout: 240 seconds)
+2013-11-11 22:51:04	-->	cemerick has joined #clojure
+2013-11-11 22:51:09	-->	sorella has joined #clojure
+2013-11-11 22:51:40	<--	ltw has quit (Remote host closed the connection)
+2013-11-11 22:52:18	-->	ltw has joined #clojure
+2013-11-11 22:53:21	<--	inerte has quit (Quit: Leaving.)
+2013-11-11 22:53:52	-->	typicalbender has joined #clojure
+2013-11-11 22:54:38	<--	carlosgaldino has quit (Ping timeout: 272 seconds)
+2013-11-11 22:54:50	danneu	Does anyone have a workflow for frequently running typedclojure type checks?
+2013-11-11 22:55:34	-->	carlosgaldino has joined #clojure
+2013-11-11 22:55:36	--	tcrawley is now known as tcrawley|away
+2013-11-11 22:55:40	<--	looper has quit (Quit: Computer has gone to sleep.)
+2013-11-11 22:56:17	<--	ltw has quit (Ping timeout: 240 seconds)
+2013-11-11 22:56:49	<--	nlew_ has quit (Remote host closed the connection)
+2013-11-11 22:57:09	<--	L1fescape has quit (Remote host closed the connection)
+2013-11-11 22:57:23	-->	nlew has joined #clojure
+2013-11-11 22:57:26	-->	ltw has joined #clojure
+2013-11-11 22:57:33	-->	L1fescape has joined #clojure
+2013-11-11 22:57:54	<--	nlew has quit (Read error: Connection reset by peer)
+2013-11-11 22:58:25	-->	nlew has joined #clojure
+2013-11-11 22:58:50	-->	bwreilly_ has joined #clojure

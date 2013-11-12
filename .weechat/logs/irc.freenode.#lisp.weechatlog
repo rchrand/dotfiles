@@ -1,0 +1,398 @@
+2013-11-10 14:53:10	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #lisp
+2013-11-10 14:53:10	--	Topic for #lisp is "Common Lisp, the #1=(programmable . #1#) programming language <http://paste.lisp.org/new>. New: flexi-streams 1.0.8, SBCL 1.1.13, FiveAM 1.2"
+2013-11-10 14:53:10	--	Topic set by H4ns (hans@netzhansa.com) on Sat, 02 Nov 2013 18:40:40
+2013-11-10 14:53:10	--	Nicks #lisp: [[1]JPeterson [SLB] _5kg __main__ _d3f _death _schulte1 ``Erik aajmakin abend acieroid Adeon aerique_ AeroNotix aeth aftershave ahungry alabaster alezost Amadiro Anarch angavrilov antgreen AntiSpamMeta antoszka aoh araujo arbscht ASau asedeno Ash ashish__ Ayey_ balle bben beach bege benny bhyde Bike billstclair bjorkintosh BlastHardcheese Blkt bobbysmith0071 BrianRice brown`` brucem capisce_ ccl-logbot cdidd Cheery chenjf cibs ckoch786 clmsy clog clop clop2 cmatei cmbntr cmm cnl Code_Man` cods Codynyx copec cory786 cpape``` cpt_nemo CrazyEddy cross cyphase d2biG d4gg4d_ daimrod dan64 danlentz Davidbrcz deadghost delYsid` dim djinni` dlowe dmiles_afk doomlord_ dotemacs drdo DrForr dsp_ dtw eagleflo eak easiere easye ecraven edgar-rft effy eigenlicht eli Elvaron eMBee emma enn epsylon` ered EvW expez ezakimak Fade fe[nl]ix felideon felipe ferada fikusz finnrobi flip214 fmu fmu____ foom foreignFunction francis_wolke fredmorcos freiksenet froggey ft gabot galdor_ gemelen gensym gf3 ggherdov ggole git gko gko_ gluegadget gravicappa guaqua` GuilOooo H4ns harish hiroaki hitecnologys hiyosi housel hpd hugod hyperboreean hypno_ ianmcorvidae igorw impulse ineiros_ ircbrowse ivan ivan\ iwilcox j0ni jackdaniel jaimef jasom jayne jd__ jewel jking joast joe9 johs joneshf-work joshe jsnell jsucsy1 Jubb justinmcp K1rk Kabaka karswell kaygun kaygun_ kbtr keen__ keltvek Khisanth killmaster KingNato_ kirin` klltkr kmder koisoke kpreid Kromitvs krrrcks Kruppe Krystof lc0dd0cl lemoinem loke loke` ltsampros ludocode luis madnificent mal___ Mandus mathrick matko mau_ mikaelj_ MikeSeth milosn minion mishoo MoALTz Mon_Ouie MrWoohoo mshroyer mtd munge namtsui naryl Natch nbouscal Neptu neuro_sys newcup nialo nicdev nightfly nightshade427 nitro_idiot_ Nshag nuba nullman nydel obre oconnore Oddity oGMo Okasu oleo optikalmouse otwieracz Ox6463 ozialien ozzloy p_l patrickwonders Patzy pchrist peccu peterhil phadthai photex pjb plathrop pok Posterdati Praise prip prxq PuercoPop qiemem quasisane Ralt ramus redline6561 REPLeffect rk[imposter] rk[OHIO] robot-beethoven Roin rotty rtoym rvirding samebchase samskull` sauerkrause sbryant scharan schoppenhauer scoofy sdemarre seantallen segv- setheus_ sfa Sgeo SHODAN sid_cypher sigjuice_ sjl ski_ smull sohail Sourceless spacefrogg^ specbot srcerer sshirokov stassats stepnem stokachu stopbit stuckie Subfusc subtlepath surrounder sword sytse tali713 Tarential tensorpudding tessier_ The_third_man theBlackDragon thelorax123 theos ThePhoeron tinyghost tkd tmokros tomaw Tordek Tribal Tristam TristamWrk tvaalen tychoish varjag ve vhost- vnz vsync Watcher7 wchun wilfredh willyfrog wolgo wormphlegm Wukix`` wyan w|t xan_ xenophon xristos Yamazaki-kun yano yeltzooo yonkeltron yrk yroeht z0d zacharias Zagaba zbigniew zenoli zfx Zhivago zophy zz_karupanerura |3b| |JRG|]
+2013-11-10 14:53:10	--	Channel #lisp: 363 nicks (0 ops, 0 voices, 363 normals)
+2013-11-10 14:53:12	--	Mode #lisp [+Ccn]
+2013-11-10 14:53:13	--	Channel created on Sun, 03 Aug 2003 23:30:32
+2013-11-10 14:54:29	-->	danielszmulewicz (~danielszm@5.22.135.157) has joined #lisp
+2013-11-10 14:55:10	fredmorcos	can a macro be recursive?
+2013-11-10 14:55:23	-->	przl (~przlrkt@193.158.80.42) has joined #lisp
+2013-11-10 14:56:12	beach	fredmorcos: Sure.  The most common way is that its expansion contains another call to the same macro.
+2013-11-10 14:56:31	<--	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has quit (Remote host closed the connection)
+2013-11-10 14:57:23	-->	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has joined #lisp
+2013-11-10 14:57:34	pjb	(defmacro mact (x) (if (integerp x) (if (zerop x) '1 `(* ,x (mact ,(1- x)))) `(fact ,x)))
+2013-11-10 14:57:37	fredmorcos	in the case of the infix macro, i would use listp to find out whether it should recur or not...?
+2013-11-10 14:58:03	pjb	(macroexpand '(mact 4)) --> (* 4 (mact 3))
+2013-11-10 14:58:22	beach	fredmorcos: You probably don't have to in your example.  It will nest properly anyway.
+2013-11-10 14:58:26	pjb	(swank::macroexpand-all '(mact 4)) --> (* 4 (* 3 (* 2 (* 1 1))))
+2013-11-10 14:59:36	beach	fredmorcos: (^ (^ (1 + 2)) + (^ (3 + 4))) should work automatically.
+2013-11-10 15:01:25	fredmorcos	beach, what i would like to achieve now is a recursive infix macro --> (^ ((1 + 2) + (3 + 4)))
+2013-11-10 15:02:11	fredmorcos	but it seems like (1 + 2) and (3 + 4) get evaluated before the macro is called
+2013-11-10 15:02:42	beach	fredmorcos: That doesn't sound right.
+2013-11-10 15:04:05	beach	fredmorcos: And yes, in this case, you would have to test whether the argument is an atom or not.  But listp won't do.  Use consp.
+2013-11-10 15:05:11	pjb	But the truely recursive macro would be a macro that uses itself in is body, not in its result.  Unfortunately, since the macro would have to be defined to be able to define itself, it's not possible without calling macroexpand explicitely.
+2013-11-10 15:05:41	pjb	fredmorcos: you can use *macroexpand-hook* to trace when the macros are expanded.
+2013-11-10 15:06:30	beach	fredmorcos: Try writing a recursive helper function, say infix-to-prefix that transforms a (possibly nested) infix expression to prefix.
+2013-11-10 15:06:39	beach	fredmorcos: Then use that function in the macro.
+2013-11-10 15:08:31	-->	Karl_dscc (~localhost@p5DD9FFD6.dip0.t-ipconnect.de) has joined #lisp
+2013-11-10 15:08:46	fredmorcos	alright, will try all the tips here
+2013-11-10 15:08:51	 *	beach vanishes for a while.
+2013-11-10 15:08:58	 *	fredmorcos is overwhelmed :)
+2013-11-10 15:09:48	<--	|JRG| (~user@dynamic-adsl-94-34-252-27.clienti.tiscali.it) has left #lisp ("ERC Version 5.3 (IRC client for Emacs)")
+2013-11-10 15:10:08	<--	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has quit (Remote host closed the connection)
+2013-11-10 15:11:02	-->	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has joined #lisp
+2013-11-10 15:11:06	-->	sszzqq (~sszzqq@112.90.222.131) has joined #lisp
+2013-11-10 15:11:09	<--	sszzqq (~sszzqq@112.90.222.131) has left #lisp
+2013-11-11 17:33:37	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #lisp
+2013-11-11 17:33:37	--	Topic for #lisp is "Common Lisp, the #1=(programmable . #1#) programming language <http://paste.lisp.org/new>. New: flexi-streams 1.0.8, SBCL 1.1.13, FiveAM 1.2"
+2013-11-11 17:33:37	--	Topic set by H4ns (hans@netzhansa.com) on Sat, 02 Nov 2013 18:40:40
+2013-11-11 17:33:37	--	Nicks #lisp: [[SLB] ^self _5kg __main__ _d3f _death _schulte1 _schulte_ ``Erik aajmakin abend acieroid Adeon AeroNotix aeth aftershave ahungry ahungry_ alabaster alezost Amadiro Ambit Anarch angavrilov antgreen AntiSpamMeta antoszka aoh araujo arbscht arenz arrsim ASau asedeno Asgeir Ash ashish__ Ayey_ balle bben beach bege benny bgs100 bhyde Bike billstclair bjorkintosh BlastHardcheese Blkt bobbysmith0071 BrianRice brown`` brucem capisce_ ccl-logbot cdidd Cheery cibs ck`` ckoch786 clmsy clog clop clop2 cmatei cmbntr cmm Code_Man` cods Codynyx copec cory786 cpt_nemo CrazyEddy cross cyphase d4gg4d_ daimrod dan64 danlentz deadghost delYsid` dfox didi dim djinni` dlowe doomlord_ dotemacs dRbiG drdo DrForr dsp_ dtw duggiefresh eagleflo eak easiere easye echo-area ecraven effy eigenlicht eli Elvaron eMBee emma enn entitativity epsylon` ered EvW expez Fade fe[nl]ix felideon felipe ferada fikusz finnrobi fish2 fisxoj flip214 fmu foom foreignFunction fourOfTwelve freiksenet frito froggey ft gabot galdor_ gemelen gensym gf3 ggherdov ggole gko gko_ gluegadget Gooder gravicappa guaqua GuilOooo H4ns harish Hermit hiro3 hitecnologys hiyosi housel hpd hugod hyperboreean hypno_ ianmcorvidae igorw impulse ineiros_ ircbrowse ivan ivan\ iwilcox j0ni jackdaniel jaimef jasom jayne jd__ jewel jk121960 jking joast johs joneshf-work joshe JPeterson jsnell jsucsy1 jtza8 JuanitoJons Jubb justinmcp K1rk Kabaka Kaisyu kanru karswell kaygun kbtr keen__ Khisanth killmaster KingNato_ kirin` kmder koisoke kpreid Kromitvs krrrcks Kruppe Krystof kushal kwmiebach lc0dd0cl lduros lemoinem leo2007 LiamH loic__ loke loke`` ludocode luis macrobat madnificent mal___ Mandus mathrick matko mau_ mc40 mcsontos mikaelj_ MikeSeth minion mishoo MoALTz_ mrSpec MrWoohoo mshroyer mtd munge naryl Natch nbouscal Neptu newcup nialo nicdev nightfly nightshade427 nilsi_ nitro_idiot_ Nshag nuba nullman nydel obre oconnore Oddity oGMo Oladon oleo otwieracz ozialien ozzloy p_l p_nathan1 patrickwonders Patzy pchrist peccu phadthai photex pjb plathrop pok Posterdati Praise- prip prxq przl PuercoPop qiemem quasisane Ralt ramus redline6561 refried_ rk[imposter] rk[OHIO] robot-beethoven Roin rotty rstandy rtoym rvirding Sagane samebchase sauerkrause sbryant sc00fy scharan schoppenhauer seangrove seantallen segv- sellout- setheus_ sfa Shinmera SHODAN shridhar sid_cypher sigjuice_ sjl ski slyrus smull Sourceless spacefrogg specbot srcerer sshirokov stepnem STilda stokachu stopbit strobegen stuckie Subfusc subtlepath surrounder sword sytse tali713 Tarential tensorpudding tessier thasc The_third_man theBlackDragon thelorax123 theos ThePhoeron tinyghost tkd tmokros tomaw Tordek Tribal Tristam TristamWrk tvaalen tychoish ustunozgur varjag varjagg ve vhost- vnz vsync Watcher7 wchun wheelsucker wilfredh willyfrog wolgo Wukix`` wyan w|t xan_ xenophon xotedend xristos yacks Yamazaki-kun yano yeltzooo yonkeltron yrk yroeht z0d zacharias Zagaba zbigniew zenoli Zhivago zophy zz_karupanerura |3b|]
+2013-11-11 17:33:37	--	Channel #lisp: 384 nicks (0 ops, 0 voices, 384 normals)
+2013-11-11 17:33:39	--	Mode #lisp [+Ccn]
+2013-11-11 17:33:39	--	Channel created on Sun, 03 Aug 2003 23:30:32
+2013-11-11 17:34:51	<--	rvirding (uid5943@gateway/web/irccloud.com/x-wmtzxpukmbsedags) has quit (Quit: Connection closed for inactivity)
+2013-11-11 17:38:02	-->	REPLeffect (~REPLeffec@69.54.115.254) has joined #lisp
+2013-11-11 17:44:21	-->	paddymahoney (~paddymaho@24.137.221.230) has joined #lisp
+2013-11-11 17:45:07	-->	TDog (~chatzilla@174-30-146-228.tcso.qwest.net) has joined #lisp
+2013-11-11 17:46:14	--	jking is now known as j_king
+2013-11-11 17:46:34	Asgeir	hi
+2013-11-11 17:46:34	minion	Asgeir, memo from bhyde: sorry, that meant http://j.mp/ben-share
+2013-11-11 17:46:44	Asgeir	wow :D
+2013-11-11 17:52:03	-->	smazga (~Adium@li336-165.members.linode.com) has joined #lisp
+2013-11-11 17:54:21	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #lisp
+2013-11-11 17:54:21	--	Topic for #lisp is "Common Lisp, the #1=(programmable . #1#) programming language <http://paste.lisp.org/new>. New: flexi-streams 1.0.8, SBCL 1.1.13, FiveAM 1.2"
+2013-11-11 17:54:21	--	Topic set by H4ns (hans@netzhansa.com) on Sat, 02 Nov 2013 18:40:40
+2013-11-11 17:54:21	--	Nicks #lisp: [[SLB] ^self _5kg __main__ _d3f _death _schulte1 _schulte_ ``Erik aajmakin abend acieroid Adeon AeroNotix aeth aftershave ahungry ahungry_ alabaster alezost Amadiro Ambit Anarch angavrilov antgreen AntiSpamMeta antoszka aoh araujo arbscht arenz arrsim ASau asedeno Asgeir Ash ashish__ Ayey_ balle bben beach bege benny bgs100 bhyde Bike billstclair bjorkintosh BlastHardcheese Blkt bobbysmith0071 BrianRice brown`` brucem capisce_ ccl-logbot cdidd Cheery cibs ck`` ckoch786 clmsy clog clop clop2 cmatei cmbntr cmm Code_Man` cods Codynyx copec cory786 cpt_nemo CrazyEddy cross cyphase d4gg4d_ daimrod dan64 danlentz deadghost delYsid` dfox didi dim djinni` dlowe doomlord_ dotemacs dRbiG drdo DrForr dsp_ dtw duggiefresh eagleflo eak easiere easye echo-area ecraven effy eigenlicht eli Elvaron eMBee emma enn entitativity epsylon` ered EvW expez Fade fe[nl]ix felideon felipe ferada fikusz finnrobi fish2 fisxoj flip214 fmu foom foreignFunction fourOfTwelve freiksenet frito froggey ft gabot galdor_ gemelen gensym gf3 ggherdov ggole gko gko_ gluegadget Gooder gravicappa guaqua GuilOooo H4ns harish Hermit hiro3 hitecnologys hiyosi housel hpd hugod hyperboreean hypno_ ianmcorvidae igorw impulse ineiros_ ircbrowse ivan ivan\ iwilcox j0ni j_king jackdaniel jaimef jasom jayne jd__ jewel jk121960 joast johs joneshf-work joshe JPeterson jsnell jsucsy1 jtza8 JuanitoJons Jubb justinmcp K1rk Kabaka Kaisyu kanru karswell kaygun kbtr keen__ Khisanth killmaster KingNato_ kirin` kmder koisoke kpreid Kromitvs krrrcks Kruppe Krystof kushal kwmiebach lc0dd0cl lduros lemoinem leo2007 LiamH loic__ loke loke`` ludocode luis macrobat madnificent mal___ Mandus mathrick matko mau_ mc40 mcsontos mikaelj_ MikeSeth minion mishoo MoALTz_ mrSpec MrWoohoo mshroyer mtd munge naryl Natch nbouscal Neptu newcup nialo nicdev nightfly nightshade427 nilsi_ nitro_idiot_ Nshag nuba nullman nydel obre oconnore Oddity oGMo Oladon oleo otwieracz ozialien ozzloy p_l p_nathan1 paddymahoney patrickwonders Patzy pchrist peccu phadthai photex pjb plathrop pok Posterdati Praise- prip prxq przl PuercoPop qiemem quasisane Ralt ramus redline6561 refried_ REPLeffect rk[imposter] rk[OHIO] robot-beethoven Roin rotty rstandy rtoym Sagane samebchase sauerkrause sbryant sc00fy scharan schoppenhauer seangrove seantallen segv- sellout- setheus_ sfa Shinmera SHODAN shridhar sid_cypher sigjuice_ sjl ski slyrus smazga smull Sourceless spacefrogg specbot srcerer sshirokov stepnem STilda stokachu stopbit strobegen stuckie Subfusc subtlepath surrounder sword sytse tali713 Tarential TDog tensorpudding tessier thasc The_third_man theBlackDragon thelorax123 theos ThePhoeron tinyghost tkd tmokros tomaw Tordek Tribal Tristam TristamWrk tvaalen tychoish ustunozgur varjag varjagg ve vhost- vnz vsync Watcher7 wchun wheelsucker wilfredh willyfrog wolgo Wukix`` wyan w|t xan_ xenophon xotedend xristos yacks Yamazaki-kun yano yeltzooo yonkeltron yrk yroeht z0d zacharias Zagaba zbigniew zenoli Zhivago zophy zz_karupanerura |3b|]
+2013-11-11 17:54:21	--	Channel #lisp: 387 nicks (0 ops, 0 voices, 387 normals)
+2013-11-11 17:54:23	--	Mode #lisp [+Ccn]
+2013-11-11 17:54:23	--	Channel created on Sun, 03 Aug 2003 23:30:32
+2013-11-11 17:55:38	--	spacefrogg is now known as spacefrogg^
+2013-11-11 17:56:32	-->	unixjazz has joined #lisp
+2013-11-11 17:58:09	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #lisp
+2013-11-11 17:58:09	--	Topic for #lisp is "Common Lisp, the #1=(programmable . #1#) programming language <http://paste.lisp.org/new>. New: flexi-streams 1.0.8, SBCL 1.1.13, FiveAM 1.2"
+2013-11-11 17:58:09	--	Topic set by H4ns (hans@netzhansa.com) on Sat, 02 Nov 2013 18:40:40
+2013-11-11 17:58:09	--	Nicks #lisp: [[SLB] ^self _5kg __main__ _d3f _death _schulte1 _schulte_ ``Erik aajmakin abend acieroid Adeon AeroNotix aeth aftershave ahungry ahungry_ alabaster alezost Amadiro Ambit Anarch angavrilov antgreen AntiSpamMeta antoszka aoh araujo arbscht arenz arrsim ASau asedeno Asgeir Ash ashish__ Ayey_ balle bben beach bege benny bgs100 bhyde Bike billstclair bjorkintosh BlastHardcheese Blkt bobbysmith0071 BrianRice brown`` brucem capisce_ ccl-logbot cdidd Cheery cibs ck`` ckoch786 clmsy clog clop clop2 cmatei cmbntr cmm Code_Man` cods Codynyx copec cory786 cpt_nemo CrazyEddy cross cyphase d4gg4d_ daimrod dan64 danlentz deadghost delYsid` dfox didi dim djinni` dlowe doomlord_ dotemacs dRbiG drdo DrForr dsp_ dtw duggiefresh eagleflo eak easiere easye echo-area ecraven effy eigenlicht eli Elvaron eMBee emma enn entitativity epsylon` ered EvW expez Fade fe[nl]ix felideon felipe ferada fikusz finnrobi fish2 fisxoj flip214 fmu foom foreignFunction fourOfTwelve freiksenet frito froggey ft gabot galdor_ gemelen gensym gf3 ggherdov ggole gko gko_ gluegadget Gooder gravicappa guaqua GuilOooo H4ns harish Hermit hiro3 hitecnologys hiyosi housel hpd hugod hyperboreean hypno_ ianmcorvidae igorw impulse ineiros_ ircbrowse ivan ivan\ iwilcox j0ni j_king jackdaniel jaimef jasom jayne jd__ jewel jk121960 joast johs joneshf-work joshe JPeterson jsnell jsucsy1 jtza8 JuanitoJons Jubb justinmcp K1rk Kabaka Kaisyu kanru karswell kaygun kbtr keen__ Khisanth killmaster KingNato_ kirin` kmder koisoke kpreid Kromitvs krrrcks Kruppe Krystof kushal kwmiebach lc0dd0cl lduros lemoinem leo2007 LiamH loic__ loke loke`` ludocode luis macrobat madnificent mal___ Mandus mathrick matko mau_ mc40 mcsontos mikaelj_ MikeSeth minion mishoo MoALTz_ mrSpec MrWoohoo mshroyer mtd munge naryl Natch nbouscal Neptu newcup nialo nicdev nightfly nightshade427 nilsi_ nitro_idiot_ Nshag nuba nullman nydel obre oconnore Oddity oGMo Oladon oleo otwieracz ozialien ozzloy p_l p_nathan1 paddymahoney patrickwonders Patzy pchrist peccu phadthai photex pjb plathrop pok Posterdati Praise- prip prxq przl PuercoPop qiemem quasisane Ralt ramus redline6561 refried_ REPLeffect rk[imposter] rk[OHIO] robot-beethoven Roin rotty rstandy rtoym Sagane samebchase sauerkrause sbryant sc00fy scharan schoppenhauer seangrove seantallen segv- sellout- setheus_ sfa Shinmera SHODAN shridhar sid_cypher sigjuice_ sjl ski slyrus smazga smull Sourceless spacefrogg^ specbot srcerer sshirokov stepnem STilda stokachu stopbit strobegen stuckie Subfusc subtlepath surrounder sword sytse tali713 Tarential TDog tensorpudding tessier thasc The_third_man theBlackDragon thelorax123 theos ThePhoeron tinyghost tkd tmokros tomaw Tordek Tribal Tristam TristamWrk tvaalen tychoish unixjazz ustunozgur varjag varjagg ve vhost- vnz vsync Watcher7 wchun wheelsucker wilfredh willyfrog wolgo Wukix`` wyan w|t xan_ xenophon xotedend xristos yacks Yamazaki-kun yano yeltzooo yonkeltron yrk yroeht z0d zacharias Zagaba zbigniew zenoli Zhivago zophy zz_karupanerura |3b|]
+2013-11-11 17:58:09	--	Channel #lisp: 388 nicks (0 ops, 0 voices, 388 normals)
+2013-11-11 17:58:11	--	Mode #lisp [+Ccn]
+2013-11-11 17:58:11	--	Channel created on Sun, 03 Aug 2003 23:30:32
+2013-11-11 17:58:23	-->	devon has joined #lisp
+2013-11-11 18:04:13	<--	leo2007 has quit (Ping timeout: 272 seconds)
+2013-11-11 18:04:36	-->	Pullphinger has joined #lisp
+2013-11-11 18:05:01	<--	rstandy has quit (Ping timeout: 245 seconds)
+2013-11-11 18:07:52	-->	ustunozg_ has joined #lisp
+2013-11-11 18:10:55	<--	oleo has quit (Read error: Connection reset by peer)
+2013-11-11 18:11:27	<--	ustunozgur has quit (Ping timeout: 265 seconds)
+2013-11-11 18:12:32	-->	oleo has joined #lisp
+2013-11-11 18:13:02	-->	cpape has joined #lisp
+2013-11-11 18:13:49	<--	przl has quit (Ping timeout: 252 seconds)
+2013-11-11 18:15:55	<--	ASau has quit (Ping timeout: 244 seconds)
+2013-11-11 18:15:58	<--	shridhar has quit (Quit: shridhar)
+2013-11-11 18:16:17	-->	samskull` has joined #lisp
+2013-11-11 18:18:40	<--	theos has quit (Ping timeout: 240 seconds)
+2013-11-11 18:19:29	<--	jtza8 has quit (Remote host closed the connection)
+2013-11-11 18:20:57	<--	zacharias has quit (Quit: Bye!)
+2013-11-11 18:26:07	<--	kushal has quit (Quit: Leaving)
+2013-11-11 18:27:01	-->	normanrichards has joined #lisp
+2013-11-11 18:27:21	-->	abunchofdollarsi has joined #lisp
+2013-11-11 18:30:13	abunchofdollarsi	Using a before/after method if the object is of type <base-class> but not of type <derived-class>?
+2013-11-11 18:30:37	pjb	Unexpected character: #\?
+2013-11-11 18:30:57	pjb	Sorry, I can't parse a question there.
+2013-11-11 18:31:07	abunchofdollarsi	I will rephrase.
+2013-11-11 18:31:16	abunchofdollarsi	I have a base class and a derived class.
+2013-11-11 18:32:03	abunchofdollarsi	I have a method defined to dispatch on the base class as a parameter and one doing the same with the derived class as a parameter.
+2013-11-11 18:32:13	-->	theos has joined #lisp
+2013-11-11 18:32:55	abunchofdollarsi	When it invokes the method taking the base class parameter I want to invoke a corresponding before method, but when it invokes the derived class method, I don't want that to happen.
+2013-11-11 18:32:59	<--	kwmiebach has quit (Ping timeout: 272 seconds)
+2013-11-11 18:33:21	<--	smazga has quit (Ping timeout: 272 seconds)
+2013-11-11 18:33:21	-->	kwmiebach has joined #lisp
+2013-11-11 18:34:41	segv-	abunchofdollarsi: you can not do that; i would suggest either changing your hierarchy into 3 classes (so your base class becomes a sister of your current derived class and only the actually common functionality lives in the parent class of both)
+2013-11-11 18:34:43	sellout-	abunchofdollarsi: You can either check the exact class at the beginning of the before method, or play with method combinations.
+2013-11-11 18:34:43	pjb	I don't think that's possible.
+2013-11-11 18:34:45	Asgeir	this breaks polymorphism ; I would take a look again on my class hierarchy
+2013-11-11 18:34:53	<--	thelorax123 has quit (Remote host closed the connection)
+2013-11-11 18:35:00	-->	banjara has joined #lisp
+2013-11-11 18:35:08	sellout-	abunchofdollarsi: But, what others said – it seems like you actually want a different hierarchy.
+2013-11-11 18:35:12	<--	gko_ has quit (Ping timeout: 264 seconds)
+2013-11-11 18:35:17	abunchofdollarsi	Yes, I will rework.
+2013-11-11 18:35:30	<--	refried_ has quit (Quit: Computer has gone to sleep.)
+2013-11-11 18:35:38	-->	thelorax123 has joined #lisp
+2013-11-11 18:35:53	<--	unixjazz has quit (Ping timeout: 272 seconds)
+2013-11-11 18:36:02	segv-	but, if you actually wanted to do that (defmethod foo :before ((obect (eql (find-class 'parent-class)))) ...) might work
+2013-11-11 18:36:24	segv-	hm, no, sorry, that won't work at all.
+2013-11-11 18:36:35	<--	arenz has quit (Ping timeout: 248 seconds)
+2013-11-11 18:36:44	-->	ASau has joined #lisp
+2013-11-11 18:37:32	<--	nilsi_ has quit (Remote host closed the connection)
+2013-11-11 18:37:46	Asgeir	the solution is to implement himself some dispatch, but that's considered bad style.
+2013-11-11 18:37:47	<--	ASau has quit (Remote host closed the connection)
+2013-11-11 18:38:08	-->	nilsi_ has joined #lisp
+2013-11-11 18:38:47	-->	ASau has joined #lisp
+2013-11-11 18:39:10	<--	banjara has quit (Client Quit)
+2013-11-11 18:39:20	-->	kaygun_ has joined #lisp
+2013-11-11 18:39:31	<--	abunchofdollarsi has quit (Quit: Leaving)
+2013-11-11 18:39:57	<--	xan_ has quit (Quit: leaving)
+2013-11-11 18:43:13	<--	nilsi_ has quit (Ping timeout: 272 seconds)
+2013-11-11 18:44:29	-->	bitonic has joined #lisp
+2013-11-11 18:47:14	<--	normanrichards has quit
+2013-11-11 18:47:57	<--	ustunozg_ has quit (Remote host closed the connection)
+2013-11-11 18:48:04	-->	unixjazz has joined #lisp
+2013-11-11 18:48:47	-->	ustunozgur has joined #lisp
+2013-11-11 18:51:19	-->	przl has joined #lisp
+2013-11-11 18:52:01	-->	banjara has joined #lisp
+2013-11-11 18:52:07	<--	mc40 has quit (Ping timeout: 245 seconds)
+2013-11-11 18:52:57	<--	frito has quit (Remote host closed the connection)
+2013-11-11 18:53:08	-->	milosn has joined #lisp
+2013-11-11 18:55:21	-->	Okasu has joined #lisp
+2013-11-11 18:59:56	-->	smazga has joined #lisp
+2013-11-11 19:04:19	<--	banjara has quit (Quit: Leaving.)
+2013-11-11 19:05:03	<--	Ambit has quit (Ping timeout: 240 seconds)
+2013-11-11 19:05:05	-->	banjara has joined #lisp
+2013-11-11 19:05:08	-->	desophos has joined #lisp
+2013-11-11 19:05:25	<--	smazga has quit (Ping timeout: 240 seconds)
+2013-11-11 19:06:40	-->	kliph has joined #lisp
+2013-11-11 19:06:47	-->	Ambit has joined #lisp
+2013-11-11 19:07:04	-->	Munksgaard has joined #lisp
+2013-11-11 19:07:39	<--	ASau has quit (Remote host closed the connection)
+2013-11-11 19:07:47	<--	varjagg has quit (Quit: Leaving)
+2013-11-11 19:08:29	<--	STilda has quit (Ping timeout: 250 seconds)
+2013-11-11 19:08:56	<--	sellout- has quit (Quit: Leaving.)
+2013-11-11 19:10:27	<--	hiyosi has quit (Ping timeout: 245 seconds)
+2013-11-11 19:12:25	-->	ASau has joined #lisp
+2013-11-11 19:13:18	<--	jaimef has quit (Excess Flood)
+2013-11-11 19:17:27	-->	jaimef has joined #lisp
+2013-11-11 19:18:12	<--	przl has quit (Ping timeout: 248 seconds)
+2013-11-11 19:19:48	<--	ck`` has quit (Ping timeout: 248 seconds)
+2013-11-11 19:19:53	-->	Joreji has joined #lisp
+2013-11-11 19:20:15	--	loic__ is now known as LoicLisp
+2013-11-11 19:24:14	<--	CrazyEddy has quit (Ping timeout: 252 seconds)
+2013-11-11 19:27:42	-->	DoctorDude has joined #lisp
+2013-11-11 19:27:48	-->	hiroaki has joined #lisp
+2013-11-11 19:28:48	-->	ustunozg_ has joined #lisp
+2013-11-11 19:32:38	<--	ustunozgur has quit (Ping timeout: 272 seconds)
+2013-11-11 19:33:22	<--	unixjazz has quit (Quit: Leaving)
+2013-11-11 19:33:26	<--	ustunozg_ has quit (Ping timeout: 260 seconds)
+2013-11-11 19:35:03	<--	patrickwonders has quit (Quit: patrickwonders)
+2013-11-11 19:35:49	<--	kliph has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-11-11 19:36:51	-->	hiyosi has joined #lisp
+2013-11-11 19:39:11	-->	CrazyEddy has joined #lisp
+2013-11-11 19:41:27	-->	abeaumont has joined #lisp
+2013-11-11 19:41:28	<--	hiyosi has quit (Ping timeout: 252 seconds)
+2013-11-11 19:42:42	<--	Patzy has quit (Remote host closed the connection)
+2013-11-11 19:42:50	-->	Patzy has joined #lisp
+2013-11-11 19:45:27	<--	dtw has quit (Quit: (invoke-restart 'dtw:sleep))
+2013-11-11 19:47:50	<--	fish2 has quit (Ping timeout: 272 seconds)
+2013-11-11 19:47:56	<--	Codynyx has quit (Read error: Connection reset by peer)
+2013-11-11 19:48:45	-->	Codynyx has joined #lisp
+2013-11-11 19:50:33	-->	klltkr has joined #lisp
+2013-11-11 19:55:33	<--	segv- has quit (Read error: Connection reset by peer)
+2013-11-11 19:57:46	-->	HG` has joined #lisp
+2013-11-11 19:58:37	-->	Mon_Ouie has joined #lisp
+2013-11-11 19:59:07	-->	danielszmulewicz has joined #lisp
+2013-11-11 19:59:10	-->	segv- has joined #lisp
+2013-11-11 20:01:08	<--	fisxoj has quit (Ping timeout: 272 seconds)
+2013-11-11 20:03:19	<--	Joreji has quit (Ping timeout: 260 seconds)
+2013-11-11 20:03:25	<--	danielszmulewicz has quit (Ping timeout: 244 seconds)
+2013-11-11 20:04:16	-->	fisxoj has joined #lisp
+2013-11-11 20:04:39	-->	Davidbrcz has joined #lisp
+2013-11-11 20:05:41	-->	przl has joined #lisp
+2013-11-11 20:08:10	<--	fisxoj has quit (Remote host closed the connection)
+2013-11-11 20:09:04	-->	Joreji has joined #lisp
+2013-11-11 20:10:06	-->	fish2 has joined #lisp
+2013-11-11 20:12:39	<--	Codynyx has quit (Ping timeout: 252 seconds)
+2013-11-11 20:14:29	<--	fish2 has quit (Ping timeout: 252 seconds)
+2013-11-11 20:14:29	-->	Codynyx has joined #lisp
+2013-11-11 20:16:26	<--	angavrilov has quit (Remote host closed the connection)
+2013-11-11 20:17:14	-->	sellout- has joined #lisp
+2013-11-11 20:17:15	<--	klltkr has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-11-11 20:17:25	-->	ejohnson has joined #lisp
+2013-11-11 20:17:34	-->	klltkr has joined #lisp
+2013-11-11 20:18:46	jasom	is it me, or has sbcl's startup and load times gotten a lot faster in recent versions?
+2013-11-11 20:20:53	-->	eldariof has joined #lisp
+2013-11-11 20:21:58	--	Praise- is now known as Praise
+2013-11-11 20:21:59	oGMo	how recent? i haven't really noticed, but i tend to dump a base image anyway
+2013-11-11 20:22:42	oGMo	1.1.12 doesn't seem particularly faster than i recall
+2013-11-11 20:23:11	jasom	1.1 vs. 0.9ish
+2013-11-11 20:24:32	oGMo	should be easy to test, but .. that's pretty old heh
+2013-11-11 20:24:49	-->	sheilong has joined #lisp
+2013-11-11 20:27:44	<--	fikusz has quit (Ping timeout: 245 seconds)
+2013-11-11 20:28:10	-->	fikusz has joined #lisp
+2013-11-11 20:28:20	-->	ehaliewicz has joined #lisp
+2013-11-11 20:32:34	<--	duggiefresh has quit (Remote host closed the connection)
+2013-11-11 20:33:00	-->	duggiefresh has joined #lisp
+2013-11-11 20:34:11	-->	ustunozgur has joined #lisp
+2013-11-11 20:34:16	<--	ustunozgur has quit (Remote host closed the connection)
+2013-11-11 20:34:22	-->	ustunozgur has joined #lisp
+2013-11-11 20:35:49	-->	duggiefr_ has joined #lisp
+2013-11-11 20:36:01	<--	duggiefresh has quit (Remote host closed the connection)
+2013-11-11 20:36:28	<--	duggiefr_ has quit (Client Quit)
+2013-11-11 20:36:38	-->	duggiefresh has joined #lisp
+2013-11-11 20:37:43	-->	hiyosi has joined #lisp
+2013-11-11 20:37:47	<--	Joreji has quit (Ping timeout: 272 seconds)
+2013-11-11 20:37:48	-->	nug700 has joined #lisp
+2013-11-11 20:37:54	-->	fiveop has joined #lisp
+2013-11-11 20:38:12	sellout-	jasom: That’s 7 years worth of improvements ;)
+2013-11-11 20:39:45	fiveop	I have a question regarding loops: Can I use "when ... collect ..." constructs in sequence? (Like " ... when (symbolp a) collect a when (listp a) collect (car a) ... ")
+2013-11-11 20:40:46	mathrick	fiveop: http://common-lisp.net/project/iterate/
+2013-11-11 20:41:10	H4ns	fiveop: i'd say yes.
+2013-11-11 20:41:12	_death	fiveop: yes
+2013-11-11 20:41:17	-->	kristof has joined #lisp
+2013-11-11 20:41:52	--	_death is now known as adeht
+2013-11-11 20:42:39	fiveop	thanks
+2013-11-11 20:42:51	<--	hiyosi has quit (Ping timeout: 272 seconds)
+2013-11-11 20:43:10	fiveop	mathrick: you want to say, 'Don't Loop, Iterate'? :)
+2013-11-11 20:43:46	-->	Joreji has joined #lisp
+2013-11-11 20:43:54	mathrick	fiveop: yes
+2013-11-11 20:43:58	mathrick	it's much better
+2013-11-11 20:44:05	<--	ggole has quit
+2013-11-11 20:45:15	<--	eldariof has quit (Ping timeout: 260 seconds)
+2013-11-11 20:47:41	<--	ejohnson has quit (Quit: ejohnson)
+2013-11-11 20:50:27	<--	Patzy has quit (Ping timeout: 272 seconds)
+2013-11-11 20:50:42	Shinmera	How does iterate compare to loop in terms of code efficiency?
+2013-11-11 20:50:51	kristof	Depends on what you're doing
+2013-11-11 20:50:57	Shinmera	As in, how efficient the code it is that it produces.
+2013-11-11 20:51:03	-->	Patzy has joined #lisp
+2013-11-11 20:51:06	 *	dim waves to the room ;-)
+2013-11-11 20:52:13	pjb	Shinmera: it is a macro.
+2013-11-11 20:52:44	Bike	i doubt the code is particularly more or less efficient...
+2013-11-11 20:53:36	-->	Vivitron has joined #lisp
+2013-11-11 20:54:03	-->	sohail has joined #lisp
+2013-11-11 20:54:10	<--	sohail has quit (Changing host)
+2013-11-11 20:54:10	-->	sohail has joined #lisp
+2013-11-11 20:54:44	Asgeir	isn't loop's implementation… implementation-dependant ?
+2013-11-11 20:55:29	Bike	sure, but we can make broad strokes. especially since multiple implementations use code descendent from xerox
+2013-11-11 20:56:03	Asgeir	oh. learnt something, thanks :D
+2013-11-11 20:56:17	<--	Asgeir has quit (Quit: good evening people)
+2013-11-11 20:59:37	-->	zickzackv has joined #lisp
+2013-11-11 21:01:45	fiveop	In my case, I wanted to use it in a macro (implementation, not the resulting form), thus performance doesn't really matter :)
+2013-11-11 21:03:13	<--	eigenlicht has quit (Ping timeout: 272 seconds)
+2013-11-11 21:03:29	-->	namtsui has joined #lisp
+2013-11-11 21:03:46	<--	krrrcks has quit (Ping timeout: 272 seconds)
+2013-11-11 21:05:07	<--	foreignFunction has quit (Quit: Leaving.)
+2013-11-11 21:05:41	<--	Mandus has quit (Quit: leaving)
+2013-11-11 21:06:07	-->	Mandus has joined #lisp
+2013-11-11 21:11:05	<--	banjara has quit (Quit: Leaving.)
+2013-11-11 21:11:14	-->	zacharias has joined #lisp
+2013-11-11 21:11:48	-->	banjara has joined #lisp
+2013-11-11 21:16:16	<--	zickzackv has quit (Ping timeout: 264 seconds)
+2013-11-11 21:16:36	<--	HG` has quit (Ping timeout: 260 seconds)
+2013-11-11 21:18:22	<--	Davidbrcz has quit (Read error: No route to host)
+2013-11-11 21:18:47	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #lisp
+2013-11-11 21:18:47	--	Topic for #lisp is "Common Lisp, the #1=(programmable . #1#) programming language <http://paste.lisp.org/new>. New: flexi-streams 1.0.8, SBCL 1.1.13, FiveAM 1.2"
+2013-11-11 21:18:47	--	Topic set by H4ns (hans@netzhansa.com) on Sat, 02 Nov 2013 18:40:40
+2013-11-11 21:18:47	--	Nicks #lisp: [[SLB] ^self _5kg __main__ _d3f _schulte1 _schulte_ ``Erik aajmakin abeaumont abend acieroid adeht Adeon AeroNotix aeth aftershave ahungry ahungry_ alabaster alezost Amadiro Ambit Anarch antgreen AntiSpamMeta antoszka aoh araujo arbscht arrsim ASau asedeno Ash ashish__ Ayey_ balle banjara bben beach bege benny bgs100 bhyde Bike billstclair bitonic bjorkintosh BlastHardcheese Blkt bobbysmith0071 BrianRice brown`` brucem capisce_ ccl-logbot cdidd Cheery cibs ckoch786 clmsy clog clop clop2 cmatei cmbntr cmm Code_Man` cods Codynyx copec cory786 cpape cpt_nemo CrazyEddy cross cyphase d4gg4d_ daimrod dan64 danlentz deadghost delYsid` desophos devon dfox didi dim djinni` dlowe DoctorDude doomlord_ dotemacs dRbiG drdo DrForr dsp_ duggiefresh eagleflo eak easiere easye echo-area ecraven effy ehaliewicz eli Elvaron eMBee emma enn entitativity epsylon` ered EvW expez Fade fe[nl]ix felideon felipe ferada fikusz finnrobi fiveop flip214 fmu foom fourOfTwelve freiksenet froggey ft gabot galdor_ gemelen gensym gf3 ggherdov gko gluegadget Gooder gravicappa guaqua GuilOooo H4ns harish Hermit hiro3 hiroaki hitecnologys housel hpd hugod hyperboreean hypno_ ianmcorvidae igorw impulse ineiros_ ircbrowse ivan ivan\ iwilcox j0ni j_king jackdaniel jaimef jasom jayne jd__ jewel jk121960 joast johs joneshf-work Joreji joshe JPeterson jsnell jsucsy1 JuanitoJons Jubb justinmcp K1rk Kabaka Kaisyu kanru karswell kaygun kaygun_ kbtr keen__ Khisanth killmaster KingNato_ kirin` klltkr kmder koisoke kpreid kristof Kromitvs Kruppe Krystof kwmiebach lc0dd0cl lduros lemoinem LiamH LoicLisp loke loke`` ludocode luis macrobat madnificent mal___ Mandus mathrick matko mau_ mcsontos mikaelj_ MikeSeth milosn minion mishoo MoALTz_ Mon_Ouie mrSpec MrWoohoo mshroyer mtd munge Munksgaard namtsui naryl Natch nbouscal Neptu newcup nialo nicdev nightfly nightshade427 nitro_idiot_ Nshag nuba nug700 nullman nydel obre oconnore Oddity oGMo Okasu Oladon oleo otwieracz ozialien ozzloy p_l p_nathan1 paddymahoney Patzy pchrist peccu phadthai photex pjb plathrop pok Posterdati Praise prip prxq przl PuercoPop Pullphinger qiemem quasisane Ralt ramus redline6561 REPLeffect rk[imposter] rk[OHIO] robot-beethoven Roin rotty rtoym Sagane samebchase samskull` sauerkrause sbryant sc00fy scharan schoppenhauer seangrove seantallen segv- sellout- setheus_ sfa sheilong Shinmera SHODAN sid_cypher sigjuice_ sjl ski slyrus smull sohail Sourceless spacefrogg^ specbot srcerer sshirokov stepnem stokachu stopbit strobegen stuckie Subfusc subtlepath surrounder sword sytse tali713 Tarential TDog tensorpudding tessier thasc The_third_man theBlackDragon thelorax123 theos ThePhoeron tinyghost tkd tmokros tomaw Tordek Tribal Tristam TristamWrk tvaalen tychoish ustunozgur varjag ve vhost- Vivitron vnz vsync Watcher7 wchun wheelsucker wilfredh willyfrog wolgo Wukix`` wyan w|t xenophon xotedend xristos yacks Yamazaki-kun yano yeltzooo yonkeltron yrk yroeht z0d zacharias Zagaba zbigniew zenoli Zhivago zophy zz_karupanerura |3b|]
+2013-11-11 21:18:47	--	Channel #lisp: 385 nicks (0 ops, 0 voices, 385 normals)
+2013-11-11 21:18:49	--	Mode #lisp [+Ccn]
+2013-11-11 21:18:49	--	Channel created on Sun, 03 Aug 2003 23:30:32
+2013-11-11 21:20:11	<--	Pullphinger has quit
+2013-11-11 21:20:49	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #lisp
+2013-11-11 21:20:49	--	Topic for #lisp is "Common Lisp, the #1=(programmable . #1#) programming language <http://paste.lisp.org/new>. New: flexi-streams 1.0.8, SBCL 1.1.13, FiveAM 1.2"
+2013-11-11 21:20:49	--	Topic set by H4ns (hans@netzhansa.com) on Sat, 02 Nov 2013 18:40:40
+2013-11-11 21:20:49	--	Nicks #lisp: [[SLB] ^self _5kg __main__ _d3f _schulte1 _schulte_ ``Erik aajmakin abeaumont abend acieroid adeht Adeon AeroNotix aeth aftershave ahungry ahungry_ alabaster alezost Amadiro Ambit Anarch antgreen AntiSpamMeta antoszka aoh araujo arbscht arrsim ASau asedeno Ash ashish__ Ayey_ balle banjara bben beach bege benny bgs100 bhyde Bike billstclair bitonic bjorkintosh BlastHardcheese Blkt bobbysmith0071 BrianRice brown`` brucem capisce_ ccl-logbot cdidd Cheery cibs ckoch786 clmsy clog clop clop2 cmatei cmbntr cmm Code_Man` cods Codynyx copec cory786 cpape cpt_nemo CrazyEddy cross cyphase d4gg4d_ daimrod dan64 danlentz deadghost delYsid` desophos devon dfox didi dim djinni` dlowe DoctorDude doomlord_ dotemacs dRbiG drdo DrForr dsp_ duggiefresh eagleflo eak easiere easye echo-area ecraven effy ehaliewicz eli Elvaron eMBee emma enn entitativity epsylon` ered EvW expez Fade fe[nl]ix felideon felipe ferada fikusz finnrobi fiveop flip214 fmu foom fourOfTwelve freiksenet froggey ft gabot galdor_ gemelen gensym gf3 ggherdov gko gluegadget Gooder gravicappa guaqua GuilOooo H4ns harish Hermit hiro3 hiroaki hitecnologys housel hpd hugod hyperboreean hypno_ ianmcorvidae igorw impulse ineiros_ ircbrowse ivan ivan\ iwilcox j0ni j_king jackdaniel jaimef jasom jayne jd__ jewel jk121960 joast johs joneshf-work Joreji joshe JPeterson jsnell jsucsy1 JuanitoJons Jubb justinmcp K1rk Kabaka Kaisyu kanru karswell kaygun kaygun_ kbtr keen__ Khisanth killmaster KingNato_ kirin` klltkr kmder koisoke kpreid kristof Kromitvs Kruppe Krystof kwmiebach lc0dd0cl lduros lemoinem LiamH LoicLisp loke loke`` ludocode luis macrobat madnificent mal___ Mandus mathrick matko mau_ mcsontos mikaelj_ MikeSeth milosn minion mishoo MoALTz_ Mon_Ouie mrSpec MrWoohoo mshroyer mtd munge Munksgaard namtsui naryl Natch nbouscal Neptu newcup nialo nicdev nightfly nightshade427 nitro_idiot_ Nshag nuba nug700 nullman nydel obre oconnore Oddity oGMo Okasu Oladon oleo otwieracz ozialien ozzloy p_l p_nathan1 paddymahoney Patzy pchrist peccu phadthai photex pjb plathrop pok Posterdati Praise prip prxq przl PuercoPop qiemem quasisane Ralt ramus redline6561 REPLeffect rk[imposter] rk[OHIO] robot-beethoven Roin rotty rtoym Sagane samebchase samskull` sauerkrause sbryant sc00fy scharan schoppenhauer seangrove seantallen segv- sellout- setheus_ sfa sheilong Shinmera SHODAN sid_cypher sigjuice_ sjl ski slyrus smull sohail Sourceless spacefrogg^ specbot srcerer sshirokov stepnem stokachu stopbit strobegen stuckie Subfusc subtlepath surrounder sword sytse tali713 Tarential TDog tensorpudding tessier thasc The_third_man theBlackDragon thelorax123 theos ThePhoeron tinyghost tkd tmokros tomaw Tordek Tribal Tristam TristamWrk tvaalen tychoish ustunozgur varjag ve vhost- Vivitron vnz vsync Watcher7 wchun wheelsucker wilfredh willyfrog wolgo Wukix`` wyan w|t xenophon xotedend xristos yacks Yamazaki-kun yano yeltzooo yonkeltron yrk yroeht z0d zacharias Zagaba zbigniew zenoli Zhivago zophy zz_karupanerura |3b|]
+2013-11-11 21:20:49	--	Channel #lisp: 384 nicks (0 ops, 0 voices, 384 normals)
+2013-11-11 21:20:53	--	Mode #lisp [+Ccn]
+2013-11-11 21:20:53	--	Channel created on Sun, 03 Aug 2003 23:30:32
+2013-11-11 21:21:48	<--	[SLB] has quit (Quit: Close the world, Open the nExt)
+2013-11-11 21:23:59	<--	dotemacs has quit (Quit: Connection closed for inactivity)
+2013-11-11 21:28:11	<--	banjara has quit (Quit: Leaving.)
+2013-11-11 21:28:13	<--	Sagane has quit (Read error: Connection reset by peer)
+2013-11-11 21:28:56	-->	banjara has joined #lisp
+2013-11-11 21:30:35	<--	banjara has quit (Client Quit)
+2013-11-11 21:31:17	-->	banjara has joined #lisp
+2013-11-11 21:32:10	-->	[SLB] has joined #lisp
+2013-11-11 21:35:28	-->	Karl_dscc has joined #lisp
+2013-11-11 21:38:38	-->	hiyosi has joined #lisp
+2013-11-11 21:39:40	<--	banjara has quit (Quit: Leaving.)
+2013-11-11 21:39:52	<--	gravicappa has quit (Ping timeout: 272 seconds)
+2013-11-11 21:40:26	-->	banjara has joined #lisp
+2013-11-11 21:41:04	-->	danielszmulewicz has joined #lisp
+2013-11-11 21:43:03	<--	hiyosi has quit (Ping timeout: 240 seconds)
+2013-11-11 21:46:17	-->	nisstyre has joined #lisp
+2013-11-11 21:46:59	<--	danielszmulewicz has quit (Quit: danielszmulewicz)
+2013-11-11 21:49:20	<--	fiveop has quit (Quit: humhum)
+2013-11-11 21:49:40	<--	cdidd has quit (Ping timeout: 245 seconds)
+2013-11-11 21:50:03	-->	cdidd has joined #lisp
+2013-11-11 21:53:07	<--	banjara has quit (Quit: Leaving.)
+2013-11-11 21:53:49	-->	banjara has joined #lisp
+2013-11-11 21:53:52	jasom	http://paste.lisp.org/display/139875
+2013-11-11 21:54:04	jasom	someone who knows cl-ppcre, please explain that to me
+2013-11-11 21:55:30	-->	Joreji_ has joined #lisp
+2013-11-11 21:56:18	Bike	jasom: the first one is interpreted as a range between space and the quote mark
+2013-11-11 21:56:37	jasom	oh crap
+2013-11-11 21:56:39	Bike	jasom: use ppcre:parse-string, it really helps understand these little things.
+2013-11-11 21:56:44	jasom	I just did a ppcre:parse-string
+2013-11-11 21:56:47	jasom	you're right
+2013-11-11 21:57:32	Bike	[A-Z ][A-Z ’-]+$ should work, i think.
+2013-11-11 21:57:45	jasom	I just moved the quote to the beginning, which works too
+2013-11-11 21:58:20	<--	banjara has quit (Client Quit)
+2013-11-11 21:58:37	<--	LoicLisp has quit (Quit: Leaving)
+2013-11-11 21:59:04	-->	banjara has joined #lisp
+2013-11-11 21:59:11	<--	banjara has quit (Changing host)
+2013-11-11 21:59:11	-->	banjara has joined #lisp
+2013-11-11 21:59:38	<--	banjara has quit (Client Quit)
+2013-11-11 22:00:23	-->	banjara has joined #lisp
+2013-11-11 22:01:21	-->	dnolen has joined #lisp
+2013-11-11 22:01:25	<--	dnolen has left #lisp
+2013-11-11 22:02:16	<--	przl has quit (Ping timeout: 268 seconds)
+2013-11-11 22:02:29	<--	banjara has quit (Client Quit)
+2013-11-11 22:03:11	-->	banjara has joined #lisp
+2013-11-11 22:03:30	<--	banjara has quit (Client Quit)
+2013-11-11 22:03:33	-->	danielszmulewicz has joined #lisp
+2013-11-11 22:04:11	-->	sdemarre has joined #lisp
+2013-11-11 22:04:13	-->	banjara has joined #lisp
+2013-11-11 22:04:52	jasom	bah, humbug.  Apparently capitalize-string is defiend to convert"foo's" to "Foo'S"
+2013-11-11 22:05:05	jasom	since ' is non-alphanumeric
+2013-11-11 22:07:31	dlowe	I use (string-capitalize str :end 1) a lot
+2013-11-11 22:08:22	jasom	isn't that the same as string-upcase str :end 1?
+2013-11-11 22:08:43	dlowe	sure.
+2013-11-11 22:08:59	dlowe	but the former conveys intent better
+2013-11-11 22:10:06	pjb	Notice also the difference between ' and ’
+2013-11-11 22:11:35	-->	przl has joined #lisp
+2013-11-11 22:11:37	jasom	I suppose I could do (format nil "~{~A~^ ~}" (mapcar (lambda (x) string-capitalize x :end 1) (split-sequence #\Space string)))
+2013-11-11 22:12:18	dlowe	Sure, if you wanted to capitalize the words "a", "in", "an", etc
+2013-11-11 22:12:37	<--	thasc has quit (Ping timeout: 244 seconds)
+2013-11-11 22:12:43	jasom	which string-caplitalize does already
+2013-11-11 22:12:49	jasom	so it's strictly better for my use
+2013-11-11 22:12:53	dlowe	they probably should have just not included string-capitalize in any case
+2013-11-11 22:12:57	jasom	I agree
+2013-11-11 22:13:19	--	rk[OHIO] is now known as rk[ILLINOIS]
+2013-11-11 22:33:54	--	irc: disconnected from server
+2013-11-11 22:34:36	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #lisp
+2013-11-11 22:34:36	--	Topic for #lisp is "Common Lisp, the #1=(programmable . #1#) programming language <http://paste.lisp.org/new>. New: flexi-streams 1.0.8, SBCL 1.1.13, FiveAM 1.2"
+2013-11-11 22:34:36	--	Topic set by H4ns (hans@netzhansa.com) on Sat, 02 Nov 2013 18:40:40
+2013-11-11 22:34:37	--	Nicks #lisp: [[SLB] ^self _5kg __main__ _d3f _schulte1 _schulte_ ``Erik aajmakin abeaumont abend acieroid adeht Adeon AeroNotix aeth aftershave ahungry ahungry_ alabaster Amadiro Ambit Anarch antgreen AntiSpamMeta antoszka aoh araujo arbscht ASau asedeno Ash ashish__ Ayey_ balle banjara bben bege benny bgs100 bhyde Bike billstclair bitonic bjorkintosh BlastHardcheese Blkt bobbysmith0071 BrianRice brown`` brucem capisce_ ccl-logbot cdidd Cheery cibs ckoch786 clmsy clog clop clop2 cmatei cmbntr cmm Code_Man` cods Codynyx copec cory786 cpape cpt_nemo CrazyEddy cross cyphase d4gg4d_ daimrod dan64 danielszmulewicz danlentz Davidbrcz deadghost delYsid` desophos devon dfox didi dim djinni` dlowe DoctorDude doomlord_ dRbiG drdo DrForr dsp_ duggiefresh eagleflo eak easiere easye echo-area ecraven effy eli Elvaron eMBee emma enn entitativity epsylon` ered EvW expez Fade fe[nl]ix felideon felipe ferada fikusz finnrobi flip214 fmu foom fourOfTwelve freiksenet froggey ft gabot galdor_ gemelen gensym gf3 ggherdov gko gluegadget Gooder guaqua GuilOooo H4ns harish Hermit hiro3 hiroaki hitecnologys housel hpd hugod hyperboreean hypno_ ianmcorvidae igorw impulse ineiros_ ircbrowse ivan ivan\ iwilcox j0ni j_king jack_rabbit jackdaniel jaimef jasom jayne jd__ jewel jk121960 joast johs joneshf-work Joreji Joreji_ joshe JPeterson jsnell jsucsy1 JuanitoJons Jubb justinmcp K1rk Kabaka Kaisyu kanru Karl_dscc karswell kaygun kaygun_ kbtr keen__ Khisanth killmaster KingNato_ kirin` klltkr kmder koisoke kpreid kristof Kromitvs Kruppe Krystof kwmiebach lc0dd0cl lduros lemoinem LiamH loke loke`` ludocode luis macrobat madnificent mal___ Mandus mathrick matko mau_ mcsontos mikaelj_ MikeSeth milosn minion mishoo MoALTz_ Mon_Ouie mrSpec MrWoohoo mshroyer mtd munge Munksgaard namtsui naryl Natch nbouscal Neptu newcup nialo nicdev nightfly nightshade427 nisstyre nitro_idiot_ Nshag nuba nug700 nullman nydel obre oconnore Oddity oGMo Okasu Oladon oleo otwieracz ozialien ozzloy p_l p_nathan1 paddymahoney Patzy pchrist peccu phadthai photex pjb plathrop pok Posterdati Praise prip prxq przl PuercoPop qiemem quasisane Ralt ramus redline6561 REPLeffect rk[ILLINOIS] rk[imposter] robot-beethoven Roin rotty rtoym samebchase samskull` sauerkrause sbryant sc00fy scharan schoppenhauer sdemarre seangrove seantallen segv- sellout- setheus_ sfa sheilong Shinmera SHODAN sid_cypher sigjuice_ sjl ski slyrus smull sohail Sourceless spacefrogg^ specbot srcerer sshirokov stepnem stokachu stopbit strobegen stuckie Subfusc subtlepath surrounder sword sytse tali713 Tarential tensorpudding tessier The_third_man theBlackDragon thelorax123 theos ThePhoeron tinyghost tkd tmokros tomaw Tordek Tribal Tristam TristamWrk tvaalen tychoish ustunozgur varjag ve vhost- Vivitron vnz vsync Watcher7 wchun wedgeV wheelsucker wilfredh willyfrog wolgo Wukix`` wyan w|t xenophon xotedend xristos yacks Yamazaki-kun yano yeltzooo yonkeltron yrk yroeht z0d zacharias Zagaba zbigniew zenoli Zhivago zophy zz_karupanerura |3b|]
+2013-11-11 22:34:37	--	Channel #lisp: 381 nicks (0 ops, 0 voices, 381 normals)
+2013-11-11 22:34:47	--	Mode #lisp [+Ccn]
+2013-11-11 22:34:48	--	Channel created on Sun, 03 Aug 2003 23:30:32
+2013-11-11 22:35:02	-->	thasc has joined #lisp
+2013-11-11 22:35:34	jasom	For the most part, the asymptotic boundings on trees are as good or better than on hash-tables.  Constant factors make hash-tables better
+2013-11-11 22:36:32	jasom	e.g. a patricia tree has O(k) lookup, which is the same as a hash-table, but it also lets you output a sorted list in O(n) time, which hash-tables generally don't allow
+2013-11-11 22:36:55	-->	zxq9 has joined #lisp
+2013-11-11 22:37:30	<--	sdemarre has left #lisp
+2013-11-11 22:39:21	-->	hiyosi has joined #lisp
+2013-11-11 22:42:14	<--	DoctorDude has left #lisp
+2013-11-11 22:42:34	-->	francis_wolke has joined #lisp
+2013-11-11 22:43:23	<--	kristof has quit (Ping timeout: 252 seconds)
+2013-11-11 22:43:24	<--	didi has quit (Ping timeout: 252 seconds)
+2013-11-11 22:44:02	<--	hiyosi has quit (Ping timeout: 246 seconds)
+2013-11-11 22:44:06	<--	matko has quit (Remote host closed the connection)
+2013-11-11 22:44:59	<--	keen__ has quit (Read error: Connection reset by peer)
+2013-11-11 22:44:59	-->	keen_ has joined #lisp
+2013-11-11 22:44:59	<--	Joreji_ has quit (Ping timeout: 268 seconds)
+2013-11-11 22:45:29	<--	przl has quit (Ping timeout: 252 seconds)
+2013-11-11 22:46:34	<--	xotedend has quit (Ping timeout: 265 seconds)
+2013-11-11 22:46:58	<--	thelorax123 has quit (Remote host closed the connection)
+2013-11-11 22:47:20	<--	Davidbrcz has quit (Ping timeout: 268 seconds)
+2013-11-11 22:47:41	-->	thelorax123 has joined #lisp
+2013-11-11 22:48:02	<--	sellout- has quit (Quit: Leaving.)
+2013-11-11 22:50:01	<--	Okasu has quit (Quit: leaving)
+2013-11-11 22:50:12	-->	Oolo0 has joined #lisp
+2013-11-11 22:50:21	Oolo0	jasom: Huh?
+2013-11-11 22:50:42	Oolo0	hash table data structure have O(1), not O(k).
+2013-11-11 22:50:56	<--	samskull` has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-11-11 22:50:56	jasom	Oolo0: how long does it take to hash a key?
+2013-11-11 22:51:02	Oolo0	jasom: 1
+2013-11-11 22:51:02	jasom	O(k) where k is the key-length
+2013-11-11 22:52:24	jasom	Oolo0: with most hash-functions it takes longer to hash "This is a really long key that I am going to insert into my associative data structure" than to hash "x"
+2013-11-11 22:53:12	jasom	pretty much all fast hash functions, it's linear in the key-length (it would be dumb in most cases to use a super-linear time hash function for a hash table)
+2013-11-11 22:53:13	Oolo0	jasom: but it's even longer to traverse n nodes of tree comparing thing to decide where to go
+2013-11-11 22:54:36	Oolo0	jasom: so your point is that tries are more efficient than hash table?
+2013-11-11 22:54:50	Oolo0	for lookup
+2013-11-11 22:55:21	jasom	Oolo0: it takes either a maximum of k operations for a trie or for a key
+2013-11-11 22:55:44	jasom	Oolo0: but hash-tables are faster because of constant factors.  Asymptotic complexity is the same or better for tries vs. hash-tables
+2013-11-11 22:56:44	jasom	Mainly it's that reading consecutive bytes is far faster than reading non-consecutive words
+2013-11-11 22:57:13	Oolo0	jasom: okay, thanks for explanation
+2013-11-11 22:58:16	<--	Oolo0 has quit (Quit: leaving)
+2013-11-11 22:58:18	jasom	Also it takes a bit of work to make a hash-table that is O(1) with respect to the number of keys in it (you need to grow at the right time, and handle collisions gracefully, etc)
+2013-11-11 22:58:50	oGMo	jasom: "bit of work" = "usually not"
+2013-11-11 22:59:19	oGMo	if you can build a perfect hash you can get O(k) but otherwise it's going to be worse
+2013-11-11 22:59:23	<--	kpreid has quit (Quit: Offline)

@@ -1,0 +1,1719 @@
+2013-11-10 14:53:10	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined ##javascript
+2013-11-10 14:53:10	--	Topic for ##javascript is "Can't Talk? Get Registered on FreeNode (HOWTO: http://ur1.ca/90niw) | ECMAScript, Javascript, JS *not* Java | Say: "!help" (or ask and wait) | Run: "!mdn foo" for docs on "foo" | Don't paste code in the channel."
+2013-11-10 14:53:10	--	Topic set by gkatsev (~gkatsev@oftn/board/gkatsev) on Mon, 25 Feb 2013 09:02:19
+2013-11-10 14:53:10	--	Nicks ##javascript: [[1]JPeterson [[zz]] \mSg ^Chris^ __main__ _br_ _Bravado _cheney _Cody _dev_null _marix _trev abetusk aboudreault abraxas absentia absolutezeroff AciD` AcTiVaTe adam12 Adeon aeoril aesptux ahungry aidanie__ ajpiano akkufomk alainus alamar alex88 alexander__b alexwhitman alieas_ Alina-malina allanm alletun_es AloisJanicek alpha123 amcsi_work andrew9183 anekos_ anildigital Ankhwatcher antihero aoeex aortmann arcanis Areks Aresilla Aric Arieh arielserafini arietis arkore Armen Arokh artgoeshere arvind_khadri astrolin astronautaid Atlantic777 atomi atrigent Atrumx Audlex average AviramH AWAW Ayey_ Babbam86 BaDaSs bakedb banzounet basti-mbp bberry Beg bel3atar Beltechs ben1066 ben_alman Benjojo bentruyman Benvie berger0 bgy bhldev bhughes biberu bigbugjava bigLanky Bish Blacklite blackwhite BlaDe^ bline bluesm bmn bn` bobbylaporte BohemianHacks Bombo BombStrike BoomBox BoomerBile braincrash brainproxy Brando753 bremnes Brewster bubbajones bung ButtDog_ buu Bwild bxi B|aster Cache_Money Caelum caerphoto callumacrae cam carldanley Catie catsup caveat- CCPBracari cdidd cebor Centime Cerise_ ch3mical ch3mical_ CharlieM751 chasemb chernjie_ Chewtoy chjj chrisdickinson christophe_v_e cibs cihan clarkk classix clouder`grr codebrainz codelahoma codeSomeThings codingkevin CoJaBo comboy CookieNinja coolstoriyo Cork CR0W crash\ crashev_ crazydiamond Cromulent cruxeternus CTPAX__ Curtisbeef_ cybrNaut cythrawll czardoz d45h D[4]ni dabear Daniel0 DannyFritz danrough dark_element darkc0met Darkduma_ DarkGhost datagutt dccc DDR deadalus decoponio deepy deg deltab denysonique Depe Dessimat0r Dev0n dfoolz dhaber Diemuzi digitalfiz digiwano diminoten dino82 diod disorder djd dman777 dmanderson dmbaturin doc|home doev domsz DonVitoC- DonVitoCorleone dowlf dozn drager dragonshed DrAwesomeClaws_ Dreamer3 DrLou dspriggs durnik dwarder dwcook dxd828 dytrivedi dza dziga dZwilly eagleflo eagles0513875 ecmabot Eddul EdwardIII edwardly eggzeck eggzeck-laptop ehtesh eighty4 ejnahc eliudnir ELLIOTTCABLE elnur emid emma enda erg ericwood erikj erry eshlox etcetera EvRide ezakimak ezakimak_work faddah fairlite farn fearphage felipe_ fella5s FernandoBasso fhd fikst FireFly fireh FizzyTea fkm Flannel Fli-c flori Fortescue FortuneDays franckbenoit Frostman fuchstronaut Fuu Fuzai g_byers gambakufu GarethAdams Gather Gavilan3 gde33 gdifo geilt geomyidae gerard0 germanoak gf3 gic gimpygoo githogori gkatsev Gluesticky godprobe Gonsor grafi grahamsavage__ graphitemaster Gregor gtc Guest41403 Guest69055 Guest83584 Guest86070 Gunn4r h0st1le h34d3r HA5h haBuu hans_henrik happyface Happzz harvey203 Havvy hazardous Hazza hdrv heath heedypo heidar HeN Hertz hgascon hhehw- highasdick Hixon10 hnsr hooloovoo hubutm20 hugo_moss huntercool idr0p ifdef42 ilteris im0b ImBcmDth Industrial inimino Inoperable insel Internet13 interru intrigue intripoon_ isaacbw iSeeDead1ixels itisi ivan\ ivanoats ix0071 iXeno jaeholee jaguilera_ jaimef jakoch jalcine jallardice jamme janelleb jaredrhine JarJarBingDotCom JavaChip jave jayne jazu jblanche JBreit JC_SoCal Jck_True jcromartie jcrza JeanMertz jesseabc1231 JFranks JGarrido jgoss jhford jhgaylor jhvisser jiffe99 Jikan jlwang jmaister jmcantrell JmZ_ joepie91 JoeyJoeJo joeytier johnkpaul Johnny- joneshf-work jonginn jonkri joroci joseph JosephFerano joshskidmore joshua_jandyco josue jpossi JPT jpwgarrison jrdn jruzz jsbkkj jscinoz JSharpe__ jso juo jve_ jxie jzl_ k1ng k308 k4yc44k5_ Kabaka kadiks Kai` kaimei_ kalleth_ Kaltiz kam270 kandinski kanzure karnowski kastang kazi kborchers kbrosnan kbsa Kesarr kevireilly Khisanth khmer kinabalu KindOne king4life kingsley Kingsy Kinny kludge` Kneferilis koba04_away kohvihoo1 kraucrow kraytul Krinkle|detached kurrent kyrre l1ght lahwran Lajjla larsemil lemonsparrow leptonix Lexi lijnen Lildirt lilmonkey Lindrian Linkandzelda Linkeh lmjabreu LocalPCGuy Logicgate looper lord4163 lpaul7 LuckySMack_ luruke Lyn M-ou-se m0 m0ltar m8 m_kael_ mac- machisuji MacWinner Maffelu malcolmva Malediction malorie ManneW mar77i marcjs marcker marco-oliveira marienz Marsup martisj Martz marvi masak MaSOuD master5o1|work mattattaque Maurice Maxani Maxdamantus Maxel mbor mdedetrich mentalist Merheet0 mHancik MicD_ MightyMu mikaelb_ mike_f milkandtang Mintograde Misan mish4 mist mitchdotpro mitzev_ MJCD modernbob monkeynipples monokrome MooGoo motaka2 MrDare360 MrDHat|offline mreeder mtree Multiply Munter_ myndzi mysteronyx mythril_ naillwind namidark nanashiRei NanoArrow nathan7 ndngvr nebiros Necrite necrogami nemesit|znc NeoThermic Neozonz|Disc netman nhqe Niamkik nihilista nikola ninegrid noakes noisia_ Norbo11 Nothing4You novikane Nuck nullrouted|cloud nw nwilson5 nym_ nyordanov o0elise0o oal ocfx ohcibi ole OliverJAsh olleman oogaw Orbitrix Orginator ormaaj Outsider_ Overand padolsey PaladinPete pantech papercut patsToms paul_k PaulePanter pbjorklund pbodymind pbunny PcJamesy Peeter Pengoo percival Petazz_ peterhil peteyg ph88 philosonerd__ PhonicUK pikpik pingo pinkkis pipecloud pixelpimp pmarsh_ pog Polar_ poorman poutine Praise prawnsalad preaction preflex ProgR33n qiemem queequeg2 raj ramdog ramdog_ raniere ravenzz RawBin rawplaye1 raybarg Raynos rblackwe rcombs redeemed regreddit Reite rektide relix Relsak Renari Renex resure retornam rfish richardiii RichardJ richardwhiuk Ricki` rikkus riotz rivarun rizzuh RLa robbyoconnor robmozart rockfruit Roja Roja_ rolleiflex_ rook2pawn rook_flood root66 ross` rosseaux rsk700 ryanponce ryanseddon ryanw ryland s5fs s_e sabajo_ sacho Sajaki sandroid_afk sayakb sayd Sazpaimon_ sbos99 scathen^C Scoding ScottO_1 SebastianFlyte sebbarn SecretAgent Segaja Seganku segv- Sembiance sente sergey Sergonium serpent223 SewDough SeySayux shabius shammancer shanahan shennyg shesek ShinyPhoenix shirro shmoon shoky silv3rwind SirCmpwn siroko_ skrblr skython slikts Snakes sneakyness so Somatt Somatt_wrk Someguy123 Sorella Sose spenguin sphenxes spike|spiegel Squarism sraka1 srcerer sriley ssbr staafl stafamus stdgy stef steme_jomps_ stephan48 stevenbenner StoneTable strandberg stylus substack svinkle swatti sympathix synTax Synthead sysdef systemovich t Tabmow Taggnostr tapout Tarential tarkus tataa tauntaun Taylor tazle TDJACR TermNL Thalheim_ The_Coolest TheCowboy TheFuzzball thelorax123 TheMoonMaster theshadow thezanke thibauts ThiefMaster thomasHorse thorz tieTYT TimTim` Tingle tirengarfio Tisoki tklun tobmaster tomalak tomatto tomaw tomh-_ TomRone tomshreds top4o Torsten|off tr4656 tra trigen tris Trudko tsunamie tty-1 tubbo Turn_Left TuRnaD0 twisted` tylersmith Typo Ububegin Unlocked_ vadviktor vaishali ValicekB Validatorian vendethiel vereteran vexii vire visua voidhouse Vustom waerloga Wafamde warreng wbill wchun wcpan_ weeb1e weq whirlibulf Whiskey Whiskey`Wonka widoz wildbat wingman wmage Woet wookienz wrp6 xchg xec Xethron Xgc xinming_ Xiti xk_id xp_prg2 xxtjaxx Y_Ichiro Yancho yano yeboot yeltzooo yhsiang yogurt_truck yorick yosafbridge zaal zacharyz zackiv31 zafu Zarthus zarul zeekay zenodub zeropx zivester zjonsson zkat Znoosey zod zodiak zoee zz_eugeneware |Freeman| }ls{]
+2013-11-10 14:53:10	--	Channel ##javascript: 846 nicks (0 ops, 0 voices, 846 normals)
+2013-11-10 14:53:16	--	Mode ##javascript [+Ccnt]
+2013-11-10 14:53:17	--	Channel created on Sun, 26 Nov 2006 07:42:45
+2013-11-10 14:54:19	-->	vlad_starkov (~vlad_star@109.188.126.55) has joined ##javascript
+2013-11-10 14:54:44	<--	Darkduma_ (~darkduma@host-2-101-168-152.as13285.net) has quit (Ping timeout: 264 seconds)
+2013-11-10 14:55:00	<--	richardiii (~richardii@ip72-201-207-83.ph.ph.cox.net) has quit (Ping timeout: 240 seconds)
+2013-11-10 14:56:08	<--	Centime (~centime@57.4.94.79.rev.sfr.net) has quit (Ping timeout: 244 seconds)
+2013-11-10 14:56:31	<--	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has quit (Remote host closed the connection)
+2013-11-10 14:56:51	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-10 14:57:24	--	zz_eugeneware is now known as eugeneware
+2013-11-10 14:57:41	-->	dcRon (~dcRon@c-69-250-2-48.hsd1.md.comcast.net) has joined ##javascript
+2013-11-10 14:58:10	<--	fuchstronaut (~name@unaffiliated/fuchstronaut) has quit (Quit:  :: core-networks.de ««« (Gamers.IRC) »»» gamersirc.net ::)
+2013-11-10 14:58:25	-->	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has joined ##javascript
+2013-11-10 14:58:28	<--	sacho (~hecatonic@95-42-116-83.btc-net.bg) has quit (Ping timeout: 245 seconds)
+2013-11-10 14:58:48	<--	aortmann (~aortmann@krlh-5f713912.pool.mediaWays.net) has quit (Read error: Operation timed out)
+2013-11-10 14:59:01	-->	jclover (~jclover@c-76-102-65-171.hsd1.ca.comcast.net) has joined ##javascript
+2013-11-10 14:59:08	-->	vince_prignano (~vince_pri@dynamic-adsl-78-12-54-177.clienti.tiscali.it) has joined ##javascript
+2013-11-10 14:59:43	<--	AloisJanicek (~AloisJani@188.80.broadband5.iol.cz) has quit (Quit: WeeChat 0.4.2)
+2013-11-10 15:00:11	-->	AloisJanicek (~AloisJani@188.80.broadband5.iol.cz) has joined ##javascript
+2013-11-10 15:00:55	-->	Lann (~Lann@p12217-ipngn2201marunouchi.tokyo.ocn.ne.jp) has joined ##javascript
+2013-11-10 15:01:10	Lann	2 days later i finally understand what parts of your code backbone.js wants to be the model/view
+2013-11-10 15:02:02	<--	mdedetrich (~textual@123-243-72-112.static.tpgi.com.au) has quit (Quit: Computer has gone to sleep.)
+2013-11-10 15:02:20	-->	jonathanwallace (~jonathanw@12.228.46.48) has joined ##javascript
+2013-11-10 15:03:39	<--	jclover (~jclover@c-76-102-65-171.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-11-10 15:03:45	-->	tarruda (~tarruda@177.158.157.232) has joined ##javascript
+2013-11-10 15:04:27	Maxdamantus	JarJarBingDotCom: is (tankXPosition, tankYPosition) the position of the red dot?
+2013-11-10 15:04:35	-->	dingus_khan (~dingus_kh@c-76-102-104-134.hsd1.ca.comcast.net) has joined ##javascript
+2013-11-10 15:04:43	<--	jsbkkj (~jsbkkj@host86-136-183-171.range86-136.btcentralplus.com) has quit (Ping timeout: 264 seconds)
+2013-11-10 15:04:55	<--	motaka2 (~Thunderbi@188.158.218.93) has quit (Ping timeout: 244 seconds)
+2013-11-10 15:04:56	Maxdamantus	Oh, top-left pixel.
+2013-11-10 15:05:00	Maxdamantus	.. why? -_-
+2013-11-10 15:05:27	Maxdamantus	what is the top left pixel?
+2013-11-10 15:05:50	Maxdamantus	what happens if the tank rotates? does the top left pixel rotate with it?
+2013-11-10 15:06:01	JarJarBingDotCom	Lann: Was that for me?
+2013-11-10 15:06:18	JarJarBingDotCom	Maxdamantus: Um, no... that's what the math needs to figure out.
+2013-11-10 15:06:22	Lann	no heh
+2013-11-10 15:06:31	-->	motaka2 (~Thunderbi@188.159.217.145) has joined ##javascript
+2013-11-10 15:06:33	JarJarBingDotCom	Maxdamantus: When the tank rotates, the angle only changes.
+2013-11-10 15:06:38	JarJarBingDotCom	The angle variable.
+2013-11-10 15:06:39	Lann	i'm just saying that wrapping my mind around what backbone.js meant by view was not easy for me
+2013-11-10 15:06:40	-->	jsbkkj (~jsbkkj@host86-136-183-171.range86-136.btcentralplus.com) has joined ##javascript
+2013-11-10 15:06:42	-->	bkuberek (~bkuberek@74.72.159.31) has joined ##javascript
+2013-11-10 15:06:47	JarJarBingDotCom	(And it visually is rotated, unrelated to this problem.)
+2013-11-10 15:06:47	Lann	too much promoting in the docs and not enough explaining
+2013-11-10 15:06:59	-->	aortmann (~aortmann@krlh-5f713912.pool.mediaWays.net) has joined ##javascript
+2013-11-10 15:07:05	Maxdamantus	JarJarBingDotCom: so what's the top left pixel in relation to the red dot?
+2013-11-10 15:07:17	--	eugeneware is now known as zz_eugeneware
+2013-11-10 15:07:18	Maxdamantus	JarJarBingDotCom: is it always a constant offset off it?
+2013-11-10 15:07:45	-->	noahsussman (~noahsussm@207.237.90.116) has joined ##javascript
+2013-11-10 15:08:19	-->	_Cody_ (~x@host-92-22-34-219.as13285.net) has joined ##javascript
+2013-11-10 15:08:19	<--	_Cody_ (~x@host-92-22-34-219.as13285.net) has quit (Changing host)
+2013-11-10 15:08:19	-->	_Cody_ (~x@unaffiliated/commander-cody/x-9618197) has joined ##javascript
+2013-11-10 15:08:32	<--	_Cody (~x@unaffiliated/commander-cody/x-9618197) has quit (Read error: Connection reset by peer)
+2013-11-10 15:08:33	<--	noakes (~noakes@192.210.214.197) has quit (Remote host closed the connection)
+2013-11-10 15:08:40	<--	dingus_khan (~dingus_kh@c-76-102-104-134.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-11-10 15:09:08	JarJarBingDotCom	Maxdamantus: red dot's x = tankX + (tankWidth / 2).
+2013-11-10 15:09:27	Maxdamantus	Okay.
+2013-11-10 15:09:30	JarJarBingDotCom	Red dot's y = tankY + (tankHeight - 16) (or some number -- the specifics aren't the important)
+2013-11-10 15:09:35	Maxdamantus	that's fairly important to know.
+2013-11-10 15:09:43	JarJarBingDotCom	I thought it was kind of obvious?
+2013-11-10 15:09:53	Maxdamantus	It's not.
+2013-11-10 15:10:01	Maxdamantus	What happens if you rotate the tank 90°?
+2013-11-10 15:10:04	JarJarBingDotCom	I mean, by its visual placement.
+2013-11-10 15:10:05	-->	redondo (~redondo@200.109.67.65) has joined ##javascript
+2013-11-10 15:10:08	<--	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has quit (Remote host closed the connection)
+2013-11-10 15:10:12	JarJarBingDotCom	Then the tankAngle changes.
+2013-11-10 15:10:13	<--	dxd828 (~dxd828@host86-172-58-16.range86-172.btcentralplus.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-10 15:10:38	JarJarBingDotCom	And with it, the cannon's angle. And thus the pink position.
+2013-11-10 15:10:43	-->	tty-1_ (~jumperswi@ltea-047-064-010-123.pools.arcor-ip.net) has joined ##javascript
+2013-11-10 15:10:58	JarJarBingDotCom	I can't believe this small part of my game is so hard to solve *and* to explain to others.
+2013-11-10 15:11:07	Maxdamantus	and the top left pixel is going to be part-way along the side of the tank?
+2013-11-10 15:11:10	JarJarBingDotCom	I really think the solution will be more than obvious once seen.
+2013-11-10 15:11:19	<--	bkuberek (~bkuberek@74.72.159.31) has quit (Ping timeout: 264 seconds)
+2013-11-10 15:11:23	Maxdamantus	it won't actually be on a corner of the tank.
+2013-11-10 15:11:27	Maxdamantus	it'll be like:
+2013-11-10 15:11:31	JarJarBingDotCom	Maxdamantus: The visual representation of the tank is not important.
+2013-11-10 15:11:32	<--	Happzz (void@unaffiliated/ducch) has quit (Ping timeout: 260 seconds)
+2013-11-10 15:11:38	Maxdamantus	Meh, won't draw it in the channel.
+2013-11-10 15:11:42	<--	dcRon (~dcRon@c-69-250-2-48.hsd1.md.comcast.net) has left ##javascript
+2013-11-10 15:11:46	JarJarBingDotCom	In its defaul position, it's facing "up".
+2013-11-10 15:11:55	<--	Snakes (~Snakes@109.169.95.137) has quit (Changing host)
+2013-11-10 15:11:55	-->	Snakes (~Snakes@freecode-project/coder/snakes) has joined ##javascript
+2013-11-10 15:11:55	JarJarBingDotCom	The dots are in place, but need to change as the tank turns.
+2013-11-10 15:11:57	-->	tty-1__ (~jumperswi@37-252-104-113.ip.skylogicnet.com) has joined ##javascript
+2013-11-10 15:12:03	-->	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has joined ##javascript
+2013-11-10 15:12:31	JarJarBingDotCom	Is it really that unclear what I try to do?
+2013-11-10 15:12:41	JarJarBingDotCom	Isn't every important variable accounted for in my description?
+2013-11-10 15:12:50	Maxdamantus	Your input variables are really silly.
+2013-11-10 15:13:01	Maxdamantus	probably because you've positioned everything generally sillily.
+2013-11-10 15:13:06	<--	harvey203 (~harvey@113.190.228.121) has quit (Quit: Lost terminal)
+2013-11-10 15:13:15	-->	c4milo (~c4milo@ool-44c6c5e3.dyn.optonline.net) has joined ##javascript
+2013-11-10 15:13:28	Maxdamantus	if you actually program it so the tank's "position" is the centre that it rotates around, it'll probably be far simpler to imagine.
+2013-11-10 15:13:45	-->	Happzz (void@unaffiliated/ducch) has joined ##javascript
+2013-11-10 15:14:01	<--	tty-1 (~jumperswi@37-252-104-113.ip.skylogicnet.com) has quit (Ping timeout: 240 seconds)
+2013-11-10 15:14:11	Maxdamantus	What's the back side of the tank?
+2013-11-11 17:33:37	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined ##javascript
+2013-11-11 17:33:37	--	Topic for ##javascript is "Can't Talk? Get Registered on FreeNode (HOWTO: http://ur1.ca/90niw) | ECMAScript, Javascript, JS *not* Java | Say: "!help" (or ask and wait) | Run: "!mdn foo" for docs on "foo" | Don't paste code in the channel."
+2013-11-11 17:33:37	--	Topic set by gkatsev (~gkatsev@oftn/board/gkatsev) on Mon, 25 Feb 2013 09:02:19
+2013-11-11 17:33:37	--	Nicks ##javascript: [[[zz]] \mSg __main__ _br_ _Bravado _cheney _dev_null _marix _trev AaronMT abetusk aboudreault absentia AciD` AcTiVaTe adam12 Adeon Advocation aeoril aesptux ahungry aidanie__ ajpiano akiress akkufomk alainus alamar alex88 alex_javascript alexander__b alexwhitman alfonsodev alieas_ Alina-malina allanm amcsi_work andrew9183 anekos_ anildigital Ankhwatcher antihero aortmann arcanis Areks Aresilla Aric Arieh arielserafini arkore Armen Arokh artgoeshere Artpicre ashnur asie asteve astrolin astronautaid Atlantic777 atomi atrigent Audlex Ayey_ AzaToth Babbam86 BaDaSs bakedb banzounet basti-mbp bberry bel3atar Beltechs ben1066 ben_alman Benjojo bentruyman Benvie berger0 bgy bhldev biberu BigBlueBacon bigbugjava bigLanky BillCriswell Bish Blacklite blackwhite BlaDe^ blinkdesign bluesm bmn bn` bobbylaporte bobdobbs bogool BohemianHacks Bombo BombStrike BoomBox BoomerBile boxmein braincra- brainproxy Brando753 bremnes brettfrable Brewster brian-mann bubbajones bung buritica ButtDog buu Bwild bxi caasih Caelum caerphoto Cakey callumacrae cam capeta carldanley Catie catsup caveat- CCPBracari cdidd cebor cem_ Centime Cerise_ ch3mical ch3mical_ charas CharlieM751 chasemb chernjie_ Chewtoy chjj chovy chrisdickinson ChrisMatheson cibs CIDIC clarkk classix clouder`grr coda23 codebrainz codelahoma codeSomeThings codevinsky codingkevin cody-- CoJaBo comboy CookieNinja coolstoriyo Cork CR0W crash\ crashev_ Cromulent cruxeternus ctorp CTPAX__ curare_nl Curtisbeef_ cybrNaut cythrawll czardoz d45h dabear daekano Daniel0 DannyFritz danrough darkc0met datagutt DaZ dccc DDR deadalus decoponio deepy deg deltab DeltaHeavy denysonique DeoSama Depe Dessimat0r Dev0n dhaber dhilipsiva diamonds Diemuzi digitalfiz digiwano diminoten dino82 diod djd Dlabz dman777_alter dmanderson dmbaturin doc|home doev DomeMaster domsz DontShootMe DonVitoC- DonVitoCorleone DoubleAW dowlf dozn drager dragonshed DrAwesomeClaws_ DreadKnight Dreamer3 DrLou dspriggs durnik durre dutis1 dwarder Dyeh dytrivedi dza dziga dZwilly eagleflo eagles0513875 ecmabot EdwardIII edwardly effortDee eford eggzeck eggzeck-laptop egis ehtesh eighty4 ejnahc eliudnir ELLIOTTCABLE elnur elux emid emma enda erg erichynds ericwood erikj err_ok erry eshlox etcetera EvRide ezakimak_work faddah fairlite farn fearphage felipe_ felipeduardo ff6065515 fhd fifteen3 FireFly fireh FizzyTea fkm Flannel Fli-c flip_digits flori Fortescue FortuneDays fRAiLtY- franckbenoit freeed FunnyLookinHat Fuu gambakufu GarethAdams gasbakid_ Gather gbyers[Away] gde33 geekbri geilt geomyidae_ gerard0 germanoak gf3 gic gimpygoo githogori gkatsev godprobe Goopyo grafi graphitemaster GreatPotato GreenJello Gregor gtc guampa Guest26080 Guest41403 Guest69055 Guest83584 Guest86070 Gunn4r h0st1le h34d3r HA5h haBuu hans_henrik happyface Happzz hareth Havvy hazardous Hazza hdrv heath heedypo heedypo1 HeN hermiene Hertz hexed hgascon hhehw- highasdick Hixon10 hnsr hooloovoo hswolff hugo_moss huntercool hxm ideea idr0p ifdef42 ilteris im0b ImBcmDth inconclusive Industrial inimino Inoperable insel Internet13 interru intrigue intripoon Ir1sh isaacbw iSeeDead1ixels itisi ivan\ ivanoats iwantoski ix0071 iXeno jaeholee jaimef jakoch jalcine jallardice jandresen jaredrhine JarJarBingDotCom JavaChip jave jayne jazu jazz264 JBreit JC_SoCal Jck_True jcromartie jcrza jergason jerius jesseabc1231 JFranks jgoss jhford jhvisser jiffe99 Jikan jimmt jlwang jmaister jmcantrell JmZ_ joelrobichaud joepie91 joetam JoeyJoeJo joeytier johnkpaul Johnny- jonatasnona joneshf-work jonginn joro joseph JosephFerano joshskidmore josue JPeterson jpossi JPT jpwgarrison jrajav jrdn jruzz jsbkkj jscinoz JSharpe__ jso jtw juo jve_ jxie_ jzl_ k1ng k308 k4yc44k5_ Kabaka kadiks Kai` kaimei_ kalleth_ Kaltiz kanzure karnowski kastang kazi kborchers kbrosnan kbsa keepsake Keksike Kesarr kex Khisanth khmer kinabalu KindOne king4life Kingsy Kinny kludge` Kneferilis koba04_away kobain kohvihoo1 kraucrow kraytul Krinkle|detached kurko_ kurrent kyrre l1ght lahwran Lann lansman larssmit lemonsparrow leptonix Lethalman Lexi lijnen Lildirt lilmonkey Lindrian Linkandzelda Linkeh lmjabreu LocalPCGuy Logicgate looper lucasb LuckySMack_ luruke Lyn M-ou-se m0 m0dest m0ltar m8 m_kael_ mac- macabre machisuji malcolmva Malediction MalMen malorie ManneW manuelbieh mar77i marcjs marcooliveira marienz markkes Marsup martisj Martz marvi mary5030 masak MaSOuD master5o1|work mattattaque Maxdamantus Maxel mbor mc40 MCHammer meet_praveen mentalist Merheet0 mHancik MicD_ MightyMu mikaelb_ mike_f mikecmpbll MikeD_ milkandtang Mintograde mish4 mist mitchdotpro mitzev_ MJCDzZz Monie monkeynipples monokrome MooGoo motaka2 motoford MrDHat|offline mreeder MrNaviPacho msafi mtree mucker Multiply Munter_ muxdemux mvpgraff myndzi mysteronyx mythril_ naillwind namidark nanashiRei NanoArrow naomi Narigo nathan7 nbrosnahan ndngvr nebiros necrogami nemesit|znc NeoThermic Neozonz|Disc netman Nexen nhqe Niamkik nicklasmoeller niggler nihilista nikola ninegrid NinjaTux2k noahsussman NoiseEee noisia_ nomenkun Nothing4You NovemberRain novikane Nuck nullrouted|cloud Nurbs nw nwilson5 nym_ nyordanov oal ocfx ohcibi OliverJAsh olleman onthestairs oogaw Orbitrix Orginator ormaaj Outsider_ Overand overloaded pachet padolsey paldepind pantech papercut patsToms paul_k PaulePanter pbjorklund pbunny PcJamesy Peeter Pengoo percival Petazz_ petey peteyg ph88 philosonerd__ PhonicUK pikpik Pilum pingo pinkkis pipecloud pixelpimp pmarsh_ pog Polar_ poorman poutine Praise- prawnsalad preaction preflex ProgR33n qiemem queequeg2 quup rachelthegreat rafeca raj ramdog ramdog_ rampr raniere RawBin rawplaye1 raybarg Raynos rblackwe rcombs redeemed redondo regreddit Reite rektide relix Relsak Renari Renex resure retornam rfish RichardJ richardwhiuk rickbol Ricki` rideh rikkus riotz rizzuh RLa robdodson robmozart rockfruit Roja Roja_ rolleiflex_ rook2pawn rook_flood root66 rootshift ross` rosseaux roven rstandy RWOverdijk ryanponce ryanseddon ryanw ryland rzeka s5fs s_e sacho_ sandroid_afk sathran sayakb sayd Sazpaimon scathen^C Scoding scott_w ScottO_1 scriptThis SebastianFlyte SecretAgent Segaja Seganku segv- Sembiance sente serpent223 Sever SewDough SeySayux shabius ShadeTornado shammancer shanahan shaunbak_ shello shennyg shiftins Shirakawasuna shirro shmoon sifu SilentWarrior silne30 silv3rwind SirCmpwn Siyfion skrblr skullcrasher skython Slartibart slikts Snakes so Somatt Somatt_wrk Someguy123 sorella Sorella_ Sose spenguin sphenxes spike|spiegel spion spoken_ spuz srcerer sriley srji ssbr staafl stafamus stdgy stef steme_jomps_ stephan48 stevenbenner stoned StoneTable strandberg Stubacca stylus substack svinkle swatti synTax Synthead sysdef systemovich syzygy_ t t4nk701 table Tabmow Taggnostr tapout Tarential tarruda tataa Tauku tauntaun Taylor tazle TDJACR Telefaggus TermNL Thalheim thasc The_Coolest TheCowboy TheFuzzball thelorax123 TheMoonMaster theshadow thibauts ThiefMaster thorz tieTYT TimTim` Tingle tirengarfio Tisoki tklun tobmaster tomalak tomatto tomaw tomh-_ TomRone tomshreds top4o Torsten|off toruta39 tr4656 tra trigen tris Trudko_ tsunamie tty-1 tubbo tunicwriter Turn_Left Twey twisted` tylersmith Typo Ububegin Unlocked_ uris77 vadviktor_ vaishali ValicekB vendethiel vereteran victorbjelkholm vinky visua vlad_starkov Vustom w0ng waerloga warreng wbill wchun wcpan_ weeb1e whatthepoop whirlibulf Whiskey widoz wildbat willian_carvalho willob Will| wingman wmage Woet wookienz wrp6 xec Xethron Xgc xinming Xiti xp_prg2 xumium xxtjaxx Y_Ichiro yacks Yancho yano yeboot yeltzooo yhsiang yogurt_truck yosafbridge zaal zacharyz zackiv31 zafu Zarthus zeekay zenoamaro zenodub zeropx zivester zkat Znoosey zod zodiak zz_eugeneware }ls{]
+2013-11-11 17:33:37	--	Channel ##javascript: 918 nicks (0 ops, 0 voices, 918 normals)
+2013-11-11 17:33:43	--	Mode ##javascript [+Ccnt]
+2013-11-11 17:33:43	--	Channel created on Sun, 26 Nov 2006 07:42:45
+2013-11-11 17:33:51	-->	andrew91_ (~andrew918@206.223.179.158) has joined ##javascript
+2013-11-11 17:33:54	-->	munichlinux (~munichlin@c-24-4-216-240.hsd1.ca.comcast.net) has joined ##javascript
+2013-11-11 17:33:59	GreenJello	jrajav, no, it means $scope.panes = []; var panes = $scope.panes;
+2013-11-11 17:34:09	rideh	so var foo = bar = [];  is setting both food and bar to [], or is it seting bar = []; and foo = bar; ?
+2013-11-11 17:34:10	<--	DeltaHeavy (~DeltaHeav@unaffiliated/deltaheavy) has left ##javascript
+2013-11-11 17:34:16	<--	durre (~textual@37-46-179-238.customers.ownit.se) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 17:34:17	jrajav	GreenJello: Yeah, that's how var panes = $scope.panes = []; works. I was writing how you SHOULD do it.
+2013-11-11 17:34:34	GreenJello	no, that's entirely different
+2013-11-11 17:34:37	TheCowboy	Is there an event for when "addEventListener" is used or anything relateted? Or another way to track when listeners are added?
+2013-11-11 17:34:45	jrajav	rideh: It is first setting bar = []; and then it is initializing foo to the result of the expression (bar = [])
+2013-11-11 17:34:47	GreenJello	>> $scope.panes = []; var panes = $scope.panes; panes === $scope.panes
+2013-11-11 17:34:47	ecmabot	GreenJello: ReferenceError: $scope is not defined
+2013-11-11 17:34:49	jrajav	rideh: Which is []
+2013-11-11 17:34:55	-->	lancealtar (~lancealta@140.239.28.37.ptr.us.xo.net) has joined ##javascript
+2013-11-11 17:34:59	GreenJello	>> var $scope={}; $scope.panes = []; var panes = $scope.panes; panes === $scope.panes
+2013-11-11 17:35:00	ecmabot	GreenJello: (boolean) true
+2013-11-11 17:35:00	rideh	jrajav:  thanks
+2013-11-11 17:35:06	jrajav	GreenJello: It isn't different...
+2013-11-11 17:35:11	-->	ravenzz (~raven@unaffiliated/ravenzz) has joined ##javascript
+2013-11-11 17:35:17	<--	TheCowboy (~TheCowboy@ip68-98-182-105.dc.dc.cox.net) has left ##javascript ("Leaving")
+2013-11-11 17:35:18	<--	shiftins (~shiftins@c-69-181-48-117.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-11-11 17:35:20	GreenJello	>> var $scope={};  $scope.panes = []; var panes = $scope.panes; panes === $scope.panes
+2013-11-11 17:35:20	ecmabot	GreenJello: (boolean) true
+2013-11-11 17:35:21	<--	roven (~roven@78-20-24-80.access.telenet.be) has quit (Remote host closed the connection)
+2013-11-11 17:35:22	-->	TheCowboy (~TheCowboy@ip68-98-182-105.dc.dc.cox.net) has joined ##javascript
+2013-11-11 17:35:32	GreenJello	>> var $scope={};  $scope.panes = []; var panes = []; panes === $scope.panes
+2013-11-11 17:35:32	ecmabot	GreenJello: (boolean) false
+2013-11-11 17:35:34	-->	Gmac_ (~Gmac@pool-108-41-147-129.nycmny.fios.verizon.net) has joined ##javascript
+2013-11-11 17:35:37	jrajav	Oh, you mean that they're not the same array? Yes, that's right
+2013-11-11 17:35:44	jrajav	It depends on what you want to do
+2013-11-11 17:35:51	-->	roven (~roven@78-20-24-80.access.telenet.be) has joined ##javascript
+2013-11-11 17:35:51	GreenJello	right, in the a = b = [] they are the same array
+2013-11-11 17:35:54	-->	jblanche (~jblanche@ivr94-10-88-177-169-11.fbx.proxad.net) has joined ##javascript
+2013-11-11 17:35:57	<--	Cromulent (~Cromulent@cpc1-reig5-2-0-cust251.6-3.cable.virginm.net) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2013-11-11 17:36:08	jrajav	If you want them to be the same array, but neither of them have been initialized, you should still set one of them first
+2013-11-11 17:36:16	jrajav	And then initialize the other one with the first variable
+2013-11-11 17:36:17	-->	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has joined ##javascript
+2013-11-11 17:36:21	jrajav	Not in the same line
+2013-11-11 17:36:28	jrajav	Just a style preference
+2013-11-11 17:36:37	GreenJello	yeah, style is style :-)
+2013-11-11 17:36:37	-->	Sietsem (~Sietse@D97A5516.cm-3-3b.dynamic.ziggo.nl) has joined ##javascript
+2013-11-11 17:36:40	rideh	so $scope.panes = []; panes = $scope.panes;
+2013-11-11 17:36:46	jrajav	var panes
+2013-11-11 17:36:47	jrajav	But yeah
+2013-11-11 17:36:51	GreenJello	right
+2013-11-11 17:36:57	<--	rootshift (~rootshift@37.48.241.44) has quit (Quit: rootshift)
+2013-11-11 17:37:07	<--	noahsussman (~noahsussm@207.237.90.116) has quit (Remote host closed the connection)
+2013-11-11 17:37:07	-->	lord4163 (~lord4163@81-232-61-81-no226.tbcn.telia.com) has joined ##javascript
+2013-11-11 17:37:07	rideh	thanks guys
+2013-11-11 17:37:13	GreenJello	rideh, but don't forget the var before panes
+2013-11-11 17:37:19	GreenJello	otherwise you get a global :-p
+2013-11-11 17:37:25	<--	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has quit (Max SendQ exceeded)
+2013-11-11 17:37:34	-->	noahsussman (~noahsussm@207.237.90.116) has joined ##javascript
+2013-11-11 17:37:35	jrajav	People often assign object properties to a variable inside of functions
+2013-11-11 17:37:44	jrajav	Purely so that they don't have to do the reference multiple times, like in a loop
+2013-11-11 17:37:48	<--	Centime (~centime@14.4.94.79.rev.sfr.net) has quit (Quit: WeeChat 0.4.2)
+2013-11-11 17:37:51	rideh	and if i wernt in this framework  var $scope = {};$scope.panes = []; var panes = $scope.panes;
+2013-11-11 17:37:52	-->	Sajaki (~Sajaki@91.182.154.69) has joined ##javascript
+2013-11-11 17:37:52	-->	sasmit87 (~chatzilla@14.96.98.43) has joined ##javascript
+2013-11-11 17:37:54	jrajav	But you don't really need to do that
+2013-11-11 17:37:55	<--	munichlinux (~munichlin@c-24-4-216-240.hsd1.ca.comcast.net) has quit (Ping timeout: 245 seconds)
+2013-11-11 17:37:58	jrajav	That's a common optimization
+2013-11-11 17:38:13	GreenJello	rideh, I'd switch them around
+2013-11-11 17:38:18	GreenJello	var panes = [];
+2013-11-11 17:38:19	-->	Zzaichik (~Zzaichik@24-104-129.146.hfc.mediarain.com) has joined ##javascript
+2013-11-11 17:38:26	msafi	>> var $scope={};  $scope.panes = []; var panes = []; panes.push(1); [$scope.panes, panes] @ GreenJello
+2013-11-11 17:38:27	ecmabot	GreenJello: (object) [[], [1]]
+2013-11-11 17:38:39	-->	Venko (uid14494@Colchester-LUG/Legen.dary) has joined ##javascript
+2013-11-11 17:38:58	<--	roven (~roven@78-20-24-80.access.telenet.be) has quit (Read error: Operation timed out)
+2013-11-11 17:38:59	GreenJello	have to go, bye :-)
+2013-11-11 17:39:02	<--	GreenJello (~0009090@unaffiliated/frankiern/x-0095452) has quit (Quit: Bye)
+2013-11-11 17:39:21	-->	richardiii (~richardii@66.17.86.146) has joined ##javascript
+2013-11-11 17:39:50	msafi	bye
+2013-11-11 17:40:26	-->	pcostanz (~pcostanz@199.231.242.170) has joined ##javascript
+2013-11-11 17:40:38	rideh	thanks
+2013-11-11 17:40:47	-->	shoky (uuuggg@37.19.118.168) has joined ##javascript
+2013-11-11 17:40:48	-->	Validatorian (Validatori@unaffiliated/phazm) has joined ##javascript
+2013-11-11 17:41:02	<--	widoz (~wido@net-93-64-192-12.cust.dsl.vodafone.it) has quit (Quit: access denied)
+2013-11-11 17:41:19	msafi	>> var $scope = {}; var panes = $scope.panes = []; panes.push(1); $scope.panes
+2013-11-11 17:41:19	ecmabot	msafi: (object) [1]
+2013-11-11 17:41:47	<--	RWOverdijk (~RWOverdij@87.213.98.98) has quit (Ping timeout: 264 seconds)
+2013-11-11 17:41:54	sasmit87	@All which one is better ?? Angular or Backbone.js
+2013-11-11 17:42:02	<--	ChrisMatheson (~ChrisMath@151.237.238.126) has quit (Ping timeout: 272 seconds)
+2013-11-11 17:42:06	-->	bradleymeck (~bradley.m@216-166-20-1.fwd.datafoundry.com) has joined ##javascript
+2013-11-11 17:42:10	<--	noahsussman (~noahsussm@207.237.90.116) has quit (Ping timeout: 248 seconds)
+2013-11-11 17:42:17	rideh	sasmit87: i'm liking AngularJS but still learning
+2013-11-11 17:42:25	<--	zenoamaro (~zenoamaro@net-37-159-203-97.cust.dsl.vodafone.it) has quit (Quit: Sleep.)
+2013-11-11 17:42:30	<--	Monie (~Monie@host-154-251.ncgrspl.clients.pavlovmedia.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 17:42:34	sasmit87	ok anyone else
+2013-11-11 17:42:37	-->	jobney (~justinobn@wsip-72-215-242-158.br.br.cox.net) has joined ##javascript
+2013-11-11 17:42:38	msafi	This could have unintended consequences. Now I don't understand why they're doing var panes = $scope.panes = []...
+2013-11-11 17:42:57	sasmit87	I need either of one to start
+2013-11-11 17:43:13	msafi	sasmit87, I researched it a couple of months ago and ended up going with Angular.
+2013-11-11 17:43:15	rideh	msafi: the official angular docs tend to have some kinda crummy examples.
+2013-11-11 17:43:36	sasmit87	msafi: thanks
+2013-11-11 17:43:46	<--	nicklasmoeller (~nicklas@cpe.ge-1-3-0-105.sknqu2.dk.customer.tdc.net) has quit (Ping timeout: 245 seconds)
+2013-11-11 17:43:46	rideh	http://www.thinkster.io/pick/GtaQ0oMGIl/a-better-way-to-learn-angularjs for more thorough learning.   http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/ for bit more accellerated
+2013-11-11 17:44:21	-->	paddymahoney (~paddymaho@24.137.221.230) has joined ##javascript
+2013-11-11 17:44:23	msafi	rideh, most of the examples I've seen are written by the same people who write the core of Angular
+2013-11-11 17:44:24	<--	NovemberRain (~chatzilla@109.102.28.135) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 25.0/20131025151332])
+2013-11-11 17:44:30	Alina-malina	Hello all! What is the most deep data that i can access with javascript in the browsers cache?
+2013-11-11 17:44:32	-->	Skrypter (~Skrypter@64-71-16-94.static.wiline.com) has joined ##javascript
+2013-11-11 17:44:48	rideh	msafi: well it seems to be a common critism of the docs is that there are some errors
+2013-11-11 17:44:58	-->	qom2 (~qom2@s213-103-200-35.cust.tele2.se) has joined ##javascript
+2013-11-11 17:45:37	<--	srji (~srji@p508B8874.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2013-11-11 17:45:58	msafi	rideh, they're usually typos, omissions, or for being too esoteric, not for wrong code.
+2013-11-11 17:46:37	rideh	gotcha
+2013-11-11 17:47:03	-->	sraka1 (~sraka1fre@74.82.212.203) has joined ##javascript
+2013-11-11 17:47:09	<--	etcetera (~etcetera@about/csharp/regular/etcetera) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 17:47:39	Venko	I'm having trouble with something really simple. Opening a new window in Javascript. I've tried using the examples here and they don't work. https://developer.mozilla.org/en-US/docs/Web/API/Window.open
+2013-11-11 17:47:55	-->	sergey (~sergey@91.243.192.17) has joined ##javascript
+2013-11-11 17:47:57	<--	larssmit (~Adium@D57D17C2.static.ziggozakelijk.nl) has quit (Quit: Leaving.)
+2013-11-11 17:48:15	<--	keepsake (~Adium@unaffiliated/mrgerjo) has quit (Quit: Leaving.)
+2013-11-11 17:48:32	<--	rafeca (~rafeca@80.239.169.202) has quit (Ping timeout: 244 seconds)
+2013-11-11 17:48:56	msafi	Venko, why do they not work?
+2013-11-11 17:49:15	msafi	Venko, or how?
+2013-11-11 17:49:19	Venko	I have no idea. I'm not getting any error in the JS console either
+2013-11-11 17:49:29	-->	duch_kazatel (~robert0@50-203-70-194-static.hfc.comcastbusiness.net) has joined ##javascript
+2013-11-11 17:50:19	msafi	Venko, window.open('http://google.com', '_blank')
+2013-11-11 17:50:21	-->	weidou (~Thunderbi@stgt-5d848983.pool.mediaWays.net) has joined ##javascript
+2013-11-11 17:50:36	<--	jrajav (~jrajav@198.179.137.128) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 17:51:06	<--	joetam (~textual@216.59.46.254) has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2013-11-11 17:51:12	<--	PhonicUK (~PhonicUK@pdpc/supporter/student/phonicuk) has quit (Quit: Veni, vidi, vici)
+2013-11-11 17:51:20	-->	munichlinux (~munichlin@nat/yahoo/x-mipjfnksgcofqeps) has joined ##javascript
+2013-11-11 17:51:46	Venko	msafi: I just worked it out. I was stupidly including it inside a function and failing to call it.
+2013-11-11 17:51:53	<--	sathran (~sathran@64.208.179.131) has quit (Remote host closed the connection)
+2013-11-11 17:52:03	 *	Venko slaps himself
+2013-11-11 17:52:06	-->	rodan- (~dma@199.243.220.218) has joined ##javascript
+2013-11-11 17:52:12	-->	sathran (~sathran@64.208.179.131) has joined ##javascript
+2013-11-11 17:52:30	 *	msafi is trying to restrain Venko
+2013-11-11 17:52:50	<--	rodan- (~dma@199.243.220.218) has quit (Remote host closed the connection)
+2013-11-11 17:53:09	-->	avium has joined ##javascript
+2013-11-11 17:53:10	msafi	gotta go :)
+2013-11-11 17:53:19	-->	kicken has joined ##javascript
+2013-11-11 17:53:27	<--	toruta39 has quit (Remote host closed the connection)
+2013-11-11 17:53:31	-->	rodan- has joined ##javascript
+2013-11-11 17:54:22	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined ##javascript
+2013-11-11 17:54:22	--	Topic for ##javascript is "Can't Talk? Get Registered on FreeNode (HOWTO: http://ur1.ca/90niw) | ECMAScript, Javascript, JS *not* Java | Say: "!help" (or ask and wait) | Run: "!mdn foo" for docs on "foo" | Don't paste code in the channel."
+2013-11-11 17:54:22	--	Topic set by gkatsev (~gkatsev@oftn/board/gkatsev) on Mon, 25 Feb 2013 09:02:19
+2013-11-11 17:54:22	--	Nicks ##javascript: [[[zz]] \mSg __main__ _br_ _Bravado _cheney _dev_null _marix _trev AaronMT abetusk aboudreault absentia AciD` AcTiVaTe adam12 Adeon Advocation aeoril aesptux ahungry aidanie__ ajpiano akiress akkufomk alainus alamar alex88 alex_javascript alexander__b alexwhitman alfonsodev alieas_ Alina-malina allanm amcsi_work andrew9183 andrew91_ anekos_ anildigital Ankhwatcher antihero aortmann arcanis Areks Aresilla Aric Arieh arielserafini arkore Armen Arokh artgoeshere Artpicre ashnur asie asteve astrolin astronautaid Atlantic777 atomi atrigent Audlex avium Ayey_ AzaToth Babbam86 BaDaSs bakedb banzounet basti-mbp bberry bel3atar Beltechs ben1066 ben_alman Benjojo bentruyman Benvie berger0 bgy bhldev biberu BigBlueBacon bigbugjava bigLanky BillCriswell Bish Blacklite blackwhite BlaDe^ blinkdesign bluesm bmn bn` bobbylaporte bobdobbs bogool BohemianHacks Bombo BombStrike BoomBox BoomerBile boxmein bradleymeck braincra- brainproxy Brando753 bremnes brettfrable Brewster brian-mann bubbajones bung buritica ButtDog buu Bwild bxi caasih Caelum caerphoto Cakey callumacrae cam capeta carldanley Catie catsup caveat- CCPBracari cdidd cebor cem_ Cerise_ ch3mical ch3mical_ charas CharlieM751 chasemb chernjie_ Chewtoy chjj chovy chrisdickinson cibs CIDIC clarkk classix clouder`grr coda23 codebrainz codelahoma codeSomeThings codevinsky codingkevin cody-- CoJaBo comboy CookieNinja coolstoriyo Cork CR0W crash\ crashev_ cruxeternus ctorp CTPAX__ curare_nl Curtisbeef_ cybrNaut cythrawll czardoz d45h dabear daekano Daniel0 DannyFritz danrough darkc0met datagutt DaZ dccc DDR deadalus decoponio deepy deg deltab denysonique DeoSama Depe Dessimat0r Dev0n dhaber dhilipsiva diamonds Diemuzi digitalfiz digiwano diminoten dino82 diod djd Dlabz dman777_alter dmanderson dmbaturin doc|home doev DomeMaster domsz DontShootMe DonVitoC- DonVitoCorleone DoubleAW dowlf dozn drager dragonshed DrAwesomeClaws_ DreadKnight Dreamer3 DrLou dspriggs duch_kazatel durnik dutis1 dwarder Dyeh dytrivedi dza dziga dZwilly eagleflo eagles0513875 ecmabot EdwardIII edwardly effortDee eford eggzeck eggzeck-laptop egis ehtesh eighty4 ejnahc eliudnir ELLIOTTCABLE elnur elux emid emma enda erg erichynds ericwood erikj err_ok erry eshlox EvRide ezakimak_work faddah fairlite farn fearphage felipe_ felipeduardo ff6065515 fhd fifteen3 FireFly fireh FizzyTea fkm Flannel Fli-c flip_digits flori Fortescue FortuneDays fRAiLtY- franckbenoit freeed FunnyLookinHat Fuu gambakufu GarethAdams gasbakid_ Gather gbyers[Away] gde33 geekbri geilt geomyidae_ gerard0 germanoak gf3 gic gimpygoo githogori gkatsev Gmac_ godprobe Goopyo grafi graphitemaster GreatPotato Gregor gtc guampa Guest26080 Guest41403 Guest69055 Guest83584 Guest86070 Gunn4r h0st1le h34d3r HA5h haBuu hans_henrik happyface Happzz hareth Havvy hazardous Hazza hdrv heath heedypo heedypo1 HeN hermiene Hertz hexed hgascon hhehw- highasdick Hixon10 hnsr hooloovoo hswolff hugo_moss huntercool hxm ideea idr0p ifdef42 ilteris im0b ImBcmDth inconclusive Industrial inimino Inoperable insel Internet13 interru intrigue intripoon Ir1sh isaacbw iSeeDead1ixels itisi ivan\ ivanoats iwantoski ix0071 iXeno jaeholee jaimef jakoch jalcine jallardice jandresen jaredrhine JarJarBingDotCom JavaChip jave jayne jazu jazz264 jblanche JBreit JC_SoCal Jck_True jcromartie jcrza jergason jerius jesseabc1231 JFranks jgoss jhford jhvisser jiffe99 Jikan jimmt jlwang jmaister jmcantrell JmZ_ jobney joelrobichaud joepie91 JoeyJoeJo joeytier johnkpaul Johnny- jonatasnona joneshf-work jonginn joro joseph JosephFerano joshskidmore josue JPeterson jpossi JPT jpwgarrison jrdn jruzz jsbkkj jscinoz JSharpe__ jso jtw juo jve_ jxie_ jzl_ k1ng k308 k4yc44k5_ Kabaka kadiks Kai` kaimei_ kalleth_ Kaltiz kanzure karnowski kastang kazi kborchers kbrosnan kbsa Keksike Kesarr kex Khisanth khmer kicken kinabalu KindOne king4life Kingsy Kinny kludge` Kneferilis koba04_away kobain kohvihoo1 kraucrow kraytul Krinkle|detached kurko_ kurrent kyrre l1ght lahwran lancealtar Lann lansman lemonsparrow leptonix Lethalman Lexi lijnen Lildirt lilmonkey Lindrian Linkandzelda Linkeh lmjabreu LocalPCGuy Logicgate looper lord4163 lucasb LuckySMack_ luruke Lyn M-ou-se m0 m0dest m0ltar m8 m_kael_ mac- macabre machisuji malcolmva Malediction MalMen malorie ManneW manuelbieh mar77i marcjs marcooliveira marienz markkes Marsup martisj Martz marvi mary5030 masak MaSOuD master5o1|work mattattaque Maxdamantus Maxel mbor mc40 MCHammer meet_praveen mentalist Merheet0 mHancik MicD_ MightyMu mikaelb_ mike_f mikecmpbll MikeD_ milkandtang Mintograde mish4 mist mitchdotpro mitzev_ MJCDzZz monkeynipples monokrome MooGoo motaka2 motoford MrDHat|offline mreeder MrNaviPacho msafi mtree mucker Multiply munichlinux Munter_ muxdemux mvpgraff myndzi mysteronyx mythril_ naillwind namidark nanashiRei NanoArrow naomi Narigo nathan7 nbrosnahan ndngvr nebiros necrogami nemesit|znc NeoThermic Neozonz|Disc netman Nexen nhqe Niamkik niggler nihilista nikola ninegrid NinjaTux2k NoiseEee noisia_ nomenkun Nothing4You novikane Nuck nullrouted|cloud Nurbs nw nwilson5 nym_ nyordanov oal ocfx ohcibi OliverJAsh olleman onthestairs oogaw Orbitrix Orginator ormaaj Outsider_ Overand overloaded pachet paddymahoney padolsey paldepind pantech papercut patsToms paul_k PaulePanter pbjorklund pbunny PcJamesy pcostanz Peeter Pengoo percival Petazz_ petey peteyg ph88 philosonerd__ pikpik Pilum pingo pinkkis pipecloud pixelpimp pmarsh_ pog Polar_ poorman poutine Praise- prawnsalad preaction preflex ProgR33n qiemem qom2 queequeg2 quup rachelthegreat raj ramdog ramdog_ rampr raniere ravenzz RawBin rawplaye1 raybarg Raynos rblackwe rcombs redeemed redondo regreddit Reite rektide relix Relsak Renari Renex resure retornam rfish richardiii RichardJ richardwhiuk rickbol Ricki` rideh rikkus riotz rizzuh RLa robdodson robmozart rockfruit rodan- Roja Roja_ rolleiflex_ rook2pawn rook_flood root66 ross` rosseaux rstandy ryanponce ryanseddon ryanw ryland rzeka s5fs s_e S_T_A_N sacho_ Sajaki sandroid_afk sasmit87 sathran sayakb sayd Sazpaimon scathen^C Scoding scott_w ScottO_1 scriptThis SebastianFlyte SecretAgent Segaja Seganku segv- Sembiance sente sergey serpent223 Sever SewDough SeySayux shabius ShadeTornado shammancer shanahan shaunbak_ shello shennyg Shirakawasuna shirro shmoon shoky Sietsem sifu SilentWarrior silne30 silv3rwind SirCmpwn Siyfion skrblr Skrypter skullcrasher skython Slartibart slikts Snakes so Somatt Somatt_wrk Someguy123 sorella Sorella_ Sose spenguin sphenxes spike|spiegel spion spoken_ spuz sraka1 srcerer sriley ssbr staafl stafamus stdgy stef steme_jomps_ stephan48 stevenbenner stoned StoneTable strandberg Stubacca stylus substack svinkle swatti synTax Synthead sysdef systemovich syzygy_ t t4nk701 table Tabmow Taggnostr tapout Tarential tarruda tataa Tauku tauntaun Taylor tazle TDJACR Telefaggus TermNL Thalheim thasc The_Coolest TheCowboy TheFuzzball thelorax123 TheMoonMaster theshadow thibauts ThiefMaster thorz tieTYT TimTim` Tingle tirengarfio Tisoki tklun tobmaster tomalak tomatto tomaw tomh-_ TomRone tomshreds top4o Torsten|off tr4656 tra trigen tris Trudko_ tsunamie tty-1 tubbo tunicwriter Turn_Left Twey twisted` tylersmith Typo Ububegin Unlocked_ uris77 vadviktor_ vaishali ValicekB Validatorian vendethiel Venko vereteran victorbjelkholm vinky visua vlad_starkov Vustom w0ng waerloga warreng wbill wchun wcpan_ weeb1e weidou whatthepoop whirlibulf Whiskey wildbat willian_carvalho willob Will| wingman wmage Woet wookienz wrp6 xec Xethron Xgc xinming Xiti xp_prg2 xumium xxtjaxx Y_Ichiro yacks Yancho yano yeboot yeltzooo yhsiang yogurt_truck yosafbridge zaal zacharyz zackiv31 zafu Zarthus zeekay zenodub zeropx zivester zkat Znoosey zod zodiak zz_eugeneware Zzaichik }ls{]
+2013-11-11 17:54:22	--	Channel ##javascript: 922 nicks (0 ops, 0 voices, 922 normals)
+2013-11-11 17:54:27	--	Mode ##javascript [+Ccnt]
+2013-11-11 17:54:27	--	Channel created on Sun, 26 Nov 2006 07:42:45
+2013-11-11 17:55:02	-->	adambeynon has joined ##javascript
+2013-11-11 17:56:26	Venko	msafi: cya
+2013-11-11 17:57:01	-->	jarr0dsz has joined ##javascript
+2013-11-11 17:57:23	<--	gasbakid_ has quit (Ping timeout: 264 seconds)
+2013-11-11 17:57:31	<--	msafi has quit (Ping timeout: 245 seconds)
+2013-11-11 17:57:48	-->	Cromulent has joined ##javascript
+2013-11-11 17:57:50	<--	rodan- has quit (Ping timeout: 244 seconds)
+2013-11-11 17:58:10	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined ##javascript
+2013-11-11 17:58:10	--	Topic for ##javascript is "Can't Talk? Get Registered on FreeNode (HOWTO: http://ur1.ca/90niw) | ECMAScript, Javascript, JS *not* Java | Say: "!help" (or ask and wait) | Run: "!mdn foo" for docs on "foo" | Don't paste code in the channel."
+2013-11-11 17:58:10	--	Topic set by gkatsev (~gkatsev@oftn/board/gkatsev) on Mon, 25 Feb 2013 09:02:19
+2013-11-11 17:58:10	--	Nicks ##javascript: [[[zz]] \mSg __main__ _br_ _Bravado _cheney _dev_null _marix _trev AaronMT abetusk aboudreault absentia AciD` AcTiVaTe adam12 adambeynon Adeon Advocation aeoril aesptux ahungry aidanie__ ajpiano akiress akkufomk alainus alamar alex88 alex_javascript alexander__b alexwhitman alfonsodev alieas_ Alina-malina allanm amcsi_work andrew9183 andrew91_ anekos_ anildigital Ankhwatcher antihero aortmann arcanis Areks Aresilla Aric Arieh arielserafini arkore Armen Arokh artgoeshere Artpicre ashnur asie asteve astrolin astronautaid Atlantic777 atomi atrigent Audlex avium Ayey_ AzaToth Babbam86 BaDaSs bakedb banzounet basti-mbp bberry bel3atar Beltechs ben1066 ben_alman Benjojo bentruyman Benvie berger0 bgy bhldev biberu BigBlueBacon bigbugjava bigLanky BillCriswell Bish Blacklite blackwhite BlaDe^ blinkdesign bluesm bmn bn` bobbylaporte bobdobbs bogool BohemianHacks Bombo BombStrike BoomBox BoomerBile boxmein bradleymeck braincra- brainproxy Brando753 bremnes brettfrable Brewster brian-mann bubbajones bung buritica ButtDog buu Bwild bxi caasih Caelum caerphoto Cakey callumacrae cam capeta carldanley Catie catsup caveat- CCPBracari cdidd cebor cem_ Cerise_ ch3mical ch3mical_ charas CharlieM751 chasemb chernjie_ Chewtoy chjj chovy chrisdickinson cibs CIDIC clarkk classix clouder`grr coda23 codebrainz codelahoma codeSomeThings codevinsky codingkevin cody-- CoJaBo comboy CookieNinja coolstoriyo Cork CR0W crash\ crashev_ Cromulent cruxeternus ctorp CTPAX__ curare_nl Curtisbeef_ cybrNaut cythrawll czardoz d45h dabear daekano Daniel0 DannyFritz danrough darkc0met datagutt DaZ dccc DDR deadalus decoponio deepy deg deltab denysonique DeoSama Depe Dessimat0r Dev0n dhaber dhilipsiva diamonds Diemuzi digitalfiz digiwano diminoten dino82 diod djd Dlabz dman777_alter dmanderson dmbaturin doc|home doev DomeMaster domsz DontShootMe DonVitoC- DonVitoCorleone DoubleAW dowlf dozn drager dragonshed DrAwesomeClaws_ DreadKnight Dreamer3 DrLou dspriggs duch_kazatel durnik dutis1 dwarder Dyeh dytrivedi dza dziga dZwilly eagleflo eagles0513875 ecmabot EdwardIII edwardly effortDee eford eggzeck eggzeck-laptop egis ehtesh eighty4 ejnahc eliudnir ELLIOTTCABLE elnur elux emid emma enda erg erichynds ericwood erikj err_ok erry eshlox EvRide ezakimak_work faddah fairlite farn fearphage felipe_ felipeduardo ff6065515 fhd fifteen3 FireFly fireh FizzyTea fkm Flannel Fli-c flip_digits flori Fortescue FortuneDays fRAiLtY- franckbenoit freeed FunnyLookinHat Fuu gambakufu GarethAdams Gather gbyers[Away] gde33 geekbri geilt geomyidae_ gerard0 germanoak gf3 gic gimpygoo githogori gkatsev Gmac_ godprobe Goopyo grafi graphitemaster GreatPotato Gregor gtc guampa Guest26080 Guest41403 Guest69055 Guest83584 Guest86070 Gunn4r h0st1le h34d3r HA5h haBuu hans_henrik happyface Happzz hareth Havvy hazardous Hazza hdrv heath heedypo heedypo1 HeN hermiene Hertz hexed hgascon hhehw- highasdick Hixon10 hnsr hooloovoo hswolff hugo_moss huntercool hxm ideea idr0p ifdef42 ilteris im0b ImBcmDth inconclusive Industrial inimino Inoperable insel Internet13 interru intrigue intripoon Ir1sh isaacbw iSeeDead1ixels itisi ivan\ ivanoats iwantoski ix0071 iXeno jaeholee jaimef jakoch jalcine jallardice jandresen jaredrhine JarJarBingDotCom jarr0dsz JavaChip jave jayne jazu jazz264 jblanche JBreit JC_SoCal Jck_True jcromartie jcrza jergason jerius jesseabc1231 JFranks jgoss jhford jhvisser jiffe99 Jikan jimmt jlwang jmaister jmcantrell JmZ_ jobney joelrobichaud joepie91 JoeyJoeJo joeytier johnkpaul Johnny- jonatasnona joneshf-work jonginn joro joseph JosephFerano joshskidmore josue JPeterson jpossi JPT jpwgarrison jrdn jruzz jsbkkj jscinoz JSharpe__ jso jtw juo jve_ jxie_ jzl_ k1ng k308 k4yc44k5_ Kabaka kadiks Kai` kaimei_ kalleth_ Kaltiz kanzure karnowski kastang kazi kborchers kbrosnan kbsa Keksike Kesarr kex Khisanth khmer kicken kinabalu KindOne king4life Kingsy Kinny kludge` Kneferilis koba04_away kobain kohvihoo1 kraucrow kraytul Krinkle|detached kurko_ kurrent kyrre l1ght lahwran lancealtar Lann lansman lemonsparrow leptonix Lethalman Lexi lijnen Lildirt lilmonkey Lindrian Linkandzelda Linkeh lmjabreu LocalPCGuy Logicgate looper lord4163 lucasb LuckySMack_ luruke Lyn M-ou-se m0 m0dest m0ltar m8 m_kael_ mac- macabre machisuji malcolmva Malediction MalMen malorie ManneW manuelbieh mar77i marcjs marcooliveira marienz markkes Marsup martisj Martz marvi mary5030 masak MaSOuD master5o1|work mattattaque Maxdamantus Maxel mbor mc40 MCHammer meet_praveen mentalist Merheet0 mHancik MicD_ MightyMu mikaelb_ mike_f mikecmpbll MikeD_ milkandtang Mintograde mish4 mist mitchdotpro mitzev_ MJCDzZz monkeynipples monokrome MooGoo motaka2 motoford MrDHat|offline mreeder MrNaviPacho mtree mucker Multiply munichlinux Munter_ muxdemux mvpgraff myndzi mysteronyx mythril_ naillwind namidark nanashiRei NanoArrow naomi Narigo nathan7 nbrosnahan ndngvr nebiros necrogami nemesit|znc NeoThermic Neozonz|Disc netman Nexen nhqe Niamkik niggler nihilista nikola ninegrid NinjaTux2k NoiseEee noisia_ nomenkun Nothing4You novikane Nuck nullrouted|cloud Nurbs nw nwilson5 nym_ nyordanov oal ocfx ohcibi OliverJAsh olleman onthestairs oogaw Orbitrix Orginator ormaaj Outsider_ Overand overloaded pachet paddymahoney padolsey paldepind pantech papercut patsToms paul_k PaulePanter pbjorklund pbunny PcJamesy pcostanz Peeter Pengoo percival Petazz_ petey peteyg ph88 philosonerd__ PhonicUK pikpik Pilum pingo pinkkis pipecloud pixelpimp pmarsh_ pog Polar_ poorman poutine Praise- prawnsalad preaction preflex ProgR33n qiemem qom2 queequeg2 quup rachelthegreat raj ramdog ramdog_ rampr raniere ravenzz RawBin rawplaye1 raybarg Raynos rblackwe rcombs redeemed redondo regreddit Reite rektide relix Relsak Renari Renex resure retornam rfish richardiii RichardJ richardwhiuk rickbol Ricki` rideh rikkus riotz rizzuh RLa robdodson robmozart rockfruit Roja Roja_ rolleiflex_ rook2pawn rook_flood root66 ross` rosseaux rstandy ryanponce ryanseddon ryanw ryland rzeka s5fs s_e S_T_A_N sacho_ Sajaki sandroid_afk sasmit87 sathran sayakb sayd Sazpaimon scathen^C Scoding scott_w ScottO_1 scriptThis SebastianFlyte SecretAgent Segaja Seganku segv- Sembiance sente sergey serpent223 Sever SewDough SeySayux shabius ShadeTornado shammancer shanahan shaunbak_ shello shennyg Shirakawasuna shirro shmoon shoky Sietsem sifu SilentWarrior silne30 silv3rwind SirCmpwn Siyfion skrblr Skrypter skullcrasher skython Slartibart slikts Snakes so Somatt Somatt_wrk Someguy123 sorella Sorella_ Sose spenguin sphenxes spike|spiegel spion spoken_ spuz sraka1 srcerer sriley ssbr staafl stafamus stdgy stef steme_jomps_ stephan48 stevenbenner stoned StoneTable strandberg Stubacca stylus substack svinkle swatti synTax Synthead sysdef systemovich syzygy_ t t4nk701 table Tabmow Taggnostr tapout Tarential tarruda tataa Tauku tauntaun Taylor tazle TDJACR Telefaggus TermNL Thalheim thasc The_Coolest TheCowboy TheFuzzball thelorax123 TheMoonMaster theshadow thibauts ThiefMaster thorz tieTYT TimTim` Tingle tirengarfio Tisoki tklun tobmaster tomalak tomatto tomaw tomh-_ TomRone tomshreds top4o Torsten|off tr4656 tra trigen tris Trudko_ tsunamie tty-1 tubbo tunicwriter Turn_Left Twey twisted` tylersmith Typo Ububegin Unlocked_ uris77 vadviktor_ vaishali ValicekB Validatorian vendethiel Venko vereteran victorbjelkholm vinky visua vlad_starkov Vustom w0ng waerloga warreng wbill wchun wcpan_ weeb1e weidou whatthepoop whirlibulf Whiskey wildbat willian_carvalho willob Will| wingman wmage Woet wookienz wrp6 xec Xethron Xgc xinming Xiti xp_prg2 xumium xxtjaxx Y_Ichiro yacks Yancho yano yeboot yeltzooo yhsiang yogurt_truck yosafbridge zaal zacharyz zackiv31 zafu Zarthus zeekay zenodub zeropx zivester zkat Znoosey zod zodiak zz_eugeneware Zzaichik }ls{]
+2013-11-11 17:58:10	--	Channel ##javascript: 923 nicks (0 ops, 0 voices, 923 normals)
+2013-11-11 17:58:15	--	Mode ##javascript [+Ccnt]
+2013-11-11 17:58:15	--	Channel created on Sun, 26 Nov 2006 07:42:45
+2013-11-11 17:58:16	<--	brettfrable has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-11-11 17:58:18	-->	FernandoBasso has joined ##javascript
+2013-11-11 17:58:43	<--	Vustom has quit (Quit: Connection closed for inactivity)
+2013-11-11 17:58:52	<--	charas has quit (Ping timeout: 244 seconds)
+2013-11-11 17:59:11	-->	Prot has joined ##javascript
+2013-11-11 18:00:13	-->	tiwula has joined ##javascript
+2013-11-11 18:00:34	-->	Maurice has joined ##javascript
+2013-11-11 18:00:49	-->	mehwork has joined ##javascript
+2013-11-11 18:00:59	--	Telefaggus is now known as Shaolinburpr
+2013-11-11 18:01:03	--	Shaolinburpr is now known as Shaolinburper
+2013-11-11 18:01:40	-->	TheWarden has joined ##javascript
+2013-11-11 18:01:41	<--	Hertz has quit (Quit: Connection closed for inactivity)
+2013-11-11 18:02:22	<--	d45h has quit
+2013-11-11 18:02:26	<--	kurko_ has quit (Ping timeout: 248 seconds)
+2013-11-11 18:02:29	-->	ColKurtz has joined ##javascript
+2013-11-11 18:02:45	<--	jsbkkj has quit (Quit: jsbkkj)
+2013-11-11 18:03:13	-->	closures999 has joined ##javascript
+2013-11-11 18:03:58	-->	chrislkeller has joined ##javascript
+2013-11-11 18:04:36	-->	Pullphinger has joined ##javascript
+2013-11-11 18:05:01	<--	rstandy has quit (Ping timeout: 245 seconds)
+2013-11-11 18:05:06	<--	tty-1 has quit (Quit: ChatZilla 0.9.90.1-rdmsoft [XULRunner 22.0/20130619132145])
+2013-11-11 18:05:19	-->	richardi_ has joined ##javascript
+2013-11-11 18:05:47	<--	mehwork has quit (Ping timeout: 264 seconds)
+2013-11-11 18:06:13	<--	ColKurtz has quit (Client Quit)
+2013-11-11 18:06:16	-->	robbyoconnor has joined ##javascript
+2013-11-11 18:06:30	-->	vinhbachsy has joined ##javascript
+2013-11-11 18:06:45	<--	blinkdesign has quit
+2013-11-11 18:06:49	-->	kurko_ has joined ##javascript
+2013-11-11 18:07:13	<--	arkore has quit (Ping timeout: 264 seconds)
+2013-11-11 18:07:42	-->	captain_morgan has joined ##javascript
+2013-11-11 18:07:53	-->	sneakyness has joined ##javascript
+2013-11-11 18:08:11	-->	Centime has joined ##javascript
+2013-11-11 18:08:32	<--	jergason has quit (Quit: jergason)
+2013-11-11 18:08:39	<--	nomenkun has quit (Ping timeout: 272 seconds)
+2013-11-11 18:09:20	-->	bkuberek has joined ##javascript
+2013-11-11 18:09:33	-->	roven has joined ##javascript
+2013-11-11 18:09:33	-->	norviller has joined ##javascript
+2013-11-11 18:10:00	<--	richardi_ has quit (Ping timeout: 265 seconds)
+2013-11-11 18:10:23	<--	closures999 has quit (Remote host closed the connection)
+2013-11-11 18:10:24	<--	asie has quit (Quit: I'll probably come back in either 20 minutes or 8 hours.)
+2013-11-11 18:10:28	<--	vinhbachsy has quit
+2013-11-11 18:10:52	-->	arkore has joined ##javascript
+2013-11-11 18:11:17	<--	S_T_A_N has quit (Quit: The faggotry in this channel has just been halved)
+2013-11-11 18:11:18	-->	thomaslindstr_m has joined ##javascript
+2013-11-11 18:11:35	<--	bkuberek has quit (Remote host closed the connection)
+2013-11-11 18:11:44	-->	gasbakid has joined ##javascript
+2013-11-11 18:11:59	<--	egis has quit (Quit: Leaving)
+2013-11-11 18:12:10	-->	LiENUS has joined ##javascript
+2013-11-11 18:12:16	-->	srji has joined ##javascript
+2013-11-11 18:12:16	-->	Willy has joined ##javascript
+2013-11-11 18:12:16	-->	bkuberek has joined ##javascript
+2013-11-11 18:12:18	<--	dutis1 has quit (Ping timeout: 244 seconds)
+2013-11-11 18:12:28	<--	robdodson has quit (Quit: robdodson)
+2013-11-11 18:12:58	-->	bkuberek_ has joined ##javascript
+2013-11-11 18:13:02	-->	glaksmono has joined ##javascript
+2013-11-11 18:13:25	-->	arietis has joined ##javascript
+2013-11-11 18:13:36	<--	rampr has quit (Remote host closed the connection)
+2013-11-11 18:13:43	<--	tunicwriter has quit (Ping timeout: 272 seconds)
+2013-11-11 18:14:00	-->	shiftins has joined ##javascript
+2013-11-11 18:14:33	-->	jergason has joined ##javascript
+2013-11-11 18:14:35	<--	cem_ has left ##javascript
+2013-11-11 18:14:57	<--	hans_henrik has quit (Excess Flood)
+2013-11-11 18:15:31	-->	hans_henrik has joined ##javascript
+2013-11-11 18:15:45	-->	Bronze has joined ##javascript
+2013-11-11 18:15:58	<--	caasih has quit (Ping timeout: 272 seconds)
+2013-11-11 18:16:06	-->	motto has joined ##javascript
+2013-11-11 18:16:31	<--	curare_nl has quit (Ping timeout: 272 seconds)
+2013-11-11 18:16:33	--	zz_eugeneware is now known as eugeneware
+2013-11-11 18:16:51	<--	bkuberek has quit (Ping timeout: 248 seconds)
+2013-11-11 18:16:52	<--	skython has quit (Ping timeout: 245 seconds)
+2013-11-11 18:17:07	<--	inconclusive has quit (Ping timeout: 252 seconds)
+2013-11-11 18:17:15	<--	boxmein has quit (Ping timeout: 265 seconds)
+2013-11-11 18:17:22	-->	boxmein_ has joined ##javascript
+2013-11-11 18:17:25	<--	m8 has quit (Ping timeout: 264 seconds)
+2013-11-11 18:17:29	-->	tangorri has joined ##javascript
+2013-11-11 18:17:52	-->	closures999 has joined ##javascript
+2013-11-11 18:18:02	<--	weidou has quit (Quit: weidou)
+2013-11-11 18:18:12	--	boxmein_ is now known as boxmein
+2013-11-11 18:18:47	-->	morficus has joined ##javascript
+2013-11-11 18:19:07	<--	hareth has quit (Quit: hareth)
+2013-11-11 18:19:16	-->	balance has joined ##javascript
+2013-11-11 18:19:31	-->	jrajav has joined ##javascript
+2013-11-11 18:20:19	<--	Xethron has quit (Ping timeout: 272 seconds)
+2013-11-11 18:20:23	--	Trudko_ is now known as Trudko
+2013-11-11 18:20:26	-->	hwrd|work has joined ##javascript
+2013-11-11 18:21:10	-->	sayan has joined ##javascript
+2013-11-11 18:21:21	-->	vire has joined ##javascript
+2013-11-11 18:21:25	-->	msafi has joined ##javascript
+2013-11-11 18:21:25	<--	iwantoski has quit (Quit: iwantoski)
+2013-11-11 18:21:45	<--	spoken_ has quit (Quit: Trillian (http://www.ceruleanstudios.com)
+2013-11-11 18:22:01	<--	srji has quit (Ping timeout: 260 seconds)
+2013-11-11 18:22:04	-->	ncthom91 has joined ##javascript
+2013-11-11 18:22:12	<--	morficus has quit (Read error: Operation timed out)
+2013-11-11 18:23:01	tangorri	hmm can someone test a js in safari for me please ? (write e cookie)
+2013-11-11 18:23:19	-->	Misan has joined ##javascript
+2013-11-11 18:24:11	<--	alex_javascript has quit (Ping timeout: 244 seconds)
+2013-11-11 18:24:16	<--	fRAiLtY- has quit (Quit: fRAiLtY-)
+2013-11-11 18:25:03	--	closures999 is now known as linhmtran
+2013-11-11 18:25:24	-->	RWOverdijk has joined ##javascript
+2013-11-11 18:25:51	--	ff6065515 is now known as ShinyPhoenix
+2013-11-11 18:25:55	-->	d45h has joined ##javascript
+2013-11-11 18:25:57	-->	zeade has joined ##javascript
+2013-11-11 18:26:06	--	eugeneware is now known as zz_eugeneware
+2013-11-11 18:26:11	-->	spiderworm has joined ##javascript
+2013-11-11 18:26:22	-->	weidou has joined ##javascript
+2013-11-11 18:26:38	<--	spiderworm has left ##javascript
+2013-11-11 18:26:42	-->	pschell has joined ##javascript
+2013-11-11 18:26:46	-->	hareth has joined ##javascript
+2013-11-11 18:26:56	-->	GreenJello has joined ##javascript
+2013-11-11 18:27:01	<--	nbrosnahan has quit (Ping timeout: 264 seconds)
+2013-11-11 18:27:08	<--	alex88 has quit (Quit: Leaving...)
+2013-11-11 18:27:11	<--	sorella has quit (Disconnected by services)
+2013-11-11 18:27:19	--	Sorella_ is now known as Sorella
+2013-11-11 18:27:27	<--	Sorella has quit (Changing host)
+2013-11-11 18:27:27	-->	Sorella has joined ##javascript
+2013-11-11 18:27:38	<--	linhmtran has quit
+2013-11-11 18:28:07	-->	logikos has joined ##javascript
+2013-11-11 18:28:38	<--	mikecmpbll has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-11-11 18:28:40	-->	gasbakid_ has joined ##javascript
+2013-11-11 18:28:47	-->	cheeseen has joined ##javascript
+2013-11-11 18:28:51	<--	Stubacca has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 18:29:10	<--	ideea has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-11-11 18:29:44	-->	nbrosnahan has joined ##javascript
+2013-11-11 18:29:47	rideh	tangorri: put it on fiddle or pastebin or something
+2013-11-11 18:29:49	<--	gasbakid has quit (Ping timeout: 272 seconds)
+2013-11-11 18:29:55	<--	cheeseen has left ##javascript
+2013-11-11 18:30:07	<--	effortDee has quit (Read error: Connection reset by peer)
+2013-11-11 18:30:19	tangorri	<script type="text/javascript" src="http://ezakus.ezakus.net/marker/"></script> thanks rideh ;)
+2013-11-11 18:30:48	<--	Lethalman has quit (Remote host closed the connection)
+2013-11-11 18:31:05	<--	Polar_ has quit (Quit: Bye, bunch of flowery people!)
+2013-11-11 18:31:10	tangorri	it should write a AISA cookie works here in chrome/ie/ff
+2013-11-11 18:31:33	<--	sayan has quit (Read error: Connection reset by peer)
+2013-11-11 18:32:22	-->	LaMakina has joined ##javascript
+2013-11-11 18:32:44	-->	nicklasmoeller has joined ##javascript
+2013-11-11 18:32:58	rideh	lot of code i that file
+2013-11-11 18:33:03	rideh	sorry i always read stuff before i run it
+2013-11-11 18:33:12	tangorri	I understand it :)
+2013-11-11 18:33:28	tangorri	it's a tracking cookie
+2013-11-11 18:33:32	tangorri	delete it after :)
+2013-11-11 18:33:33	-->	Rchristiani has joined ##javascript
+2013-11-11 18:34:16	-->	dutis has joined ##javascript
+2013-11-11 18:34:47	<--	OliverJAsh has left ##javascript
+2013-11-11 18:34:53	<--	thelorax123 has quit (Remote host closed the connection)
+2013-11-11 18:35:30	-->	_Cody has joined ##javascript
+2013-11-11 18:35:36	<--	Guest41403 has quit (Quit: Connection closed for inactivity)
+2013-11-11 18:36:45	-->	thelorax123 has joined ##javascript
+2013-11-11 18:36:46	-->	weazyo has joined ##javascript
+2013-11-11 18:36:59	bigbugjava	form submit prevent defalut works on google, but not on older IE where I want to aleast make sure the requried fileds are good
+2013-11-11 18:37:09	<--	robbyoconnor has quit (Ping timeout: 272 seconds)
+2013-11-11 18:37:15	-->	robdodson has joined ##javascript
+2013-11-11 18:38:04	-->	jonathanwallace has joined ##javascript
+2013-11-11 18:39:04	rideh	tangorri: looks like it sworking
+2013-11-11 18:39:58	tangorri	rideh : under safari ?
+2013-11-11 18:40:02	tangorri	I got error here
+2013-11-11 18:40:24	-->	etcetera has joined ##javascript
+2013-11-11 18:40:31	<--	Cromulent has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2013-11-11 18:40:33	rideh	hmm
+2013-11-11 18:40:35	-->	dhruvasagar has joined ##javascript
+2013-11-11 18:40:36	rideh	i got the cookie
+2013-11-11 18:40:53	rideh	let me try something else
+2013-11-11 18:41:20	tangorri	hmmm
+2013-11-11 18:41:57	-->	Letze has joined ##javascript
+2013-11-11 18:42:08	rideh	yeah error line 227
+2013-11-11 18:42:51	rideh	http://pastebin.io/ppsktuunf
+2013-11-11 18:42:57	-->	jhulten has joined ##javascript
+2013-11-11 18:43:27	rideh	shrug, when i embeded it on another page in console it appeared to work but when trying to run with dummy html file i get error
+2013-11-11 18:43:33	<--	weidou has quit (Quit: weidou)
+2013-11-11 18:43:36	<--	GreatPotato has quit (Quit: GreatPotato)
+2013-11-11 18:43:58	-->	xk_id has joined ##javascript
+2013-11-11 18:44:05	-->	butblack has joined ##javascript
+2013-11-11 18:44:13	tangorri	hmmm
+2013-11-11 18:44:19	tangorri	thanks rideh
+2013-11-11 18:44:21	niggler	are there browsers which define Worker but don't actually support web workers API?
+2013-11-11 18:44:29	rideh	tangorri: sorry i'm not of more help
+2013-11-11 18:44:33	niggler	put differently, is checking typeof Worker !== 'undefined' sufficient
+2013-11-11 18:44:37	tangorri	this drive me mad, but it's the client script not mine, I think it related to dom
+2013-11-11 18:44:42	-->	ibiwan has joined ##javascript
+2013-11-11 18:44:46	ibiwan	good morning.
+2013-11-11 18:45:00	<--	NinjaTux2k has quit (Remote host closed the connection)
+2013-11-11 18:45:03	tangorri	ibiwan : good night :)
+2013-11-11 18:45:05	-->	tarkus has joined ##javascript
+2013-11-11 18:45:06	Havvy	niggler, no, because 'undefined' is a string. ;)
+2013-11-11 18:45:07	ibiwan	is it expensive to have a small script (find and hide a single span) calling itself to run every second or so?
+2013-11-11 18:45:13	-->	Deide has joined ##javascript
+2013-11-11 18:45:17	niggler	didn't i put it in quotes?
+2013-11-11 18:45:26	niggler	<niggler>	 put differently, is checking typeof Worker !== 'undefined' sufficient
+2013-11-11 18:45:31	Havvy	Oh, there's a typeof.
+2013-11-11 18:45:38	tangorri	rideh : thanks anyway
+2013-11-11 18:45:41	 *	niggler slaps Havvy 
+2013-11-11 18:45:53	 *	Deide slaps niggler
+2013-11-11 18:45:56	Havvy	I would think it would work.
+2013-11-11 18:46:02	 *	niggler double-slaps Deide 
+2013-11-11 18:46:13	 *	bberry slaps bberry
+2013-11-11 18:46:19	-->	will-ob has joined ##javascript
+2013-11-11 18:46:23	Havvy	I can't see any browser defining Worker other than for the web worker spec.
+2013-11-11 18:46:32	niggler	ok good
+2013-11-11 18:47:04	<--	sasmit87 has quit (Quit: ChatZilla 0.9.90.1 [Firefox 24.0/20130911160237])
+2013-11-11 18:47:41	-->	pawanspace has joined ##javascript
+2013-11-11 18:47:43	<--	hwrd|work has quit (Quit: Computer has gone to sleep.)
+2013-11-11 18:48:17	-->	PaulCapestany has joined ##javascript
+2013-11-11 18:48:24	<--	joro has quit (Ping timeout: 264 seconds)
+2013-11-11 18:48:36	-->	HS^ has joined ##javascript
+2013-11-11 18:49:17	-->	jhgaylor has joined ##javascript
+2013-11-11 18:49:23	<--	kazi has quit (Ping timeout: 252 seconds)
+2013-11-11 18:49:25	-->	sayan has joined ##javascript
+2013-11-11 18:49:40	pawanspace	I want to show some kind of history timeline. like this one http://www.google.com/green/storyofsend/desktop/#/over-to-google is there any javascript library?
+2013-11-11 18:49:40	tubbo	redis.js
+2013-11-11 18:49:42	tubbo	;D
+2013-11-11 18:49:50	-->	asie has joined ##javascript
+2013-11-11 18:49:51	HS^	hi i made an element counter in javascript. it gets all elements with class='counter' and then loops through them and and sets innerHTML with the counter
+2013-11-11 18:50:05	<--	scott_w has quit (Remote host closed the connection)
+2013-11-11 18:50:12	<--	jhgaylor has quit (Client Quit)
+2013-11-11 18:50:20	HS^	but now if i delete an element like this:
+2013-11-11 18:50:23	HS^					var child = document.getElementById(childNode);
+2013-11-11 18:50:23	HS^					var parent = document.getElementById(parentNode);
+2013-11-11 18:50:23	HS^					parent.removeChild(child);
+2013-11-11 18:50:27	<--	gasbakid_ has quit (Ping timeout: 245 seconds)
+2013-11-11 18:50:27	<--	willob has quit (Ping timeout: 272 seconds)
+2013-11-11 18:50:30	HS^	it still seems to be there
+2013-11-11 18:50:34	HS^	it still counts it..
+2013-11-11 18:50:42	jrajav	pawanspace: That google page doesn't work on Firefox
+2013-11-11 18:50:49	HS^	but if i put an alert there it does remove the node...
+2013-11-11 18:50:51	jrajav	pawanspace: Not exactly a model to copy
+2013-11-11 18:50:55	HS^	is there some delay or something
+2013-11-11 18:50:56	Havvy	*cough* parent = child.parent;
+2013-11-11 18:51:06	<--	vinky has quit (Ping timeout: 272 seconds)
+2013-11-11 18:51:23	HS^	Havvy ok. but
+2013-11-11 18:51:26	-->	gabriel9 has joined ##javascript
+2013-11-11 18:51:27	-->	[SK]Ray has joined ##javascript
+2013-11-11 18:51:31	HS^	that doesnt fix anything :p
+2013-11-11 18:51:33	pawanspace	jrajav: That was just an example. can you siggest me anything like that?
+2013-11-11 18:51:34	jrajav	A lot of Google presentation pages and experiments are like that. Designer playgrounds with lots of animations and sexiness but unusable and unportable
+2013-11-11 18:52:04	jrajav	pawanspace: Impress.js maybe?
+2013-11-11 18:52:07	<--	mc40 has quit (Ping timeout: 245 seconds)
+2013-11-11 18:52:08	<--	ibiwan has left ##javascript
+2013-11-11 18:52:59	<--	PaulCapestany has quit (Client Quit)
+2013-11-11 18:53:16	-->	Sympathix has joined ##javascript
+2013-11-11 18:53:51	-->	iliketurtles has joined ##javascript
+2013-11-11 18:53:55	pawanspace	jrajav: Thanks I didn't think about that. This is good http://valeka.net/freelancer/#/s3
+2013-11-11 18:54:26	<--	syzygy_ has quit (Quit: syzygy_)
+2013-11-11 18:55:08	<--	jblanche has quit (Quit: Computer has gone to sleep.)
+2013-11-11 18:55:08	-->	gasbakid_ has joined ##javascript
+2013-11-11 18:55:32	<--	hareth has quit (Quit: hareth)
+2013-11-11 18:55:47	<--	dhruvasagar has quit (Ping timeout: 272 seconds)
+2013-11-11 18:55:59	<--	vlad_starkov has quit (Remote host closed the connection)
+2013-11-11 18:56:36	-->	jxie has joined ##javascript
+2013-11-11 18:57:01	<--	shaunbak_ has quit (Remote host closed the connection)
+2013-11-11 18:57:30	-->	shaunbaker has joined ##javascript
+2013-11-11 18:58:52	<--	_dev_null has quit (Quit: _dev_null)
+2013-11-11 18:59:00	-->	charas has joined ##javascript
+2013-11-11 18:59:16	<--	jxie_ has quit (Read error: Connection reset by peer)
+2013-11-11 18:59:30	-->	richardi_ has joined ##javascript
+2013-11-11 18:59:48	-->	syzygy_ has joined ##javascript
+2013-11-11 18:59:58	<--	Cakey has quit (Ping timeout: 272 seconds)
+2013-11-11 19:00:57	-->	overtime has joined ##javascript
+2013-11-11 19:01:06	<--	pawanspace has quit (Quit: Page closed)
+2013-11-11 19:01:20	-->	gasbakid__ has joined ##javascript
+2013-11-11 19:01:43	<--	shaunbaker has quit (Ping timeout: 246 seconds)
+2013-11-11 19:02:26	-->	Anonymoose has joined ##javascript
+2013-11-11 19:02:26	-->	kazi has joined ##javascript
+2013-11-11 19:02:43	<--	gasbakid_ has quit (Ping timeout: 248 seconds)
+2013-11-11 19:03:50	-->	rsk700 has joined ##javascript
+2013-11-11 19:03:59	<--	sneakyness has quit (Quit: ¡)
+2013-11-11 19:04:00	<--	Dyeh has quit (Remote host closed the connection)
+2013-11-11 19:04:04	<--	richardi_ has quit (Ping timeout: 252 seconds)
+2013-11-11 19:04:27	--	Krinkle|detached is now known as Krinkle
+2013-11-11 19:04:39	-->	toruta39 has joined ##javascript
+2013-11-11 19:04:47	-->	mehwork has joined ##javascript
+2013-11-11 19:05:34	<--	charas has quit (Ping timeout: 246 seconds)
+2013-11-11 19:05:45	-->	QwertyCyclone has joined ##javascript
+2013-11-11 19:05:51	-->	ph88_ has joined ##javascript
+2013-11-11 19:06:02	<--	jazz264 has quit (Read error: Operation timed out)
+2013-11-11 19:06:02	<--	zeade has quit (Quit: Leaving.)
+2013-11-11 19:06:28	-->	Bastian82 has joined ##javascript
+2013-11-11 19:06:34	<--	Diemuzi has quit (Ping timeout: 265 seconds)
+2013-11-11 19:06:59	-->	vince_prignano has joined ##javascript
+2013-11-11 19:07:19	-->	holymac has joined ##javascript
+2013-11-11 19:07:30	<--	jarr0dsz has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-11-11 19:08:38	-->	hwrd|work has joined ##javascript
+2013-11-11 19:08:55	<--	toruta39 has quit (Ping timeout: 245 seconds)
+2013-11-11 19:09:04	bigbugjava	Hi, I want to launch Box-Model when form is submitted..    $("#launch").modal(); - gives me -> Uncaught TypeError: Object [object Object] has no method 'modal' , how can I solve this?
+2013-11-11 19:09:32	-->	haBuu^ has joined ##javascript
+2013-11-11 19:10:18	-->	willob_ has joined ##javascript
+2013-11-11 19:10:19	-->	zeade has joined ##javascript
+2013-11-11 19:10:20	-->	joroci has joined ##javascript
+2013-11-11 19:10:36	<--	strandberg has quit (Quit: leaving)
+2013-11-11 19:10:52	<--	hans_henrik has quit (Excess Flood)
+2013-11-11 19:11:02	<--	relix has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 19:11:44	Havvy	The object is the jQuery object created via $("#launch')
+2013-11-11 19:11:46	-->	Diemuzi has joined ##javascript
+2013-11-11 19:11:54	-->	RogWilco has joined ##javascript
+2013-11-11 19:11:59	Havvy	The jQuery objects don't have a method called 'modal'.
+2013-11-11 19:11:59	bigbugjava	?
+2013-11-11 19:12:10	-->	jarr0dsz has joined ##javascript
+2013-11-11 19:12:11	-->	relix has joined ##javascript
+2013-11-11 19:12:19	Havvy	If you expect it to, figure out why it isn't.
+2013-11-11 19:12:32	-->	hans_henrik has joined ##javascript
+2013-11-11 19:12:38	<--	ncthom91 has quit (Ping timeout: 272 seconds)
+2013-11-11 19:12:58	-->	woebtz has joined ##javascript
+2013-11-11 19:13:18	<--	jaimef has quit (Excess Flood)
+2013-11-11 19:13:27	bigbugjava	thats why I asked the question.. cant figure it out..
+2013-11-11 19:13:28	-->	jaimef has joined ##javascript
+2013-11-11 19:13:36	-->	snkcld has joined ##javascript
+2013-11-11 19:13:40	<--	haBuu has quit (Ping timeout: 252 seconds)
+2013-11-11 19:13:40	<--	adambeynon has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-11-11 19:13:50	<--	will-ob has quit (Ping timeout: 264 seconds)
+2013-11-11 19:14:01	Havvy	Where does the modal method come from?
+2013-11-11 19:14:12	<--	stef has quit (Ping timeout: 245 seconds)
+2013-11-11 19:14:25	-->	dhruvasagar has joined ##javascript
+2013-11-11 19:14:34	-->	keepsake has joined ##javascript
+2013-11-11 19:14:37	<--	zeade has quit (Ping timeout: 240 seconds)
+2013-11-11 19:14:57	<--	djd has quit (Quit: Connection closed for inactivity)
+2013-11-11 19:15:34	FireFly	!jquery
+2013-11-11 19:15:34	ecmabot	FireFly: Please visit #jquery for questions related to jQuery. (by typing /join #jquery)
+2013-11-11 19:15:38	-->	ncthom91 has joined ##javascript
+2013-11-11 19:15:48	FireFly	Those guys know more about jQuery stuff, in general
+2013-11-11 19:16:04	-->	tunicwriter has joined ##javascript
+2013-11-11 19:16:11	-->	stef has joined ##javascript
+2013-11-11 19:16:30	<--	cody-- has quit (Quit: derp)
+2013-11-11 19:16:48	<--	caerphoto has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 19:16:53	-->	Larholm has joined ##javascript
+2013-11-11 19:17:12	-->	inconclusive has joined ##javascript
+2013-11-11 19:17:12	<--	inconclusive has quit (Changing host)
+2013-11-11 19:17:12	-->	inconclusive has joined ##javascript
+2013-11-11 19:17:34	bberry	>> {}
+2013-11-11 19:17:35	ecmabot	bberry: undefined
+2013-11-11 19:17:38	-->	MacWinner has joined ##javascript
+2013-11-11 19:17:44	bberry	>> ({})
+2013-11-11 19:17:44	ecmabot	bberry: (object) {}
+2013-11-11 19:17:46	-->	MasterProgram has joined ##javascript
+2013-11-11 19:18:02	-->	srji has joined ##javascript
+2013-11-11 19:18:17	bberry	>> {} == false
+2013-11-11 19:18:18	ecmabot	bberry: SyntaxError: syntax error
+2013-11-11 19:18:23	bberry	lol i suck
+2013-11-11 19:18:29	bberry	is an empty object falsy?
+2013-11-11 19:18:30	<--	jtw has quit
+2013-11-11 19:18:31	Havvy	>> false == {}
+2013-11-11 19:18:31	ecmabot	Havvy: (boolean) false
+2013-11-11 19:18:39	<--	ashnur has quit (Quit: WeeChat 0.4.2)
+2013-11-11 19:18:45	bigbugjava	Havvy it's on html page, when I trigger it from html click, no problems, I try to pop it up when user submit form, no dones't work
+2013-11-11 19:19:02	ImBcmDth	bberry: just `{}` alone like that is a block not an object
+2013-11-11 19:19:18	FireFly	bberry: all objects are truthy
+2013-11-11 19:19:38	<--	RogWilco has quit (Quit: Sleep!)
+2013-11-11 19:20:18	-->	charas has joined ##javascript
+2013-11-11 19:20:35	<--	spuz has quit (Quit: Leaving...)
+2013-11-11 19:21:09	-->	RogWilco has joined ##javascript
+2013-11-11 19:21:14	<--	gasbakid__ has quit (Ping timeout: 260 seconds)
+2013-11-11 19:21:18	-->	gasbakid_ has joined ##javascript
+2013-11-11 19:21:42	<--	shennyg has quit (Quit: Connection closed for inactivity)
+2013-11-11 19:21:45	<--	jrajav has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 19:21:46	ImBcmDth	>> var o = {valueOf: function(){return false}}; o == false
+2013-11-11 19:21:46	ecmabot	ImBcmDth: (boolean) true
+2013-11-11 19:22:03	-->	closures999 has joined ##javascript
+2013-11-11 19:22:35	<--	nbrosnahan has quit (Ping timeout: 244 seconds)
+2013-11-11 19:22:43	<--	closures999 has quit
+2013-11-11 19:22:46	ImBcmDth	FireFly: *all* objects? :P
+2013-11-11 19:22:51	Havvy	>> if ({valueOf: function () { return false ; }}) { true; } else { false; }
+2013-11-11 19:22:51	ecmabot	Havvy: (boolean) true
+2013-11-11 19:22:56	-->	zeade has joined ##javascript
+2013-11-11 19:23:00	<--	HS^ has quit
+2013-11-11 19:23:02	Havvy	All objects are truthy
+2013-11-11 19:23:10	<--	srji has quit (Ping timeout: 260 seconds)
+2013-11-11 19:23:11	FireFly	ImBcmDth: >.<
+2013-11-11 19:23:12	Havvy	Not all objects coerce to true.
+2013-11-11 19:23:36	-->	Benvie_ has joined ##javascript
+2013-11-11 19:23:42	<--	m0ltar has quit (Quit: peace.)
+2013-11-11 19:23:46	FireFly	>> Boolean({ valueOf: function () { return false } })
+2013-11-11 19:23:46	ecmabot	FireFly: (boolean) true
+2013-11-11 19:24:02	-->	snyx_ has joined ##javascript
+2013-11-11 19:24:34	GreenJello	>> Boolean(!!{ valueOf: function () { return false } })
+2013-11-11 19:24:34	ecmabot	GreenJello: (boolean) true
+2013-11-11 19:24:55	ImBcmDth	Havvy == true
+2013-11-11 19:24:55	<--	sayan has quit (Read error: Connection reset by peer)
+2013-11-11 19:25:02	<--	QwertyCyclone has quit (Ping timeout: 260 seconds)
+2013-11-11 19:25:24	Havvy	Well, they explicitly always coerce to true.  Seems its only in the case of `==` that they don't.
+2013-11-11 19:25:34	 *	Havvy adds that to his reasons to not use `==`.
+2013-11-11 19:25:35	-->	k1i has joined ##javascript
+2013-11-11 19:25:38	<--	Sajaki has quit (Quit:  zzz)
+2013-11-11 19:26:29	-->	Zesty has joined ##javascript
+2013-11-11 19:26:31	-->	b44rd has joined ##javascript
+2013-11-11 19:27:07	-->	Sajaki has joined ##javascript
+2013-11-11 19:27:12	<--	butblack has quit (Ping timeout: 272 seconds)
+2013-11-11 19:27:16	FireFly	GreenJello: Boolean and !! literally do the same thing :p
+2013-11-11 19:27:30	FireFly	Except the former is more self-explantory IMO
+2013-11-11 19:27:33	<--	jonathanwallace has quit (Ping timeout: 272 seconds)
+2013-11-11 19:27:37	GreenJello	ah right, haha
+2013-11-11 19:28:29	bigbugjava	Issue must be fixed: Bootstrap Box-modal, works from html.. completely fine, but If i try to trigger it from nav or javascript, it simply dones't work! ideas on why?!
+2013-11-11 19:28:44	<--	hwrd|work has quit (Quit: Computer has gone to sleep.)
+2013-11-11 19:29:00	-->	KeyboardNotFound has joined ##javascript
+2013-11-11 19:29:02	-->	butblack has joined ##javascript
+2013-11-11 19:29:06	-->	chrisdotcode has joined ##javascript
+2013-11-11 19:29:54	<--	butblack has left ##javascript
+2013-11-11 19:31:01	<--	b44rd has quit (Ping timeout: 240 seconds)
+2013-11-11 19:31:21	-->	jtw has joined ##javascript
+2013-11-11 19:31:42	<--	Hixon10 has quit
+2013-11-11 19:31:43	-->	fexilal has joined ##javascript
+2013-11-11 19:31:48	bigbugjava	data toggle... was the problem
+2013-11-11 19:31:58	-->	ineku has joined ##javascript
+2013-11-11 19:31:59	<--	kazi has quit (Quit: Leaving)
+2013-11-11 19:32:03	-->	Gavrisimo has joined ##javascript
+2013-11-11 19:32:05	-->	nbrosnahan has joined ##javascript
+2013-11-11 19:32:15	-->	rootshift has joined ##javascript
+2013-11-11 19:33:01	<--	germanoak has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-11-11 19:33:23	<--	niggler has quit (Quit: Computer has gone to sleep.)
+2013-11-11 19:33:32	--	KeyboardNotFound is now known as knf|out
+2013-11-11 19:33:46	-->	Haswell has joined ##javascript
+2013-11-11 19:34:30	<--	asie has quit (Quit: I'll probably come back in either 20 minutes or 8 hours.)
+2013-11-11 19:34:47	<--	marcjs has quit (Quit: Computer has gone to sleep.)
+2013-11-11 19:35:05	<--	sifu has quit (Ping timeout: 265 seconds)
+2013-11-11 19:35:19	-->	marcjs has joined ##javascript
+2013-11-11 19:35:20	-->	wad has joined ##javascript
+2013-11-11 19:35:27	bberry	ImBcmDth, FireFly: thanks guys :D  Whats the best way to detect an empty object? I was thinking doing like:   if (JSON.stringify(obj) == ='{}')
+2013-11-11 19:35:44	bberry	ImBcmDth, FireFly: Another common answer seems to be looping on properties.... dont know which way is best.
+2013-11-11 19:35:49	FireFly	I'd say  Object.keys(obj).length == 0
+2013-11-11 19:35:51	FireFly	but it depends on what you want to do
+2013-11-11 19:36:03	FireFly	bberry: best for what? Depends on which properties you want to iterate over
+2013-11-11 19:36:04	-->	c4milo has joined ##javascript
+2013-11-11 19:36:20	<--	looper has quit (Quit: Computer has gone to sleep.)
+2013-11-11 19:36:33	FireFly	Only own properties, or both own and inherited? Only enumerable, or even unenumerable ones?
+2013-11-11 19:36:38	<--	MasterProgram has quit (Quit: Peace Be With You!)
+2013-11-11 19:36:41	bberry	only own
+2013-11-11 19:36:50	<--	sathran has quit (Quit: Bye!)
+2013-11-11 19:37:05	FireFly	Object.getOwnPropertyNames(obj).forEach(function (key) { ... }) then
+2013-11-11 19:37:25	bberry	im generating a json object from a file on my server then sending that object up.
+2013-11-11 19:37:31	bberry	aight
+2013-11-11 19:37:32	<--	berger0 has quit (Quit: Connection closed for inactivity)
+2013-11-11 19:37:38	-->	Darkduma_ has joined ##javascript
+2013-11-11 19:38:21	bberry	there arent any inheritied properties
+2013-11-11 19:38:27	bberry	other than the base object properties, i guess?
+2013-11-11 19:39:00	-->	jsbkkj has joined ##javascript
+2013-11-11 19:39:05	bigbugjava	https://www.dropbox.com/s/42tzvfppj4vh4vx/Screenshot%202013-11-11%2020.38.36.png - can some1 explain why it's so dark?
+2013-11-11 19:39:05	-->	dwcook has joined ##javascript
+2013-11-11 19:39:08	<--	dwcook has quit (Changing host)
+2013-11-11 19:39:08	-->	dwcook has joined ##javascript
+2013-11-11 19:39:10	bberry	also, firefly, could i just do Object.getOwnPropertyNames(obj).length === 0?
+2013-11-11 19:39:23	FireFly	Sure
+2013-11-11 19:39:29	FireFly	It returns an array
+2013-11-11 19:39:33	FireFly	arrays have a length porperty :p
+2013-11-11 19:39:35	FireFly	property* even
+2013-11-11 19:39:36	bberry	haha
+2013-11-11 19:39:42	bberry	I think thatll work :D
+2013-11-11 19:39:50	-->	sayan has joined ##javascript
+2013-11-11 19:39:54	<--	marcjs has quit (Ping timeout: 260 seconds)
+2013-11-11 19:40:52	<--	fexilal has quit (Remote host closed the connection)
+2013-11-11 19:41:06	<--	staafl has quit (Read error: Connection reset by peer)
+2013-11-11 19:41:13	-->	Hacksore has joined ##javascript
+2013-11-11 19:42:08	<--	freeed has quit (Read error: Operation timed out)
+2013-11-11 19:42:17	bigbugjava	https://www.dropbox.com/s/42tzvfppj4vh4vx/Screenshot%202013-11-11%2020.38.36.png - can some1 explain why it's so dark?
+2013-11-11 19:42:25	bigbugjava	sry for repeat,mistake
+2013-11-11 19:42:31	ImBcmDth	bigbugjava: because the overlay is on top of the modal. this is usually related to the `z-index` not being set correctly for modal or overlay for any number of reasons.
+2013-11-11 19:42:44	<--	GreenJello has quit (Ping timeout: 248 seconds)
+2013-11-11 19:42:58	bigbugjava	ImBcmDth yeah I thought so 2. I set z-index to 1000 to be sure, still doesn't work
+2013-11-11 19:43:10	 *	ImBcmDth finds the RTL chrome interface.. interesting
+2013-11-11 19:43:39	<--	Siyfion has quit
+2013-11-11 19:43:42	-->	vlad_starkov has joined ##javascript
+2013-11-11 19:44:08	-->	freeed has joined ##javascript
+2013-11-11 19:44:14	bigbugjava	what do you mean by, overlay  ?
+2013-11-11 19:44:31	Guest26080	I dont know why, $(document).on('click', '.drop-menu-button', function(e) {      works       but     $(document).on('load', '.drop-menu-button', function(e) { do not
+2013-11-11 19:46:35	ImBcmDth	bigbugjava: the overlay is the darkness. it is usually an absolutely positioned div with width/height = 100%
+2013-11-11 19:46:52	bigbugjava	how can I change it, find the issue here
+2013-11-11 19:46:58	<--	Hacksore has quit (Quit: Page closed)
+2013-11-11 19:47:03	<--	sayan has quit (Read error: Connection reset by peer)
+2013-11-11 19:47:59	-->	merpnderp has joined ##javascript
+2013-11-11 19:48:07	<--	SilentWarrior has quit (Ping timeout: 272 seconds)
+2013-11-11 19:48:17	-->	phelix has joined ##javascript
+2013-11-11 19:48:26	<--	dhilipsiva has quit (Remote host closed the connection)
+2013-11-11 19:48:40	-->	bhughes has joined ##javascript
+2013-11-11 19:48:48	-->	hwrd|work has joined ##javascript
+2013-11-11 19:49:01	<--	doev has quit (Remote host closed the connection)
+2013-11-11 19:49:04	-->	asie has joined ##javascript
+2013-11-11 19:49:18	phelix	I have a site that I want to load a pretty large background image with. But want to use javascript to display a smaller background while the larger one is in process of downloading. Is this something that can be done and if so is it complicated to do?
+2013-11-11 19:50:34	bigbugjava	ImBcmDth Ideas on how to solve the issue?
+2013-11-11 19:52:08	<--	Gmac_ has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 19:52:40	<--	hwrd|work has quit (Client Quit)
+2013-11-11 19:52:49	-->	cody-- has joined ##javascript
+2013-11-11 19:53:15	-->	robbyoconnor has joined ##javascript
+2013-11-11 19:55:33	<--	segv- has quit (Read error: Connection reset by peer)
+2013-11-11 19:55:42	<--	victorbjelkholm has quit (Quit: victorbjelkholm)
+2013-11-11 19:55:42	-->	Cakey has joined ##javascript
+2013-11-11 19:55:53	-->	john_doe_jr has joined ##javascript
+2013-11-11 19:55:58	-->	Gmac_ has joined ##javascript
+2013-11-11 19:56:02	john_doe_jr	how do you convert a string to a number in javascript?
+2013-11-11 19:56:11	<--	nicklasmoeller has quit (Read error: Connection reset by peer)
+2013-11-11 19:56:19	-->	Sergonium has joined ##javascript
+2013-11-11 19:56:20	ImBcmDth	bigbugjava: we might be able to help if we could actually run the page.. can you throw a sample up someplace?
+2013-11-11 19:56:27	NoiseEee	john_doe_jr: parseInt or parseFloat
+2013-11-11 19:56:31	-->	dnyy has joined ##javascript
+2013-11-11 19:56:37	<--	arietis has quit (Quit: Computer has gone to sleep.)
+2013-11-11 19:56:42	ImBcmDth	>> Number("12.34") @john_doe_jr
+2013-11-11 19:56:42	ecmabot	john_doe_jr: (number) 12.34
+2013-11-11 19:56:43	Havvy	>> +"10"
+2013-11-11 19:56:43	ecmabot	Havvy: (number) 10
+2013-11-11 19:56:55	<--	Gmac_ has quit (Client Quit)
+2013-11-11 19:57:10	-->	niggler has joined ##javascript
+2013-11-11 19:57:20	<--	etcetera has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 19:57:30	john_doe_jr	thank you !
+2013-11-11 19:58:11	-->	j201 has joined ##javascript
+2013-11-11 19:58:11	<--	j201 has quit (Changing host)
+2013-11-11 19:58:11	-->	j201 has joined ##javascript
+2013-11-11 19:58:13	-->	etcetera has joined ##javascript
+2013-11-11 19:58:22	-->	master5o1 has joined ##javascript
+2013-11-11 19:59:10	<--	j201 has quit (Client Quit)
+2013-11-11 19:59:12	-->	segv- has joined ##javascript
+2013-11-11 19:59:44	-->	Poky has joined ##javascript
+2013-11-11 19:59:47	Guest26080	what alternatives do i have for 'click'  in  $(document).on('click', '.drop-menu-button', function(e) {  }); ?
+2013-11-11 20:00:11	<--	Cakey has quit (Ping timeout: 252 seconds)
+2013-11-11 20:00:18	segv-	mousedown?
+2013-11-11 20:00:24	Guest26080	ok. and?
+2013-11-11 20:00:33	<--	gabriel9 has quit (Quit: Konversation terminated!)
+2013-11-11 20:00:35	<--	w0ng has quit (Quit: leaving)
+2013-11-11 20:00:54	<--	muxdemux has quit (Quit: muxdemux)
+2013-11-11 20:00:55	segv-	http://en.wikipedia.org/wiki/DOM_events
+2013-11-11 20:00:59	Guest26080	 what events can i use instead of click
+2013-11-11 20:01:02	Guest26080	k
+2013-11-11 20:01:20	<--	RogWilco has quit (Quit: Sleep!)
+2013-11-11 20:01:31	-->	arietis has joined ##javascript
+2013-11-11 20:01:34	<--	vlad_starkov has quit (Remote host closed the connection)
+2013-11-11 20:01:50	-->	vlad_starkov has joined ##javascript
+2013-11-11 20:02:49	-->	RogWilco has joined ##javascript
+2013-11-11 20:04:25	-->	sayan has joined ##javascript
+2013-11-11 20:05:02	<--	marcooliveira has quit (Remote host closed the connection)
+2013-11-11 20:05:15	-->	imjakechapman has joined ##javascript
+2013-11-11 20:05:19	<--	norviller has quit (Quit: Computer has gone to sleep.)
+2013-11-11 20:05:28	-->	say2joe has joined ##javascript
+2013-11-11 20:05:54	-->	rashkov has joined ##javascript
+2013-11-11 20:06:35	-->	norviller has joined ##javascript
+2013-11-11 20:06:50	<--	tarruda has quit (Remote host closed the connection)
+2013-11-11 20:07:11	-->	Sonicrida has joined ##javascript
+2013-11-11 20:07:22	diamonds	Guest26080, https://developer.mozilla.org/en-US/docs/Web/Reference/Events find "mouseevent" on this page
+2013-11-11 20:07:28	-->	muxdemux has joined ##javascript
+2013-11-11 20:07:43	diamonds	Guest26080, what's your goal?
+2013-11-11 20:07:59	Guest26080	let me see
+2013-11-11 20:08:07	diamonds	>> typeof ("abc123" + 0)
+2013-11-11 20:08:07	ecmabot	diamonds: (string) 'string'
+2013-11-11 20:08:13	diamonds	>> typeof (0 + "abc123")
+2013-11-11 20:08:13	ecmabot	diamonds: (string) 'string'
+2013-11-11 20:08:21	diamonds	>> typeof (0 + "123")
+2013-11-11 20:08:21	ecmabot	diamonds: (string) 'string'
+2013-11-11 20:08:23	diamonds	hm
+2013-11-11 20:08:24	-->	will-ob has joined ##javascript
+2013-11-11 20:08:30	-->	hwrd|work has joined ##javascript
+2013-11-11 20:08:34	-->	kakashiAL has joined ##javascript
+2013-11-11 20:08:41	-->	LarsSmit has joined ##javascript
+2013-11-11 20:08:46	-->	marco-oliveira has joined ##javascript
+2013-11-11 20:08:57	faddah	bberry & FireFly - i know you probably already know this, but one you posted the comparison operator as '==',' and i wanted to note that??  it's always better to use '===' over '==' for conditional comparison in JS, especially when looking for a '0' or 'null.' see this tweet and linked blog posts from dr. alex rauschmayer, one of the folk working on the upcoming ecma6. i met him at last may's o'reilly fluent conf. in sf.  =>
+2013-11-11 20:08:58	<--	CIDIC has quit (Quit: CIDIC)
+2013-11-11 20:09:01	faddah	https://twitter.com/rauschma/status/397891459820429312
+2013-11-11 20:09:19	Guest26080	>> while(true){ console.log(1); }
+2013-11-11 20:09:23	ecmabot	Guest26080: Timeout Error: Execution time exceeded 4 seconds
+2013-11-11 20:09:26	<--	master5o1 has quit (Ping timeout: 256 seconds)
+2013-11-11 20:09:28	Guest26080	expected that
+2013-11-11 20:09:38	<--	BigBlueBacon has quit (Ping timeout: 245 seconds)
+2013-11-11 20:09:54	-->	ColKurtz has joined ##javascript
+2013-11-11 20:09:55	<--	sayan has quit (Ping timeout: 272 seconds)
+2013-11-11 20:10:57	<--	Willy has quit (Quit: Leaving - Bye!)
+2013-11-11 20:11:26	<--	robbyoconnor has quit (Ping timeout: 240 seconds)
+2013-11-11 20:11:28	kakashiAL	hey guys, I have an formular which saves user informations, now I want to be able to export that userinformation as a pdf in dinA4, I want also a special design for that dina4 paper (a header design etc)
+2013-11-11 20:11:32	<--	asie has quit (Quit: I'll probably come back in either 20 minutes or 8 hours.)
+2013-11-11 20:11:33	kakashiAL	how could I do that?
+2013-11-11 20:11:43	-->	Couto has joined ##javascript
+2013-11-11 20:11:48	-->	robbyoconnor has joined ##javascript
+2013-11-11 20:11:59	<--	willob_ has quit (Ping timeout: 252 seconds)
+2013-11-11 20:12:07	sacho_	faddah, mr alex rauschmayer strawmans the primary reason to use ==, to aggressively convert to numbers and compare.
+2013-11-11 20:12:23	bigbugjava	ImBcmDth I will come back in an hour, will check if your here, thanks
+2013-11-11 20:12:32	-->	germanoak has joined ##javascript
+2013-11-11 20:12:35	<--	joroci has quit (Ping timeout: 260 seconds)
+2013-11-11 20:12:45	<--	richardiii has quit (Remote host closed the connection)
+2013-11-11 20:12:57	<--	Sympathix has quit (Quit: Quitte)
+2013-11-11 20:13:19	-->	richardiii has joined ##javascript
+2013-11-11 20:13:45	<--	onthestairs has quit (Ping timeout: 244 seconds)
+2013-11-11 20:13:50	kakashiAL	anyone?
+2013-11-11 20:13:51	sacho_	the argument "but if you know your arguments, why would you use ==" goes the other way as well.
+2013-11-11 20:14:02	-->	noahsussman has joined ##javascript
+2013-11-11 20:14:06	<--	arkore has quit (Ping timeout: 240 seconds)
+2013-11-11 20:14:24	<--	err_ok has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 20:15:26	<--	MrNaviPacho has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2013-11-11 20:15:34	-->	kketch has joined ##javascript
+2013-11-11 20:15:36	<--	ValicekB has left ##javascript
+2013-11-11 20:16:04	<--	Rchristiani has quit (Remote host closed the connection)
+2013-11-11 20:16:11	naomi	kakashiAL, lol
+2013-11-11 20:16:16	naomi	try Microsoft Word
+2013-11-11 20:16:18	naomi	or other ToiletWare™ for authoring PDFs
+2013-11-11 20:16:34	bradleymeck	use == when comparing against object keys, or I will go cry as assigning things to the object uses type coercion
+2013-11-11 20:16:41	-->	ValicekB has joined ##javascript
+2013-11-11 20:17:03	Deide	Chrome can print to PDF pretty decently
+2013-11-11 20:17:04	kakashiAL	naomi: you dont know what I mean and why I want it
+2013-11-11 20:17:10	<--	faddah has quit (Quit: faddah)
+2013-11-11 20:17:26	sacho_	why don't you explain what you mean then
+2013-11-11 20:17:30	<--	willian_carvalho has quit (Quit: Leaving)
+2013-11-11 20:17:36	<--	kketch has left ##javascript
+2013-11-11 20:17:40	sacho_	and how it's related to javascript
+2013-11-11 20:17:41	-->	joroci has joined ##javascript
+2013-11-11 20:17:43	<--	richardiii has quit (Ping timeout: 260 seconds)
+2013-11-11 20:17:43	kakashiAL	sacho_: did that but will do that again
+2013-11-11 20:17:47	Havvy	bradleymeck, Object keys are always strings.
+2013-11-11 20:17:54	kakashiAL	I have a database connecetd with javascript
+2013-11-11 20:18:02	Havvy	Or soon, always keys or symbols.
+2013-11-11 20:18:07	--	zz_eugeneware is now known as eugeneware
+2013-11-11 20:18:16	Deide	kakashiAL: https://github.com/MrRio/jsPDF
+2013-11-11 20:18:33	kakashiAL	in some cases I want to export one of the formular in a spesific way as a pdf
+2013-11-11 20:18:37	Deide	Can't vouch for the stability, quality, etc
+2013-11-11 20:19:16	<--	ValicekB has quit (Client Quit)
+2013-11-11 20:19:26	Havvy	Compare with === and convert to strings as needed.
+2013-11-11 20:19:29	-->	arkore has joined ##javascript
+2013-11-11 20:19:49	-->	morficus has joined ##javascript
+2013-11-11 20:20:24	bradleymeck	>> var x ={}, y={toString:function(){return "1"}}; x[1]=2;x["1"]=3;x[y]=4;x // Havvy
+2013-11-11 20:20:25	ecmabot	bradleymeck: (object) {1: 4}
+2013-11-11 20:20:28	-->	ValicekB has joined ##javascript
+2013-11-11 20:20:32	kakashiAL	Deide: the pdf sould be in a dinA4 format with specific formats, a header etc.
+2013-11-11 20:20:38	<--	niggler has quit (Ping timeout: 240 seconds)
+2013-11-11 20:20:40	-->	Porpado has joined ##javascript
+2013-11-11 20:20:45	-->	Jayflux has joined ##javascript
+2013-11-11 20:20:46	bradleymeck	use == when comparing keys
+2013-11-11 20:21:31	Deide	kakashiAL: Check it out. Maybe it can do it.
+2013-11-11 20:21:51	Havvy	>> var x ={}, y={toString:function(){return "1"}}; x[1]=2;x["1"]=3;x[y]=4; x.keys()[0] === "1"
+2013-11-11 20:21:51	ecmabot	Havvy: TypeError: x.keys is not a function
+2013-11-11 20:21:58	--	Praise- is now known as Praise
+2013-11-11 20:21:58	phelix	I have a site that I want to load a pretty large background image with. But want to use javascript to display a smaller background while the larger one is in process of downloading. Is this something that can be done and if so is it complicated to do?
+2013-11-11 20:22:01	<--	joroci has quit (Ping timeout: 244 seconds)
+2013-11-11 20:22:03	Havvy	>> var x ={}, y={toString:function(){return "1"}}; x[1]=2;x["1"]=3;x[y]=4; Object.keys(x)[0] === "1"
+2013-11-11 20:22:03	ecmabot	Havvy: (boolean) true
+2013-11-11 20:22:05	phelix	Anyone know if this would be really hard to do?
+2013-11-11 20:22:06	<--	LarsSmit has quit (Quit: Leaving.)
+2013-11-11 20:22:09	Deide	If not, I bet there are lots of other libraries to discover with google's  help
+2013-11-11 20:22:20	<--	muxdemux has quit (Ping timeout: 268 seconds)
+2013-11-11 20:22:29	Havvy	Or `"1" in x`
+2013-11-11 20:22:38	sacho_	phelix, no.
+2013-11-11 20:22:48	phelix	sacho_ This is impossible to do?
+2013-11-11 20:22:56	sacho_	no.
+2013-11-11 20:23:00	-->	jrajav has joined ##javascript
+2013-11-11 20:23:53	Deide	phelix: You could maybe listen for the load event on a hidden image, replacing the background when it fires
+2013-11-11 20:24:02	-->	poseid has joined ##javascript
+2013-11-11 20:24:05	phelix	ohh, ops my bad. Do you have any code or know a site or any tuturial that is doing this? I can't have it just display:none on hte id of that div though because the site needs to display and this needs to be the background for the entire site so it must be visisble only the background image needsto show something else while it loads
+2013-11-11 20:24:09	<--	iliketurtles has quit (Quit: zzzzz…..)
+2013-11-11 20:24:21	<--	morficus has quit (Ping timeout: 246 seconds)
+2013-11-11 20:24:26	-->	jbpros has joined ##javascript
+2013-11-11 20:24:32	phelix	Deide: Unfortunaly I can not write my own javascript.. Do you know if there are any tutorials that can do this out there?
+2013-11-11 20:24:53	-->	m0ltar has joined ##javascript
+2013-11-11 20:25:32	<--	jbpros has quit (Client Quit)
+2013-11-11 20:26:22	-->	vlad_sta_ has joined ##javascript
+2013-11-11 20:26:25	<--	etcetera has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 20:26:26	<--	Centime has quit (Ping timeout: 240 seconds)
+2013-11-11 20:26:39	-->	iliketurtles has joined ##javascript
+2013-11-11 20:26:49	<--	rsk700 has quit (Quit: Leaving.)
+2013-11-11 20:27:16	<--	Advocation has quit (Quit: Advocation)
+2013-11-11 20:27:23	<--	rootshift has quit (Quit: rootshift)
+2013-11-11 20:27:27	<--	ValicekB has quit
+2013-11-11 20:27:40	<--	capeta has quit (Read error: Connection reset by peer)
+2013-11-11 20:27:42	-->	rafaqueque has joined ##javascript
+2013-11-11 20:27:58	<--	Somatt_wrk has quit (Read error: Connection reset by peer)
+2013-11-11 20:27:58	--	eugeneware is now known as zz_eugeneware
+2013-11-11 20:28:12	<--	robbyoconnor has quit (Ping timeout: 246 seconds)
+2013-11-11 20:28:22	-->	Somatt_wrk has joined ##javascript
+2013-11-11 20:28:38	<--	ColKurtz has quit (Ping timeout: 240 seconds)
+2013-11-11 20:28:54	-->	weidou has joined ##javascript
+2013-11-11 20:29:18	-->	ValicekB has joined ##javascript
+2013-11-11 20:29:25	<--	joseph has quit (Quit: leaving)
+2013-11-11 20:29:44	-->	NivenHuH has joined ##javascript
+2013-11-11 20:29:45	<--	vlad_starkov has quit (Ping timeout: 268 seconds)
+2013-11-11 20:29:52	bradleymeck	Havvy: your === with Object.keys makes you need to remember to convert the non-key to a string or sadness
+2013-11-11 20:30:05	bradleymeck	ive had several prod bugs over the years from people doing similar
+2013-11-11 20:30:12	<--	jtw has quit
+2013-11-11 20:30:25	-->	ColKurtz has joined ##javascript
+2013-11-11 20:30:26	-->	bkuberek has joined ##javascript
+2013-11-11 20:30:51	-->	etcetera has joined ##javascript
+2013-11-11 20:30:52	Havvy	Then they need to properly test their code. ;)
+2013-11-11 20:30:54	<--	FernandoBasso has quit (Quit: Leaving.)
+2013-11-11 20:31:13	-->	disorder has joined ##javascript
+2013-11-11 20:31:26	bradleymeck	we always need more tests
+2013-11-11 20:31:42	bradleymeck	if I had time to get 100% input coverage I would be soo happy
+2013-11-11 20:32:39	-->	jbpros has joined ##javascript
+2013-11-11 20:33:02	<--	bkuberek_ has quit (Ping timeout: 240 seconds)
+2013-11-11 20:33:27	<--	gasbakid_ has quit (Ping timeout: 268 seconds)
+2013-11-11 20:34:17	-->	gasbakid__ has joined ##javascript
+2013-11-11 20:34:27	<--	basti-mbp has quit (Remote host closed the connection)
+2013-11-11 20:35:25	<--	Somatt_wrk has quit (Read error: Connection reset by peer)
+2013-11-11 20:35:26	-->	Somatt_wrk_ has joined ##javascript
+2013-11-11 20:36:01	-->	drag has joined ##javascript
+2013-11-11 20:36:35	<--	arietis has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2013-11-11 20:36:37	<--	zeropx has quit (Ping timeout: 248 seconds)
+2013-11-11 20:37:08	-->	bkuberek_ has joined ##javascript
+2013-11-11 20:37:19	-->	rivarun has joined ##javascript
+2013-11-11 20:37:26	<--	kicken has quit (Ping timeout: 240 seconds)
+2013-11-11 20:37:30	Deide	Dunno phelix; tried googling it? :P
+2013-11-11 20:37:43	<--	Nothing4You has quit (Write error: Connection reset by peer)
+2013-11-11 20:39:31	-->	joetam has joined ##javascript
+2013-11-11 20:39:42	-->	muxdemux has joined ##javascript
+2013-11-11 20:40:38	<--	bkuberek has quit (Ping timeout: 240 seconds)
+2013-11-11 20:40:40	-->	niggler has joined ##javascript
+2013-11-11 20:41:05	drag	I'm trying to make a modal window with MarionetteJs, RequireJs, and boostrap.  When I run grunt, I get the error "Expected '(end)' and instead saw '}'."  What does that mean? http://dpaste.com/1456240/
+2013-11-11 20:41:12	-->	zeropx has joined ##javascript
+2013-11-11 20:41:20	<--	c4milo has quit (Remote host closed the connection)
+2013-11-11 20:41:44	<--	clarkk has quit (Ping timeout: 245 seconds)
+2013-11-11 20:42:06	-->	abraxas has joined ##javascript
+2013-11-11 20:42:34	<--	rafaqueque has quit (Remote host closed the connection)
+2013-11-11 20:42:48	<--	petey has quit (Remote host closed the connection)
+2013-11-11 20:42:49	-->	rafaqueque has joined ##javascript
+2013-11-11 20:43:09	Guest26080	small function not working.. http://jsfiddle.net/nmHs3/
+2013-11-11 20:43:10	<--	Bastian82 has quit (Quit: Konversation terminated!)
+2013-11-11 20:43:24	-->	petey has joined ##javascript
+2013-11-11 20:43:59	-->	Centime has joined ##javascript
+2013-11-11 20:46:03	-->	Gonsor has joined ##javascript
+2013-11-11 20:46:47	<--	denysonique has quit (Quit: Connection closed for inactivity)
+2013-11-11 20:47:00	-->	GreenJello has joined ##javascript
+2013-11-11 20:47:17	<--	abraxas has quit (Ping timeout: 272 seconds)
+2013-11-11 20:47:30	<--	decoponio has quit (Quit: Leaving...)
+2013-11-11 20:47:46	-->	Areks_home has joined ##javascript
+2013-11-11 20:47:52	-->	richardiii has joined ##javascript
+2013-11-11 20:48:03	<--	petey has quit (Ping timeout: 260 seconds)
+2013-11-11 20:48:24	-->	tplaner has joined ##javascript
+2013-11-11 20:48:38	<--	jalcine has quit (Excess Flood)
+2013-11-11 20:49:06	-->	clarkk has joined ##javascript
+2013-11-11 20:49:12	-->	icecandy has joined ##javascript
+2013-11-11 20:50:01	Sorella	bradleymeck, use property-based tests. You get infinite coverage by writing just a little bit of tests :)
+2013-11-11 20:50:11	-->	rootshift has joined ##javascript
+2013-11-11 20:50:14	<--	icecandy has quit (Client Quit)
+2013-11-11 20:50:17	-->	D[4]ni has joined ##javascript
+2013-11-11 20:50:23	-->	DanielXMoore has joined ##javascript
+2013-11-11 20:50:52	-->	domino14 has joined ##javascript
+2013-11-11 20:51:15	<--	DanielXMoore has left ##javascript
+2013-11-11 20:51:24	domino14	i have an object that looks like mixpanel = {}, then i do things like mixpanel.people.track({foo: bar}) -- the thing is i don't want to do this locally
+2013-11-11 20:51:25	-->	richardi_ has joined ##javascript
+2013-11-11 20:51:37	-->	DanielXMoore has joined ##javascript
+2013-11-11 20:51:39	<--	Zesty has quit (Quit: Linkinus - http://linkinus.com)
+2013-11-11 20:51:54	domino14	so i ahve a flag where locally i do mixpanel = {}, mixpanel.people = {}, etc etc for each function, but every time i add a new function if i forget to add this new "shim" for it the JS breaks
+2013-11-11 20:52:31	domino14	is there a way to define a blank object that somehow has everything defined but it's just a null function?
+2013-11-11 20:52:37	domino14	so i can do a.b.c();
+2013-11-11 20:52:41	-->	Beg has joined ##javascript
+2013-11-11 20:52:53	<--	iliketurtles has quit (Quit: zzzzz…..)
+2013-11-11 20:52:56	domino14	where 'a' is this magical object where i don't need to define 'b'
+2013-11-11 20:52:59	<--	richardiii has quit (Ping timeout: 272 seconds)
+2013-11-11 20:53:02	<--	JosephFerano has quit (Quit: JosephFerano)
+2013-11-11 20:53:28	<--	Beg has quit (Max SendQ exceeded)
+2013-11-11 20:53:31	<--	weidou has quit (Quit: weidou)
+2013-11-11 20:53:33	-->	abraxas has joined ##javascript
+2013-11-11 20:53:39	-->	pbodymind has joined ##javascript
+2013-11-11 20:53:57	-->	Beg has joined ##javascript
+2013-11-11 20:53:59	-->	Nothing4You has joined ##javascript
+2013-11-11 20:54:10	pbodymind	anybody had ever had an "out of memory" exception in firefox? how do you handle this? how can I debug my code to check where is my memory leak?
+2013-11-11 20:55:41	-->	brett323 has joined ##javascript
+2013-11-11 20:55:42	-->	Gemclip has joined ##javascript
+2013-11-11 20:55:51	brett323	whats up
+2013-11-11 20:55:58	<--	Gemclip has quit (Changing host)
+2013-11-11 20:55:58	-->	Gemclip has joined ##javascript
+2013-11-11 20:56:21	domino14	keep removing things until you dont have a memory leak anymore
+2013-11-11 20:56:47	<--	Sorella has quit (Quit: Ex-Chat)
+2013-11-11 20:56:53	<--	LiENUS has quit (Ping timeout: 248 seconds)
+2013-11-11 20:57:25	NoiseEee	domino14: no
+2013-11-11 20:57:31	<--	eggzeck-laptop has quit (Ping timeout: 272 seconds)
+2013-11-11 20:57:35	Deide	pbodymind: You must have quite the big app for that to happen. That or a pretty massive memory leak. Chrome Dev Tools has some nice tools to pinpoint what's going wrong. Take a look at the Timeline and Profile tabs
+2013-11-11 20:57:50	<--	jhulten has quit (Remote host closed the connection)
+2013-11-11 20:57:53	NoiseEee	pbodymind: is it happening after you do a particular thing?  if so, investigate what happens when you do a particular thing
+2013-11-11 20:57:57	pbodymind	im using processingjs with an html5 canvas
+2013-11-11 20:57:57	-->	graphettion has joined ##javascript
+2013-11-11 20:57:59	domino14	right, you can start a profile, do some action, stop, and check the heap size, then figure out when it grows
+2013-11-11 20:58:05	pbodymind	big images.. 1368x3600 pixels ;)
+2013-11-11 20:58:11	<--	RogWilco has quit (Quit: Sleep!)
+2013-11-11 20:58:12	-->	faddah has joined ##javascript
+2013-11-11 20:58:18	-->	jhulten has joined ##javascript
+2013-11-11 20:58:19	<--	skullcrasher has quit (Quit: Konversation terminated!)
+2013-11-11 20:58:24	domino14	are you freeing the images and making sure there's nothing holding on to them whenever you make a new one
+2013-11-11 20:58:26	-->	willob_ has joined ##javascript
+2013-11-11 20:58:27	pbodymind	i known about memory leaks in c++.. but have no idea in javascript...
+2013-11-11 20:58:39	domino14	there's probably a dom element holding on to the image
+2013-11-11 20:58:45	pbodymind	domino14: no.. any  resource about that?
+2013-11-11 20:58:46	domino14	because you haven't explicitly removed it
+2013-11-11 20:59:01	<--	germanoak has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2013-11-11 20:59:04	pbodymind	im sure is that... but i have no clue on how to debug it.. :s
+2013-11-11 20:59:17	domino14	find out exactly when your memory grows by using google dev tools, measure the heap size before and after some action
+2013-11-11 20:59:24	pbodymind	ok
+2013-11-11 20:59:26	pbodymind	thank you
+2013-11-11 20:59:37	Deide	That exactly. Very helpful :)
+2013-11-11 20:59:51	-->	jhulten_ has joined ##javascript
+2013-11-11 20:59:54	pbodymind	any firefox tool? :$
+2013-11-11 21:00:04	-->	RogWilco has joined ##javascript
+2013-11-11 21:00:14	<--	jhulten has quit (Read error: Connection reset by peer)
+2013-11-11 21:00:16	<--	abraxas has quit (Ping timeout: 244 seconds)
+2013-11-11 21:00:23	<--	jrajav has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 21:00:32	domino14	you have to do something like domelement.image = null or something
+2013-11-11 21:00:38	-->	tarruda has joined ##javascript
+2013-11-11 21:01:03	domino14	or domelement.image.remove()
+2013-11-11 21:01:06	domino14	just get it out of the dom
+2013-11-11 21:01:12	domino14	howeever it's set up
+2013-11-11 21:01:51	ImBcmDth	pbodymind: about the only way to even get an idea of where your memory is going in FF is `about:memory` but that is far less useful than chromes tools
+2013-11-11 21:02:05	pbodymind	ok ill head up to chrome then
+2013-11-11 21:02:06	GreenJello	pbodymind, are you doing image = new Image(); image.src = "foo.png"; or similar?  If so, you have to make sure they're not stored on some object, or they'll never be freed until the object is.
+2013-11-11 21:02:26	<--	will-ob has quit (Ping timeout: 268 seconds)
+2013-11-11 21:02:32	<--	jandresen has quit (Quit: connection reset by beer)
+2013-11-11 21:02:37	GreenJello	a lot of times they get put in some kind of queue, and people forget to take them out
+2013-11-11 21:02:56	-->	joh_ has joined ##javascript
+2013-11-11 21:02:58	joh_	Hi
+2013-11-11 21:02:59	-->	S_T_A_N has joined ##javascript
+2013-11-11 21:03:05	pbodymind	GreenJello: im using processingjs .. so I just use processing.createGraphics and processing.loadImage (but I will check their source code)
+2013-11-11 21:03:25	<--	vlad_sta_ has quit (Remote host closed the connection)
+2013-11-11 21:03:40	-->	TuRnaD0 has joined ##javascript
+2013-11-11 21:03:43	joh_	I have a little fault, when I'm checking , if the checkbox is checked...THe stopping doesnt work..THis is part of a slideshow
+2013-11-11 21:03:43	joh_	http://jsfiddle.net/e4SV2/
+2013-11-11 21:03:46	ImBcmDth	pbodymind: a few pointers that I learned the hard way: 1) logging an object to the console will keep EVERYTHING it references in memory (for-nearly-ever) so make sure you aren't logging a very "well-connected" object
+2013-11-11 21:03:49	<--	noahsussman has quit (Remote host closed the connection)
+2013-11-11 21:03:57	GreenJello	okay, if no one else has complained about it, it's probably not an issue; I'd check their bug tracker before the source code
+2013-11-11 21:04:15	-->	noahsussman has joined ##javascript
+2013-11-11 21:04:17	joh_	In console, it show me, it is set right ..But the if doesnt work
+2013-11-11 21:04:20	<--	jbpros has quit (Quit: jbpros)
+2013-11-11 21:04:48	<--	Ankhwatcher has quit (Remote host closed the connection)
+2013-11-11 21:04:59	-->	err_ok has joined ##javascript
+2013-11-11 21:05:03	pbodymind	GreenJello: ok.. it is.. im using createGraphics in many places and not cleaning the previous graphics...
+2013-11-11 21:05:04	<--	err_ok has quit (Max SendQ exceeded)
+2013-11-11 21:05:09	-->	w0rm has joined ##javascript
+2013-11-11 21:05:15	<--	tarruda has quit (Client Quit)
+2013-11-11 21:05:20	k1i	any good oauth2 client libraries for in-browser js?
+2013-11-11 21:06:08	GreenJello	okay, so it sounds like you're using it faster than the garbage collector can get rid of the old ones; technically that's not a memory leak, more of a memory race condition :-)
+2013-11-11 21:06:34	joh_	Anyone has an idea?
+2013-11-11 21:07:15	<--	marco-oliveira has quit (Remote host closed the connection)
+2013-11-11 21:07:40	ImBcmDth	pbodymind: 2) typed arrays are a LOT more memory efficient than regular arrays for dense stuff (like pixel data) 3) if you are allocating a lot of short-lived objects interspersed by a few longer-lived objects, you can run into "arena fragmentation" in firefox (they might have fixed this in more recent builds). FF allocates "arenas" that are (i think) a MB in size. only when EVERY object in an arena is GCd can the arena be freed. If even one byte
+2013-11-11 21:07:40	ImBcmDth	hangs around, then whole arena is wasted.
+2013-11-11 21:07:41	kakashiAL	hey guys, does anyone know a simple tutorial to work with javascript and sqlite?
+2013-11-11 21:07:42	GreenJello	joh_, show a fiddle that actually shows the problem
+2013-11-11 21:07:44	-->	alex_javascript has joined ##javascript
+2013-11-11 21:07:50	<--	joetam has quit (Ping timeout: 240 seconds)
+2013-11-11 21:08:14	joh_	GreenJello, its a slideshow..I cant upload the pictures
+2013-11-11 21:08:30	joh_	I can upload it to a websspace if you like
+2013-11-11 21:08:30	GreenJello	joh_, put http://placehold.it/400x300 for each image
+2013-11-11 21:09:01	joh_	ok, a moment pls.
+2013-11-11 21:09:01	--	Krinkle is now known as Krinkle|detached
+2013-11-11 21:09:08	<--	noahsussman has quit (Ping timeout: 260 seconds)
+2013-11-11 21:09:16	pbodymind	i like the memory race concept.. muhahaha
+2013-11-11 21:09:24	<--	drag has left ##javascript ("Leaving")
+2013-11-11 21:09:43	pbodymind	javascript n00b... but gettin into it ;) thank you guys!! very helpful your information
+2013-11-11 21:09:58	ImBcmDth	placehold.it and corsproxy.com are sooo useful when making cut down examples
+2013-11-11 21:10:14	-->	zoee has joined ##javascript
+2013-11-11 21:10:38	<--	snkcld has quit (Ping timeout: 240 seconds)
+2013-11-11 21:11:07	<--	AciD` has quit (Ping timeout: 244 seconds)
+2013-11-11 21:11:17	<--	imjakechapman has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 21:11:24	bradleymeck	anyone know a good way to handle ctrl+f when you have too many elements to render the dom for them all at once without massive resource usage
+2013-11-11 21:11:35	bradleymeck	hopefully w/o me hijacking it
+2013-11-11 21:11:44	-->	christophe_v_e has joined ##javascript
+2013-11-11 21:11:59	<--	captain_morgan has quit (Read error: Connection reset by peer)
+2013-11-11 21:12:10	<--	Centime has quit (Ping timeout: 244 seconds)
+2013-11-11 21:12:13	GreenJello	bradleymeck, you could implement ctrl f your self
+2013-11-11 21:12:23	GreenJello	browsers let you prevent the default
+2013-11-11 21:12:26	-->	jonbo has joined ##javascript
+2013-11-11 21:12:38	bradleymeck	i can, but then if someone goes to the edit menu and clicks the menu item it still shows up
+2013-11-11 21:12:55	christophe_v_e	Hey, how would I regex check for several sequences of letters? For example ab, cd, de?
+2013-11-11 21:12:55	-->	petey has joined ##javascript
+2013-11-11 21:13:04	GreenJello	true, but most people don't do that :-)
+2013-11-11 21:13:07	-->	Distraught has joined ##javascript
+2013-11-11 21:13:17	Havvy	>> /ab|cd|de/.test("cd")
+2013-11-11 21:13:17	ecmabot	Havvy: (boolean) true
+2013-11-11 21:13:22	Distraught	hello i want to parse a js var to php without reloading a page
+2013-11-11 21:13:25	Distraught	is that possible?
+2013-11-11 21:13:28	GreenJello	if they decide to be difficult, they don't get the enhanced Ctrl-F :-p
+2013-11-11 21:13:31	Distraught	I dont want to set a cookie or something
+2013-11-11 21:13:33	<--	pcostanz has quit (Remote host closed the connection)
+2013-11-11 21:13:35	bradleymeck	GreenJello: technical people don't, accessibility and non-technical do
+2013-11-11 21:13:46	GreenJello	fair enough
+2013-11-11 21:13:54	GreenJello	then the answer is "you can't"
+2013-11-11 21:14:05	GreenJello	Distraught, look up "ajax"
+2013-11-11 21:14:08	Distraught	http://pastebin.com/RjUUxTgK
+2013-11-11 21:14:16	GreenJello	and JSON
+2013-11-11 21:14:16	Distraught	i am trying to do this
+2013-11-11 21:14:25	Distraught	json and ajax
+2013-11-11 21:14:25	Distraught	ok
+2013-11-11 21:14:30	-->	dxd828 has joined ##javascript
+2013-11-11 21:14:38	<--	norviller has quit (Quit: Computer has gone to sleep.)
+2013-11-11 21:15:29	<--	jergason has quit (Quit: jergason)
+2013-11-11 21:15:44	Deide	Distraught: That's completely wrong. PHP is pre-processed on the server. Javascript runs on the client. You can send and receive data using Javascript's XHR, though.
+2013-11-11 21:16:36	christophe_v_e	Havvy: I don't understand, how would I use it here: http://jsfiddle.net/EverybdyLies/NFwpm/ - I'm really trying to figure this out but I'm not used to this.
+2013-11-11 21:16:54	<--	brett323 has quit (Quit: irc2go)
+2013-11-11 21:17:05	joh_	GreenJello, there was a little problem with the buttons in jsfiddle..I uploaded here
+2013-11-11 21:17:05	joh_	http://stayfowas.bplaced.net/slideshow.html
+2013-11-11 21:17:21	GreenJello	okay joh_
+2013-11-11 21:17:24	joh_	Thats sample pictures ^^
+2013-11-11 21:17:49	Havvy	chrisdickinson:  str.replace(/th|ui/, function (match) { return match.reverse(); })
+2013-11-11 21:18:02	Havvy	I can't recall if we have a String.prototype.reverse
+2013-11-11 21:18:08	chrisdickinson	we don't
+2013-11-11 21:18:21	christophe_v_e	o.O
+2013-11-11 21:18:21	Havvy	:(
+2013-11-11 21:18:28	chrisdickinson	"asdf".split('').reverse().join('')
+2013-11-11 21:18:47	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined ##javascript
+2013-11-11 21:18:47	--	Topic for ##javascript is "Can't Talk? Get Registered on FreeNode (HOWTO: http://ur1.ca/90niw) | ECMAScript, Javascript, JS *not* Java | Say: "!help" (or ask and wait) | Run: "!mdn foo" for docs on "foo" | Don't paste code in the channel."
+2013-11-11 21:18:47	--	Topic set by gkatsev (~gkatsev@oftn/board/gkatsev) on Mon, 25 Feb 2013 09:02:19
+2013-11-11 21:18:47	--	Nicks ##javascript: [[[zz]] [SK]Ray \mSg __main__ _br_ _Bravado _cheney _Cody _marix _trev AaronMT abetusk aboudreault absentia AcTiVaTe adam12 Adeon aeoril aesptux ahungry aidanie__ ajpiano akiress akkufomk alainus alamar alex_javascript alexander__b alexwhitman alfonsodev alieas_ Alina-malina allanm amcsi_work andrew9183 andrew91_ anekos_ anildigital Anonymoose antihero aortmann arcanis Areks Areks_home Aresilla Aric Arieh arielserafini arkore Armen Arokh artgoeshere Artpicre asteve astrolin astronautaid Atlantic777 atomi atrigent Audlex avium Ayey_ AzaToth Babbam86 BaDaSs bakedb balance banzounet bberry Beg bel3atar Beltechs ben1066 ben_alman Benjojo bentruyman Benvie Benvie_ bgy bhldev bhughes biberu bigbugjava bigLanky BillCriswell Bish bkuberek_ Blacklite blackwhite BlaDe^ bluesm bmn bn` bobbylaporte bobdobbs bogool BohemianHacks Bombo BombStrike BoomBox BoomerBile boxmein bradleymeck braincra- brainproxy Brando753 bremnes Brewster brian-mann Bronze bubbajones bung buritica ButtDog buu Bwild bxi Caelum callumacrae cam carldanley Catie catsup caveat- CCPBracari cdidd cebor Cerise_ ch3mical ch3mical_ charas CharlieM751 chasemb chernjie_ Chewtoy chjj chovy chrisdickinson chrisdotcode chrislkeller christophe_v_e cibs clarkk classix clouder`grr coda23 codebrainz codelahoma codeSomeThings codevinsky codingkevin cody-- CoJaBo ColKurtz comboy CookieNinja coolstoriyo Cork Couto CR0W crash\ crashev_ cruxeternus ctorp CTPAX__ Curtisbeef_ cybrNaut cythrawll czardoz d45h D[4]ni dabear daekano Daniel0 DanielXMoore DannyFritz danrough darkc0met Darkduma_ datagutt DaZ dccc DDR deadalus deepy deg Deide deltab DeoSama Depe Dessimat0r Dev0n dhaber dhruvasagar diamonds Diemuzi digitalfiz digiwano diminoten dino82 diod disorder Distraught Dlabz dman777_alter dmanderson dmbaturin dnyy doc|home DomeMaster domino14 domsz DontShootMe DonVitoC- DonVitoCorleone DoubleAW dowlf dozn drager dragonshed DrAwesomeClaws_ DreadKnight Dreamer3 DrLou dspriggs duch_kazatel durnik dutis dwarder dwcook dxd828 dytrivedi dza dziga dZwilly eagleflo eagles0513875 ecmabot EdwardIII edwardly eford eggzeck ehtesh eighty4 ejnahc eliudnir ELLIOTTCABLE elnur elux emid emma enda erg erichynds ericwood erikj erry eshlox etcetera EvRide ezakimak_work faddah fairlite farn fearphage felipe_ felipeduardo fhd fifteen3 FireFly fireh FizzyTea fkm Flannel Fli-c flip_digits flori Fortescue FortuneDays franckbenoit freeed FunnyLookinHat Fuu gambakufu GarethAdams gasbakid__ Gather Gavrisimo gbyers[Away] gde33 geekbri geilt Gemclip geomyidae_ gerard0 gf3 gic gimpygoo githogori gkatsev glaksmono godprobe Gonsor Goopyo grafi graphettion graphitemaster GreenJello Gregor gtc guampa Guest26080 Guest69055 Guest83584 Guest86070 Gunn4r h0st1le h34d3r HA5h haBuu^ hans_henrik happyface Happzz Haswell Havvy hazardous Hazza hdrv heath heedypo heedypo1 HeN hermiene hexed hgascon hhehw- highasdick hnsr holymac hooloovoo hswolff hugo_moss huntercool hwrd|work hxm idr0p ifdef42 ilteris im0b ImBcmDth inconclusive Industrial ineku inimino Inoperable insel Internet13 interru intrigue intripoon Ir1sh isaacbw iSeeDead1ixels itisi ivan\ ivanoats ix0071 iXeno jaeholee jaimef jakoch jallardice jaredrhine JarJarBingDotCom jarr0dsz JavaChip jave Jayflux jayne jazu JBreit JC_SoCal Jck_True jcromartie jcrza jerius jesseabc1231 JFranks jgoss jhford jhulten_ jhvisser jiffe99 Jikan jimmt jlwang jmaister jmcantrell JmZ_ jobney joelrobichaud joepie91 JoeyJoeJo joeytier joh_ john_doe_jr johnkpaul Johnny- jonatasnona jonbo joneshf-work jonginn joshskidmore josue JPeterson jpossi JPT jpwgarrison jrdn jruzz jsbkkj jscinoz JSharpe__ jso juo jve_ jxie jzl_ k1i k1ng k308 k4yc44k5_ Kabaka kadiks Kai` kaimei_ kakashiAL kalleth_ Kaltiz kanzure karnowski kastang kborchers kbrosnan kbsa keepsake Keksike Kesarr kex Khisanth khmer kinabalu KindOne king4life Kingsy Kinny kludge` Kneferilis knf|out koba04_away kobain kohvihoo1 kraucrow kraytul Krinkle|detached kurko_ kurrent kyrre l1ght lahwran LaMakina lancealtar Lann lansman Larholm lemonsparrow leptonix Letze Lexi lijnen Lildirt lilmonkey Lindrian Linkandzelda Linkeh lmjabreu LocalPCGuy Logicgate logikos lord4163 lucasb LuckySMack_ luruke Lyn M-ou-se m0 m0dest m0ltar m_kael_ mac- macabre machisuji MacWinner malcolmva Malediction MalMen malorie ManneW manuelbieh mar77i marienz markkes Marsup martisj Martz marvi mary5030 masak MaSOuD master5o1|work mattattaque Maurice Maxdamantus Maxel mbor MCHammer meet_praveen mehwork mentalist Merheet0 merpnderp mHancik MicD_ MightyMu mikaelb_ mike_f MikeD_ milkandtang Mintograde Misan mish4 mist mitchdotpro mitzev_ MJCDzZz monkeynipples monokrome MooGoo motaka2 motoford motto MrDHat|offline mreeder msafi mtree mucker Multiply munichlinux Munter_ muxdemux mvpgraff myndzi mysteronyx mythril_ naillwind namidark nanashiRei NanoArrow naomi Narigo nathan7 nbrosnahan ncthom91 ndngvr nebiros necrogami nemesit|znc NeoThermic Neozonz|Disc netman Nexen nhqe Niamkik niggler nihilista nikola ninegrid NivenHuH NoiseEee noisia_ Nothing4You novikane Nuck nullrouted|cloud Nurbs nw nwilson5 nym_ nyordanov oal ocfx ohcibi olleman oogaw Orbitrix Orginator ormaaj Outsider_ Overand overloaded overtime pachet paddymahoney padolsey paldepind pantech papercut patsToms paul_k PaulePanter pbjorklund pbodymind pbunny PcJamesy Peeter Pengoo percival Petazz_ petey peteyg ph88 ph88_ phelix philosonerd__ PhonicUK pikpik Pilum pingo pinkkis pipecloud pixelpimp pmarsh_ pog Poky poorman Porpado poseid poutine Praise prawnsalad preaction preflex ProgR33n Prot pschell Pullphinger qiemem qom2 queequeg2 quup rachelthegreat rafaqueque raj ramdog ramdog_ raniere rashkov ravenzz RawBin rawplaye1 raybarg Raynos rblackwe rcombs redeemed redondo regreddit Reite rektide relix Relsak Renari Renex resure retornam rfish richardi_ RichardJ richardwhiuk rickbol Ricki` rideh rikkus riotz rivarun rizzuh RLa robdodson robmozart rockfruit RogWilco Roja Roja_ rolleiflex_ rook2pawn rook_flood root66 rootshift ross` rosseaux roven RWOverdijk ryanponce ryanseddon ryanw ryland rzeka s5fs s_e S_T_A_N sacho_ Sajaki sandroid_afk say2joe sayakb sayd Sazpaimon scathen^C Scoding ScottO_1 scriptThis SebastianFlyte SecretAgent Segaja Seganku segv- Sembiance sente sergey Sergonium serpent223 Sever SewDough SeySayux shabius ShadeTornado shammancer shanahan Shaolinburper shello shiftins ShinyPhoenix Shirakawasuna shirro shmoon shoky Sietsem silne30 silv3rwind SirCmpwn skrblr Skrypter Slartibart slikts Snakes snyx_ so Somatt Somatt_wrk_ Someguy123 Sonicrida Sose spenguin sphenxes spike|spiegel spion sraka1 srcerer sriley ssbr stafamus stdgy stef steme_jomps_ stephan48 stevenbenner stoned StoneTable stylus substack svinkle swatti synTax Synthead sysdef systemovich syzygy_ t t4nk701 table Tabmow Taggnostr tangorri tapout Tarential tarkus tataa Tauku tauntaun Taylor tazle TDJACR TermNL Thalheim thasc The_Coolest TheCowboy TheFuzzball thelorax123 TheMoonMaster theshadow TheWarden thibauts ThiefMaster thomaslindstr_m thorz tieTYT TimTim` Tingle tirengarfio Tisoki tiwula tklun tobmaster tomalak tomatto tomaw tomh-_ TomRone tomshreds top4o Torsten|off tplaner tr4656 tra trigen tris Trudko tsunamie tubbo tunicwriter Turn_Left TuRnaD0 Twey twisted` tylersmith Typo Ububegin Unlocked_ uris77 vadviktor_ vaishali ValicekB Validatorian vendethiel Venko vereteran vince_prignano vire visua w0rm wad waerloga warreng wbill wchun wcpan_ weazyo weeb1e whatthepoop whirlibulf Whiskey wildbat willob_ Will| wingman wmage woebtz Woet wookienz wrp6 xec Xgc xinming Xiti xk_id xp_prg2 xumium xxtjaxx Y_Ichiro yacks Yancho yano yeboot yeltzooo yhsiang yogurt_truck yosafbridge zaal zacharyz zackiv31 zafu Zarthus zeade zeekay zenodub zeropx zivester zkat Znoosey zod zodiak zoee zz_eugeneware Zzaichik }ls{]
+2013-11-11 21:18:47	--	Channel ##javascript: 926 nicks (0 ops, 0 voices, 926 normals)
+2013-11-11 21:18:52	joh_	Yes
+2013-11-11 21:18:53	--	Mode ##javascript [+Ccnt]
+2013-11-11 21:18:53	--	Channel created on Sun, 26 Nov 2006 07:42:45
+2013-11-11 21:19:01	joh_	and I dont want to use clearInterval :Ü
+2013-11-11 21:19:02	joh_	:P
+2013-11-11 21:19:08	GreenJello	...
+2013-11-11 21:19:09	GreenJello	okay
+2013-11-11 21:19:10	christophe_v_e	- well I get the str replace part but the return part I don't get
+2013-11-11 21:19:12	joh_	So i put a high interval 10^10*10
+2013-11-11 21:19:13	Distraught	Deide so i have created a php file where i post the var through jquery
+2013-11-11 21:19:14	GreenJello	so use setTimeout
+2013-11-11 21:19:20	<--	Daniel0 has quit (Read error: Operation timed out)
+2013-11-11 21:19:21	GreenJello	what?
+2013-11-11 21:19:31	--	zz_eugeneware is now known as eugeneware
+2013-11-11 21:19:33	Havvy	return match.split("").reverse().join("");   actually
+2013-11-11 21:19:37	-->	vlad_starkov has joined ##javascript
+2013-11-11 21:19:39	joh_	When I want to stop it..I put a new Interval with the time 10^10*10
+2013-11-11 21:19:47	Havvy	Also, I think the regex needs a g at the end, so /th|ui/g
+2013-11-11 21:19:58	-->	yorick has joined ##javascript
+2013-11-11 21:20:00	GreenJello	joh_, why don't you want to use clearInterval?
+2013-11-11 21:20:11	<--	Pullphinger has quit
+2013-11-11 21:20:11	joh_	its just var = copy the function
+2013-11-11 21:20:11	joh_	then
+2013-11-11 21:20:13	-->	dhilipsiva has joined ##javascript
+2013-11-11 21:20:15	Havvy	joh_:  that doesn't change the interval that's already going.
+2013-11-11 21:20:17	joh_	clearInetval(timeout)
+2013-11-11 21:20:22	Deide	Distraught: Congrats
+2013-11-11 21:20:23	-->	arek_deepinit has joined ##javascript
+2013-11-11 21:20:27	<--	visua has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 21:20:50	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined ##javascript
+2013-11-11 21:20:50	--	Topic for ##javascript is "Can't Talk? Get Registered on FreeNode (HOWTO: http://ur1.ca/90niw) | ECMAScript, Javascript, JS *not* Java | Say: "!help" (or ask and wait) | Run: "!mdn foo" for docs on "foo" | Don't paste code in the channel."
+2013-11-11 21:20:50	--	Topic set by gkatsev (~gkatsev@oftn/board/gkatsev) on Mon, 25 Feb 2013 09:02:19
+2013-11-11 21:20:50	--	Nicks ##javascript: [[[zz]] [SK]Ray \mSg __main__ _br_ _Bravado _cheney _Cody _marix _trev AaronMT abetusk aboudreault absentia AcTiVaTe adam12 Adeon aeoril aesptux ahungry aidanie__ ajpiano akiress akkufomk alainus alamar alex_javascript alexander__b alexwhitman alfonsodev alieas_ Alina-malina allanm amcsi_work andrew9183 andrew91_ anekos_ anildigital Anonymoose antihero aortmann arcanis arek_deepinit Areks Areks_home Aresilla Aric Arieh arielserafini arkore Armen Arokh artgoeshere Artpicre asteve astrolin astronautaid Atlantic777 atomi atrigent Audlex avium Ayey_ AzaToth Babbam86 BaDaSs bakedb balance banzounet bberry Beg bel3atar Beltechs ben1066 ben_alman Benjojo bentruyman Benvie Benvie_ bgy bhldev bhughes biberu bigbugjava bigLanky BillCriswell Bish bkuberek_ Blacklite blackwhite BlaDe^ bluesm bmn bn` bobbylaporte bobdobbs bogool BohemianHacks Bombo BombStrike BoomBox BoomerBile boxmein bradleymeck braincra- brainproxy Brando753 bremnes Brewster brian-mann Bronze bubbajones bung buritica ButtDog buu Bwild bxi Caelum callumacrae cam carldanley Catie catsup caveat- CCPBracari cdidd cebor Cerise_ ch3mical ch3mical_ charas CharlieM751 chasemb chernjie_ Chewtoy chjj chovy chrisdickinson chrisdotcode chrislkeller christophe_v_e cibs clarkk classix clouder`grr coda23 codebrainz codelahoma codeSomeThings codevinsky codingkevin cody-- CoJaBo ColKurtz comboy CookieNinja coolstoriyo Cork Couto CR0W crash\ crashev_ cruxeternus ctorp CTPAX__ Curtisbeef_ cybrNaut cythrawll czardoz d45h D[4]ni dabear daekano DanielXMoore DannyFritz danrough darkc0met Darkduma_ datagutt DaZ dccc DDR deadalus deepy deg Deide deltab DeoSama Depe Dessimat0r Dev0n dhaber dhilipsiva dhruvasagar diamonds Diemuzi digitalfiz digiwano diminoten dino82 diod disorder Distraught Dlabz dman777_alter dmanderson dmbaturin dnyy doc|home DomeMaster domino14 domsz DontShootMe DonVitoC- DonVitoCorleone DoubleAW dowlf dozn drager dragonshed DrAwesomeClaws_ DreadKnight Dreamer3 DrLou dspriggs duch_kazatel durnik dutis dwarder dwcook dxd828 dytrivedi dza dziga dZwilly eagleflo eagles0513875 ecmabot EdwardIII edwardly eford eggzeck ehtesh eighty4 ejnahc eliudnir ELLIOTTCABLE elnur elux emid emma enda erg erichynds ericwood erikj erry eshlox etcetera eugeneware EvRide ezakimak_work faddah fairlite farn fearphage felipe_ felipeduardo fhd fifteen3 FireFly fireh FizzyTea fkm Flannel Fli-c flip_digits flori Fortescue FortuneDays franckbenoit freeed FunnyLookinHat Fuu gambakufu GarethAdams gasbakid__ Gather Gavrisimo gbyers[Away] gde33 geekbri geilt Gemclip geomyidae_ gerard0 gf3 gic gimpygoo githogori gkatsev glaksmono godprobe Gonsor Goopyo grafi graphettion graphitemaster GreenJello Gregor gtc guampa Guest26080 Guest69055 Guest83584 Guest86070 Gunn4r h0st1le h34d3r HA5h haBuu^ hans_henrik happyface Happzz Haswell Havvy hazardous Hazza hdrv heath heedypo heedypo1 HeN hermiene hexed hgascon hhehw- highasdick hnsr holymac hooloovoo hswolff hugo_moss huntercool hwrd|work hxm idr0p ifdef42 ilteris im0b ImBcmDth inconclusive Industrial ineku inimino Inoperable insel Internet13 interru intrigue intripoon Ir1sh isaacbw iSeeDead1ixels itisi ivan\ ivanoats ix0071 iXeno jaeholee jaimef jakoch jallardice jaredrhine JarJarBingDotCom jarr0dsz JavaChip jave Jayflux jayne jazu JBreit JC_SoCal Jck_True jcromartie jcrza jerius jesseabc1231 JFranks jgoss jhford jhulten_ jhvisser jiffe99 Jikan jimmt jlwang jmaister jmcantrell JmZ_ jobney joelrobichaud joepie91 JoeyJoeJo joeytier joh_ john_doe_jr johnkpaul Johnny- jonatasnona jonbo joneshf-work jonginn joshskidmore josue JPeterson jpossi JPT jpwgarrison jrdn jruzz jsbkkj jscinoz JSharpe__ jso juo jve_ jxie jzl_ k1i k1ng k308 k4yc44k5_ Kabaka kadiks Kai` kaimei_ kakashiAL kalleth_ Kaltiz kanzure karnowski kastang kborchers kbrosnan kbsa keepsake Keksike Kesarr kex Khisanth khmer kinabalu KindOne king4life Kingsy Kinny kludge` Kneferilis knf|out koba04_away kobain kohvihoo1 kraucrow kraytul Krinkle|detached kurko_ kurrent kyrre l1ght lahwran LaMakina lancealtar Lann lansman Larholm lemonsparrow leptonix Letze Lexi lijnen Lildirt lilmonkey Lindrian Linkandzelda Linkeh lmjabreu LocalPCGuy Logicgate logikos lord4163 lucasb LuckySMack_ luruke Lyn M-ou-se m0 m0dest m0ltar m_kael_ mac- macabre machisuji MacWinner malcolmva Malediction MalMen malorie ManneW manuelbieh mar77i marienz markkes Marsup martisj Martz marvi mary5030 masak MaSOuD master5o1|work mattattaque Maurice Maxdamantus Maxel mbor MCHammer meet_praveen mehwork mentalist Merheet0 merpnderp mHancik MicD_ MightyMu mikaelb_ mike_f MikeD_ milkandtang Mintograde Misan mish4 mist mitchdotpro mitzev_ MJCDzZz monkeynipples monokrome MooGoo motaka2 motoford motto MrDHat|offline mreeder msafi mtree Multiply munichlinux Munter_ muxdemux mvpgraff myndzi mysteronyx mythril_ naillwind namidark nanashiRei NanoArrow naomi Narigo nathan7 nbrosnahan ncthom91 ndngvr nebiros necrogami nemesit|znc NeoThermic Neozonz|Disc netman Nexen nhqe Niamkik niggler nihilista nikola ninegrid NivenHuH NoiseEee noisia_ Nothing4You novikane Nuck nullrouted|cloud Nurbs nw nwilson5 nym_ nyordanov oal ocfx ohcibi olleman oogaw Orbitrix Orginator ormaaj Outsider_ Overand overloaded overtime pachet paddymahoney padolsey paldepind pantech papercut patsToms paul_k PaulePanter pbjorklund pbodymind pbunny PcJamesy Peeter Pengoo percival Petazz_ petey peteyg ph88 ph88_ phelix philosonerd__ PhonicUK pikpik Pilum pingo pinkkis pipecloud pixelpimp pmarsh_ pog Poky poorman Porpado poseid poutine Praise prawnsalad preaction preflex ProgR33n Prot pschell qiemem qom2 queequeg2 quup rachelthegreat rafaqueque raj ramdog ramdog_ raniere rashkov ravenzz RawBin rawplaye1 raybarg Raynos rblackwe rcombs redeemed redondo regreddit Reite rektide relix Relsak Renari Renex resure retornam rfish richardi_ RichardJ richardwhiuk rickbol Ricki` rideh rikkus riotz rivarun rizzuh RLa robdodson robmozart rockfruit RogWilco Roja Roja_ rolleiflex_ rook2pawn rook_flood root66 rootshift ross` rosseaux roven RWOverdijk ryanponce ryanseddon ryanw ryland rzeka s5fs s_e S_T_A_N sacho_ Sajaki sandroid_afk say2joe sayakb sayd Sazpaimon scathen^C Scoding ScottO_1 scriptThis SebastianFlyte SecretAgent Segaja Seganku segv- Sembiance sente sergey Sergonium serpent223 Sever SewDough SeySayux shabius ShadeTornado shammancer shanahan Shaolinburper shello shiftins ShinyPhoenix Shirakawasuna shirro shmoon shoky Sietsem silne30 silv3rwind SirCmpwn skrblr Skrypter Slartibart slikts Snakes snyx_ so Somatt Somatt_wrk_ Someguy123 Sonicrida Sose spenguin sphenxes spike|spiegel spion sraka1 srcerer sriley ssbr stafamus stdgy stef steme_jomps_ stephan48 stevenbenner stoned StoneTable stylus substack svinkle swatti synTax Synthead sysdef systemovich syzygy_ t t4nk701 table Tabmow Taggnostr tangorri tapout Tarential tarkus tataa Tauku tauntaun Taylor tazle TDJACR TermNL Thalheim thasc The_Coolest TheCowboy TheFuzzball thelorax123 TheMoonMaster theshadow TheWarden thibauts ThiefMaster thomaslindstr_m thorz tieTYT TimTim` Tingle tirengarfio Tisoki tiwula tklun tobmaster tomalak tomatto tomaw tomh-_ TomRone tomshreds top4o Torsten|off tplaner tr4656 tra trigen tris Trudko tsunamie tubbo tunicwriter Turn_Left TuRnaD0 Twey twisted` tylersmith Typo Ububegin Unlocked_ uris77 vadviktor_ vaishali ValicekB Validatorian vendethiel Venko vereteran vince_prignano vire vlad_starkov w0rm wad waerloga warreng wbill wchun wcpan_ weazyo weeb1e whatthepoop whirlibulf Whiskey wildbat willob_ Will| wingman wmage woebtz Woet wookienz wrp6 xec Xgc xinming Xiti xk_id xp_prg2 xumium xxtjaxx Y_Ichiro yacks Yancho yano yeboot yeltzooo yhsiang yogurt_truck yorick yosafbridge zaal zacharyz zackiv31 zafu Zarthus zeade zeekay zenodub zeropx zivester zkat Znoosey zod zodiak zoee Zzaichik }ls{]
+2013-11-11 21:20:50	--	Channel ##javascript: 926 nicks (0 ops, 0 voices, 926 normals)
+2013-11-11 21:20:52	joh_	Ok, I will try it
+2013-11-11 21:20:53	joh_	thanks
+2013-11-11 21:20:57	--	Mode ##javascript [+Ccnt]
+2013-11-11 21:20:57	--	Channel created on Sun, 26 Nov 2006 07:42:45
+2013-11-11 21:21:16	<--	tunicwriter has quit (Ping timeout: 260 seconds)
+2013-11-11 21:21:26	-->	mucker has joined ##javascript
+2013-11-11 21:21:26	Distraught	Deide well my problem now is how to i return this var to the file
+2013-11-11 21:21:30	Distraught	to the original file
+2013-11-11 21:21:31	Distraught	:S
+2013-11-11 21:21:55	Havvy	On the JS side, you pass it as a GET param.
+2013-11-11 21:22:08	Havvy	On the PHP side, you echo your response.
+2013-11-11 21:22:19	-->	visua has joined ##javascript
+2013-11-11 21:22:28	-->	jalcine has joined ##javascript
+2013-11-11 21:23:07	Distraught	well i m confused officialy
+2013-11-11 21:23:34	<--	keepsake has quit (Quit: Leaving.)
+2013-11-11 21:23:38	-->	m4ggus has joined ##javascript
+2013-11-11 21:23:38	<--	m4ggus has quit (Remote host closed the connection)
+2013-11-11 21:23:39	christophe_v_e	Ok Havvy, I think I understood - how do I output it now? http://jsfiddle.net/EverybdyLies/NFwpm/2/
+2013-11-11 21:23:45	Havvy	AJAX is downloading another page, and saving it to a JS variable.
+2013-11-11 21:23:46	Distraught	http://pastebin.com/BQFbN9x7
+2013-11-11 21:24:02	<--	inconclusive has quit (Ping timeout: 272 seconds)
+2013-11-11 21:24:03	GreenJello	Distraught, you'll have a seperate PHP file which returns the new value of the variable
+2013-11-11 21:24:14	Distraught	w8
+2013-11-11 21:24:16	-->	MrNaviPacho has joined ##javascript
+2013-11-11 21:24:28	Deide	w3
+2013-11-11 21:24:31	Distraught	GreenJello I have the screen php which gets the w var right?
+2013-11-11 21:24:33	<--	dhilipsiva has quit (Ping timeout: 244 seconds)
+2013-11-11 21:24:49	<--	poseid has quit (Quit: poseid)
+2013-11-11 21:24:53	GreenJello	if you're using jQuery it's something like $.get("/getvar.php", function(response){ window.myVar = response; });
+2013-11-11 21:24:55	<--	Darkduma_ has quit (Remote host closed the connection)
+2013-11-11 21:25:03	<--	dhruvasagar has quit (Ping timeout: 240 seconds)
+2013-11-11 21:25:11	Distraught	no
+2013-11-11 21:25:21	Distraught	i want to send a js var to php and use it in php
+2013-11-11 21:25:24	Distraught	not the opossite
+2013-11-11 21:25:28	GreenJello	okay
+2013-11-11 21:25:42	<--	mucker has quit (Ping timeout: 252 seconds)
+2013-11-11 21:25:44	GreenJello	look into jQuery AJA
+2013-11-11 21:25:47	GreenJello	AJAX
+2013-11-11 21:25:50	GreenJello	it's the simplest
+2013-11-11 21:25:51	Deide	Distraught: Use it for what?
+2013-11-11 21:26:03	-->	noahsussman has joined ##javascript
+2013-11-11 21:26:04	Distraught	to use it in slideshow width
+2013-11-11 21:26:04	Distraught	:S
+2013-11-11 21:26:05	-->	robbyoconnor has joined ##javascript
+2013-11-11 21:26:11	Havvy	christophe_v_e:  http://jsfiddle.net/NFwpm/3/
+2013-11-11 21:26:12	GreenJello	...
+2013-11-11 21:26:21	joh_	http://pastebin.com/RL7h6CMT GreenJello ?
+2013-11-11 21:26:22	-->	m4ggus has joined ##javascript
+2013-11-11 21:26:22	<--	m4ggus has quit (Changing host)
+2013-11-11 21:26:22	-->	m4ggus has joined ##javascript
+2013-11-11 21:26:24	-->	germanoak has joined ##javascript
+2013-11-11 21:26:33	<--	germanoak has quit (Max SendQ exceeded)
+2013-11-11 21:26:50	Havvy	Distraught:  $.get("/sendvar.php?var=value", function (res) { ... });
+2013-11-11 21:27:06	-->	Daniel0 has joined ##javascript
+2013-11-11 21:27:09	Deide	Distraught: Nope. You're thinking about it in the wrong way. You want to use a JS var in PHP even after the PHP has been parsed and returned a response.
+2013-11-11 21:27:12	-->	germanoak has joined ##javascript
+2013-11-11 21:27:22	<--	germanoak has quit (Max SendQ exceeded)
+2013-11-11 21:27:35	-->	b44rd has joined ##javascript
+2013-11-11 21:27:37	-->	joroci has joined ##javascript
+2013-11-11 21:27:47	-->	CIDIC has joined ##javascript
+2013-11-11 21:27:56	Deide	Distraught: If you want, you can post your JS var with Ajax and return the entire page response, then basically apply it with JS.
+2013-11-11 21:27:59	GreenJello	joh_, kinda, I'd do clearInterval(timer); if (someCondition) { timer = setInterval(callback, 500);}
+2013-11-11 21:28:01	-->	germanoak has joined ##javascript
+2013-11-11 21:28:15	GreenJello	joh_, but make sure timer is declared outside of that function
+2013-11-11 21:28:32	joh_	Oh, yes^^ my cant work ^^
+2013-11-11 21:28:36	-->	Agamemnus has joined ##javascript
+2013-11-11 21:28:44	bberry	joh_: hows the calendar coming along?
+2013-11-11 21:28:57	joh_	Finished 2 weeks before :)
+2013-11-11 21:28:59	christophe_v_e	Havvy:  I get what's going on but I don't know what is missing to make it actually happen - am I missing something?
+2013-11-11 21:29:04	-->	andrewSC has joined ##javascript
+2013-11-11 21:29:04	joh_	THanks for your help ;)
+2013-11-11 21:29:04	--	eugeneware is now known as zz_eugeneware
+2013-11-11 21:29:06	andrewSC	hi all
+2013-11-11 21:29:09	Agamemnus	how should I name a function that sets display:none on all its DOM siblings?
+2013-11-11 21:29:18	-->	poseid has joined ##javascript
+2013-11-11 21:29:20	Agamemnus	hideSiblings?
+2013-11-11 21:29:28	andrewSC	what is the difference between $(this) and this?
+2013-11-11 21:29:29	-->	jergason has joined ##javascript
+2013-11-11 21:29:33	bberry	joh_ good to hear :D
+2013-11-11 21:29:38	joh_	:D
+2013-11-11 21:29:53	<--	FortuneDays has quit (Disconnected by services)
+2013-11-11 21:29:54	andrewSC	is it simply the $(this) wraps 'this' in a jquery container?
+2013-11-11 21:29:54	Agamemnus	andrewSC: $(this) sends the variable "this" to the function $ as a parameter.
+2013-11-11 21:30:02	andrewSC	ah
+2013-11-11 21:30:09	GreenJello	andrewSC, in jQuery callbacks "this" is the the dom node; and $(this) is the jQueryified version
+2013-11-11 21:30:16	-->	FortuneWest has joined ##javascript
+2013-11-11 21:30:17	Havvy	chrisdickinson:  Yes. It has to be in an event listener that listens to the textbox's change event.
+2013-11-11 21:30:18	andrewSC	right, that's what I thought
+2013-11-11 21:30:21	andrewSC	thanks guys
+2013-11-11 21:30:33	chrisdickinson	Havvy: I'm not the chris you're looking for :)
+2013-11-11 21:30:36	-->	norviller has joined ##javascript
+2013-11-11 21:30:48	Havvy	christophe_v_e:  My last statement.
+2013-11-11 21:30:58	christophe_v_e	Alright, thank you
+2013-11-11 21:31:14	Havvy	!mdn document.addEventListener
+2013-11-11 21:31:14	ecmabot	Havvy: EventTarget.addEventListener - Web API interfaces | MDN <https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener>
+2013-11-11 21:32:02	<--	b44rd has quit (Ping timeout: 268 seconds)
+2013-11-11 21:32:31	-->	vlad_sta_ has joined ##javascript
+2013-11-11 21:32:45	GreenJello	christophe_v_e, also your current code won't work because the fiddle wraps your JavaScript in a function
+2013-11-11 21:32:58	<--	Couto has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2013-11-11 21:33:02	GreenJello	so it's not in the global scope, so the onkeypress can't find it
+2013-11-11 21:33:15	-->	jergason_ has joined ##javascript
+2013-11-11 21:33:17	-->	trusktr has joined ##javascript
+2013-11-11 21:33:25	christophe_v_e	I see. Ok, I'll try it on a host and go from there then, thanks
+2013-11-11 21:33:28	GreenJello	normally that would work, but it's better to use addEventListener
+2013-11-11 21:33:32	<--	Tisoki has quit (Ping timeout: 272 seconds)
+2013-11-11 21:33:57	GreenJello	or a data/view framework
+2013-11-11 21:34:19	-->	snkcld has joined ##javascript
+2013-11-11 21:34:24	-->	tunicwriter has joined ##javascript
+2013-11-11 21:34:42	snkcld	if i have an integer, between 0-360, how would i draw a line with an angle of that integer?
+2013-11-11 21:34:48	<--	jergason has quit (Ping timeout: 252 seconds)
+2013-11-11 21:34:48	--	jergason_ is now known as jergason
+2013-11-11 21:34:58	-->	Kn|t3 has joined ##javascript
+2013-11-11 21:35:04	<--	ButtDog has quit (Ping timeout: 245 seconds)
+2013-11-11 21:35:16	<--	vlad_starkov has quit (Ping timeout: 260 seconds)
+2013-11-11 21:35:17	joh_	http://pastebin.com/PWD9K0WH GreenJello
+2013-11-11 21:35:32	-->	tarruda has joined ##javascript
+2013-11-11 21:35:38	joh_	It starts automatically with the interval at first.
+2013-11-11 21:35:40	Havvy	snkcld: codewise, it depends on what library you are using to draw the line.
+2013-11-11 21:35:45	joh_	But then I can control it
+2013-11-11 21:35:52	-->	Couto has joined ##javascript
+2013-11-11 21:35:53	joh_	And after 2 times, it doesnt work any more
+2013-11-11 21:35:56	Havvy	Mathematically, it's a polar->cartesian transformation.
+2013-11-11 21:36:17	snkcld	Havvy, i have no libraries which i am currently implementing it with, so anything is available really
+2013-11-11 21:36:26	<--	tplaner has quit (Quit: Computer has gone to sleep.)
+2013-11-11 21:36:28	snkcld	maybe svg, canvas?
+2013-11-11 21:37:01	Havvy	snkcld:  Do you know how to do a polar to cartesian transformation of a point?
+2013-11-11 21:37:23	snkcld	Havvy, absolutely not ... ;( i imagine there maybe a math library available which can do this?
+2013-11-11 21:37:38	-->	weidou has joined ##javascript
+2013-11-11 21:37:39	<--	eford has quit (Ping timeout: 264 seconds)
+2013-11-11 21:37:42	<--	RogWilco has quit (Quit: Sleep!)
+2013-11-11 21:37:43	snkcld	all im trying to do is draw an arrow representing the wind direction
+2013-11-11 21:37:44	GreenJello	joh_, http://pastebin.com/Mr4zFPEt
+2013-11-11 21:37:46	DanielXMoore	x = r * cos(theta), y = r * sin(theta)
+2013-11-11 21:38:03	Havvy	r = radius, theta = degree
+2013-11-11 21:38:13	DanielXMoore	theta in radians
+2013-11-11 21:38:24	Havvy	Fine. theta = angle
+2013-11-11 21:38:43	john_doe_jr	how do you check if a value is a letter?
+2013-11-11 21:38:45	snkcld	heh, ok. i will try that out
+2013-11-11 21:38:59	<--	robbyoconnor has quit (Max SendQ exceeded)
+2013-11-11 21:39:03	Havvy	john_doe_jr:  typeof value === "string" and value.length === 1
+2013-11-11 21:39:05	-->	ChrisMatheson has joined ##javascript
+2013-11-11 21:39:11	Havvy	&&, not and
+2013-11-11 21:39:26	-->	robbyoconnor has joined ##javascript
+2013-11-11 21:39:40	<--	stoned has quit (Ping timeout: 245 seconds)
+2013-11-11 21:40:12	GreenJello	>> function isLetter(c){ c = c.toLowerCase(); return (c >= 'a' && c <= 'z');}; [isLetter("t"), isLetter("1")]
+2013-11-11 21:40:12	ecmabot	GreenJello: (object) [true, false]
+2013-11-11 21:40:29	GreenJello	john_doe_jr, ^
+2013-11-11 21:40:30	Havvy	Ah, if you want to discount digits, yeah...
+2013-11-11 21:40:31	<--	lord4163 has quit (Remote host closed the connection)
+2013-11-11 21:40:45	-->	jtw has joined ##javascript
+2013-11-11 21:40:52	Havvy	But then, /[^a-zA-Z$/.test(c) would work just as well..
+2013-11-11 21:40:54	ImBcmDth	GreenJello: are you trying to say that only the latin alphabet counts? :)
+2013-11-11 21:41:06	-->	FernandoBasso has joined ##javascript
+2013-11-11 21:41:16	GreenJello	ImBcmDth, I dunno, depends on the requirements
+2013-11-11 21:41:23	GreenJello	is there a way to check more generally?
+2013-11-11 21:41:37	Havvy	Wow, I failed that regex.
+2013-11-11 21:41:46	GreenJello	I forget if JavaScript RegEx is unicode
+2013-11-11 21:41:48	Havvy	** /^[a-zA-Z]$/
+2013-11-11 21:41:55	GreenJello	!mdn regexp
+2013-11-11 21:41:56	ecmabot	GreenJello: RegExp - JavaScript | MDN <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp>
+2013-11-11 21:42:01	Havvy	It understands Unicode, but the range is not.
+2013-11-11 21:42:12	joh_	GreenJello LOL http://stayfowas.bplaced.net/slideshow.html
+2013-11-11 21:42:18	-->	richardiii has joined ##javascript
+2013-11-11 21:42:34	dwcook	JS's regex doesn't have any built-in character classes conscious of Unicode, unfortunately.
+2013-11-11 21:42:39	<--	ValicekB has left ##javascript
+2013-11-11 21:43:12	GreenJello	ah okay
+2013-11-11 21:43:15	GreenJello	hmm
+2013-11-11 21:43:17	GreenJello	I dunno, then
+2013-11-11 21:43:20	GreenJello	!mdn string
+2013-11-11 21:43:21	ecmabot	GreenJello: String - JavaScript | MDN <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String>
+2013-11-11 21:43:25	<--	robbyoconnor has quit (Remote host closed the connection)
+2013-11-11 21:43:28	dwcook	Not to mention it has certain classes so arbitrary as to be useful probably only for historical reasons, like \w (ASCII characters, digits, and underscore)
+2013-11-11 21:43:44	-->	robbyoconnor has joined ##javascript
+2013-11-11 21:43:52	christophe_v_e	GreenJello: So I've got it to work - without the event listener, but I've tried making it anyway, I don't know what I'm missing to make it work "the right way". http://vaneerdt.be/koning/textarea.html
+2013-11-11 21:43:53	<--	JBreit has quit (Ping timeout: 264 seconds)
+2013-11-11 21:44:08	Havvy	dwcook:  I've used \w a few times.
+2013-11-11 21:44:12	<--	felipeduardo has quit (Quit: Leaving)
+2013-11-11 21:44:18	dwcook	Havvy, for what?
+2013-11-11 21:44:18	ImBcmDth	>> var r = /^[^\W\d]$/; [r.test("t"), r.test("1"), r.test("+"), r.test("."), r.test(" ")]
+2013-11-11 21:44:18	ecmabot	ImBcmDth: (object) [true, false, false, false, false]
+2013-11-11 21:44:35	Havvy	I can't recall anymore.
+2013-11-11 21:44:39	Havvy	But I know I've used it.
+2013-11-11 21:44:47	dwcook	Also, the first thing I said is not *quite* accurate – It doesn't have classes for ranges or categories of unicode characters, only individual ones
+2013-11-11 21:44:54	-->	ValicekB has joined ##javascript
+2013-11-11 21:45:07	-->	keepsake has joined ##javascript
+2013-11-11 21:45:16	<--	balance has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-11-11 21:45:18	-->	dingus_khan has joined ##javascript
+2013-11-11 21:45:18	snkcld	Havvy, so id, for example, set x1, y1 to 0,0. then x2,y2 would be determine by convering polar to cartesian of the angle with x1y1
+2013-11-11 21:45:36	Havvy	Yeah.
+2013-11-11 21:45:48	-->	someish has joined ##javascript
+2013-11-11 21:46:16	-->	nisstyre has joined ##javascript
+2013-11-11 21:46:21	dwcook	Havvy, that doesn't mean it's not arbitrary. But I would be interested in your use case if you ever manage to dig it up again or find a new one.
+2013-11-11 21:46:32	<--	richardiii has quit (Ping timeout: 252 seconds)
+2013-11-11 21:46:32	-->	caasih has joined ##javascript
+2013-11-11 21:46:37	<--	m0dest has quit (Quit: m0dest)
+2013-11-11 21:47:13	<--	m0ltar has quit (Quit: peace.)
+2013-11-11 21:47:21	<--	weidou has quit (Quit: weidou)
+2013-11-11 21:48:03	Havvy	dwcook:  Though, now that I think on it, any use case I'd have used it for, I could replace with a split on spaces.
+2013-11-11 21:48:07	-->	PaladinPete has joined ##javascript
+2013-11-11 21:48:17	-->	jonbo_ has joined ##javascript
+2013-11-11 21:48:17	-->	poorman|work has joined ##javascript
+2013-11-11 21:48:55	<--	jergason has quit (Quit: jergason)
+2013-11-11 21:49:40	<--	cdidd has quit (Ping timeout: 245 seconds)
+2013-11-11 21:49:57	-->	j201 has joined ##javascript
+2013-11-11 21:49:57	<--	j201 has quit (Changing host)
+2013-11-11 21:49:57	-->	j201 has joined ##javascript
+2013-11-11 21:50:03	-->	cdidd has joined ##javascript
+2013-11-11 21:50:14	-->	iliketurtles has joined ##javascript
+2013-11-11 21:51:20	pbodymind	which is the best way to release an object in javascript? also known as delete in c++... ? i was reading this http://stackoverflow.com/questions/742623/deleting-objects-in-javascript .. but it is not clear if I am creating a new object in the same variable.. will it go to garbage collector?
+2013-11-11 21:51:23	-->	Super has joined ##javascript
+2013-11-11 21:51:34	<--	jonbo has quit (Ping timeout: 252 seconds)
+2013-11-11 21:51:35	<--	erichynds has quit
+2013-11-11 21:52:01	dwcook	pbodymind, `delete` doesn't do what you assumed it does.
+2013-11-11 21:52:07	<--	Sonicrida has quit (Ping timeout: 252 seconds)
+2013-11-11 21:52:09	dwcook	!mdn delete @ pbodymind
+2013-11-11 21:52:09	ecmabot	pbodymind: delete - JavaScript | MDN <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete>
+2013-11-11 21:52:10	<--	sergey has quit
+2013-11-11 21:52:31	dwcook	It only deletes properties. It doesn't even care what values those properties have.
+2013-11-11 21:52:43	pbodymind	i am not using it still... but then how can I remove a huge variable to reuse it again ... in c++ would be... var c = new Object(); delete c; c = new Object();...
+2013-11-11 21:52:44	-->	cameron262 has joined ##javascript
+2013-11-11 21:52:52	pbodymind	in javascript I can skip the delete? and it will be clened?
+2013-11-11 21:52:53	dwcook	There is no explicit deletion in JS. The best you can do is limit the scope of all references to it solely to where it is needed.
+2013-11-11 21:52:54	pbodymind	*cleaned
+2013-11-11 21:53:08	-->	JBreit has joined ##javascript
+2013-11-11 21:53:09	-->	TripTastic has joined ##javascript
+2013-11-11 21:53:28	dwcook	If you have assigned an object to only one variable and you set that variable to a new value, then the object will be available for garbage collection.
+2013-11-11 21:53:30	bigbugjava	ImBcmDth Here?
+2013-11-11 21:53:35	<--	overloaded has quit (Remote host closed the connection)
+2013-11-11 21:53:39	-->	LiENUS has joined ##javascript
+2013-11-11 21:53:40	ImBcmDth	somewhat
+2013-11-11 21:53:49	pbodymind	ok, then i dont understand my memory leak.. :(
+2013-11-11 21:54:02	-->	stringoO has joined ##javascript
+2013-11-11 21:54:10	<--	arek_deepinit has quit (Quit: Konversation terminated!)
+2013-11-11 21:54:11	bigbugjava	ImBcmDth the thing is, the box-modal not just appear dark, any click on it close it
+2013-11-11 21:54:13	-->	overloaded has joined ##javascript
+2013-11-11 21:54:18	dwcook	pbodymind, by the way, the top answer on that thread also doesn't know what `delete` does, and is incorrect.
+2013-11-11 21:54:27	-->	marcooliveira has joined ##javascript
+2013-11-11 21:54:34	<--	overloaded has quit (Read error: No route to host)
+2013-11-11 21:54:39	dwcook	The second best answer is correct.
+2013-11-11 21:54:40	ImBcmDth	pbodymind: can you make an example  on jsfiddle.net or the like?
+2013-11-11 21:54:57	ImBcmDth	bigbugjava: that is what overlays do. if you click them they close the modal
+2013-11-11 21:55:00	<--	JBreit has quit (Client Quit)
+2013-11-11 21:55:03	-->	overloaded has joined ##javascript
+2013-11-11 21:55:06	Agamemnus	pbodymind: you will have a memory leak if you keep adding a reference to your object and forget to delete it
+2013-11-11 21:55:17	-->	gelignite has joined ##javascript
+2013-11-11 21:55:35	pbodymind	dwcook: i thought the same
+2013-11-11 21:55:41	pbodymind	i will make a fiddle now
+2013-11-11 21:55:58	dwcook	I'm off to catch a bus. Have fun everyone.
+2013-11-11 21:56:06	bigbugjava	ImBcmDth I have a close button to excute that
+2013-11-11 21:56:16	bigbugjava	ImBcmDth same code on different page, works great
+2013-11-11 21:56:32	<--	HA5h has quit (Read error: Connection reset by peer)
+2013-11-11 21:56:43	-->	r0bby_ has joined ##javascript
+2013-11-11 21:56:44	-->	jbpros has joined ##javascript
+2013-11-11 21:57:04	-->	sdwrage has joined ##javascript
+2013-11-11 21:57:07	-->	nomenkun has joined ##javascript
+2013-11-11 21:57:41	-->	js1242453 has joined ##javascript
+2013-11-11 21:58:33	bigbugjava	ImBcmDth it's a Parrllax scrolling page, might be the reason?
+2013-11-11 21:58:47	<--	js1242453 has quit (Changing host)
+2013-11-11 21:58:47	-->	js1242453 has joined ##javascript
+2013-11-11 21:58:47	<--	js1242453 has quit (Changing host)
+2013-11-11 21:58:47	-->	js1242453 has joined ##javascript
+2013-11-11 21:58:51	js1242453	Hi. May somebody answer me, and enlighten me.
+2013-11-11 21:58:51	-->	hwrd|wor_ has joined ##javascript
+2013-11-11 21:58:58	<--	motaka2 has quit (Ping timeout: 272 seconds)
+2013-11-11 21:59:08	-->	c4milo has joined ##javascript
+2013-11-11 21:59:34	ImBcmDth	bigbugjava: it might. try removing css related to parallax and see if it still happens
+2013-11-11 21:59:35	js1242453	why doesn't ((x+y)%2)==0 tell me wether number is odd or even?
+2013-11-11 21:59:44	<--	jobney has quit (Remote host closed the connection)
+2013-11-11 21:59:59	<--	someish has quit (Quit: someish)
+2013-11-11 22:00:04	-->	looper has joined ##javascript
+2013-11-11 22:00:07	Havvy	>> -2 % 2
+2013-11-11 22:00:07	ecmabot	Havvy: (number) 0
+2013-11-11 22:00:17	bigbugjava	ImBcmDth last q, how do I control overlay?
+2013-11-11 22:00:18	phelix	http://pastebin.com/Hn12NXbB I am using this right now which once that image loads it displays in my div id of #image1 but its creating an <img tag. Anyone know how I can change this so that instead of adding a <img> tag that it just changes the current background style in the css instead so that I can set it to a background? That make sense?
+2013-11-11 22:00:19	-->	jobney has joined ##javascript
+2013-11-11 22:00:22	<--	hwrd|work has quit (Ping timeout: 252 seconds)
+2013-11-11 22:00:43	Havvy	js1242453:  For what value does it not work?
+2013-11-11 22:00:47	<--	r0bby_ has quit (Remote host closed the connection)
+2013-11-11 22:01:02	<--	robbyoconnor has quit (Ping timeout: 268 seconds)
+2013-11-11 22:01:03	-->	species has joined ##javascript
+2013-11-11 22:01:11	-->	r0bby_ has joined ##javascript
+2013-11-11 22:01:12	js1242453	Havvy:
+2013-11-11 22:01:21	js1242453	>> (6+6)%2
+2013-11-11 22:01:22	ecmabot	js1242453: (number) 0
+2013-11-11 22:01:24	js1242453	>> (6+5)%2
+2013-11-11 22:01:24	ecmabot	js1242453: (number) 1
+2013-11-11 22:01:28	js1242453	>> (1+1)%2
+2013-11-11 22:01:28	ecmabot	js1242453: (number) 0
+2013-11-11 22:01:30	<--	Super has quit (Quit: Leaving)
+2013-11-11 22:01:39	<--	jobney has quit (Read error: Connection reset by peer)
+2013-11-11 22:01:50	ImBcmDth	bigbugjava: there is are options in the modal function related to the overlay (pretty sure you disable it) check out bootstrap's docs for the modal options
+2013-11-11 22:01:51	-->	Sonicrida has joined ##javascript
+2013-11-11 22:02:02	js1242453	for some reason, i get 1+1 as odd, 2+2 as even, 3+3 as odd etc.
+2013-11-11 22:02:03	Havvy	js1242453: Looks like it's working.
+2013-11-11 22:02:04	bigbugjava	ImBcmDth it works if I remove css
+2013-11-11 22:02:29	js1242453	hm
+2013-11-11 22:02:30	-->	will-ob has joined ##javascript
+2013-11-11 22:02:32	Havvy	"3+3" % 2
+2013-11-11 22:02:37	Havvy	>"3+3" % 2
+2013-11-11 22:02:40	js1242453	maybe that is answer...
+2013-11-11 22:02:50	Havvy	Or some variation of strings.
+2013-11-11 22:02:54	<--	ravenzz has quit
+2013-11-11 22:02:54	-->	systemfault has joined ##javascript
+2013-11-11 22:02:55	-->	pkinchington has joined ##javascript
+2013-11-11 22:02:56	js1242453	could be that + works on two numbers as string... agrh
+2013-11-11 22:02:59	<--	tiwula has quit (Quit: Leaving)
+2013-11-11 22:03:02	<--	PaladinPete has quit (Ping timeout: 252 seconds)
+2013-11-11 22:03:06	js1242453	even tho i've used isNaN to check it is a number. bah
+2013-11-11 22:03:16	Havvy	isNaN("3")
+2013-11-11 22:03:21	Havvy	>> isNaN("3")
+2013-11-11 22:03:21	ecmabot	Havvy: (boolean) false
+2013-11-11 22:03:21	-->	HA5h has joined ##javascript
+2013-11-11 22:03:33	-->	motaka2 has joined ##javascript
+2013-11-11 22:03:34	Havvy	Use the typeof operator.
+2013-11-11 22:03:50	-->	Threespots- has joined ##javascript
+2013-11-11 22:04:07	<--	systemfault has quit (Client Quit)
+2013-11-11 22:04:15	Threespots-	hey why doesnt the register on hackthissire.org work?
+2013-11-11 22:04:24	phelix	anyone? I'm pretty new with js this is working fine by adding a whole new img tag once the image loads but just want it to change in the css background instead. That complicated? Any tutorial that shows this by chance?
+2013-11-11 22:04:56	<--	muxdemux has quit (Quit: muxdemux)
+2013-11-11 22:04:57	js1242453	Havvy: yeah it understands it as string >:(
+2013-11-11 22:05:14	-->	JohnTorrance has joined ##javascript
+2013-11-11 22:05:45	Havvy	Cast it to a number before passing it.
+2013-11-11 22:05:50	<--	r0bby_ has quit (Remote host closed the connection)
+2013-11-11 22:05:52	<--	willob_ has quit (Ping timeout: 252 seconds)
+2013-11-11 22:05:55	-->	robbyoconnor has joined ##javascript
+2013-11-11 22:06:25	<--	Guest26080 has quit (Ping timeout: 244 seconds)
+2013-11-11 22:06:31	-->	tiwula has joined ##javascript
+2013-11-11 22:06:40	-->	someish has joined ##javascript
+2013-11-11 22:06:58	js1242453	hm
+2013-11-11 22:07:09	js1242453	Havvy: is there something like ToNumber()?
+2013-11-11 22:07:20	<--	geekbri has quit
+2013-11-11 22:07:23	Havvy	Options:  Number(),  Number.parseInt(), Number.parseFloat(), and unary +
+2013-11-11 22:07:26	snkcld	ok, i got the line pointing the right direction... now i just need to make the line an arrow by adding an arrow head on it
+2013-11-11 22:07:33	Deide	phelix: http://jsbin.com/uzERiNIL/1
+2013-11-11 22:07:37	js1242453	i mean, string.ToNumber()?
+2013-11-11 22:08:07	<--	noahsussman has quit (Remote host closed the connection)
+2013-11-11 22:08:08	<--	paldepind has quit (Quit: Leaving)
+2013-11-11 22:08:11	Havvy	All four functions I just mentioned take a string, and return a number.
+2013-11-11 22:08:11	Havvy	Or NaN
+2013-11-11 22:08:11	Havvy	>> +"1"
+2013-11-11 22:08:12	ecmabot	Havvy: (number) 1
+2013-11-11 22:08:13	-->	gegagome has joined ##javascript
+2013-11-11 22:08:16	js1242453	could just do Number(var)?
+2013-11-11 22:08:25	-->	Gmac_ has joined ##javascript
+2013-11-11 22:08:33	-->	noahsussman has joined ##javascript
+2013-11-11 22:09:16	Havvy	>> Number("1")
+2013-11-11 22:09:16	ecmabot	Havvy: (number) 1
+2013-11-11 22:09:18	-->	_Renegade has joined ##javascript
+2013-11-11 22:09:19	-->	joseph has joined ##javascript
+2013-11-11 22:09:23	j201	js1242453: yeah, some people prefer that for readability
+2013-11-11 22:09:28	<--	_Renegade has quit (Client Quit)
+2013-11-11 22:09:31	js1242453	>>TypeOf(Number("1"))
+2013-11-11 22:09:31	ecmabot	js1242453: ReferenceError: TypeOf is not defined
+2013-11-11 22:09:34	js1242453	erm
+2013-11-11 22:09:37	js1242453	>>typeOf(Number("1"))
+2013-11-11 22:09:37	ecmabot	js1242453: ReferenceError: typeOf is not defined
+2013-11-11 22:09:41	Havvy	>> typeof Number("1")
+2013-11-11 22:09:41	ecmabot	Havvy: (string) 'number'
+2013-11-11 22:09:44	-->	io2 has joined ##javascript
+2013-11-11 22:09:45	Havvy	typeof is an operator
+2013-11-11 22:09:49	js1242453	sorry
+2013-11-11 22:09:52	js1242453	but still
+2013-11-11 22:10:13	js1242453	even doing NextFunction(Number(var1),Number(var2));
+2013-11-11 22:10:40	js1242453	in NextFunction(var-function1,var-function2), typeof(var-function1) returns me String >:(
+2013-11-11 22:10:44	<--	tunicwriter has quit (Ping timeout: 252 seconds)
+2013-11-11 22:10:45	<--	norviller has quit (Quit: Computer has gone to sleep.)
+2013-11-11 22:10:50	ImBcmDth	snkcld: are you using canvas?
+2013-11-11 22:11:00	snkcld	ImBcmDth,  im using svg
+2013-11-11 22:11:04	<--	vlad_sta_ has quit (Remote host closed the connection)
+2013-11-11 22:11:04	stringoO	Hi, is anyone here familiar with the jquery form plugin? http://malsup.com/jquery/form/#ajaxSubmit
+2013-11-11 22:11:26	stringoO	I'm wondering if I need to setup any options manually for ie8 and 9 to deal with form submissions
+2013-11-11 22:11:36	Havvy	function1 is a function?
+2013-11-11 22:11:38	stringoO	It doesn't seem to be handling them automatically
+2013-11-11 22:11:38	bigbugjava	ImBcmDth driving me nuts, that wierd issue, cant find something in docs
+2013-11-11 22:11:38	<--	macabre has quit (Ping timeout: 272 seconds)
+2013-11-11 22:11:51	-->	pbodymind_ has joined ##javascript
+2013-11-11 22:12:08	js1242453	Havvy: no, it's how i call my var_nextfunction_1 in this channel
+2013-11-11 22:12:11	phelix	Deide: Awesome let me check that out
+2013-11-11 22:12:25	ImBcmDth	snkcld: svg has tranformations. all you have to do is draw an arrow pointing up (which should be pretty easy) and then transform that arrow as needed.
+2013-11-11 22:12:37	<--	thasc has quit (Ping timeout: 244 seconds)
+2013-11-11 22:12:51	phelix	Deide: Do I need those .js files you are using? the spike.js, evebtsiyrce,js and edit.js?
+2013-11-11 22:12:59	js1242453	Havvy: it basically is something like this: from function A i call function B(var1,var2), where function b is defined as b(a,b), where i try to do if((a+b)%2)==0)
+2013-11-11 22:13:00	Threespots-	is there a channel that focuses on registering ?
+2013-11-11 22:13:03	<--	noahsussman has quit (Ping timeout: 240 seconds)
+2013-11-11 22:13:13	js1242453	sorry, lowercase b there.*
+2013-11-11 22:13:36	-->	AWAW has joined ##javascript
+2013-11-11 22:13:38	duch_kazatel	Threespots- huh?
+2013-11-11 22:13:38	Deide	phelix: Did you click to see the source or did you click to edit in JSbin. If you did the former, then do the latter.
+2013-11-11 22:13:48	Havvy	js1242453:  If your function is returning a string, and you expect it to pass a number, there's a problem with that function.
+2013-11-11 22:13:56	pbodymind_	ok.. u want to see ur firefox crashing?
+2013-11-11 22:14:05	pbodymind_	check this out: http://jsfiddle.net/4bTRF/ ... uncomment the commented lines
+2013-11-11 22:14:06	phelix	ahh ok got it.
+2013-11-11 22:14:17	js1242453	Havvy: thats why i've tried to call b(Number(var1),Number(var2))...
+2013-11-11 22:14:19	 *	pbodymind_ criesss
+2013-11-11 22:14:23	-->	Guest2496 has joined ##javascript
+2013-11-11 22:14:36	<--	ColKurtz has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 22:14:41	phelix	right now it looks like your doing this with the <img> tag. Is it harder to do this by changing the css background style instead? So I don't need to use the img tag at all?
+2013-11-11 22:14:42	<--	ChrisMatheson has quit
+2013-11-11 22:14:46	<--	Threespots- has quit (Quit: Leaving)
+2013-11-11 22:14:52	js1242453	where b(a,b) really is only "if(((a+b)%2)==0){this}else{that}
+2013-11-11 22:33:54	--	irc: disconnected from server
+2013-11-11 22:34:41	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined ##javascript
+2013-11-11 22:34:41	--	Topic for ##javascript is "Can't Talk? Get Registered on FreeNode (HOWTO: http://ur1.ca/90niw) | ECMAScript, Javascript, JS *not* Java | Say: "!help" (or ask and wait) | Run: "!mdn foo" for docs on "foo" | Don't paste code in the channel."
+2013-11-11 22:34:41	--	Topic set by gkatsev (~gkatsev@oftn/board/gkatsev) on Mon, 25 Feb 2013 09:02:19
+2013-11-11 22:34:43	--	Nicks ##javascript: [[[zz]] [SK]Ray __main__ _br_ _Bravado _cheney _Cody _marix _trev AaronMT abetusk aboudreault absentia AcTiVaTe adam12 Adeon aeoril aesptux Agamemnus ahungry aidanie__ ajpiano akiress akkufomk alainus alamar alex_javascript alexander__b alexwhitman alfonsodev alieas_ Alina-malina allanm amcsi_work andrew9183 andrew91_ andrewSC anekos_ anildigital Anonymoose antihero aortmann arcanis Areks Areks_home Aresilla Aric Arieh arielserafini arkore Armen Arokh artgoeshere Artpicre asteve astrolin astronautaid Atlantic777 atomi atrigent Audlex avium AWAW Ayey_ AzaToth Babbam86 BaDaSs bakedb banzounet bberry Beg bel3atar Beltechs ben1066 ben_alman Benjojo bentruyman Benvie Benvie_ bgy bhldev bhughes biberu bigbugjava bigLanky BillCriswell Bish bkuberek_ Blacklite blackwhite BlaDe^ bluesm bmn bn` bobbylaporte bobdobbs bogool BohemianHacks Bombo BombStrike BoomBox BoomerBile boxmein bradleymeck braincra- brainproxy Brando753 bremnes Brewster brian-mann Bronze bubbajones bung buritica buu Bwild bxi c4milo caasih Caelum callumacrae cam cameron262 carldanley Catie catsup caveat- CCPBracari cdidd cebor Cerise_ ch3mical ch3mical_ CharlieM751 chasemb chernjie_ Chewtoy chjj chovy chrisdickinson chrisdotcode chrislkeller christophe_v_e cibs CIDIC clarkk classix clouder`grr coda23 codebrainz codelahoma codeSomeThings codevinsky codingkevin cody-- CoJaBo ColKurtz comboy constantx CookieNinja coolstoriyo Cork Couto CR0W crash\ crashev_ cruxeternus ctorp CTPAX__ Curtisbeef_ cybrNaut cythrawll czardoz d45h D[4]ni dabear daekano Daniel0 DanielXMoore DannyFritz danrough darkc0met datagutt DaZ dccc DDR deadalus deepy deg Deide deltab DeoSama Depe Dessimat0r Dev0n dhaber diamonds Diemuzi digitalfiz digiwano diminoten dingus_khan dino82 diod disorder Distraught Dlabz dman777_alter dmanderson dmbaturin dnyy doc|home DomeMaster domino14 domsz DontShootMe DonVitoC- DonVitoCorleone dowlf dozn drager dragonshed DrAwesomeClaws_ DreadKnight Dreamer3 DrLou dspriggs duch_kazatel durnik dutis dwarder dwcook dxd828 dytrivedi dza dziga dZwilly eagleflo eagles0513875 ecmabot EdwardIII edwardly eggzeck eggzeck-laptop ehtesh eighty4 ejnahc eliudnir ELLIOTTCABLE elnur elux emid emma enda erg ericwood erikj err_ok erry eshlox etcetera EvRide ezakimak_work faddah fairlite farn fearphage felipe_ FernandoBasso fhd fifteen3 FireFly fireh FizzyTea fkm Flannel Fli-c flip_digits flori Fortescue FortuneWest franckbenoit freeed FunnyLookinHat Fuu gambakufu GarethAdams Gather Gavrisimo gbyers[Away] gde33 gegagome geilt gelignite geomyidae_ gerard0 germanoak gf3 gic gimpygoo githogori gkatsev glaksmono godprobe Goopyo grafi graphettion graphitemaster GreenJello Gregor gtc guampa Guest2496 Guest69055 Guest83584 Guest86070 Gunn4r h0st1le h34d3r HA5h haBuu^ hans_henrik happyface Happzz Haswell Havvy hazardous Hazza hdrv heath heedypo heedypo1 HeN hermiene hexed hgascon hhehw- highasdick hnsr holymac hooloovoo hswolff hugo_moss huntercool hwrd|wor_ hxm idr0p ifdef42 iliketurtles ilteris im0b ImBcmDth imjakechapman Industrial ineku inimino Inoperable insel Internet13 interru intrigue intripoon io2 Ir1sh isaacbw iSeeDead1ixels itisi ivan\ ivanoats ix0071 iXeno j201 jaeholee jaimef jakoch jalcine jallardice jaredrhine JarJarBingDotCom jarr0dsz JavaChip jave Jayflux jayne jayvascript jazu jbpros JC_SoCal Jck_True jcromartie jcrza jerius jesseabc1231 JFranks jgoss jhford jhulten_ jhvisser jiffe99 Jikan jimmt jlwang jmaister jmcantrell JmZ_ joelrobichaud joepie91 JoeyJoeJo joeytier john_doe_jr johnkpaul Johnny- JohnTorrance jonatasnona jonbo_ joneshf-work joroci joseph joshskidmore josue JPeterson jpossi JPT jpwgarrison jrajav jrdn jruzz jsbkkj jscinoz JSharpe__ jso jtw juo jve_ jxie jzl_ k1i k1ng k308 k4yc44k5_ Kabaka kadiks Kai` kaimei_ kakashiAL kalleth_ Kaltiz kanzure karnowski kastang kborchers kbrosnan kbsa Keksike Kesarr kex Khisanth khmer kicken kinabalu KindOne king4life Kingsy Kinny kludge` Kneferilis knf|out Kn|t3 koba04_away kobain kohvihoo1 kraucrow kraytul Krinkle kurko_ kurrent kyrre l1ght lahwran LaMakina lancealtar Lann lansman Larholm lemonsparrow leptonix Letze Lexi LiENUS lijnen Lildirt lilmonkey Lindrian Linkandzelda Linkeh lmjabreu LocalPCGuy Logicgate logikos looper lucasb LuckySMack_ luruke Lyn M-ou-se m0 m4ggus m_kael_ mac- macabre machisuji MacWinner malcolmva Malediction MalMen malorie ManneW manuelbieh mar77i marcooliveira marienz markkes Marsup martisj Martz marvi mary5030 masak MaSOuD master5o1|work mattattaque Maurice Maxdamantus Maxel mbor MCHammer meet_praveen mehwork mentalist Merheet0 merpnderp mHancik MicD_ MightyMu mikaelb_ mike_f MikeD_ milkandtang Mintograde Misan mish4 mist mitchdotpro mitzev_ MJCDzZz mnchiu Monie monkeynipples monokrome MooGoo motaka2 motoford motto MrDHat|offline mreeder MrNaviPacho msafi mtree Multiply munichlinux Munter_ mvpgraff myndzi mysteronyx mythril_ naillwind namidark nanashiRei NanoArrow naomi Narigo nathan7 ncthom91 ndngvr nebiros necrogami nemesit|znc NeoThermic Neozonz|Disc netman Nexen nhqe Niamkik niggler nihilista nikola ninegrid nisstyre NivenHuH NoiseEee noisia_ nomenkun Nothing4You novikane Nuck nullrouted|cloud Nurbs nw nwilson5 nym_ nyordanov oal ocfx ohcibi olleman oogaw Orbitrix Orginator ormaaj Outsider_ Overand overloaded overtime pachet paddymahoney padolsey PaladinPete pantech papercut patsToms paul_k PaulePanter pbjorklund pbodymind pbunny PcJamesy Peeter Pengoo percival Petazz_ petey peteyg ph88 ph88_ phelix philosonerd__ PhonicUK pikpik Pilum pingo pinkkis pipecloud pixelpimp pkinchington pmarsh_ pog Poky poorman poorman|work Porpado poseid poutine Praise prawnsalad preaction preflex ProgR33n Prot pschell qiemem qom2 queequeg2 quup rachelthegreat rafaqueque raj ramdog ramdog_ raniere rashkov RawBin rawplaye1 raybarg Raynos rblackwe rcombs redeemed redondo regreddit Reite rektide relix Relsak Renari Renex resure retornam rfish richardi_ RichardJ richardwhiuk rickbol Ricki` rideh rikkus riotz rivarun rizzuh RLa robdodson robmozart rockfruit RogWilco Roja Roja_ rolleiflex_ rook2pawn rook_flood root66 rootshift ross` rosseaux roven RWOverdijk ryanponce ryanseddon ryanw ryland s5fs s_e S_T_A_N sacho_ Sajaki sandroid_afk say2joe sayakb sayd Sazpaimon scathen^C Scoding ScottO_1 scriptThis sdwrage SebastianFlyte SecretAgent Segaja Seganku segv- Sembiance sente Sergonium serpent223 Sever SewDough SeySayux shabius ShadeTornado shammancer shanahan Shaolinburper shello shiftins ShinyPhoenix Shirakawasuna shirro shmoon shoky silne30 silv3rwind SirCmpwn skrblr Skrypter Slartibart slikts Snakes snkcld snyx_ so Somatt Somatt_wrk_ Someguy123 someish Sonicrida Sose species spenguin sphenxes spike|spiegel spion sporto sraka1 srcerer sriley ssbr stafamus stdgy stef steme_jomps_ stephan48 stevenbenner StoneTable stringoO stylus substack svinkle swatti synTax Synthead sysdef systemfault systemovich syzygy_ t t4nk701 table Tabmow Taggnostr tangorri tapout Tarential tarkus tarruda tataa Tauku tauntaun Taylor tazle TDJACR TermNL Thalheim The_Coolest TheFuzzball thelorax123 TheMoonMaster theshadow TheWarden thezanke thibauts ThiefMaster thomaslindstr_m thorz tieTYT TimTim` Tingle tirengarfio tiwula tklun tobmaster tomalak tomatto tomaw tomh-_ TomRone tomshreds top4o Torsten|off tr4656 tra trigen TripTastic tris Trudko trusktr tsunamie tubbo Turn_Left TuRnaD0 Twey twisted` tylersmith Typo Ububegin Unlocked_ uris77 vadviktor_ vaishali ValicekB Validatorian vendethiel Venko vereteran vince_prignano vire visua w0rm wad waerloga Wafamde warreng wbill wchun wcpan_ weazyo weeb1e whatthepoop whirlibulf Whiskey wildbat will-ob Will| wingman wmage woebtz Woet wookienz wrp6 xec Xgc xinming Xiti xp_prg2 xumium xxtjaxx Y_Ichiro yacks Yancho yano yansanmo yeboot yeltzooo yhsiang yogurt_truck yorick yosafbridge zaal zacharyz zackiv31 zafu Zarthus zeade zeekay zenodub zeropx zivester zkat Znoosey zod zodiak zoee zz_eugeneware Zzaichik }ls{]
+2013-11-11 22:34:43	--	Channel ##javascript: 942 nicks (0 ops, 0 voices, 942 normals)
+2013-11-11 22:34:52	--	Mode ##javascript [+Ccnt]
+2013-11-11 22:34:53	--	Channel created on Sun, 26 Nov 2006 07:42:45
+2013-11-11 22:35:02	-->	thasc has joined ##javascript
+2013-11-11 22:35:02	pbodymind	ImBcmDth: is it a memleak like that? im going to dinner now... i ll read this later..!
+2013-11-11 22:35:16	j201	so, if cell was "0", cells[cell + 1] would be cells["01"], not cells[1]
+2013-11-11 22:35:25	bigbugjava	arggg
+2013-11-11 22:35:27	-->	Advocation has joined ##javascript
+2013-11-11 22:35:34	-->	xk_id has joined ##javascript
+2013-11-11 22:36:25	yansanmo	your code says: load the background image (css) + img src.  when the img src is fully loaded, change the background image (and keep the img)
+2013-11-11 22:36:25	-->	lar_zzz1 has joined ##javascript
+2013-11-11 22:36:25	-->	richardiii has joined ##javascript
+2013-11-11 22:37:06	<--	rivarun has quit (Quit: ZNC)
+2013-11-11 22:37:09	-->	Moon_Man has joined ##javascript
+2013-11-11 22:37:18	Wafamde	j201 - That makes sense
+2013-11-11 22:37:26	phelix	yansanmo: one of the images is very large. So soon as the page loads I want it to display http://boguscreek.dev.tributemedia.com/sites/boguscreek.dev.tributemedia.com/themes/boguscreek/images/snow-bg.png in the background. And once the large image http://boguscreek.dev.tributemedia.com/sites/boguscreek.dev.tributemedia.com/themes/boguscreek/images/snow-large.gif is done loading. I want it
+2013-11-11 22:37:26	phelix	to change the background url to that one instead.
+2013-11-11 22:37:34	yansanmo	my fiddle says: load the img src (but doesn't display the img), when it's fully loaded, show it as background
+2013-11-11 22:37:39	Wafamde	I did suspect that at one point, but had so many ideas floating around my head that I forgot to test that :D
+2013-11-11 22:37:40	Wafamde	Thanks a million :)
+2013-11-11 22:38:06	phelix	seems in that example you gave me there is only one image. Where it needs to change to the http://boguscreek.dev.tributemedia.com/sites/boguscreek.dev.tributemedia.com/themes/boguscreek/images/snow-large.gif once it is finished downloading.
+2013-11-11 22:38:14	<--	pkinchington has quit (Quit: pkinchington)
+2013-11-11 22:38:26	Agamemnus	andrewSC: or, siblings in css
+2013-11-11 22:38:36	yansanmo	phelix, why do you load the img in HTML, load it only in JS...
+2013-11-11 22:39:17	phelix	I am willing to do it whatever way works best. I just do not know much js =(
+2013-11-11 22:39:22	phelix	Id rather not use an img tag at all
+2013-11-11 22:39:27	phelix	just want it in the css
+2013-11-11 22:39:44	phelix	set on the background with the <div id="image"> container
+2013-11-11 22:39:50	-->	\mSg has joined ##javascript
+2013-11-11 22:39:51	-->	jonbo has joined ##javascript
+2013-11-11 22:39:58	<--	cody-- has quit (Quit: derp)
+2013-11-11 22:40:06	-->	keepsake has joined ##javascript
+2013-11-11 22:40:35	<--	Couto has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2013-11-11 22:41:08	<--	richardiii has quit (Ping timeout: 268 seconds)
+2013-11-11 22:41:08	yansanmo	phelix, http://jsfiddle.net/eLNuf/1/  loading the bg in js only
+2013-11-11 22:41:13	-->	ashnur has joined ##javascript
+2013-11-11 22:41:32	yansanmo	you don't need the tag <img> in the HTML view
+2013-11-11 22:41:37	-->	vlad_starkov has joined ##javascript
+2013-11-11 22:41:53	phelix	good. I was hoping to not have that tag in there. I didn't want it in there anyway.
+2013-11-11 22:42:02	phelix	But now while the large one is downloading. Can it display the smaller image in the process?
+2013-11-11 22:42:25	yansanmo	what small  img?
+2013-11-11 22:42:41	<--	jonbo_ has quit (Ping timeout: 246 seconds)
+2013-11-11 22:42:41	<--	Moon_Man has left ##javascript
+2013-11-11 22:42:41	phelix	cause this background image is like 20Megs. Need the snow-bg.png needs to load while snow-large.gif is downloading
+2013-11-11 22:43:05	GreenJello	phelix, turn snow-bg.png into a datauri
+2013-11-11 22:43:15	GreenJello	scale it down a lot first
+2013-11-11 22:43:19	phelix	so basically snow-bg.png is just a place holder to display until snow-large.gif finishes downloading
+2013-11-11 22:43:36	yansanmo	then it should be the other way around...
+2013-11-11 22:43:39	phelix	GreenJello the .gif is animated. I can't scale it down
+2013-11-11 22:43:43	yansanmo	the png in the CSS, and the gif in the JS
+2013-11-11 22:44:02	GreenJello	phelix, yes you can
+2013-11-11 22:44:07	-->	ncthom91_ has joined ##javascript
+2013-11-11 22:44:59	yansanmo	the JS is the last image you will see
+2013-11-11 22:44:59	phelix	ok let me try this
+2013-11-11 22:45:04	-->	wam has joined ##javascript
+2013-11-11 22:45:05	<--	wam has quit (Changing host)
+2013-11-11 22:45:05	-->	wam has joined ##javascript
+2013-11-11 22:45:10	phelix	it only seems now that it waits to display anything though until the large image is downloaded.
+2013-11-11 22:45:23	phelix	I need it to display the .png in the process of the .gif being downloaded.
+2013-11-11 22:45:24	phelix	that make sense?
+2013-11-11 22:45:33	--	rawplaye1 is now known as rawplayer
+2013-11-11 22:45:37	GreenJello	phelix, use a data-uri
+2013-11-11 22:45:41	-->	JSON_voorhees has joined ##javascript
+2013-11-11 22:45:42	niggler	what do people use for documentation?
+2013-11-11 22:45:54	yansanmo	http://jsfiddle.net/eLNuf/4/
+2013-11-11 22:46:05	ImBcmDth	pbodymind: heh, after running for a while firefox's aboot:memory shows: `3,220.03 MB ── canvas-2d-pixels, 3,232.17 MB ── gfx-d2d-vram-draw-target`
+2013-11-11 22:46:09	<--	vlad_starkov has quit (Remote host closed the connection)
+2013-11-11 22:46:17	-->	TheCowboy has joined ##javascript
+2013-11-11 22:46:18	yansanmo	this load the png...  then in JS it loaded the gif, when the gif fully loaded, it show the gif
+2013-11-11 22:46:19	<--	Areks_home has quit (Ping timeout: 252 seconds)
+2013-11-11 22:46:27	-->	vlad_starkov has joined ##javascript
+2013-11-11 22:46:30	<--	overloaded has quit (Remote host closed the connection)
+2013-11-11 22:46:40	<--	ncthom91 has quit (Ping timeout: 240 seconds)
+2013-11-11 22:46:58	<--	thelorax123 has quit (Remote host closed the connection)
+2013-11-11 22:47:04	ImBcmDth	pbodymind: but I don't think this is a browser bug... chrome eventually takes up tons of memory and crashes (the tab) too. processing is doing something stupid methinks
+2013-11-11 22:47:06	-->	overloaded has joined ##javascript
+2013-11-11 22:47:12	yansanmo	http://fiddle.jshell.net/eLNuf/4/show/
+2013-11-11 22:47:13	phelix	it seamed the it just initialized until the animated gif was displayed. at least in this jsfiddle site. So only image it ever shows is the large .gif. But maybe a better effect once I plug this into my site maybe.
+2013-11-11 22:47:16	-->	Couto has joined ##javascript
+2013-11-11 22:47:32	phelix	There we go!
+2013-11-11 22:47:52	phelix	perfect! let me implement that.. thank you sooo much
+2013-11-11 22:48:37	-->	noahsussman has joined ##javascript
+2013-11-11 22:48:49	-->	thelorax123 has joined ##javascript
+2013-11-11 22:48:59	yansanmo	now it's white -> png -> gif., but if the gif is in your cache,  then  it will look like gif
+2013-11-11 22:49:05	Wafamde	j201 - file:///C:/Users/soer883d/Desktop/GOL/gol.htm - Have a look at it now ;) It doesnt follow the rules 100% as it should yet, but at least it does something hehe.
+2013-11-11 22:49:07	<--	io2 has quit
+2013-11-11 22:49:11	Wafamde	Omg I always do that! damn it..
+2013-11-11 22:49:23	Wafamde	I meant: https://dl.dropboxusercontent.com/u/55650539/gol.htm
+2013-11-11 22:49:23	<--	TheMoonMaster has quit (Excess Flood)
+2013-11-11 22:49:23	eggzeck-laptop	No offense, but I would leave a website with that background so fast lol
+2013-11-11 22:50:01	-->	rodan- has joined ##javascript
+2013-11-11 22:50:17	GreenJello	I can't even load it
+2013-11-11 22:50:22	GreenJello	I waited over a minute
+2013-11-11 22:50:46	GreenJello	I just got the png :-)
+2013-11-11 22:50:55	j201	Wafamde: looks good, although I like it a lot more with setInterval( lifeStep, 10 ); ;)
+2013-11-11 22:50:56	-->	TheMoonMaster has joined ##javascript
+2013-11-11 22:51:05	<--	overloaded has quit (Ping timeout: 240 seconds)
+2013-11-11 22:51:06	-->	sorella has joined ##javascript
+2013-11-11 22:51:13	Wafamde	Hehe, true. Speaking of that, isnt the lowest inverval 15ms?
+2013-11-11 22:51:18	Wafamde	interval*
+2013-11-11 22:51:59	Wafamde	Updated the link with 15ms :D
+2013-11-11 22:51:59	<--	vince_prignano has quit
+2013-11-11 22:51:59	j201	Wafamde: actually, you'd probably be better off using requestAnimationFrame
+2013-11-11 22:52:35	Wafamde	My god all these new things. Gotta google that one.
+2013-11-11 22:52:51	<--	}ls{ has quit (Ping timeout: 272 seconds)
+2013-11-11 22:52:51	<--	syzygy_ has quit (Quit: syzygy_)
+2013-11-11 22:53:31	-->	overloaded has joined ##javascript
+2013-11-11 22:53:41	<--	bkuberek_ has quit (Remote host closed the connection)
+2013-11-11 22:54:08	j201	Wafamde: heh, also, you don't need semicolons at the end of blocks
+2013-11-11 22:54:17	-->	bkuberek has joined ##javascript
+2013-11-11 22:54:18	j201	so, you don't need one after if (...) { ... }
+2013-11-11 22:54:38	yansanmo	better to use two
+2013-11-11 22:54:42	yansanmo	if () {};;
+2013-11-11 22:54:50	-->	shesek has joined ##javascript
+2013-11-11 22:54:52	<--	christophe_v_e has quit (Quit: Page closed)
+2013-11-11 22:55:05	Havvy	yansanmo:  Lulz
+2013-11-11 22:55:15	-->	weidou has joined ##javascript
+2013-11-11 22:55:40	<--	looper has quit (Quit: Computer has gone to sleep.)
+2013-11-11 22:56:00	-->	EagleScreen has joined ##javascript
+2013-11-11 22:56:20	<--	Couto has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2013-11-11 22:56:37	-->	abraxas has joined ##javascript
+2013-11-11 22:56:55	yansanmo	>> var o;   if(1) {} ;-o;  if(1) {} ;-o;
+2013-11-11 22:56:56	ecmabot	yansanmo: (number) NaN
+2013-11-11 22:57:06	Wafamde	j201 - Still trying to get the hang of those ;) I come with nothing but my Lua experience, so the ; is still new to me  :P
+2013-11-11 22:57:09	<--	weidou has quit (Client Quit)
+2013-11-11 22:57:23	Havvy	yansanmo:  :P
+2013-11-11 22:57:36	EagleScreen	I have some dude with AJAX usage, and how sucessfully return a value obtained by AJAX in Javascript functions. Anyone can tell me why this code does not work? http://ideone.com/bwKtx7
+2013-11-11 22:57:53	<--	boxmein has quit (Quit: [02:26.00] <Ristovski> mozzarella filofax fadget)
+2013-11-11 22:58:21	yansanmo	ajax doesn't return value, sjax does
+2013-11-11 22:58:26	-->	Couto has joined ##javascript
+2013-11-11 22:58:38	-->	stoned has joined ##javascript
+2013-11-11 22:58:42	GreenJello	EagleScreen, with ajax you need a callback
+2013-11-11 22:59:22	GreenJello	AJAX = "Asynchronous JavaScript and XML"
+2013-11-11 22:59:25	EagleScreen	when CargarMisAsignaciones functio is run, the modoConsulta variable is null, but alert() from the function ConsultarModoCargarMisAsignaciones is showd first and with the right value to return

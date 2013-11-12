@@ -1,0 +1,928 @@
+2013-11-10 14:53:09	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emacs
+2013-11-10 14:53:09	--	Topic for #emacs is ""A splendid subject with tremendous problems, where the finest imaginations have run riot" -- G. H. Hardy on Emacs | No public logging! What happens in #emacs stays in #emacs | Don't use nicks for away status | No sexism, racism, xenophobia or other asshattery"
+2013-11-10 14:53:09	--	Topic set by jlf (~user@pdpc/supporter/active/jlf) on Fri, 08 Nov 2013 02:36:16
+2013-11-10 14:53:10	--	Nicks #emacs: [__jae__ __main__ _AnK _ferdy_ _flow_ _habnabit _mkrull _schulte1 a00001 aartist abend aboudreault abuiles aburgess AeroNotix aes agoodno ahungry AimHere aindilis aisbaa_ akitada albioner AlexanderS AlexMax alezost alijosa AlterSid Amadiro ambroff amoe ananthakumaran1 anderson andrewsw angelixd_ antgreen antoszka Apic arcanis ArneBab_ arrdem arvind_khadri Ash assem asuka Athas atheia`` avantgeek avar axiom_ axrfnu Ayey_ b0ef baboon` balle banisterfiend banjiewen barik barika basho bazz beneth`_ benny Bentbot bfouts bigjust binjured bitemyapp Blacky BlastHardcheese Blkt bocaneri Boney boodle Borbus boredomist boudiccas boyscared bpalmer bps bradwright brainproxy brandonw bremner brjannc broquaint BruceCon` BruceConnor buhman caisah calimocho cantsin carif carlosNonDanger caveat- cbmuser cbpage_ cha1tanya chandan__ chaoflow chee chewbranca ChongLi chrisirc chriswk chu Cira ckoch786 classix claw___ clop cluck cmatei cmecca Code_Man` codemac Codynyx cofi cory786 CosmicRay cpt_nemo craisins crassus CrazyEddy crculver_ cross crus0e Cthulhux cthuluh cud curvedmark cyberspace- d1ffuz0r d4gg4d_ daimrod dale daniel-s danlamanna1 danlentz dark_element daveliepmann davexunit deadghost debris` deego defanor_ delYsid` demolithion Demosthenex Derander dermatthias derrida deSilva dgvncsz0f Digit dim dominikh DomKM dooglus_ dotemacs dothebart Dr_Jazz_ drdo drewr dropdrive drot dturner dtw dueno dxd828 dzho eagleflo easiere ecraven edenc edgar-rft edran edw effy el3ctron_ elarson elik emacsnw_ emilh eN_Joy endou Entroacceptor entropie epsylon` eqyiel erewhon erkin espiral ethif expez ext fallout farn fayek fdv fein felipe_ ffualo fhd fikusz floatingman fmu foozbooz forcer fperrin FractalFive framling francis_wolke frankxu_ freehck[away] frobware froggey fsbot fschmitt Fubar^ Fuco fzzy galex-713 gaqzi garslo gazoombo genehack_ gensym GeorgeJetson ggherdov ggole gianlucadv gic gko gko_ glosoli gnomon gstamp gtuckerkellogg Guest31630 Guest83584 h12o halvrg Han HandheldPenguin haole Hapsbanan haroldwu2 haroldwu_cloud heath HedgeMage hgb hiredman hiroaki hlprmnky hober Hodapp hohum_ hpd hrehf hubutm20 IanKelling icule iderrick_ ieure iiska illovae ingenious insatsu instilled isak IUSR ivan\ ivan`` j0ni jabot_ jacres jaimef jannie jaredrhine jashank Javafant jave jayne jbalnit jcromartie JDHankle jdhoreotg jdoles jeekl jeffrubic jesseadams jfdm jgoss jimeh jinie jlf jlindsay jmaister Jobbe joe9 johanbev johann__ john2x johnsu01 johnw jonasac jonkri joschka joshbamboo1 jrabbit jrm jstnhlj__ Judge_Dredd julienXX justinwe1ss k-man K0HAX k4yc44k5_ kablaam karbak kawamuray_ kbtr keen__ kek_ kelsin kenyon KevinSjoberg kiddouk_ kini kloeri kludge` klutomet1s kodein kordex korutsu- Koshian kossy Kruppe Krystof ktx kurohin L42y Laynef ldlework leathekd led_belly legov legumbre lemao levarnu lhx lightquake linuxguy101 literal loke loke` lokydor lpaste LRH539 ltsampros lykathea m6n_ m_kael_ macron madnificent magnars mahmoudimus maio malinus mami mandark marienz marjan- mathrick mattcen mattdawson maxigas mechairoi mee MetaCosm metasyntax mfisher mgaare_ mickn micro_ microcode MindlessDrone mishok13 mitchty mjc1 mjrosenb mm-- mnemonikk mns mocker Mon_Ouie Monolith| monotux MooGoo Mosu mrBliss MrWoohoo msgodf mshroyer mstevens mstr msx mtk mtp muep munge murphy__ murr4y musca myeffort n2o4 NaCl Nahra namtsui nano- naqano_ Natch ndngvr ndrst necronian necronian_ nemesit_ nephyrin Neptu netmod neurodamage newcup nicferrier nihilifer nilg njsg njsg__ noakes noam noptys notdan ntesir nuba nullie nullman nunag obre ocharles offby1 offbyone ohama ok2 oleo optikalmouse osnr oufo Ox6463 OxDeadC0de ozialien ozzloy paroneayea PaulHarris pcarrier peder peterhil petrosil Philonous_ pjb pkkm portante prebz_ prip progo pshuff puff` qDot_ qizwiz qlkzy quackv4 quasisane quist quotemstr raft Ralt raph_ael Rapp rasmusto raso Raynes rdgr reactormonk redblue redeemed reeses reim remote renard_ rgrinberg rien rizumu robmyers_ rods roe_ rotty rrn rryoumaa rudybot ruediger russm s15y sabya sagittarian SamanthaD SamB samrat_ saorge sauerkrause scgilardi- schoppenhauer sdemarre seantallen Seb segv- Sembei semente sepi serhart seschwar setheus_ seynb shadowdaemon Shambles_ sheepbat shergill Sierpinski sigjuice_ Silex sk_0[afk] Sketch ski_ smeb smull snogglethorpe sohail solarus SomeDamnBody Sonderblade sontek sorabji5252 Sorella spacebat spaceone specbot splitter_ srhb sshirokov sssslang st3fan stackofcats stask steckerhalter StMichel stokachu stomp subopt sunmoonstar superbil^^ SuperNoeMan surrounder svaksha svarma swathe sword Sysaxed taapa Takumo tali713 talyz tasdomas tauntaun TaylanUB tazle tbarletz technomancy teiresias tensorpudding tessier_ tg theBlackDragon TheBrayn_ TheCrittaC thelorax123 theos thomases thorkill tkd tmokros tommis ToothlessGear topi` Trademark91 treaki__ tromey tsbtmn tsurutom Tsyesika turbofail tvaalen twem2 txxt tychoish Ulrar Unhammer unknown_lamer upgrayeddd uwjesq_ varlog vbernat vcgomes vds ve Veg Viiru vila vipzrx Vivek Vorpal vt102 vurma waaron wagle wanders wapiflapi wbill wchun wdouglas` wgreenhouse WhichMatt wilfredh wizzo woddf2 wsmwk wunki wyan w|t xales xenophon xhrl xinming_ xneme xristos xrq yhvh yonkeltron YoungFrog yrk z0d zaargy Zagaba zakame zellio zeltak zenoli zenwryly zhengyi zobbo zol zoldar_ zw01 zygen zymurgy zz_karupanerura {cms}]
+2013-11-10 14:53:10	--	Channel #emacs: 674 nicks (0 ops, 0 voices, 674 normals)
+2013-11-10 14:53:10	--	URL for #emacs: http://www.emacswiki.org/EmacsChannel
+2013-11-10 14:53:10	--	Mode #emacs [+np]
+2013-11-10 14:53:10	--	Channel created on Sun, 26 Nov 2006 07:42:33
+2013-11-10 14:54:29	-->	danielszmulewicz (~danielszm@5.22.135.157) has joined #emacs
+2013-11-10 14:55:23	-->	przl (~przlrkt@193.158.80.42) has joined #emacs
+2013-11-10 14:56:31	<--	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has quit (Remote host closed the connection)
+2013-11-10 14:56:35	-->	koz (~user@KHP059136206208.ppp-bb.dion.ne.jp) has joined #emacs
+2013-11-10 14:57:13	<--	ananthakumaran1 (~Adium@117.192.141.23) has quit (Ping timeout: 245 seconds)
+2013-11-10 14:57:22	-->	teufelsdrockh (~teufelsdr@116.6.19.192) has joined #emacs
+2013-11-10 14:58:17	-->	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has joined #emacs
+2013-11-10 15:00:47	<--	JDHankle (~JDHankle@cpe-74-76-102-94.nycap.res.rr.com) has quit (Ping timeout: 252 seconds)
+2013-11-10 15:01:14	-->	ananthakumaran (~Adium@117.192.140.85) has joined #emacs
+2013-11-10 15:04:23	-->	blackmesa (~blackmesa@gateway/tor-sasl/blackmesa) has joined #emacs
+2013-11-10 15:04:49	<--	Blacky (~marc@p5DE8A33F.dip0.t-ipconnect.de) has left #emacs ("WeeChat 0.3.8")
+2013-11-10 15:06:10	<--	ananthakumaran (~Adium@117.192.140.85) has quit (Ping timeout: 272 seconds)
+2013-11-10 15:06:19	-->	ananthakumaran (~Adium@117.192.137.198) has joined #emacs
+2013-11-10 15:07:15	<--	glosoli (~glosoli@unaffiliated/glosoli) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-10 15:07:45	-->	noahsussman (~noahsussm@207.237.90.116) has joined #emacs
+2013-11-10 15:08:03	<--	edran (~edran@188.74.75.98) has quit (Read error: Connection reset by peer)
+2013-11-10 15:08:27	<--	d1ffuz0r (~d1ffuz0r@208.115.207.196) has quit (Quit: changing servers)
+2013-11-10 15:08:27	<--	nilg (~user@ALagny-551-1-222-85.w83-112.abo.wanadoo.fr) has quit (Read error: Operation timed out)
+2013-11-10 15:08:33	<--	noakes (~noakes@192.210.214.197) has quit (Remote host closed the connection)
+2013-11-10 15:08:46	<--	albioner (~albioner@74.116.207.43) has quit (Quit: Laptop went to sleep. ZZZzzz…)
+2013-11-10 15:08:50	-->	nilg (~user@ALagny-551-1-191-99.w83-112.abo.wanadoo.fr) has joined #emacs
+2013-11-10 15:09:16	-->	d1ffuz0r (~d1ffuz0r@208.115.207.196) has joined #emacs
+2013-11-10 15:10:08	<--	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has quit (Remote host closed the connection)
+2013-11-10 15:10:13	<--	dxd828 (~dxd828@host86-172-58-16.range86-172.btcentralplus.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-10 15:10:23	-->	datanoise (~kent@216-189-189-068-dhcp.mia.fl.atlanticbb.net) has joined #emacs
+2013-11-10 15:11:06	-->	sszzqq (~sszzqq@112.90.222.131) has joined #emacs
+2013-11-10 15:11:07	-->	lochan (~lochan@192.210.214.197) has joined #emacs
+2013-11-10 15:11:11	<--	sszzqq (~sszzqq@112.90.222.131) has left #emacs
+2013-11-10 15:11:55	-->	thelorax123 (~nodebot@162-204-145-159.lightspeed.jcvlfl.sbcglobal.net) has joined #emacs
+2013-11-10 15:13:17	TaylanUB	"find . ! -name ." ?
+2013-11-10 15:13:19	<--	teufelsdrockh (~teufelsdr@116.6.19.192) has quit (Remote host closed the connection)
+2013-11-10 15:13:39	TaylanUB	Works on my OBSD find(1), dunno about POSIX or others.
+2013-11-10 15:13:58	bremner	the great thing about standards...
+2013-11-11 17:33:37	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emacs
+2013-11-11 17:33:37	--	Topic for #emacs is ""A splendid subject with tremendous problems, where the finest imaginations have run riot" -- G. H. Hardy on Emacs | No public logging! What happens in #emacs stays in #emacs | Don't use nicks for away status | No sexism, racism, xenophobia or other asshattery"
+2013-11-11 17:33:37	--	Topic set by jlf (~user@pdpc/supporter/active/jlf) on Fri, 08 Nov 2013 02:36:16
+2013-11-11 17:33:37	--	Nicks #emacs: [__jae__ __main__ _AnK _flow_ _habnabit _mkrull _schulte1 _schulte_ a00001 aartist abend aboudreault abuiles aburgess AeroNotix aes agoodno ahungry ahungry_ AimHere aindilis aisbaa_ ajb-mark-tools akitada AlexanderS AlexMax alezost alijosa AlterSid Amadiro ambroff ambroff_ amoe ananthakumaran anderson andrewsw angelixd_ antgreen antimoof antoszka Apic arcanis ArneBab arrdem arrsim Ash aspiers assem asuka Athas atheia`` aurelien avantgeek avar axrfnu Ayey_ b0ef balle banjiewen barik barika basho bazz beneth`_ benny Bentbot benzap` bfouts bigjust binjured bipt bitemyapp blackmesa BlastHardcheese bling^ Blkt bnzmnzhnz bocaneri Boney bontaq boodle Borbus boredomist boudiccas boycottg00gle boyscared bpalmer bps bradwright brainproxy brandonw bremner brjannc brmj_work broquaint bu^ buhman caisah calimocho cantsin carlosNonDanger caveat- cbmuser cbpage_ cha1tanya chandan_ chaoflow chee chewbranca ChongLi chrisb chrisirc chriswk Cira ckoch786 classix claw___ clop cluck cmatei cmecca Code_Man` codemac Codynyx cofi cory786 CosmicRay cpt_nemo craisins crassus CrazyEddy crculver crk cross crus0e crus0e1 Cthulhux cthuluh cud cvandusen cyberspace- d1ffuz0r d4gg4d_ daimrod dale daniel-s danlamanna danlentz daveliepmann davexunit dbristow deadghost debris` defanor_ delYsid` demolithion Demosthenex Derander dermatthias derrida dfox dgvncsz0f didi dim dizzylizzy djcb dmi3y dominikh dooglus_ dotemacs dothebart doublep Dr_Jazz_ drdo drewr dropdrive drot dturner dtw dualhbridge dueno duggiefresh dzho eagleflo easiere echo-area ecraven edenc effy el3ctron elarson elbeardmorez elik emacsnw_ emaphis emilh eN_Joy endou Entroacceptor epsylon` eqyiel erewhon ErhardtMundt espiral ethif exobit expez fallout farn fdv fein felipe_ ferdy ffualo fhd fikusz fish2 fledermaus floatingman fmu foozbooz forcer fourOfTwelve fperrin FractalFive framling frankxu_ frito frobware froggey fsbot fschmitt Fubar^ Fuco fzzy galex-713 gaqzi garslo gazoombo genehack_ gensym GeorgeJetson ggherdov ggole gianlucadv gic gko gko_ gnomon Gooder gstamp Guest31630 Guest83584 gzg h0bbit_ h12o Han HandheldPenguin Hapsbanan haroldwu haroldwu2 haroldwu_cloud heath HedgeMage hewbrocca hgb hiredman hlprmnky hober Hodapp hohum_ holomorph hpd hyperair IanKelling icule iderrick_ ieure iiska illovae ingenious insatsu instilled isak IUSR ivan\ ivan`` iwillig j0ni jabot_ jacres jaimef jannie jaredrhine jashank jatt Javafant jave jayne jbalnit jcromartie JDHankle jdhoreotg jdoles jeekl jeffrubic jespada jesseadams jgama jgoss jimeh jinie jlf jlf_ jlindsay jmaister Jobbe johanbev johann__ Johannes` johnsu01 jonasac JordiGH joschka joshbamboo1 jrabbit jrm jstnhlj__ Judge_Dredd julienXX justinwe1ss jweiss k-man K0HAX k4yc44k5_ kablaam kahen kanru karbak kawamuray_ kbtr keen__ kek kelsin kensanata kenyon KevinSjoberg kickingvegas kiddouk_ kini kloeri kludge` klutomet1s kodein kordex korutsu- Koshian kossy Kruppe Krystof ktx kzar L42y Laynef ldlework lduros leathekd led_belly legov legumbre lemao leo2007 letbind levarnu lhx lightquake linuxguy101 literal loke loke`` lokydor lpaste LRH539 lunaryorn_ lykathea m6n_ m_kael_ macrobat macron madnificent magnars maio majoh malinus mami mandark marienz math0ne mathrick mattcen mattdawson maxigas mechairoi mee MetaCosm metasyntax mfisher mgaare_ mickn micro_ microcode MindlessDrone mishok13 MisterBubbles mitchty mjc1 mjrosenb mm-- mnemonikk mns mocker molqr Monolith| monotux MooGoo Mosu mrBliss mrSpec MrWoohoo msgodf mshroyer mstevens mstr msx mtk mtp muep munge murphy__ murr4y musca myeffort n2o4 NaCl Nahra nano- naqano_ Natch ndngvr ndrst necronian nemesit_ nephyrin Neptu netmod neurodamage newcup nicferrier nihilifer nilg njsg njsg__ noahsussman noam_ noorul noptys ntesir nuba nullman nunag nya_ obre ocharles offby1 offbyone ohama ok2 oleo osnr oufo OxDeadC0de ozialien ozzloy paroneayea PaulHarris pcarrier peder petey petrosil Philonous phracek pjb pkkm pnkfelix portante prebz_ pregier prip progo przl pshuff puff` qDot_ qlkzy quackv4 quasisane quicksilver quist quotemstr raft Ralt ranek raph_ael Rapp rasmusto raso Raynes rdgr reactormonk redblue redeemed rediah reeses reim remote renard_ renzhi rgrinberg rien rizumu robmyers_ rods roe_ rotty rrn rryoumaa rstandy rudybot ruediger russm s15y sababa sabya sagittarian SamanthaD SamB samrat_ saorge sauerkrause scgilardi- schoppenhauer seangrove seantallen Seb segv- sellout- Sembei semente sepi serhart seschwar setheus_ seynb shadowdaemon Shambles_ sheepbat shergill shoshin Sierpinski sigjuice_ Sigma Silex sk_0[afk] Sketch ski smeb smull solarus SomeDamnBody Sonderblade sontek sorabji5252 sorella Sorella_ spacebat spaceone specbot splitter_ srhb sshirokov stackofcats stask steckerhalter StMichel stokachu stomp subopt sunmoonstar superbil^^ SuperNoeMan sures surrounder svaksha swathe sword Sysaxed Takumo tali713 talyz targzeta tasdomas tauntaun TaylanUB tazjin tazle tbarletz technomancy teiresias tensorpudding tessier tg tgunr theBlackDragon TheBrayn TheCrittaC thelorax123 theos theRoUS thisirs thomases thorkill thrn tincricket tkd tmokros tommis ToothlessGear topi` Trademark91 tromey tsbtmn tsurutom Tsyesika turbofail tvaalen twem2 txxt tychoish Ulrar Unhammer unknown_lamer upgrayeddd ustunozgur uwjesq varlog vbernat vcgomes vds ve Veg Viiru vila Vivek Vorpal vt102 vterron_ vxe_ waaron wagle waisl wanders wapiflapi wbill wchun wdouglas` wgreenhouse WhichMatt wilder wilfredh Will| wizzo woddf2 wsmwk wunki wyan w|t xales xenophon xhrl xinming xneme xristos xrq yacks yhvh yonkeltron YoungFrog yrk z0d zaargy zacts Zagaba zakame zellio zeltak zenoli zenwryly zhengyi zobbo zol zoldar_ zw01 zygen zymurgy zz_karupanerura {cms}]
+2013-11-11 17:33:37	--	Channel #emacs: 716 nicks (0 ops, 0 voices, 716 normals)
+2013-11-11 17:33:38	--	URL for #emacs: http://www.emacswiki.org/EmacsChannel
+2013-11-11 17:33:38	--	Mode #emacs [+np]
+2013-11-11 17:33:38	--	Channel created on Sun, 26 Nov 2006 07:42:33
+2013-11-11 17:34:31	<--	netmod (~unknown@unaffiliated/netmod) has quit (Quit: WeeChat 0.4.2)
+2013-11-11 17:34:52	-->	RaceCondition (~erik@87-119-176-195.tll.elisa.ee) has joined #emacs
+2013-11-11 17:37:07	<--	noahsussman (~noahsussm@207.237.90.116) has quit (Remote host closed the connection)
+2013-11-11 17:37:34	-->	noahsussman (~noahsussm@207.237.90.116) has joined #emacs
+2013-11-11 17:39:17	<--	holomorph (~holomorph@unaffiliated/holomorph) has quit (Quit: holomorph)
+2013-11-11 17:39:59	<--	phracek (phracek@nat/redhat/x-xxxmocsdjfreiblx) has quit (Ping timeout: 264 seconds)
+2013-11-11 17:41:32	-->	deSilva (~deSilva@c83-254-212-116.bredband.comhem.se) has joined #emacs
+2013-11-11 17:42:10	<--	noahsussman (~noahsussm@207.237.90.116) has quit (Ping timeout: 248 seconds)
+2013-11-11 17:44:21	-->	paddymahoney (~paddymaho@24.137.221.230) has joined #emacs
+2013-11-11 17:44:35	<--	drot (~user@93.180.117.221) has quit (Quit: rcirc on GNU Emacs 24.3.1)
+2013-11-11 17:45:03	-->	justinabrahms (~justinabr@c-24-20-20-150.hsd1.or.comcast.net) has joined #emacs
+2013-11-11 17:46:41	<--	stask (~stask@212.25.110.130) has quit (Ping timeout: 245 seconds)
+2013-11-11 17:47:38	<--	SamanthaD (~SamanthaD@c-98-248-25-134.hsd1.ca.comcast.net) has quit (Quit: Leaving)
+2013-11-11 17:48:48	-->	halvorgb (~halvor@pc207-102.ktv.no) has joined #emacs
+2013-11-11 17:49:43	-->	marjan- (~marjan-@i238151.upc-i.chello.nl) has joined #emacs
+2013-11-11 17:50:00	<--	jgama (~jgama@2607:fad8:4:6:754d:a41b:faa7:dd69) has quit (Quit: Ex-Chat)
+2013-11-11 17:50:05	-->	jgama_ (~jgama@mtl.savoirfairelinux.net) has joined #emacs
+2013-11-11 17:50:37	<--	halvorgb (~halvor@pc207-102.ktv.no) has quit (Client Quit)
+2013-11-11 17:50:57	<--	dmi3y (~dmi3y@98-194-201-46.pool.ukrtel.net) has quit
+2013-11-11 17:51:28	-->	mahmoudimus (~mahmoudim@173-228-85-238.dsl.dynamic.sonic.net) has joined #emacs
+2013-11-11 17:51:46	<--	jatt (~user@93.189.156.10) has quit (Remote host closed the connection)
+2013-11-11 17:51:57	<--	mahmoudimus (~mahmoudim@173-228-85-238.dsl.dynamic.sonic.net) has quit (Client Quit)
+2013-11-11 17:51:58	-->	halvorgb (~halvor@pc207-102.ktv.no) has joined #emacs
+2013-11-11 17:51:58	<--	JDHankle (~JDHankle@72-0-146-246.tvc-ip.com) has quit (Write error: Connection reset by peer)
+2013-11-11 17:52:03	-->	smazga (~Adium@li336-165.members.linode.com) has joined #emacs
+2013-11-11 17:52:09	-->	eridu (~eridu@gateway/tor-sasl/eridu) has joined #emacs
+2013-11-11 17:52:28	-->	JDHankle (~JDHankle@72-0-146-246.tvc-ip.com) has joined #emacs
+2013-11-11 17:52:38	<--	halvorgb (~halvor@pc207-102.ktv.no) has quit (Client Quit)
+2013-11-11 17:52:46	-->	halvorgb (~halvor@pc207-102.ktv.no) has joined #emacs
+2013-11-11 17:52:48	<--	halvorgb (~halvor@pc207-102.ktv.no) has quit (Client Quit)
+2013-11-11 17:53:39	-->	halvorgb has joined #emacs
+2013-11-11 17:54:21	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emacs
+2013-11-11 17:54:21	--	Topic for #emacs is ""A splendid subject with tremendous problems, where the finest imaginations have run riot" -- G. H. Hardy on Emacs | No public logging! What happens in #emacs stays in #emacs | Don't use nicks for away status | No sexism, racism, xenophobia or other asshattery"
+2013-11-11 17:54:21	--	Topic set by jlf (~user@pdpc/supporter/active/jlf) on Fri, 08 Nov 2013 02:36:16
+2013-11-11 17:54:21	--	Nicks #emacs: [__jae__ __main__ _AnK _flow_ _habnabit _mkrull _schulte1 _schulte_ a00001 aartist abend aboudreault abuiles aburgess AeroNotix aes agoodno ahungry ahungry_ AimHere aindilis aisbaa_ ajb-mark-tools akitada AlexanderS AlexMax alezost alijosa AlterSid Amadiro ambroff ambroff_ amoe ananthakumaran anderson andrewsw angelixd_ antgreen antimoof antoszka Apic arcanis ArneBab arrdem arrsim Ash aspiers assem asuka Athas atheia`` aurelien avantgeek avar axrfnu Ayey_ b0ef balle banjiewen barik barika basho bazz beneth`_ benny Bentbot benzap` bfouts bigjust binjured bipt bitemyapp blackmesa BlastHardcheese bling^ Blkt bnzmnzhnz bocaneri Boney bontaq boodle Borbus boredomist boudiccas boycottg00gle boyscared bpalmer bps bradwright brainproxy brandonw bremner brjannc brmj_work broquaint bu^ buhman caisah calimocho cantsin carlosNonDanger caveat- cbmuser cbpage_ cha1tanya chandan_ chaoflow chee chewbranca ChongLi chrisb chrisirc chriswk Cira ckoch786 classix claw___ clop cluck cmatei cmecca Code_Man` codemac Codynyx cofi cory786 CosmicRay cpt_nemo craisins crassus CrazyEddy crculver crk cross crus0e crus0e1 Cthulhux cthuluh cud cvandusen cyberspace- d1ffuz0r d4gg4d_ daimrod dale daniel-s danlamanna danlentz daveliepmann davexunit dbristow deadghost debris` defanor_ delYsid` demolithion Demosthenex Derander dermatthias derrida deSilva dfox dgvncsz0f didi dim dizzylizzy djcb dominikh dooglus_ dotemacs dothebart doublep Dr_Jazz_ drdo drewr dropdrive dturner dtw dualhbridge dueno duggiefresh dzho eagleflo easiere echo-area ecraven edenc effy el3ctron elarson elbeardmorez elik emacsnw_ emaphis emilh eN_Joy endou Entroacceptor epsylon` eqyiel erewhon ErhardtMundt eridu espiral ethif exobit expez fallout farn fdv fein felipe_ ferdy ffualo fhd fikusz fish2 fledermaus floatingman fmu foozbooz forcer fourOfTwelve fperrin FractalFive framling frankxu_ frito frobware froggey fsbot fschmitt Fubar^ Fuco fzzy galex-713 gaqzi garslo gazoombo genehack_ gensym GeorgeJetson ggherdov ggole gianlucadv gic gko gko_ gnomon Gooder gstamp Guest31630 Guest83584 gzg h0bbit_ h12o halvorgb Han HandheldPenguin Hapsbanan haroldwu haroldwu2 haroldwu_cloud heath HedgeMage hewbrocca hgb hiredman hlprmnky hober Hodapp hohum_ hpd hyperair IanKelling icule iderrick_ ieure iiska illovae ingenious insatsu instilled isak IUSR ivan\ ivan`` iwillig j0ni jabot_ jacres jaimef jannie jaredrhine jashank Javafant jave jayne jbalnit jcromartie JDHankle jdhoreotg jdoles jeekl jeffrubic jespada jesseadams jgama_ jgoss jimeh jinie jlf jlf_ jlindsay jmaister Jobbe johanbev johann__ Johannes` johnsu01 jonasac JordiGH joschka joshbamboo1 jrabbit jrm jstnhlj__ Judge_Dredd julienXX justinabrahms justinwe1ss jweiss k-man K0HAX k4yc44k5_ kablaam kahen kanru karbak kawamuray_ kbtr keen__ kek kelsin kensanata kenyon KevinSjoberg kickingvegas kiddouk_ kini kloeri kludge` klutomet1s kodein kordex korutsu- Koshian kossy Kruppe Krystof ktx kzar L42y Laynef ldlework lduros leathekd led_belly legov legumbre lemao leo2007 letbind levarnu lhx lightquake linuxguy101 literal loke loke`` lokydor lpaste LRH539 lunaryorn_ lykathea m6n_ m_kael_ macrobat macron madnificent magnars maio majoh malinus mami mandark marienz marjan- math0ne mathrick mattcen mattdawson maxigas mechairoi mee MetaCosm metasyntax mfisher mgaare_ mickn micro_ microcode MindlessDrone mishok13 MisterBubbles mitchty mjc1 mjrosenb mm-- mnemonikk mns mocker molqr Monolith| monotux MooGoo Mosu mrBliss mrSpec MrWoohoo msgodf mshroyer mstevens mstr msx mtk mtp muep munge murphy__ murr4y musca myeffort n2o4 NaCl Nahra nano- naqano_ Natch ndngvr ndrst necronian nemesit_ nephyrin Neptu neurodamage newcup nicferrier nihilifer nilg njsg njsg__ noam_ noorul noptys ntesir nuba nullman nunag nya_ obre ocharles offby1 offbyone ohama ok2 oleo osnr oufo OxDeadC0de ozialien ozzloy paddymahoney paroneayea PaulHarris pcarrier peder petey petrosil Philonous pjb pkkm pnkfelix portante prebz_ pregier prip progo przl pshuff puff` qDot_ qlkzy quackv4 quasisane quicksilver quist quotemstr RaceCondition raft Ralt ranek raph_ael Rapp rasmusto raso Raynes rdgr reactormonk redblue redeemed rediah reeses reim remote renard_ renzhi rgrinberg rien rizumu robmyers_ rods roe_ rotty rrn rryoumaa rstandy rudybot ruediger russm s15y sababa sabya sagittarian SamB samrat_ saorge sauerkrause scgilardi- schoppenhauer seangrove seantallen Seb segv- sellout- Sembei semente sepi serhart seschwar setheus_ seynb shadowdaemon Shambles_ sheepbat shergill shoshin Sierpinski sigjuice_ Sigma Silex sk_0[afk] Sketch ski smazga smeb smull solarus SomeDamnBody Sonderblade sontek sorabji5252 sorella Sorella_ spacebat spaceone specbot splitter_ srhb sshirokov stackofcats steckerhalter StMichel stokachu stomp subopt sunmoonstar superbil^^ SuperNoeMan sures surrounder svaksha swathe sword Sysaxed Takumo tali713 talyz targzeta tasdomas tauntaun TaylanUB tazjin tazle tbarletz technomancy teiresias tensorpudding tessier tg tgunr theBlackDragon TheBrayn TheCrittaC thelorax123 theos theRoUS thisirs thomases thorkill thrn tincricket tkd tmokros tommis ToothlessGear topi` Trademark91 tromey tsbtmn tsurutom Tsyesika turbofail tvaalen twem2 txxt tychoish Ulrar Unhammer unknown_lamer upgrayeddd ustunozgur uwjesq varlog vbernat vcgomes vds ve Veg Viiru vila Vivek Vorpal vt102 vterron_ vxe_ waaron wagle waisl wanders wapiflapi wbill wchun wdouglas` wgreenhouse WhichMatt wilder wilfredh Will| wizzo woddf2 wsmwk wunki wyan w|t xales xenophon xhrl xinming xneme xristos xrq yacks yhvh yonkeltron YoungFrog yrk z0d zaargy zacts Zagaba zakame zellio zeltak zenoli zenwryly zhengyi zobbo zol zoldar_ zw01 zygen zymurgy zz_karupanerura {cms}]
+2013-11-11 17:54:21	--	Channel #emacs: 715 nicks (0 ops, 0 voices, 715 normals)
+2013-11-11 17:54:22	--	URL for #emacs: http://www.emacswiki.org/EmacsChannel
+2013-11-11 17:54:22	--	Mode #emacs [+np]
+2013-11-11 17:54:22	--	Channel created on Sun, 26 Nov 2006 07:42:33
+2013-11-11 17:54:26	JordiGH	Powerful criticism.
+2013-11-11 17:55:02	didi	,mohrlab
+2013-11-11 17:55:03	fsbot	My mind is a potato field...
+2013-11-11 17:55:06	-->	ivan-kanis has joined #emacs
+2013-11-11 17:55:59	<--	halvorgb has quit (Client Quit)
+2013-11-11 17:56:18	TheBrayn	http://codepad.org/eMJ3qxcc that's how it indented this
+2013-11-11 17:56:18	-->	halvorgb has joined #emacs
+2013-11-11 17:56:46	<--	halvorgb has quit (Client Quit)
+2013-11-11 17:56:52	-->	halvorgb has joined #emacs
+2013-11-11 17:57:25	<--	halvorgb has quit (Client Quit)
+2013-11-11 17:57:32	TheBrayn	maybe it has problems with an other minor mode
+2013-11-11 17:58:09	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emacs
+2013-11-11 17:58:09	--	Topic for #emacs is ""A splendid subject with tremendous problems, where the finest imaginations have run riot" -- G. H. Hardy on Emacs | No public logging! What happens in #emacs stays in #emacs | Don't use nicks for away status | No sexism, racism, xenophobia or other asshattery"
+2013-11-11 17:58:09	--	Topic set by jlf (~user@pdpc/supporter/active/jlf) on Fri, 08 Nov 2013 02:36:16
+2013-11-11 17:58:09	--	Nicks #emacs: [__jae__ __main__ _AnK _flow_ _habnabit _mkrull _schulte1 _schulte_ a00001 aartist abend aboudreault abuiles aburgess AeroNotix aes agoodno ahungry ahungry_ AimHere aindilis aisbaa_ ajb-mark-tools akitada AlexanderS AlexMax alezost alijosa AlterSid Amadiro ambroff ambroff_ amoe ananthakumaran anderson andrewsw angelixd_ antgreen antimoof antoszka Apic arcanis ArneBab arrdem arrsim Ash aspiers assem asuka Athas atheia`` aurelien avantgeek avar axrfnu Ayey_ b0ef balle banjiewen barik barika basho bazz beneth`_ benny Bentbot benzap` bfouts bigjust binjured bipt bitemyapp blackmesa BlastHardcheese bling^ Blkt bnzmnzhnz bocaneri Boney bontaq boodle Borbus boredomist boudiccas boycottg00gle boyscared bpalmer bps bradwright brainproxy brandonw bremner brjannc brmj_work broquaint bu^ buhman caisah calimocho cantsin carlosNonDanger caveat- cbmuser cbpage_ cha1tanya chandan_ chaoflow chee chewbranca ChongLi chrisb chrisirc chriswk Cira ckoch786 classix claw___ clop cluck cmatei cmecca Code_Man` codemac Codynyx cofi cory786 CosmicRay cpt_nemo craisins crassus CrazyEddy crculver crk cross crus0e crus0e1 Cthulhux cthuluh cud cvandusen cyberspace- d1ffuz0r d4gg4d_ daimrod dale daniel-s danlamanna danlentz daveliepmann davexunit dbristow deadghost debris` defanor_ delYsid` demolithion Demosthenex Derander dermatthias derrida deSilva dfox dgvncsz0f didi dim dizzylizzy djcb dominikh dooglus_ dotemacs dothebart doublep Dr_Jazz_ drdo drewr dropdrive dturner dtw dualhbridge dueno duggiefresh dzho eagleflo easiere echo-area ecraven edenc effy el3ctron elarson elbeardmorez elik emacsnw_ emaphis emilh eN_Joy endou Entroacceptor epsylon` eqyiel erewhon ErhardtMundt eridu espiral ethif exobit expez fallout farn fdv fein felipe_ ferdy ffualo fhd fikusz fish2 fledermaus floatingman fmu foozbooz forcer fourOfTwelve fperrin FractalFive framling frankxu_ frito frobware froggey fsbot fschmitt Fubar^ Fuco fzzy galex-713 gaqzi garslo gazoombo genehack_ gensym GeorgeJetson ggherdov ggole gianlucadv gic gko gko_ gnomon Gooder gstamp Guest31630 Guest83584 gzg h0bbit_ h12o Han HandheldPenguin Hapsbanan haroldwu haroldwu2 haroldwu_cloud heath HedgeMage hewbrocca hgb hiredman hlprmnky hober Hodapp hohum_ hpd hyperair IanKelling icule iderrick_ ieure iiska illovae ingenious insatsu instilled isak IUSR ivan-kanis ivan\ ivan`` iwillig j0ni jabot_ jacres jaimef jannie jaredrhine jashank Javafant jave jayne jbalnit jcromartie JDHankle jdhoreotg jdoles jeekl jeffrubic jespada jesseadams jgama_ jgoss jimeh jinie jlf jlf_ jlindsay jmaister Jobbe johanbev johann__ Johannes` johnsu01 jonasac JordiGH joschka joshbamboo1 jrabbit jrm jstnhlj__ Judge_Dredd julienXX justinabrahms justinwe1ss jweiss k-man K0HAX k4yc44k5_ kablaam kahen kanru karbak kawamuray_ kbtr keen__ kek kelsin kensanata kenyon KevinSjoberg kickingvegas kiddouk_ kini kloeri kludge` klutomet1s kodein kordex korutsu- Koshian kossy Kruppe Krystof ktx kzar L42y Laynef ldlework lduros leathekd led_belly legov legumbre lemao leo2007 letbind levarnu lhx lightquake linuxguy101 literal loke loke`` lokydor lpaste LRH539 lunaryorn_ lykathea m6n_ m_kael_ macrobat macron madnificent magnars maio majoh malinus mami mandark marienz marjan- math0ne mathrick mattcen mattdawson maxigas mechairoi mee MetaCosm metasyntax mfisher mgaare_ mickn micro_ microcode MindlessDrone mishok13 MisterBubbles mitchty mjc1 mjrosenb mm-- mnemonikk mns mocker molqr Monolith| monotux MooGoo Mosu mrBliss mrSpec MrWoohoo msgodf mshroyer mstevens mstr msx mtk mtp muep munge murphy__ murr4y musca myeffort n2o4 NaCl Nahra nano- naqano_ Natch ndngvr ndrst necronian nemesit_ nephyrin Neptu neurodamage newcup nicferrier nihilifer nilg njsg njsg__ noam_ noorul noptys ntesir nuba nullman nunag nya_ obre ocharles offby1 offbyone ohama ok2 oleo osnr oufo OxDeadC0de ozialien ozzloy paddymahoney paroneayea PaulHarris pcarrier peder petey petrosil Philonous pjb pkkm pnkfelix portante prebz_ pregier prip progo przl pshuff puff` qDot_ qlkzy quackv4 quasisane quicksilver quist quotemstr RaceCondition raft Ralt ranek raph_ael Rapp rasmusto raso Raynes rdgr reactormonk redblue redeemed rediah reeses reim remote renard_ renzhi rgrinberg rien rizumu robmyers_ rods roe_ rotty rrn rryoumaa rstandy rudybot ruediger russm s15y sababa sabya sagittarian SamB samrat_ saorge sauerkrause scgilardi- schoppenhauer seangrove seantallen Seb segv- sellout- Sembei semente sepi serhart seschwar setheus_ seynb shadowdaemon Shambles_ sheepbat shergill shoshin Sierpinski sigjuice_ Sigma Silex sk_0[afk] Sketch ski smazga smeb smull solarus SomeDamnBody Sonderblade sontek sorabji5252 sorella Sorella_ spacebat spaceone specbot splitter_ srhb sshirokov stackofcats steckerhalter StMichel stokachu stomp subopt sunmoonstar superbil^^ SuperNoeMan sures surrounder svaksha swathe sword Sysaxed Takumo tali713 talyz targzeta tasdomas tauntaun TaylanUB tazjin tazle tbarletz technomancy teiresias tensorpudding tessier tg tgunr theBlackDragon TheBrayn TheCrittaC thelorax123 theos theRoUS thisirs thomases thorkill thrn tincricket tkd tmokros tommis ToothlessGear topi` Trademark91 tromey tsbtmn tsurutom Tsyesika turbofail tvaalen twem2 txxt tychoish Ulrar Unhammer unknown_lamer upgrayeddd ustunozgur uwjesq varlog vbernat vcgomes vds ve Veg Viiru vila Vivek Vorpal vt102 vterron_ vxe_ waaron wagle waisl wanders wapiflapi wbill wchun wdouglas` wgreenhouse WhichMatt wilder wilfredh Will| wizzo woddf2 wsmwk wunki wyan w|t xales xenophon xhrl xinming xneme xristos xrq yacks yhvh yonkeltron YoungFrog yrk z0d zaargy zacts Zagaba zakame zellio zeltak zenoli zenwryly zhengyi zobbo zol zoldar_ zw01 zygen zymurgy zz_karupanerura {cms}]
+2013-11-11 17:58:09	--	Channel #emacs: 715 nicks (0 ops, 0 voices, 715 normals)
+2013-11-11 17:58:10	--	URL for #emacs: http://www.emacswiki.org/EmacsChannel
+2013-11-11 17:58:10	--	Mode #emacs [+np]
+2013-11-11 17:58:10	--	Channel created on Sun, 26 Nov 2006 07:42:33
+2013-11-11 17:58:43	<--	jstnhlj__ has quit (Quit: Connection closed for inactivity)
+2013-11-11 17:59:36	bremner	TheBrayn: are you using the latest version?
+2013-11-11 17:59:51	<--	RaceCondition has quit (Quit: RaceCondition)
+2013-11-11 18:00:05	<--	mstevens has quit (Quit: leaving)
+2013-11-11 18:00:10	<--	lunaryorn_ has quit (Quit: lunaryorn_)
+2013-11-11 18:00:12	-->	tiwula has joined #emacs
+2013-11-11 18:00:28	TheBrayn	the one from the marmalade repo, 13.7
+2013-11-11 18:00:32	-->	nullie has joined #emacs
+2013-11-11 18:00:36	bremner	sounds recent.
+2013-11-11 18:01:03	<--	tazjin has quit (Ping timeout: 252 seconds)
+2013-11-11 18:01:28	TheBrayn	http://codepad.org/CFIY3EvD those are my minor modes
+2013-11-11 18:02:10	-->	lunaryorn has joined #emacs
+2013-11-11 18:02:17	bremner	turn them all off?
+2013-11-11 18:02:24	<--	kensanata has quit (Remote host closed the connection)
+2013-11-11 18:02:53	<--	lunaryorn has quit (Client Quit)
+2013-11-11 18:03:18	TheBrayn	how can do that temporarily?
+2013-11-11 18:03:39	-->	edw has joined #emacs
+2013-11-11 18:03:49	bremner	maybe start with -q, and just load Haskell-mode? I don't know marmelade well engoough for a more informed answer.
+2013-11-11 18:04:13	<--	leo2007 has quit (Ping timeout: 272 seconds)
+2013-11-11 18:04:15	sword	engoough to you too
+2013-11-11 18:04:22	bremner	or spelling.
+2013-11-11 18:05:01	<--	rstandy has quit (Ping timeout: 245 seconds)
+2013-11-11 18:06:13	-->	pointzeronine has joined #emacs
+2013-11-11 18:06:25	-->	mstevens has joined #emacs
+2013-11-11 18:06:29	<--	iwillig has quit (Read error: Operation timed out)
+2013-11-11 18:07:41	-->	ustunozg_ has joined #emacs
+2013-11-11 18:08:18	-->	holomorph has joined #emacs
+2013-11-11 18:08:20	didi	It's been a long time since I last used M-x gdb. Why is it asking me for `Do you need "set solib-search-path" or "set sysroot"?'?
+2013-11-11 18:08:22	<--	mishok13 has quit (Ping timeout: 272 seconds)
+2013-11-11 18:08:45	-->	drot has joined #emacs
+2013-11-11 18:09:10	-->	erkin has joined #emacs
+2013-11-11 18:09:17	<--	bipt has quit (Ping timeout: 272 seconds)
+2013-11-11 18:09:20	-->	Brokkr has joined #emacs
+2013-11-11 18:09:23	--	Brokkr is now known as Guest26096
+2013-11-11 18:09:45	-->	nu7hatch has joined #emacs
+2013-11-11 18:10:30	<--	justinabrahms has quit (Ping timeout: 252 seconds)
+2013-11-11 18:10:51	didi	Oh well, it seems I'll have to do some reading.
+2013-11-11 18:10:55	<--	oleo has quit (Read error: Connection reset by peer)
+2013-11-11 18:11:27	letbind	didi: it's probably coming from the init file.
+2013-11-11 18:11:27	<--	ustunozgur has quit (Ping timeout: 265 seconds)
+2013-11-11 18:11:36	letbind	.gdbinit or something
+2013-11-11 18:11:41	-->	Chat8331 has joined #emacs
+2013-11-11 18:11:43	<--	Chat8331 has quit (Client Quit)
+2013-11-11 18:12:34	-->	oleo has joined #emacs
+2013-11-11 18:13:49	<--	przl has quit (Ping timeout: 252 seconds)
+2013-11-11 18:14:28	-->	Chat8331 has joined #emacs
+2013-11-11 18:14:45	<--	targzeta has quit (Remote host closed the connection)
+2013-11-11 18:14:51	-->	deech has joined #emacs
+2013-11-11 18:15:07	<--	bontaq has quit (Remote host closed the connection)
+2013-11-11 18:15:43	-->	bontaq has joined #emacs
+2013-11-11 18:16:09	<--	Chat8331 has quit (Client Quit)
+2013-11-11 18:16:43	didi	letbind: I don't have one. Also, it doesn't ask me this if I run gdb from the shell. Nah, running from the shell will do for now.
+2013-11-11 18:16:43	sword	oh nice
+2013-11-11 18:17:04	sword	compilation-scroll-output 'first-error
+2013-11-11 18:18:23	-->	mahmoudimus has joined #emacs
+2013-11-11 18:18:36	<--	shoshin has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 18:18:40	<--	theos has quit (Ping timeout: 240 seconds)
+2013-11-11 18:20:12	<--	msgodf has quit (Read error: Connection reset by peer)
+2013-11-11 18:23:27	-->	hrehf has joined #emacs
+2013-11-11 18:23:53	<--	instilled has quit (Quit: Leaving.)
+2013-11-11 18:24:41	<--	cluck has quit (Ping timeout: 240 seconds)
+2013-11-11 18:25:56	-->	instilled has joined #emacs
+2013-11-11 18:26:28	<--	instilled has quit (Client Quit)
+2013-11-11 18:26:34	-->	cluck has joined #emacs
+2013-11-11 18:27:01	-->	iwillig has joined #emacs
+2013-11-11 18:27:01	<--	jlf has quit (Ping timeout: 252 seconds)
+2013-11-11 18:27:11	<--	sorella has quit (Disconnected by services)
+2013-11-11 18:27:19	--	Sorella_ is now known as Sorella
+2013-11-11 18:27:27	<--	Sorella has quit (Changing host)
+2013-11-11 18:27:27	-->	Sorella has joined #emacs
+2013-11-11 18:28:44	-->	hs366 has joined #emacs
+2013-11-11 18:29:49	<--	rediah has quit (Ping timeout: 265 seconds)
+2013-11-11 18:31:23	<--	jespada has quit (Quit: Leaving)
+2013-11-11 18:32:05	-->	theos has joined #emacs
+2013-11-11 18:33:21	<--	smazga has quit (Ping timeout: 272 seconds)
+2013-11-11 18:34:52	<--	chandan_ has quit (Quit: Konversation terminated!)
+2013-11-11 18:34:53	<--	thelorax123 has quit (Remote host closed the connection)
+2013-11-11 18:34:54	<--	waisl has quit (Remote host closed the connection)
+2013-11-11 18:35:12	<--	gko_ has quit (Ping timeout: 264 seconds)
+2013-11-11 18:35:49	<--	Johannes` has quit (Remote host closed the connection)
+2013-11-11 18:36:28	<--	aartist has quit (Ping timeout: 245 seconds)
+2013-11-11 18:36:34	-->	thelorax123 has joined #emacs
+2013-11-11 18:38:41	<--	blackmesa has quit (Remote host closed the connection)
+2013-11-11 18:39:40	-->	banisterfiend has joined #emacs
+2013-11-11 18:40:34	<--	Sonderblade has quit (Quit: Lämnar)
+2013-11-11 18:40:35	-->	dhruvasagar has joined #emacs
+2013-11-11 18:40:36	<--	h0bbit_ has quit (Ping timeout: 264 seconds)
+2013-11-11 18:42:41	-->	zobi8225 has joined #emacs
+2013-11-11 18:42:45	<--	zobi8225 has left #emacs ("WeeChat 0.4.2")
+2013-11-11 18:42:59	-->	jhulten has joined #emacs
+2013-11-11 18:43:15	-->	justinabrahms has joined #emacs
+2013-11-11 18:43:17	-->	jeffisabelle has joined #emacs
+2013-11-11 18:44:15	-->	marcanuy has joined #emacs
+2013-11-11 18:44:27	-->	bitonic has joined #emacs
+2013-11-11 18:47:33	<--	boycottg00gle has quit (Remote host closed the connection)
+2013-11-11 18:47:57	<--	ustunozg_ has quit (Remote host closed the connection)
+2013-11-11 18:48:09	<--	kek has quit (Remote host closed the connection)
+2013-11-11 18:48:17	<--	jeffisabelle has quit (Ping timeout: 272 seconds)
+2013-11-11 18:48:18	-->	MicaiahC has joined #emacs
+2013-11-11 18:48:45	-->	ustunozgur has joined #emacs
+2013-11-11 18:48:47	<--	sk_0[afk] has quit (Read error: Operation timed out)
+2013-11-11 18:51:11	-->	sk_0[afk] has joined #emacs
+2013-11-11 18:51:19	-->	przl has joined #emacs
+2013-11-11 18:51:58	<--	aspiers has quit (Read error: Operation timed out)
+2013-11-11 18:52:43	<--	rryoumaa has quit (Ping timeout: 272 seconds)
+2013-11-11 18:52:57	<--	frito has quit (Remote host closed the connection)
+2013-11-11 18:55:44	<--	tromey has quit (Ping timeout: 244 seconds)
+2013-11-11 18:55:47	<--	dhruvasagar has quit (Ping timeout: 272 seconds)
+2013-11-11 18:57:36	<--	ananthakumaran has quit (Quit: Leaving.)
+2013-11-11 18:58:20	<--	cha1tanya has quit (Ping timeout: 272 seconds)
+2013-11-11 18:58:41	--	sk_0[afk] is now known as sk_0
+2013-11-11 18:59:56	-->	smazga has joined #emacs
+2013-11-11 19:02:25	<--	zenwryly has quit (Excess Flood)
+2013-11-11 19:02:32	-->	zenwryly has joined #emacs
+2013-11-11 19:02:52	-->	sritchie has joined #emacs
+2013-11-11 19:05:25	<--	smazga has quit (Ping timeout: 240 seconds)
+2013-11-11 19:05:48	<--	pointzeronine has quit (Ping timeout: 264 seconds)
+2013-11-11 19:05:57	<--	sk_0 has left #emacs
+2013-11-11 19:06:23	<--	wizzo has quit (Ping timeout: 240 seconds)
+2013-11-11 19:06:53	-->	kliph has joined #emacs
+2013-11-11 19:07:56	<--	TaylanUB has quit (Disconnected by services)
+2013-11-11 19:08:03	-->	TaylanUB has joined #emacs
+2013-11-11 19:08:56	<--	sellout- has quit (Quit: Leaving.)
+2013-11-11 19:09:14	-->	rryoumaa has joined #emacs
+2013-11-11 19:09:31	-->	c0rn has joined #emacs
+2013-11-11 19:09:33	-->	felipealmeida has joined #emacs
+2013-11-11 19:10:43	-->	pointzeronine has joined #emacs
+2013-11-11 19:11:20	<--	wgreenhouse has quit (Remote host closed the connection)
+2013-11-11 19:11:33	oleo	eeeep, it twinkles from 5 feet below!
+2013-11-11 19:11:37	oleo	lol
+2013-11-11 19:12:53	-->	wizzo has joined #emacs
+2013-11-11 19:13:03	<--	zenwryly has quit (Excess Flood)
+2013-11-11 19:13:08	<--	mickn has quit (Quit: Leaving)
+2013-11-11 19:13:09	-->	zenwryly has joined #emacs
+2013-11-11 19:13:11	<--	zenwryly has quit (Excess Flood)
+2013-11-11 19:13:18	-->	zenwryly has joined #emacs
+2013-11-11 19:13:18	<--	jaimef has quit (Excess Flood)
+2013-11-11 19:13:37	-->	wgreenhouse has joined #emacs
+2013-11-11 19:13:57	-->	jaimef has joined #emacs
+2013-11-11 19:14:25	-->	dhruvasagar has joined #emacs
+2013-11-11 19:14:40	<--	hs366 has quit (Quit: Leaving)
+2013-11-11 19:16:21	-->	M00R1Z has joined #emacs
+2013-11-11 19:18:12	<--	przl has quit (Ping timeout: 248 seconds)
+2013-11-11 19:18:16	-->	eis_ has joined #emacs
+2013-11-11 19:19:32	-->	DomKM has joined #emacs
+2013-11-11 19:19:53	-->	Joreji has joined #emacs
+2013-11-11 19:19:55	<--	banisterfiend has quit (Quit: Computer has gone to sleep.)
+2013-11-11 19:22:04	-->	kek has joined #emacs
+2013-11-11 19:22:26	<--	letbind has left #emacs ("ERC Version 5.3 (IRC client for Emacs)")
+2013-11-11 19:22:29	<--	math0ne has quit (Ping timeout: 272 seconds)
+2013-11-11 19:23:32	<--	pkkm has quit (Ping timeout: 248 seconds)
+2013-11-11 19:24:14	<--	CrazyEddy has quit (Ping timeout: 252 seconds)
+2013-11-11 19:24:41	-->	ryanc has joined #emacs
+2013-11-11 19:24:55	<--	ryanc has quit (Changing host)
+2013-11-11 19:24:55	-->	ryanc has joined #emacs
+2013-11-11 19:25:10	-->	jeffisabelle has joined #emacs
+2013-11-11 19:25:25	<--	M00R1Z has left #emacs ("ERC Version 5.3 (IRC client for Emacs)")
+2013-11-11 19:25:50	<--	haroldwu2 has quit (Quit: Connection closed for inactivity)
+2013-11-11 19:27:39	<--	fledermaus has quit (Ping timeout: 264 seconds)
+2013-11-11 19:27:54	-->	hiroaki has joined #emacs
+2013-11-11 19:28:08	marcanuy	I'm using php-mode trying to put tabs as the indent key, but c-indent-command keeps inserting 2 spaces, any idea?
+2013-11-11 19:28:09	-->	glosoli has joined #emacs
+2013-11-11 19:28:11	-->	banisterfiend has joined #emacs
+2013-11-11 19:28:48	-->	ustunozg_ has joined #emacs
+2013-11-11 19:29:00	<--	kablaam has quit (Read error: Operation timed out)
+2013-11-11 19:29:48	-->	twoface88 has joined #emacs
+2013-11-11 19:31:28	<--	twoface88 has quit (Client Quit)
+2013-11-11 19:31:28	-->	jlf has joined #emacs
+2013-11-11 19:32:02	<--	zenwryly has quit (Excess Flood)
+2013-11-11 19:32:09	-->	zenwryly has joined #emacs
+2013-11-11 19:32:38	<--	ustunozgur has quit (Ping timeout: 272 seconds)
+2013-11-11 19:33:26	<--	ustunozg_ has quit (Ping timeout: 260 seconds)
+2013-11-11 19:33:30	<--	wilder has quit (Remote host closed the connection)
+2013-11-11 19:33:31	<--	exobit has quit (Quit: I'm out!)
+2013-11-11 19:34:07	-->	mishok13 has joined #emacs
+2013-11-11 19:35:49	<--	kliph has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2013-11-11 19:36:15	-->	tilgovi has joined #emacs
+2013-11-11 19:38:33	-->	emaphis` has joined #emacs
+2013-11-11 19:39:32	-->	CrazyEddy has joined #emacs
+2013-11-11 19:40:16	<--	sritchie has quit (Quit: sritchie)
+2013-11-11 19:40:40	<--	emaphis has quit (Ping timeout: 244 seconds)
+2013-11-11 19:41:27	-->	abeaumont has joined #emacs
+2013-11-11 19:43:55	sword	yay emacs!
+2013-11-11 19:44:20	emaphis`	Horray!!
+2013-11-11 19:45:27	<--	dtw has quit (Quit: (invoke-restart 'dtw:sleep))
+2013-11-11 19:46:03	<--	c0rn has quit (Remote host closed the connection)
+2013-11-11 19:47:32	-->	c0rn has joined #emacs
+2013-11-11 19:47:43	AlterSid	Hooray! Hooray! it was nice to emacs things today \o/
+2013-11-11 19:47:50	<--	fish2 has quit (Ping timeout: 272 seconds)
+2013-11-11 19:47:56	<--	Codynyx has quit (Read error: Connection reset by peer)
+2013-11-11 19:48:01	sword	Let's have an emacsparty
+2013-11-11 19:48:20	AlterSid	let's be overly enthusiast.. like.. forever!
+2013-11-11 19:48:45	-->	Codynyx has joined #emacs
+2013-11-11 19:48:47	Han	yay!
+2013-11-11 19:48:49	emaphis`	8)
+2013-11-11 19:48:58	oleo	(O-0)
+2013-11-11 19:49:12	sword	,apropos-dude homie
+2013-11-11 19:49:13	fsbot	No matches found
+2013-11-11 19:49:19	oleo	owwwww
+2013-11-11 19:49:41	oleo	thou stabbeth me to death!
+2013-11-11 19:49:43	<--	jlf has quit (Ping timeout: 260 seconds)
+2013-11-11 19:49:47	oleo	lol
+2013-11-11 19:49:53	-->	waisl has joined #emacs
+2013-11-11 19:50:19	oleo	burn the stars!
+2013-11-11 19:50:21	-->	pkkm has joined #emacs
+2013-11-11 19:50:28	oleo	wait no, they are already burnin...hrmmmmmm
+2013-11-11 19:50:36	oleo	shiiite!
+2013-11-11 19:50:39	sword	smoke 'em
+2013-11-11 19:50:41	oleo	lol
+2013-11-11 19:50:54	AlterSid	oleo: some are even burned out
+2013-11-11 19:50:54	<--	crus0e has quit (Quit: Leaving.)
+2013-11-11 19:51:15	waisl	is there a way to retrieve all the buffers which are currently visible either in all frames or in the current frame?
+2013-11-11 19:51:32	<--	Judge_Dredd has quit (Quit: Leaving.)
+2013-11-11 19:51:38	oleo	faschizzo universoid it is!
+2013-11-11 19:52:00	-->	microamp has joined #emacs
+2013-11-11 19:52:39	SamB	waisl: I expect you loop over all windows [of all frames] and find out what buffer each is showing?
+2013-11-11 19:52:57	-->	macrover has joined #emacs
+2013-11-11 19:52:58	waisl	good idea
+2013-11-11 19:53:31	-->	msgodf has joined #emacs
+2013-11-11 19:54:19	<--	crus0e1 has quit (Ping timeout: 252 seconds)
+2013-11-11 19:54:59	<--	banisterfiend has quit (Quit: Computer has gone to sleep.)
+2013-11-11 19:55:33	<--	segv- has quit (Read error: Connection reset by peer)
+2013-11-11 19:56:19	-->	targzeta has joined #emacs
+2013-11-11 19:57:17	-->	banisterfiend has joined #emacs
+2013-11-11 19:58:06	<--	gstamp has quit (Ping timeout: 256 seconds)
+2013-11-11 19:58:41	-->	Mon_Ouie has joined #emacs
+2013-11-11 19:58:48	-->	baudtack has joined #emacs
+2013-11-11 19:59:07	-->	danielszmulewicz has joined #emacs
+2013-11-11 19:59:10	-->	segv- has joined #emacs
+2013-11-11 19:59:22	-->	gstamp has joined #emacs
+2013-11-11 20:00:10	-->	Kron has joined #emacs
+2013-11-11 20:01:16	JordiGH	God, I hope bookos.org and bookfi.org survive more than library.nu
+2013-11-11 20:01:16	wgreenhouse	,df window-list
+2013-11-11 20:01:17	fsbot	window-list is a built-in function in `window.c'.
+2013-11-11 20:01:17	fsbot	(window-list &optional FRAME MINIBUF WINDOW)
+2013-11-11 20:01:17	fsbot	Return a list of windows on FRAME, starting with WINDOW.
+2013-11-11 20:01:17	fsbot	FRAME nil or omitted means use the selected frame. ..[Type ,more]
+2013-11-11 20:01:42	wgreenhouse	,df frame-list
+2013-11-11 20:01:43	fsbot	frame-list is a built-in function in `frame.c'.
+2013-11-11 20:01:43	fsbot	(frame-list)
+2013-11-11 20:01:43	fsbot	Return a list of all live frames.
+2013-11-11 20:02:14	-->	aspiers has joined #emacs
+2013-11-11 20:02:25	wgreenhouse	waisl: try something like (mapcar 'window-list (frame-list))
+2013-11-11 20:03:07	<--	espiral has quit (Ping timeout: 252 seconds)
+2013-11-11 20:03:11	-->	Lorcatar has joined #emacs
+2013-11-11 20:03:19	<--	Joreji has quit (Ping timeout: 260 seconds)
+2013-11-11 20:03:25	<--	danielszmulewicz has quit (Ping timeout: 244 seconds)
+2013-11-11 20:03:29	wgreenhouse	(mapcar 'window-buffer (mapcar 'window-list (frame-list)))
+2013-11-11 20:03:30	Lorcatar	Hi. What are some cool things to add to emacs. 
+2013-11-11 20:03:38	sword	yourself
+2013-11-11 20:03:39	wgreenhouse	heh, lol
+2013-11-11 20:03:41	Lorcatar	to rice my emacs
+2013-11-11 20:03:48	JordiGH	Lorcatar: ,,nyan-cat mode
+2013-11-11 20:03:49	fsbot	JordiGH: I heard nyan is [0] If you must know, http://knowyourmeme.com/memes/nyan-cat-pop-tart-cat
+2013-11-11 20:03:49	fsbot	[1] A sound utterred by the insane,
+2013-11-11 20:03:49	fsbot	[2] see nyan-mode
+2013-11-11 20:03:49	Lorcatar	add some swag
+2013-11-11 20:03:56	JordiGH	,nyan-mode
+2013-11-11 20:03:57	fsbot	From memory, nyan-mode is [0] a Nyan Cat mode for emacs
+2013-11-11 20:03:57	fsbot	[1] https://github.com/TeMPOraL/nyan-mode,
+2013-11-11 20:03:57	fsbot	[2] http://www.youtube.com/watch?v=oTjeBRMEPcw#t=30s,
+2013-11-11 20:03:57	fsbot	[3] very simply implemented and easy to hack
+2013-11-11 20:04:22	sword	,coffee
+2013-11-11 20:04:22	fsbot	coffee.el -- [0] an interface to an RFC2324 compliant coffee making device for Emacs. You can find it at http://www.chez.com/emarsden/downloads/
+2013-11-11 20:04:23	fsbot	[1] HyperText Coffee Pot Control Protocol
+2013-11-11 20:04:32	waisl	wgreenhouse: thakns
+2013-11-11 20:04:34	wgreenhouse	waisl: the first works, the second doesn't ;-)
+2013-11-11 20:04:57	-->	bontaq_ has joined #emacs
+2013-11-11 20:05:29	mathrick	"It’s under the ABRMS license (“Anyone But Richard M Stallman”). So, in the unlikely event that you need a simple and nearly free 6502 assembler, and in the likely event that you’re not RMS, you’re in luck."
+2013-11-11 20:05:41	-->	przl has joined #emacs
+2013-11-11 20:05:44	waisl	working on something similar to windo that applies an operation on currently visible windows from the vim world
+2013-11-11 20:05:53	wgreenhouse	waisl: (mapcar 'window-buffer (apply 'window-list (frame-list))) is better
+2013-11-11 20:06:09	<--	seynb has quit (Remote host closed the connection)
+2013-11-11 20:06:34	waisl	that is perfect, thanks
+2013-11-11 20:07:17	Apic	How can I trim a Line (remove Whitespace at the End)?
+2013-11-11 20:07:32	AeroNotix	I can reproduce a segfault in emacs in one of two ways, but I can't seem to compile emacs with debug symbols in it. Any way forward here?
+2013-11-11 20:07:45	<--	bontaq has quit (Ping timeout: 272 seconds)
+2013-11-11 20:08:27	<--	marjan- has quit (Read error: Connection reset by peer)
+2013-11-11 20:08:36	wgreenhouse	Apic: ,,df delete-trailing-whitespace
+2013-11-11 20:08:36	fsbot	delete-trailing-whitespace is an interactive compiled Lisp function in
+2013-11-11 20:08:36	fsbot	`simple.el'.
+2013-11-11 20:08:37	fsbot	(delete-trailing-whitespace &optional START END)
+2013-11-11 20:08:37	fsbot	Delete all the trailing whitespace across the current buffer. ..[Type ,more]
+2013-11-11 20:08:40	Apic	Thanks.
+2013-11-11 20:09:04	-->	Joreji has joined #emacs
+2013-11-11 20:09:09	Apic	Works.
+2013-11-11 20:09:45	wgreenhouse	AeroNotix: the emacs source tree comes with a .gdbinit under the src/ dir.  compile emacs and run "gdb ./emacs" from there
+2013-11-11 20:10:06	-->	fish2 has joined #emacs
+2013-11-11 20:10:23	wgreenhouse	this will give you backtraces that are much more verbose (including current Lisp function call, X stuff, etc.)
+2013-11-11 20:10:44	<--	glosoli has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 20:11:09	-->	espiral has joined #emacs
+2013-11-11 20:12:39	<--	Codynyx has quit (Ping timeout: 252 seconds)
+2013-11-11 20:13:13	<--	vila has quit (Quit: Leaving)
+2013-11-11 20:13:36	-->	jfdm has joined #emacs
+2013-11-11 20:14:02	-->	noahsussman has joined #emacs
+2013-11-11 20:14:27	-->	h0bbit_ has joined #emacs
+2013-11-11 20:14:29	<--	fish2 has quit (Ping timeout: 252 seconds)
+2013-11-11 20:14:29	-->	Codynyx has joined #emacs
+2013-11-11 20:15:40	<--	nilg has quit (Remote host closed the connection)
+2013-11-11 20:16:39	-->	YetiBob has joined #emacs
+2013-11-11 20:16:43	<--	Lorcatar has quit (Remote host closed the connection)
+2013-11-11 20:17:14	-->	sellout- has joined #emacs
+2013-11-11 20:17:34	YetiBob	hi.  i'm using nose.el to run nosetests in emacs, it doesn't prompt for saving files even though compilation-ask-about-save is t
+2013-11-11 20:19:13	YetiBob	added (save-some-buffers) to run-nose, gets me what i want, but it seems i should not have to do so
+2013-11-11 20:19:15	-->	johsan has joined #emacs
+2013-11-11 20:19:23	tali713	wow, the abrms license is very poorly designed.
+2013-11-11 20:19:41	bremner	and people call the wtfpl a joke license
+2013-11-11 20:19:45	wgreenhouse	as one might expect
+2013-11-11 20:20:04	tali713	bremner: yeah, but iirc it doesn't screw up the one thing that abrms does.
+2013-11-11 20:20:53	-->	eldariof has joined #emacs
+2013-11-11 20:21:36	tali713	that is, attempt to have a binding clause but failing to require that redistributed versions include the license.
+2013-11-11 20:21:36	--	johsan is now known as greengas
+2013-11-11 20:22:16	<--	Sigma has quit (Quit: WeeChat 0.4.2)
+2013-11-11 20:22:32	<--	aspiers has quit (Ping timeout: 244 seconds)
+2013-11-11 20:22:44	-->	Sigma has joined #emacs
+2013-11-11 20:23:06	<--	greengas has left #emacs ("rcirc on GNU Emacs 24.3.50.1")
+2013-11-11 20:23:19	-->	greengas has joined #emacs
+2013-11-11 20:23:32	-->	Lorcatar has joined #emacs
+2013-11-11 20:24:56	-->	pheaver has joined #emacs
+2013-11-11 20:25:02	-->	shoshin_ has joined #emacs
+2013-11-11 20:25:03	<--	shoshin_ has quit (Max SendQ exceeded)
+2013-11-11 20:25:33	<--	zenwryly has quit (Excess Flood)
+2013-11-11 20:25:38	-->	shoshin_ has joined #emacs
+2013-11-11 20:25:41	-->	zenwryly has joined #emacs
+2013-11-11 20:27:14	<--	nya_ has quit (Remote host closed the connection)
+2013-11-11 20:27:26	<--	pregier has quit (Remote host closed the connection)
+2013-11-11 20:27:44	<--	fikusz has quit (Ping timeout: 245 seconds)
+2013-11-11 20:27:49	-->	nya_ has joined #emacs
+2013-11-11 20:28:10	-->	fikusz has joined #emacs
+2013-11-11 20:30:21	<--	bocaneri has quit (Read error: Connection reset by peer)
+2013-11-11 20:32:14	<--	nya_ has quit (Ping timeout: 240 seconds)
+2013-11-11 20:32:34	<--	duggiefresh has quit (Remote host closed the connection)
+2013-11-11 20:32:55	<--	jeffisabelle has quit (Remote host closed the connection)
+2013-11-11 20:33:00	-->	duggiefresh has joined #emacs
+2013-11-11 20:34:09	-->	ustunozgur has joined #emacs
+2013-11-11 20:34:16	<--	ustunozgur has quit (Remote host closed the connection)
+2013-11-11 20:34:22	waisl	in case you all have not seen this yet, guide-key is really cool and helps quickly recall/display lesser used commands like those banished to C-x 4 and C-x r (https://github.com/kbkbkbkb1/guide-key)
+2013-11-11 20:34:22	-->	ustunozgur has joined #emacs
+2013-11-11 20:34:31	waisl	I have been really liking it thus far
+2013-11-11 20:34:34	-->	codygman has joined #emacs
+2013-11-11 20:34:50	-->	jeffisabelle has joined #emacs
+2013-11-11 20:35:49	-->	duggiefr_ has joined #emacs
+2013-11-11 20:36:01	<--	duggiefresh has quit (Remote host closed the connection)
+2013-11-11 20:36:27	AeroNotix	w00t finally -- https://gist.github.com/AeroNotix/368ada4c84e7a52f461d
+2013-11-11 20:36:28	<--	duggiefr_ has quit (Client Quit)
+2013-11-11 20:36:34	-->	cosmez has joined #emacs
+2013-11-11 20:36:38	-->	duggiefresh has joined #emacs
+2013-11-11 20:37:47	<--	Joreji has quit (Ping timeout: 272 seconds)
+2013-11-11 20:38:56	AeroNotix	redisplay internal creates an instance of a struct but never initializes a member which is later used.
+2013-11-11 20:39:06	<--	nullie has quit (Remote host closed the connection)
+2013-11-11 20:39:38	--	emaphis` is now known as emaphis
+2013-11-11 20:39:47	<--	pkkm has quit (Ping timeout: 252 seconds)
+2013-11-11 20:40:12	-->	BruceConnor has joined #emacs
+2013-11-11 20:40:18	<--	jbalnit has quit (Quit: Leaving.)
+2013-11-11 20:40:28	<--	BruceConnor has quit (Remote host closed the connection)
+2013-11-11 20:41:12	-->	aidalgol has joined #emacs
+2013-11-11 20:41:46	<--	targzeta has quit (Quit: Leaving.)
+2013-11-11 20:42:48	<--	petey has quit (Remote host closed the connection)
+2013-11-11 20:43:15	-->	digie has joined #emacs
+2013-11-11 20:43:24	-->	petey has joined #emacs
+2013-11-11 20:43:46	-->	Joreji has joined #emacs
+2013-11-11 20:43:52	<--	jeffisabelle has quit (Ping timeout: 260 seconds)
+2013-11-11 20:44:02	-->	twoface88 has joined #emacs
+2013-11-11 20:44:05	<--	ggole has quit
+2013-11-11 20:44:07	<--	twoface88 has quit (Client Quit)
+2013-11-11 20:44:21	-->	jlf has joined #emacs
+2013-11-11 20:44:49	-->	phracek has joined #emacs
+2013-11-11 20:45:15	<--	eldariof has quit (Ping timeout: 260 seconds)
+2013-11-11 20:45:57	-->	glosoli has joined #emacs
+2013-11-11 20:46:01	<--	c0rn has quit (Ping timeout: 272 seconds)
+2013-11-11 20:46:38	<--	FractalFive has quit (Ping timeout: 264 seconds)
+2013-11-11 20:48:03	<--	petey has quit (Ping timeout: 260 seconds)
+2013-11-11 20:48:13	<--	macrover has quit (Remote host closed the connection)
+2013-11-11 20:50:27	AeroNotix	holy shit this file is 30k lines long
+2013-11-11 20:51:25	wgreenhouse	xdisp?  yeah, many of the individual functions are hundreds of lines, too
+2013-11-11 20:51:34	AeroNotix	I'm kind of lost here
+2013-11-11 20:51:40	<--	ranek has quit (Ping timeout: 264 seconds)
+2013-11-11 20:51:40	AeroNotix	gonna post this to the mailing list
+2013-11-11 20:52:11	wgreenhouse	yeah, report-emacs-bug with that trace and the recipe to make the segfault if you're lost :)
+2013-11-11 20:52:38	AeroNotix	wgreenhouse: M-x version
+2013-11-11 20:52:48	AeroNotix	GNU Emacs 24.3.1 (x86_64-unknown-linux-gnu, GTK+ Version 3.10.2)\n of 2013-11-11 on archbox.
+2013-11-11 20:52:53	AeroNotix	here, what about you?
+2013-11-11 20:52:57	AeroNotix	perhaps you could try this
+2013-11-11 20:53:01	wgreenhouse	GNU Emacs 24.3.1 (x86_64-slackware-linux-gnu) of 2013-06-11 on motoko
+2013-11-11 20:53:05	AeroNotix	I usually get it to segfault with unually long lines
+2013-11-11 20:53:11	wgreenhouse	(X here, but no gtk)
+2013-11-11 20:53:13	-->	M00R1Z has joined #emacs
+2013-11-11 20:53:16	AeroNotix	ok
+2013-11-11 20:53:25	wgreenhouse	how long is unusually long?
+2013-11-11 20:53:33	aidalgol	rudybot: seen nicferrier 
+2013-11-11 20:53:33	rudybot	aidalgol: nicferrier was seen in #emacs three hours ago, saying "I thought you meant like eurocrats. civil servants of the EU.", and then nicferrier was seen in #emacs three hours ago, saying "I can't ever feel sympathy fo them probably."
+2013-11-11 20:53:37	AeroNotix	2/3 hundred lines
+2013-11-11 20:53:48	AeroNotix	uh, chars
+2013-11-11 20:53:59	wgreenhouse	AeroNotix: just insert 300 columns worth of stuff in a buffer?
+2013-11-11 20:54:03	-->	sohail has joined #emacs
+2013-11-11 20:54:09	AeroNotix	wgreenhouse: not in regular buffers, though
+2013-11-11 20:54:10	<--	sohail has quit (Changing host)
+2013-11-11 20:54:10	-->	sohail has joined #emacs
+2013-11-11 20:54:17	AeroNotix	specific *kinds* of buffers, which is wierd
+2013-11-11 20:54:25	AeroNotix	slime repl, rgrep results
+2013-11-11 20:54:43	AeroNotix	those two I know exactly how to segv it. Just try to 'end-of-line' a long line
+2013-11-11 20:54:51	wgreenhouse	ok
+2013-11-11 20:56:02	<--	M00R1Z has left #emacs ("ERC Version 5.3 (IRC client for Emacs)")
+2013-11-11 20:56:07	wgreenhouse	AeroNotix: I just tried inserting the letter g 400 times in a slime repl (M-4 0 0 g) and M-x end-of-line.  no problems
+2013-11-11 20:56:42	-->	jeffisabelle has joined #emacs
+2013-11-11 20:56:47	<--	Sorella has quit (Quit: Ex-Chat)
+2013-11-11 20:56:52	-->	nilg has joined #emacs
+2013-11-11 20:57:23	-->	pkkm has joined #emacs
+2013-11-11 20:57:31	wgreenhouse	also no problem with 5000 gs
+2013-11-11 20:57:50	<--	jhulten has quit (Remote host closed the connection)
+2013-11-11 20:57:51	<--	drot has quit (Quit: rcirc on GNU Emacs 24.3.1)
+2013-11-11 20:57:54	wgreenhouse	is there something more to the recipe?
+2013-11-11 20:58:17	AeroNotix	try rgrepping
+2013-11-11 20:58:18	-->	jhulten has joined #emacs
+2013-11-11 20:58:25	AeroNotix	And I dunno, it seems to be on specific output
+2013-11-11 20:58:32	AeroNotix	but rgrep just seems to be long lines
+2013-11-11 20:59:08	<--	daveliepmann has quit (Read error: Connection reset by peer)
+2013-11-11 20:59:36	-->	daveliepmann has joined #emacs
+2013-11-11 20:59:51	AeroNotix	gotcha
+2013-11-11 20:59:51	-->	jhulten_ has joined #emacs
+2013-11-11 20:59:58	wgreenhouse	heh, progresS?
+2013-11-11 21:00:10	AeroNotix	(make-string 500000 :initial-element #\G)
+2013-11-11 21:00:11	<--	pnkfelix has quit (Quit: Leaving.)
+2013-11-11 21:00:14	<--	jhulten has quit (Read error: Connection reset by peer)
+2013-11-11 21:00:19	AeroNotix	might be for another reason that, though
+2013-11-11 21:00:35	AeroNotix	(SBCL)
+2013-11-11 21:00:51	-->	rrichardsr3 has joined #emacs
+2013-11-11 21:01:05	-->	marjan- has joined #emacs
+2013-11-11 21:01:11	crassus	what would be the prefix key in google glass' emacs?
+2013-11-11 21:01:31	YetiBob	crassus:  wink
+2013-11-11 21:01:41	-->	M00R1Z has joined #emacs
+2013-11-11 21:01:46	YetiBob	crassus:  well, there are a few.  Wink, Blink, and Eyeroll
+2013-11-11 21:02:01	-->	c0rn has joined #emacs
+2013-11-11 21:03:00	<--	jlf has quit (Ping timeout: 260 seconds)
+2013-11-11 21:03:27	<--	M00R1Z has left #emacs
+2013-11-11 21:03:29	-->	namtsui has joined #emacs
+2013-11-11 21:03:38	cvandusen	rudybot: hairy eyeball
+2013-11-11 21:03:41	rudybot	cvandusen: 'there's nothing like an old fashioned eyeball orgasm'
+2013-11-11 21:03:49	<--	noahsussman has quit (Remote host closed the connection)
+2013-11-11 21:03:50	cvandusen	,yow
+2013-11-11 21:03:50	fsbot	FIRST, I'm covering you with OLIVE OIL and PRUNE WHIP!!
+2013-11-11 21:04:02	wgreenhouse	AeroNotix: I can C-a and C-e in the buffer after making the huge string, but display performance takes a serious hit.  there are known issues with the display engine for extremely long lines (500k counts, 500 doesn't really)
+2013-11-11 21:04:13	marcanuy	I've executed (setq indent-tabs-mode nil tab-width 4 c-basic-offset 4) but php-mode still puts 2 whitespaces with TAB key
+2013-11-11 21:04:15	-->	noahsussman has joined #emacs
+2013-11-11 21:04:26	wgreenhouse	AeroNotix: so I didn't segfault, I just ground to a halt.  and performance is fine now in an ERC buffer of the same Emacs
+2013-11-11 21:04:53	AeroNotix	wgreenhouse: 500k was a joke, really. It segfaults for me, but I reckon that's just a coincidence and the fact I'm writing 500k chars to the buffer :(
+2013-11-11 21:04:53	crassus	YetiBob: seems like a great way to hurt your eyes
+2013-11-11 21:05:02	<--	iwillig has quit (Quit: Leaving.)
+2013-11-11 21:05:16	crassus	YetiBob: is there any mindreading research going on with google glass' development
+2013-11-11 21:05:23	YetiBob	crassus:  hell yeah, i'm not gonna use it!
+2013-11-11 21:05:50	AeroNotix	wgreenhouse: I wrote to the mailing list instead
+2013-11-11 21:06:10	wgreenhouse	AeroNotix: ok.  it may be another datum in narrowing down the problems with very long lines
+2013-11-11 21:06:30	-->	M00R1Z has joined #emacs
+2013-11-11 21:06:33	AeroNotix	yep
+2013-11-11 21:06:55	AeroNotix	I don't think it's directly to do with just the length of the line, see, rgrep *consistently* does it
+2013-11-11 21:07:32	-->	vijaykiran has joined #emacs
+2013-11-11 21:07:40	<--	wizzo has quit (Ping timeout: 260 seconds)
+2013-11-11 21:08:16	-->	pnkfelix has joined #emacs
+2013-11-11 21:08:29	<--	sures has quit (Remote host closed the connection)
+2013-11-11 21:08:57	-->	wizzo has joined #emacs
+2013-11-11 21:09:08	<--	noahsussman has quit (Ping timeout: 260 seconds)
+2013-11-11 21:10:01	-->	stask has joined #emacs
+2013-11-11 21:10:43	<--	c0rn has quit (Quit: Computer has gone to sleep.)
+2013-11-11 21:11:00	-->	gebel has joined #emacs
+2013-11-11 21:11:35	<--	icule has quit (Quit: Quitte)
+2013-11-11 21:12:12	Kron	hmmmm
+2013-11-11 21:12:24	Kron	is there any way to modify scroll commands so that they allow point to move off screen?
+2013-11-11 21:12:36	Kron	so you can mousewheel and point is still off screen without moving to catch up with your window?
+2013-11-11 21:12:55	-->	petey has joined #emacs
+2013-11-11 21:14:32	-->	dxd828 has joined #emacs
+2013-11-11 21:15:07	-->	icule has joined #emacs
+2013-11-11 21:15:26	-->	scriptor has joined #emacs
+2013-11-11 21:15:37	-->	RaceCondition has joined #emacs
+2013-11-11 21:15:49	<--	shoshin_ has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 21:16:04	<--	M00R1Z has quit (Ping timeout: 260 seconds)
+2013-11-11 21:16:55	<--	jacres has left #emacs ("WeeChat 0.4.2")
+2013-11-11 21:17:00	wgreenhouse	idk, maybe try M-x customize-apropos scroll
+2013-11-11 21:18:24	YetiBob	ha, there's an auto-hscroll-mode but no auto-vscroll-mode
+2013-11-11 21:18:47	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emacs
+2013-11-11 21:18:47	--	Topic for #emacs is ""A splendid subject with tremendous problems, where the finest imaginations have run riot" -- G. H. Hardy on Emacs | No public logging! What happens in #emacs stays in #emacs | Don't use nicks for away status | No sexism, racism, xenophobia or other asshattery"
+2013-11-11 21:18:47	--	Topic set by jlf (~user@pdpc/supporter/active/jlf) on Fri, 08 Nov 2013 02:36:16
+2013-11-11 21:18:47	--	Nicks #emacs: [__jae__ __main__ _AnK _flow_ _habnabit _mkrull _schulte1 _schulte_ a00001 abeaumont abend aboudreault abuiles aburgess AeroNotix aes agoodno ahungry ahungry_ aidalgol AimHere aindilis aisbaa_ ajb-mark-tools akitada AlexanderS AlexMax alezost alijosa AlterSid Amadiro ambroff ambroff_ amoe anderson andrewsw angelixd_ antgreen antimoof antoszka Apic arcanis ArneBab arrdem arrsim Ash assem asuka Athas atheia`` aurelien avantgeek avar axrfnu Ayey_ b0ef balle banisterfiend banjiewen barik barika basho baudtack bazz beneth`_ benny Bentbot benzap` bfouts bigjust binjured bitemyapp bitonic BlastHardcheese bling^ Blkt bnzmnzhnz Boney bontaq_ boodle Borbus boredomist boudiccas boyscared bpalmer bps bradwright brainproxy brandonw bremner brjannc brmj_work broquaint bu^ buhman caisah calimocho cantsin carlosNonDanger caveat- cbmuser cbpage_ chaoflow chee chewbranca ChongLi chrisb chrisirc chriswk Cira ckoch786 classix claw___ clop cluck cmatei cmecca Code_Man` codemac codygman Codynyx cofi cory786 cosmez CosmicRay cpt_nemo craisins crassus CrazyEddy crculver crk cross Cthulhux cthuluh cud cvandusen cyberspace- d1ffuz0r d4gg4d_ daimrod dale daniel-s danlamanna danlentz daveliepmann davexunit dbristow deadghost debris` deech defanor_ delYsid` demolithion Demosthenex Derander dermatthias derrida deSilva dfox dgvncsz0f dhruvasagar didi digie dim dizzylizzy djcb dominikh DomKM dooglus_ dotemacs dothebart doublep Dr_Jazz_ drdo drewr dropdrive dturner dualhbridge dueno duggiefresh dxd828 dzho eagleflo easiere echo-area ecraven edenc edw effy eis_ el3ctron elarson elbeardmorez elik emacsnw_ emaphis emilh eN_Joy endou Entroacceptor epsylon` eqyiel erewhon ErhardtMundt eridu erkin espiral ethif expez fallout farn fdv fein felipe_ felipealmeida ferdy ffualo fhd fikusz floatingman fmu foozbooz forcer fourOfTwelve fperrin framling frankxu_ frobware froggey fsbot fschmitt Fubar^ Fuco fzzy galex-713 gaqzi garslo gazoombo gebel genehack_ gensym GeorgeJetson ggherdov gianlucadv gic gko glosoli gnomon Gooder greengas gstamp Guest26096 Guest31630 Guest83584 gzg h0bbit_ h12o Han HandheldPenguin Hapsbanan haroldwu haroldwu_cloud heath HedgeMage hewbrocca hgb hiredman hiroaki hlprmnky hober Hodapp hohum_ holomorph hpd hrehf hyperair IanKelling icule iderrick_ ieure iiska illovae ingenious insatsu isak IUSR ivan-kanis ivan\ ivan`` j0ni jabot_ jaimef jannie jaredrhine jashank Javafant jave jayne jcromartie JDHankle jdhoreotg jdoles jeekl jeffisabelle jeffrubic jesseadams jfdm jgama_ jgoss jhulten_ jimeh jinie jlf_ jlindsay jmaister Jobbe johanbev johann__ johnsu01 jonasac JordiGH Joreji joschka joshbamboo1 jrabbit jrm julienXX justinabrahms justinwe1ss jweiss k-man K0HAX k4yc44k5_ kahen kanru karbak kawamuray_ kbtr keen__ kek kelsin kenyon KevinSjoberg kickingvegas kiddouk_ kini kloeri kludge` klutomet1s kodein kordex korutsu- Koshian kossy Kron Kruppe Krystof ktx kzar L42y Laynef ldlework lduros leathekd led_belly legov legumbre lemao levarnu lhx lightquake linuxguy101 literal loke loke`` lokydor Lorcatar lpaste LRH539 lykathea m6n_ m_kael_ macrobat macron madnificent magnars mahmoudimus maio majoh malinus mami mandark marcanuy marienz marjan- mathrick mattcen mattdawson maxigas mechairoi mee MetaCosm metasyntax mfisher mgaare_ MicaiahC micro_ microamp microcode MindlessDrone mishok13 MisterBubbles mitchty mjc1 mjrosenb mm-- mnemonikk mns mocker molqr Mon_Ouie Monolith| monotux MooGoo Mosu mrBliss mrSpec MrWoohoo msgodf mshroyer mstevens mstr msx mtk mtp muep munge murphy__ murr4y musca myeffort n2o4 NaCl Nahra namtsui nano- naqano_ Natch ndngvr ndrst necronian nemesit_ nephyrin Neptu neurodamage newcup nicferrier nihilifer nilg njsg njsg__ noam_ noorul noptys ntesir nu7hatch nuba nullman nunag obre ocharles offby1 offbyone ohama ok2 oleo osnr oufo OxDeadC0de ozialien ozzloy paddymahoney paroneayea PaulHarris pcarrier peder petey petrosil pheaver Philonous phracek pjb pkkm pnkfelix pointzeronine portante prebz_ prip progo przl pshuff puff` qDot_ qlkzy quackv4 quasisane quicksilver quist quotemstr RaceCondition raft Ralt raph_ael Rapp rasmusto raso Raynes rdgr reactormonk redblue redeemed reeses reim remote renard_ renzhi rgrinberg rien rizumu robmyers_ rods roe_ rotty rrichardsr3 rrn rryoumaa rudybot ruediger russm ryanc s15y sababa sabya sagittarian SamB samrat_ saorge sauerkrause scgilardi- schoppenhauer scriptor seangrove seantallen Seb segv- sellout- Sembei semente sepi serhart seschwar setheus_ shadowdaemon Shambles_ sheepbat shergill Sierpinski sigjuice_ Sigma Silex Sketch ski smeb smull sohail solarus SomeDamnBody sontek sorabji5252 spacebat spaceone specbot splitter_ srhb sshirokov stackofcats stask steckerhalter StMichel stokachu stomp subopt sunmoonstar superbil^^ SuperNoeMan surrounder svaksha swathe sword Sysaxed Takumo tali713 talyz tasdomas tauntaun TaylanUB tazle tbarletz technomancy teiresias tensorpudding tessier tg tgunr theBlackDragon TheBrayn TheCrittaC thelorax123 theos theRoUS thisirs thomases thorkill thrn tilgovi tincricket tiwula tkd tmokros tommis ToothlessGear topi` Trademark91 tsbtmn tsurutom Tsyesika turbofail tvaalen twem2 txxt tychoish Ulrar Unhammer unknown_lamer upgrayeddd ustunozgur uwjesq varlog vbernat vcgomes vds ve Veg Viiru vijaykiran Vivek Vorpal vt102 vterron_ vxe_ waaron wagle waisl wanders wapiflapi wbill wchun wdouglas` wgreenhouse WhichMatt wilfredh Will| wizzo woddf2 wsmwk wunki wyan w|t xales xenophon xhrl xinming xneme xristos xrq yacks YetiBob yhvh yonkeltron YoungFrog yrk z0d zaargy zacts Zagaba zakame zellio zeltak zenoli zenwryly zhengyi zobbo zol zoldar_ zw01 zygen zymurgy zz_karupanerura {cms}]
+2013-11-11 21:18:47	--	Channel #emacs: 709 nicks (0 ops, 0 voices, 709 normals)
+2013-11-11 21:18:48	--	URL for #emacs: http://www.emacswiki.org/EmacsChannel
+2013-11-11 21:18:48	--	Mode #emacs [+np]
+2013-11-11 21:18:48	--	Channel created on Sun, 26 Nov 2006 07:42:33
+2013-11-11 21:18:53	JordiGH	Nice, someone did a git push --force on 50 repos: https://groups.google.com/forum/#!searchin/jenkinsci-dev/force$20push/jenkinsci-dev/-myjRIPcVwU/mrwn8VkyXagJ
+2013-11-11 21:18:55	rudybot	http://tinyurl.com/nr7dot9
+2013-11-11 21:19:02	JordiGH	zomg data loss
+2013-11-11 21:19:11	JordiGH	Now they gotta dig in reflogs for all of them.
+2013-11-11 21:19:40	-->	hid has joined #emacs
+2013-11-11 21:19:57	Kron	that's really annoying
+2013-11-11 21:20:16	JordiGH	Looks like it's more than 50 repos.
+2013-11-11 21:20:17	JordiGH	Haha
+2013-11-11 21:20:49	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emacs
+2013-11-11 21:20:49	--	Topic for #emacs is ""A splendid subject with tremendous problems, where the finest imaginations have run riot" -- G. H. Hardy on Emacs | No public logging! What happens in #emacs stays in #emacs | Don't use nicks for away status | No sexism, racism, xenophobia or other asshattery"
+2013-11-11 21:20:49	--	Topic set by jlf (~user@pdpc/supporter/active/jlf) on Fri, 08 Nov 2013 02:36:16
+2013-11-11 21:20:49	--	Nicks #emacs: [__jae__ __main__ _AnK _flow_ _habnabit _mkrull _schulte1 _schulte_ a00001 abeaumont abend aboudreault abuiles aburgess AeroNotix aes agoodno ahungry ahungry_ aidalgol AimHere aindilis aisbaa_ ajb-mark-tools akitada AlexanderS AlexMax alezost alijosa AlterSid Amadiro ambroff ambroff_ amoe anderson andrewsw angelixd_ antgreen antimoof antoszka Apic arcanis ArneBab arrdem arrsim Ash assem asuka Athas atheia`` aurelien avantgeek avar axrfnu Ayey_ b0ef balle banisterfiend banjiewen barik barika basho baudtack bazz beneth`_ benny Bentbot benzap` bfouts bigjust binjured bitemyapp bitonic BlastHardcheese bling^ Blkt bnzmnzhnz Boney bontaq_ boodle Borbus boredomist boudiccas boyscared bpalmer bps bradwright brainproxy brandonw bremner brjannc brmj_work broquaint bu^ buhman caisah calimocho cantsin carlosNonDanger caveat- cbmuser cbpage_ chaoflow chee chewbranca ChongLi chrisb chrisirc chriswk Cira ckoch786 classix claw___ clop cluck cmatei cmecca Code_Man` codemac codygman Codynyx cofi cory786 cosmez CosmicRay cpt_nemo craisins crassus CrazyEddy crculver crk cross Cthulhux cthuluh cud cvandusen cyberspace- d1ffuz0r d4gg4d_ daimrod dale daniel-s danlamanna danlentz daveliepmann davexunit dbristow deadghost debris` deech defanor_ delYsid` demolithion Demosthenex Derander dermatthias derrida deSilva dfox dgvncsz0f dhruvasagar didi digie dim dizzylizzy djcb dominikh DomKM dooglus_ dotemacs dothebart doublep Dr_Jazz_ drdo drewr dropdrive dturner dualhbridge dueno duggiefresh dxd828 dzho eagleflo easiere echo-area ecraven edenc edw effy eis_ el3ctron elarson elbeardmorez elik emacsnw_ emaphis emilh eN_Joy endou Entroacceptor epsylon` eqyiel erewhon ErhardtMundt eridu erkin espiral ethif expez fallout farn fdv fein felipe_ felipealmeida ferdy ffualo fhd fikusz floatingman fmu foozbooz forcer fourOfTwelve fperrin framling frankxu_ frobware froggey fsbot fschmitt Fubar^ Fuco fzzy galex-713 gaqzi garslo gazoombo gebel genehack_ gensym GeorgeJetson ggherdov gianlucadv gic gko glosoli gnomon Gooder greengas gstamp Guest26096 Guest31630 Guest83584 gzg h0bbit_ h12o Han HandheldPenguin Hapsbanan haroldwu haroldwu_cloud heath HedgeMage hewbrocca hgb hid hiredman hiroaki hlprmnky hober Hodapp hohum_ holomorph hpd hrehf hyperair IanKelling icule iderrick_ ieure iiska illovae ingenious insatsu isak IUSR ivan-kanis ivan\ ivan`` j0ni jabot_ jaimef jannie jaredrhine jashank Javafant jave jayne jcromartie JDHankle jdhoreotg jdoles jeekl jeffisabelle jeffrubic jesseadams jfdm jgama_ jgoss jhulten_ jimeh jinie jlf_ jlindsay jmaister Jobbe johanbev johann__ johnsu01 jonasac JordiGH Joreji joschka joshbamboo1 jrabbit jrm julienXX justinabrahms justinwe1ss jweiss k-man K0HAX k4yc44k5_ kahen kanru karbak kawamuray_ kbtr keen__ kek kelsin kenyon KevinSjoberg kickingvegas kiddouk_ kini kloeri kludge` klutomet1s kodein kordex korutsu- Koshian kossy Kron Kruppe Krystof ktx kzar L42y Laynef ldlework lduros leathekd led_belly legov legumbre lemao levarnu lhx lightquake linuxguy101 literal loke loke`` lokydor Lorcatar lpaste LRH539 lykathea m6n_ m_kael_ macrobat macron madnificent magnars mahmoudimus maio majoh malinus mami mandark marcanuy marienz marjan- mathrick mattcen mattdawson maxigas mechairoi mee MetaCosm metasyntax mfisher mgaare_ MicaiahC micro_ microamp microcode MindlessDrone mishok13 MisterBubbles mitchty mjc1 mjrosenb mm-- mnemonikk mns mocker molqr Mon_Ouie Monolith| monotux MooGoo Mosu mrBliss mrSpec MrWoohoo msgodf mshroyer mstevens mstr msx mtk mtp muep munge murphy__ murr4y musca myeffort n2o4 NaCl Nahra namtsui nano- naqano_ Natch ndngvr ndrst necronian nemesit_ nephyrin Neptu neurodamage newcup nicferrier nihilifer nilg njsg njsg__ noam_ noorul noptys ntesir nu7hatch nuba nullman nunag obre ocharles offby1 offbyone ohama ok2 oleo osnr oufo OxDeadC0de ozialien ozzloy paddymahoney paroneayea PaulHarris pcarrier peder petey petrosil pheaver Philonous phracek pjb pkkm pnkfelix pointzeronine portante prebz_ prip progo przl pshuff puff` qDot_ qlkzy quackv4 quasisane quicksilver quist quotemstr RaceCondition raft Ralt raph_ael Rapp rasmusto raso Raynes rdgr reactormonk redblue redeemed reeses reim remote renard_ renzhi rgrinberg rien rizumu robmyers_ rods roe_ rotty rrichardsr3 rrn rryoumaa rudybot ruediger russm ryanc s15y sababa sabya sagittarian SamB samrat_ saorge sauerkrause scgilardi- schoppenhauer scriptor seangrove seantallen Seb segv- sellout- Sembei semente sepi serhart seschwar setheus_ shadowdaemon Shambles_ sheepbat shergill Sierpinski sigjuice_ Sigma Silex Sketch ski smeb smull sohail solarus SomeDamnBody sontek sorabji5252 spacebat spaceone specbot splitter_ srhb sshirokov stackofcats stask steckerhalter StMichel stokachu stomp subopt sunmoonstar superbil^^ SuperNoeMan surrounder svaksha swathe sword Sysaxed Takumo tali713 talyz tasdomas tauntaun TaylanUB tazle tbarletz technomancy teiresias tensorpudding tessier tg tgunr theBlackDragon TheBrayn TheCrittaC thelorax123 theos theRoUS thisirs thomases thorkill thrn tilgovi tincricket tiwula tkd tmokros tommis ToothlessGear topi` Trademark91 tsbtmn tsurutom Tsyesika turbofail tvaalen twem2 txxt tychoish Ulrar Unhammer unknown_lamer upgrayeddd ustunozgur uwjesq varlog vbernat vcgomes vds ve Veg Viiru vijaykiran Vivek Vorpal vt102 vterron_ vxe_ waaron wagle waisl wanders wapiflapi wbill wchun wdouglas` wgreenhouse WhichMatt wilfredh Will| wizzo woddf2 wsmwk wunki wyan w|t xales xenophon xhrl xinming xneme xristos xrq yacks YetiBob yhvh yonkeltron YoungFrog yrk z0d zaargy zacts Zagaba zakame zellio zeltak zenoli zenwryly zhengyi zobbo zol zoldar_ zw01 zygen zymurgy zz_karupanerura {cms}]
+2013-11-11 21:20:49	--	Channel #emacs: 710 nicks (0 ops, 0 voices, 710 normals)
+2013-11-11 21:20:50	--	URL for #emacs: http://www.emacswiki.org/EmacsChannel
+2013-11-11 21:20:51	--	Mode #emacs [+np]
+2013-11-11 21:20:51	--	Channel created on Sun, 26 Nov 2006 07:42:33
+2013-11-11 21:21:09	 *	SamB wonders how hard it would be to make a browse-url on his Linux system that opens a browser tab on his Windows system
+2013-11-11 21:21:52	aidalgol	SamB: How the fuck would that even work??
+2013-11-11 21:21:53	fsbot	Of course not!
+2013-11-11 21:22:11	YetiBob	well, if you write a little custom server on the windows side
+2013-11-11 21:22:22	shergill	is windows in a vm?
+2013-11-11 21:22:27	aidalgol	How are you running both, anyway?
+2013-11-11 21:22:53	YetiBob	SamB:  you're talking about 2 separate machines, right?
+2013-11-11 21:23:01	mtp	SamB, http://www.chiark.greenend.org.uk/~sgtatham/doit/
+2013-11-11 21:23:56	YetiBob	perfect.  that saves you from writing the server
+2013-11-11 21:23:59	<--	dotemacs has quit (Quit: Connection closed for inactivity)
+2013-11-11 21:24:00	<--	phracek has quit (Quit: Leaving)
+2013-11-11 21:24:04	 *	JordiGH revs up the drama: https://news.ycombinator.com/item?id=6713742
+2013-11-11 21:24:33	<--	superbil^^ has quit (Ping timeout: 244 seconds)
+2013-11-11 21:24:41	mtp	YetiBob, and the client
+2013-11-11 21:25:03	<--	dhruvasagar has quit (Ping timeout: 240 seconds)
+2013-11-11 21:25:04	YetiBob	well the client could be as simple as 'nc' - just needs to send a string to the server
+2013-11-11 21:26:03	-->	noahsussman has joined #emacs
+2013-11-11 21:26:50	SamB	YetiBob: yes but there's an X server they could use for IPC somehow
+2013-11-11 21:27:03	aidalgol	Is alyone else driven into a murderous by "What Does The Fox Say?"
+2013-11-11 21:27:04	SamB	or it could be something simple ...
+2013-11-11 21:27:09	-->	bipt has joined #emacs
+2013-11-11 21:27:18	YetiBob	dbus on windows?
+2013-11-11 21:27:20	-->	marie1_ has joined #emacs
+2013-11-11 21:27:36	SamB	does anyone else worry for the robots in freefall?
+2013-11-11 21:27:44	shergill	aidalgol: have you seen their dubstep one?
+2013-11-11 21:28:03	SamB	YetiBob: don't need no stinkin dbus!
+2013-11-11 21:28:21	YetiBob	SamB:  :-)
+2013-11-11 21:28:33	aidalgol	shergill: oh, god, no... o_O
+2013-11-11 21:28:45	-->	jbalnit has joined #emacs
+2013-11-11 21:29:14	pjb	 SamB: well, they can always dump their brains wirelessly to another body on Earth.
+2013-11-11 21:29:16	SamB	I remember that when I had two Linux machines sharing an X server, mozilla-remote didn't notice when it was running on a different system from mozilla ...
+2013-11-11 21:29:42	SamB	pjb: that doesn't help if their neural nets get pruned to oblivion
+2013-11-11 21:30:02	-->	dkh has joined #emacs
+2013-11-11 21:30:11	pjb	They probably don't skip a backup.
+2013-11-11 21:30:31	shergill	aidalgol: heh there's also the one where they're making love to the jacuzzi or something
+2013-11-11 21:30:40	<--	edw has quit (Quit: Computer has gone to sleep.)
+2013-11-11 21:30:50	aidalgol	shergill: Now you answer my question. :P
+2013-11-11 21:30:52	shergill	i like them, they're lonely island, but better
+2013-11-11 21:31:18	aidalgol	WDTFS was amusing *once*.
+2013-11-11 21:31:35	aidalgol	After that...
+2013-11-11 21:31:38	 *	aidalgol pulls out The Axe.
+2013-11-11 21:31:54	<--	chrisb has quit (Remote host closed the connection)
+2013-11-11 21:32:19	shergill	oh it still cracks me up
+2013-11-11 21:32:20	wgreenhouse	SamB: it still doesn't
+2013-11-11 21:33:49	SamB	but of course my Win32 build of firefox isn't listening for mozilla-remote stuff on X
+2013-11-11 21:34:20	<--	glosoli has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 21:34:54	-->	chrisb has joined #emacs
+2013-11-11 21:35:23	-->	edw has joined #emacs
+2013-11-11 21:35:27	-->	drot has joined #emacs
+2013-11-11 21:37:36	SamB	ooh, doit looks like it does exactly the thing I want, yes
+2013-11-11 21:37:41	<--	daveliepmann has quit (Remote host closed the connection)
+2013-11-11 21:38:16	-->	daveliepmann has joined #emacs
+2013-11-11 21:38:21	-->	aisbaa has joined #emacs
+2013-11-11 21:38:30	<--	sagittarian has quit (Quit: Leaving)
+2013-11-11 21:39:56	ruediger	*brrrrr* too cold
+2013-11-11 21:40:14	<--	alijosa has quit (Ping timeout: 272 seconds)
+2013-11-11 21:40:17	<--	boudiccas has quit (Ping timeout: 264 seconds)
+2013-11-11 21:40:19	-->	gmaggior has joined #emacs
+2013-11-11 21:41:04	-->	danielszmulewicz has joined #emacs
+2013-11-11 21:41:23	-->	glosoli has joined #emacs
+2013-11-11 21:41:26	<--	holomorph has quit (Quit: holomorph)
+2013-11-11 21:41:31	<--	glosoli has quit (Max SendQ exceeded)
+2013-11-11 21:41:48	-->	ramsus has joined #emacs
+2013-11-11 21:42:11	-->	glosoli has joined #emacs
+2013-11-11 21:42:19	<--	glosoli has quit (Max SendQ exceeded)
+2013-11-11 21:42:26	aidalgol	Apparently WDTFS is mocking dubstep.  Well, *that* certainly went over my head.
+2013-11-11 21:42:27	<--	GeorgeJetson has quit (Read error: Connection reset by peer)
+2013-11-11 21:42:34	-->	AlCoF has joined #emacs
+2013-11-11 21:42:39	<--	daveliepmann has quit (Ping timeout: 240 seconds)
+2013-11-11 21:42:56	-->	glosoli has joined #emacs
+2013-11-11 21:43:06	-->	superbil^^ has joined #emacs
+2013-11-11 21:43:24	<--	h0bbit_ has quit (Quit: Computer has gone to sleep.)
+2013-11-11 21:45:25	didi	Let's propose a new benchmark.
+2013-11-11 21:45:36	<--	MetaCosm has quit (Max SendQ exceeded)
+2013-11-11 21:46:08	cluck	aidalgol: wait... it's actually possible NOT to mock dubstep?!?
+2013-11-11 21:46:13	-->	MetaCosm has joined #emacs
+2013-11-11 21:46:23	 *	cluck *wooosh*
+2013-11-11 21:46:31	mtp	didi i propose benchmarks that measure the indentation machines leave on desks
+2013-11-11 21:46:40	aidalgol	cluck: Yes, by dying from the noise.
+2013-11-11 21:46:59	<--	danielszmulewicz has quit (Quit: danielszmulewicz)
+2013-11-11 21:47:49	<--	jfdm has quit (Remote host closed the connection)
+2013-11-11 21:47:51	 *	cluck *BTOOOM* *BTOOOM* *RA-RA-RA-RA* *EEEEE*
+2013-11-11 21:47:56	SamB	mtp: I propose one that measures the indentation machines leave on workbenches
+2013-11-11 21:48:31	mtp	SamB, which one is the floating-point measurement
+2013-11-11 21:48:42	mtp	or is that seeing how well it floats in water?
+2013-11-11 21:49:26	<--	ivan-kanis has quit (Remote host closed the connection)
+2013-11-11 21:49:34	aidalgol	cluck: I have a friend who listens to it in the car.  I avoid taking rides from her.
+2013-11-11 21:50:05	wgreenhouse	mtp: weight of the system measured in ducks
+2013-11-11 21:50:08	aidalgol	cluck: And before you make *that* joke, she's a guy friend, so clam up.
+2013-11-11 21:50:15	aidalgol	wgreenhouse: FPA "dicks"
+2013-11-11 21:50:16	aidalgol	>_<
+2013-11-11 21:50:34	wgreenhouse	systems weighing less than < 1 duck are burned at the end of the test
+2013-11-11 21:50:48	-->	jfdm has joined #emacs
+2013-11-11 21:50:49	wgreenhouse	oops, "less than <" dept. of redunancy dept.
+2013-11-11 21:50:55	wgreenhouse	*redundancy
+2013-11-11 21:51:03	aidalgol	,shoot wgreenhouse 
+2013-11-11 21:51:04	 *	fsbot loads its hand of slapping and slaps wgreenhouse.
+2013-11-11 21:51:15	wgreenhouse	thanks, I needed that
+2013-11-11 21:51:25	<--	YetiBob has left #emacs
+2013-11-11 21:52:13	-->	aspiers has joined #emacs
+2013-11-11 21:52:26	<--	eridu has quit (Quit: Leaving)
+2013-11-11 21:52:58	steckerhalter	,seen spock
+2013-11-11 21:52:58	fsbot	BIIIIIIIIIIIRNY! Have you .seen spock?
+2013-11-11 21:53:12	-->	jlf has joined #emacs
+2013-11-11 21:53:15	JordiGH	Wow, the Jenkins devs are doing a painstaking repo-by-repo restore job.
+2013-11-11 21:53:24	-->	instilled has joined #emacs
+2013-11-11 21:53:38	JordiGH	Looks like I found better drama here: http://www.reddit.com/r/programming/comments/1qefox/jenkins_developers_accidentally_do_git_push_force/
+2013-11-11 21:53:38	rudybot	http://tinyurl.com/q4luh2x
+2013-11-11 21:53:44	didi	Ah, GCC can compile Go.
+2013-11-11 21:54:02	JordiGH	didi: I believe it's the reference implementation.
+2013-11-11 21:54:05	TaylanUB	JordiGH: What's Jenkins again ?
+2013-11-11 21:54:14	JordiGH	TaylanUB: A continuous integration tool.
+2013-11-11 21:54:17	didi	JordiGH: Really? Cool.
+2013-11-11 21:54:42	-->	Sonderblade has joined #emacs
+2013-11-11 21:55:06	didi	JordiGH: Are you sure?
+2013-11-11 21:55:13	JordiGH	No, I'm not sure.
+2013-11-11 21:55:20	didi	Oh, OK.
+2013-11-11 21:55:30	-->	Joreji_ has joined #emacs
+2013-11-11 21:55:47	<--	ambroff_ has quit (Quit: Leaving...)
+2013-11-11 21:56:35	steckerhalter	funny... never do git push --force without specifying the branch
+2013-11-11 21:56:41	cluck	aidalgol: you have much to learn young padawan, i was going to quote abe simpson about being with it
+2013-11-11 21:57:00	JordiGH	steckerhalter: There are better ways... http://mercurial.selenic.com/wiki/ChangesetEvolution
+2013-11-11 21:57:05	aidalgol	cluck: Suuuure you were.
+2013-11-11 21:57:05	JordiGH	Well, there will be better ways.
+2013-11-11 21:57:50	<--	banisterfiend has quit (Quit: Computer has gone to sleep.)
+2013-11-11 21:58:10	cluck	aidalgol: seriously, i just can't find the image, ddg is failing me BAD
+2013-11-11 21:58:59	<--	felipealmeida has quit (Read error: Connection reset by peer)
+2013-11-11 21:59:02	-->	c0rn has joined #emacs
+2013-11-11 21:59:15	<--	AlCoF has quit
+2013-11-11 22:00:21	ruediger	steckerhalter: that's why git is changing the default of push.default to simple in 2.0
+2013-11-11 22:00:51	waisl	well, in continuing with the theme of every measure of prevention resulting in the emergence of a better idiot, apparently I neglected to save a file I was working on all morning at any point and now have to redo all of it as punishment for my hubris
+2013-11-11 22:01:24	didi	Git being a DVCS, this is not so bad, is it?
+2013-11-11 22:01:26	<--	subopt has quit (Remote host closed the connection)
+2013-11-11 22:01:27	<--	zenwryly has quit (Excess Flood)
+2013-11-11 22:01:33	-->	zenwryly has joined #emacs
+2013-11-11 22:01:34	<--	zenwryly has quit (Excess Flood)
+2013-11-11 22:01:37	ruediger	waisl: autosave?
+2013-11-11 22:01:39	steckerhalter	"I am a Software developer with more than 20 years of experience in different programming languages (C/C++, Java, Pascal, Prolog, LISP, ASM, ...) and an active Hudson contributor since 2008."
+2013-11-11 22:01:41	-->	subopt has joined #emacs
+2013-11-11 22:01:42	-->	zenwryly has joined #emacs
+2013-11-11 22:02:00	TaylanUB	steckerhalter: Sounds good .. except for lumping together C and C++. :D
+2013-11-11 22:02:00	waisl	ruediger: I cleverly had turned if off months ago, it is turned back on now
+2013-11-11 22:02:16	<--	przl has quit (Ping timeout: 268 seconds)
+2013-11-11 22:02:17	cluck	aidalgol: http://imgur.com/gallery/E7r43 I AM INVINCIBLE! \o/
+2013-11-11 22:02:20	<--	pkkm has quit (Ping timeout: 260 seconds)
+2013-11-11 22:02:50	steckerhalter	TaylanUB: sounds like git is not on the list yet ;)
+2013-11-11 22:02:53	<--	drot has quit (Quit: rcirc on GNU Emacs 24.3.1)
+2013-11-11 22:02:55	ruediger	waisl: :) Just a couple of days ago somebody here insistend on turning off auto-save despite everybody warning against it.
+2013-11-11 22:02:59	<--	tiwula has quit (Quit: Leaving)
+2013-11-11 22:03:26	TaylanUB	steckerhalter: Point.
+2013-11-11 22:03:33	-->	danielszmulewicz has joined #emacs
+2013-11-11 22:03:36	 *	TaylanUB should add VCS experience to eir CV ...
+2013-11-11 22:03:37	<--	samrat_ has quit (Quit: Connection closed for inactivity)
+2013-11-11 22:03:46	TaylanUB	Though I only have very limited git experience ..
+2013-11-11 22:03:49	steckerhalter	ruediger: i know... and that's a good move
+2013-11-11 22:04:03	TaylanUB	This reminds me to look for another job ... again.
+2013-11-11 22:04:11	-->	sdemarre has joined #emacs
+2013-11-11 22:04:17	steckerhalter	current being?
+2013-11-11 22:04:24	TaylanUB	iOS dev
+2013-11-11 22:04:38	jaimef	what is $foo in elisp?
+2013-11-11 22:04:49	steckerhalter	hmm... never had an ithing
+2013-11-11 22:05:00	TaylanUB	jaimef: A valid variable name ...
+2013-11-11 22:05:00	JordiGH	didi: It's kinda bad that there have been over 150 git push --force. It means you need to recover the missing refs from 150 reflogs now. Looks like not all Jenkins developers have all of the repos, and Github itself is being slow about providing the necessary data, so it's up to each individual who might have the relevant hashes to restore the data.
+2013-11-11 22:05:02	TaylanUB	jaimef: (Or function ..)
+2013-11-11 22:05:13	jaimef	ahh never seen $ on vars in elisp yet
+2013-11-11 22:05:25	TaylanUB	jaimef: It has no particular meaning and I've never seen it either.
+2013-11-11 22:05:28	JordiGH	didi: Oh, and you have a time limit: 90 days or the commits are gone forever (90 days should be enough for everyone, but...)
+2013-11-11 22:05:47	TaylanUB	I've seen slashes in variable names but never a dollar.
+2013-11-11 22:05:52	JordiGH	Actually, I wonder if github has different defaults than the 90-day garbage-collecting schedule.
+2013-11-11 22:06:05	-->	blackmesa has joined #emacs
+2013-11-11 22:06:17	turbofail	yeah i'd bet github would gc more aggressively
+2013-11-11 22:06:31	-->	tiwula has joined #emacs
+2013-11-11 22:06:47	steckerhalter	JordiGH: for paying customers they also provide champagne and truffes
+2013-11-11 22:06:52	ruediger	the problem is that github pull requests basically force users to use git push --force :/
+2013-11-11 22:07:05	JordiGH	steckerhalter: Jenkins is a free project. They probably don't get champagne and truffes.
+2013-11-11 22:07:07	turbofail	they do?
+2013-11-11 22:07:21	didi	Oh well. Apparently there is much more complexity for git that I know about.
+2013-11-11 22:07:31	<--	puff` has quit (Ping timeout: 240 seconds)
+2013-11-11 22:07:32	turbofail	how do they force you to do that?
+2013-11-11 22:07:37	JordiGH	didi: Know thy enemy. :P
+2013-11-11 22:07:44	didi	JordiGH: ;^)
+2013-11-11 22:07:54	JordiGH	ruediger: You can delete branches from the github WUI... that's typically enough, right?
+2013-11-11 22:08:07	<--	noahsussman has quit (Remote host closed the connection)
+2013-11-11 22:08:33	-->	noahsussman has joined #emacs
+2013-11-11 22:08:49	steckerhalter	luca milanesio a.k.a "push --force"
+2013-11-11 22:09:01	ruediger	turbofail: because it's the only way to change the commit.  E.g., if someone creates a PR but has a coding style violation then you could either accept another annoying commit to fix the coding style, a new PR, or push -f it with the right style
+2013-11-11 22:09:16	ruediger	JordiGH: no, I mean to change the commits in a PR
+2013-11-11 22:09:32	steckerhalter	i did it myself once... heh... luckily only one repo was updated
+2013-11-11 22:09:43	JordiGH	ruediger: Ah, yeah, publicly editing history. Another case for http://mercurial.selenic.com/wiki/ChangesetEvolution
+2013-11-11 22:09:58	steckerhalter	since that accident I'm very careful
+2013-11-11 22:10:03	rryoumaa	let's lobby #emacs for a new dvcs
+2013-11-11 22:10:03	<--	tincricket has quit (Ping timeout: 264 seconds)
+2013-11-11 22:10:05	-->	iwillig has joined #emacs
+2013-11-11 22:10:12	didi	,rms-git-status
+2013-11-11 22:10:12	fsbot	rms is waiting to hear back from the bzr guys.
+2013-11-11 22:10:35	paroneayea	:)
+2013-11-11 22:10:39	JordiGH	steckerhalter: Who is Lucas Milanesio?
+2013-11-11 22:10:44	rryoumaa	(that was a running-joke "let's")
+2013-11-11 22:10:54	ruediger	JordiGH: it's not really editing history.  Compare it to a patch discussion on a ML.  It's simply sending a new patch.
+2013-11-11 22:10:56	wgreenhouse	,rms-git-status is noecho rms heard back from the bzr guys, they released bzr 2.6.0
+2013-11-11 22:10:57	fsbot	Doh!  rms-git-status is already something else.. Use 'is also'.. 
+2013-11-11 22:10:57	fsbot	 Currently: noecho rms is waiting to hear back from the bzr guys.
+2013-11-11 22:11:04	wgreenhouse	,no rms-git-status is noecho rms heard back from the bzr guys, they released bzr 2.6.0
+2013-11-11 22:11:06	fsbot	created.
+2013-11-11 22:11:13	rryoumaa	,emacs24-wheezy-status
+2013-11-11 22:11:14	fsbot	[google]    http://www.emacswiki.org/emacs/EmacsClient
+2013-11-11 22:11:14	fsbot	http://www.emacswiki.org/emacs/ColorTheme
+2013-11-11 22:11:17	rryoumaa	:(
+2013-11-11 22:11:35	-->	przl has joined #emacs
+2013-11-11 22:11:43	JordiGH	ruediger: It is history. It's public history. It happens to be *recent* history, but it's public history. It's also partly related to this: https://github.com/peff/git/wiki/SoC-2012-Ideas#published-and-secret-commits
+2013-11-11 22:11:43	rudybot	http://tinyurl.com/bl83okg
+2013-11-11 22:11:49	steckerhalter	JordiGH: the guy who messed up jenkins
+2013-11-11 22:12:02	steckerhalter	eh... jenkins git
+2013-11-11 22:12:07	rryoumaa	,jenkins
+2013-11-11 22:12:08	fsbot	From memory, MrsJenkins is at http://www.emacswiki.org/cgi-bin/wiki.pl?MrsJenkins
+2013-11-11 22:12:25	ruediger	JordiGH: it's not history in a different fork.
+2013-11-11 22:12:28	ruediger	-not
+2013-11-11 22:12:30	JordiGH	ruediger: Which, btw, is also already implemented in hg as a stepping stone towards the hg evolve extension: http://mercurial.selenic.com/wiki/Phases
+2013-11-11 22:13:03	<--	noahsussman has quit (Ping timeout: 240 seconds)
+2013-11-11 22:13:10	JordiGH	ruediger: Sure, it's history that should be safe to edit because it's in a different fork, but git itself right now has no way of tracking which history is safe to edit and which isn't. It's all up to human convention, and humans can fuck it up.
+2013-11-11 22:14:19	steckerhalter	and where's the mghub?
+2013-11-11 22:14:33	JordiGH	steckerhalter: http://bitbucket.com
+2013-11-11 22:14:35	wgreenhouse	bitbucket
+2013-11-11 22:14:48	steckerhalter	atlassian...
+2013-11-11 22:33:54	--	irc: disconnected from server
+2013-11-11 22:34:33	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emacs
+2013-11-11 22:34:33	--	Topic for #emacs is ""A splendid subject with tremendous problems, where the finest imaginations have run riot" -- G. H. Hardy on Emacs | No public logging! What happens in #emacs stays in #emacs | Don't use nicks for away status | No sexism, racism, xenophobia or other asshattery"
+2013-11-11 22:34:33	--	Topic set by jlf (~user@pdpc/supporter/active/jlf) on Fri, 08 Nov 2013 02:36:17
+2013-11-11 22:34:33	--	Nicks #emacs: [__jae__ __main__ _AnK _flow_ _habnabit _mkrull _schulte1 _schulte_ a00001 abeaumont abend aboudreault abuiles aburgess AeroNotix aes agoodno ahungry ahungry_ aidalgol AimHere aindilis aisbaa aisbaa_ ajb-mark-tools akitada AlexanderS AlexMax AlterSid Amadiro ambroff amoe anderson andrewsw angelixd_ antgreen antimoof antoszka Apic arcanis arescorpio ArneBab arrdem Ash aspiers assem asuka Athas atheia`` aurelien avantgeek avar axrfnu Ayey_ b0ef balle banisterfiend banjiewen barik barika basho baudtack bazz beneth`_ benny Bentbot benzap` bfouts bigjust binjured bipt bitemyapp bitonic blackmesa BlastHardcheese bling^ Blkt bnzmnzhnz Boney bontaq_ boodle Borbus boredomist boyscared bpalmer bps bradwright brainproxy brandonw bremner brjannc brmj_work broquaint bu^ buhman c0rn caisah calimocho cantsin carlosNonDanger caveat- cbmuser cbpage_ chaoflow chee chewbranca ChongLi chrisb chrisirc chriswk Cira ckoch786 classix claw___ clop cluck cmatei cmecca Code_Man` codemac codygman Codynyx cofi cory786 cosmez CosmicRay cpt_nemo craisins crassus CrazyEddy crculver crk cross crus0e Cthulhux cthuluh cud cvandusen cyberspace- d1ffuz0r d4gg4d_ daimrod dale daniel-s danielszmulewicz danlamanna danlentz davexunit dbristow deadghost debris` deech defanor_ delYsid` demolithion Demosthenex Derander dermatthias derrida deSilva dfox dgvncsz0f didi digie dim dizzylizzy djcb dkh dominikh DomKM dooglus_ dothebart doublep Dr_Jazz_ drdo drewr dropdrive dturner dualhbridge dueno duggiefresh dxd828 dzho eagleflo easiere echo-area ecraven edenc edw effy eis_ el3ctron elarson elbeardmorez elik emacsnw_ emaphis emilh eN_Joy endou Entroacceptor epsylon` eqyiel erewhon ErhardtMundt erkin espiral ethif expez fallout farn fdv fein felipe_ ferdy ffualo fhd fikusz floatingman fmu foozbooz forcer fourOfTwelve fperrin framling frankxu_ frobware froggey fsbot fschmitt Fubar^ Fuco fzzy galex-713 gaqzi garslo gazoombo gebel genehack_ gensym ggherdov gianlucadv gic gko gmaggior gnomon Gooder greengas gstamp Guest26096 Guest31630 Guest83584 gzg h12o Han HandheldPenguin Hapsbanan haroldwu_cloud haroldwu` heath HedgeMage hewbrocca hgb hid hiredman hiroaki hlprmnky hober Hodapp hohum_ hpd hrehf hyperair IanKelling icule iderrick_ ieure iiska illovae ingenious Inops insatsu instilled isak IUSR ivan\ ivan`` iwillig j0ni jabot_ jaimef jannie jaredrhine jashank Javafant jave jayne jbalnit jcromartie JDHankle jdhoreotg jdoles jeekl jeffisabelle jeffrubic jesseadams jgama_ jgoss jhulten_ jimeh jinie jlf jlf_ jlindsay jmaister Jobbe johanbev johann__ johnsu01 jonasac JordiGH Joreji Joreji_ joschka joshbamboo1 jrabbit jrm julienXX justinabrahms justinwe1ss jweiss k-man K0HAX k4yc44k5_ kahen kanru karbak kawamuray_ kbtr keen__ kek kelsin kenyon KevinSjoberg kickingvegas kiddouk_ kini kloeri kludge` klutomet1s kodein kordex korutsu- Koshian kossy Kron Kruppe Krystof ktx kzar L42y Laynef ldlework lduros leathekd led_belly legov legumbre lemao levarnu lhx lightquake linuxguy101 literal loke loke`` lokydor Lorcatar lpaste LRH539 lykathea m6n_ m_kael_ macrobat macron madnificent magnars mahmoudimus maio majoh malinus mami mandark marcanuy marie1_ marienz marjan- mathrick mattcen mattdawson maxigas mechairoi mee MetaCosm metasyntax mfisher mgaare_ MicaiahC micro_ microamp microcode mishok13 MisterBubbles mitchty mjc1 mjrosenb mm-- mnemonikk mns mocker molqr Mon_Ouie Monolith| monotux MooGoo Mosu mrBliss mrSpec MrWoohoo msgodf mshroyer mstevens mstr msx mtk mtp muep munge murphy__ murr4y musca myeffort n2o4 NaCl Nahra namtsui nano- naqano_ Natch ndngvr ndrst necronian nemesit_ nephyrin Neptu neurodamage newcup nicferrier nihilifer nilg njsg njsg__ noam_ noorul noptys ntesir nu7hatch nuba nullman nunag obre ocharles offby1 offbyone ohama ok2 oleo osnr oufo OxDeadC0de ozialien ozzloy paddymahoney paroneayea PaulHarris pcarrier peder petey petrosil pheaver Philonous pjb pnkfelix pointzeronine portante prebz_ prip progo przl pshuff qDot_ qlkzy quackv4 quasisane quicksilver quist quotemstr raft Ralt ramsus raph_ael Rapp rasmusto raso Raynes rdgr reactormonk redblue redeemed reeses reim remote renard_ renzhi rgrinberg rien rizumu robmyers_ rods roe_ rotty rrn rryoumaa rudybot ruediger russm ryanc s15y sababa sabya SamB saorge sauerkrause scgilardi- schoppenhauer scriptor sdemarre seangrove seantallen Seb segv- sellout- Sembei semente sepi serhart seschwar setheus_ shadowdaemon Shambles_ sheepbat shergill Sierpinski sigjuice_ Sigma Silex Sketch ski smeb smull sohail solarus SomeDamnBody Sonderblade sontek sorabji5252 spacebat spaceone specbot splitter_ srhb sshirokov stackofcats stask steckerhalter StMichel stokachu stomp subopt sunmoonstar superbil^^ SuperNoeMan surrounder svaksha swathe sword Sysaxed Takumo tali713 talyz tasdomas tauntaun TaylanUB tazle tbarletz technomancy teiresias tensorpudding tessier tg tgunr theBlackDragon TheBrayn TheCrittaC thelorax123 theos theRoUS thisirs thomases thorkill thrn tilgovi tiwula tkd tmokros tommis ToothlessGear topi` Trademark91 tsbtmn tsurutom Tsyesika turbofail tvaalen twem2 txxt tychoish Ulrar Unhammer unknown_lamer upgrayeddd ustunozgur uwjesq varlog vbernat vcgomes vds ve Veg Viiru vijaykiran Vivek Vorpal vt102 vterron_ vxe_ waaron wagle waisl wanders wapiflapi wbill wchun wdouglas` wedgeV wgreenhouse WhichMatt wilfredh Will| wizzo woddf2 wsmwk wunki wyan w|t xales xenophon xhrl xinming xneme xristos xrq yacks yhvh yonkeltron YoungFrog yrk z0d zaargy zacts Zagaba zakame zellio zeltak zenoli zenwryly zhengyi zobbo zol zoldar_ zw01 zygen zymurgy zz_karupanerura {cms}]
+2013-11-11 22:34:33	--	Channel #emacs: 705 nicks (0 ops, 0 voices, 705 normals)
+2013-11-11 22:34:33	jlf	mmmm pita
+2013-11-11 22:34:33	--	URL for #emacs: http://www.emacswiki.org/EmacsChannel
+2013-11-11 22:34:34	--	Mode #emacs [+np]
+2013-11-11 22:34:34	--	Channel created on Sun, 26 Nov 2006 07:42:33
+2013-11-11 22:34:53	wgreenhouse	technomancy: http://conkeror.org/ContentPolicy could potentially replace many uses of noscript with some yak-shaving
+2013-11-11 22:35:03	JordiGH	steckerhalter: Because git is too slow for Facebook, basically, and they found it easier to hack hg than git.
+2013-11-11 22:35:25	JordiGH	wgreenhouse: Yes, FB uses hg internally.
+2013-11-11 22:36:25	technomancy	wgreenhouse: too late; the install.rdf yak is shorn!
+2013-11-11 22:36:25	technomancy	wgreenhouse: thanks; I'll take a look =)
+2013-11-11 22:36:25	steckerhalter	JordiGH: i always thought git was FAST
+2013-11-11 22:36:25	JordiGH	steckerhalter: There's a lot of FB code: http://codepad.org/98RkDEFq
+2013-11-11 22:36:25	<--	zenwryly has quit (Excess Flood)
+2013-11-11 22:36:25	JordiGH	steckerhalter: For some things git is fast, for other things it's slow.
+2013-11-11 22:36:25	-->	zenwryly has joined #emacs
+2013-11-11 22:36:32	JordiGH	"C" isn't a magic speed enhancer.
+2013-11-11 22:36:46	technomancy	wgreenhouse: I would much prefer something that doesn't require manually installing packages from a horrible janky package manager like mozilla's, so this looks cool
+2013-11-11 22:37:09	ruediger	JordiGH: I dunno if "FB uses it" is really such a great advertisement.
+2013-11-11 22:37:22	jlf	,told facebook
+2013-11-11 22:37:23	fsbot	Awww! facebook got *told*!
+2013-11-11 22:37:30	steckerhalter	JordiGH: yeah, well... I imagine FB has like 10GB of source code
+2013-11-11 22:37:30	<--	sdemarre has left #emacs
+2013-11-11 22:37:47	steckerhalter	kinda like SVN style
+2013-11-11 22:38:05	JordiGH	ruediger: I don't care if they use it or not as long as they keep pumping money into the project.
+2013-11-11 22:38:33	JordiGH	ruediger: They're sponsoring this weekend's hg code sprint in NYC.
+2013-11-11 22:38:44	JordiGH	I would go, but y'know, USA border crossing.
+2013-11-11 22:39:11	<--	Inops has quit (Remote host closed the connection)
+2013-11-11 22:39:27	-->	brehaut has joined #emacs
+2013-11-11 22:39:45	-->	fourier has joined #emacs
+2013-11-11 22:41:43	JordiGH	steckerhalter: Also, hg revsets make me ^.^
+2013-11-11 22:42:07	<--	davexunit has quit (Quit: Later)
+2013-11-11 22:42:33	-->	francis_wolke has joined #emacs
+2013-11-11 22:43:24	<--	didi has quit (Ping timeout: 252 seconds)
+2013-11-11 22:43:45	nicferrier	I think for these big companies exotic VC makes some sense.
+2013-11-11 22:43:58	nicferrier	like google uses perforce. it makes some sense.
+2013-11-11 22:44:04	nicferrier	must be frustrating though.
+2013-11-11 22:44:18	steckerhalter	JordiGH: never really tried hg so I can't relate...
+2013-11-11 22:44:59	<--	keen__ has quit (Read error: Connection reset by peer)
+2013-11-11 22:44:59	JordiGH	steckerhalter: Well, look at what I did with it in that codepad thing above.
+2013-11-11 22:44:59	nicferrier	it really is very good.
+2013-11-11 22:44:59	-->	keen_ has joined #emacs
+2013-11-11 22:44:59	steckerhalter	bzr was enough for me :)
+2013-11-11 22:44:59	<--	Joreji_ has quit (Ping timeout: 268 seconds)
+2013-11-11 22:44:59	nicferrier	for the average developer though it makes no sense.
+2013-11-11 22:44:59	JordiGH	steckerhalter: Queried the history for "all devs with @fb.com accounts" then queried for "the first one" and then "for the last one".
+2013-11-11 22:44:59	marcanuy	how can I find out the values of an variable in a list? e.g. substatement-open in c-offsets-alist
+2013-11-11 22:44:59	JordiGH	steckerhalter: How do you do this in git?
+2013-11-11 22:45:29	<--	przl has quit (Ping timeout: 252 seconds)
+2013-11-11 22:45:34	<--	marjan- has quit (Quit: Leaving.)
+2013-11-11 22:45:59	nicferrier	marcanuy: it's an alist so you could use assoc, eg: (assoc 'substatement-open c-offsets-alist)
+2013-11-11 22:46:45	steckerhalter	JordiGH: I'm sure it's possible... :)
+2013-11-11 22:46:58	<--	thelorax123 has quit (Remote host closed the connection)
+2013-11-11 22:47:08	 *	steckerhalter dances the reflog
+2013-11-11 22:47:19	JordiGH	steckerhalter: The reflog doesn't have this information.
+2013-11-11 22:47:20	JordiGH	Not by itself, anyways.
+2013-11-11 22:47:37	JordiGH	It's in the actual log (and across all branches), but you'd have to write a bit of a script to extract the information from it.
+2013-11-11 22:47:50	JordiGH	revsets *are* "a bit of a script", they are their own DSL, but they're built-in to hg.
+2013-11-11 22:48:02	<--	sellout- has quit (Quit: Leaving.)
+2013-11-11 22:48:31	-->	joshbamboo has joined #emacs
+2013-11-11 22:48:37	-->	noahsussman has joined #emacs
+2013-11-11 22:48:37	-->	thelorax123 has joined #emacs
+2013-11-11 22:48:38	steckerhalter	sure... but usually I need VCS to do VC
+2013-11-11 22:48:54	JordiGH	And don't you ever want to inspect your history?
+2013-11-11 22:49:46	steckerhalter	not really... only if I need to find something from it
+2013-11-11 22:50:40	<--	joshbamboo1 has quit (Ping timeout: 240 seconds)
+2013-11-11 22:51:06	-->	sorella has joined #emacs
+2013-11-11 22:51:39	steckerhalter	I mean the main purpose of VC is that you can go back and don't lose the state
+2013-11-11 22:52:10	steckerhalter	oh, and that you can work on the same project in a team
+2013-11-11 22:52:42	JordiGH	http://anongallery.org/img/8156/push-rejected-rebase-or-merge-git-push-force.jpg
+2013-11-11 22:52:51	rudybot	http://tinyurl.com/ltdunlr
+2013-11-11 22:52:51	JordiGH	hahaha
+2013-11-11 22:53:13	steckerhalter	heh
+2013-11-11 22:55:16	-->	bananas has joined #emacs
+2013-11-11 22:55:16	<--	aisbaa has quit (Quit: Lost terminal)
+2013-11-11 22:56:08	steckerhalter	or http://i.imgur.com/5F75zuN.gif
+2013-11-11 22:56:10	bananas	hey, all! what are the lines that define modes like "# -*- mode: org; -*-" called?
+2013-11-11 22:56:18	<--	djcb has quit (Ping timeout: 264 seconds)
+2013-11-11 22:56:42	-->	wwilly has joined #emacs
+2013-11-11 22:56:44	wgreenhouse	bananas: local variable declarations.  it can be a multi-line comment in the body of the file, too
+2013-11-11 22:57:09	pjb	file local variables.
+2013-11-11 22:57:16	pjb	wgreenhouse: Not in the body, but in the last 512 bytes of the file.
+2013-11-11 22:57:28	pjb	the mode line must be on the 1st or 2nd line.
+2013-11-11 22:57:55	bananas	wgreenhouse, pjb: thanks! :)
+2013-11-11 22:58:03	wgreenhouse	pjb:  the "Local Variables:" comment can be anywhere in the file
+2013-11-11 22:58:11	<--	cbpage_ has quit (Quit: cbpage_)
+2013-11-11 22:58:17	-->	djcb has joined #emacs
+2013-11-11 22:58:28	wgreenhouse	oh, no more than 3000 chars from the end, sorry
+2013-11-11 22:58:32	wgreenhouse	I missed that in the info page
+2013-11-11 22:58:36	wgreenhouse	(info "(emacs) Specifying File Variables")
+2013-11-11 22:58:50	<--	djcb has quit (Remote host closed the connection)

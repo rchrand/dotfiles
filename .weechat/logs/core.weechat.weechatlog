@@ -1,0 +1,21 @@
+2013-11-10 13:03:59		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-11-10 14:41:03		Option changed: irc.server.freenode.username = "rune1"  (default: (undefined))
+2013-11-10 14:41:21		Option changed: irc.server.freenode.realname = "Rune"  (default: (undefined))
+2013-11-10 14:43:03		Option changed: irc.server.freenode.username = "Ayey_"  (default: (undefined))
+2013-11-10 14:44:39		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-11-10 14:45:04		Option changed: irc.server.freenode.username = "rune1"  (default: (undefined))
+2013-11-10 14:46:59		Option changed: irc.server.freenode.nicks = "Ayey_"  (default: (undefined))
+2013-11-10 14:47:42		Option changed: irc.server.freenode.command = "/msg NickServ identify h1e2r3p4d5e6r7p8"  (default: (undefined))
+2013-11-10 14:52:28		Option changed: irc.server.freenode.autojoin = "#emacs,#lisp,#clojure,#javascript,#archlinux,#RubyOnRails,#emberjs,#learnprogramming"  (default: (undefined))
+2013-11-10 14:52:44		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-11-10 14:57:37		Option changed: irc.server.freenode.autoconnect = on  (default: (undefined))
+2013-11-11 17:33:22		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-11-11 17:53:02		Option changed: irc.look.display_host_join = off  (default: on)
+2013-11-11 17:53:11		Option changed: irc.look.display_host_quit = off  (default: on)
+2013-11-11 17:54:06		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-11-11 17:57:53		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-11-11 21:17:19		Filter "joinquit" added:
+2013-11-11 21:17:19		  [joinquit] buffer: * / tags: irc_join,irc_part,irc_quit / regex: * 
+2013-11-11 21:18:32		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2013-11-11 21:20:20		Option changed: irc.server.freenode.command_delay = 5  (default: (undefined))
+2013-11-11 21:20:34		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer

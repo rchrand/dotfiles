@@ -1,0 +1,792 @@
+2013-11-10 14:53:10	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emberjs
+2013-11-10 14:53:10	--	Topic for #emberjs is "#emberjs Ember.js -- emberjs.com -- Questions? Ask here or post on StackOverflow with the tag `ember.js`"
+2013-11-10 14:53:10	--	Topic set by machty (uid13535@gateway/web/irccloud.com/x-bymqzhaecapxemdf) on Sun, 27 Oct 2013 22:28:09
+2013-11-10 14:53:10	--	Nicks #emberjs: [@ebryn @krisselden @machty @peterwagenet @tomdale _bje_ abuiles adam12 aflatter alexdoom alexspeller artgoeshere askatz Ayey_ banzounet bcardarella beeman_nl beerlee_ ben_alman benturner boaz Bognar_work boubbin_ bowlingx boztek|afk bradleypriest braidn brisbin brixen cam`_ cha0s chancancode chiral chrisbuchholz Christia- codeofficer Criten csaunders ctimmerm cyril-sf da5id DanKnox_away danmcclain Darsain davidcelis davidjrice dBTalket_ dcamp dccc devinus_ djinni dlundy dmathieu doki_pen Domenic_ domme domme_ dopin_ drfreeze_ drjfreez1 drogus dsavi efries einarj elek elek__ elucid emberjs-hubot emmetbraun Eonwe ericberry erundook EvilTrout fivetanley freannrak fudanchii fxdgear galfert gauthierm gavacho ghedamat gkunno go1dfish GrahamL_ graphex graup grep_away gunn Guu h0bz_ harsa_______ hEart_riDer heroiceric_ heycarsten hjdivad hjr3 hlindset hoopy hyperboreean iamstef ianstarz_ idryman im0b imazined Inoperable ips|malc isar-bt jackfranklin jakob__ jakob___ jeffreytgilbert jesterKing jgelens jkarsrud jlyndon joefiorini joelcox Johnathan1707__ johng__ johnkpaul joliss jonsmock JordanFaust_ JSharp jso jsoverson Juv1228 jzirc kalv kanja karnowski kelonye kenchen kheldysh killtheliterate kohvihoo1 kokeroulis korpse LevelbossMike licyeus_ lightsofapollo listochkin locks Lockzi lord-spam Lord_DeathMatch luigy lukemelia_ lxsameer machuga mahmoudimus Mahoek malcolmva ManneW marcqualie Mariasha mattdawson mavilein mephx_ MerlinDMC michael_mbp MIG- milep mixonic mkoppel2_ mmun_ moondust MrMaffen msch mudyc mven navo_ nbouscal nhhagen niko ninegrid nsutt nuba Oddskar ohcibi PacketMonkey paolord pearkes phaza_ phreax plusgut pr0cy0n Proditor qmx quicksnap raax randym_ raycohen raytiley rblackwe ree renchap revls rhinon richardiii rickard2 rickyla rjhilgefort robyurkowski roger_rabbit royvandermeij rpowell rramsden rsk700 rsol rue rwaldron rwjblue ryanflorence RyanHirsch ryanponce ryanRT s_e sandstrom seagreen- SecretAgent ShadowBelmolve shennyg shinnya shwoodard SinisterMinister skython slobo smoking_kiddo snb__ spenen sris stabbylambda StanleyD stderr- stevefink_ storkovo strzalek sublime sudobangbang svparijs_afk swi7ch tce terietor TheMoonMaster tilleps tomshreds toranb_ Torsten|off triptec trombom trym tubaxeno1 tubbo ugisozols vanstee vetalam wecc weeezes_ wjlroe wmage wmoxam wookiehangover wycats xBBTx Xethron xianthe xrl_ zaius Zeeraw ZeK__ zelgerj zv]
+2013-11-10 14:53:10	--	Channel #emberjs: 273 nicks (5 ops, 0 voices, 268 normals)
+2013-11-10 14:53:20	--	Mode #emberjs [+cnt]
+2013-11-10 14:53:21	--	Channel created on Sat, 10 Dec 2011 01:26:12
+2013-11-10 14:54:19	-->	vlad_starkov (~vlad_star@109.188.126.55) has joined #emberjs
+2013-11-10 14:55:00	<--	richardiii (~richardii@ip72-201-207-83.ph.ph.cox.net) has quit (Ping timeout: 240 seconds)
+2013-11-10 14:56:10	-->	robmonie (~robmonie@ppp118-209-2-25.lns20.mel4.internode.on.net) has joined #emberjs
+2013-11-10 14:56:42	<--	xBBTx (~bbt@044-249-045-062.dynamic.caiway.nl) has quit (Remote host closed the connection)
+2013-11-10 14:59:08	-->	vince_prignano (~vince_pri@dynamic-adsl-78-12-54-177.clienti.tiscali.it) has joined #emberjs
+2013-11-10 15:00:50	<--	robmonie (~robmonie@ppp118-209-2-25.lns20.mel4.internode.on.net) has quit (Ping timeout: 265 seconds)
+2013-11-10 15:00:58	-->	kgolden (~kgolden@99-64-103-58.lightspeed.austtx.sbcglobal.net) has joined #emberjs
+2013-11-10 15:01:44	<--	rpowell (~rpowell@CPE-58-164-42-12.lnse5.ken.bigpond.net.au) has quit (Quit: rpowell)
+2013-11-10 15:04:08	-->	januschh (~januschh@1703ds6-by.0.fullrate.dk) has joined #emberjs
+2013-11-10 15:05:31	<--	lxsameer (~lxsameer@unaffiliated/lxsameer) has quit (Quit: Leaving)
+2013-11-10 15:09:13	-->	endash (~chris@c-68-55-177-69.hsd1.va.comcast.net) has joined #emberjs
+2013-11-10 15:13:56	-->	MartinElvar (~elvar@77.75.167.186) has joined #emberjs
+2013-11-10 15:14:03	-->	vanne (~vanne@78-23-48-248.access.telenet.be) has joined #emberjs
+2013-11-11 17:33:38	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emberjs
+2013-11-11 17:33:38	--	Topic for #emberjs is "#emberjs Ember.js -- emberjs.com -- Questions? Ask here or post on StackOverflow with the tag `ember.js`"
+2013-11-11 17:33:38	--	Topic set by machty (uid13535@gateway/web/irccloud.com/x-bymqzhaecapxemdf) on Sun, 27 Oct 2013 22:28:09
+2013-11-11 17:33:38	--	Nicks #emberjs: [@ebryn @krisselden @machty @peterwagenet @tomdale _bje_ abobwhite abuiles adam12 aflatter alexdoom alexspeller amino andyhot annlewis artgoeshere askatz audreyr Ayey_ aymerick banzounet batok bcardarella beeman_nl beerlee_ ben_alman bengillies benmoss_ benturner billwoodward bmac boaz Bognar_work boubbin_ boztek|afk braidn brisbin brixen btyler cam`_ camt cha0s chancancode chiral chrisbuchholz ChristianM Clooth cocoa codeofficer cowboyd craig Criten csaunders ctimmerm cyril-sf da5id DanKnox_away danmcclain danshultz davidcelis davidjrice davydotcom dBTalket_ dcamp dccc devinus_ dhilipsiva djinni dlundy dm73 dmathieu doki_pen Domenic_ domme domme_ drfreeze_ drjfreez1 drogus dsavi duggiefresh efries einarj elek elek__ elucid emberjs-hubot emmetbraun endash Eonwe ericberry ericf erundook esopian evantravers EvilTrout fivetanley freannrak fudanchii fxdgear galfert gasbakid_ gauthierm gavacho gerardcahill ghedamat gkunno go1dfish gordoncassie GrahamL_ graphex graup grep_awesome Guest46101 Guest74502 gunn Guu h0bz harsa_______ hayer hEart_riDer hellopat heroiceric_ heycarsten hjdivad hjr3 hlindset hoopy hyperboreean iamstef ianstarz_ idryman im0b imazined_ Inoperable ips|malc isar-bt jackfranklin jakehow jakob__ jakob___ jergason jgelens jgwhite jkarsrud jlyndon jmadsen joefiorini joepym Johnathan1707__ johng__ johnkpaul joliss jonsmock jpkcambridge jrhe JSharp jso jtomasrl Juv1228 jzirc kalv kanja karnowski kaukas kenchen kheldysh killtheliterate knownasilya kohvihoo1 kokeroulis korpse krycek_ kurko_ LevelbossMike lholmquist licyeus_ lightsofapollo locks Lockzi lord-spam Lord_DeathMatch luigy lukemelia_ Mahoek malcolmva ManneW marcqualie Mariasha MartinElvar mattdawson mattmcclure mephx_ MerlinDMC michael_mbp MIG- milep mixonic mkoppel2040 mmun_ moondust msch mudyc mven mysterlune nbouscal ncfcmark nhhagen niko ninegrid Nook nsutt nuba Oddskar ohcibi PacketMonkey pearkes petey phaza_ phreax pixelhandler plusgut pr0cy0n Proditor pvertenten pyr3 qmx quicksnap qwert666 raax raila randym_ raycohen raytiley rblackwe ree renchap revls rhinon richgilbank rickard2 rickharrison rickyla rjhilgefort robyurkowski roger_rabbit royvandermeij rramsden rsol rue rwaldron rwjblue ryanflorence RyanHirsch ryanponce ryanRT ryantology s_e sander__ sandstrom seagreen- SecretAgent selva-G seuros Sh33pman ShadowBelmolve shaunbak_ shennyg shwoodard SinisterMinister skython slobo smoking_kiddo sparklingideas spenen sris ssured stabbylambda StanleyD stderr- stevefink_ storkovo strzalek sublime sudobangbang svparijs_afk swi7ch tboyt tce teddyZ terietor TheMoonMaster tokuhirom tomshreds toranb_ Torsten|off triptec trombom trym tubaxeno1 tubbo ugisozols vanne vlad_starkov vmx wecc weeezes_ wjlroe wmage wmoxam wookiehangover wycats xBBTx Xethron xianthe xrl_ zaius ZeK__ zelgerj zigomir zv]
+2013-11-11 17:33:38	--	Channel #emberjs: 320 nicks (5 ops, 0 voices, 315 normals)
+2013-11-11 17:33:41	-->	mavilein (~mavilein@adsl.artnology.com) has joined #emberjs
+2013-11-11 17:33:47	--	Mode #emberjs [+cnt]
+2013-11-11 17:33:47	--	Channel created on Sat, 10 Dec 2011 01:26:12
+2013-11-11 17:33:49	endash	a gist would be helpful
+2013-11-11 17:34:14	SinisterMinister	I think I may need to implement unknownProperty and proxy everything through it. After the object. The object is instantiated in the model method on the route. It returns an RSVP promise
+2013-11-11 17:34:25	SinisterMinister	the promise returns the ORM object on resolve
+2013-11-11 17:34:42	<--	joliss (~joliss@188.29.164.145.threembb.co.uk) has quit (Ping timeout: 265 seconds)
+2013-11-11 17:35:02	SinisterMinister	Though, Ember has changed a bit since I was last deep in the core, so the workflow may have changed a bit
+2013-11-11 17:35:12	<--	mattmcclure (~matt@c-71-204-189-73.hsd1.ca.comcast.net) has quit (Client Quit)
+2013-11-11 17:35:12	SinisterMinister	so my assumptions my be wrong
+2013-11-11 17:35:22	endash	tell me about it :P
+2013-11-11 17:35:40	locks	he is! #CptObvious
+2013-11-11 17:36:12	endash	anyone wanna bust out some sprout core 2.0
+2013-11-11 17:36:21	joepym	endash: how's this? https://gist.github.com/JoePym/7416155
+2013-11-11 17:36:25	endash	does anyone even REMEMBER that
+2013-11-11 17:36:41	locks	what a sprout core, is that a salad?
+2013-11-11 17:36:43	 *	SinisterMinister has a flashback to porting the sprout core state machine into ember 0.9.6
+2013-11-11 17:37:12	SinisterMinister	I'd rather not remember
+2013-11-11 17:37:15	endash	I'd be curious if there's even a single line of SC left in ember
+2013-11-11 17:37:30	joepym	did they start from SC, or do a rewrite?
+2013-11-11 17:37:43	SinisterMinister	they pretty much did a rewrite after 0.9.8
+2013-11-11 17:37:57	joepym	I remember reading when SC started, but I didn't pay much attention to it till I started seeing the ember demos :)
+2013-11-11 17:38:00	jgwhite	Yehuda has spoken of Charles Jolley "gifting" them a fully rewritten object/bindings system
+2013-11-11 17:38:04	endash	it was a rewrite, followed by 3 or 4 rewrites :P
+2013-11-11 17:38:55	endash	ah history
+2013-11-11 17:39:21	-->	richardiii (~richardii@66.17.86.146) has joined #emberjs
+2013-11-11 17:40:03	SinisterMinister	Alright, I guess I'm gonna deep dive how the templates map to properties
+2013-11-11 17:40:06	<--	gerardcahill (~gerardcah@sjrq.vpn.fitzbiz.com) has quit (Remote host closed the connection)
+2013-11-11 17:40:11	locks	time for a time blame
+2013-11-11 17:40:13	SinisterMinister	see what I need to expose
+2013-11-11 17:40:42	-->	gerardcahill (~gerardcah@sjrq.vpn.fitzbiz.com) has joined #emberjs
+2013-11-11 17:41:14	locks	*git blame
+2013-11-11 17:42:26	<--	askatz (uid1311@gateway/web/irccloud.com/x-szcwdftrqfoegrvy) has quit (Quit: Connection closed for inactivity)
+2013-11-11 17:42:33	-->	joliss (~joliss@188.29.164.145.threembb.co.uk) has joined #emberjs
+2013-11-11 17:42:44	<--	gerardcahill (~gerardcah@sjrq.vpn.fitzbiz.com) has quit (Remote host closed the connection)
+2013-11-11 17:42:57	-->	gerardcahill (~gerardcah@sjrq.vpn.fitzbiz.com) has joined #emberjs
+2013-11-11 17:43:02	<--	jtomasrl (~jtomasrl@pc-219-98-100-190.cm.vtr.net) has quit (Quit: Leaving...)
+2013-11-11 17:48:05	<--	davydotcom (~davydotco@2601:d:aa80:6fa:f4d8:431e:1626:b6d1) has quit (Remote host closed the connection)
+2013-11-11 17:48:32	-->	davydotcom (~davydotco@c-50-178-55-115.hsd1.in.comcast.net) has joined #emberjs
+2013-11-11 17:50:39	-->	jvdneut (~jvdneut@89.41.14.60) has joined #emberjs
+2013-11-11 17:50:48	<--	ericf (~ericf@c-76-119-141-119.hsd1.ma.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 17:51:28	-->	mahmoudimus (~mahmoudim@173-228-85-238.dsl.dynamic.sonic.net) has joined #emberjs
+2013-11-11 17:51:49	<--	jvdneut (~jvdneut@89.41.14.60) has quit (Remote host closed the connection)
+2013-11-11 17:51:57	<--	mahmoudimus (~mahmoudim@173-228-85-238.dsl.dynamic.sonic.net) has quit (Client Quit)
+2013-11-11 17:52:00	<--	stabbylambda (~stabbylam@137.135.44.29) has quit (Quit: Leaving...)
+2013-11-11 17:52:04	-->	davidlai (~Adium@74.62.30.236) has joined #emberjs
+2013-11-11 17:52:07	-->	jpoz (~jpoz@c-24-22-121-42.hsd1.or.comcast.net) has joined #emberjs
+2013-11-11 17:52:10	SinisterMinister	Is this the code that gets the data for the template?
+2013-11-11 17:52:10	SinisterMinister	https://github.com/emberjs/ember.js/blob/v1.1.2/packages/ember-handlebars/lib/ext.js#L70
+2013-11-11 17:53:42	<--	davydotcom has quit (Ping timeout: 272 seconds)
+2013-11-11 17:54:22	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emberjs
+2013-11-11 17:54:22	--	Topic for #emberjs is "#emberjs Ember.js -- emberjs.com -- Questions? Ask here or post on StackOverflow with the tag `ember.js`"
+2013-11-11 17:54:22	--	Topic set by machty (uid13535@gateway/web/irccloud.com/x-bymqzhaecapxemdf) on Sun, 27 Oct 2013 22:28:09
+2013-11-11 17:54:22	--	Nicks #emberjs: [@ebryn @krisselden @machty @peterwagenet @tomdale _bje_ abobwhite abuiles adam12 aflatter alexdoom alexspeller amino andyhot annlewis artgoeshere audreyr Ayey_ aymerick banzounet batok bcardarella beeman_nl beerlee_ ben_alman bengillies benmoss_ benturner billwoodward bmac boaz Bognar_work boubbin_ boztek|afk braidn brisbin brixen btyler cam`_ camt cha0s chancancode chiral chrisbuchholz ChristianM Clooth cocoa codeofficer cowboyd craig Criten csaunders ctimmerm cyril-sf da5id DanKnox_away danmcclain danshultz davidcelis davidjrice davidlai dBTalket_ dcamp dccc devinus_ dhilipsiva djinni dlundy dm73 dmathieu doki_pen Domenic_ domme domme_ drfreeze_ drjfreez1 drogus dsavi duggiefresh efries einarj elek elek__ elucid emberjs-hubot emmetbraun endash Eonwe ericberry erundook esopian evantravers EvilTrout fivetanley freannrak fudanchii fxdgear galfert gasbakid_ gauthierm gavacho gerardcahill ghedamat gkunno go1dfish gordoncassie GrahamL_ graphex graup grep_awesome Guest46101 Guest74502 gunn Guu h0bz harsa_______ hayer hEart_riDer hellopat heroiceric_ heycarsten hjdivad hjr3 hlindset hoopy hyperboreean iamstef ianstarz_ idryman im0b imazined_ Inoperable ips|malc isar-bt jackfranklin jakehow jakob__ jakob___ jergason jgelens jgwhite jkarsrud jlyndon jmadsen joefiorini joepym Johnathan1707__ johng__ johnkpaul joliss jonsmock jpkcambridge jpoz jrhe JSharp jso jtomasrl Juv1228 jzirc kalv kanja karnowski kaukas kenchen kheldysh killtheliterate knownasilya kohvihoo1 kokeroulis korpse krycek_ kurko_ LevelbossMike lholmquist licyeus_ lightsofapollo locks Lockzi lord-spam Lord_DeathMatch luigy lukemelia_ Mahoek malcolmva ManneW marcqualie Mariasha MartinElvar mattdawson mavilein mephx_ MerlinDMC michael_mbp MIG- milep mixonic mkoppel2040 mmun_ moondust msch mudyc mven mysterlune nbouscal ncfcmark nhhagen niko ninegrid Nook nsutt nuba Oddskar ohcibi PacketMonkey pearkes petey phaza_ phreax pixelhandler plusgut pr0cy0n Proditor pvertenten pyr3 qmx quicksnap qwert666 raax raila randym_ raycohen raytiley rblackwe ree renchap revls rhinon richardiii richgilbank rickard2 rickharrison rickyla rjhilgefort robyurkowski roger_rabbit royvandermeij rramsden rsol rue rwaldron rwjblue ryanflorence RyanHirsch ryanponce ryanRT ryantology s_e sander__ sandstrom seagreen- SecretAgent selva-G seuros Sh33pman ShadowBelmolve shaunbak_ shennyg shwoodard SinisterMinister skython slobo smoking_kiddo sparklingideas spenen sris ssured StanleyD stderr- stevefink_ storkovo strzalek sublime sudobangbang svparijs_afk swi7ch tboyt tce teddyZ terietor TheMoonMaster tokuhirom tomshreds toranb_ Torsten|off triptec trombom trym tubaxeno1 tubbo ugisozols vanne vlad_starkov vmx wecc weeezes_ wjlroe wmage wmoxam wookiehangover wycats xBBTx Xethron xianthe xrl_ zaius ZeK__ zelgerj zigomir zv]
+2013-11-11 17:54:22	--	Channel #emberjs: 319 nicks (5 ops, 0 voices, 314 normals)
+2013-11-11 17:54:22	<--	mavilein has quit (Read error: Connection reset by peer)
+2013-11-11 17:54:27	-->	munumunum has joined #emberjs
+2013-11-11 17:54:31	--	Mode #emberjs [+cnt]
+2013-11-11 17:54:31	--	Channel created on Sat, 10 Dec 2011 01:26:12
+2013-11-11 17:54:38	-->	timrwood has joined #emberjs
+2013-11-11 17:55:02	-->	adambeynon has joined #emberjs
+2013-11-11 17:55:05	-->	rxgx has joined #emberjs
+2013-11-11 17:55:50	<--	btyler has quit (Ping timeout: 252 seconds)
+2013-11-11 17:56:38	-->	pose has joined #emberjs
+2013-11-11 17:57:05	-->	davydotcom has joined #emberjs
+2013-11-11 17:57:16	-->	jamesaanderson has joined #emberjs
+2013-11-11 17:57:23	<--	gasbakid_ has quit (Ping timeout: 264 seconds)
+2013-11-11 17:58:10	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emberjs
+2013-11-11 17:58:10	--	Topic for #emberjs is "#emberjs Ember.js -- emberjs.com -- Questions? Ask here or post on StackOverflow with the tag `ember.js`"
+2013-11-11 17:58:10	--	Topic set by machty (uid13535@gateway/web/irccloud.com/x-bymqzhaecapxemdf) on Sun, 27 Oct 2013 22:28:09
+2013-11-11 17:58:10	--	Nicks #emberjs: [@ebryn @krisselden @machty @peterwagenet @tomdale _bje_ abobwhite abuiles adam12 adambeynon aflatter alexdoom alexspeller amino andyhot annlewis artgoeshere audreyr Ayey_ aymerick banzounet batok bcardarella beeman_nl beerlee_ ben_alman bengillies benmoss_ benturner billwoodward bmac boaz Bognar_work boubbin_ boztek|afk braidn brisbin brixen cam`_ camt cha0s chancancode chiral chrisbuchholz ChristianM Clooth cocoa codeofficer cowboyd craig Criten csaunders ctimmerm cyril-sf da5id DanKnox_away danmcclain danshultz davidcelis davidjrice davidlai davydotcom dBTalket_ dcamp dccc devinus_ dhilipsiva djinni dlundy dm73 dmathieu doki_pen Domenic_ domme domme_ drfreeze_ drjfreez1 drogus dsavi duggiefresh efries einarj elek elek__ elucid emberjs-hubot emmetbraun endash Eonwe ericberry erundook esopian evantravers EvilTrout fivetanley freannrak fudanchii fxdgear galfert gauthierm gavacho gerardcahill ghedamat gkunno go1dfish gordoncassie GrahamL_ graphex graup grep_awesome Guest46101 Guest74502 gunn Guu h0bz harsa_______ hayer hEart_riDer hellopat heroiceric_ heycarsten hjdivad hjr3 hlindset hoopy hyperboreean iamstef ianstarz_ idryman im0b imazined_ Inoperable ips|malc isar-bt jackfranklin jakehow jakob__ jakob___ jamesaanderson jergason jgelens jgwhite jkarsrud jlyndon jmadsen joefiorini joepym Johnathan1707__ johng__ johnkpaul joliss jonsmock jpkcambridge jpoz jrhe JSharp jso jtomasrl Juv1228 jzirc kalv kanja karnowski kaukas kenchen kheldysh killtheliterate knownasilya kohvihoo1 kokeroulis korpse krycek_ kurko_ LevelbossMike lholmquist licyeus_ lightsofapollo locks Lockzi lord-spam Lord_DeathMatch luigy lukemelia_ Mahoek malcolmva ManneW marcqualie Mariasha MartinElvar mattdawson mephx_ MerlinDMC michael_mbp MIG- milep mixonic mkoppel2040 mmun_ moondust msch mudyc munumunum mven mysterlune nbouscal ncfcmark nhhagen niko ninegrid Nook nsutt nuba Oddskar ohcibi PacketMonkey pearkes petey phaza_ phreax pixelhandler plusgut pose pr0cy0n Proditor pvertenten pyr3 qmx quicksnap qwert666 raax raila randym_ raycohen raytiley rblackwe ree renchap revls rhinon richardiii richgilbank rickard2 rickharrison rickyla rjhilgefort robyurkowski roger_rabbit royvandermeij rramsden rsol rue rwaldron rwjblue rxgx ryanflorence RyanHirsch ryanponce ryanRT ryantology s_e sander__ sandstrom seagreen- SecretAgent selva-G seuros Sh33pman ShadowBelmolve shaunbak_ shennyg shwoodard SinisterMinister skython slobo smoking_kiddo sparklingideas spenen sris ssured StanleyD stderr- stevefink_ storkovo strzalek sublime sudobangbang svparijs_afk swi7ch tboyt tce teddyZ terietor TheMoonMaster timrwood tokuhirom tomshreds toranb_ Torsten|off triptec trombom trym tubaxeno1 tubbo ugisozols vanne vlad_starkov vmx wecc weeezes_ wjlroe wmage wmoxam wookiehangover wycats xBBTx Xethron xianthe xrl_ zaius ZeK__ zelgerj zigomir zv]
+2013-11-11 17:58:10	--	Channel #emberjs: 323 nicks (5 ops, 0 voices, 318 normals)
+2013-11-11 17:58:19	--	Mode #emberjs [+cnt]
+2013-11-11 17:58:19	--	Channel created on Sat, 10 Dec 2011 01:26:12
+2013-11-11 17:58:55	<--	jtomasrl has quit (Client Quit)
+2013-11-11 18:00:57	<--	jpkcambridge has quit (Quit: jpkcambridge)
+2013-11-11 18:01:16	<--	cowboyd has quit (Remote host closed the connection)
+2013-11-11 18:02:26	<--	kurko_ has quit (Ping timeout: 248 seconds)
+2013-11-11 18:02:27	SinisterMinister	Just FYI
+2013-11-11 18:02:45	SinisterMinister	Implementing and exposing unknownProperty and setUnknownProperty seems to have worked
+2013-11-11 18:03:01	<--	annlewis has quit (Remote host closed the connection)
+2013-11-11 18:03:27	SinisterMinister	Next will be making computed properties work
+2013-11-11 18:03:34	-->	annlewis has joined #emberjs
+2013-11-11 18:04:13	<--	jpoz has quit (Ping timeout: 264 seconds)
+2013-11-11 18:04:46	-->	rlivsey has joined #emberjs
+2013-11-11 18:05:19	-->	richardi_ has joined #emberjs
+2013-11-11 18:06:03	-->	btyler has joined #emberjs
+2013-11-11 18:06:37	<--	jakehow has quit (Ping timeout: 244 seconds)
+2013-11-11 18:06:42	<--	audreyr has quit (Quit: audreyr)
+2013-11-11 18:06:49	-->	kurko_ has joined #emberjs
+2013-11-11 18:06:56	-->	reset has joined #emberjs
+2013-11-11 18:07:10	--	DanKnox_away is now known as DanKnox
+2013-11-11 18:07:28	locks	SinisterMinister: may the javascripts be with you
+2013-11-11 18:08:11	<--	annlewis has quit (Ping timeout: 264 seconds)
+2013-11-11 18:08:19	-->	jpoz has joined #emberjs
+2013-11-11 18:08:28	<--	zigomir has quit (Quit: zigomir)
+2013-11-11 18:08:32	<--	jergason has quit (Quit: jergason)
+2013-11-11 18:09:07	SinisterMinister	thanks! I'm working on yet another alternative to ember data.  The key to mine is that it works in the back-end (node) and in the front end.  So far, so good =D.
+2013-11-11 18:09:33	-->	norviller has joined #emberjs
+2013-11-11 18:09:39	locks	oohh, fancy
+2013-11-11 18:10:00	<--	richardi_ has quit (Ping timeout: 265 seconds)
+2013-11-11 18:10:00	SinisterMinister	The goals are: persistence agnostic, self building, and framework agnostic
+2013-11-11 18:10:21	SinisterMinister	I'll come evangelize when it's more fully baked
+2013-11-11 18:10:39	SinisterMinister	it's at 0.2.1, but I need to finish the testing suite and write the docs
+2013-11-11 18:11:03	locks	self building?
+2013-11-11 18:11:36	<--	reset has quit (Ping timeout: 252 seconds)
+2013-11-11 18:11:44	-->	gasbakid has joined #emberjs
+2013-11-11 18:12:11	<--	xBBTx has quit (Remote host closed the connection)
+2013-11-11 18:14:33	-->	jergason has joined #emberjs
+2013-11-11 18:16:01	<--	emmetbraun has quit (Quit: This computer has gone to sleep)
+2013-11-11 18:16:52	<--	skython has quit (Ping timeout: 245 seconds)
+2013-11-11 18:16:56	-->	dopin has joined #emberjs
+2013-11-11 18:17:04	-->	jmonma has joined #emberjs
+2013-11-11 18:18:18	-->	luckyeights has joined #emberjs
+2013-11-11 18:18:23	-->	mahmoudimus has joined #emberjs
+2013-11-11 18:18:47	<--	pr0cy0n has quit (Ping timeout: 272 seconds)
+2013-11-11 18:18:50	<--	jpoz has quit (Quit: Peace out)
+2013-11-11 18:19:03	-->	pel_daniel has joined #emberjs
+2013-11-11 18:19:08	evantravers	SinisterMinister: sounds neat...
+2013-11-11 18:20:06	-->	audaxion has joined #emberjs
+2013-11-11 18:20:06	-->	cowboyd has joined #emberjs
+2013-11-11 18:20:19	<--	Xethron has quit (Ping timeout: 272 seconds)
+2013-11-11 18:21:20	-->	dmarkow has joined #emberjs
+2013-11-11 18:21:35	knownasilya	What's the alternative now? Ember.Object.create no longer supports defining computed properties.
+2013-11-11 18:21:36	-->	davidpett has joined #emberjs
+2013-11-11 18:22:01	<--	cocoa has quit (Quit: cocoa)
+2013-11-11 18:22:35	knownasilya	Was using the example in ember-states, func () {}.property()
+2013-11-11 18:22:47	<--	gerardcahill has quit (Remote host closed the connection)
+2013-11-11 18:22:47	<--	davydotcom has quit (Remote host closed the connection)
+2013-11-11 18:23:19	-->	davydotcom has joined #emberjs
+2013-11-11 18:23:22	-->	gerardcahill has joined #emberjs
+2013-11-11 18:23:44	<--	gerardcahill has quit (Remote host closed the connection)
+2013-11-11 18:25:10	-->	kruppel has joined #emberjs
+2013-11-11 18:25:36	<--	dopin has quit (Ping timeout: 264 seconds)
+2013-11-11 18:26:03	<--	einarj has quit (Remote host closed the connection)
+2013-11-11 18:27:41	<--	davydotcom has quit (Ping timeout: 240 seconds)
+2013-11-11 18:27:49	<--	nsutt has quit (Quit: Page closed)
+2013-11-11 18:27:50	SinisterMinister	locks: yeah, it's built around the idea of using repositories as the DAL, so you can swap them out with other persistent stores (mysql, mongo, etc). One of the things the repository will do is provide a schema that the ORM uses to build its models
+2013-11-11 18:28:08	SinisterMinister	The mysql repo uses introspection to build the schema based on the tables in your database
+2013-11-11 18:28:24	endash	knownasilya: createWithMixins
+2013-11-11 18:28:25	SinisterMinister	so if you have a `users` table, you could just call ORM.factory('user') and have a user model to work with
+2013-11-11 18:28:31	locks	sounds interesting and complicated :P
+2013-11-11 18:28:54	-->	gasbakid_ has joined #emberjs
+2013-11-11 18:28:56	SinisterMinister	It's complicated behind the scenes, but should be really easy to use
+2013-11-11 18:29:03	locks	gl
+2013-11-11 18:29:17	SinisterMinister	thanks
+2013-11-11 18:29:36	locks	sounds like a very useful ORM once all the pieces are in there
+2013-11-11 18:29:49	<--	gasbakid has quit (Ping timeout: 272 seconds)
+2013-11-11 18:30:06	-->	onc3null has joined #emberjs
+2013-11-11 18:30:10	<--	Guest74502 has quit (Quit: leaving)
+2013-11-11 18:30:32	-->	skurfuerst has joined #emberjs
+2013-11-11 18:30:33	knownasilya	endash: how would that be used?
+2013-11-11 18:30:38	<--	skurfuerst has quit (Client Quit)
+2013-11-11 18:31:52	knownasilya	isn't that just like using extend().create()? and nothing to do with CPs?
+2013-11-11 18:32:51	<--	pose has quit (Ping timeout: 248 seconds)
+2013-11-11 18:34:05	-->	annlewis has joined #emberjs
+2013-11-11 18:34:39	<--	sandstrom has quit (Ping timeout: 265 seconds)
+2013-11-11 18:35:19	-->	thelorax123 has joined #emberjs
+2013-11-11 18:35:27	-->	snb__ has joined #emberjs
+2013-11-11 18:35:47	<--	cowboyd has quit (Remote host closed the connection)
+2013-11-11 18:36:20	-->	cowboyd has joined #emberjs
+2013-11-11 18:38:51	-->	tymofi has joined #emberjs
+2013-11-11 18:39:02	<--	annlewis has quit (Ping timeout: 264 seconds)
+2013-11-11 18:39:38	-->	jpkcambridge has joined #emberjs
+2013-11-11 18:39:46	joepym	argh, I swear I'm going to rebuild my tablular data to use divs instead of a table -.-
+2013-11-11 18:40:00	<--	snb__ has quit (Ping timeout: 264 seconds)
+2013-11-11 18:40:13	joepym	that weird error is once again caused by using metamorph to add TR's to a table
+2013-11-11 18:40:19	joepym	make it divs inside another div, and it all goes away
+2013-11-11 18:40:50	<--	cowboyd has quit (Ping timeout: 264 seconds)
+2013-11-11 18:41:00	-->	sandstrom has joined #emberjs
+2013-11-11 18:41:00	<--	sandstrom has quit (Changing host)
+2013-11-11 18:41:00	-->	sandstrom has joined #emberjs
+2013-11-11 18:41:23	<--	xrl_ has quit (Quit: Connection closed for inactivity)
+2013-11-11 18:42:53	<--	davidpett has quit (Quit: Computer has gone to sleep.)
+2013-11-11 18:44:30	-->	Gowie has joined #emberjs
+2013-11-11 18:45:10	<--	bmac has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 18:45:26	<--	kanja has quit (Quit: Leaving.)
+2013-11-11 18:46:10	-->	raila1 has joined #emberjs
+2013-11-11 18:47:33	<--	raila has quit (Ping timeout: 252 seconds)
+2013-11-11 18:47:54	-->	cowboyd has joined #emberjs
+2013-11-11 18:49:03	<--	qwert666 has quit (Remote host closed the connection)
+2013-11-11 18:49:24	<--	cowboyd has quit (Remote host closed the connection)
+2013-11-11 18:49:39	-->	qwert666 has joined #emberjs
+2013-11-11 18:49:58	-->	cowboyd has joined #emberjs
+2013-11-11 18:50:27	<--	gasbakid_ has quit (Ping timeout: 245 seconds)
+2013-11-11 18:51:27	-->	bowlingx has joined #emberjs
+2013-11-11 18:51:57	-->	q666 has joined #emberjs
+2013-11-11 18:53:21	-->	paperbakwriter09 has joined #emberjs
+2013-11-11 18:53:29	<--	mixonic has quit (Quit: mixonic)
+2013-11-11 18:53:42	<--	tboyt has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 18:54:08	-->	davydotcom has joined #emberjs
+2013-11-11 18:54:53	-->	KendrickVT has joined #emberjs
+2013-11-11 18:55:22	-->	gasbakid_ has joined #emberjs
+2013-11-11 18:55:36	<--	qwert666 has quit (Ping timeout: 264 seconds)
+2013-11-11 18:55:59	<--	vlad_starkov has quit (Remote host closed the connection)
+2013-11-11 18:56:46	-->	annlewis has joined #emberjs
+2013-11-11 18:57:01	<--	shaunbak_ has quit (Remote host closed the connection)
+2013-11-11 18:57:30	-->	shaunbaker has joined #emberjs
+2013-11-11 18:58:22	<--	davydotcom has quit (Ping timeout: 245 seconds)
+2013-11-11 18:59:18	<--	KendrickVT has quit (Ping timeout: 260 seconds)
+2013-11-11 18:59:30	-->	richardi_ has joined #emberjs
+2013-11-11 19:01:34	-->	gasbakid__ has joined #emberjs
+2013-11-11 19:01:35	-->	jakehow has joined #emberjs
+2013-11-11 19:01:43	<--	shaunbaker has quit (Ping timeout: 246 seconds)
+2013-11-11 19:01:51	<--	ncfcmark has left #emberjs
+2013-11-11 19:02:43	<--	gasbakid_ has quit (Ping timeout: 248 seconds)
+2013-11-11 19:02:47	<--	jgwhite has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 19:03:50	-->	rsk700 has joined #emberjs
+2013-11-11 19:04:04	<--	richardi_ has quit (Ping timeout: 252 seconds)
+2013-11-11 19:04:52	<--	krycek_ has quit (Ping timeout: 248 seconds)
+2013-11-11 19:04:58	<--	machty has quit (Quit: Connection closed for inactivity)
+2013-11-11 19:05:50	knownasilya	is there a way to see available states in statemanager?
+2013-11-11 19:05:50	-->	_i0n has joined #emberjs
+2013-11-11 19:06:06	<--	danshultz has quit (Remote host closed the connection)
+2013-11-11 19:06:19	<--	rxgx has quit (Quit: timeout)
+2013-11-11 19:06:35	<--	_i0n has quit (Client Quit)
+2013-11-11 19:06:38	-->	danshultz has joined #emberjs
+2013-11-11 19:06:59	-->	vince_prignano has joined #emberjs
+2013-11-11 19:07:13	<--	benmoss_ has quit (Quit: benmoss_)
+2013-11-11 19:07:13	-->	jnh has joined #emberjs
+2013-11-11 19:07:25	-->	krycek_ has joined #emberjs
+2013-11-11 19:07:25	-->	KendrickVT has joined #emberjs
+2013-11-11 19:07:32	<--	craig has quit (Ping timeout: 248 seconds)
+2013-11-11 19:07:32	<--	danshultz has quit (Read error: Connection reset by peer)
+2013-11-11 19:07:48	-->	danshultz has joined #emberjs
+2013-11-11 19:07:51	-->	reset has joined #emberjs
+2013-11-11 19:11:49	<--	jnh has quit (Ping timeout: 240 seconds)
+2013-11-11 19:12:41	-->	kanja has joined #emberjs
+2013-11-11 19:13:07	-->	tboyt has joined #emberjs
+2013-11-11 19:13:15	<--	reset has quit (Ping timeout: 268 seconds)
+2013-11-11 19:13:40	<--	adambeynon has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-11-11 19:13:54	Gowie	I'm having issues with a model's isDirty state getting updated when relationships are changed. Does anybody know if that is currently an open issue with ember-data?
+2013-11-11 19:14:14	<--	jmadsen has quit (Remote host closed the connection)
+2013-11-11 19:14:42	-->	benjaminkvm has joined #emberjs
+2013-11-11 19:14:49	-->	jmadsen has joined #emberjs
+2013-11-11 19:15:05	<--	jamesaanderson has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 19:15:06	<--	benjaminkvm has left #emberjs
+2013-11-11 19:15:58	<--	jmadsen has quit (Read error: Connection reset by peer)
+2013-11-11 19:16:02	-->	jmadsen_ has joined #emberjs
+2013-11-11 19:19:11	<--	Clooth has quit (Quit: Leaving...)
+2013-11-11 19:19:15	-->	trabus has joined #emberjs
+2013-11-11 19:21:01	-->	pointlessjon has joined #emberjs
+2013-11-11 19:21:01	<--	mysterlune has quit (Read error: Connection reset by peer)
+2013-11-11 19:21:04	-->	mysterl__ has joined #emberjs
+2013-11-11 19:21:14	<--	gasbakid__ has quit (Ping timeout: 260 seconds)
+2013-11-11 19:21:32	-->	gasbakid_ has joined #emberjs
+2013-11-11 19:21:42	<--	shennyg has quit (Quit: Connection closed for inactivity)
+2013-11-11 19:22:11	-->	dopin has joined #emberjs
+2013-11-11 19:22:13	-->	bmac has joined #emberjs
+2013-11-11 19:23:03	-->	zigomir has joined #emberjs
+2013-11-11 19:26:37	<--	randym_ has quit (Quit: Connection closed for inactivity)
+2013-11-11 19:28:42	-->	benmoss_ has joined #emberjs
+2013-11-11 19:28:44	<--	tboyt has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 19:29:12	-->	rakm has joined #emberjs
+2013-11-11 19:29:23	knownasilya	Having some issues with the stae manager.. https://gist.github.com/knownasilya/7417898 not sure if I'm doing something wrong (the issue is on line 28)
+2013-11-11 19:29:28	knownasilya	state*
+2013-11-11 19:29:52	-->	tboyt has joined #emberjs
+2013-11-11 19:30:13	<--	dopin has quit (Ping timeout: 245 seconds)
+2013-11-11 19:30:46	<--	onc3null has quit (Read error: Connection reset by peer)
+2013-11-11 19:31:29	-->	pose has joined #emberjs
+2013-11-11 19:31:33	erundook	weird stuff, my observer function doesn't fire until i open up chrome's ember extension on the property it observes?
+2013-11-11 19:32:32	<--	raila1 has quit (Ping timeout: 272 seconds)
+2013-11-11 19:32:55	-->	ericf has joined #emberjs
+2013-11-11 19:32:56	-->	benv has joined #emberjs
+2013-11-11 19:33:57	-->	gerardcahill has joined #emberjs
+2013-11-11 19:35:15	<--	teddyZ has quit (Quit: Leaving)
+2013-11-11 19:35:51	-->	Clooth has joined #emberjs
+2013-11-11 19:37:13	-->	einarj has joined #emberjs
+2013-11-11 19:37:47	<--	SinisterMinister has quit (Read error: Connection reset by peer)
+2013-11-11 19:37:58	-->	SinisterMinister has joined #emberjs
+2013-11-11 19:38:06	<--	gerardcahill has quit (Ping timeout: 244 seconds)
+2013-11-11 19:39:10	<--	bengillies has quit (Quit: bengillies)
+2013-11-11 19:39:35	EvilTrout	There was recently a good query params article for ember
+2013-11-11 19:39:37	EvilTrout	anyone got that?
+2013-11-11 19:41:08	<--	pose has quit (Remote host closed the connection)
+2013-11-11 19:41:30	locks	EvilTrout: I bookmarked alexspeller's presentation
+2013-11-11 19:41:42	-->	pose has joined #emberjs
+2013-11-11 19:42:46	<--	einarj has quit (Ping timeout: 260 seconds)
+2013-11-11 19:43:21	erundook	so, @each observer doesn't work when using store.push :(
+2013-11-11 19:43:33	-->	grantgm has joined #emberjs
+2013-11-11 19:43:42	-->	vlad_starkov has joined #emberjs
+2013-11-11 19:44:02	<--	benv has quit (Ping timeout: 252 seconds)
+2013-11-11 19:44:15	-->	oncenull has joined #emberjs
+2013-11-11 19:44:47	-->	jvdneut has joined #emberjs
+2013-11-11 19:45:03	<--	pose has quit (Read error: Connection reset by peer)
+2013-11-11 19:45:28	knownasilya	erundook: I think you might have to save an insance of store, push to that and then do this.set('store', store)
+2013-11-11 19:45:41	-->	davidpett has joined #emberjs
+2013-11-11 19:46:10	erundook	knownasilya, wat?
+2013-11-11 19:46:49	-->	benv has joined #emberjs
+2013-11-11 19:47:09	<--	chrisbuchholz has left #emberjs
+2013-11-11 19:47:11	knownasilya	erundook: get the store and set as variable and push to that. Once done set it
+2013-11-11 19:47:17	-->	cmiller has joined #emberjs
+2013-11-11 19:47:28	erundook	knownasilya, i'm just doing store.pushPayload('model', data), and waiting for my .observes('models.@each') to fire up
+2013-11-11 19:47:44	<--	krycek_ has quit (Ping timeout: 272 seconds)
+2013-11-11 19:47:59	erundook	if i open up chrome extension for that model list, observer begins to work
+2013-11-11 19:48:00	erundook	:O
+2013-11-11 19:48:26	<--	dhilipsiva has quit (Remote host closed the connection)
+2013-11-11 19:48:40	knownasilya	shouldn't it be store.push, not store.pushPAyload?
+2013-11-11 19:49:00	erundook	for raw data it's pushPayload
+2013-11-11 19:49:17	knownasilya	what version are you using?
+2013-11-11 19:49:17	-->	Sinister_ has joined #emberjs
+2013-11-11 19:49:36	knownasilya	current is http://emberjs.com/api/data/classes/DS.Store.html#method_push
+2013-11-11 19:49:48	erundook	DEBUG: Ember      : 1.1.3+pre.5a35fc76 ember.js?body=1:417
+2013-11-11 19:49:48	erundook	DEBUG: Ember Data : 1.0.0-beta.3
+2013-11-11 19:50:34	knownasilya	pushPayload isn't even in the api..
+2013-11-11 19:50:44	<--	batok has quit (Quit: batok)
+2013-11-11 19:51:01	<--	jvdneut has quit (Ping timeout: 240 seconds)
+2013-11-11 19:51:05	<--	SinisterMinister has quit (Ping timeout: 246 seconds)
+2013-11-11 19:52:16	<--	joliss has quit (Ping timeout: 272 seconds)
+2013-11-11 19:53:15	erundook	knownasilya, with push, observer fires once :)
+2013-11-11 19:53:21	erundook	and dead silent after that
+2013-11-11 19:53:42	mmun_	hey EvilTrout
+2013-11-11 19:53:44	knownasilya	erundook: code would be usefull :)
+2013-11-11 19:53:51	EvilTrout	yo
+2013-11-11 19:53:56	-->	jvdneut has joined #emberjs
+2013-11-11 19:53:56	mmun_	do you have a lot of shortcuts in discourse?
+2013-11-11 19:53:59	mmun_	keyboard
+2013-11-11 19:54:20	knownasilya	anyone here using ember-states?
+2013-11-11 19:54:45	-->	davydotcom has joined #emberjs
+2013-11-11 19:54:55	-->	cjthompson has joined #emberjs
+2013-11-11 19:55:11	EvilTrout	mmun_: there are a few but to be honest I don't use them much
+2013-11-11 19:55:17	EvilTrout	I've never been a crazy keyboard person on web apps
+2013-11-11 19:55:34	mmun_	totally get it, our app definitely needs them though
+2013-11-11 19:55:35	erundook	knownasilya, https://gist.github.com/erundook/7418372
+2013-11-11 19:55:50	mmun_	i see there's a PR for it in discourse. I'm going to check out their implementation...
+2013-11-11 19:56:09	mmun_	It's annoying catching all keyboard events in the ApplicationView and delegating them based on the route
+2013-11-11 19:56:17	<--	KendrickVT has quit (Quit: Leaving.)
+2013-11-11 19:56:24	mmun_	but sort of necessary because of element focusing issues
+2013-11-11 19:58:08	-->	mavilein has joined #emberjs
+2013-11-11 19:58:52	knownasilya	erundook: you must first specify content in model hook and set it via this._super(c, m) before you set anything else..
+2013-11-11 19:59:08	-->	cjeria has joined #emberjs
+2013-11-11 19:59:12	EvilTrout	mmun_: an open PR?
+2013-11-11 19:59:31	<--	davydotcom has quit (Ping timeout: 260 seconds)
+2013-11-11 19:59:34	erundook	knownasilya, i've skipped those parts
+2013-11-11 19:59:35	<--	cowboyd has quit (Remote host closed the connection)
+2013-11-11 19:59:44	mmun_	EvilTrout: yup, https://github.com/discourse/discourse/pull/1457
+2013-11-11 19:59:49	<--	sparklingideas has quit (Quit: sparklingideas)
+2013-11-11 20:00:07	EvilTrout	ah yes, he was going to do a follow up on that
+2013-11-11 20:00:08	-->	cowboyd has joined #emberjs
+2013-11-11 20:00:13	EvilTrout	I forgot it wasn't pulled already
+2013-11-11 20:00:19	erundook	knownasilya, it works for records that are fetched from REST backend, it just doesn't seem to like records coming from pusher
+2013-11-11 20:00:49	knownasilya	erundook: well, the data you push needs to be the same as from the backend, same format that is.
+2013-11-11 20:00:50	erundook	even though i can see the models are updating in the ember debug extension
+2013-11-11 20:01:03	knownasilya	interesting.. maybe a bug
+2013-11-11 20:01:09	erundook	knownasilya, of course it is.
+2013-11-11 20:01:24	-->	charlietanksley has joined #emberjs
+2013-11-11 20:01:29	erundook	again. when i open that extension, observer suddenly starts to work.
+2013-11-11 20:01:32	trabus	I have been trying to build a birthdate picker component and am somewhat stuck. I've wired up the day select to account for leap years, so it updates if you change the month or year, but I can't get it to set it back to the previous value after updating http://emberjs.jsbin.com/oKEHadO/2/edit
+2013-11-11 20:01:34	<--	vlad_starkov has quit (Remote host closed the connection)
+2013-11-11 20:01:42	erundook	that's the most weird part
+2013-11-11 20:01:45	trabus	I'm pretty sure I'm either doing it wrong, or just missing something
+2013-11-11 20:01:50	-->	vlad_starkov has joined #emberjs
+2013-11-11 20:01:59	mmun_	EvilTrout, wow the binding/plugin thing is pretty cool!
+2013-11-11 20:02:32	<--	cowboyd has quit (Remote host closed the connection)
+2013-11-11 20:02:43	mmun_	eg. "!": "article.selected button.flag"
+2013-11-11 20:02:46	-->	cowboyd has joined #emberjs
+2013-11-11 20:03:54	<--	cjeria has quit (Client Quit)
+2013-11-11 20:04:27	erundook	knownasilya, any suggestions? :(
+2013-11-11 20:04:43	erundook	absolutely no idea what is happening there :(
+2013-11-11 20:04:44	mmun_	I see. You use #id to trigger clicks on the associated visual ui elements
+2013-11-11 20:04:54	elek__	when i pass in view.content into a handlebar helper that is inside of the itemViewClass of a collection view the context is the collection views content array..
+2013-11-11 20:05:01	mmun_	that's a pretty awesome way to do it, as long as every shortcut as a visual representation as well
+2013-11-11 20:05:02	-->	jtomasrl has joined #emberjs
+2013-11-11 20:05:19	<--	norviller has quit (Quit: Computer has gone to sleep.)
+2013-11-11 20:05:26	jtomasrl	is it possible to fire an event when record is added to the store?
+2013-11-11 20:05:34	knownasilya	erundook: how come you're using pusher along with the REST adapter? why not just create a pusher adapter?
+2013-11-11 20:06:02	-->	sparklingideas has joined #emberjs
+2013-11-11 20:06:17	erundook	knownasilya, i don't want to send it all via pusher, it initializes from rest backend and then get updates via pusher
+2013-11-11 20:06:35	-->	norviller has joined #emberjs
+2013-11-11 20:07:07	erundook	also, pusher is one-way thing. you can't trigger events from browser
+2013-11-11 20:07:16	erundook	only from server side
+2013-11-11 20:07:16	knownasilya	try observing .observes('items', 'items.@each.v'
+2013-11-11 20:07:28	<--	Sh33pman has quit (Quit: Leaving)
+2013-11-11 20:07:32	<--	kruppel has quit (Remote host closed the connection)
+2013-11-11 20:08:00	knownasilya	or even get rid of the v
+2013-11-11 20:08:06	knownasilya	see if that changes anything
+2013-11-11 20:08:37	erundook	knownasilya, nope :(
+2013-11-11 20:08:41	-->	jnh has joined #emberjs
+2013-11-11 20:08:54	erundook	i tried without v as well.. tried everything i could imagine
+2013-11-11 20:09:16	-->	mjijackson has joined #emberjs
+2013-11-11 20:09:25	erundook	knownasilya, though v is the actual property that gets an update
+2013-11-11 20:09:51	erundook	knownasilya, http://cl.ly/SQE5
+2013-11-11 20:09:55	<--	jmadsen_ has quit (Remote host closed the connection)
+2013-11-11 20:09:56	-->	mixonic has joined #emberjs
+2013-11-11 20:10:13	erundook	it updates fine when fetching from REST, then updates fine once via pusher, and then it dies...
+2013-11-11 20:10:31	-->	jmadsen has joined #emberjs
+2013-11-11 20:10:58	<--	jmadsen has quit (Read error: Connection reset by peer)
+2013-11-11 20:11:19	-->	jmadsen has joined #emberjs
+2013-11-11 20:11:43	-->	Couto has joined #emberjs
+2013-11-11 20:12:45	<--	richardiii has quit (Remote host closed the connection)
+2013-11-11 20:13:01	<--	cjthompson has quit (Quit: cjthompson)
+2013-11-11 20:13:19	-->	richardiii has joined #emberjs
+2013-11-11 20:13:45	<--	sudobangbang has quit (Ping timeout: 244 seconds)
+2013-11-11 20:15:17	<--	jnh has quit (Ping timeout: 252 seconds)
+2013-11-11 20:16:49	<--	pyr3 has quit (Quit: pyr3)
+2013-11-11 20:17:43	<--	richardiii has quit (Ping timeout: 260 seconds)
+2013-11-11 20:19:11	knownasilya	erundook: how does it die? does it just not fire the observer even though the data changes
+2013-11-11 20:19:19	-->	NgZu has joined #emberjs
+2013-11-11 20:19:21	-->	narkeeso has joined #emberjs
+2013-11-11 20:19:25	erundook	knownasilya, exactly
+2013-11-11 20:19:40	<--	dmarkow has quit (Quit: dmarkow)
+2013-11-11 20:19:54	NgZu	Is there a best practice for resolving sideloaded models within a model in Ember Data prior to hitting the route controller?
+2013-11-11 20:20:10	knownasilya	and the data actually changes? like v is a different value every time?
+2013-11-11 20:21:10	erundook	yes
+2013-11-11 20:21:21	erundook	and ember debug chrome extension proves that
+2013-11-11 20:21:28	Gowie	I'm having issues with a model's isDirty state getting updated when relationships are changed. Does anybody know if that is currently an open issue with ember-data?
+2013-11-11 20:21:50	knownasilya	from the screenshot the data looks the same
+2013-11-11 20:21:50	erundook	knownasilya, and when i open that extension, observer suddenly starts working again
+2013-11-11 20:22:27	-->	dmarkow has joined #emberjs
+2013-11-11 20:22:29	erundook	knownasilya, there's '...' at the end, it doesn't show the whole object. v is different every time
+2013-11-11 20:22:47	erundook	otherwise it wouldn't suddenly start to work with that extension?
+2013-11-11 20:23:10	knownasilya	the extension shouldn't trigger it at all..
+2013-11-11 20:23:48	erundook	it's not extension triggering it
+2013-11-11 20:24:14	erundook	it's just when extension is opened, incoming pusher events are triggering the observer like they should
+2013-11-11 20:24:36	-->	mavilein1 has joined #emberjs
+2013-11-11 20:26:22	-->	vlad_sta_ has joined #emberjs
+2013-11-11 20:26:42	<--	cowboyd has quit (Remote host closed the connection)
+2013-11-11 20:26:49	<--	rsk700 has quit (Quit: Leaving.)
+2013-11-11 20:27:04	erundook	maybe it has something to do with this one https://github.com/emberjs/data/issues/1495
+2013-11-11 20:27:14	-->	cowboyd has joined #emberjs
+2013-11-11 20:27:23	-->	dopin has joined #emberjs
+2013-11-11 20:28:03	<--	mavilein has quit (Ping timeout: 252 seconds)
+2013-11-11 20:28:16	NgZu	I've been looking all over the web and I cannot seem to find a good answer to this.. How are you supposed to handle heavy sideloading in Ember Data? If you have a model with many relationships, it is very difficult to compile a complete data container to use in your template.
+2013-11-11 20:28:34	knownasilya	erundook: that does look awefully suspicious..
+2013-11-11 20:28:53	erundook	knownasilya, that's what i'm talking about. super weird :S
+2013-11-11 20:29:33	knownasilya	erundook: btw, after looking at the api, push just has incorrect documentation, it is pushPayload like you thought..
+2013-11-11 20:29:39	knownasilya	at least it is in the code
+2013-11-11 20:29:44	-->	NivenHuH has joined #emberjs
+2013-11-11 20:29:45	<--	vlad_starkov has quit (Ping timeout: 268 seconds)
+2013-11-11 20:29:55	knownasilya	try using this.store.pushPayload again
+2013-11-11 20:30:33	erundook	knownasilya, doesn't work even once
+2013-11-11 20:30:35	<--	benmoss_ has quit (Quit: benmoss_)
+2013-11-11 20:30:40	<--	seuros has quit (Quit: Leaving.)
+2013-11-11 20:30:41	erundook	until that extension is opened :S
+2013-11-11 20:31:00	<--	charlietanksley has quit (Ping timeout: 246 seconds)
+2013-11-11 20:31:24	Gowie	Does anybody know if Ember-Data is intentionally not updating it's state (isDirty) due to changes in relationships? Is that a known issue or the way it's supposed to be or something?
+2013-11-11 20:31:42	<--	cowboyd has quit (Ping timeout: 246 seconds)
+2013-11-11 20:31:42	-->	benmoss_ has joined #emberjs
+2013-11-11 20:31:58	knownasilya	I would try moving your code out of the route and into the controller, since your updateing existing models, it's worth a try
+2013-11-11 20:32:04	erundook	knownasilya, as soon as i open extension, do some action and get back to console, i find that it worked: http://cl.ly/SQdP
+2013-11-11 20:32:27	erundook	knownasilya, the observer is in component actually
+2013-11-11 20:32:34	<--	duggiefresh has quit (Remote host closed the connection)
+2013-11-11 20:33:00	-->	duggiefresh has joined #emberjs
+2013-11-11 20:33:05	erundook	not sure if it makes any difference
+2013-11-11 20:33:12	knownasilya	how are you passing the model? {{my-comp items=content}}?
+2013-11-11 20:33:27	<--	gasbakid_ has quit (Ping timeout: 268 seconds)
+2013-11-11 20:33:40	erundook	knownasilya, yep
+2013-11-11 20:34:00	knownasilya	do you have a promise error catchall setup?
+2013-11-11 20:34:05	<--	sandstrom has quit (Remote host closed the connection)
+2013-11-11 20:34:29	erundook	knownasilya, nope
+2013-11-11 20:34:31	-->	gasbakid__ has joined #emberjs
+2013-11-11 20:34:38	<--	kaukas has quit (Quit: kaukas)
+2013-11-11 20:34:40	knownasilya	http://emberjs.com/guides/understanding-ember/debugging/#toc_errors-within-an-code-rsvp-promise-code
+2013-11-11 20:35:04	-->	drumusician has joined #emberjs
+2013-11-11 20:35:39	<--	dopin has quit (Ping timeout: 245 seconds)
+2013-11-11 20:35:49	-->	duggiefr_ has joined #emberjs
+2013-11-11 20:35:52	knownasilya	anyone using ember states?
+2013-11-11 20:36:01	<--	duggiefresh has quit (Remote host closed the connection)
+2013-11-11 20:36:22	-->	snb__ has joined #emberjs
+2013-11-11 20:36:27	erundook	knownasilya, that didn't add anything to console logs
+2013-11-11 20:36:28	knownasilya	iamstef: having ember states issue, it can't find my state: https://gist.github.com/knownasilya/7417898
+2013-11-11 20:36:28	<--	duggiefr_ has quit (Client Quit)
+2013-11-11 20:36:38	-->	duggiefresh has joined #emberjs
+2013-11-11 20:37:05	-->	davydotcom has joined #emberjs
+2013-11-11 20:37:15	knownasilya	erundook: have you tried stepping through the code? and enalbe "Pause on uncaught exceptions" in devtool
+2013-11-11 20:37:18	knownasilya	s
+2013-11-11 20:37:38	knownasilya	(the stop sign icon, click it till it's purple)
+2013-11-11 20:38:18	-->	kruppel has joined #emberjs
+2013-11-11 20:38:44	erundook	knownasilya, nothing pops up
+2013-11-11 20:39:05	<--	jtomasrl has quit (Quit: Bye!)
+2013-11-11 20:39:14	knownasilya	so weird..
+2013-11-11 20:39:30	<--	jvdneut has quit (Remote host closed the connection)
+2013-11-11 20:39:51	erundook	knownasilya, i can set up a teamviewer session if you would want to help :)
+2013-11-11 20:40:38	<--	snb__ has quit (Ping timeout: 240 seconds)
+2013-11-11 20:41:07	-->	krishagel has joined #emberjs
+2013-11-11 20:41:10	knownasilya	wish I could, but busy with a project at the moment.. too many issues to solve before launch date :/
+2013-11-11 20:41:19	-->	sudobangbang has joined #emberjs
+2013-11-11 20:41:36	knownasilya	I recommend you post on github, maybe on that issue, or a new one. Also ask on discuss.emberjs.com
+2013-11-11 20:42:30	<--	krishagel has left #emberjs
+2013-11-11 20:42:48	<--	petey has quit (Remote host closed the connection)
+2013-11-11 20:43:02	erundook	knownasilya, okay, thanks anyway
+2013-11-11 20:43:24	-->	petey has joined #emberjs
+2013-11-11 20:44:00	-->	cowboyd has joined #emberjs
+2013-11-11 20:44:07	-->	krishagel has joined #emberjs
+2013-11-11 20:44:26	iamstef	knownasilya: id love to help, but im insanely busy.
+2013-11-11 20:44:40	iamstef	knownasilya: i _may_ have some time later this evening, but no guarentees.
+2013-11-11 20:45:27	<--	bowlingx has quit (Quit: Leaving.)
+2013-11-11 20:47:01	<--	kruppel has quit (Ping timeout: 268 seconds)
+2013-11-11 20:47:35	robyurkowski	/2
+2013-11-11 20:47:52	-->	richardiii has joined #emberjs
+2013-11-11 20:48:03	<--	petey has quit (Ping timeout: 260 seconds)
+2013-11-11 20:48:27	-->	brandon512 has joined #emberjs
+2013-11-11 20:49:35	<--	gordoncassie has quit (Quit: gordoncassie)
+2013-11-11 20:49:51	-->	bowlingx has joined #emberjs
+2013-11-11 20:50:42	-->	sandstrom has joined #emberjs
+2013-11-11 20:51:25	-->	richardi_ has joined #emberjs
+2013-11-11 20:51:30	<--	krishagel has quit (Quit: krishagel)
+2013-11-11 20:52:44	-->	pyr3 has joined #emberjs
+2013-11-11 20:52:59	<--	richardiii has quit (Ping timeout: 272 seconds)
+2013-11-11 20:54:44	<--	rickyla has quit (Quit: Connection closed for inactivity)
+2013-11-11 20:55:41	<--	vanne has quit (Remote host closed the connection)
+2013-11-11 20:56:16	-->	vanne has joined #emberjs
+2013-11-11 20:56:17	-->	sprinkle has joined #emberjs
+2013-11-11 20:57:42	-->	tauren has joined #emberjs
+2013-11-11 21:00:07	-->	pr0cy0n has joined #emberjs
+2013-11-11 21:00:27	-->	aaronshaf has joined #emberjs
+2013-11-11 21:00:27	<--	pr0cy0n has quit (Read error: Connection reset by peer)
+2013-11-11 21:00:29	<--	bowlingx has quit (Quit: Leaving.)
+2013-11-11 21:00:38	<--	vanne has quit (Ping timeout: 240 seconds)
+2013-11-11 21:01:04	-->	kmurph has joined #emberjs
+2013-11-11 21:01:18	<--	andyhot has quit (Ping timeout: 244 seconds)
+2013-11-11 21:02:33	-->	le_daf has joined #emberjs
+2013-11-11 21:03:25	<--	vlad_sta_ has quit (Remote host closed the connection)
+2013-11-11 21:05:21	<--	davydotcom has quit (Remote host closed the connection)
+2013-11-11 21:05:24	<--	evantravers has quit (Ping timeout: 272 seconds)
+2013-11-11 21:05:48	-->	davydotcom has joined #emberjs
+2013-11-11 21:06:09	-->	jnh has joined #emberjs
+2013-11-11 21:06:17	-->	pr0cy0n has joined #emberjs
+2013-11-11 21:07:09	-->	evantravers has joined #emberjs
+2013-11-11 21:09:49	-->	ap4y has joined #emberjs
+2013-11-11 21:10:44	<--	davydotcom has quit (Ping timeout: 272 seconds)
+2013-11-11 21:11:47	<--	le_daf has quit (Quit: Leaving.)
+2013-11-11 21:12:06	-->	le_daf has joined #emberjs
+2013-11-11 21:12:55	-->	petey has joined #emberjs
+2013-11-11 21:13:08	<--	pixelhandler has quit (Ping timeout: 240 seconds)
+2013-11-11 21:13:50	-->	bowlingx has joined #emberjs
+2013-11-11 21:14:24	<--	ap4y has quit (Ping timeout: 246 seconds)
+2013-11-11 21:14:25	-->	s3shs has joined #emberjs
+2013-11-11 21:14:38	<--	norviller has quit (Quit: Computer has gone to sleep.)
+2013-11-11 21:15:06	-->	pixelhandler has joined #emberjs
+2013-11-11 21:15:29	<--	jergason has quit (Quit: jergason)
+2013-11-11 21:16:00	<--	pr0cy0n has quit (Ping timeout: 268 seconds)
+2013-11-11 21:17:16	-->	vanne has joined #emberjs
+2013-11-11 21:17:42	<--	jmonma has quit (Quit: jmonma)
+2013-11-11 21:18:01	<--	q666 has quit (Read error: Connection reset by peer)
+2013-11-11 21:18:23	-->	qwert666 has joined #emberjs
+2013-11-11 21:18:48	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emberjs
+2013-11-11 21:18:48	--	Topic for #emberjs is "#emberjs Ember.js -- emberjs.com -- Questions? Ask here or post on StackOverflow with the tag `ember.js`"
+2013-11-11 21:18:48	--	Topic set by machty (uid13535@gateway/web/irccloud.com/x-bymqzhaecapxemdf) on Sun, 27 Oct 2013 22:28:09
+2013-11-11 21:18:48	--	Nicks #emberjs: [@ebryn @krisselden @peterwagenet @tomdale _bje_ aaronshaf abobwhite abuiles adam12 aflatter alexdoom alexspeller amino annlewis artgoeshere audaxion Ayey_ aymerick banzounet bcardarella beeman_nl beerlee_ ben_alman benmoss_ benturner benv billwoodward bmac boaz Bognar_work boubbin_ bowlingx boztek|afk braidn brandon512 brisbin brixen btyler cam`_ camt cha0s chancancode chiral ChristianM Clooth cmiller codeofficer Couto cowboyd Criten csaunders ctimmerm cyril-sf da5id DanKnox danmcclain danshultz davidcelis davidjrice davidlai dBTalket_ dcamp dccc devinus_ djinni dlundy dm73 dmarkow dmathieu doki_pen Domenic_ domme domme_ drfreeze_ drjfreez1 drogus drumusician dsavi duggiefresh efries elek elek__ elucid emberjs-hubot endash Eonwe ericberry ericf erundook esopian evantravers EvilTrout fivetanley freannrak fudanchii fxdgear galfert gasbakid__ gauthierm gavacho ghedamat gkunno go1dfish Gowie GrahamL_ grantgm graphex graup grep_awesome Guest46101 gunn Guu h0bz harsa_______ hayer hEart_riDer hellopat heroiceric_ heycarsten hjdivad hjr3 hlindset hoopy hyperboreean iamstef ianstarz_ idryman im0b imazined_ Inoperable ips|malc isar-bt jackfranklin jakehow jakob__ jakob___ jgelens jkarsrud jlyndon jmadsen jnh joefiorini joepym Johnathan1707__ johng__ johnkpaul jonsmock jpkcambridge jrhe JSharp jso Juv1228 jzirc kalv kanja karnowski kenchen kheldysh killtheliterate kmurph knownasilya kohvihoo1 kokeroulis korpse kurko_ le_daf LevelbossMike lholmquist licyeus_ lightsofapollo locks Lockzi lord-spam Lord_DeathMatch luckyeights luigy lukemelia_ mahmoudimus Mahoek malcolmva ManneW marcqualie Mariasha MartinElvar mattdawson mavilein1 mephx_ MerlinDMC michael_mbp MIG- milep mixonic mjijackson mkoppel2040 mmun_ moondust msch mudyc munumunum mven mysterl__ narkeeso nbouscal NgZu nhhagen niko ninegrid NivenHuH Nook nuba Oddskar ohcibi oncenull PacketMonkey paperbakwriter09 pearkes pel_daniel petey phaza_ phreax pixelhandler plusgut pointlessjon Proditor pvertenten pyr3 qmx quicksnap qwert666 raax rakm raycohen raytiley rblackwe ree renchap revls rhinon richardi_ richgilbank rickard2 rickharrison rjhilgefort rlivsey robyurkowski roger_rabbit royvandermeij rramsden rsol rue rwaldron rwjblue ryanflorence RyanHirsch ryanponce ryanRT ryantology s3shs s_e sander__ sandstrom seagreen- SecretAgent selva-G ShadowBelmolve shwoodard Sinister_ slobo smoking_kiddo sparklingideas spenen sprinkle sris ssured StanleyD stderr- stevefink_ storkovo strzalek sublime sudobangbang svparijs_afk swi7ch tauren tboyt tce terietor thelorax123 TheMoonMaster timrwood tokuhirom tomshreds toranb_ Torsten|off trabus triptec trombom trym tubaxeno1 tubbo tymofi ugisozols vanne vince_prignano vmx wecc weeezes_ wjlroe wmage wmoxam wookiehangover wycats xianthe zaius ZeK__ zelgerj zigomir zv]
+2013-11-11 21:18:48	--	Channel #emberjs: 318 nicks (4 ops, 0 voices, 314 normals)
+2013-11-11 21:18:57	--	Mode #emberjs [+cnt]
+2013-11-11 21:18:57	--	Channel created on Sat, 10 Dec 2011 01:26:12
+2013-11-11 21:19:17	<--	narkeeso has quit (Quit: Computer has gone to sleep.)
+2013-11-11 21:19:31	-->	pr0cy0n has joined #emberjs
+2013-11-11 21:19:37	-->	vlad_starkov has joined #emberjs
+2013-11-11 21:19:46	-->	ap4y has joined #emberjs
+2013-11-11 21:20:02	<--	jpkcambridge has quit (Quit: jpkcambridge)
+2013-11-11 21:20:13	-->	dhilipsiva has joined #emberjs
+2013-11-11 21:20:50	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emberjs
+2013-11-11 21:20:50	--	Topic for #emberjs is "#emberjs Ember.js -- emberjs.com -- Questions? Ask here or post on StackOverflow with the tag `ember.js`"
+2013-11-11 21:20:50	--	Topic set by machty (uid13535@gateway/web/irccloud.com/x-bymqzhaecapxemdf) on Sun, 27 Oct 2013 22:28:09
+2013-11-11 21:20:50	--	Nicks #emberjs: [@ebryn @krisselden @peterwagenet @tomdale _bje_ aaronshaf abobwhite abuiles adam12 aflatter alexdoom alexspeller amino annlewis ap4y artgoeshere audaxion Ayey_ aymerick banzounet bcardarella beeman_nl beerlee_ ben_alman benmoss_ benturner benv billwoodward bmac boaz Bognar_work boubbin_ bowlingx boztek|afk braidn brandon512 brisbin brixen btyler cam`_ camt cha0s chancancode chiral ChristianM Clooth cmiller codeofficer Couto cowboyd Criten csaunders ctimmerm cyril-sf da5id DanKnox danmcclain danshultz davidcelis davidjrice davidlai dBTalket_ dcamp dccc devinus_ dhilipsiva djinni dlundy dm73 dmarkow dmathieu doki_pen Domenic_ domme domme_ drfreeze_ drjfreez1 drogus drumusician dsavi duggiefresh efries elek elek__ elucid emberjs-hubot endash Eonwe ericberry ericf erundook esopian evantravers EvilTrout fivetanley freannrak fudanchii fxdgear galfert gasbakid__ gauthierm gavacho ghedamat gkunno go1dfish Gowie GrahamL_ grantgm graphex graup grep_awesome Guest46101 gunn Guu h0bz harsa_______ hayer hEart_riDer hellopat heroiceric_ heycarsten hjdivad hjr3 hlindset hoopy hyperboreean iamstef ianstarz_ idryman im0b imazined_ Inoperable ips|malc isar-bt jackfranklin jakehow jakob__ jakob___ jgelens jkarsrud jlyndon jmadsen jnh joefiorini joepym Johnathan1707__ johng__ johnkpaul jonsmock jrhe JSharp jso Juv1228 jzirc kalv kanja karnowski kenchen kheldysh killtheliterate kmurph knownasilya kohvihoo1 kokeroulis korpse kurko_ le_daf LevelbossMike lholmquist licyeus_ lightsofapollo locks Lockzi lord-spam Lord_DeathMatch luckyeights luigy lukemelia_ mahmoudimus Mahoek malcolmva ManneW marcqualie Mariasha MartinElvar mattdawson mavilein1 mephx_ MerlinDMC michael_mbp MIG- milep mixonic mjijackson mkoppel2040 mmun_ moondust msch mudyc munumunum mven mysterl__ nbouscal NgZu nhhagen niko ninegrid NivenHuH Nook nuba Oddskar ohcibi oncenull PacketMonkey paperbakwriter09 pearkes pel_daniel petey phaza_ phreax pixelhandler plusgut pointlessjon pr0cy0n Proditor pvertenten pyr3 qmx quicksnap qwert666 raax rakm raycohen raytiley rblackwe ree renchap revls rhinon richardi_ richgilbank rickard2 rickharrison rjhilgefort rlivsey robyurkowski roger_rabbit royvandermeij rramsden rsol rue rwaldron rwjblue ryanflorence RyanHirsch ryanponce ryanRT ryantology s3shs s_e sander__ sandstrom seagreen- SecretAgent selva-G ShadowBelmolve shwoodard Sinister_ slobo smoking_kiddo sparklingideas spenen sprinkle sris ssured StanleyD stderr- stevefink_ storkovo strzalek sublime sudobangbang svparijs_afk swi7ch tauren tboyt tce terietor thelorax123 TheMoonMaster timrwood tokuhirom tomshreds toranb_ Torsten|off trabus triptec trombom trym tubaxeno1 tubbo tymofi ugisozols vanne vince_prignano vlad_starkov vmx wecc weeezes_ wjlroe wmage wmoxam wookiehangover wycats xianthe zaius ZeK__ zelgerj zigomir zv]
+2013-11-11 21:20:50	--	Channel #emberjs: 320 nicks (4 ops, 0 voices, 316 normals)
+2013-11-11 21:21:01	--	Mode #emberjs [+cnt]
+2013-11-11 21:21:01	--	Channel created on Sat, 10 Dec 2011 01:26:12
+2013-11-11 21:22:15	<--	zigomir has quit (Quit: zigomir)
+2013-11-11 21:23:29	<--	knownasilya has quit (Ping timeout: 272 seconds)
+2013-11-11 21:23:48	<--	ssured has quit (Quit: ssured)
+2013-11-11 21:23:51	-->	jpkcambridge has joined #emberjs
+2013-11-11 21:24:33	<--	dhilipsiva has quit (Ping timeout: 244 seconds)
+2013-11-11 21:24:55	-->	kaspertidemann has joined #emberjs
+2013-11-11 21:25:42	-->	cjthompson has joined #emberjs
+2013-11-11 21:25:58	-->	egb3 has joined #emberjs
+2013-11-11 21:25:58	<--	egb3 has quit (Changing host)
+2013-11-11 21:25:58	-->	egb3 has joined #emberjs
+2013-11-11 21:27:03	<--	egb3 has quit (Client Quit)
+2013-11-11 21:27:05	-->	jgwhite has joined #emberjs
+2013-11-11 21:27:31	erundook	so, @each observer doesn't work when using store.push :(
+2013-11-11 21:27:34	<--	vanne has quit (Remote host closed the connection)
+2013-11-11 21:28:08	-->	vanne has joined #emberjs
+2013-11-11 21:28:18	-->	cocoa has joined #emberjs
+2013-11-11 21:28:24	hoopy	erundook: store.pushObject
+2013-11-11 21:29:03	erundook	hoopy?
+2013-11-11 21:29:29	-->	jergason has joined #emberjs
+2013-11-11 21:29:46	hoopy	erundook: i'm guessing `store` is some array
+2013-11-11 21:29:47	-->	krishagel has joined #emberjs
+2013-11-11 21:29:47	<--	krishagel has quit (Client Quit)
+2013-11-11 21:29:51	hoopy	or arrar-like
+2013-11-11 21:29:56	hoopy	array-like*
+2013-11-11 21:30:02	erundook	hoopy, store is DS.Store
+2013-11-11 21:30:16	<--	cocoa has quit (Client Quit)
+2013-11-11 21:30:31	hoopy	erundook: well if you're expecting some observer to fire when you call push
+2013-11-11 21:30:36	-->	norviller has joined #emberjs
+2013-11-11 21:30:38	hoopy	you need to be calling pushObject instead
+2013-11-11 21:30:46	-->	vanne_ has joined #emberjs
+2013-11-11 21:31:11	erundook	hoopy, it suddenly starts to work when i open up ember debug chrome extension :S
+2013-11-11 21:31:21	-->	stabbylambda has joined #emberjs
+2013-11-11 21:31:35	erundook	it's too lazy to work when noone watching :D
+2013-11-11 21:31:44	hoopy	erundook: listen to me or not... push will not fire observers
+2013-11-11 21:31:46	hoopy	pushObject will
+2013-11-11 21:31:58	erundook	hoopy, DS.Store has no pushObject
+2013-11-11 21:32:00	<--	vanne has quit (Read error: Connection reset by peer)
+2013-11-11 21:32:17	hoopy	then you probably shouldn't be calling push on i
+2013-11-11 21:32:19	hoopy	it*
+2013-11-11 21:32:30	erundook	hoopy, did you ever use ember-data?
+2013-11-11 21:32:31	-->	vlad_sta_ has joined #emberjs
+2013-11-11 21:32:35	hoopy	yes
+2013-11-11 21:32:36	-->	dopin has joined #emberjs
+2013-11-11 21:32:58	<--	Couto has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2013-11-11 21:32:59	erundook	hoopy, http://emberjs.com/api/data/classes/DS.Store.html#method_push
+2013-11-11 21:33:07	hoopy	i'm looking at that right now
+2013-11-11 21:33:15	-->	jergason_ has joined #emberjs
+2013-11-11 21:33:30	hoopy	ot seems apparent that push isn't KVO-compliant there
+2013-11-11 21:33:47	<--	pr0cy0n has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 21:33:54	erundook	why does it fires observers with debug extension open then?
+2013-11-11 21:34:05	hoopy	it's causing bindings to flush somehow
+2013-11-11 21:34:24	hoopy	the main thing here is that calling push won't cause that
+2013-11-11 21:34:26	hoopy	something else did
+2013-11-11 21:34:48	<--	jergason has quit (Ping timeout: 252 seconds)
+2013-11-11 21:34:48	--	jergason_ is now known as jergason
+2013-11-11 21:35:16	<--	vlad_starkov has quit (Ping timeout: 260 seconds)
+2013-11-11 21:35:17	erundook	hoopy, i have a bunch of properties depending on those pushes and they work just fine
+2013-11-11 21:35:48	hoopy	well the only context you've given this channel
+2013-11-11 21:35:51	hoopy	is saying that it doesn't work
+2013-11-11 21:35:52	-->	Couto has joined #emberjs
+2013-11-11 21:35:52	<--	benmoss_ has quit (Quit: benmoss_)
+2013-11-11 21:38:31	-->	machty has joined #emberjs
+2013-11-11 21:38:31	--	Mode #emberjs [+o machty] by ChanServ
+2013-11-11 21:38:39	-->	benmoss_ has joined #emberjs
+2013-11-11 21:39:47	erundook	you'll laugh, but adding a .property('items.@each.v') worked just fine
+2013-11-11 21:39:56	erundook	but observer doesn't
+2013-11-11 21:40:14	hoopy	could be a bug
+2013-11-11 21:40:39	<--	dopin has quit (Ping timeout: 240 seconds)
+2013-11-11 21:40:43	-->	kruppel has joined #emberjs
+2013-11-11 21:41:08	erundook	hoopy, that's what i am talking about...
+2013-11-11 21:41:26	erundook	and you're trying to convince me that it's all my fault :D
+2013-11-11 21:42:18	-->	richardiii has joined #emberjs
+2013-11-11 21:43:44	--	michael_mbp is now known as zz_michael_mbp
+2013-11-11 21:43:51	hoopy	or you're just being needlessly defensive.  i was just trying to help. it's not like you gave a lot of context outside of saying "this doesn't work"
+2013-11-11 21:44:39	-->	knownasilya has joined #emberjs
+2013-11-11 21:44:56	erundook	hoopy, well, it is obviously a bug
+2013-11-11 21:45:25	erundook	that has nothing to do with me being defensive :D
+2013-11-11 21:45:27	hoopy	then create a failing test and file submit an issue
+2013-11-11 21:46:22	-->	davydotcom has joined #emberjs
+2013-11-11 21:46:23	joepym	hoopy, is it okay to use js-fiddles as proof for an issue? :)
+2013-11-11 21:46:32	<--	richardiii has quit (Ping timeout: 252 seconds)
+2013-11-11 21:46:41	locks	joepym: yes
+2013-11-11 21:46:42	hoopy	joepym: i've seen it done before
+2013-11-11 21:46:50	locks	reduce as much as possible
+2013-11-11 21:46:56	<--	trym has quit (Ping timeout: 272 seconds)
+2013-11-11 21:47:08	-->	trym has joined #emberjs
+2013-11-11 21:47:08	<--	trym has quit (Changing host)
+2013-11-11 21:47:08	-->	trym has joined #emberjs
+2013-11-11 21:47:57	<--	le_daf has quit (Quit: Leaving.)
+2013-11-11 21:48:00	joepym	okay :) mays as well report my bug, even if I know a work around for it
+2013-11-11 21:48:14	joepym	and when I say "know", I mean "asked on stack overflow and someone told me"
+2013-11-11 21:48:55	<--	jergason has quit (Quit: jergason)
+2013-11-11 21:49:07	<--	kruppel has quit (Remote host closed the connection)
+2013-11-11 21:49:50	-->	Nook_ has joined #emberjs
+2013-11-11 21:52:43	-->	brandon512_ has joined #emberjs
+2013-11-11 21:53:02	<--	tboyt has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 21:53:16	<--	Nook has quit (Ping timeout: 272 seconds)
+2013-11-11 21:54:04	-->	tilleps has joined #emberjs
+2013-11-11 21:54:26	<--	brandon512 has quit (Ping timeout: 272 seconds)
+2013-11-11 21:54:29	--	brandon512_ is now known as brandon512
+2013-11-11 21:54:46	<--	munumunum has quit (Quit: Leaving)
+2013-11-11 21:55:10	trabus	Anyone here worked much with Ember.Select?
+2013-11-11 21:55:18	-->	tboyt has joined #emberjs
+2013-11-11 21:55:56	-->	shama has joined #emberjs
+2013-11-11 21:56:35	joepym	I used it yesterday, but I'm new to ember..what's the issue?
+2013-11-11 21:56:55	trabus	I'm making a birthdate picker component, and need to account for leap years
+2013-11-11 21:56:58	trabus	http://emberjs.jsbin.com/oKEHadO/2/edit
+2013-11-11 21:57:28	trabus	I've tried a few ways to do it, and am hitting a wall. Which generally means I'm doing it wrong
+2013-11-11 21:58:14	<--	dmarkow has quit (Quit: dmarkow)
+2013-11-11 21:58:58	-->	chrisbuchholz has joined #emberjs
+2013-11-11 21:59:04	<--	brandon512 has quit (Ping timeout: 260 seconds)
+2013-11-11 21:59:23	<--	davydotcom has quit (Remote host closed the connection)
+2013-11-11 21:59:26	trabus	Month obviously effects Day, but then Year comes in to play with February on leap years
+2013-11-11 21:59:43	<--	chrisbuchholz has left #emberjs ("Textual IRC Client: www.textualapp.com")
+2013-11-11 21:59:50	-->	davydotcom has joined #emberjs
+2013-11-11 22:00:43	-->	brandon512 has joined #emberjs
+2013-11-11 22:00:45	trabus	I've got it updating the available days fine, but I'm unable to keep the selected day when the days update
+2013-11-11 22:01:19	<--	cmiller has quit (Quit: Computer has gone to sleep.)
+2013-11-11 22:01:33	joepym	why not just use native javascript to calculate the days? :)
+2013-11-11 22:01:42	joepym	eg: http://stackoverflow.com/questions/1810984/number-of-days-in-any-month
+2013-11-11 22:02:06	joepym	and you can have days as a computed property using that off the other two
+2013-11-11 22:02:16	trabus	that's what I'm already doing
+2013-11-11 22:02:17	trabus	http://emberjs.jsbin.com/oKEHadO/2/edit
+2013-11-11 22:02:39	trabus	the problem is it updates then resets my select without keeping the selected value
+2013-11-11 22:03:36	-->	jmonma has joined #emberjs
+2013-11-11 22:03:41	-->	jamesaanderson has joined #emberjs
+2013-11-11 22:04:15	<--	davydotcom has quit (Ping timeout: 240 seconds)
+2013-11-11 22:04:41	trabus	I'm looking at just filtering the days instead of replacing the array
+2013-11-11 22:04:44	<--	vanne_ has quit (Ping timeout: 268 seconds)
+2013-11-11 22:05:54	trabus	just trying to understand why I can't seem to set the value of my select after the model updates
+2013-11-11 22:06:52	<--	annlewis has quit (Remote host closed the connection)
+2013-11-11 22:06:59	-->	kruppel has joined #emberjs
+2013-11-11 22:07:17	<--	cowboyd has quit (Remote host closed the connection)
+2013-11-11 22:07:24	-->	annlewis has joined #emberjs
+2013-11-11 22:07:56	-->	cowboyd has joined #emberjs
+2013-11-11 22:09:34	-->	davidpett has joined #emberjs
+2013-11-11 22:10:45	<--	norviller has quit (Quit: Computer has gone to sleep.)
+2013-11-11 22:11:04	<--	vlad_sta_ has quit (Remote host closed the connection)
+2013-11-11 22:11:27	<--	annlewis has quit (Ping timeout: 240 seconds)
+2013-11-11 22:12:36	<--	cowboyd has quit (Ping timeout: 260 seconds)
+2013-11-11 22:13:56	<--	cjthompson has quit (Read error: Connection reset by peer)
+2013-11-11 22:33:54	--	irc: disconnected from server
+2013-11-11 22:34:45	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #emberjs
+2013-11-11 22:34:45	--	Topic for #emberjs is "#emberjs Ember.js -- emberjs.com -- Questions? Ask here or post on StackOverflow with the tag `ember.js`"
+2013-11-11 22:34:45	--	Topic set by machty (uid13535@gateway/web/irccloud.com/x-bymqzhaecapxemdf) on Sun, 27 Oct 2013 22:28:09
+2013-11-11 22:34:45	--	Nicks #emberjs: [@ebryn @krisselden @machty @peterwagenet @tomdale _bje_ abobwhite abuiles adam12 aflatter alexdoom alexspeller amino annlewis ap4y artgoeshere audaxion Ayey_ aymerick banzounet bcardarella beeman_nl beerlee_ ben_alman benmoss_ benturner benv billwoodward bmac boaz Bognar_work boubbin_ bowlingx boztek|afk braidn brandon512 brisbin brixen btyler cam`_ camt cha0s chancancode chiral ChristianM Clooth codeofficer Couto Criten csaunders ctimmerm cyril-sf da5id DanKnox_away danmcclain danshultz davidcelis davidjrice davidlai davidpett davydotcom dBTalket_ dcamp dccc devinus_ djinni dlundy dm73 dmathieu doki_pen Domenic_ domme domme_ drfreeze_ drjfreez1 drogus drumusician dsavi duggiefresh efries elek elek__ elucid emberjs-hubot endash Eonwe ericberry ericf erundook esopian evantravers EvilTrout fivetanley freannrak fudanchii fxdgear galfert gauthierm gavacho ghedamat gkunno go1dfish Gowie GrahamL_ grantgm graphex graup grep_awesome Guest46101 gunn Guu h0bz harsa_______ hayer hEart_riDer hellopat heroiceric_ heycarsten hjdivad hjr3 hlindset hoopy hyperboreean iamstef ianstarz_ idryman im0b imazined_ Inoperable ips|malc isar-bt jackfranklin jakehow jakob__ jakob___ jamesaanderson jgelens jgwhite jkarsrud jmadsen jmonma jnh joefiorini Johnathan1707__ johng__ johnkpaul jonsmock jpkcambridge jrhe JSharp jso Juv1228 jzirc kalv kanja karnowski kaspertidemann kenchen kheldysh killtheliterate knownasilya kohvihoo1 kokeroulis korpse kruppel kurko_ LevelbossMike lholmquist licyeus_ lightsofapollo locks Lockzi lord-spam Lord_DeathMatch luckyeights luigy lukemelia_ mahmoudimus Mahoek malcolmva ManneW marcqualie Mariasha MartinElvar mattdawson mavilein1 mephx_ MerlinDMC MIG- milep mixonic mjijackson mkoppel2040 mmun_ moondust msch mudyc mven mysterl__ nbouscal NgZu nhhagen niko ninegrid NivenHuH Nook_ nuba Oddskar ohcibi oncenull PacketMonkey paperbakwriter09 pearkes pel_daniel petey phaza_ phreax pixelhandler plusgut pointlessjon Proditor pvertenten pyr3 qmx quicksnap qwert666 raax rakm raycohen raytiley rblackwe ree renchap revls rhinon richardi_ richgilbank rickard2 rickharrison rjhilgefort robyurkowski roger_rabbit royvandermeij rramsden rsol rue rwaldron rwjblue ryanflorence RyanHirsch ryanponce ryanRT ryantology s3shs s_e sander__ sandstrom seagreen- SecretAgent selva-G ShadowBelmolve shama shwoodard Sinister_ slobo smoking_kiddo spenen sprinkle sris stabbylambda StanleyD stderr- stevefink_ storkovo strzalek sublime sudobangbang svparijs_afk swi7ch tauren tboyt tce terietor thelorax123 TheMoonMaster tilleps timrwood tokuhirom tomshreds toranb_ Torsten|off trabus triptec trombom trym tubaxeno1 tubbo tymofi ugisozols vanne vince_prignano vmx wecc weeezes_ wjlroe wmage wmoxam wookiehangover wycats xianthe zaius ZeK__ zelgerj zv zz_michael_mbp]
+2013-11-11 22:34:45	--	Channel #emberjs: 315 nicks (5 ops, 0 voices, 310 normals)
+2013-11-11 22:34:51	-->	Verge has joined #emberjs
+2013-11-11 22:34:56	--	Mode #emberjs [+cnt]
+2013-11-11 22:34:56	--	Channel created on Sat, 10 Dec 2011 01:26:12
+2013-11-11 22:35:02	Verge	http://emberjs.com/api/data/classes/DS.Adapter.html
+2013-11-11 22:35:02	Verge	Why is the documentation broken
+2013-11-11 22:35:27	Verge	There is said that custom adapter _should_ implement four functions: find(), createRecord(), updateRecord() and deleteRecord()
+2013-11-11 22:35:28	<--	davydotcom has quit (Ping timeout: 240 seconds)
+2013-11-11 22:35:36	Verge	But anyways Ember is calling findAll()
+2013-11-11 22:36:25	Verge	And it's not even inherited, it seems
+2013-11-11 22:36:25	-->	narkeeso has joined #emberjs
+2013-11-11 22:36:25	-->	richardiii has joined #emberjs
+2013-11-11 22:37:17	<--	tboyt has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-11-11 22:37:17	-->	snb__ has joined #emberjs
+2013-11-11 22:37:44	-->	dopin has joined #emberjs
+2013-11-11 22:38:02	<--	benmoss_ has quit (Quit: benmoss_)
+2013-11-11 22:38:24	-->	cowboyd has joined #emberjs
+2013-11-11 22:40:25	-->	dmarkow has joined #emberjs
+2013-11-11 22:40:35	<--	Couto has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2013-11-11 22:41:06	-->	benmoss_ has joined #emberjs
+2013-11-11 22:41:08	<--	richardiii has quit (Ping timeout: 268 seconds)
+2013-11-11 22:41:38	-->	vlad_starkov has joined #emberjs
+2013-11-11 22:41:57	<--	snb__ has quit (Ping timeout: 260 seconds)
+2013-11-11 22:42:59	<--	vmx has quit (Quit: Leaving)
+2013-11-11 22:43:12	brandon512	Thank you Verge :)
+2013-11-11 22:43:48	Verge	Well I don't know if it was even using my adapter
+2013-11-11 22:44:04	Verge	It acted weird
+2013-11-11 22:44:11	brandon512	After reading that page I think I understand what I need to do.
+2013-11-11 22:44:18	Verge	nice
+2013-11-11 22:44:59	Verge	But anyways I got what I needed, I was just trying to debug this stuff
+2013-11-11 22:44:59	Verge	But found the answer elsewhere
+2013-11-11 22:44:59	brandon512	I add my own functions and logic for find() createRecord() ect
+2013-11-11 22:45:08	<--	cowboyd has quit (Ping timeout: 272 seconds)
+2013-11-11 22:45:11	-->	tboyt has joined #emberjs
+2013-11-11 22:45:22	Verge	Maybe
+2013-11-11 22:46:09	<--	vlad_starkov has quit (Remote host closed the connection)
+2013-11-11 22:46:13	<--	dopin has quit (Ping timeout: 260 seconds)
+2013-11-11 22:46:27	-->	vlad_starkov has joined #emberjs
+2013-11-11 22:46:58	<--	thelorax123 has quit (Remote host closed the connection)
+2013-11-11 22:47:16	-->	Couto has joined #emberjs
+2013-11-11 22:47:24	-->	thelorax123 has joined #emberjs
+2013-11-11 22:48:36	-->	robmonie has joined #emberjs
+2013-11-11 22:48:44	brandon512	http://stackoverflow.com/questions/17938294/how-do-you-create-a-custom-adapter-for-ember-js
+2013-11-11 22:48:57	-->	kmurph has joined #emberjs
+2013-11-11 22:49:16	--	DanKnox_away is now known as DanKnox
+2013-11-11 22:49:18	-->	cocoa has joined #emberjs
+2013-11-11 22:49:23	<--	TheMoonMaster has quit (Excess Flood)
+2013-11-11 22:49:23	-->	bouke has joined #emberjs
+2013-11-11 22:49:39	<--	cocoa has quit (Client Quit)
+2013-11-11 22:49:45	-->	cjthompson has joined #emberjs
+2013-11-11 22:50:26	-->	TheMoonMaster has joined #emberjs
+2013-11-11 22:51:59	<--	vince_prignano has quit
+2013-11-11 22:53:20	<--	bouke has quit (Client Quit)
+2013-11-11 22:53:22	-->	iterion has joined #emberjs
+2013-11-11 22:53:39	Verge	The documentation for Ember-data seems to be quite severely outdated
+2013-11-11 22:53:59	Verge	I constantly find myself googling for StackOverflow posts saying it's outdated in September
+2013-11-11 22:54:35	Verge	Well
+2013-11-11 22:54:50	Verge	Got to go to sleep instead of fighting this now
+2013-11-11 22:56:15	-->	vanstee has joined #emberjs
+2013-11-11 22:56:19	<--	trabus has left #emberjs
+2013-11-11 22:56:20	<--	Couto has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2013-11-11 22:58:05	<--	knownasilya has quit (Ping timeout: 244 seconds)
+2013-11-11 22:58:26	-->	Couto has joined #emberjs
+2013-11-11 22:58:30	<--	vanne has quit (Read error: Connection reset by peer)
+2013-11-11 22:58:55	-->	vanne has joined #emberjs

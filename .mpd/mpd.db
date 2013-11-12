@@ -1,6 +1,6 @@
 info_begin
 format: 1
-mpd_version: 0.17.4
+mpd_version: 0.17.5
 fs_charset: UTF-8
 tag: Artist
 tag: ArtistSort
@@ -20,8 +20,20 @@ tag: MUSICBRAINZ_ALBUMID
 tag: MUSICBRAINZ_ALBUMARTISTID
 tag: MUSICBRAINZ_TRACKID
 info_end
+directory: B Complex
+mtime: 1377947983
+begin: B Complex
+directory: B complex
+mtime: 1377947983
+begin: B Complex/B complex
+song_begin: B Complex-Beautiful Lies.mp3
+Time: 420
+mtime: 1316942814
+song_end
+end: B Complex/B complex
+end: B Complex
 directory: Feint
-mtime: 1374229370
+mtime: 1376593683
 begin: Feint
 song_begin: Against the Grain.mp3
 Time: 150
@@ -39,13 +51,69 @@ song_begin: Clockwork Hearts.mp3
 Time: 391
 mtime: 1362046471
 song_end
+song_begin: Feint - A Moment In The Life Of.mp3
+Time: 256
+mtime: 1292562025
+song_end
+song_begin: Feint - Connections.mp3
+Time: 176
+mtime: 1294700589
+song_end
+song_begin: Feint - Creed.mp3
+Time: 206
+mtime: 1290599456
+song_end
+song_begin: Feint - Freefall.mp3
+Time: 212
+mtime: 1297839808
+song_end
+song_begin: Feint - From Butterflies To Hurricanes.mp3
+Time: 206
+mtime: 1294756392
+song_end
+song_begin: Feint - One Thousand Dreams.mp3
+Time: 318
+mtime: 1311947015
+song_end
 song_begin: Feint - Reprise.mp3
 Time: 201
 mtime: 1362046472
 song_end
+song_begin: Feint - Ripped Up_Torn Down.mp3
+Time: 229
+mtime: 1291034251
+song_end
+song_begin: Feint - Skyward.mp3
+Time: 291
+mtime: 1326392575
+song_end
+song_begin: Feint - Stray.mp3
+Time: 247
+mtime: 1300633007
+song_end
+song_begin: Feint - That Makes One.mp3
+Time: 216
+mtime: 1292089198
+song_end
 song_begin: Feint - Those eyes [FULL].mp3
 Time: 287
 mtime: 1362046471
+song_end
+song_begin: Feint - Tower Of Heaven (You Are Slaves).mp3
+Time: 188
+mtime: 1297289416
+song_end
+song_begin: Feint - Two Flares In The Night Sky.mp3
+Time: 207
+mtime: 1296104322
+song_end
+song_begin: Feint - Unwanted.mp3
+Time: 296
+mtime: 1290598576
+song_end
+song_begin: Feint - Wishful Thinking.mp3
+Time: 288
+mtime: 1297974936
 song_end
 song_begin: Horrizant.mp3
 Time: 67
@@ -95,6 +163,10 @@ song_begin: TwoThirds & Feint - Epiphany.mp3
 Time: 329
 mtime: 1362046470
 song_end
+song_begin: TwoThirds & Feint ft Veela - Starscapes.mp3
+Time: 340
+mtime: 1332480563
+song_end
 song_begin: Vision Driver.mp3
 Time: 243
 mtime: 1362046472
@@ -103,7 +175,15 @@ song_begin: [DNB] Atlas - Feint [Monstercat Release].mp3
 Time: 288
 mtime: 1362046472
 song_end
-song_begin: 01-feint-horizons_feat._veela_(original_mix).mp3
+song_begin: [DnB] - Feint - Fury [Monstercat Release].mp3
+Time: 232
+mtime: 1344458493
+song_end
+song_begin: [DnB] - Feint - Snake Eyes (feat. CoMa) [Monstercat Release].mp3
+Time: 265
+mtime: 1367433173
+song_end
+song_begin: Feint - Horizons feat. Veela.mp3
 Time: 286
 Artist: Feint
 Title: Horizons feat. Veela (Original Mix)
@@ -113,19 +193,17 @@ Date: 2012-08-05
 Genre: Drum & Bass
 mtime: 1362046471
 song_end
-song_begin: 04-feint-horizons_feat._veela_(bustre_remix).mp3
-Time: 357
-Artist: Feint
-Title: Horizons feat. Veela (Bustre Remix)
-Album: Horizons EP
-Track: 4/4
-Date: 2012-08-05
-Genre: Drum & Bass
-mtime: 1362046472
-song_end
 end: Feint
+directory: Go Go Berlin
+mtime: 1376590944
+begin: Go Go Berlin
+song_begin: Go Go Berlin - Raise Your Head.mp3
+Time: 240
+mtime: 1368652934
+song_end
+end: Go Go Berlin
 directory: Macklemore
-mtime: 1375020290
+mtime: 1376593999
 begin: Macklemore
 directory: Macklemore
 mtime: 1375020290
@@ -570,9 +648,9 @@ mtime: 1375020189
 song_end
 end: Macklemore/Macklemore and Ryan Lewis/The VS. EP
 end: Macklemore/Macklemore and Ryan Lewis
-song_begin: Macklemore & Ryan Lewis - Can't hold us.mp3
-Time: 424
-mtime: 1367542860
+song_begin: Can't Hold Us - Macklemore and Ryan Lewis.mp3
+Time: 275
+mtime: 1365489337
 song_end
 end: Macklemore
 directory: Monstercat 001 - Launch Week
@@ -943,6 +1021,30 @@ Time: 3790
 mtime: 1333902801
 song_end
 end: OST
+directory: StrawbellyCake
+mtime: 1377947964
+begin: StrawbellyCake
+directory: songs
+mtime: 1377947964
+begin: StrawbellyCake/songs
+song_begin: StrawbellyCake - Bad Apple.mp3
+Time: 219
+Artist: StrawbellyCake
+Title: BAD APPLE
+Date: 2010
+Genre: Other
+mtime: 1333091978
+song_end
+end: StrawbellyCake/songs
+song_begin: StrawbellyCake - Bad Apple.mp3
+Time: 219
+Artist: StrawbellyCake
+Title: BAD APPLE
+Date: 2010
+Genre: Other
+mtime: 1303135679
+song_end
+end: StrawbellyCake
 directory: Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]
 mtime: 1375099961
 begin: Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]

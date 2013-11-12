@@ -1,0 +1,638 @@
+2013-11-10 14:53:10	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #learnprogramming
+2013-11-10 14:53:10	--	Topic for #learnprogramming is "Unofficial chat of http://www.reddit.com/r/learnprogramming/ || Discuss programming in a newbie-friendly environment here | Don't ask to ask, just state your problem and provide a source snippet. If anyone can help, they will when they are available"
+2013-11-10 14:53:10	--	Topic set by Enalicho on Wed, 12 Sep 2012 00:37:11
+2013-11-10 14:53:10	--	Nicks #learnprogramming: [@chance @ChanServ @SlimTim10 Amadiro Amilo ario_ Ayey_ biio bloouup BlueShark Boohbah buddyholly carefish_ daszorz definity DevilFish Diablodoc dougwt drbrule ElectricSheep flart Flexfit Fortescue ghanhass Gorjanc Guest40184 gyaretto heroux huida Insomnia` jaffe__ jconn Jeffersinn JSharpe__ Junaos juser Kelet kohvihoo1 kraft lambot mrmortal n9mtb- niomaster nudetayne pdimitrov Plazma popey Portugol9 pr0ggie Raccoon rafiks raylu repez___ Rosefox911 ryzic sabajo_ Sellyme Serenity0 shade34321 SirSkidmore Spartacus SrRaven tamper tangentstorm timg Turn_Left wyck zebbiz]
+2013-11-10 14:53:10	--	Channel #learnprogramming: 68 nicks (3 ops, 0 voices, 65 normals)
+2013-11-10 14:53:22	--	Mode #learnprogramming [+cnt]
+2013-11-10 14:53:23	--	Channel created on Sun, 13 Mar 2011 04:35:37
+2013-11-10 15:13:20	<--	definity (~definity@pas43.pip.aber.ac.uk) has quit (Ping timeout: 264 seconds)
+2013-11-11 17:33:38	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #learnprogramming
+2013-11-11 17:33:38	--	Topic for #learnprogramming is "Unofficial chat of http://www.reddit.com/r/learnprogramming/ || Discuss programming in a newbie-friendly environment here | Don't ask to ask, just state your problem and provide a source snippet. If anyone can help, they will when they are available"
+2013-11-11 17:33:38	--	Topic set by Enalicho on Wed, 12 Sep 2012 00:37:11
+2013-11-11 17:33:38	--	Nicks #learnprogramming: [@chance @ChanServ @intothev01d @SlimTim10 Amadiro amigojapan ario_ arti Ayey_ biio bloouup BlueShark Boohbah buddyholly carefish_ daszorz DevilFish Diablodoc disparrot dougwt drbrule-away duggiefresh flart Fortescue Guest40184 heroux huida Insomnia` jaffe__ jayayseakay jconn Jeffersinn JSharpe__ Junaos juser Kelet kohvihoo1 kraft kwyckmans lambot mizu_no_oto mrmortal n9mtb- Naphatul niomaster nudetayne pdimitrov Plazma popey Portugol9 pr0ggie Raccoon rafiks raylu repez___ Rosefox911 ryzic sanpatricio Sellyme shade34321 SirSkidmore Spartacus SrRaven tamper tangentstorm timg Turn_Left zebbiz]
+2013-11-11 17:33:38	--	Channel #learnprogramming: 68 nicks (4 ops, 0 voices, 64 normals)
+2013-11-11 17:33:42	-->	bjh13 (~bjh13@199.201.255.250) has joined #learnprogramming
+2013-11-11 17:33:49	--	Mode #learnprogramming [+cnt]
+2013-11-11 17:33:49	--	Channel created on Sun, 13 Mar 2011 04:35:37
+2013-11-11 17:46:35	-->	ghanhass (~ghanhass@41.226.142.179) has joined #learnprogramming
+2013-11-11 17:54:22	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #learnprogramming
+2013-11-11 17:54:22	--	Topic for #learnprogramming is "Unofficial chat of http://www.reddit.com/r/learnprogramming/ || Discuss programming in a newbie-friendly environment here | Don't ask to ask, just state your problem and provide a source snippet. If anyone can help, they will when they are available"
+2013-11-11 17:54:22	--	Topic set by Enalicho on Wed, 12 Sep 2012 00:37:11
+2013-11-11 17:54:22	--	Nicks #learnprogramming: [@chance @ChanServ @intothev01d @SlimTim10 Amadiro amigojapan ario_ arti Ayey_ biio bjh13 bloouup BlueShark Boohbah buddyholly carefish_ daszorz DevilFish Diablodoc disparrot dougwt drbrule-away duggiefresh flart Fortescue ghanhass Guest40184 heroux huida Insomnia` jaffe__ jayayseakay jconn Jeffersinn JSharpe__ Junaos juser Kelet kohvihoo1 kraft kwyckmans lambot mizu_no_oto mrmortal n9mtb- Naphatul niomaster nudetayne pdimitrov Plazma popey Portugol9 pr0ggie Raccoon rafiks raylu repez___ Rosefox911 ryzic sanpatricio Sellyme shade34321 SirSkidmore Spartacus SrRaven tamper tangentstorm timg Turn_Left zebbiz]
+2013-11-11 17:54:22	--	Channel #learnprogramming: 70 nicks (4 ops, 0 voices, 66 normals)
+2013-11-11 17:54:33	--	Mode #learnprogramming [+cnt]
+2013-11-11 17:54:33	--	Channel created on Sun, 13 Mar 2011 04:35:37
+2013-11-11 17:58:10	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #learnprogramming
+2013-11-11 17:58:10	--	Topic for #learnprogramming is "Unofficial chat of http://www.reddit.com/r/learnprogramming/ || Discuss programming in a newbie-friendly environment here | Don't ask to ask, just state your problem and provide a source snippet. If anyone can help, they will when they are available"
+2013-11-11 17:58:10	--	Topic set by Enalicho on Wed, 12 Sep 2012 00:37:11
+2013-11-11 17:58:10	--	Nicks #learnprogramming: [@chance @ChanServ @intothev01d @SlimTim10 Amadiro amigojapan ario_ arti Ayey_ biio bjh13 bloouup BlueShark Boohbah buddyholly carefish_ daszorz DevilFish Diablodoc disparrot dougwt drbrule-away duggiefresh flart Fortescue ghanhass Guest40184 heroux huida Insomnia` jaffe__ jayayseakay jconn Jeffersinn JSharpe__ Junaos juser Kelet kohvihoo1 kraft kwyckmans lambot mizu_no_oto mrmortal n9mtb- Naphatul niomaster nudetayne pdimitrov Plazma popey Portugol9 pr0ggie Raccoon rafiks raylu repez___ Rosefox911 ryzic sanpatricio Sellyme shade34321 SirSkidmore Spartacus SrRaven tamper tangentstorm timg Turn_Left zebbiz]
+2013-11-11 17:58:10	--	Channel #learnprogramming: 70 nicks (4 ops, 0 voices, 66 normals)
+2013-11-11 17:58:21	--	Mode #learnprogramming [+cnt]
+2013-11-11 17:58:21	--	Channel created on Sun, 13 Mar 2011 04:35:37
+2013-11-11 18:00:06	<--	amigojapan has quit (Quit: ChatZilla 0.9.90.1-rdmsoft [XULRunner 22.0/20130619132145])
+2013-11-11 18:00:07	-->	gallowsCalibrato has joined #learnprogramming
+2013-11-11 18:04:36	-->	Pullphinger has joined #learnprogramming
+2013-11-11 18:09:22	<--	ghanhass has quit (Quit: Leaving)
+2013-11-11 18:15:45	-->	Bronze has joined #learnprogramming
+2013-11-11 18:20:04	-->	ElectricSheep has joined #learnprogramming
+2013-11-11 18:22:05	-->	Datsundere has joined #learnprogramming
+2013-11-11 18:22:07	Datsundere	hey guys
+2013-11-11 18:22:33	Datsundere	web dev course or software testing course
+2013-11-11 18:22:48	-->	jordan888 has joined #learnprogramming
+2013-11-11 18:23:42	jordan888	q: When using sort method on list, I get "None" output instead of a sorted list
+2013-11-11 18:23:53	jordan888	Python
+2013-11-11 18:24:08	Datsundere	what are you trying to sort
+2013-11-11 18:24:17	Datsundere	I hope they're integers
+2013-11-11 18:24:56	jordan888	integers
+2013-11-11 18:24:58	jordan888	http://pastebin.com/CxLjtAmF
+2013-11-11 18:25:06	Datsundere	don't use pastebin
+2013-11-11 18:25:29	jordan888	What do you recommend?
+2013-11-11 18:27:00	-->	evli has joined #learnprogramming
+2013-11-11 18:27:06	jordan888	http://codepad.org/BVzRyMd8
+2013-11-11 18:27:07	tamper	jordan888's url: http://bit.ly/1buQzwA
+2013-11-11 18:27:47	jordan888	This is just removing .sort() http://codepad.org/mnvYzi2W
+2013-11-11 18:27:48	tamper	jordan888's url: http://bit.ly/1buQHMG
+2013-11-11 18:28:04	jordan888	runs correctly w/o sort method
+2013-11-11 18:28:25	-->	amigojapan has joined #learnprogramming
+2013-11-11 18:29:14	raylu	jordan888: sorted(lst) returns a sorted list. lst.sort() sorts the list in place and doesn't return anything
+2013-11-11 18:32:09	@chance	also dont use .sort
+2013-11-11 18:32:25	<--	gallowsCalibrato has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2013-11-11 18:32:29	Datsundere	chance
+2013-11-11 18:32:31	Datsundere	m8
+2013-11-11 18:32:32	@chance	lst = lst.sort() doesnt do what you think it does, and often causes problems
+2013-11-11 18:32:59	Datsundere	isn't list.sort() same as sort(list)
+2013-11-11 18:33:06	@chance	sorted(list)*
+2013-11-11 18:33:11	jordan888	sorry, my internet disconnected, chance, Datsundere. Could you re explain?
+2013-11-11 18:33:20	Datsundere	oh wait I'm thinking of ruby
+2013-11-11 18:33:27	@chance	Datsundere: well they kind of do the same thing
+2013-11-11 18:33:31	@chance	the thing is .sort() is a method
+2013-11-11 18:33:33	@chance	and it returns None
+2013-11-11 18:33:48	Datsundere	but internally the parameters passed are the list
+2013-11-11 18:33:49	@chance	sorted() returns a copy of the list you passed it, sorted
+2013-11-11 18:34:05	jordan888	sorted is only on py 3.0+ correct?
+2013-11-11 18:34:08	@chance	the problem is when you try this: lst = [1,3,2]; list = list.sort()
+2013-11-11 18:34:18	@chance	jordan888: sorted() is in 2.6+ at least.
+2013-11-11 18:34:38	@chance	in my example `list` would be `None`
+2013-11-11 18:34:42	jordan888	why does .sort() return None?
+2013-11-11 18:34:43	@chance	and its very easy to make that mistake
+2013-11-11 18:34:49	@chance	jordan888: because it doesnt return anything
+2013-11-11 18:35:01	@chance	because it sorts the object in place, so it wouldnt need to return the value
+2013-11-11 18:35:04	<--	Datsundere has quit (Quit: WeeChat 0.4.1)
+2013-11-11 18:35:37	jordan888	ok. so its just an internal process
+2013-11-11 18:36:03	@chance	its slightly more efficient to use the sort method if you dont need the original list, but meh
+2013-11-11 18:36:11	@chance	slightly is really neglibile in most cases
+2013-11-11 18:36:34	-->	gyaretto has joined #learnprogramming
+2013-11-11 18:37:31	<--	kwyckmans has quit (Read error: Connection reset by peer)
+2013-11-11 18:38:55	jordan888	chance, http://codepad.org/TlTxvFRy
+2013-11-11 18:38:56	tamper	jordan888's url: http://bit.ly/1i1D0K6
+2013-11-11 18:40:00	-->	jesyspa has joined #learnprogramming
+2013-11-11 18:41:51	@chance	sorted isnt a method
+2013-11-11 18:41:56	@chance	sorted(a)
+2013-11-11 18:43:36	jordan888	ok
+2013-11-11 18:44:25	-->	Cirus has joined #learnprogramming
+2013-11-11 18:49:54	<--	Naphatul has quit (Quit: leaving)
+2013-11-11 18:50:13	jordan888	thanks chance
+2013-11-11 18:50:18	@chance	np
+2013-11-11 18:50:18	jordan888	much appreciated
+2013-11-11 18:50:40	jordan888	i think sort() is good as long as you use it correctly
+2013-11-11 18:51:16	@chance	it can be
+2013-11-11 18:51:29	@chance	its just too easy to return mylist.sort() and wonder "wtf why is my function returning None everytime"
+2013-11-11 18:53:45	<--	evli has quit (Quit: ZzzZz…)
+2013-11-11 18:56:14	jordan888	hah i tried running this thing on a txt file 1.1mb long its freezing up my netbook
+2013-11-11 18:57:24	<--	Cirus has quit
+2013-11-11 18:57:53	@chance	are you reading the entire file into memory?
+2013-11-11 18:58:04	@chance	you might try iterating through the file line by line instead if thats what your doing
+2013-11-11 18:58:46	@chance	with open("myfile.txt", "r") as fp: for line in fp: do_something_to_line(line)
+2013-11-11 18:59:12	<--	mizu_no_oto has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2013-11-11 18:59:27	-->	acratophorus has joined #learnprogramming
+2013-11-11 19:00:54	gyaretto	jordan888: I don't mean to be rude, but I'm pretty sure z = 0 + shift would be the same thing as z = shift.
+2013-11-11 19:02:03	jordan888	lol
+2013-11-11 19:02:13	jordan888	you are right
+2013-11-11 19:02:38	gyaretto	:)
+2013-11-11 19:02:57	jordan888	0 + 0 == 0
+2013-11-11 19:03:17	jordan888	though it reads better having the 0 there
+2013-11-11 19:03:27	jordan888	at least for me.
+2013-11-11 19:04:14	<--	bloouup has left #learnprogramming
+2013-11-11 19:07:04	-->	Net_Creator has joined #learnprogramming
+2013-11-11 19:07:25	--	Net_Creator is now known as Guest25095
+2013-11-11 19:22:58	jordan888	Anyone know good strategies to make sure algos used are efficient?
+2013-11-11 19:23:42	DevilFish	jordan888, measure them
+2013-11-11 19:23:51	@chance	jordan888: determine # of loops
+2013-11-11 19:23:53	@chance	nested*
+2013-11-11 19:24:02	@chance	describe the alg in big O notation
+2013-11-11 19:24:11	@chance	compare to other algs with lower big O value
+2013-11-11 19:24:23	@chance	ideally you want it linear or log
+2013-11-11 19:24:29	-->	Gorjanc has joined #learnprogramming
+2013-11-11 19:24:32	@chance	or constant
+2013-11-11 19:25:16	jordan888	ok. so if a loop exists, how does that translate into big O notation?
+2013-11-11 19:25:52	jordan888	for example, from the code i pasted before, what steps do i take to determine the big o eq
+2013-11-11 19:26:12	<--	gyaretto has quit (Ping timeout: 272 seconds)
+2013-11-11 19:26:21	@chance	basically big O is a very non specific *approximation* of efficiency
+2013-11-11 19:26:27	@chance	so imagine you have a list
+2013-11-11 19:26:44	@chance	a function which loops through it once would be O(x) where x is the size of the list
+2013-11-11 19:27:24	@chance	O(x) meaning, the efficieny is O of x, where x is linear
+2013-11-11 19:27:46	@chance	everytime the list gets bigger, your loop will also get longer, making it scale linearly
+2013-11-11 19:28:33	@chance	if you have a loop inside another loop, depending on the 2nd loops conditions, its typically O(x^2) because for every item in the list it loops through it twice
+2013-11-11 19:28:37	DevilFish	Well, not only will it get bigger, but it will get bigger as a constant factor times the number of elements.
+2013-11-11 19:28:44	@chance	so you loop through the list x square times
+2013-11-11 19:28:54	@chance	yeah.
+2013-11-11 19:29:03	-->	Cirus has joined #learnprogramming
+2013-11-11 19:29:14	@chance	remember its all an approximation
+2013-11-11 19:29:21	jordan888	right. I understand
+2013-11-11 19:29:22	@chance	so what actually happens in the loop is mostly neglible
+2013-11-11 19:30:29	@chance	so really, just think about it based on the input, and the number of times your iterating based on that input
+2013-11-11 19:30:33	jordan888	So, if i reduce it from 2 loops to 1, It would be approx twice as fast as it was?
+2013-11-11 19:30:41	@chance	more than twice as fast
+2013-11-11 19:30:53	@chance	way more
+2013-11-11 19:31:04	jordan888	Ok.
+2013-11-11 19:31:19	@chance	think of an exponential function
+2013-11-11 19:31:21	@chance	and a linear function
+2013-11-11 19:31:23	@chance	in math terms
+2013-11-11 19:31:27	@chance	and how they look in a graph
+2013-11-11 19:31:36	@chance	early on their both decently low values
+2013-11-11 19:32:01	@chance	but once the values on the x axis are decently high, the exponential function grows really fast, and the linear one is growing as fast as it was at the beginning
+2013-11-11 19:32:42	@chance	big O isn't a measure of when inputs are low, its based on the assumption that you're values are large enough for other things to not matter
+2013-11-11 19:32:47	@chance	in scale
+2013-11-11 19:32:54	@chance	so pretend your input is infinity
+2013-11-11 19:33:18	jordan888	if the input was being reduced as the loop continues, this would be logarithmic ?
+2013-11-11 19:33:28	<--	Guest25095 has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 19:33:29	-->	kwyckmans has joined #learnprogramming
+2013-11-11 19:33:36	@chance	it depends, but often yes
+2013-11-11 19:34:26	@chance	i would try running your program with large values
+2013-11-11 19:34:29	@chance	that you expect to take long
+2013-11-11 19:34:32	jordan888	which would be ideal as x approaches inf.
+2013-11-11 19:34:33	@chance	time the execution of the function
+2013-11-11 19:34:42	@chance	see if you *need* to optimize or not
+2013-11-11 19:34:45	jordan888	x being time
+2013-11-11 19:34:48	@chance	yeah
+2013-11-11 19:34:53	@chance	well x being size of the list
+2013-11-11 19:35:01	@chance	or whatever is making the variability of the functionj
+2013-11-11 19:35:19	jordan888	ok yeah
+2013-11-11 19:35:56	DevilFish	In general, you should worry about the actual performance rather than the theoretical performance.
+2013-11-11 19:36:04	DevilFish	Because they can be very different.
+2013-11-11 19:36:12	@chance	yeah
+2013-11-11 19:36:18	@chance	if your inputs never get very large
+2013-11-11 19:36:21	@chance	then its neglible
+2013-11-11 19:36:27	jordan888	it seems like big O is more effective when dealing with large inputs
+2013-11-11 19:36:31	@chance	yeah
+2013-11-11 19:36:37	@chance	thats exactly what big O is about
+2013-11-11 19:37:02	DevilFish	Big O also drops the constant factors, which is VERY important in real-world usage.
+2013-11-11 19:37:03	jordan888	approx become more accurate as constants make no difference in performance
+2013-11-11 19:37:03	@chance	its about efficiency when you scale the problem up
+2013-11-11 19:37:20	@chance	so when you scale a problem up, arithematic is very small in the total time of computation
+2013-11-11 19:37:25	@chance	for example
+2013-11-11 19:37:53	@chance	you ignore how long it takes to divide/multiply/add and you just base it on the number of times some collection of operations are going to happen
+2013-11-11 19:38:06	@chance	that number of times it happens relative to the growing size of the problem
+2013-11-11 19:39:59	@chance	jordan888: yeah, its just like taking the limit of something in calculous
+2013-11-11 19:40:02	@chance	calculus*
+2013-11-11 19:40:37	-->	trustyhank has joined #learnprogramming
+2013-11-11 19:43:51	jordan888	what steps does one take to make their program more efficient?
+2013-11-11 19:44:04	jordan888	to me, it looks like i need both loops
+2013-11-11 19:44:48	DevilFish	jordan888, the basic rule of optimization is to not do unnecessary work.
+2013-11-11 19:45:10	@chance	move any computations that can be done outside loops to outside loops
+2013-11-11 19:45:36	@chance	ie: it doesnt depend on the current state of the inner most loop, then dont waste CPU by calculating it each iteration
+2013-11-11 19:45:55	@chance	ex: dont use strlen in the condition of a loop (c, c++)
+2013-11-11 19:45:59	<--	Cirus has quit
+2013-11-11 19:46:21	@chance	in python particularly, make sure your not creating extra lists when you dont need to, use iterators
+2013-11-11 19:46:32	@chance	generators*
+2013-11-11 19:46:49	@chance	avoid dicts and use arrays/lists when possible
+2013-11-11 19:46:58	@chance	dict hashing in loops can be computationally expensive
+2013-11-11 19:47:34	@chance	in python len() is cheap, so its okay to do that
+2013-11-11 19:47:38	-->	ChaosSyndicate has joined #learnprogramming
+2013-11-11 19:47:41	@chance	length of lists is stored on the object in python
+2013-11-11 19:47:45	<--	jayayseakay has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-11-11 19:48:18	jordan888	chance, where are you getting this info from?
+2013-11-11 19:48:29	@chance	experience
+2013-11-11 19:48:34	@chance	documentation
+2013-11-11 19:48:36	@chance	ect.
+2013-11-11 19:48:38	jordan888	ok
+2013-11-11 19:49:21	<--	ChaosSyndicate has quit (Read error: Connection reset by peer)
+2013-11-11 19:50:16	@chance	hashing : well its like that in most languages, generators: python specific, you just learn over time python has two ways to iterate, on lists in memory, or dynamically generating the values you need when you need them (less memory consumption)
+2013-11-11 19:50:36	@chance	length is just something i learned sometime ago reading the python source and learning more about intenrals
+2013-11-11 19:50:38	@chance	internals
+2013-11-11 19:51:06	jordan888	so its better to avoid dictionaries, if i can use something else?
+2013-11-11 19:51:15	jordan888	lists/tuples
+2013-11-11 19:51:27	@chance	yeah
+2013-11-11 19:51:48	Amadiro	in python, everything is slow, so don't worry too much about it
+2013-11-11 19:51:54	@chance	dicts require computing a hash from the key to get the value, which isnt horrible, but if you do it a a ton it will add up
+2013-11-11 19:51:54	jordan888	lol
+2013-11-11 19:52:06	@chance	lists are basically constant time access
+2013-11-11 19:52:23	@chance	little to no computation required to access list elements
+2013-11-11 19:52:37	Amadiro	well, accessing is one thing, but *finding* is another
+2013-11-11 19:52:45	Amadiro	typically you use a hash because you want to *find* something
+2013-11-11 19:53:08	<--	amigojapan has quit (Quit: ChatZilla 0.9.90.1-rdmsoft [XULRunner 22.0/20130619132145])
+2013-11-11 19:53:13	Amadiro	so if you have a really really long list of things, and you need to find one of them, using a dict can be a lot faster, for a sufficiently long list
+2013-11-11 19:54:09	@chance	indeed
+2013-11-11 19:54:50	@chance	finding something in a list requires iteration, and as we've already discussed, iteration means O(n) time at least
+2013-11-11 19:54:55	@chance	typically*
+2013-11-11 19:55:02	-->	mr_magpie has joined #learnprogramming
+2013-11-11 19:55:09	@chance	hashing is usually O(1)
+2013-11-11 19:59:25	jordan888	may seem like a weird question but could there be advantages to using functional recursion as opposed to loops ?
+2013-11-11 19:59:34	jordan888	in terms of speed?
+2013-11-11 19:59:46	@chance	not really in python
+2013-11-11 19:59:51	-->	Gay_Weed_Dad_69 has joined #learnprogramming
+2013-11-11 20:00:07	mr_magpie	Anyone in here that can help me with C++?
+2013-11-11 20:00:07	DevilFish	jordan888, recursion can be turned into iteration, which is how most compilers for functional languages will try to do it.
+2013-11-11 20:00:13	@chance	yeah.
+2013-11-11 20:00:27	DevilFish	Modern CPUs are designed to iterate really fast
+2013-11-11 20:01:44	jordan888	but loops are also iteration right?
+2013-11-11 20:01:54	DevilFish	yes.
+2013-11-11 20:02:40	@chance	its just in most non functional languages, recursion isnt optimized that way
+2013-11-11 20:02:56	@chance	and it's less efficient because it ends up being a large stack of function calls
+2013-11-11 20:03:29	DevilFish	Unless you have a pretty amazing compiler. GCC will try to do that, for instance. Interpreted languages as a rule don't apply heavy optimizations like that.
+2013-11-11 20:03:42	@chance	in functional languages things like tail recursion help this
+2013-11-11 20:04:03	-->	ryden has joined #learnprogramming
+2013-11-11 20:04:26	Amadiro	interpreted functional languages like erlang do apply TCO
+2013-11-11 20:04:34	ryden	What's the problem with this? (in C) http://codepad.org/yMYUchlE
+2013-11-11 20:04:35	tamper	ryden's url: http://bit.ly/18mr520
+2013-11-11 20:04:38	-->	gyaretto has joined #learnprogramming
+2013-11-11 20:04:56	Amadiro	CPUs aren't really that good at loops though, after all, that's why the compiler tries to unroll them if it can
+2013-11-11 20:05:20	Amadiro	after all, a loop (that is not optimized in some way) involves a branch, and CPUs are bad at branches
+2013-11-11 20:05:52	DevilFish	Amadiro, better than function calls, especially with good branch prediction.
+2013-11-11 20:06:00	Amadiro	(not as bad as on e.g. GPUs, of course, where especially older models are horribly bad with branches)
+2013-11-11 20:06:03	jordan888	i remember something about memoization reducing those branches
+2013-11-11 20:06:30	DevilFish	yeah, GPUs aren't terribly good at general computation though.
+2013-11-11 20:06:33	Amadiro	DevilFish, yeah, but if you can unroll a loop into a flat pipe of just straight-up mathematical operations, you'd prefer that
+2013-11-11 20:06:39	jordan888	like with a Fibonacci sequence
+2013-11-11 20:06:39	DevilFish	Amadiro, sure.
+2013-11-11 20:07:04	Amadiro	jordan888, memoization doesn't really have anything to do with branch-mispredictions
+2013-11-11 20:07:15	Amadiro	maybe you're thinking about optimistic branch execution or somesuch
+2013-11-11 20:07:34	jordan888	yeah, i can quite recall.
+2013-11-11 20:07:39	jordan888	*can't
+2013-11-11 20:09:07	<--	ryden has quit (Quit: Page closed)
+2013-11-11 20:09:24	jordan888	so i guess i can just add a run time function at the end of my program
+2013-11-11 20:09:39	jordan888	and just change some parts of it and see how it affects the speed
+2013-11-11 20:14:56	<--	jordan888 has quit (Quit: Leaving)
+2013-11-11 20:15:04	@chance	yeah, just make sure you start timing right before the function is called instead of at the beginning of the program
+2013-11-11 20:15:26	@chance	because you'll have misleading times otherwise, you'll be timing the start up of the interpreter xD
+2013-11-11 20:21:57	jesyspa	mr_magpie, There's probably quite a few people who can, but you'll have to ask your question.
+2013-11-11 20:22:22	-->	compile_ has joined #learnprogramming
+2013-11-11 20:22:55	<--	gyaretto has quit (Ping timeout: 252 seconds)
+2013-11-11 20:22:57	@chance	mr_magpie: dont ask to ask, just ask your question
+2013-11-11 20:25:56	mr_magpie	Was wondering why my character array values were changing even though I didn't pass it by reference.
+2013-11-11 20:26:26	-->	gyaretto has joined #learnprogramming
+2013-11-11 20:27:02	mr_magpie	I got a character array in main, then called a function to change it all to uppercase.
+2013-11-11 20:27:13	mr_magpie	But I didn't need to pass the character array by reference for some reason.
+2013-11-11 20:27:26	mr_magpie	Or at least, it won't let me.
+2013-11-11 20:27:53	@chance	because arrays are always passed by reference
+2013-11-11 20:28:06	@chance	heres something you'll find interesting
+2013-11-11 20:28:25	@chance	an array variable is not an array, it is the address of the first element of the array
+2013-11-11 20:28:33	mr_magpie	The base address.
+2013-11-11 20:28:50	mr_magpie	Unless indexed in with a subscript operator.
+2013-11-11 20:29:01	@chance	yeah
+2013-11-11 20:29:10	@chance	so when you pass an array to a function
+2013-11-11 20:29:14	@chance	your passing the address
+2013-11-11 20:29:19	@chance	so your not getting a copy in the new function
+2013-11-11 20:29:25	@chance	to your technically working with a pointer
+2013-11-11 20:29:33	@chance	which is why your able to modify the array
+2013-11-11 20:29:42	mr_magpie	So nowhere would "char &array1[]" exist?
+2013-11-11 20:30:40	@chance	that would be the address of the pointer
+2013-11-11 20:30:44	@chance	which is on the stack
+2013-11-11 20:30:50	-->	evli has joined #learnprogramming
+2013-11-11 20:30:56	@chance	so if you think about args to a function
+2013-11-11 20:31:02	<--	Gorjanc has quit (Ping timeout: 240 seconds)
+2013-11-11 20:31:05	@chance	their new variables created on the stack for the function
+2013-11-11 20:31:22	@chance	when you pass an array to a function normally, that arg is a pointer
+2013-11-11 20:31:25	mr_magpie	Wouldn't that only be in the parameters?
+2013-11-11 20:31:47	@chance	so your passing your array's address to the arg, and the arg is a pointer on the stack pointing to the address of the array from the caller
+2013-11-11 20:32:03	@chance	so in the new function &myarray[] would be the address of the argument pointer
+2013-11-11 20:32:19	@chance	myarray would be the address of the first element in the array, which is what the value of &myarray is pointing to
+2013-11-11 20:32:34	<--	duggiefresh has quit (Remote host closed the connection)
+2013-11-11 20:33:00	mr_magpie	They both point to the same thing?
+2013-11-11 20:33:00	-->	duggiefresh has joined #learnprogramming
+2013-11-11 20:33:05	@chance	no
+2013-11-11 20:33:10	@chance	ill explain it
+2013-11-11 20:33:12	@chance	with an example
+2013-11-11 20:33:31	mr_magpie	Oh, one points to the location, and one points to the value inside that location?
+2013-11-11 20:34:02	Gay_Weed_Dad_69	Hello, having a little problem, in this code, line 10, tells me the first '<<' is invalid. Why? http://pastebin.com/iGjs9eTn
+2013-11-11 20:34:53	jesyspa	> arrays are always passed by reference ... an array variable is not an array, it is the address of the first element of the array
+2013-11-11 20:34:55	jesyspa	What.  No.
+2013-11-11 20:35:49	-->	duggiefr_ has joined #learnprogramming
+2013-11-11 20:36:01	<--	duggiefresh has quit (Remote host closed the connection)
+2013-11-11 20:36:06	jesyspa	An array is an array, a pointer is a pointer, neither is a special case of the other, and arrays can be passed in a number of ways.
+2013-11-11 20:36:28	<--	duggiefr_ has quit (Client Quit)
+2013-11-11 20:36:35	-->	Serenity0 has joined #learnprogramming
+2013-11-11 20:36:38	-->	duggiefresh has joined #learnprogramming
+2013-11-11 20:36:58	jesyspa	Four come to mind: by value as a member, by pointer to first element, by pointer to array, and by reference to array.
+2013-11-11 20:37:00	Serenity0	sup
+2013-11-11 20:37:18	mr_magpie	Well, when I try to compile "char &array[]" I get a compiler error of "declaration of 'string' as an array of references"
+2013-11-11 20:37:26	gyaretto	jesyspa: In C, I'm not sure that an array can be represented any other way.
+2013-11-11 20:38:08	jesyspa	mr_magpie, you need to specify precedence and size.
+2013-11-11 20:38:21	jesyspa	char array[20]; char (&ref_to_array)[20] = array;
+2013-11-11 20:38:46	jesyspa	gyaretto, in C, an array is a contiguous block of memory.
+2013-11-11 20:38:59	compile_	i have this snippet -> https://gist.github.com/ldtenuta/7419086
+2013-11-11 20:38:59	mr_magpie	I wrote a global const for the dimensions of the array, do I need to include that in the subscript?
+2013-11-11 20:39:01	gyaretto	Right, but the variable is a pointer to the first element.
+2013-11-11 20:39:01	@chance	mr_magpie: https://gist.github.com/ecnahc515/7419097
+2013-11-11 20:39:13	@chance	the comments describe each thing
+2013-11-11 20:39:16	jesyspa	gyaretto, no, it isn't.
+2013-11-11 20:39:21	@chance	you should try printing out the different values i've commented out
+2013-11-11 20:39:24	@chance	and see what happens
+2013-11-11 20:39:30	compile_	i'm trying to figure out how to use a lambda expression to get <a href="/ice/player.htm?id=8474564">Steven Stamkos</a> extracted
+2013-11-11 20:39:38	compile_	so i can call cell.playerName etc
+2013-11-11 20:39:46	compile_	I'm having difficulties doing so.
+2013-11-11 20:39:50	compile_	any advice?
+2013-11-11 20:40:25	jesyspa	mr_magpie, If you want a reference to the array, or a pointer to the array (note: not a pointer to the first element), yes.
+2013-11-11 20:40:55	mr_magpie	Okay, let me try that.
+2013-11-11 20:41:13	@chance	compile_: use an html parsing library
+2013-11-11 20:41:18	@chance	dont write it yourself
+2013-11-11 20:41:22	compile_	i'm using HAP
+2013-11-11 20:41:29	@chance	parsing html is bad news bears
+2013-11-11 20:41:33	@chance	if you write it yourself
+2013-11-11 20:41:35	@chance	idk what HAP is
+2013-11-11 20:41:47	compile_	i don't know what to use for playerName = node.something
+2013-11-11 20:41:51	compile_	Htmlagilitypack...
+2013-11-11 20:42:52	@chance	first, i wouldnt use lambdas, not really a reason to
+2013-11-11 20:42:54	@chance	secondly
+2013-11-11 20:43:08	jesyspa	mr_magpie, But chances are you don't actually want an array at all.
+2013-11-11 20:43:25	@chance	make a new HtmlDocument object, and use CSS selectors/xpath to find the links your looking for
+2013-11-11 20:43:26	jesyspa	mr_magpie, And note that the example chance linked to uses names like my_array for things which are not arrays at all.
+2013-11-11 20:43:48	jesyspa	(The only array in that example is the string literal "foo", which is a char const[4].)
+2013-11-11 20:43:53	-->	david_gomez has joined #learnprogramming
+2013-11-11 20:44:11	@chance	arrays and pointers are synonymous really
+2013-11-11 20:44:17	@chance	in c
+2013-11-11 20:44:51	compile_	Its from a table.
+2013-11-11 20:44:59	david_gomez	yep
+2013-11-11 20:45:06	compile_	I want lambda's so I don't have to right the same code over and over.
+2013-11-11 20:45:13	compile_	for each piece of the table.
+2013-11-11 20:45:17	<--	Portugol9 has quit (Ping timeout: 252 seconds)
+2013-11-11 20:45:19	compile_	1 statement for everything.
+2013-11-11 20:45:21	jesyspa	chance, No, they aren't.
+2013-11-11 20:45:23	@chance	lambda's dont really fix that, lambda's arent re-usable
+2013-11-11 20:45:35	@chance	jesyspa: in use.
+2013-11-11 20:45:52	jesyspa	Nor in use.  Let me find one of the many threads in the sub about it...
+2013-11-11 20:46:00	mr_magpie	bool    StrToUpper(char	&string[NUM_CODES])
+2013-11-11 20:46:06	mr_magpie	That's my function header.
+2013-11-11 20:46:23	mr_magpie	And I'm getting the compiler error "declaration of 'string' as an array of references"
+2013-11-11 20:46:26	jesyspa	mr_magpie, You forgot the parentheses around &string.  char (&string)[NUM_CODES]
+2013-11-11 20:46:41	mr_magpie	I did not know I needed that :|
+2013-11-11 20:47:01	jesyspa	But chances are you actually just want an std::string.
+2013-11-11 20:47:21	mr_magpie	I'm trying to use character arrays even though strings are easier.
+2013-11-11 20:47:32	mr_magpie	So I can understand cstrings.
+2013-11-11 20:47:41	jesyspa	Okay, then std::array<char, N>s.
+2013-11-11 20:47:56	jesyspa	chance, http://www.reddit.com/r/learnprogramming/comments/szt3y/what_is_the_primary_difference_between_a_pointer/ , for example.
+2013-11-11 20:47:57	tamper	jesyspa's url: http://bit.ly/1cg9ifB
+2013-11-11 20:48:31	@chance	jesyspa: right, i know these things, its because an array is really a reference
+2013-11-11 20:48:56	jesyspa	chance, See the first answer by zabzonk, it just isn't.
+2013-11-11 20:49:32	@chance	a reference != a pointer, i know that, i wasnt saying that
+2013-11-11 20:49:43	<--	compile_ has quit (Read error: Connection reset by peer)
+2013-11-11 20:49:57	jesyspa	And an array != a reference, just like an array != a pointer.
+2013-11-11 20:50:47	jesyspa	Different sizeof, possibility of arithmetic, etc.
+2013-11-11 20:50:50	@chance	true
+2013-11-11 20:52:03	mr_magpie	http://pastebin.com/xqpPuCfV
+2013-11-11 20:52:16	mr_magpie	My function isn't doing what I want it to do :|
+2013-11-11 20:52:17	jesyspa	Oh yeah, not to mention construction/destruction semantics...
+2013-11-11 20:52:31	mr_magpie	I thought the reference to arrays was the problem.
+2013-11-11 20:52:41	mr_magpie	Instead the function is just wrong.
+2013-11-11 20:53:00	jesyspa	mr_magpie, The way you use temp is highly suspect.
+2013-11-11 20:53:07	jesyspa	You don't update it every iteration.
+2013-11-11 20:53:18	@chance	K&R says a new arrays appearing in expressions generate an implict pointer
+2013-11-11 20:53:19	mr_magpie	Oh.
+2013-11-11 20:53:20	@chance	interesting
+2013-11-11 20:53:32	mr_magpie	I'd have to add temp = string[index] in the body, right?
+2013-11-11 20:53:44	jesyspa	I'd just not bother with temp and use string[index] everywhere.
+2013-11-11 20:53:47	@chance	i assumed it *was* a pointer, but rather the variable assignmnent is a little magic
+2013-11-11 20:53:55	jesyspa	Or go through the string with a pointer.
+2013-11-11 20:54:08	jesyspa	And stop treating C++ like it's C.
+2013-11-11 20:54:17	jesyspa	There's no need to declare everything at the top of the function.
+2013-11-11 20:54:21	mr_magpie	I'm unfamiliar with pointers, and I know nothing of C.
+2013-11-11 20:54:37	raylu	jesyspa: that's not a c++ or a c thing
+2013-11-11 20:54:41	raylu	that's just an old compiler thing
+2013-11-11 20:54:58	raylu	i guess c oldhats are older than c++ oldhats, but still
+2013-11-11 20:55:16	jesyspa	Eh, it was a language rule in C89.
+2013-11-11 20:55:32	raylu	i think it was just a guideline...
+2013-11-11 20:55:40	@chance	declaring everything at the top doesnt hurt because then you dont have type declarations in the middle of your function
+2013-11-11 20:55:55	@chance	i like dealing with types early, and then just worrying about assignment from then on
+2013-11-11 20:55:55	raylu	instead, you have to move your eyes back up to figure out what the type of something is
+2013-11-11 20:55:58	jesyspa	No, try compiling with gcc in strict C89 mode, it'll complain.
+2013-11-11 20:56:06	raylu	with a warning?
+2013-11-11 20:56:28	jesyspa	And declaring everything at the top means you end up with uninitialised or poorly initialised values all over the place.
+2013-11-11 20:56:46	@chance	not necessarily
+2013-11-11 20:57:02	@chance	that isnt restricted to declaration at the top
+2013-11-11 20:57:07	@chance	you could do exactly that in the middle of a function
+2013-11-11 20:57:15	@chance	they aren't mutually exclusive
+2013-11-11 20:57:22	raylu	yeah, but it's less likely to happen in the middle
+2013-11-11 20:57:27	@chance	no it isnt
+2013-11-11 20:57:44	@chance	its only less likely if you initialize at the same time as declaration, because then you can't have it any other way
+2013-11-11 20:57:47	jesyspa	It can happen otherwise, too, but you force it in cases when you otherwise wouldn't have to when you force declarations at the top.
+2013-11-11 20:57:49	raylu	because if you change the first time you use something you now also need to move the declaration
+2013-11-11 20:57:51	@chance	whcih you could do at the top
+2013-11-11 20:57:52	jesyspa	And it means you can use significantly less const.
+2013-11-11 20:58:05	raylu	well, yes. that's what i mean: initialize at the same time as declaration
+2013-11-11 20:58:09	raylu	which you can't always do at the top
+2013-11-11 20:58:17	raylu	since you may need to initialize one variable based on another
+2013-11-11 20:58:17	@chance	you can
+2013-11-11 20:58:23	@chance	just find a reasonable default
+2013-11-11 20:58:28	tangentstorm	less const == mo money.
+2013-11-11 20:58:31	@chance	that doesnt depend on anything
+2013-11-11 20:58:34	raylu	that seems worse than not initializing
+2013-11-11 20:58:41	@chance	not really
+2013-11-11 20:58:45	@chance	this is how go works
+2013-11-11 20:58:55	raylu	since now you've assigned it something meaningless only to reassign the actual meaningful value later
+2013-11-11 20:58:56	@chance	all values have an initialized 0 value after being created with new()
+2013-11-11 20:59:22	@chance	i suppose thats slightly different, since its more like all structs have a default value
+2013-11-11 20:59:27	@chance	rather than all values
+2013-11-11 20:59:35	jesyspa	A "reasonable deafult" doesn't always exist.
+2013-11-11 20:59:53	jesyspa	You could go for a boost::optional<T> instead of a T, of course, but that's just silly.
+2013-11-11 21:00:05	@chance	thats true, in that case declare it later, but it doesn't mean you have to declare everything in the middle either
+2013-11-11 21:00:12	jesyspa	And it means you break warnings about uninitialised use.
+2013-11-11 21:00:14	@chance	its really arbitrary if your using best practices in either places.
+2013-11-11 21:00:19	raylu	mr_magpie: anyway, your problem stems from the fact that for loops are just a little too magical
+2013-11-11 21:00:30	jesyspa	So you declare things when you need them, simple.
+2013-11-11 21:00:31	raylu	my usual advice in these situations is to rewrite your (second) for loop as a while loop
+2013-11-11 21:02:28	mr_magpie	I'm struggling to get my toupper to work :P
+2013-11-11 21:02:38	mr_magpie	Once I get that working, I'll write another loop.
+2013-11-11 21:03:02	raylu	you're struggling to get std::toupper or StrToUpper?
+2013-11-11 21:03:11	jesyspa	raylu, Okay, we're half-right: you are allowed declarations only at the beginning of compound statements in C89.
+2013-11-11 21:03:24	raylu	actually, what is this function supposed to do anyway?
+2013-11-11 21:03:27	jesyspa	So they may be in the middle of a function, but far from "anywhere".
+2013-11-11 21:03:39	mr_magpie	Both since toupper is within StrToUpper, but I realized that the std::toupper isn't even changing the case.
+2013-11-11 21:03:51	mr_magpie	It's supposed to take a string and make it all uppercase.
+2013-11-11 21:03:56	mr_magpie	Then return true if successful.
+2013-11-11 21:04:02	raylu	when would it ever not be successful?
+2013-11-11 21:04:18	mr_magpie	Well, the string has to be only alphabetic characters.
+2013-11-11 21:04:21	mr_magpie	No numbers.
+2013-11-11 21:04:36	raylu	i see... why have 2 loops, then?
+2013-11-11 21:04:47	jesyspa	mr_magpie, toupper doesn't change things in-place, IIRC, it returns the uppercase value.
+2013-11-11 21:04:56	@chance	i guess another reason I do declaration at the top is we are required to do so in my OS clsas
+2013-11-11 21:04:58	@chance	class
+2013-11-11 21:05:08	@chance	i didnt even realize but apparently thats how its done in most of the kernel
+2013-11-11 21:05:08	mr_magpie	The first was to try to change the case, the second was to check for numbers.
+2013-11-11 21:05:28	mr_magpie	jesyspa: is this true? So I'll have to use an assignment.
+2013-11-11 21:05:29	raylu	why not check for numbers before changing the case?
+2013-11-11 21:05:44	mr_magpie	I guess I shouldnt probably do that.
+2013-11-11 21:06:16	raylu	then again, if your string is abc1xyz, i expect strtoupper to not do anything rather than return false and mutate my string to ABC1xyz
+2013-11-11 21:06:37	raylu	THEN AGAIN, i really just expect ABC1XYZ
+2013-11-11 21:06:46	-->	Portugol9 has joined #learnprogramming
+2013-11-11 21:06:47	mr_magpie	Yea, that's what I thought would happen./
+2013-11-11 21:07:40	@chance	use isalpha()
+2013-11-11 21:07:47	mr_magpie	lol, I just ran my a.exe and it crashed.
+2013-11-11 21:07:49	@chance	only upcase things that return true on isalpha
+2013-11-11 21:08:20	raylu	well, toupper only upcases things that return true on isalpha, so...
+2013-11-11 21:09:23	mr_magpie	I don't know why it is crashing now ;_;
+2013-11-11 21:09:28	@chance	use gdb
+2013-11-11 21:09:33	@chance	compile with -g
+2013-11-11 21:09:33	mr_magpie	What's that?
+2013-11-11 21:09:38	@chance	gdb myprogram.exe
+2013-11-11 21:09:48	@chance	and it'll let you know where it crashed
+2013-11-11 21:09:59	@chance	and you can set breakpoints so you can step through the program
+2013-11-11 21:10:03	@chance	gdb = gnu debugger
+2013-11-11 21:10:10	raylu	does he have gdb?
+2013-11-11 21:10:19	raylu	how is he even compiling his code?
+2013-11-11 21:10:23	@chance	no idea
+2013-11-11 21:10:28	mr_magpie	I'm using g++
+2013-11-11 21:10:42	raylu	what happens when you try to run `gdb`?
+2013-11-11 21:10:50	mr_magpie	I got a bunch of copyright info
+2013-11-11 21:10:56	@chance	then you have it
+2013-11-11 21:10:59	raylu	\o/
+2013-11-11 21:11:04	@chance	compile your program using g++ with the -g argument
+2013-11-11 21:11:09	@chance	so it'll compile with debug mode on
+2013-11-11 21:11:15	mr_magpie	so g++ -g a.exe
+2013-11-11 21:11:16	mr_magpie	?
+2013-11-11 21:11:18	@chance	yeah
+2013-11-11 21:11:23	raylu	er, no
+2013-11-11 21:11:26	raylu	g++ -g source.cpp
+2013-11-11 21:11:34	@chance	oh yeah, sorry
+2013-11-11 21:11:41	@chance	g++ -g source.cpp -o a.exe
+2013-11-11 21:11:48	@chance	then gdb a.exe
+2013-11-11 21:11:56	mr_magpie	I did g++ -g test.cpp
+2013-11-11 21:11:59	mr_magpie	Nothing happened.
+2013-11-11 21:11:59	@chance	then you'll be in an interactive debugger
+2013-11-11 21:12:01	mr_magpie	Compiled fine.
+2013-11-11 21:12:04	@chance	thats expected
+2013-11-11 21:12:11	mr_magpie	so now I run gdb a.exe
+2013-11-11 21:12:12	@chance	you wont see any difference until you try using it with gdb
+2013-11-11 21:12:12	mr_magpie	?
+2013-11-11 21:12:13	@chance	yeah
+2013-11-11 21:12:19	@chance	then type r to run the program
+2013-11-11 21:12:23	@chance	it'll run and crash
+2013-11-11 21:12:29	@chance	but it will tell you where it crashed on what line
+2013-11-11 21:12:52	raylu	and, most importantly, you get a sweet backtrace if you type `bt`
+2013-11-11 21:12:55	mr_magpie	Segmentation fault?
+2013-11-11 21:13:03	mr_magpie	I don't know how to read these errors, but it says line 30.
+2013-11-11 21:13:08	raylu	type `bt`
+2013-11-11 21:13:26	mr_magpie	I got two hex addresses.
+2013-11-11 21:13:42	<--	bjh13 has quit (Ping timeout: 244 seconds)
+2013-11-11 21:13:45	raylu	eh? could you paste the output of bt?
+2013-11-11 21:14:07	mr_magpie	#0  0x00401486 in StrToUpper (string=...) at test.cpp:30
+2013-11-11 21:14:07	@chance	this is a good simple example: http://cs.baylor.edu/~donahoo/tools/gdb/tutorial.html
+2013-11-11 21:14:08	tamper	chance's url: http://bit.ly/17qSMMl - Title: How to Debug Using GDB
+2013-11-11 21:14:18	raylu	oh yeah. that's not just a hex address
+2013-11-11 21:14:18	@chance	mr_magpie: thats where it failed probably
+2013-11-11 21:14:19	mr_magpie	#1   0x004013ae in main () at test.cpp15
+2013-11-11 21:14:30	raylu	that's a function name, a file, and a line number
+2013-11-11 21:14:33	@chance	mr_magpie: so it failed on the call of a function
+2013-11-11 21:14:41	@chance	unless there is more output
+2013-11-11 21:14:46	mr_magpie	Just those two lies.
+2013-11-11 21:14:48	mr_magpie	lines*
+2013-11-11 21:14:55	@chance	yeah, then it probably failed calling the function
+2013-11-11 21:15:02	raylu	chance: ??
+2013-11-11 21:15:12	raylu	what this is saying is that at line 15, main called StrToUpper
+2013-11-11 21:15:18	@chance	i know
+2013-11-11 21:15:21	raylu	and on line 30, StrToUpper tried to do something and failed
+2013-11-11 21:15:27	@chance	and at line 30 it did something and failed
+2013-11-11 21:15:33	@chance	which is where the function is defined
+2013-11-11 21:15:34	raylu	it's not necessarily calling a function (in fact, it probably isn't)
+2013-11-11 21:15:40	mr_magpie	Line 30: for (; string[index] != '\0'; ++index) {
+2013-11-11 21:15:44	raylu	it's probably not where the function is defined
+2013-11-11 21:15:54	@chance	usually if it fails inside the function, the backtrace will show that it failed inside the function
+2013-11-11 21:15:57	-->	bjh13 has joined #learnprogramming
+2013-11-11 21:15:59	@chance	on the specific line
+2013-11-11 21:16:01	raylu	...which it does
+2013-11-11 21:16:06	raylu	#0  0x00401486 in StrToUpper (string=...) at test.cpp:30
+2013-11-11 21:16:33	-->	cordell has joined #learnprogramming
+2013-11-11 21:16:42	raylu	mr_magpie: `p index`
+2013-11-11 21:17:03	@chance	raylu: his example doesnt include the same line #'s so i assumed that line 30 was the function definition itself
+2013-11-11 21:17:20	mr_magpie	No symbol "index" in current context
+2013-11-11 21:17:30	raylu	chance: well yeah, main covers line 15 and strtoupper covers line 30 so the paste is obviously not all the code
+2013-11-11 21:18:11	mr_magpie	I'll post the entire thing, that'd probably be most helpful.
+2013-11-11 21:18:24	mr_magpie	http://pastebin.com/aaiQut4r
+2013-11-11 21:18:28	raylu	mr_magpie: i'm pretty sure what's happening is that you have a bad value for index on one of those iterations
+2013-11-11 21:18:48	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #learnprogramming
+2013-11-11 21:18:48	--	Topic for #learnprogramming is "Unofficial chat of http://www.reddit.com/r/learnprogramming/ || Discuss programming in a newbie-friendly environment here | Don't ask to ask, just state your problem and provide a source snippet. If anyone can help, they will when they are available"
+2013-11-11 21:18:48	--	Topic set by Enalicho on Wed, 12 Sep 2012 00:37:11
+2013-11-11 21:18:48	--	Nicks #learnprogramming: [@chance @ChanServ @intothev01d @SlimTim10 acratophorus Amadiro ario_ arti Ayey_ biio bjh13 BlueShark Boohbah Bronze buddyholly carefish_ cordell daszorz david_gomez DevilFish Diablodoc disparrot dougwt drbrule-away duggiefresh ElectricSheep evli flart Fortescue Gay_Weed_Dad_69 Guest40184 gyaretto heroux huida Insomnia` jaffe__ jconn Jeffersinn jesyspa JSharpe__ Junaos juser Kelet kohvihoo1 kraft kwyckmans lambot mr_magpie mrmortal n9mtb- niomaster nudetayne pdimitrov Plazma popey Portugol9 pr0ggie Pullphinger Raccoon rafiks raylu repez___ Rosefox911 ryzic sanpatricio Sellyme Serenity0 shade34321 SirSkidmore Spartacus SrRaven tamper tangentstorm timg trustyhank Turn_Left zebbiz]
+2013-11-11 21:18:48	--	Channel #learnprogramming: 77 nicks (4 ops, 0 voices, 73 normals)
+2013-11-11 21:18:55	raylu	it _is_ the final place of the error
+2013-11-11 21:18:59	--	Mode #learnprogramming [+cnt]
+2013-11-11 21:18:59	--	Channel created on Sun, 13 Mar 2011 04:35:37
+2013-11-11 21:19:04	mr_magpie	Okay, I'll rewrite it as a while loop.
+2013-11-11 21:19:13	jesyspa	mr_magpie, You use index uninitialised.
+2013-11-11 21:19:42	mr_magpie	I did, and now I feel dumb.
+2013-11-11 21:19:44	@chance	raylu: i thought you said it was happening in the body
+2013-11-11 21:19:50	raylu	yes. at line 30
+2013-11-11 21:20:11	<--	Pullphinger has quit
+2013-11-11 21:20:13	raylu	#0 [address] **IN** StrTOUpper (...) AT test.cpp:**30**
+2013-11-11 21:20:17	@chance	i meant that i thought it was happening immediately on the caller
+2013-11-11 21:20:21	<--	bjh13 has quit (Ping timeout: 246 seconds)
+2013-11-11 21:20:22	raylu	oh
+2013-11-11 21:20:50	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #learnprogramming
+2013-11-11 21:20:50	--	Topic for #learnprogramming is "Unofficial chat of http://www.reddit.com/r/learnprogramming/ || Discuss programming in a newbie-friendly environment here | Don't ask to ask, just state your problem and provide a source snippet. If anyone can help, they will when they are available"
+2013-11-11 21:20:50	--	Topic set by Enalicho on Wed, 12 Sep 2012 00:37:11
+2013-11-11 21:20:50	--	Nicks #learnprogramming: [@chance @ChanServ @intothev01d @SlimTim10 acratophorus Amadiro ario_ arti Ayey_ biio bjh13 BlueShark Boohbah Bronze buddyholly carefish_ cordell daszorz david_gomez DevilFish Diablodoc disparrot dougwt drbrule-away duggiefresh ElectricSheep evli flart Fortescue Gay_Weed_Dad_69 Guest40184 gyaretto heroux huida Insomnia` jaffe__ jconn Jeffersinn jesyspa JSharpe__ Junaos juser Kelet kohvihoo1 kraft kwyckmans lambot mr_magpie mrmortal n9mtb- niomaster nudetayne pdimitrov Plazma popey Portugol9 pr0ggie Raccoon rafiks raylu repez___ Rosefox911 ryzic sanpatricio Sellyme Serenity0 shade34321 SirSkidmore Spartacus SrRaven tamper tangentstorm timg trustyhank Turn_Left zebbiz]
+2013-11-11 21:20:50	--	Channel #learnprogramming: 76 nicks (4 ops, 0 voices, 72 normals)
+2013-11-11 21:20:57	mr_magpie	Thanks jesy, I didn't see that and now my bool test is working.
+2013-11-11 21:21:03	--	Mode #learnprogramming [+cnt]
+2013-11-11 21:21:03	--	Channel created on Sun, 13 Mar 2011 04:35:37
+2013-11-11 21:21:04	mr_magpie	Now I just need to get it to actually change case.
+2013-11-11 21:21:22	mr_magpie	I changed it to a while loop, raylu, the bool test works now.
+2013-11-11 21:21:28	mr_magpie	Gracias
+2013-11-11 21:21:40	jesyspa	Now you just need to stop writing C...
+2013-11-11 21:21:51	mr_magpie	;_; I don't know C...
+2013-11-11 21:22:11	jesyspa	That's hardly an excuse!
+2013-11-11 21:22:11	raylu	mr_magpie: congrats. now rewrite it as a for loop :)
+2013-11-11 21:22:18	raylu	jesyspa: hahahaha
+2013-11-11 21:22:30	mr_magpie	Rewrite the while loop that I changed from a for loop back to a for loop?
+2013-11-11 21:22:34	raylu	yes
+2013-11-11 21:22:43	mr_magpie	Okay '__'
+2013-11-11 21:22:45	raylu	i only had you write it as a while loop to make it less confusing
+2013-11-11 21:22:45	tangentstorm	wax on, wax off
+2013-11-11 21:23:50	jesyspa	mr_magpie, Have you already covered classes?
+2013-11-11 21:24:16	mr_magpie	I don't believe so.
+2013-11-11 21:24:36	jesyspa	Then stop wasting your time with figuring out how arrays are passed around and learn those.
+2013-11-11 21:24:52	jesyspa	Far more useful, and once you know them, you'll be able to deal with C string properly.
+2013-11-11 21:25:21	jesyspa	Including seeing stuff you can't be exposed to yet, like how they (when dynamically allocated) interact with exceptions.
+2013-11-11 21:25:47	jesyspa	Right now you're just writing sloppy code; you're not even checking for overflow.
+2013-11-11 21:26:24	mr_magpie	omg I got my toupper to work as I'm being scolded
+2013-11-11 21:26:43	mr_magpie	jesyspa: you can't expect me to start perfectly can you?
+2013-11-11 21:27:14	raylu	no, but until it's perfect you'll be scolded anyway ;)
+2013-11-11 21:27:24	mr_magpie	I mean, I'm making progress. I was learning how to write a string literal like just a month ago.
+2013-11-11 21:27:28	mr_magpie	I understand :P
+2013-11-11 21:27:58	jesyspa	If I expected you to be perfect, there wouldn't be much point pointing out you're wasting your time.
+2013-11-11 21:28:25	mr_magpie	Well, maybe not perfect, but much higher than reasonable :|
+2013-11-11 21:35:12	<--	gyaretto has quit (Ping timeout: 260 seconds)
+2013-11-11 21:38:57	-->	memobook has joined #learnprogramming
+2013-11-11 21:42:34	-->	AlCoF_ has joined #learnprogramming
+2013-11-11 21:46:16	-->	ghanhass has joined #learnprogramming
+2013-11-11 21:52:49	<--	memobook has quit (Quit: Leaving)
+2013-11-11 21:57:00	<--	Sellyme has quit (Excess Flood)
+2013-11-11 21:58:30	-->	Sellyme has joined #learnprogramming
+2013-11-11 21:58:34	<--	david_gomez has quit (Quit: Saliendo)
+2013-11-11 21:59:15	<--	AlCoF_ has quit
+2013-11-11 22:00:09	-->	tipsyTentacle has joined #learnprogramming
+2013-11-11 22:05:49	<--	bjh13 has quit (Quit: leaving)
+2013-11-11 22:06:03	-->	gyaretto has joined #learnprogramming
+2013-11-11 22:06:37	<--	evli has quit (Quit: ZzzZz…)
+2013-11-11 22:09:41	-->	jayayseakay has joined #learnprogramming
+2013-11-11 22:10:20	--	Gay_Weed_Dad_69 is now known as Rabbi_420
+2013-11-11 22:33:54	--	irc: disconnected from server
+2013-11-11 22:34:45	-->	Ayey_ (~rune1@2-106-141-211-dynamic.dk.customer.tdc.net) has joined #learnprogramming
+2013-11-11 22:34:46	--	Topic for #learnprogramming is "Unofficial chat of http://www.reddit.com/r/learnprogramming/ || Discuss programming in a newbie-friendly environment here | Don't ask to ask, just state your problem and provide a source snippet. If anyone can help, they will when they are available"
+2013-11-11 22:34:46	--	Topic set by Enalicho on Wed, 12 Sep 2012 00:37:11
+2013-11-11 22:34:46	--	Nicks #learnprogramming: [@chance @ChanServ @intothev01d @SlimTim10 acratophorus Amadiro ario_ arti Ayey_ biio BlueShark Boohbah Bronze buddyholly carefish_ cordell daszorz DevilFish Diablodoc disparrot dougwt drbrule-away duggiefresh ElectricSheep evli flart Fortescue ghanhass Goddesen groglogic Guest40184 gyaretto heroux huida Insomnia` jaffe__ jayayseakay jconn Jeffersinn JSharpe__ Junaos juser Kelet kohvihoo1 kraft kwyckmans lambot mr_magpie mrmortal n9mtb- niomaster noob-leech nudetayne pdimitrov Plazma popey Portugol9 pr0ggie Rabbi_420 Raccoon rafiks raylu repez___ Rosefox911 ryzic sanpatricio Sellyme Serenity0 shade34321 SirSkidmore Spartacus SrRaven tamper tangentstorm timg tipsyTentacle trustyhank Turn_Left Twinklebear zebbiz]
+2013-11-11 22:34:46	--	Channel #learnprogramming: 80 nicks (4 ops, 0 voices, 76 normals)
+2013-11-11 22:34:57	--	Mode #learnprogramming [+cnt]
+2013-11-11 22:35:02	--	Channel created on Sun, 13 Mar 2011 04:35:37
+2013-11-11 22:40:34	<--	Serenity0 has quit (Quit: Leaving)
+2013-11-11 22:44:02	<--	groglogic has quit (Ping timeout: 246 seconds)
+2013-11-11 22:45:29	<--	gyaretto has quit (Ping timeout: 252 seconds)
+2013-11-11 22:45:52	-->	groglogic has joined #learnprogramming
+2013-11-11 22:46:08	-->	learning has joined #learnprogramming
+2013-11-11 22:46:37	learning	hey guys could anyone guide me with this jquery problem http://jsfiddle.net/gc2BQ/
+2013-11-11 22:46:39	tamper	learning's url: http://bit.ly/1hAO3w6
+2013-11-11 22:47:49	learning	it's my tabs the problem i'm having is that it wont close the old tabs when new tab is pressed on all the tabs stay open i have tried to fix this for like 5 hours now going crazy any help would be epic.
+2013-11-11 22:51:27	raylu	i think you mean $('.nav.nav-tabs')
+2013-11-11 22:52:24	raylu	the point of jsfiddle, btw, is to paste some html in there with some js
+2013-11-11 22:57:09	<--	pdimitrov has quit (Ping timeout: 264 seconds)
+2013-11-11 22:57:29	<--	pr0ggie has quit (Ping timeout: 264 seconds)
+2013-11-11 22:57:54	<--	trustyhank has quit (Quit: Computer has gone to sleep.)
