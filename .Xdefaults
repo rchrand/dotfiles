@@ -48,9 +48,9 @@ URxvt.cursorUnderline: false
  
 ! Pointer
 URxvt.pointerBlank: true 
- 
-*background: #002b36
-*foreground: #657b83
+
+*background: #3f3f3f
+*foreground: #dcdccc
 !!*fading: 40
 *fadeColor: #002b36
 *cursorColor: #93a1a1

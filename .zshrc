@@ -18,19 +18,29 @@ export LANGUAGE="en_US.UTF-8"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-alias ls="ls --color -F"
+alias ls="ls -lF --color"
 alias la="ls -laFh"
 alias g="git"
-alias apti="sudo apt-get install"
-alias aptu="sudo apt-get update; sudo apt-get dist-upgrade"
 alias tmux="tmux -2"
 alias ..="cd .."
 alias ytmp3="youtube-dl -x --audio-format mp3"
 alias syu="packer -Syu"
 alias p="packer"
 alias mpds="mpd ~/.mpd/mpd.conf"
-
-
+alias pyserver="python -m http.server"
+alias startup="bash ~/scripts/startup.sh"
+alias startupdk="bash ~/scripts/startupdk.sh"
+alias startred="redshift -l 56.162939:10.203921 -t 5700:3600 -g 0.8 -m vidmode &"
+alias be='bundle exec'
+alias bers='bundle exec rails server'
+alias berg='bundle exec rails g'
+alias berd='bundle exec rails destroy'
+alias sss='sudo systemctl start'
+alias ssr='sudo systemctl restart'
+alias s='startup'
+alias samd='s && sudo amdcccle'
+alias sdk='startupdk'
+alias ack="echo 'Use ag!'"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -57,16 +67,17 @@ alias mpds="mpd ~/.mpd/mpd.conf"
 # VCS as dirty. This makes repository status check for large repositories much,
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
-
+#
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git vagrant vi-mode)
+plugins=(git vagrant rails)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/core_perl
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/core_perl:/home/rune/.gem/ruby/2.0.0/bin:/home/rune/.rbenv/bin:o
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+eval "$(rbenv init -)"
 
+PATH="/usr/local/heroku/bin:$PATH"

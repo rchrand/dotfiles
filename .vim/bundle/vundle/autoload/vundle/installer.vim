@@ -29,10 +29,6 @@ func! s:process(bang, cmd)
       let msg = 'With errors; press l to view log'
     endif
 
-    if 'updated' == g:vundle_last_status && empty(msg)
-      let msg = 'Bundles updated; press u to view changelog'
-    endif
-
     " goto next one
     exec ':+1'
 
@@ -57,16 +53,12 @@ func! vundle#installer#run(func_name, name, ...) abort
 
   redraw
 
-  if 'new' == status
+  if 'updated' == status 
     echo n.' installed'
-  elseif 'updated' == status
-    echo n.' updated'
   elseif 'todate' == status
     echo n.' already installed'
   elseif 'deleted' == status
     echo n.' deleted'
-  elseif 'helptags' == status
-    echo n.' regenerated'
   elseif 'error' == status
     echohl Error
     echo 'Error processing '.n
@@ -107,11 +99,11 @@ endf
 
 func! vundle#installer#docs() abort
   call vundle#installer#helptags(g:bundles)
-  return 'helptags'
+  return 'updated'
 endf
 
 func! vundle#installer#helptags(bundles) abort
-  let bundle_dirs = map(copy(a:bundles),'v:val.rtpath')
+  let bundle_dirs = map(copy(a:bundles),'v:val.rtpath()')
   let help_dirs = filter(bundle_dirs, 's:has_doc(v:val)')
 
   call s:log('')
@@ -134,9 +126,7 @@ endf
 
 func! vundle#installer#clean(bang) abort
   let bundle_dirs = map(copy(g:bundles), 'v:val.path()') 
-  let all_dirs = (v:version > 702 || (v:version == 702 && has("patch51")))
-  \   ? split(globpath(g:bundle_dir, '*', 1), "\n")
-  \   : split(globpath(g:bundle_dir, '*'), "\n")
+  let all_dirs = v:version >= 702 ? split(globpath(g:bundle_dir, '*', 1), "\n") : split(globpath(g:bundle_dir, '*'), "\n")
   let x_dirs = filter(all_dirs, '0 > index(bundle_dirs, v:val)')
 
   if empty(x_dirs)
@@ -189,7 +179,7 @@ endf
 func! s:has_doc(rtp) abort
   return isdirectory(a:rtp.'/doc')
   \   && (!filereadable(a:rtp.'/doc/tags') || filewritable(a:rtp.'/doc/tags'))
-  \   && (v:version > 702 || (v:version == 702 && has("patch51")))
+  \   && v:version >= 702
   \     ? !(empty(glob(a:rtp.'/doc/*.txt', 1)) && empty(glob(a:rtp.'/doc/*.??x', 1)))
   \     : !(empty(glob(a:rtp.'/doc/*.txt')) && empty(glob(a:rtp.'/doc/*.??x')))
 endf
@@ -198,7 +188,7 @@ func! s:helptags(rtp) abort
   let doc_path = a:rtp.'/doc/'
   call s:log(':helptags '.doc_path)
   try
-    execute 'helptags ' . doc_path
+    helptags `=doc_path`
   catch
     call s:log("> Error running :helptags ".doc_path)
   endtry
@@ -206,18 +196,28 @@ endf
 
 func! s:sync(bang, bundle) abort
   let git_dir = expand(a:bundle.path().'/.git/', 1)
-  if isdirectory(git_dir) || filereadable(expand(a:bundle.path().'/.git', 1))
-    if !(a:bang) | return 'todate' | endif
-    let cmd = 'cd '.shellescape(a:bundle.path()).' && git pull && git submodule update --init --recursive'
+  let is_dir = isdirectory(git_dir)
 
-    let cmd = g:shellesc_cd(cmd)
+  if is_dir && !(a:bang)
+    return 'todate'
+  end
 
-    let get_current_sha = 'cd '.shellescape(a:bundle.path()).' && git rev-parse HEAD'
-    let get_current_sha = g:shellesc_cd(get_current_sha)
-    let initial_sha = s:system(get_current_sha)[0:15]
+  let cd_cmd = 'cd '.shellescape(a:bundle.path())
+  if (has('win32') || has('win64'))
+    let cd_cmd = substitute(cmd, '^cd ','cd /d ','')  " add /d switch to change drives
+  endif
+
+  if is_dir
+    let cmd = cd_cmd.' && git pull '.a:bundle.uri
   else
-    let cmd = 'git clone --recursive '.shellescape(a:bundle.uri).' '.shellescape(a:bundle.path())
-    let initial_sha = ''
+    let cmd = 'git clone '.a:bundle.uri.' '.shellescape(a:bundle.path()).' && '.cd_cmd
+  endif
+
+  let v = a:bundle['v']
+  let cmd .= ' && git checkout '.v
+
+  if (has('win32') || has('win64'))
+    let cmd = '"'.cmd.'"'                          " enclose in quotes
   endif
 
   let out = s:system(cmd)
@@ -230,37 +230,29 @@ func! s:sync(bang, bundle) abort
     return 'error'
   end
 
-  if empty(initial_sha)
-    return 'new'
-  endif
-
-  let updated_sha = s:system(get_current_sha)[0:15]
-
-  if initial_sha == updated_sha
+  if out =~# 'up-to-date'
     return 'todate'
-  endif
+  end
 
-  call add(g:updated_bundles, [initial_sha, updated_sha, a:bundle])
+
+" " checkout revision
+" " master by default
+"
+" lcd `=a:bundle.path()`
+" let cmd = 'git checkout '.revision
+"
+" silent exec '!'.cmd
+"
+" if 0 != v:shell_error
+"   echohl Error | echo 'Error checking out "'.a:bundle.name.'   '.revision.'". Failed cmd: '.cmd | echohl None
+"   return [v:shell_error, 'error']
+" end
+"
+"   return [0, 'ok']
+" endf
+
+
   return 'updated'
-endf
-
-func! g:shellesc(cmd) abort
-  if (has('win32') || has('win64'))
-    if &shellxquote != '('                           " workaround for patch #445
-      return '"'.a:cmd.'"'                          " enclose in quotes so && joined cmds work
-    endif
-  endif
-  return a:cmd
-endf
-
-func! g:shellesc_cd(cmd) abort
-  if (has('win32') || has('win64'))
-    let cmd = substitute(a:cmd, '^cd ','cd /d ','')  " add /d switch to change drives
-    let cmd = g:shellesc(cmd)
-    return cmd
-  else
-    return a:cmd
-  endif
 endf
 
 func! s:system(cmd) abort

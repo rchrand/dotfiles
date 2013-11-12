@@ -1,0 +1,6 @@
+alias sdk bash ~/scripts/startupdk.sh
+alias s bash ~/scripts/startup.sh
+alias .. cd ..
+alias gco git checkout
+alias la ls -la $*
+alias clear recenter 0

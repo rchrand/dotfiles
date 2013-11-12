@@ -1,0 +1,128 @@
+rm -rf auth_app/
+refinerycms authapp
+cd authapp/
+ls -la
+bundle update
+ls -la
+cd Programming/
+ls -la
+cd ..
+ls -la
+cd Work/
+ls -a
+ls -la
+cd ..
+ls -la
+mv Programming Programming\ &\ Computer\ Science
+ls -la
+ls
+clear
+ls
+hello world
+cd ..
+cd Documents/Imperativ/
+ls
+clear
+ls
+clear
+ls
+cat C
+ls
+clear
+ls
+clear
+ls
+ls
+cd Programming\ \&\ Computer\ Science/
+claer
+ls
+cd ../
+ls
+cd Personal/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+l
+ls
+bundle
+la
+ls -la
+ls
+cd ../..
+ls
+cd ../..
+ls
+bundle exec rails generate controller visited_point index
+rails generate controller visited_point index
+ls
+clear
+ls -la
+cd ..
+ls
+cd Documents/Work/Rails/
+ls
+cd find
+cd find-vej-i
+ls
+cd ..
+ls
+clear
+clear
+ls
+~/Documents/Worclear
+ls
+clear
+ls -la
+rm *.*~
+ls
+ls -la
+ls
+eshell/ls
+alias clear recenter 0
+clear
+la
+alias la 'ls -la $*'
+la
+alias gco 'git checkout'
+alias .. 'cd ..'
+alias s 'bash ~/scripts/startup.sh'
+alias sdk 'bash ~/scripts/startupdk.sh'
+sdk
+æøå
+s
+ls
+clear
+ls -la
+la
+clear
+la
+ls -la
+cd ..
+ls
+cd Documents
+ls
+cd ..
+ls
+cd Doc
+ls -la
+cd ..
+ls
+cd Doc
+ls -la
+ls
+ls
+cd ..
+cd ../..
+ls
+cd .emacs.d
+ls
+la
+cd vendor
+ls
+git clone https://github.com/Fuco1/smartparens.git
+clear
+ls
+cd ..

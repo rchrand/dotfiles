@@ -1,91 +1,100 @@
-sw_volume: 100
-audio_device_state:1:My ALSA Device
-state: play
-current: 49
-time: 225
+sw_volume: 0
+audio_device_state:1:ALSA Device
+state: pause
+current: 35
+time: 194
 random: 1
 repeat: 1
 single: 0
 consume: 0
-crossfade: 0
+crossfade: 5
 mixrampdb: 0.000000
-mixrampdelay: nan
+mixrampdelay: -1.000000
 playlist_begin
-0:Feint/[DNB] Atlas - Feint [Monstercat Release].mp3
-1:Feint/Against the Grain.mp3
-2:Feint/Airplanes.mp3
-3:Feint/And i knew.mp3
-4:Feint/Clockwork Hearts.mp3
-5:Feint/Clockwork Hearts.mp3
-6:Feint/Feint - Reprise.mp3
-7:Feint/Feint - Those eyes [FULL].mp3
-8:Feint/Horrizant.mp3
-9:Feint/Laurence.mp3
-10:Feint/Moleman.mp3
-11:Feint/Past Futrues.mp3
-12:Feint/Ramless B.mp3
-13:Feint/Sabrepuls.mp3
-14:Feint/Sleepless.mp3
-15:Feint/The Catch.mp3
-16:Feint/The Jounery.mp3
-17:Feint/Time Bomb.mp3
-18:Feint/Times Like These.mp3
-19:Feint/TwoThirds & Feint - Epiphany.mp3
-20:Feint/Vision Driver.mp3
-21:Macklemore/Macklemore & Ryan Lewis - Can't hold us.mp3
-22:OST/Assassins Creed 2 OST.mp3
-23:OST/Chrono Trigger OST.mp3
-24:OST/TES - Morrowind OST.mp3
-25:OST/TES - Skyrim OST.mp3
-26:Monstercat 001 - Launch Week/04 Arion - Cold Blood & Ice Cream Cones.mp3
-27:Monstercat 002 - Early Stage/02 Blow ExXplode.mp3
-28:Monstercat 002 - Early Stage/15 The BASSEX.mp3
-29:Monstercat 003 - Momentum/Elements of Sanity - Arion.mp3
-30:Monstercat 002 - Early Stage/07 Tanpopo.mp3
-31:Monstercat 003 - Momentum/Belgium - Eminence & Alex Farway.mp3
-32:Monstercat 001 - Launch Week/01 Ephixa - Dubstep Killed Rock n Roll.mp3
-33:Monstercat 002 - Early Stage/01 Some Wobbles.mp3
-34:Monstercat 003 - Momentum/Division - Ephixa (Dubstep).mp3
-35:Feint/01-feint-horizons_feat._veela_(original_mix).mp3
-36:Feint/04-feint-horizons_feat._veela_(bustre_remix).mp3
-37:Monstercat 001 - Launch Week/06 Feint - Atlas.mp3
-38:Monstercat 002 - Early Stage/06 We Move.mp3
-39:Monstercat 003 - Momentum/Formless - Feint.mp3
-40:Monstercat 001 - Launch Week/05 Going Quantum - Hello_.mp3
-41:Monstercat 003 - Momentum/Going Quantum & Stephen Walking - Full Grizzly.mp3
-42:Monstercat 001 - Launch Week/02 Halo Nova - The Force.mp3
-43:Monstercat 002 - Early Stage/08 Totally Radical.mp3
-44:Monstercat 003 - Momentum/Stockholm - Hellberg.mp3
-45:Monstercat 002 - Early Stage/12 Rock the House.mp3
-46:Monstercat 003 - Momentum/Shivers - Matduke ft. Metzen.mp3
-47:Monstercat 003 - Momentum/The Technician - Matduke (Neilio Remix).mp3
-48:Monstercat 003 - Momentum/Insomnia - Mr FijiWiji.mp3
-49:Monstercat 001 - Launch Week/07 Neilio - Captivating.mp3
-50:Monstercat 002 - Early Stage/11 Obsession.mp3
-51:Monstercat 002 - Early Stage/10 Airwaves.mp3
-52:Monstercat 003 - Momentum/Full Focus - Noisestorm.mp3
-53:Monstercat 002 - Early Stage/05 Another World.mp3
-54:Monstercat 002 - Early Stage/03 Dreaming.mp3
-55:Monstercat 003 - Momentum/Limitless - Project 46.mp3
-56:Monstercat 003 - Momentum/Slide - Project 46.mp3
-57:Monstercat 001 - Launch Week/03 Stephen Walking - Still Walking.mp3
-58:Monstercat 002 - Early Stage/09 Metropolis.mp3
-59:Monstercat 002 - Early Stage/13 Light Pollution.mp3
-60:Monstercat 003 - Momentum/Top of the World - Stephen Walking.mp3
-61:Monstercat 002 - Early Stage/04 Lost.mp3
-62:Monstercat 003 - Momentum/Varien - Cloak and Dagger.mp3
-63:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/01 Woodkid - The Golden Age.mp3
-64:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/02 Woodkid - Run Boy Run.mp3
-65:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/03 Woodkid - The Great Escape.mp3
-66:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/04 Woodkid - Boat Song.mp3
-67:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/05 Woodkid - I Love You.mp3
-68:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/06 Woodkid - The Shore.mp3
-69:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/07 Woodkid - Ghost Lights.mp3
-70:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/08 Woodkid - Shadows.mp3
-71:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/09 Woodkid - Stabat Mater.mp3
-72:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/10 Woodkid - Conquest Of Spaces.mp3
-73:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/11 Woodkid - Falling.mp3
-74:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/12 Woodkid - Where I Live.mp3
-75:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/13 Woodkid - Iron.mp3
-76:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/14 Woodkid - The Other Side.mp3
+0:Feint/[DnB] - Feint - Fury [Monstercat Release].mp3
+1:Feint/[DnB] - Feint - Snake Eyes (feat. CoMa) [Monstercat Release].mp3
+2:Feint/[DNB] Atlas - Feint [Monstercat Release].mp3
+3:Feint/Against the Grain.mp3
+4:Feint/Airplanes.mp3
+5:Feint/And i knew.mp3
+6:Feint/Clockwork Hearts.mp3
+7:Feint/Feint - A Moment In The Life Of.mp3
+8:Feint/Feint - Connections.mp3
+9:Feint/Feint - Creed.mp3
+10:Feint/Feint - Freefall.mp3
+11:Feint/Feint - From Butterflies To Hurricanes.mp3
+12:Feint/Feint - One Thousand Dreams.mp3
+13:Feint/Feint - Reprise.mp3
+14:Feint/Feint - Ripped Up_Torn Down.mp3
+15:Feint/Feint - Skyward.mp3
+16:Feint/Feint - Stray.mp3
+17:Feint/Feint - That Makes One.mp3
+18:Feint/Feint - Those eyes [FULL].mp3
+19:Feint/Feint - Tower Of Heaven (You Are Slaves).mp3
+20:Feint/Feint - Two Flares In The Night Sky.mp3
+21:Feint/Feint - Unwanted.mp3
+22:Feint/Feint - Wishful Thinking.mp3
+23:Feint/Laurence.mp3
+24:Feint/Moleman.mp3
+25:Feint/Past Futrues.mp3
+26:Feint/Ramless B.mp3
+27:Feint/Sabrepuls.mp3
+28:Feint/Sleepless.mp3
+29:Feint/The Catch.mp3
+30:Feint/Time Bomb.mp3
+31:Feint/Times Like These.mp3
+32:Feint/TwoThirds & Feint - Epiphany.mp3
+33:Feint/TwoThirds & Feint ft Veela - Starscapes.mp3
+34:Feint/Vision Driver.mp3
+35:Macklemore/Can't Hold Us - Macklemore and Ryan Lewis.mp3
+36:Monstercat 002 - Early Stage/02 Blow ExXplode.mp3
+37:Monstercat 001 - Launch Week/04 Arion - Cold Blood & Ice Cream Cones.mp3
+38:Monstercat 003 - Momentum/Elements of Sanity - Arion.mp3
+39:Monstercat 003 - Momentum/Belgium - Eminence & Alex Farway.mp3
+40:Monstercat 003 - Momentum/Division - Ephixa (Dubstep).mp3
+41:Monstercat 001 - Launch Week/01 Ephixa - Dubstep Killed Rock n Roll.mp3
+42:Monstercat 002 - Early Stage/01 Some Wobbles.mp3
+43:Monstercat 001 - Launch Week/06 Feint - Atlas.mp3
+44:Monstercat 003 - Momentum/Formless - Feint.mp3
+45:Feint/Feint - Horizons feat. Veela.mp3
+46:Feint/Feint - Horizons feat. Veela.mp3
+47:Monstercat 002 - Early Stage/06 We Move.mp3
+48:Monstercat 003 - Momentum/Going Quantum & Stephen Walking - Full Grizzly.mp3
+49:Monstercat 001 - Launch Week/02 Halo Nova - The Force.mp3
+50:Monstercat 003 - Momentum/Stockholm - Hellberg.mp3
+51:Monstercat 002 - Early Stage/12 Rock the House.mp3
+52:Monstercat 003 - Momentum/Shivers - Matduke ft. Metzen.mp3
+53:Monstercat 003 - Momentum/The Technician - Matduke (Neilio Remix).mp3
+54:Monstercat 003 - Momentum/Insomnia - Mr FijiWiji.mp3
+55:Monstercat 001 - Launch Week/07 Neilio - Captivating.mp3
+56:Monstercat 002 - Early Stage/11 Obsession.mp3
+57:Monstercat 002 - Early Stage/10 Airwaves.mp3
+58:Monstercat 003 - Momentum/Full Focus - Noisestorm.mp3
+59:Monstercat 002 - Early Stage/05 Another World.mp3
+60:Monstercat 002 - Early Stage/03 Dreaming.mp3
+61:Monstercat 003 - Momentum/Limitless - Project 46.mp3
+62:Monstercat 003 - Momentum/Slide - Project 46.mp3
+63:Monstercat 002 - Early Stage/13 Light Pollution.mp3
+64:Monstercat 002 - Early Stage/09 Metropolis.mp3
+65:Monstercat 001 - Launch Week/03 Stephen Walking - Still Walking.mp3
+66:Monstercat 003 - Momentum/Top of the World - Stephen Walking.mp3
+67:Monstercat 002 - Early Stage/04 Lost.mp3
+68:Monstercat 003 - Momentum/Varien - Cloak and Dagger.mp3
+69:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/04 Woodkid - Boat Song.mp3
+70:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/10 Woodkid - Conquest Of Spaces.mp3
+71:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/11 Woodkid - Falling.mp3
+72:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/07 Woodkid - Ghost Lights.mp3
+73:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/05 Woodkid - I Love You.mp3
+74:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/13 Woodkid - Iron.mp3
+75:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/02 Woodkid - Run Boy Run.mp3
+76:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/08 Woodkid - Shadows.mp3
+77:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/09 Woodkid - Stabat Mater.mp3
+78:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/01 Woodkid - The Golden Age.mp3
+79:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/03 Woodkid - The Great Escape.mp3
+80:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/14 Woodkid - The Other Side.mp3
+81:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/06 Woodkid - The Shore.mp3
+82:Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]/12 Woodkid - Where I Live.mp3
+83:B Complex/B complex/B Complex-Beautiful Lies.mp3
+84:StrawbellyCake/StrawbellyCake - Bad Apple.mp3
+85:Go Go Berlin/Go Go Berlin - Raise Your Head.mp3
 playlist_end
