@@ -1,0 +1,47 @@
+(source "gnu" "http://elpa.gnu.org/packages/")
+(source "melpa" "http://melpa.milkbox.net/packages/")
+
+(depends-on "ag")
+(depends-on "auto-complete")
+(depends-on "better-defaults")
+(depends-on "cask")
+(depends-on "cider")
+(depends-on "clojure-mode")
+(depends-on "dash")
+(depends-on "diminish")
+(depends-on "dash-functional")
+(depends-on "evil")
+(depends-on "evil-numbers")
+(depends-on "evil-paredit")
+(depends-on "evil-leader")
+(depends-on "epl")
+(depends-on "f")
+(depends-on "findr")
+(depends-on "fiplr")
+(depends-on "flycheck")
+(depends-on "flycheck-cask")
+(depends-on "flymake-cursor")
+(depends-on "grizzl")
+(depends-on "ignoramus")
+(depends-on "key-chord")
+(depends-on "linum-relative")
+(depends-on "magit")
+(depends-on "molokai-theme")
+(depends-on "paredit")
+(depends-on "perspective")
+(depends-on "popup")
+(depends-on "popwin")
+(depends-on "projectile")
+(depends-on "rainbow-delimiters")
+(depends-on "s")
+
+(depends-on "slime")
+(depends-on "sml-mode")
+
+(depends-on "yaml-mode")
+
+(depends-on "ample-theme")
+
+
+
+
