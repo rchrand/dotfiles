@@ -1,0 +1,180 @@
+2013-12-18 15:29:33	-->	Ayey_ (~rune1@95.166.30.27) has joined #manjaro
+2013-12-18 15:29:34	--	Topic for #manjaro is "*Warm Welcome to the official *Manjaro* Linux channel | * Manjaro 0.8.8 Is Out !  | http://manjaro.org/ | http://wiki.manjaro.org/ | http://forum.manjaro.org/ | http://www.manjaro.be/irc | Check! Manjaro Mumble : www.manjaromumble.tk   !!"
+2013-12-18 15:29:34	--	Topic set by ringo32 (~ringo32@176.139-64-87.adsl-dyn.isp.belgacom.be) on Tue, 17 Dec 2013 11:45:41
+2013-12-18 15:29:34	--	Nicks #manjaro: [@ChanServ +AHD42 +Culinax +Esclapion +Fingli +hachre +Linuxkartoffel +tulliana +unary +zoose [JJ]Albert _Holmes alexandros_c alexisisis AlexRussia Anonazombie ariscop artv61 Ayey_ book` boom1992 Bruda Bulot CampinSam chronos Cliff123 CTtechguy dabd Fooguo freedomrun friTTe| geekf00 ghost^ giveupthetoast habtool HardyH heraclitus icarito IDe_ inahd Industrial kAEnt Kerd kimiamania klesk krackpot krakapwa Kwisher_wrk LucaB lx lysergic-dream_ Maltin ManiacTwister manjaro_user manjarqo McScruff|Away miguedrive MrFahrenheit MuJ negen1 neo64 OnlyHuman pagani pAt_ pin Poty powcore Q-collective qwebirc67472 Sanchal Se7enTime seanvk Shakyj sharkbyte soylentbomb sunitknandi TakSuyu Tux-Tn Tuxman Unity wget Wilson64 Zenther_]
+2013-12-18 15:29:34	--	Channel #manjaro: 83 nicks (1 op, 9 voices, 73 normals)
+2013-12-18 15:29:34	--	Notice(ChanServ): Welkom at Manjaro IRC! For any disturbance on PM please use /mode +g <your-nick>  eventual /ignore disturband-nick  , with -g  switch such pm on.
+2013-12-18 15:29:34	--	URL for #manjaro: www.manjaro.org
+2013-12-18 15:29:36	--	Mode #manjaro [+Ccnt]
+2013-12-18 15:29:36	--	Channel created on Thu, 15 Nov 2012 07:14:49
+2013-12-18 15:30:10	<--	Linuxkartoffel has quit (Quit: WeeChat 0.4.2)
+2013-12-18 15:30:40	-->	Linuxkartoffel has joined #manjaro
+2013-12-18 15:30:40	--	Mode #manjaro [+v Linuxkartoffel] by ChanServ
+2013-12-18 15:32:29	<--	pagani has quit (Read error: Connection reset by peer)
+2013-12-18 15:33:12	-->	Wildtux has joined #manjaro
+2013-12-18 15:33:19	-->	lemao has joined #manjaro
+2013-12-18 15:34:09	alexisisis	someone suggested powertop to me last night for fixing Cinnamon (battery lasting 20 seconds) but what am I supposed to do with that? It just seems to be an extended task manager
+2013-12-18 15:35:11	HardyH	A battery that lasts 20 seconds only needs to be replaced
+2013-12-18 15:36:08	alexisisis	but it last 10mins with xfce. I know it needs to be replaced but I only need it to move from one room to another. With Cinnamon I can't even do that.
+2013-12-18 15:36:32	<--	Linuxkartoffel has quit (Quit: WeeChat 0.4.2)
+2013-12-18 15:37:05	HardyH	You can beat a dead horse as hard as you  want, it will stay dead
+2013-12-18 15:37:06	<--	tulliana has quit (Quit: Manjaro-KDE user leaving!)
+2013-12-18 15:37:43	-->	Linuxkartoffel has joined #manjaro
+2013-12-18 15:37:52	--	Mode #manjaro [+v Linuxkartoffel] by ChanServ
+2013-12-18 15:38:13	+AHD42	https://wiki.archlinux.org/index.php/Powertop
+2013-12-18 15:38:30	+AHD42	used it a while ago, not sure if it works..
+2013-12-18 15:39:27	<--	manjaro_user has quit (Quit: Manjaro-KDE user leaving!)
+2013-12-18 15:40:09	+AHD42	20 seconds? really?
+2013-12-18 15:40:12	alexisisis	HardyH, but it's not dead. It last 10mins in xfce. 10mins is fine for me, that's all I need. The issue is that something is wrong in Cinnamon that doesn't even allow me that
+2013-12-18 15:40:20	+AHD42	hmm..
+2013-12-18 15:40:31	alexisisis	AHD42, thanks for that link, I'll read. Yeah 20 seconds, timed it last night
+2013-12-18 15:40:33	+AHD42	you like dead horses then?
+2013-12-18 15:40:37	HardyH	Cinnamon required 3d acceleration and puts much more load on your gpu
+2013-12-18 15:40:43	HardyH	requires even
+2013-12-18 15:41:04	HardyH	More cpu load = more power consumption
+2013-12-18 15:41:25	-->	qwebirc79640 has joined #manjaro
+2013-12-18 15:41:54	-->	tulliana has joined #manjaro
+2013-12-18 15:41:54	--	Mode #manjaro [+v tulliana] by ChanServ
+2013-12-18 15:42:05	qwebirc79640	does the irc offer support or should i go onto the forums and post?
+2013-12-18 15:42:22	+AHD42	well.. at least we try..
+2013-12-18 15:42:29	alexisisis	even so, 10mins>20secs seems a bit extreme. I don't think it is that the battery is actually completely empty, I think it's shutting off because it is critical, possibly the percentage too high.
+2013-12-18 15:42:33	HardyH	What kind of cpu/gpu are we talking about, alexisisis?
+2013-12-18 15:43:00	qwebirc79640	I was wondering if anyone could help me with a problem i am having with my audio.
+2013-12-18 15:43:15	-->	michimuellae has joined #manjaro
+2013-12-18 15:43:25	--	qwebirc79640 is now known as Disobedience
+2013-12-18 15:43:27	+AHD42	what kind of problem?
+2013-12-18 15:43:28	alexisisis	AMD/ATI RV710/M92 [Mobility Radeon HD 4330/4350/4550] and Intel Core2 Duo CPU T6600 @ 2.2GHz HardyH
+2013-12-18 15:43:29	HardyH	So, tell us your problem
+2013-12-18 15:43:46	Disobedience	The problem is. my HDMI audio does not show up as an option to use.
+2013-12-18 15:44:12	HardyH	Well, not sure, but I think powertop is obsolete for intel cpus, there's pstate now included in the kernel
+2013-12-18 15:45:54	+AHD42	what does "aplay -l" say? drop it into a pastebin pls
+2013-12-18 15:46:52	alexisisis	HardyH, I'm not sure what is dictating the power config in it, it is shutting down rather than hibernating and also closing the lid when plugged in is locking the screen rather than doing nothing like I have set in the power options
+2013-12-18 15:46:52	Disobedience	http://pastebin.com/ynsBBLa5
+2013-12-18 15:47:11	+AHD42	card 1, hdmi..
+2013-12-18 15:47:44	+AHD42	ok.. open "pavucontrol" and go to the config tab
+2013-12-18 15:48:12	-->	dontknow has joined #manjaro
+2013-12-18 15:48:52	Disobedience	Will i have to open pulseaudio and manually select what i want to come through the HDMI?
+2013-12-18 15:49:20	+AHD42	you can switch off the other card there if you dont use it..
+2013-12-18 15:49:52	+AHD42	there's also an option to set a default pa output, but im not sure where it is. :D
+2013-12-18 15:50:15	Disobedience	I believe i have it working now :) ^ that would be very helpful to find haha
+2013-12-18 15:50:52	+AHD42	in output devices, theres this little icon
+2013-12-18 15:51:00	Disobedience	set as fallback?
+2013-12-18 15:51:05	+AHD42	its called set as fallback
+2013-12-18 15:51:16	+AHD42	yea.. just set the card you dont wanna use as fallback
+2013-12-18 15:51:56	-->	qwebirc21570 has joined #manjaro
+2013-12-18 15:52:00	Disobedience	Alright :) thanks for the help, now its just time to un-install the things i dont use and install the things i do
+2013-12-18 15:52:25	+AHD42	lol.. you should have gone arch then..
+2013-12-18 15:52:43	<--	qwebirc21570 has quit (Client Quit)
+2013-12-18 15:52:43	Disobedience	Also a tip for everyone in here, if you are going to test if your audio device works, dont use a miley cyrus song off the wrong page of youtube... if it does work you will wish it didnt
+2013-12-18 15:52:46	<--	tulliana has quit (Quit: Manjaro-KDE user leaving!)
+2013-12-18 15:52:57	+AHD42	lol
+2013-12-18 15:53:01	+AHD42	i dont even know this guy
+2013-12-18 15:53:26	Disobedience	^ to much works to install arch from scratch
+2013-12-18 15:53:41	+Linuxkartoffel	Disobedience: depends on your system.
+2013-12-18 15:53:56	Disobedience	^ to much reading following the wiki to install arch
+2013-12-18 15:54:05	+Linuxkartoffel	That's true ;)
+2013-12-18 15:54:07	+AHD42	you get faster.. eventually..
+2013-12-18 15:54:10	Disobedience	< to lazy to read all of the wiki
+2013-12-18 15:54:23	<--	dontknow has quit (Quit: Leaving)
+2013-12-18 15:54:54	Disobedience	was using linux mint before using manjaro
+2013-12-18 15:56:15	+AHD42	yea.. i used mint for a long time too..
+2013-12-18 15:56:30	+Linuxkartoffel	I didn't.
+2013-12-18 15:56:37	Disobedience	^ pro
+2013-12-18 15:56:59	+Linuxkartoffel	I come from Arch, before Arch i used Debian and before Debian i used ubuntu
+2013-12-18 15:57:33	Disobedience	i used ubuntu before there was this unity thing and it was using gnome 2, ubuntu 10.10 and earlier
+2013-12-18 15:58:37	HardyH	You could still use Gnome 2, it's called MATE now
+2013-12-18 15:58:55	Disobedience	grown custom to mint or xfce over gnome now
+2013-12-18 15:59:04	-->	_silvermist_ has joined #manjaro
+2013-12-18 15:59:15	HardyH	Mint is a distro, xfce a desktop environment....
+2013-12-18 15:59:27	alexisisis	how can we install mate? it's not in repo or aur as far as I can see
+2013-12-18 15:59:41	Disobedience	^ haha... make fun of my typos and stupidness xD
+2013-12-18 16:00:00	HardyH	You have to add the MATE repo
+2013-12-18 16:00:13	Disobedience	^ was gonna say cinnamon but mint came to my mind instead
+2013-12-18 16:00:33	alexisisis	add it to what?
+2013-12-18 16:00:44	+Linuxkartoffel	alexisisis: pacman.conf
+2013-12-18 16:00:53	HardyH	to your /etc/pacman.conf
+2013-12-18 16:01:12	alexisisis	ah I see, thanks
+2013-12-18 16:01:20	HardyH	Add these lines to it
+2013-12-18 16:01:25	HardyH	http://pastebin.com/rUMDn5Ce
+2013-12-18 16:01:27	-->	manjaro_user has joined #manjaro
+2013-12-18 16:05:13	+Linuxkartoffel	afk, gonna play some Gmod
+2013-12-18 16:05:37	<--	habtool has quit (Quit: Leaving)
+2013-12-18 16:05:47	-->	Lukimya has joined #manjaro
+2013-12-18 16:07:56	alexisisis	thanks HardyH. Looking forward to trying it
+2013-12-18 16:10:27	-->	mirazi_heket has joined #manjaro
+2013-12-18 16:10:55	mirazi_heket	hello, how can i unpack tar.bz2 to specific localization via terminal?
+2013-12-18 16:11:23	mirazi_heket	tar -xvjf file.tar.bz2 localisation didnt do the job
+2013-12-18 16:15:52	alexisisis	agh all the packages are apparently corrupt when trying to install Mate
+2013-12-18 16:16:17	+AHD42	you most likely miss the key for the repo
+2013-12-18 16:17:40	-->	habtool has joined #manjaro
+2013-12-18 16:17:54	HardyH	Did you rin sudo pacman -Syy?
+2013-12-18 16:17:58	HardyH	run
+2013-12-18 16:18:14	+AHD42	cant find it though
+2013-12-18 16:18:27	alexisisis	no, I did -Syu
+2013-12-18 16:18:42	-->	Foxy1604 has joined #manjaro
+2013-12-18 16:18:48	Foxy1604	hello!
+2013-12-18 16:18:49	-->	nosXw has joined #manjaro
+2013-12-18 16:18:50	HardyH	try Syy or even Syyu
+2013-12-18 16:20:36	alexisisis	no, still does the same, tried both commands
+2013-12-18 16:20:59	+AHD42	is the date on your machine set correctly?
+2013-12-18 16:21:05	HardyH	What's the 'corruption' message for the mate packages?
+2013-12-18 16:22:12	+Culinax	mirazi_heket: Use the -C option
+2013-12-18 16:22:44	<--	lx has quit (Ping timeout: 248 seconds)
+2013-12-18 16:25:05	alexisisis	AHD42, HardyH Yeah date is set right. I think it was just the package signing, I added the pacman-key from the mate website and it seems to be working now
+2013-12-18 16:25:20	+AHD42	ok.. sweet
+2013-12-18 16:25:23	HardyH	Wonderful
+2013-12-18 16:25:47	alexisisis	ok...let's give it a try :)
+2013-12-18 16:26:18	<--	alexisisis has quit (Remote host closed the connection)
+2013-12-18 16:26:48	-->	qwebirc1859 has joined #manjaro
+2013-12-18 16:32:17	<--	pAt_ has quit (Quit: Verlassend)
+2013-12-18 16:34:33	-->	alex|D-Guy has joined #manjaro
+2013-12-18 16:35:49	<--	qwebirc1859 has quit (Remote host closed the connection)
+2013-12-18 16:36:22	-->	qwebirc1859 has joined #manjaro
+2013-12-18 16:37:07	<--	freedomrun has quit (Quit: So long and thanks for all the fish)
+2013-12-18 16:38:54	<--	Cliff123 has quit (Read error: Operation timed out)
+2013-12-18 16:39:38	<--	qwebirc1859 has quit (Read error: Connection reset by peer)
+2013-12-18 16:39:45	-->	qwebirc1859 has joined #manjaro
+2013-12-18 16:41:52	<--	LucaB has quit (Ping timeout: 264 seconds)
+2013-12-18 16:42:31	<--	Foxy1604 has quit (Quit: -a- Android IRC 2.1.10)
+2013-12-18 16:42:40	<--	qwebirc1859 has quit (Remote host closed the connection)
+2013-12-18 16:43:07	-->	qwebirc1859 has joined #manjaro
+2013-12-18 16:45:09	qwebirc1859	haha oh what have i done now. After installing mate, logging in to it and logging back out and going in to xfce again my notifications seem screwed, changing the notification theme doesn't change them, they just show yellow
+2013-12-18 16:46:08	-->	bobco has joined #manjaro
+2013-12-18 16:46:46	<--	boom1992 has quit (Remote host closed the connection)
+2013-12-18 16:46:55	bobco	hi all
+2013-12-18 16:48:18	HardyH	Run mate-notification-properties
+2013-12-18 16:48:30	HardyH	That might interfere with xfce notification settings
+2013-12-18 16:48:43	AlexRussia	HardyH: where razor-qt spin?
+2013-12-18 16:48:52	HardyH	Razor-QT is dead
+2013-12-18 16:48:59	AlexRussia	HardyH: and spin dead?
+2013-12-18 16:49:10	AlexRussia	HardyH: in wikipedia read, live
+2013-12-18 16:49:14	AlexRussia	write*
+2013-12-18 16:49:37	HardyH	razor-qt has been merged  with LXDE
+2013-12-18 16:50:04	HardyH	And the result will be called lxde-qt
+2013-12-18 16:52:17	qwebirc1859	HardyH, yes, seems they do
+2013-12-18 16:53:01	HardyH	So you could  turn back your notifications back to normal with mate-notification-properties?
+2013-12-18 16:54:23	qwebirc1859	not back to the same themed ones I had but I could change them there
+2013-12-18 16:54:52	<--	Disobedience has quit (Quit: Page closed)
+2013-12-18 16:54:54	qwebirc1859	I'm uninstalling mate now, thought it was horrible anyway
+2013-12-18 16:55:01	--	qwebirc1859 is now known as alexisisis
+2013-12-18 16:55:39	HardyH	Horrible?
+2013-12-18 16:56:57	alexisisis	ugly and not much better changing themes etc. Just didn't really add anything to xfce for me, prefer that
+2013-12-18 16:57:29	HardyH	Ugly? It's themable
+2013-12-18 16:57:43	HardyH	Vanilla xfce looks ugly too....
+2013-12-18 16:57:43	+AHD42	yea, it can just look like gnome2
+2013-12-18 16:57:56	+AHD42	thats mainly because its a gnome2 fork
+2013-12-18 16:58:29	<--	alex|D-Guy has quit (Ping timeout: 250 seconds)
+2013-12-18 16:59:14	HardyH	Ugly....
+2013-12-18 16:59:14	HardyH	http://cdn.xfce.org/frontpage/slider-desktop.jpg
+2013-12-18 17:00:05	alexisisis	haha yeah I know xfce looks bad by default. I tried changing the themes in mate but still looked a bit bad
+2013-12-18 17:00:20	+AHD42	get compiz+emerald
+2013-12-18 17:00:24	HardyH	Mate
+2013-12-18 17:00:25	+AHD42	and dockbarx
+2013-12-18 17:00:29	HardyH	http://i.imgur.com/L9iy1WL.png
+2013-12-18 17:01:01	HardyH	What would you need a dock for when you can have starters in the panel?
+2013-12-18 17:02:09	alexisisis	HardyH, that's certainly better. It seemed buggy, the theme settings froze a few times and the panel wouldn't change any lower than 25
+2013-12-18 17:02:22	friTTe|	looks nice
+2013-12-18 17:03:32	<--	nosXw has quit (Quit: fuuuuuuuuuuu)
+2013-12-18 17:03:36	HardyH	Thx
+2013-12-18 17:05:05	<--	mirazi_heket has quit (Remote host closed the connection)
+2013-12-18 17:05:10	-->	ffio has joined #manjaro
