@@ -10,9 +10,8 @@ for files in os.listdir(cwd):
         shutil.copy(cwd + "/" + files, HOME)
 
 text = """Remember to:
-1: Install a terminal (URxvt Iterm2), mpd & ncmpcpp, weechat, emacs (run package-list install, if needed), vim (MacVim), zsh and oh my zsh, rbenv, ag, (packer or homebrew).
-2: Change Ctrl to Caps lock - xmodmap or control center
-3: Get Google Chrome Unstable and/or Firefox Nightly as default (If firefox, remember .vimperatorrc)
-4: Remove the PASSWORD from your mutt settings """
+1) Insert password into muttrc and .weechat/irc.conf
+2) Install Cask and install all the emacs plugins
+3) Run a BundleInstall inside Vim"""
 
 print (text)

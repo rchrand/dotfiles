@@ -1,80 +1,102 @@
+""" Plugins  (Vundle)
 filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
-Bundle 'Lokaltog/vim-powerline', {'rpt': 'powerline/bindings/vim/'}
-Bundle 'scrooloose/nerdtree'
 Bundle 'plasticboy/vim-markdown'
-Bundle 'tpope/vim-fugitive'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'kien/ctrlp.vim'
 Bundle 'myusuf3/numbers.vim'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'lunaru/vim-less'
+Bundle 'majutsushi/tagbar'
 Bundle 'takac/vim-hardtime'
+Bundle 'ervandew/supertab'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'rking/ag.vim'
+Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'bling/vim-airline'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-fireplace'
-Bundle 'guns/vim-clojure-static'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-haml'
 
+let g:ruby_path = system('echo $HOME/.rbenv/shims') " Is needed for some plugins
+let g:hardtime_default_on = 1
+let g:hardtime_showmsg = 0
+
+""" General configs
 set modelines=0
-filetype plugin indent on
-set t_Co=256            " set 256 color
+filetype plugin on      "Enable filetype-specfic plugings
+filetype indent on      "Enable filetype-specfic identing
 set nocompatible        " use Vim defaults
-set mouse=            " make sure mouse is used in all cases.
+set mouse=               " make sure mouse is NOT used in all cases.
+set encoding=utf-8
+
+""" Visual configs 
+set t_Co=256            " set 256 color
 syntax enable               " enable syntax highlighting
-"set background=dark
-colorscheme zenburn     " define syntax color scheme
+set background=dark
+let g:hybrid_use_Xresources = 1
+colorscheme hybrid
+
 set shortmess+=I        " disable the welcome screen
-"set complete+=k         " enable dictionary completion
-"set completeopt+=longest
-set backspace=2         " full backspacing capabilities
-set history=300         " 300 lines of command line history
 set ruler               " ruler display in status line
-set ww=<,>,[,]          " whichwrap -- left/right keys can traverse up/down
-set cmdheight=2         " set the command height
 set showmatch           " show matching brackets (),{},[]
 set mat=5               " show matching brackets for 0.3 seconds
 
+""" Editor configs
+set backspace=2         " full backspacing capabilities
+set history=300         " 300 lines of command line history
+set ww=<,>,[,]          " whichwrap -- left/right keys can traverse up/down
+set cmdheight=2         " set the command height
+set autoindent          " auto indents next new line
+
+set wrap
+set textwidth=79
+set formatoptions=qrn1
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+""" Identation configs
 set expandtab           " insert spaces instead of tab chars
 set tabstop=2           " a n-space tab width
 set shiftwidth=2        " allows the use of < and > for VISUAL indenting
 set softtabstop=2       " counts n spaces when DELETE or BCKSPCE is used
-set autoindent          " auto indents next new line
 
 " Powerline Setup
-set guifont=Inconsolata\ 10
-"set guifont=Bitstream\ Vera\ Sans\ Mono\ 11
-set laststatus=2
+set guifont=Source\ Code\ Pro\ 10
+set laststatus=2 " Always shows the statusline
 
-let g:ruby_path = system('echo $HOME/.rbenv/shims')
-
-" " searching
+""" Searching configs
 set hlsearch            " highlight all search results
 set incsearch           " increment search
 set ignorecase          " case-insensitive search
 set smartcase           " upper-case sensitive search
+"set scrolloff=5 " Scroll offset used in searching
 
-" " syntax highlighting
-set encoding=utf-8
-set scrolloff=3
-set showmode
-set showcmd
-set hidden
-set wildmenu
+nnoremap / /\v
+vnoremap / /\v
+
+""" Syntax highlighting configs
+set showmode " If in Insert, Replace or Visual mode put a message on the last line.
+"set showcmd " Shows the last command in the status-line
+set hidden " hides the buffer if it's not active
+set wildmenu " Tab completion when typing in ex-mode (:)
 set wildmode=list:longest
-set cursorline
-set ttyfast
-set backspace=indent,eol,start
-set number
-set nohidden
+set cursorline " Highlights the cursorline
+set ttyfast " Indicates a fast terminal connection
+set backspace=indent,eol,start " Makes backspace (Big delete button) work sane
+set number " Set line-numbers i think
 set shell=zsh
+
+""" Backup configs
 set nobackup
 set nowritebackup
 set noswapfile
 
+""" Sound configs
 set noerrorbells
 set novisualbell
 set novb
@@ -92,18 +114,16 @@ set guioptions-=R
 set guioptions-=L
 set guioptions-=e
 
+source $VIMRUNTIME/mswin.vim
+behave mswin
+
+""" Keybindings config
 let mapleader = ","
 
-nnoremap / /\v
-vnoremap / /\v
 set gdefault
 nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
-
-set wrap
-set textwidth=79
-set formatoptions=qrn1
 
 nnoremap <up> <nop>
 nnoremap <down> <nop>
@@ -120,14 +140,12 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
-"au FocusLost * :wa
+au FocusLost * :wa
 
 inoremap jj <ESC>
 
 nnoremap <leader>v <C-w>v<C-w>l
 nmap <leader>h :sp<CR>
-
-map <F2> :NERDTreeToggle<CR>
 
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
@@ -138,6 +156,7 @@ nmap <C-e> :e#<CR>
 nmap <C-n> :bnext<CR> 
 nmap <C-b> :noh<CR>
 
+""" Plugin keybindings
 nmap <leader>b :CtrlPBuffer<CR> 
 let g:ctrlp_match_window_bottom = 0
 let g:ctrlp_match_window_reversed = 0
@@ -146,11 +165,33 @@ let g:ctrlp_dotfiles = 0
 let g:ctrlp_switch_buffer = 0
 
 nnoremap <leader>a :Ag
-
 nnoremap <F4> <Esc>:call HardTimeToggle()<CR>
 nnoremap <F3> :NumbersToggle<CR>
+nnoremap <Space> @q
 
-let g:ycm_min_num_of_chars_for_completion = 4
-let g:ycm_complete_in_comments = 0
-let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:vim_markdown_initial_foldlevel=4
 
+let g:rbpt_colorpairs = [
+  \ [ '13', '#6c71c4'],
+  \ [ '5',  '#d33682'],
+  \ [ '1',  '#dc322f'],
+  \ [ '9',  '#cb4b16'],
+  \ [ '3',  '#b58900'],
+  \ [ '2',  '#859900'],
+  \ [ '6',  '#2aa198'],
+  \ [ '4',  '#268bd2'],
+  \ ]
+
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
+map <F2> :NERDTreeToggle<CR>
+
+" Airline
+let g:airline_right_sep = ' « '
+let g:airline_left_sep = ' » '
+let g:airline_theme="base16"
+
+nmap <F8> :TagbarToggle<CR>

@@ -1,6 +1,6 @@
 info_begin
 format: 1
-mpd_version: 0.17.5
+mpd_version: 0.18.7
 fs_charset: UTF-8
 tag: Artist
 tag: ArtistSort
@@ -20,168 +20,236 @@ tag: MUSICBRAINZ_ALBUMID
 tag: MUSICBRAINZ_ALBUMARTISTID
 tag: MUSICBRAINZ_TRACKID
 info_end
+directory: Aphex Twin
+mtime: 1390045222
+begin: Aphex Twin
+song_begin: Aphex Twin - Acrid Avid Jam Shred-pPHcNVJVDGA.mp3
+Time: 459
+mtime: 1390045222
+song_end
+song_begin: Aphex Twin - Alberto Balsalm-mUT3KoxVzQg.mp3
+Time: 311
+mtime: 1390045222
+song_end
+end: Aphex Twin
 directory: B Complex
-mtime: 1377947983
+mtime: 1390045222
 begin: B Complex
 directory: B complex
-mtime: 1377947983
+mtime: 1390045222
 begin: B Complex/B complex
 song_begin: B Complex-Beautiful Lies.mp3
 Time: 420
-mtime: 1316942814
+mtime: 1390045222
 song_end
 end: B Complex/B complex
 end: B Complex
+directory: Boards of Canada
+mtime: 1390045232
+begin: Boards of Canada
+song_begin: Boards of Canada - Left Side Drive-Ygfh6dFUtcU.mp3
+Time: 320
+mtime: 1390045232
+song_end
+song_begin: Boards of Canada - Mukinabaht-SIY0c_OmcOY.mp3
+Time: 301
+mtime: 1390045232
+song_end
+song_begin: Boards of Canada - Music Is Math-F7bKe_Zgk4o.mp3
+Time: 322
+mtime: 1390045232
+song_end
+song_begin: Boards of Canada - Poppy Seed-WPzHZ5_zlyg.mp3
+Time: 417
+mtime: 1390045232
+song_end
+song_begin: Boards of Canada - Reach for the Dead (from Tomorrow's Harvest)-2jTg-q6Drt0.mp3
+Time: 298
+mtime: 1390045232
+song_end
+end: Boards of Canada
+directory: Com Truise
+mtime: 1390045226
+begin: Com Truise
+song_begin: Com Truise  - 'Fairlight'-1oD2DWf4CjQ.mp3
+Time: 240
+mtime: 1390045226
+song_end
+song_begin: Com Truise - 'Brokendate'-RMjCxV7u8OA.mp3
+Time: 311
+mtime: 1390045225
+song_end
+song_begin: Com Truise - 'Cathode Girls'-eCeUHaRz77w.mp3
+Time: 277
+mtime: 1390045226
+song_end
+song_begin: Com Truise - 'Polyhurt'-lOCFNXHiB9w.mp3
+Time: 311
+mtime: 1390045226
+song_end
+song_begin: Com Truise - Alfa Beach-yFB931QKH5E.mp3
+Time: 259
+mtime: 1390045226
+song_end
+song_begin: Com Truise - Data Kiss-lEpJPrXiiYA.mp3
+Time: 243
+mtime: 1390045226
+song_end
+song_begin: Com Truise - Karova-_vrc8hfdTS4.mp3
+Time: 344
+mtime: 1390045226
+song_end
+end: Com Truise
 directory: Feint
-mtime: 1376593683
+mtime: 1390045229
 begin: Feint
 song_begin: Against the Grain.mp3
 Time: 150
-mtime: 1362046472
+mtime: 1390045228
 song_end
 song_begin: Airplanes.mp3
 Time: 286
-mtime: 1362046472
+mtime: 1390045226
 song_end
 song_begin: And i knew.mp3
 Time: 257
-mtime: 1362046472
+mtime: 1390045226
 song_end
 song_begin: Clockwork Hearts.mp3
 Time: 391
-mtime: 1362046471
+mtime: 1390045226
 song_end
 song_begin: Feint - A Moment In The Life Of.mp3
 Time: 256
-mtime: 1292562025
+mtime: 1390045228
 song_end
 song_begin: Feint - Connections.mp3
 Time: 176
-mtime: 1294700589
+mtime: 1390045227
 song_end
 song_begin: Feint - Creed.mp3
 Time: 206
-mtime: 1290599456
+mtime: 1390045227
 song_end
 song_begin: Feint - Freefall.mp3
 Time: 212
-mtime: 1297839808
+mtime: 1390045227
 song_end
 song_begin: Feint - From Butterflies To Hurricanes.mp3
 Time: 206
-mtime: 1294756392
+mtime: 1390045228
 song_end
 song_begin: Feint - One Thousand Dreams.mp3
 Time: 318
-mtime: 1311947015
+mtime: 1390045229
 song_end
 song_begin: Feint - Reprise.mp3
 Time: 201
-mtime: 1362046472
+mtime: 1390045229
 song_end
 song_begin: Feint - Ripped Up_Torn Down.mp3
 Time: 229
-mtime: 1291034251
+mtime: 1390045226
 song_end
 song_begin: Feint - Skyward.mp3
 Time: 291
-mtime: 1326392575
+mtime: 1390045228
 song_end
 song_begin: Feint - Stray.mp3
 Time: 247
-mtime: 1300633007
+mtime: 1390045227
 song_end
 song_begin: Feint - That Makes One.mp3
 Time: 216
-mtime: 1292089198
+mtime: 1390045226
 song_end
 song_begin: Feint - Those eyes [FULL].mp3
 Time: 287
-mtime: 1362046471
+mtime: 1390045226
 song_end
 song_begin: Feint - Tower Of Heaven (You Are Slaves).mp3
 Time: 188
-mtime: 1297289416
+mtime: 1390045227
 song_end
 song_begin: Feint - Two Flares In The Night Sky.mp3
 Time: 207
-mtime: 1296104322
+mtime: 1390045228
 song_end
 song_begin: Feint - Unwanted.mp3
 Time: 296
-mtime: 1290598576
+mtime: 1390045227
 song_end
 song_begin: Feint - Wishful Thinking.mp3
 Time: 288
-mtime: 1297974936
+mtime: 1390045227
 song_end
 song_begin: Horrizant.mp3
 Time: 67
-mtime: 1362046472
+mtime: 1390045228
 song_end
 song_begin: Laurence.mp3
 Time: 243
-mtime: 1362046471
+mtime: 1390045227
 song_end
 song_begin: Moleman.mp3
 Time: 244
-mtime: 1362046472
+mtime: 1390045229
 song_end
 song_begin: Past Futrues.mp3
 Time: 249
-mtime: 1362046473
+mtime: 1390045227
 song_end
 song_begin: Ramless B.mp3
 Time: 155
-mtime: 1362046472
+mtime: 1390045228
 song_end
 song_begin: Sabrepuls.mp3
 Time: 327
-mtime: 1362046473
+mtime: 1390045227
 song_end
 song_begin: Sleepless.mp3
 Time: 262
-mtime: 1362046471
+mtime: 1390045226
 song_end
 song_begin: The Catch.mp3
 Time: 223
-mtime: 1362046472
+mtime: 1390045227
 song_end
 song_begin: The Jounery.mp3
 Time: 140
-mtime: 1362046472
+mtime: 1390045227
 song_end
 song_begin: Time Bomb.mp3
 Time: 212
-mtime: 1362046472
+mtime: 1390045227
 song_end
 song_begin: Times Like These.mp3
 Time: 345
-mtime: 1362046470
+mtime: 1390045228
 song_end
 song_begin: TwoThirds & Feint - Epiphany.mp3
 Time: 329
-mtime: 1362046470
+mtime: 1390045228
 song_end
 song_begin: TwoThirds & Feint ft Veela - Starscapes.mp3
 Time: 340
-mtime: 1332480563
+mtime: 1390045228
 song_end
 song_begin: Vision Driver.mp3
 Time: 243
-mtime: 1362046472
+mtime: 1390045228
 song_end
 song_begin: [DNB] Atlas - Feint [Monstercat Release].mp3
 Time: 288
-mtime: 1362046472
+mtime: 1390045228
 song_end
 song_begin: [DnB] - Feint - Fury [Monstercat Release].mp3
 Time: 232
-mtime: 1344458493
+mtime: 1390045227
 song_end
 song_begin: [DnB] - Feint - Snake Eyes (feat. CoMa) [Monstercat Release].mp3
 Time: 265
-mtime: 1367433173
+mtime: 1390045227
 song_end
 song_begin: Feint - Horizons feat. Veela.mp3
 Time: 286
@@ -191,25 +259,53 @@ Album: Horizons EP
 Track: 1/4
 Date: 2012-08-05
 Genre: Drum & Bass
-mtime: 1362046471
+mtime: 1390045229
 song_end
 end: Feint
 directory: Go Go Berlin
-mtime: 1376590944
+mtime: 1390045226
 begin: Go Go Berlin
 song_begin: Go Go Berlin - Raise Your Head.mp3
 Time: 240
-mtime: 1368652934
+mtime: 1390045226
 song_end
 end: Go Go Berlin
+directory: Liquid DB
+mtime: 1390045244
+begin: Liquid DB
+song_begin: Adam Szabo & Johan Vilborg - Two To One (Dualistic Bootleg)-piGX6aJR-Ro.mp3
+Time: 225
+mtime: 1390045244
+song_end
+song_begin: Avizura - Lucky Star-QR_gbTczkD4.mp3
+Time: 385
+mtime: 1390045245
+song_end
+song_begin: Defiant & Kasger - Smackdown-hF4zdi0Qm6I.mp3
+Time: 278
+mtime: 1390045244
+song_end
+song_begin: Metrik - Freefall VIP (feat. Reija Lee)-mMEjQrWGrks.mp3
+Time: 282
+mtime: 1390045244
+song_end
+song_begin: Sonic feat. Diane Charlemagne - Piano Anthem (Full HD)-AqItFe1V-nE.mp3
+Time: 366
+mtime: 1390045244
+song_end
+song_begin: Stan SB - Anyone Out There (Maduk Remix)-pkMh-gNpk14.mp3
+Time: 240
+mtime: 1390045244
+song_end
+end: Liquid DB
 directory: Macklemore
-mtime: 1376593999
+mtime: 1390045236
 begin: Macklemore
 directory: Macklemore
-mtime: 1375020290
+mtime: 1390045235
 begin: Macklemore/Macklemore
 directory: The Language of My World
-mtime: 1375020290
+mtime: 1390045235
 begin: Macklemore/Macklemore/The Language of My World
 song_begin: 01-macklemore-intro-ftd.mp3
 Time: 50
@@ -221,7 +317,7 @@ Track: 1
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020145
+mtime: 1390045234
 song_end
 song_begin: 02-macklemore-white_privilege-ftd.mp3
 Time: 261
@@ -233,7 +329,7 @@ Track: 2
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020232
+mtime: 1390045235
 song_end
 song_begin: 03-macklemore-b_boy-ftd.mp3
 Time: 167
@@ -245,7 +341,7 @@ Track: 3
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020239
+mtime: 1390045234
 song_end
 song_begin: 04-macklemore-claiming_the_city-ftd.mp3
 Time: 268
@@ -257,7 +353,7 @@ Track: 4
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020238
+mtime: 1390045234
 song_end
 song_begin: 05-macklemore-fake_id-ftd.mp3
 Time: 153
@@ -269,7 +365,7 @@ Track: 5
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020231
+mtime: 1390045233
 song_end
 song_begin: 06-macklemore-hold_your_head_up-ftd.mp3
 Time: 263
@@ -281,7 +377,7 @@ Track: 6
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020190
+mtime: 1390045234
 song_end
 song_begin: 07-macklemore-ego-ftd.mp3
 Time: 169
@@ -293,7 +389,7 @@ Track: 7
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020237
+mtime: 1390045234
 song_end
 song_begin: 08-macklemore-inhale_deep-ftd.mp3
 Time: 169
@@ -305,7 +401,7 @@ Track: 8
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020234
+mtime: 1390045233
 song_end
 song_begin: 09-macklemore-bush_song-ftd.mp3
 Time: 172
@@ -317,7 +413,7 @@ Track: 9
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020228
+mtime: 1390045233
 song_end
 song_begin: 10-macklemore-good_for_you-ftd.mp3
 Time: 242
@@ -329,7 +425,7 @@ Track: 10
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020230
+mtime: 1390045232
 song_end
 song_begin: 11-macklemore-i_said_hey-ftd.mp3
 Time: 284
@@ -341,7 +437,7 @@ Track: 11
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020234
+mtime: 1390045234
 song_end
 song_begin: 12-macklemore-penis_song-ftd.mp3
 Time: 214
@@ -353,7 +449,7 @@ Track: 12
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020201
+mtime: 1390045233
 song_end
 song_begin: 13-macklemore-the_magic-ftd.mp3
 Time: 263
@@ -365,7 +461,7 @@ Track: 13
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020242
+mtime: 1390045233
 song_end
 song_begin: 14-macklemore-city_dont_sleep-ftd.mp3
 Time: 211
@@ -377,7 +473,7 @@ Track: 14
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020229
+mtime: 1390045234
 song_end
 song_begin: 15-macklemore-love_song-ftd.mp3
 Time: 264
@@ -389,7 +485,7 @@ Track: 15
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020231
+mtime: 1390045233
 song_end
 song_begin: 16-macklemore-remember_high_school-ftd.mp3
 Time: 249
@@ -401,7 +497,7 @@ Track: 16
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020233
+mtime: 1390045235
 song_end
 song_begin: 17-macklemore-contradiction-ftd.mp3
 Time: 269
@@ -413,7 +509,7 @@ Track: 17
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020242
+mtime: 1390045234
 song_end
 song_begin: 18-macklemore-soldiers-ftd.mp3
 Time: 287
@@ -425,7 +521,7 @@ Track: 18
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020240
+mtime: 1390045233
 song_end
 song_begin: 19-macklemore-as_soon_as_i_wake_up-ftd.mp3
 Time: 227
@@ -437,7 +533,7 @@ Track: 19
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020240
+mtime: 1390045233
 song_end
 song_begin: 20-macklemore-my_language-ftd.mp3
 Time: 237
@@ -449,14 +545,14 @@ Track: 20
 Date: 2005
 Genre: Hip-Hop
 Composer: Ben Haggerty
-mtime: 1375020239
+mtime: 1390045235
 song_end
 playlist_begin: 00-macklemore-the_language_of_my_world-2005-ftd.m3u
-mtime: 1375020023
+mtime: 1390045233
 playlist_end
 end: Macklemore/Macklemore/The Language of My World
 directory: the unplanned mixtape
-mtime: 1375020290
+mtime: 1390045236
 begin: Macklemore/Macklemore/the unplanned mixtape
 song_begin: 01 The Town.mp3
 Time: 334
@@ -467,7 +563,7 @@ Album: The Unplanned Mixtape
 Track: 1
 Genre: Hip-Hop
 Composer: Scenik, Vitamin D
-mtime: 1375020243
+mtime: 1390045235
 song_end
 song_begin: 02 At The Party.mp3
 Time: 282
@@ -478,7 +574,7 @@ Album: The Unplanned Mixtape
 Track: 2
 Genre: Hip-Hop
 Composer: Bean One
-mtime: 1375020244
+mtime: 1390045235
 song_end
 song_begin: 03 The Club.mp3
 Time: 249
@@ -489,7 +585,7 @@ Album: The Unplanned Mixtape
 Track: 3
 Genre: Hip-Hop
 Composer: Ryan Lewis
-mtime: 1375020239
+mtime: 1390045235
 song_end
 song_begin: 04 American.mp3
 Time: 251
@@ -500,7 +596,7 @@ Album: The Unplanned Mixtape
 Track: 4
 Genre: Hip-Hop
 Composer: Macklemore, Budo
-mtime: 1375020241
+mtime: 1390045235
 song_end
 song_begin: 05 NXNW Remix.mp3
 Time: 242
@@ -511,7 +607,7 @@ Album: The Unplanned Mixtape
 Track: 5
 Genre: Hip-Hop
 Composer: Jake One
-mtime: 1375020239
+mtime: 1390045235
 song_end
 song_begin: 06 Fallin.mp3
 Time: 198
@@ -522,7 +618,7 @@ Album: The Unplanned Mixtape
 Track: 6
 Genre: Hip-Hop
 Composer: Ryan Lewis
-mtime: 1375020225
+mtime: 1390045236
 song_end
 song_begin: 07 Church ft. Geo.mp3
 Time: 232
@@ -533,7 +629,7 @@ Album: The Unplanned Mixtape
 Track: 7
 Genre: Hip-Hop
 Composer: Budo
-mtime: 1375020240
+mtime: 1390045235
 song_end
 song_begin: 08 Letterhead Remix.mp3
 Time: 214
@@ -544,7 +640,7 @@ Album: The Unplanned Mixtape
 Track: 8
 Genre: Hip-Hop
 Composer: Sapient
-mtime: 1375020219
+mtime: 1390045235
 song_end
 song_begin: 09 Keep Marchin ft. XP.mp3
 Time: 191
@@ -555,7 +651,7 @@ Album: The Unplanned Mixtape
 Track: 9
 Genre: Hip-Hop
 Composer: Gigantics
-mtime: 1375020231
+mtime: 1390045235
 song_end
 song_begin: 10 And We Danced.mp3
 Time: 246
@@ -566,15 +662,15 @@ Album: The Unplanned Mixtape
 Track: 10
 Genre: Hip-Hop
 Composer: Macklemore, Ryan Lewis, Shno
-mtime: 1375020240
+mtime: 1390045236
 song_end
 end: Macklemore/Macklemore/the unplanned mixtape
 end: Macklemore/Macklemore
 directory: Macklemore and Ryan Lewis
-mtime: 1375020290
+mtime: 1390045236
 begin: Macklemore/Macklemore and Ryan Lewis
 directory: The VS. EP
-mtime: 1375020291
+mtime: 1390045237
 begin: Macklemore/Macklemore and Ryan Lewis/The VS. EP
 song_begin: 01 Vipassana.mp3
 Time: 220
@@ -584,7 +680,7 @@ Title: Vipassana
 Album: The VS. EP
 Track: 1
 Genre: Rap & Hip-Hop
-mtime: 1375020187
+mtime: 1390045237
 song_end
 song_begin: 02 Crew Cuts.mp3
 Time: 208
@@ -594,7 +690,7 @@ Title: Crew Cuts
 Album: The VS. EP
 Track: 2
 Genre: Rap & Hip-Hop
-mtime: 1375020189
+mtime: 1390045236
 song_end
 song_begin: 03 Life is Cinema.mp3
 Time: 204
@@ -604,7 +700,7 @@ Title: Life is Cinema
 Album: The VS. EP
 Track: 3
 Genre: Rap & Hip-Hop
-mtime: 1375020184
+mtime: 1390045236
 song_end
 song_begin: 04 Otherside.mp3
 Time: 306
@@ -614,7 +710,7 @@ Title: Otherside
 Album: The VS. EP
 Track: 4
 Genre: Rap & Hip-Hop
-mtime: 1375020204
+mtime: 1390045236
 song_end
 song_begin: 05 Kings.mp3
 Time: 289
@@ -624,7 +720,7 @@ Title: Kings
 Album: The VS. EP
 Track: 5
 Genre: Rap & Hip-Hop
-mtime: 1375020229
+mtime: 1390045236
 song_end
 song_begin: 06 Irish Celebration.mp3
 Time: 280
@@ -634,7 +730,7 @@ Title: Irish Celebration
 Album: The VS. EP
 Track: 6
 Genre: Rap & Hip-Hop
-mtime: 1375020203
+mtime: 1390045237
 song_end
 song_begin: 07 The End.mp3
 Time: 387
@@ -644,17 +740,25 @@ Title: The End
 Album: The VS. EP
 Track: 7
 Genre: Rap & Hip-Hop
-mtime: 1375020189
+mtime: 1390045236
 song_end
 end: Macklemore/Macklemore and Ryan Lewis/The VS. EP
 end: Macklemore/Macklemore and Ryan Lewis
 song_begin: Can't Hold Us - Macklemore and Ryan Lewis.mp3
 Time: 275
-mtime: 1365489337
+mtime: 1390045236
 song_end
 end: Macklemore
+directory: Misc
+mtime: 1390045242
+begin: Misc
+song_begin: Sysyphe - Sinking-WgyM2QbvRrk.mp3
+Time: 530
+mtime: 1390045242
+song_end
+end: Misc
 directory: Monstercat 001 - Launch Week
-mtime: 1375025448
+mtime: 1390045225
 begin: Monstercat 001 - Launch Week
 song_begin: 01 Ephixa - Dubstep Killed Rock n Roll.mp3
 Time: 260
@@ -665,7 +769,7 @@ Album: Monstercat 001
 Track: 01
 Date: 2011
 Genre: Dubstep
-mtime: 1375025427
+mtime: 1390045225
 song_end
 song_begin: 02 Halo Nova - The Force.mp3
 Time: 208
@@ -676,7 +780,7 @@ Album: Monstercat 001
 Track: 02
 Date: 2011
 Genre: Dubstep
-mtime: 1375025437
+mtime: 1390045225
 song_end
 song_begin: 03 Stephen Walking - Still Walking.mp3
 Time: 202
@@ -687,7 +791,7 @@ Album: Monstercat 001
 Track: 03
 Date: 2011
 Genre: Dubstep
-mtime: 1375025279
+mtime: 1390045225
 song_end
 song_begin: 04 Arion - Cold Blood & Ice Cream Cones.mp3
 Time: 260
@@ -698,7 +802,7 @@ Album: Monstercat 001
 Track: 04
 Date: 2011
 Genre: Electro
-mtime: 1375025448
+mtime: 1390045225
 song_end
 song_begin: 05 Going Quantum - Hello_.mp3
 Time: 362
@@ -709,7 +813,7 @@ Album: Monstercat 001
 Track: 05
 Date: 2011
 Genre: Dubstep
-mtime: 1375025426
+mtime: 1390045224
 song_end
 song_begin: 06 Feint - Atlas.mp3
 Time: 288
@@ -720,7 +824,7 @@ Album: Monstercat 001
 Track: 06
 Date: 2011
 Genre: Drum & Bass
-mtime: 1375025392
+mtime: 1390045225
 song_end
 song_begin: 07 Neilio - Captivating.mp3
 Time: 285
@@ -731,11 +835,11 @@ Album: Monstercat 001
 Track: 07
 Date: 2011
 Genre: Hardstyle
-mtime: 1375025416
+mtime: 1390045225
 song_end
 end: Monstercat 001 - Launch Week
 directory: Monstercat 002 - Early Stage
-mtime: 1375048805
+mtime: 1390045244
 begin: Monstercat 002 - Early Stage
 song_begin: 01 Some Wobbles.mp3
 Time: 316
@@ -743,7 +847,7 @@ Artist: Ephixa
 Title: Some Wobbles
 Album: Monstercat 002 - Early Stage
 Track: 1/15
-mtime: 1375048795
+mtime: 1390045243
 song_end
 song_begin: 02 Blow ExXplode.mp3
 Time: 289
@@ -751,7 +855,7 @@ Artist: Arion
 Title: Blow ExXplode
 Album: Monstercat 002 - Early Stage
 Track: 2/15
-mtime: 1375048800
+mtime: 1390045243
 song_end
 song_begin: 03 Dreaming.mp3
 Time: 320
@@ -759,7 +863,7 @@ Artist: Project 46
 Title: Dreaming
 Album: Monstercat 002 - Early Stage
 Track: 3/15
-mtime: 1375048803
+mtime: 1390045243
 song_end
 song_begin: 04 Lost.mp3
 Time: 415
@@ -767,7 +871,7 @@ Artist: TwoThirds
 Title: Lost
 Album: Monstercat 002 - Early Stage
 Track: 4/15
-mtime: 1375048797
+mtime: 1390045244
 song_end
 song_begin: 05 Another World.mp3
 Time: 232
@@ -775,7 +879,7 @@ Artist: Obsidia
 Title: Another World
 Album: Monstercat 002 - Early Stage
 Track: 5/15
-mtime: 1375048765
+mtime: 1390045242
 song_end
 song_begin: 06 We Move.mp3
 Time: 232
@@ -783,7 +887,7 @@ Artist: Feint
 Title: We Move
 Album: Monstercat 002 - Early Stage
 Track: 6/15
-mtime: 1375048805
+mtime: 1390045243
 song_end
 song_begin: 07 Tanpopo.mp3
 Time: 428
@@ -791,7 +895,7 @@ Artist: Eminence
 Title: Tanpopo
 Album: Monstercat 002 - Early Stage
 Track: 7/15
-mtime: 1375048803
+mtime: 1390045243
 song_end
 song_begin: 08 Totally Radical.mp3
 Time: 227
@@ -799,7 +903,7 @@ Artist: Halo Nova
 Title: Totally Radical
 Album: Monstercat 002 - Early Stage
 Track: 8/15
-mtime: 1375048783
+mtime: 1390045244
 song_end
 song_begin: 09 Metropolis.mp3
 Time: 270
@@ -807,7 +911,7 @@ Artist: Stephen Walking
 Title: Metropolis
 Album: Monstercat 002 - Early Stage
 Track: 9/15
-mtime: 1375048805
+mtime: 1390045243
 song_end
 song_begin: 10 Airwaves.mp3
 Time: 281
@@ -815,7 +919,7 @@ Artist: Noisestorm
 Title: Airwaves
 Album: Monstercat 002 - Early Stage
 Track: 10/15
-mtime: 1375048802
+mtime: 1390045244
 song_end
 song_begin: 11 Obsession.mp3
 Time: 364
@@ -823,7 +927,7 @@ Artist: Neilio
 Title: Obsession
 Album: Monstercat 002 - Early Stage
 Track: 11/15
-mtime: 1375048796
+mtime: 1390045243
 song_end
 song_begin: 12 Rock the House.mp3
 Time: 235
@@ -831,7 +935,7 @@ Artist: Matduke
 Title: Rock the House
 Album: Monstercat 002 - Early Stage
 Track: 12/15
-mtime: 1375048780
+mtime: 1390045243
 song_end
 song_begin: 13 Light Pollution.mp3
 Time: 182
@@ -839,7 +943,7 @@ Artist: Stephen Walking
 Title: Light Pollution
 Album: Monstercat 002 - Early Stage
 Track: 13/15
-mtime: 1375048799
+mtime: 1390045243
 song_end
 song_begin: 14 Triceracops.mp3
 Time: 281
@@ -847,7 +951,7 @@ Artist: Halo Nova
 Title: Triceracops
 Album: Monstercat 002 - Early Stage
 Track: 14/15
-mtime: 1375048794
+mtime: 1390045242
 song_end
 song_begin: 15 The BASSEX.mp3
 Time: 214
@@ -855,11 +959,11 @@ Artist: Arion
 Title: The BASSEX
 Album: Monstercat 002 - Early Stage
 Track: 15/15
-mtime: 1375048803
+mtime: 1390045242
 song_end
 end: Monstercat 002 - Early Stage
 directory: Monstercat 003 - Momentum
-mtime: 1375019717
+mtime: 1390045224
 begin: Monstercat 003 - Momentum
 song_begin: Shivers - Matduke ft. Metzen.mp3
 Time: 285
@@ -868,7 +972,7 @@ AlbumArtist: Various Artist
 Title: Shivers
 Album: Monstercat 003 - Momentum
 Track: 1/15
-mtime: 1375019717
+mtime: 1390045223
 song_end
 song_begin: Limitless - Project 46.mp3
 Time: 420
@@ -877,7 +981,7 @@ AlbumArtist: Various Artist
 Title: Limitless
 Album: Monstercat 003 - Momentum
 Track: 2/15
-mtime: 1375019663
+mtime: 1390045224
 song_end
 song_begin: Belgium - Eminence & Alex Farway.mp3
 Time: 404
@@ -886,7 +990,7 @@ AlbumArtist: Various Artist
 Title: Belgium
 Album: Monstercat 003 - Momentum
 Track: 3/15
-mtime: 1375019677
+mtime: 1390045223
 song_end
 song_begin: Android - Obsidia.mp3
 Time: 309
@@ -895,7 +999,7 @@ AlbumArtist: Various Artist
 Title: Android
 Album: Monstercat 003 - Momentum
 Track: 4/15
-mtime: 1375019717
+mtime: 1390045223
 song_end
 song_begin: Top of the World - Stephen Walking.mp3
 Time: 180
@@ -904,7 +1008,7 @@ AlbumArtist: Various Artist
 Title: Top of the World
 Album: Monstercat 003 - Momentum
 Track: 5/15
-mtime: 1375019715
+mtime: 1390045223
 song_end
 song_begin: Stockholm - Hellberg.mp3
 Time: 260
@@ -913,7 +1017,7 @@ AlbumArtist: Various Artist
 Title: Stockholm
 Album: Monstercat 003 - Momentum
 Track: 6/15
-mtime: 1375019715
+mtime: 1390045223
 song_end
 song_begin: Division - Ephixa (Dubstep).mp3
 Time: 370
@@ -922,7 +1026,7 @@ AlbumArtist: Various Artist
 Title: Division
 Album: Monstercat 003 - Momentum
 Track: 7/15
-mtime: 1375019689
+mtime: 1390045223
 song_end
 song_begin: The Technician - Matduke (Neilio Remix).mp3
 Time: 330
@@ -931,7 +1035,7 @@ AlbumArtist: Various Artist
 Title: The Technician (Neilio Remix)
 Album: Monstercat 003 - Momentum
 Track: 8/15
-mtime: 1375019705
+mtime: 1390045224
 song_end
 song_begin: Insomnia - Mr FijiWiji.mp3
 Time: 198
@@ -940,7 +1044,7 @@ AlbumArtist: Various Artist
 Title: Insomnia
 Album: Monstercat 003 - Momentum
 Track: 9/15
-mtime: 1375019705
+mtime: 1390045223
 song_end
 song_begin: Going Quantum & Stephen Walking - Full Grizzly.mp3
 Time: 213
@@ -949,7 +1053,7 @@ AlbumArtist: Various Artist
 Title: Full Grizzly
 Album: Monstercat 003 - Momentum
 Track: 10/15
-mtime: 1375019669
+mtime: 1390045222
 song_end
 song_begin: Formless - Feint.mp3
 Time: 275
@@ -958,7 +1062,7 @@ AlbumArtist: Various Artist
 Title: Formless
 Album: Monstercat 003 - Momentum
 Track: 11/15
-mtime: 1375019717
+mtime: 1390045223
 song_end
 song_begin: Full Focus - Noisestorm.mp3
 Time: 237
@@ -967,7 +1071,7 @@ AlbumArtist: Various Artist
 Title: Full Focus
 Album: Monstercat 003 - Momentum
 Track: 12/15
-mtime: 1375019713
+mtime: 1390045224
 song_end
 song_begin: Slide - Project 46.mp3
 Time: 423
@@ -976,7 +1080,7 @@ AlbumArtist: Various Artist
 Title: Slide
 Album: Monstercat 003 - Momentum
 Track: 13/15
-mtime: 1375019704
+mtime: 1390045224
 song_end
 song_begin: Elements of Sanity - Arion.mp3
 Time: 228
@@ -985,7 +1089,7 @@ AlbumArtist: Various Artist
 Title: Elements of Sanity
 Album: Monstercat 003 - Momentum
 Track: 14/15
-mtime: 1375019715
+mtime: 1390045224
 song_end
 song_begin: Varien - Cloak and Dagger.mp3
 Time: 254
@@ -994,38 +1098,34 @@ AlbumArtist: Various Artist
 Title: Cloak and Dagger
 Album: Monstercat 003 - Momentum
 Track: 15/15
-mtime: 1375019717
+mtime: 1390045224
 song_end
 end: Monstercat 003 - Momentum
 directory: OST
-mtime: 1374574614
+mtime: 1390045241
 begin: OST
-song_begin: Assassins Creed 2 OST.mp3
-Time: 6874
-mtime: 1316886207
+song_begin: Braid Soundtrack - [Full] - [HQ]-TqOVpiXfq0o.mp3
+Time: 3147
+mtime: 1390045241
 song_end
-song_begin: Chrono Trigger OST.mp3
-Time: 7733
-mtime: 1346600331
+song_begin: Full Machinarium OST-03l0ksPHYG4.mp3
+Time: 3866
+mtime: 1390045240
 song_end
 song_begin: TES - Morrowind OST.mp3
 Time: 2718
-mtime: 1335786378
+mtime: 1390045242
 song_end
 song_begin: TES - Oblivion Soundtrack.m4a
 Time: 3570
-mtime: 1347121837
-song_end
-song_begin: TES - Skyrim OST.mp3
-Time: 3790
-mtime: 1333902801
+mtime: 1390045238
 song_end
 end: OST
 directory: StrawbellyCake
-mtime: 1377947964
+mtime: 1390045237
 begin: StrawbellyCake
 directory: songs
-mtime: 1377947964
+mtime: 1390045237
 begin: StrawbellyCake/songs
 song_begin: StrawbellyCake - Bad Apple.mp3
 Time: 219
@@ -1033,7 +1133,7 @@ Artist: StrawbellyCake
 Title: BAD APPLE
 Date: 2010
 Genre: Other
-mtime: 1333091978
+mtime: 1390045237
 song_end
 end: StrawbellyCake/songs
 song_begin: StrawbellyCake - Bad Apple.mp3
@@ -1042,12 +1142,140 @@ Artist: StrawbellyCake
 Title: BAD APPLE
 Date: 2010
 Genre: Other
-mtime: 1303135679
+mtime: 1390045237
 song_end
 end: StrawbellyCake
-directory: Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]
-mtime: 1375099961
-begin: Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]
+directory: Tycho
+mtime: 1390045229
+begin: Tycho
+directory:  Dive (2011)
+mtime: 1390045232
+begin: Tycho/ Dive (2011)
+song_begin: 01 A Walk.mp3
+Time: 317
+Artist: Tycho
+AlbumArtist: Tycho
+Title: A Walk
+Album: Dive
+Track: 1/10
+Date: 2011
+Genre: Electronic
+Disc: 1/1
+mtime: 1390045232
+song_end
+song_begin: 02 Hours.mp3
+Time: 344
+Artist: Tycho
+AlbumArtist: Tycho
+Title: Hours
+Album: Dive
+Track: 2/10
+Date: 2011
+Genre: Electronic
+Disc: 1/1
+mtime: 1390045230
+song_end
+song_begin: 03 Daydream.mp3
+Time: 334
+Artist: Tycho
+AlbumArtist: Tycho
+Title: Daydream
+Album: Dive
+Track: 3/10
+Date: 2011
+Genre: Electronic
+Disc: 1/1
+mtime: 1390045231
+song_end
+song_begin: 04 Dive.mp3
+Time: 500
+Artist: Tycho
+AlbumArtist: Tycho
+Title: Dive
+Album: Dive
+Track: 4/10
+Date: 2011
+Genre: Electronic
+Disc: 1/1
+mtime: 1390045232
+song_end
+song_begin: 05 Coastal Brake.mp3
+Time: 334
+Artist: Tycho
+AlbumArtist: Tycho
+Title: Coastal Brake
+Album: Dive
+Track: 5/10
+Date: 2011
+Genre: Electronic
+Disc: 1/1
+mtime: 1390045230
+song_end
+song_begin: 06 Ascension.mp3
+Time: 264
+Artist: Tycho
+AlbumArtist: Tycho
+Title: Ascension
+Album: Dive
+Track: 6/10
+Date: 2011
+Genre: Electronic
+Disc: 1/1
+mtime: 1390045231
+song_end
+song_begin: 07 Melanine.mp3
+Time: 173
+Artist: Tycho
+AlbumArtist: Tycho
+Title: Melanine
+Album: Dive
+Track: 7/10
+Date: 2011
+Genre: Electronic
+Disc: 1/1
+mtime: 1390045229
+song_end
+song_begin: 08 Adrift.mp3
+Time: 362
+Artist: Tycho
+AlbumArtist: Tycho
+Title: Adrift
+Album: Dive
+Track: 8/10
+Date: 2011
+Genre: Electronic
+Disc: 1/1
+mtime: 1390045231
+song_end
+song_begin: 09 Epigram.mp3
+Time: 149
+Artist: Tycho
+AlbumArtist: Tycho
+Title: Epigram
+Album: Dive
+Track: 9/10
+Date: 2011
+Genre: Electronic
+Disc: 1/1
+mtime: 1390045229
+song_end
+song_begin: 10 Elegy.mp3
+Time: 264
+Artist: Tycho
+AlbumArtist: Tycho
+Title: Elegy
+Album: Dive
+Track: 10/10
+Date: 2011
+Genre: Electronic
+Disc: 1/1
+mtime: 1390045230
+song_end
+end: Tycho/ Dive (2011)
+end: Tycho
+directory: Woodkid - The Golden Age
+mtime: 1390045222
+begin: Woodkid - The Golden Age
 song_begin: 01 Woodkid - The Golden Age.mp3
 Time: 227
 Artist: Woodkid
@@ -1059,7 +1287,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: Woodkid
 Disc: 1
-mtime: 1375099957
+mtime: 1390045222
 song_end
 song_begin: 02 Woodkid - Run Boy Run.mp3
 Time: 215
@@ -1072,7 +1300,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: Woodkid & Ambroise Willaume
 Disc: 1
-mtime: 1375099871
+mtime: 1390045222
 song_end
 song_begin: 03 Woodkid - The Great Escape.mp3
 Time: 197
@@ -1085,7 +1313,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: Guillaume Briere
 Disc: 1
-mtime: 1375099955
+mtime: 1390045221
 song_end
 song_begin: 04 Woodkid - Boat Song.mp3
 Time: 272
@@ -1098,7 +1326,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: Woodkid, Mitchell Yoshida
 Disc: 1
-mtime: 1375099956
+mtime: 1390045221
 song_end
 song_begin: 05 Woodkid - I Love You.mp3
 Time: 232
@@ -1111,7 +1339,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: Woodkid & Ambroise Willaume
 Disc: 1
-mtime: 1375099960
+mtime: 1390045221
 song_end
 song_begin: 06 Woodkid - The Shore.mp3
 Time: 256
@@ -1124,7 +1352,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: Woodkid
 Disc: 1
-mtime: 1375099957
+mtime: 1390045220
 song_end
 song_begin: 07 Woodkid - Ghost Lights.mp3
 Time: 222
@@ -1137,7 +1365,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: Woodkid
 Disc: 1
-mtime: 1375099959
+mtime: 1390045220
 song_end
 song_begin: 08 Woodkid - Shadows.mp3
 Time: 127
@@ -1150,7 +1378,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: Woodkid
 Disc: 1
-mtime: 1375099961
+mtime: 1390045222
 song_end
 song_begin: 09 Woodkid - Stabat Mater.mp3
 Time: 171
@@ -1163,7 +1391,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: SebastiAn
 Disc: 1
-mtime: 1375099956
+mtime: 1390045221
 song_end
 song_begin: 10 Woodkid - Conquest Of Spaces.mp3
 Time: 272
@@ -1176,7 +1404,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: Woodkid
 Disc: 1
-mtime: 1375099958
+mtime: 1390045221
 song_end
 song_begin: 11 Woodkid - Falling.mp3
 Time: 45
@@ -1189,7 +1417,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: Woodkid
 Disc: 1
-mtime: 1375099947
+mtime: 1390045222
 song_end
 song_begin: 12 Woodkid - Where I Live.mp3
 Time: 267
@@ -1202,7 +1430,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: Woodkid
 Disc: 1
-mtime: 1375099956
+mtime: 1390045221
 song_end
 song_begin: 13 Woodkid - Iron.mp3
 Time: 204
@@ -1215,7 +1443,7 @@ Date: 2013
 Genre: Indie Rock
 Composer: Woodkid
 Disc: 1
-mtime: 1375099957
+mtime: 1390045222
 song_end
 song_begin: 14 Woodkid - The Other Side.mp3
 Time: 222
@@ -1228,6 +1456,6 @@ Date: 2013
 Genre: Indie Rock
 Composer: Woodkid
 Disc: 1
-mtime: 1375099958
+mtime: 1390045221
 song_end
-end: Woodkid - The Golden Age 2013 Indie Rock 320kbps CBR MP3 [VX]
+end: Woodkid - The Golden Age
