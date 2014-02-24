@@ -1,15 +1,15 @@
 ;; A file for my keybindings
 
 (global-set-key (kbd "C-c s s")
-                      (lambda ()
-                        (interactive)
-                        (shell-command "bash ~/scripts/startup.sh")))
+		(lambda ()
+		  (interactive)
+		  (shell-command "bash ~/scripts/startup.sh")))
 
 
 (global-set-key (kbd "C-c s d")
-                      (lambda ()
-                        (interactive)
-                        (shell-command "bash ~/scripts/startupdk.sh")))
+		(lambda ()
+		  (interactive)
+		  (shell-command "bash ~/scripts/startupdk.sh")))
 
 (global-set-key (kbd "M-[") 'forward-paragraph)
 (global-set-key (kbd "M-]") 'backward-paragraph)
@@ -29,21 +29,28 @@
 (global-set-key (kbd "C-c x") 'magit-status)
 
 (global-set-key (kbd "C-c i")
-                (lambda()
-                  (interactive)
-                  (find-file "~/.emacs.d/init.el")))
+		(lambda()
+		  (interactive)
+		  (find-file "~/.emacs.d/init.el")))
 
 (global-set-key (kbd "C-c t")
-                (lambda()
-                  (interactive)
-                  (find-file "~/org/TODO.org")))
+		(lambda()
+		  (interactive)
+		  (find-file "~/Documents/projects/org-files/agenda/TODO.org")))
 
 (global-set-key (kbd "C-c e")
-                (lambda()
-                  (interactive)
-                  (find-file "~/org/Everything.org")))
+		(lambda()
+		  (interactive)
+		  (find-file "~/Documents/projects/org-files/Everything.org")))
 
+(global-set-key (kbd "C-c o")
+		(lambda()
+		  (interactive)
+		  (find-file "~/Documents/projects/org-files/SUM.org")))
 
+(global-set-key (kbd "C-x C-f") '(message "Use ,f instead")) ; was digit-argument
+(global-set-key (kbd "C-x b") '(message "Use ,b instead")) ; was digit-argument
+(global-set-key (kbd "C-x C-s") '(message "Use ,w instead")) ; was digit-argument
 
 
 (provide 'rune-keybinding)
