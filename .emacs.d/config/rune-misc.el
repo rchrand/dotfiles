@@ -1,19 +1,29 @@
 (add-to-list 'load-path "~/.emacs.d/vendor/")
 (put 'dired-find-alternate-file 'disabled nil)
 
-;; (add-hook 'sgml-mode-hook 'emmet-mode)
-;; (add-hook 'css-mode-hook 'emmet-mode)
-;; (add-hook 'haml-mode-hook 'emmet-mode)
+(require 'linum-relative)
+(global-linum-mode)
+   
+(global-set-key (kbd "C-c k")
+                (lambda ()
+                  (interactive)
+                  (if (equal t global-linum-mode)
+                      (global-linum-mode 0)
+                    (global-linum-mode 1))))
 
-;; (add-to-list 'load-path (expand-file-name "~/.emacs.d/vendor/scss-mode"))
-;; (autoload 'scss-mode "scss-mode")
-;; (add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
 
-;; (require 'web-mode)
-;; (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
-;; (add-to-list 'auto-mode-alist '("\\.handlebars\\'" . web-mode))
-;; (add-to-list 'auto-mode-alist '("\\.jsp\\'" . web-mode))
-;; (add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+;; Smooth scrolling
+(setq redisplay-dont-pause t
+      mouse-wheel-progressive-speed nil
+      scroll-margin 1
+      scroll-step 1
+      scroll-conservatively 10000
+      scroll-preserve-screen-position 1)
 
-(add-to-list 'auto-mode-alist '("Cask" . emacs-lisp-mode))
+;; Projectile
+(require 'projectile)
+(projectile-global-mode)
+(setq projectile-show-paths-function 'projectile-hashify-with-relative-paths)
+
+
 (provide 'rune-misc)

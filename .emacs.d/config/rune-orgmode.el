@@ -1,17 +1,21 @@
 ;;;package --
 ;(require 'org-mode)
 
-(setq org-todo-keywords '((sequence "TODO" "DONE" "CANCELED" "REVIEW" "DOING" "BUG" "ON HOLD")))
+(setq org-todo-keywords '((sequence "TODO" "DONE" "ON HOLD" "REVIEW" "DOING" "BUG" "IF TIME" "CANCELED")))
 (setq org-todo-keyword-faces
   '(("TODO" . org-warning)
-   ("CANCELED" . "red")
+   ("CANCELED" . "DarkRed")
    ("REVIEW" . "chocolate4")
    ("BUG" . "gold2")
    ("DONE" . "OliveDrab4")
-   ("ON HOLD" . "dark red")
-   ("DOING" . "DodgetBlue3")))
+   ("ON HOLD" . "tomato4")
+   ("IF TIME" . "OrangeRed")
+   ("DOING" . "PeachPuff")))
 
-(setq org-agenda-files (list "~/org/TODO.org" "~/org/CS.org" "~/org/Personal.org" "~/org/Work.org"))
+(setq org-agenda-files (list "~/Documents/projects/org-files/agenda/TODO.org"
+                             "~/Documents/projects/org-files/agenda/CS.org"
+                             "~/Documents/projects/org-files/agenda/Work.org"
+                             "~/Documents/projects/org-files/agenda/Personal.org"))
 
 (setq org-startup-with-inline-images t)
 
@@ -26,11 +30,11 @@
 
 (setq org-fontify-done-headline t)
 (custom-set-faces
- '(org-done ((t (:foreground "PaleGreen"   
+ '(org-done ((t (:foreground "PaleGreen"
                  :weight normal
                  :strike-through t))))
- '(org-headline-done 
-            ((((class color) (min-colors 16) (background dark)) 
+ '(org-headline-done
+            ((((class color) (min-colors 16) (background dark))
                (:foreground "LightSalmon" :strike-through t)))))
 
 (setq org-agenda-start-on-weekday 0)

@@ -4,7 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # time that oh-my-zsh is loaded.
-ZSH_THEME="blinks"
+ZSH_THEME="robbyrussell"
 
 export BROWSER="firefox"
 export EDITOR="vim"
@@ -30,7 +30,7 @@ alias mpds="mpd ~/.mpd/mpd.conf"
 alias pyserver="python -m http.server"
 alias startup="bash ~/scripts/startup.sh"
 alias startupdk="bash ~/scripts/startupdk.sh"
-alias startred="redshift -l 56.162939:10.203921 -t 5700:3600 -g 0.8 -m vidmode &"
+alias startred="redshift -l 56.162939:10.203921 -t 5700:3600 -g 0.8 -m randr &"
 alias be='bundle exec'
 alias bers='bundle exec rails server'
 alias berg='bundle exec rails g'
@@ -49,11 +49,15 @@ alias redwm='cd ~/dwm; updpkgsums; makepkg -efi --noconfirm; killall dwm'
 alias musickb="echo 'Volume up: Meta-Shift u\nVolume down: Meta-Shift d\nMute alsa: Meta-Shift m\nNext song: Meta-Ctrl j\nPrev song: Meta-Ctrl k\nToggle play: Meta-Ctrl t'"
 alias donotturnoff="xset -dpms; xset s off"
 alias turnoff="xset dpms force off"
+alias bat="echo $(cat /sys/class/power_supply/BAT0/capacity)%"
+alias aps="apt-cache search"
+alias api="sudo apt-get install"
+alias e="emacsclient -c &"
 
 plugins=(git vagrant rails tmux archlinux Tim)
 
 source $ZSH/oh-my-zsh.sh
-source ~/git_projects/z/z.sh
+source ~/Documents/projects/z/z.sh
 
 # Customize to your needs...
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/core_perl:/home/rune/.gem/ruby/2.0.0/bin:/home/rune/.rbenv/bin:/home/rune/.cask/bin:/home/rune/.local/bin:
