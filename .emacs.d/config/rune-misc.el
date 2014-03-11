@@ -20,6 +20,9 @@
       scroll-conservatively 10000
       scroll-preserve-screen-position 1)
 
+;; Remove the backup files - urgh
+(setq make-backup-files nil)
+
 ;; Projectile
 (require 'projectile)
 (projectile-global-mode)
