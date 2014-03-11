@@ -24,6 +24,8 @@
   "f"  'find-file
   "b"  'helm-buffers-list
   "e"  'term
+  "o"  'other-window
+  "a"  'ag
   "w"  'save-buffer
   "s"  'fiplr-find-file
   "u"  'undo-tree-visualize

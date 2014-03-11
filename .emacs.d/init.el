@@ -10,17 +10,19 @@
 (package-initialize)
 
 
-(defvar my-packages '( ;; Core
-                    ace-jump-mode auto-complete
-                    diminish
-                    dired-details
-                    evil evil-numbers evil-paredit evil-leader
-                    key-chord
-                    exec-path-from-shell
-                    magit
-                    ignoramus
-                    perspective
+(defvar my-packages '(
+		    ;; Utilities
+		    f s dash
+		    ;; Core
+                    auto-complete diminish dired-details
+                    key-chord exec-path-from-shell
+                    magit ignoramus perspective
                     linum-relative
+
+		    ;; Evil stuff
+                    evil evil-numbers evil-paredit evil-leader
+		    ace-jump-mode 
+
                     ;; Searching
                     ag
                     findr fiplr grizzl
@@ -32,7 +34,7 @@
                     popup popwin
 
                     ;; Color themes
-                    ample-theme
+                    spacegray-theme
 
                     ;; Langauges
                     cider clojure-mode ;; Clojure
@@ -87,6 +89,3 @@
 (require 'rune-ruby)
 (require 'rune-functions)
 (require 'rune-keybinding)
-
-(if (eq system-type 'darwin)
-    (require 'rune-osx))
