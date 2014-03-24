@@ -1,19 +1,20 @@
-(defadvice load-theme  
-  (before theme-dont-propagate activate) 
-  (mapc #'disable-theme custom-enabled-themes))
-
-(setq calendar-location-name "Aarhus, Denmark")
-(setq calendar-latitude 56.199614)
-(setq calendar-longitude 10.172997)
-
+;; Themes
 (load-theme 'spacegray t)
 
-(set-frame-font "Inconsolata")
-(set-face-attribute 'default nil :height 110) ; Font size
+;; Fonts
+(set-frame-font "Source Code Pro")
+(set-face-attribute 'default nil :height 125) ; Font size
 (global-font-lock-mode 1)
 
+;; UI misc thing
 (defalias 'yes-or-no-p 'y-or-n-p)
 
+(setq use-file-dialog nil)
+(setq use-dialog-box nil)
+
+(setq inhibit-startup-echo-area-message t)
+
+;; Disable the clutter
 (scroll-bar-mode 0)
 (tool-bar-mode 0)
 (menu-bar-mode 0)
