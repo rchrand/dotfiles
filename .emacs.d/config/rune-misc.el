@@ -1,16 +1,12 @@
-(add-to-list 'load-path "~/.emacs.d/vendor/")
-(put 'dired-find-alternate-file 'disabled nil)
+;; Diminish a minor mode
+(require 'diminish)
 
-(require 'linum-relative)
-(global-linum-mode)
-   
-(global-set-key (kbd "C-c k")
-                (lambda ()
-                  (interactive)
-                  (if (equal t global-linum-mode)
-                      (global-linum-mode 0)
-                    (global-linum-mode 1))))
-
+;; Uniquify
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'reverse)
+(setq uniquify-separator " • ")
+(setq uniquify-after-kill-buffer-p t)
+(setq uniquify-ignore-buffers-re "^\\*")
 
 ;; Smooth scrolling
 (setq redisplay-dont-pause t
@@ -20,13 +16,17 @@
       scroll-conservatively 10000
       scroll-preserve-screen-position 1)
 
-;; Remove the backup files - urgh
-(setq make-backup-files nil)
-
 ;; Projectile
 (require 'projectile)
 (projectile-global-mode)
 (setq projectile-show-paths-function 'projectile-hashify-with-relative-paths)
 
+;; Smart mode line
+(setq sml/theme 'respectful)
+(sml/setup)
+
+;; Yasnippet
+(require 'yasnippet)
+(yas-global-mode 1)
 
 (provide 'rune-misc)

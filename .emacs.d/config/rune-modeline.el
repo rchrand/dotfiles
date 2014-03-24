@@ -3,13 +3,13 @@
 
 ;; Unclutter the modeline
 (require 'diminish)
-(eval-after-load "yasnippet" '(diminish 'yas-minor-mode))
 (eval-after-load "auto-complete" '(diminish 'auto-complete-mode))
 (eval-after-load "eldoc" '(diminish 'eldoc-mode))
 ;(eval-after-load "rainbow-mode" '(diminish 'rainbow-mode))
 (eval-after-load "abbrev" '(diminish 'abbrev-mode))
 (eval-after-load "undo-tree" '(diminish 'undo-tree-mode))
 (eval-after-load "flycheck" '(diminish 'flycheck-mode))
+(eval-after-load "helm" '(diminish 'helm-mode))
 
 (eval-after-load "clojure-mode"
   '(defadvice clojure-mode (after clj-rename-modeline activate)

@@ -19,12 +19,13 @@
 
 ;; Leaders
 (evil-leader/set-key
-  "x"  'execute-extended-command
+  "x"  'smex
   "g"  'magit-status
   "f"  'find-file
-  "b"  'helm-buffers-list
+  "b"  'ido-switch-buffer
   "e"  'term
   "o"  'other-window
+  "v"  'describe-variable
   "a"  'ag
   "w"  'save-buffer
   "s"  'fiplr-find-file
@@ -33,7 +34,7 @@
   "ps" 'projectile-switch-project
   "pg" 'projectile-grep)
 
-(global-set-key (kbd "C-a") 'evil-numbers/inc-at-pt) ;; This increas a number by one
-(define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
+;; This increas a number by one
+(global-set-key (kbd "C-a") 'evil-numbers/inc-at-pt) 
 
 (provide 'rune-evil)
