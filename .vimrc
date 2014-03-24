@@ -8,7 +8,6 @@ Bundle 'plasticboy/vim-markdown'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'kien/ctrlp.vim'
 Bundle 'myusuf3/numbers.vim'
-Bundle 'majutsushi/tagbar'
 Bundle 'takac/vim-hardtime'
 Bundle 'ervandew/supertab'
 Bundle 'cakebaker/scss-syntax.vim'
@@ -22,6 +21,7 @@ Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-haml'
+Bundle "daylerees/colour-schemes", { "rtp": "vim-themes/" }
 
 let g:ruby_path = system('echo $HOME/.rbenv/shims') " Is needed for some plugins
 let g:hardtime_default_on = 1
@@ -35,13 +35,17 @@ set nocompatible        " use Vim defaults
 set mouse=               " make sure mouse is NOT used in all cases.
 set encoding=utf-8
 
+" MacVim specfics commands
+autocmd VimLeave * macaction terminate:
+
 """ Visual configs 
 set t_Co=256            " set 256 color
 syntax enable               " enable syntax highlighting
-set background=dark
-let g:hybrid_use_Xresources = 1
-colorscheme hybrid
+"set background=dark " needs to be on to control some themes (solarized)
+"let g:hybrid_use_Xresources = 1
+colorscheme peacocks-in-space
 
+""
 set shortmess+=I        " disable the welcome screen
 set ruler               " ruler display in status line
 set showmatch           " show matching brackets (),{},[]
@@ -64,9 +68,9 @@ set expandtab           " insert spaces instead of tab chars
 set tabstop=2           " a n-space tab width
 set shiftwidth=2        " allows the use of < and > for VISUAL indenting
 set softtabstop=2       " counts n spaces when DELETE or BCKSPCE is used
-
+"""
 " Powerline Setup
-set guifont=Source\ Code\ Pro\ 10
+set guifont=Source\ Code\ Pro:h14
 set laststatus=2 " Always shows the statusline
 
 """ Searching configs
@@ -158,7 +162,7 @@ nmap <C-b> :noh<CR>
 
 """ Plugin keybindings
 nmap <leader>b :CtrlPBuffer<CR> 
-let g:ctrlp_match_window_bottom = 0
+let g:ctrlp_match_window_bottom = 1
 let g:ctrlp_match_window_reversed = 0
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_dotfiles = 0
@@ -187,11 +191,10 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
-map <F2> :NERDTreeToggle<CR>
+nnoremap <leader>n :NERDTreeToggle<CR>
 
 " Airline
 let g:airline_right_sep = ' « '
 let g:airline_left_sep = ' » '
 let g:airline_theme="base16"
 
-nmap <F8> :TagbarToggle<CR>
