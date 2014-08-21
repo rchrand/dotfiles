@@ -2,66 +2,61 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
-
-export BROWSER="firefox"
+ZSH_THEME="norm"
 export EDITOR="vim"
-export LC_ALL="en_US.UTF-8"
-export LANGUAGE="en_US.UTF-8"
-[ -n "$TMUX" ] && export TERM=screen-256color
 
-[[ $TTY == "/dev/tty1" ]] && exec startx
-
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+# Standard
 alias ls="ls -lF --color"
 alias la="ls -laFh"
 alias g="git"
-alias tmux="tmux -2"
-alias ..="cd .."
+
+# Linux
+alias tmux="TERM=screen-256color tmux -2"
 alias ytmp3="youtube-dl -x --audio-format mp3"
-alias syu="packer -Syu"
-alias p="packer"
 alias mpds="mpd ~/.mpd/mpd.conf"
+
+# Python
 alias pyserver="python -m http.server"
-alias startup="bash ~/scripts/startup.sh"
-alias startupdk="bash ~/scripts/startupdk.sh"
-alias startred="redshift -l 56.162939:10.203921 -t 5700:3600 -g 0.8 -m randr &"
+
+# Ruby/Rails
 alias be='bundle exec'
 alias bers='bundle exec rails server'
 alias berg='bundle exec rails g'
 alias berd='bundle exec rails destroy'
-alias sss='sudo systemctl start'
-alias ssr='sudo systemctl restart'
-alias s='startup'
-alias samd='s && sudo amdcccle'
-alias sdk='startupdk'
-alias ack="echo 'Use ag!'"
-alias qdt="pacman -Qdt"
-alias lighttable="./Software/LightTable/LightTable"
-alias st="subl3"
-alias gogui="bash ~/Games/gogui-1.4.9/bin/gogui"
-alias redwm='cd ~/dwm; updpkgsums; makepkg -efi --noconfirm; killall dwm'
-alias musickb="echo 'Volume up: Meta-Shift u\nVolume down: Meta-Shift d\nMute alsa: Meta-Shift m\nNext song: Meta-Ctrl j\nPrev song: Meta-Ctrl k\nToggle play: Meta-Ctrl t'"
-alias donotturnoff="xset -dpms; xset s off"
-alias turnoff="xset dpms force off"
-alias bat="echo $(cat /sys/class/power_supply/BAT0/capacity)%"
-alias aps="apt-cache search"
-alias api="sudo apt-get install"
-alias e="emacsclient -c &"
 
-plugins=(git vagrant rails tmux archlinux Tim)
+#Ctags
+alias ctagsruby='ctags --recuse --languages=ruby --exclude=.git --exclude=log .'
+
+# Editors
+alias e="emacsclient -c &"
+alias m="mvim"
+
+# Servers
+alias startpsql="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias stoppsql="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+
+alias startmongo="mongod --dbpath /Users/rune/mongodb/data/db"
+
+# Brew
+function brew_search ()
+{
+  echo -e "*** Brew ***\n $(brew search $1)\n *** Brew Cask ***\n $(brew cask search $1)"
+}
+
+alias bs=brew_search
+alias bu="brew update && brew upgrade"
+
+plugins=(git vagrant rails tmux)
 
 source $ZSH/oh-my-zsh.sh
 source ~/Documents/projects/z/z.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/core_perl:/home/rune/.gem/ruby/2.0.0/bin:/home/rune/.rbenv/bin:/home/rune/.cask/bin:/home/rune/.local/bin:
+export PATH=$PATH:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/core_perl:/home/rune/.gem/ruby/2.0.0/bin:/home/rune/.rbenv/bin:/home/rune/.cask/bin:/home/rune/.local/bin:~/.rbenv/shims:
 
+export PATH=/usr/local/bin:$PATH
+# Rbenv
 eval "$(rbenv init -)"
 
-PATH="/usr/local/heroku/bin:$PATH"
+# Pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
