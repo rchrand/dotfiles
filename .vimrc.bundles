@@ -1,0 +1,57 @@
+if &compatible
+  set nocompatible
+end
+
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+
+" Define bundles via Github repos
+
+" Ruby/Rails
+Bundle 'slim-template/vim-slim'
+Bundle 'tpope/vim-rails'
+Bundle 'thoughtbot/vim-rspec'
+Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-endwise'
+
+" Web development
+Bundle 'kchmck/vim-coffee-script'
+Plugin 'mustache/vim-mustache-handlebars'
+
+" UI
+Bundle 'kien/rainbow_parentheses.vim'
+Plugin 'chriskempson/base16-vim'
+Bundle 'tpope/vim-surround'
+Bundle 'vim-scripts/matchit.zip'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'bling/vim-airline'
+Plugin 'spf13/vim-autoclose'
+Plugin 'alpaca-tc/beautify.vim'
+
+" Searching
+Bundle 'kien/ctrlp.vim'
+Bundle 'rking/ag.vim'
+
+" Editor
+Bundle 'scrooloose/syntastic'
+Bundle 'danro/rename.vim'
+Bundle 'vim-scripts/ctags.vim'
+Bundle 'vim-scripts/tComment'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'Shougo/neocomplete.vim'
+
+" Misc
+Bundle 'christoomey/vim-run-interactive'
+Bundle 'pbrisbin/vim-mkdir'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-repeat'
+Bundle 'takac/vim-hardtime'
+Bundle 'christoomey/vim-tmux-navigator'
+
+Plugin 'airblade/vim-gitgutter'
+
+filetype on
