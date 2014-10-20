@@ -1,0 +1,39 @@
+# Configs
+config defaultToCurrentScreen true
+config secondsBetweenRepeat 0.1
+config windowHintsShowIcons true
+config windowHintsIgnoreHiddenWindows false
+config windowHintsSpread true
+config nudgePercentOf screenSize
+config resizePercentOf screenSize
+config checkDefaultsOnLoad true
+config focusCheckWidthMax 3000
+config keyboardLayout dvorak
+config layoutFocusOnActivate true
+
+bind e:cmd;ctrl hint AOEUIDHTSPGYC
+
+# Single screen movement
+alias full move screenOriginX;screenOriginY screenSizeX;screenSizeY
+alias lefthalf move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
+alias righthalf move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY
+alias center move screenOriginX+screenSizeX/8;screenOriginY+screenSizeY/8 3*screenSizeX/4;3*screenSizeY/4
+
+
+bind left:cmd;alt ${lefthalf}
+bind up:cmd;alt ${full}
+bind right:cmd;alt ${righthalf}
+bind down:cmd;alt ${center}
+
+# Monitor switch
+alias 1-full move screenOriginX;screenOriginY screenSizeX;screenSizeY 0
+alias 2-full move screenOriginX;screenOriginY screenSizeX;screenSizeY 1
+
+bind 1:cmd;alt ${1-full}
+bind 2:cmd;alt ${2-full}
+
+# Layout
+layout editor-browser 'iTerm':REPEAT ${lefthalf}
+layout editor-browser 'Google Chrome':REPEAT ${righthalf}
+
+bind l:cmd;alt layout editor-browser

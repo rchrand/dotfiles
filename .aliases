@@ -1,0 +1,57 @@
+# Unix
+alias tlf="tail -f"
+alias ln='ln -v'
+alias mkdir='mkdir -p'
+alias ...='../..'
+alias l='ls'
+alias ll='ls -al'
+alias lh='ls -Alh'
+alias -g G='| grep'
+alias -g M='| less'
+alias -g L='| wc -l'
+alias -g ONE="| awk '{ print \$1}'"
+alias e="$EDITOR"
+alias v="$VISUAL"
+alias ta="tmux attach-session -t"
+alias tn="tmux new-session -s"
+
+# git
+alias gci="git pull --rebase && rake && git push"
+
+# Bundler
+alias b="bundle"
+
+# Tests and Specs
+alias t="ruby -I test"
+
+# Rails
+alias migrate="rake db:migrate db:rollback && rake db:migrate"
+alias m="migrate"
+alias rk="rake"
+alias s="rspec"
+alias be='bundle exec'
+alias bers='bundle exec rails server'
+alias berg='bundle exec rails g'
+alias berd='bundle exec rails destroy'
+alias ctagsruby='ctags --recuse --languages=ruby --exclude=.git --exclude=log .'
+
+# Editors
+alias e="emacsclient -c &"
+alias vim="/usr/local/Cellar/vim/7.4.430_1/bin/vim"
+
+# Servers
+alias startpsql="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias stoppsql="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+alias startmongo="mongod --dbpath /Users/rune/mongodb/data/db"
+
+# Brew
+function brew_search ()
+{
+  echo -e "***** Brew *****\n $(brew search $1)\n ***** Brew Cask *****\n $(brew cask search $1)"
+}
+
+alias bs=brew_search
+alias bu="brew update && brew upgrade && brew cleanup"
+
+# Vim
+alias newjournal="vim ~/org/journal.markdown"
