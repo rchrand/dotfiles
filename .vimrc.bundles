@@ -4,54 +4,53 @@ end
 
 filetype off
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call vundle#begin()
 
 " Let Vundle manage Vundle
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 " Define bundles via Github repos
 
 " Ruby/Rails
-Bundle 'slim-template/vim-slim'
-Bundle 'tpope/vim-rails'
-Bundle 'thoughtbot/vim-rspec'
-Bundle 'tpope/vim-bundler'
-Bundle 'tpope/vim-endwise'
+Plugin 'slim-template/vim-slim'
+Plugin 'tpope/vim-rails'
+Plugin 'thoughtbot/vim-rspec'
+Plugin 'tpope/vim-bundler'
+Plugin 'tpope/vim-endwise'
+Plugin 'vim-ruby/vim-ruby'
 
 " Web development
-Bundle 'kchmck/vim-coffee-script'
+Plugin 'kchmck/vim-coffee-script'
 Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'jelera/vim-javascript-syntax'
 
 " UI
-Bundle 'kien/rainbow_parentheses.vim'
 Plugin 'chriskempson/base16-vim'
-Bundle 'tpope/vim-surround'
-Bundle 'vim-scripts/matchit.zip'
+Plugin 'tpope/vim-surround'
+Plugin 'vim-scripts/matchit.zip'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'bling/vim-airline'
 Plugin 'spf13/vim-autoclose'
-Plugin 'alpaca-tc/beautify.vim'
 
 " Searching
-Bundle 'kien/ctrlp.vim'
-Bundle 'rking/ag.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'rking/ag.vim'
 
 " Editor
-Bundle 'scrooloose/syntastic'
-Bundle 'danro/rename.vim'
-Bundle 'vim-scripts/ctags.vim'
-Bundle 'vim-scripts/tComment'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'Shougo/neocomplete.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'vim-scripts/ctags.vim'
+Plugin 'vim-scripts/tComment'
 
+" Markdown
+Plugin 'tpope/vim-markdown'
+Plugin 'nelstrom/vim-markdown-folding'
 " Misc
-Bundle 'christoomey/vim-run-interactive'
-Bundle 'pbrisbin/vim-mkdir'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-repeat'
-Bundle 'takac/vim-hardtime'
-Bundle 'christoomey/vim-tmux-navigator'
+Plugin 'christoomey/vim-run-interactive'
+Plugin 'pbrisbin/vim-mkdir'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-repeat'
+Plugin 'takac/vim-hardtime'
+Plugin 'christoomey/vim-tmux-navigator'
 
-Plugin 'airblade/vim-gitgutter'
-
+call vundle#end()
 filetype on

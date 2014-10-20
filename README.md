@@ -1,4 +1,7 @@
 dotfiles
 ========
 
-All my dotfiles with a python script to initialize them as well, feel free to try them out.
+My dotfiles along with an script to install common things on a mac (taken from
+thoughtbot).
+
+The script is in the scripts folder
