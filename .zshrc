@@ -1,62 +1,112 @@
-# Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
-
-# Set name of the theme to load.
-ZSH_THEME="norm"
-export EDITOR="vim"
-
-# Standard
-alias ls="ls -lF --color"
-alias la="ls -laFh"
-alias g="git"
-
-# Linux
-alias tmux="TERM=screen-256color tmux -2"
-alias ytmp3="youtube-dl -x --audio-format mp3"
-alias mpds="mpd ~/.mpd/mpd.conf"
-
-# Python
-alias pyserver="python -m http.server"
-
-# Ruby/Rails
-alias be='bundle exec'
-alias bers='bundle exec rails server'
-alias berg='bundle exec rails g'
-alias berd='bundle exec rails destroy'
-
-#Ctags
-alias ctagsruby='ctags --recuse --languages=ruby --exclude=.git --exclude=log .'
-
-# Editors
-alias e="emacsclient -c &"
-alias m="mvim"
-
-# Servers
-alias startpsql="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
-alias stoppsql="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
-
-alias startmongo="mongod --dbpath /Users/rune/mongodb/data/db"
-
-# Brew
-function brew_search ()
-{
-  echo -e "*** Brew ***\n $(brew search $1)\n *** Brew Cask ***\n $(brew cask search $1)"
+# modify the prompt to contain git branch name if applicable
+git_prompt_info() {
+  ref=$(git symbolic-ref HEAD 2> /dev/null)
+  if [[ -n $ref ]]; then
+    echo " %{$fg_bold[green]%}${ref#refs/heads/}%{$reset_color%}"
+  fi
 }
+setopt promptsubst
+export PS1='${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%c%{$reset_color%}$(git_prompt_info) %# '
 
-alias bs=brew_search
-alias bu="brew update && brew upgrade"
+# load our own completion functions
+fpath=(~/.zsh/completion $fpath)
 
-plugins=(git vagrant rails tmux)
+# completion
+autoload -U compinit
+compinit
 
-source $ZSH/oh-my-zsh.sh
-source ~/Documents/projects/z/z.sh
+# load custom executable functions
+for function in ~/.zsh/functions/*; do
+  source $function
+done
 
-# Customize to your needs...
-export PATH=$PATH:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/core_perl:/home/rune/.gem/ruby/2.0.0/bin:/home/rune/.rbenv/bin:/home/rune/.cask/bin:/home/rune/.local/bin:~/.rbenv/shims:
+# makes color constants available
+autoload -U colors
+colors
 
-export PATH=/usr/local/bin:$PATH
-# Rbenv
-eval "$(rbenv init -)"
+# enable colored output from ls, etc
+export CLICOLOR=1
 
-# Pyenv
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+# history settings
+setopt hist_ignore_all_dups inc_append_history
+HISTFILE=~/.zhistory
+HISTSIZE=4096
+SAVEHIST=4096
+
+# awesome cd movements from zshkit
+setopt autocd autopushd pushdminus pushdsilent pushdtohome cdablevars
+DIRSTACKSIZE=5
+
+# Enable extended globbing
+setopt extendedglob
+
+# Allow [ or ] whereever you want
+unsetopt nomatch
+
+# vi mode
+bindkey -v
+bindkey "^F" vi-cmd-mode
+bindkey jj vi-cmd-mode
+
+# handy keybindings
+bindkey "^A" beginning-of-line
+bindkey "^E" end-of-line
+bindkey "^R" history-incremental-search-backward
+bindkey "^P" history-search-backward
+bindkey "^Y" accept-and-hold
+bindkey "^N" insert-last-word
+bindkey -s "^T" "^[Isudo ^[A" # "t" for "toughguy"
+
+# aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
+
+# extra files in ~/.zsh/configs/pre , ~/.zsh/configs , and ~/.zsh/configs/post
+# these are loaded first, second, and third, respectively.
+_load_settings() {
+  _dir="$1"
+  if [ -d "$_dir" ]; then
+    if [ -d "$_dir/pre" ]; then
+      for config in "$_dir"/pre/**/*(N-.); do
+        . $config
+      done
+    fi
+
+    for config in "$_dir"/**/*(N-.); do
+      case "$config" in
+        "$_dir"/pre/*)
+          :
+          ;;
+        "$_dir"/post/*)
+          :
+          ;;
+        *)
+          if [ -f $config ]; then
+            . $config
+          fi
+          ;;
+      esac
+    done
+
+    if [ -d "$_dir/post" ]; then
+      for config in "$_dir"/post/**/*(N-.); do
+        . $config
+      done
+    fi
+  fi
+}
+_load_settings "$HOME/.zsh/configs"
+
+# Z
+source ~/Documents/utilities/z/z.sh
+
+# Path exports
+export PATH="$HOME/.bin:$PATH"
+
+# recommended by brew doctor
+export PATH="/usr/local/bin:$PATH"
+
+export PATH="$PATH:/usr/local/lib/node_modules"
+source $(brew --prefix nvm)/nvm.sh
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init - zsh --no-rehash)"
