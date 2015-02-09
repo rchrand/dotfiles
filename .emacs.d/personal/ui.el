@@ -10,7 +10,7 @@
 (global-set-key (kbd "s-0") 'delete-window)
 
 ;; Font settings
-(set-frame-font "Anonymous Pro For Powerline")
+(set-frame-font "Meslo For Powerline")
 (set-face-attribute 'default nil :height 160)
 
 ;; Word wrap

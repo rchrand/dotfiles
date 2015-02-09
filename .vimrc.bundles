@@ -3,54 +3,36 @@ if &compatible
 end
 
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
 " Let Vundle manage Vundle
-Plugin 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
 " Define bundles via Github repos
-
-" Ruby/Rails
+Plugin 'christoomey/vim-run-interactive'
+Plugin 'croaky/vim-colors-github'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'kien/ctrlp.vim'
+Plugin 'pbrisbin/vim-mkdir'
+Plugin 'scrooloose/syntastic'
 Plugin 'slim-template/vim-slim'
-Plugin 'tpope/vim-rails'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-endwise'
-Plugin 'vim-ruby/vim-ruby'
-
-" Web development
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'mustache/vim-mustache-handlebars'
-Plugin 'jelera/vim-javascript-syntax'
-
-" UI
-Plugin 'chriskempson/base16-vim'
+Plugin 'tpope/vim-eunuch'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
-Plugin 'vim-scripts/matchit.zip'
-Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'bling/vim-airline'
-Plugin 'spf13/vim-autoclose'
-
-" Searching
-Plugin 'kien/ctrlp.vim'
-Plugin 'rking/ag.vim'
-
-" Editor
-Plugin 'scrooloose/syntastic'
+Plugin 'vim-ruby/vim-ruby'
 Plugin 'vim-scripts/ctags.vim'
+Plugin 'vim-scripts/matchit.zip'
 Plugin 'vim-scripts/tComment'
 
-" Markdown
-Plugin 'tpope/vim-markdown'
-Plugin 'nelstrom/vim-markdown-folding'
-" Misc
-Plugin 'christoomey/vim-run-interactive'
-Plugin 'pbrisbin/vim-mkdir'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-repeat'
-Plugin 'takac/vim-hardtime'
-Plugin 'christoomey/vim-tmux-navigator'
+if filereadable(expand("~/.vimrc.bundles.local"))
+  source ~/.vimrc.bundles.local
+endif
 
 call vundle#end()
 filetype on
