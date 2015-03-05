@@ -11,9 +11,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Define bundles via Github repos
 Plugin 'christoomey/vim-run-interactive'
-Plugin 'croaky/vim-colors-github'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'pbrisbin/vim-mkdir'
 Plugin 'scrooloose/syntastic'
 Plugin 'slim-template/vim-slim'
@@ -30,9 +28,32 @@ Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'vim-scripts/tComment'
 
-if filereadable(expand("~/.vimrc.bundles.local"))
-  source ~/.vimrc.bundles.local
-endif
+" Web development
+Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'digitaltoad/vim-jade'
+
+" UI
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'spf13/vim-autoclose'
+Plugin 'amdt/vim-niji'
+
+" Searching
+Plugin 'rking/ag.vim'
+
+" Markdown
+Plugin 'tpope/vim-markdown'
+Plugin 'nelstrom/vim-markdown-folding'
+
+" Misc
+Plugin 'takac/vim-hardtime'
+Plugin 'christoomey/vim-tmux-navigator'
+
+" Haskell
+Plugin 'Shougo/vimproc.vim'
+Plugin 'eagletmt/ghcmod-vim'
+Plugin 'chrisdone/hindent'
 
 call vundle#end()
 filetype on
+
