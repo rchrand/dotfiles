@@ -3,7 +3,10 @@
 set nocompatible
 
 " Leader
-let mapleader = " "
+let mapleader = ","
+
+" Set the shell because Vundle confuses them
+set shell=/bin/bash
 
 set backspace=2   " Backspace deletes like most programs in insert mode
 set nobackup
@@ -15,6 +18,7 @@ set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
+set clipboard=unnamed " Share clipboard with System
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -38,10 +42,6 @@ augroup vimrcEx
     \ if &ft != 'gitcommit' && line("'\"") > 0 && line("'\"") <= line("$") |
     \   exe "normal g`\"" |
     \ endif
-
-  " Cucumber navigation commands
-  autocmd User Rails Rnavcommand step features/step_definitions -glob=**/* -suffix=_steps.rb
-  autocmd User Rails Rnavcommand config config -glob=**/* -suffix=.rb -default=routes
 
   " Set syntax highlighting for specific file types
   autocmd BufRead,BufNewFile Appraisals set filetype=ruby
@@ -82,17 +82,31 @@ if executable('ag')
   let g:ctrlp_use_caching = 0
 endif
 
-" Color scheme
-colorscheme github
+" Tmux cursor
+if exists('$TMUX')
+  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+else
+  let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+endif
+
+" Font
+set guifont=Meslo\ For\ Powerline:h15
+
+" Colortheme
+set background=light
+colorscheme solarized
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
-"
+
 " Make it obvious where 80 characters is
 set textwidth=80
 set colorcolumn=+1
 
 " Numbers
 set number
+set relativenumber
 set numberwidth=5
 
 " Tab completion
@@ -146,9 +160,17 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
+" Window control
+nnoremap <leader>v <C-w>v<C-w>l
+nmap <leader>h :sp<CR>
+
 " configure syntastic syntax checking to check on open as well as save
 let g:syntastic_check_on_open=1
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
+let g:syntastic_error_symbol = '✗'
+let g:syntastic_style_error_symbol = '✠'
+let g:syntastic_warning_symbol = '∆'
+let g:syntastic_style_warning_symbol = '≈'
 
 " Set spellfile to location that is guaranteed to exist, can be symlinked to
 " Dropbox or kept in Git and managed outside of thoughtbot/dotfiles using rcm.
@@ -157,7 +179,65 @@ set spellfile=$HOME/.vim-spell-en.utf-8.add
 " Always use vertical diffs
 set diffopt+=vertical
 
-" Local config
-if filereadable($HOME . "/.vimrc.local")
-  source ~/.vimrc.local
-endif
+"Switch between the last two files
+nmap <C-e> :e#<CR>
+
+"CtrlP buffer
+nnoremap <leader>b :CtrlPBuffer<CR>
+
+" Explore
+nmap <leader>e :Explore<cr>
+
+" Macros
+nnoremap <Space> @q
+
+" Commands to get out of insert mode
+imap jj <Esc>
+
+" Because of Dvorak
+nnoremap Q :
+
+" Searching related
+nmap <C-b> :noh<CR>
+nnoremap <leader>a :Ag
+
+"" Some leader command
+nmap <leader>w :w!<cr>
+nmap <leader>x :wq<cr>
+
+" Hardtime
+let g:hardtime_default_on = 0
+nnoremap <leader>q :HardTimeToggle<CR>
+
+" Timestamp
+nmap <F4> a<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR><Esc>
+imap <F4> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
+
+" Pasting
+nnoremap <F2> <C-R>:set paste<CR>
+nnoremap <F3> <C-R>:set nopaste<CR>
+
+" Haskell
+let g:hindent_style = 'chris-done'
+
+" Scheme/Racket indent
+autocmd filetype lisp,scheme,art setlocal equalprg=~/scmindent.rkt
+
+" Niji
+let g:niji_dark_colours = [
+    \ [ '81', '#5fd7ff'],
+    \ [ '1',  '#dc322f'],
+    \ [ '99', '#875fff'],
+    \ [ '76', '#5fd700'],
+    \ [ '3',  '#b58900'],
+    \ [ '2',  '#859900'],
+    \ [ '6',  '#2aa198'],
+    \ [ '4',  '#268bd2'],
+    \ ]
+
+"Tmux vim runner
+nnoremap <leader>t :VtrSendLinesToRunner<CR>
+vnoremap <leader>t :VtrSendLinesToRunner<CR>
+
+" Latex
+let g:Tex_AutoFolding = 0
