@@ -1,0 +1,14 @@
+pane	all	1	:zsh	1	:*	1	:/Users/rune/Documents/gamedev	0	Vim	:/Applications/MacVim.app/Contents/MacOS/Vim .
+-zsh
+pane	all	1	:zsh	1	:*	2	:/Users/rune/Documents/gamedev	1	zsh	:-zsh
+pane	all	2	:zsh	0	: 	1	:/Users/rune/Documents/project-next	1	zsh	:-zsh
+pane	all	2	:zsh	0	: 	2	:/Users/rune/Documents/project-next	0	zsh	:-zsh
+pane	all	2	:zsh	0	: 	3	:/Users/rune	0	zsh	:-zsh
+pane	all	3	:zsh	0	: 	1	:/Users/rune/Documents/haskell	1	zsh	:/Applications/MacVim.app/Contents/MacOS/Vim kb5.pl
+-zsh
+pane	all	4	:zsh	0	:-	1	:/Users/rune	1	zsh	:-zsh
+window	all	1	1	:*	a164,158x46,0,0[158x34,0,0,0,158x11,0,35,5]
+window	all	2	0	: 	270d,158x46,0,0[158x35,0,0,2,158x10,0,36{79x10,0,36,3,78x10,80,36,4}]
+window	all	3	0	: 	c7c3,158x46,0,0,6
+window	all	4	0	:-	c7c4,158x46,0,0,7
+state	all	
