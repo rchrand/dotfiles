@@ -1,24 +1,11 @@
-# modify the prompt to contain git branch name if applicable
-git_prompt_info() {
-  ref=$(git symbolic-ref HEAD 2> /dev/null)
-  if [[ -n $ref ]]; then
-    echo " %{$fg_bold[green]%}${ref#refs/heads/}%{$reset_color%}"
-  fi
-}
-setopt promptsubst
-export PS1='${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%c%{$reset_color%}$(git_prompt_info) %# '
-
+# Needed beacuse of homebrew
+fpath+=("/usr/local/share/zsh/site-functions")
 # load our own completion functions
 fpath=(~/.zsh/completion $fpath)
 
 # completion
 autoload -U compinit
 compinit
-
-# load custom executable functions
-for function in ~/.zsh/functions/*; do
-  source $function
-done
 
 # makes color constants available
 autoload -U colors
@@ -33,9 +20,10 @@ HISTFILE=~/.zhistory
 HISTSIZE=4096
 SAVEHIST=4096
 
-# awesome cd movements from zshkit
-setopt autocd autopushd pushdminus pushdsilent pushdtohome cdablevars
-DIRSTACKSIZE=5
+# Prompts
+autoload -U promptinit
+promptinit
+prompt redhat
 
 # Enable extended globbing
 setopt extendedglob
@@ -43,70 +31,79 @@ setopt extendedglob
 # Allow [ or ] whereever you want
 unsetopt nomatch
 
-# vi mode
-bindkey -v
-bindkey "^F" vi-cmd-mode
-bindkey jj vi-cmd-mode
-
 # handy keybindings
 bindkey "^A" beginning-of-line
 bindkey "^E" end-of-line
 bindkey "^R" history-incremental-search-backward
 bindkey "^P" history-search-backward
-bindkey "^Y" accept-and-hold
 bindkey "^N" insert-last-word
-bindkey -s "^T" "^[Isudo ^[A" # "t" for "toughguy"
 
-# aliases
-[[ -f ~/.aliases ]] && source ~/.aliases
+## Aliases
+alias ln='ln -v'
+alias mkdir='mkdir -p'
+alias ..='cd ..'
+alias ...='../..'
+alias l='ls'
+alias ll='ls -al'
 
-# extra files in ~/.zsh/configs/pre , ~/.zsh/configs , and ~/.zsh/configs/post
-# these are loaded first, second, and third, respectively.
-_load_settings() {
-  _dir="$1"
-  if [ -d "$_dir" ]; then
-    if [ -d "$_dir/pre" ]; then
-      for config in "$_dir"/pre/**/*(N-.); do
-        . $config
-      done
-    fi
+# Tmux
+alias ta="tmux attach-session -t"
+alias tn="tmux new-session -s"
 
-    for config in "$_dir"/**/*(N-.); do
-      case "$config" in
-        "$_dir"/pre/*)
-          :
-          ;;
-        "$_dir"/post/*)
-          :
-          ;;
-        *)
-          if [ -f $config ]; then
-            . $config
-          fi
-          ;;
-      esac
-    done
+# Git
+alias gst="git status"
+alias g="git"
 
-    if [ -d "$_dir/post" ]; then
-      for config in "$_dir"/post/**/*(N-.); do
-        . $config
-      done
-    fi
-  fi
+# Bundler
+alias b="bundle"
+alias be='bundle exec'
+alias bers='bundle exec rails server'
+alias berg='bundle exec rails g'
+alias berd='bundle exec rails destroy'
+
+# Editors
+alias e='/Applications/Emacs.app/Contents/MacOS/Emacs "$@"'
+alias ec='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient -c'
+alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
+
+# OF
+alias iof="vim ~/Dropbox/todo.md"
+
+# Servers
+alias startpsql="pg_ctl -D /usr/local/var/postgres9.4 -l /usr/local/var/postgres/server.log start"
+alias stoppsql="pg_ctl -D /usr/local/var/postgres9.4 stop -s -m fast"
+
+# Ctags
+alias gtags="ctags -R *"
+
+# Brew
+function brew_search ()
+{
+  echo -e "***** Brew *****\n $(brew search $1)\n ***** Brew Cask *****\n $(brew cask search $1)"
 }
-_load_settings "$HOME/.zsh/configs"
+
+alias bs=brew_search
+alias bu="brew update && brew upgrade --all && brew cleanup"
+
+# SSH
 
 # Z
-source ~/Documents/utilities/z/z.sh
+source ~/.zsh/z/z.sh
 
 # Path exports
 export PATH="$HOME/.bin:$PATH"
 
+# Haskell/Cabal/Stack
+export PATH="~/.cabal/bin/:$PATH"
+export PATH="$HOME/Library/Haskell/bin:$PATH"
+export PATH="$HOME/Documents/haskell/stack:$PATH"
+
 # recommended by brew doctor
 export PATH="/usr/local/bin:$PATH"
 
-export PATH="$PATH:/usr/local/lib/node_modules"
-source $(brew --prefix nvm)/nvm.sh
-
+# Rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh --no-rehash)"
+
+# Racket
+export PATH="/Applications/Racket v6.1.1/bin:$PATH"
