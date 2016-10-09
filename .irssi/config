@@ -23,10 +23,7 @@ chatnets = {
 channels = (
   { 
     name = "#learnprogramming"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#prolog"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#haskell"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#angband"; chatnet = "Freenode"; autojoin = "yes"; },
-  { name = "#haskell-beginners"; chatnet = "Freenode"; autojoin = "yes"; }
+  { name = "#reddit-gamedev"; chatnet = "Freenode"; autojoin = "yes"; }
 );
 
 aliases = {
