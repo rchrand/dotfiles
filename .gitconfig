@@ -1,0 +1,14 @@
+[user]
+	email = rune.andersen92@gmail.com
+	name = Rune Andersen
+[push]
+	default = matching
+[alias]
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  aa = add --all
+  ca = commit --amend
+  co = checkout
+  ctags = "!sh -c '[ -f .git/hooks/ctags ] || git init; .git/hooks/ctags' git-ctags"
+  st = status
+[core]
+  autocrlf = input
