@@ -6,6 +6,7 @@ brew tap 'homebrew/bundle'
 brew tap 'homebrew/core'
 brew tap 'homebrew/services'
 brew tap 'homebrew/versions'
+brew tap 'homebrew/science'
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -55,11 +56,15 @@ brew install tree
 brew install irssi
 brew install redis
 brew install the_silver_searcher
+brew install r
+brew install neovim/neovim/neovim
 
 # Casks
 brew cask install 'appcleaner'
 brew cask install 'flux'
 brew cask install 'postgres'
+brew cask install 'vlc'
+brew cask install 'rstudio'
 
 # Remove outdated versions from the cellar.
 brew cleanup
