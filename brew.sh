@@ -7,6 +7,7 @@ brew tap 'homebrew/core'
 brew tap 'homebrew/services'
 brew tap 'homebrew/versions'
 brew tap 'homebrew/science'
+brew tap 'homebrew/completions'
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -56,15 +57,31 @@ brew install tree
 brew install irssi
 brew install redis
 brew install the_silver_searcher
-brew install r
 brew install neovim/neovim/neovim
+brew install rabbitmq
+brew install emacs --with-cocoa --with-gnutls --with-imagemagick --HEAD
+brew install heroku
+brew install ledger
+
+# Languages
+brew install r
+brew install elixir
+brew install python
+brew install mix-completion
+brew install rbenv
+brew instal leiningen
 
 # Casks
 brew cask install 'appcleaner'
 brew cask install 'flux'
-brew cask install 'postgres'
+# brew cask install 'postgres' # Download old version to match heroku
 brew cask install 'vlc'
 brew cask install 'rstudio'
+brew cask install 'macdown'
+brew cask install 'teamspeak-client'
+brew cask install 'battle-net'
+brew cask install 'steam'
+brew cask install 'kindle'
 
 # Remove outdated versions from the cellar.
 brew cleanup
