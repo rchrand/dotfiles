@@ -6,18 +6,19 @@ Plug 'tpope/vim-rails'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-vinegar'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-abolish'
+Plug 'tpope/vim-repeat'
 Plug 'spf13/vim-autoclose'
 Plug 'altercation/vim-colors-solarized'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-scripts/tComment'
-Plug 'rking/ag.vim'
+" Plug 'rking/ag.vim'
+Plug 'mileszs/ack.vim'
 Plug 'neomake/neomake'
-Plug 'jnurmine/Zenburn'
 Plug 'jszakmeister/vim-togglecursor'
-" Plug 'scrooloose/syntastic'
-
+Plug 'Olical/vim-enmasse'
 Plug 'justinmk/vim-syntax-extra'
 Plug 'sheerun/vim-polyglot'
 
@@ -29,7 +30,7 @@ Plug 'skalnik/vim-vroom'
 
 Plug 'junegunn/rainbow_parentheses.vim' " Awesome for everything with parentheses!
 
-Plug 'ervandew/supertab'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 call plug#end()
 
 " Sane defaults for vim
@@ -45,16 +46,21 @@ set noerrorbells
 set novisualbell
 set relativenumber 
 set number 
+set ignorecase
 
 " Leader
 let mapleader = "," 
 nnoremap <leader>w :w<CR>
 nnoremap <leader>x :wq<CR>
 
-" Ag
-let g:ag_prg="ag --vimgrep --smart-case"
+" Ag/Ack
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+" let g:ag_prg="ag --vimgrep --smart-case"
+let g:ack_working_path_mode="r"
 
-nnoremap <leader>a :Ag
+nnoremap <leader>a :Ack
 " Tabs and spaces
 set tabstop=2
 set shiftwidth=2
@@ -67,8 +73,10 @@ set lazyredraw
 
 " Color theme
 syntax enable
-" set background=light
-colorscheme zenburn
+set background=dark
+colorscheme solarized
+
+set guifont="Monoid:h16"
 
 " Because of Dvorak
 nnoremap Q : 
@@ -159,14 +167,14 @@ let g:vroom_use_spring = 0
 let g:vroom_use_dispatch = 0
 let g:vroom_clear_screen = 1
 let g:vroom_use_colors = 1
-let g:vroom_use_vimux = 1
+let g:vroom_use_terminal = 1
 let g:vroom_use_binstubs = 1
 let g:vroom_write_all  = 0
 let g:vroom_test_unit_command = 'm'
 nmap <silent> <leader>R :VroomRunNearestTest<CR>
 nmap <silent> <leader>r :VroomRunTestFile<CR>
 nmap <silent> <leader>l :VroomRunLastTest<CR>
-nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>T :TestSuite<CR>
 
 " Journal
 :nnoremap <F5> "=strftime("%a %d/%m - %H:%M:%S")<CR>P
@@ -185,3 +193,6 @@ fun! <SID>StripTrailingWhitespaces()
 endfun
 
 autocmd FileType c,cpp,java,php,ruby,python autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+
+" Use deoplete
+let g:deoplete#enable_at_startup = 1
