@@ -1,8 +1,8 @@
 [user]
-	email = rune.andersen92@gmail.com
-	name = Rune Andersen
+        email = rune.andersen92@gmail.com
+        name = Rune Andersen
 [push]
-	default = matching
+        default = matching
 [alias]
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   aa = add --all
@@ -12,3 +12,34 @@
   st = status
 [core]
   autocrlf = input
+
+  # git base safer on macOS
+  trustctime = false
+
+
+[pull]
+  rebase = true
+
+[fetch]
+  prune = true
+
+[color]
+  # Use colors in Git commands that are capable of colored output when
+  # outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
+  ui = auto
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red
+  new = green
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
