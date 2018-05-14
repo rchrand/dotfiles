@@ -59,7 +59,7 @@ brew install redis
 brew install the_silver_searcher
 brew install neovim/neovim/neovim
 brew install rabbitmq
-brew install emacs --with-cocoa --with-gnutls --with-imagemagick --HEAD
+brew install emacs --with-cocoa --with-gnutls --HEAD
 brew install heroku
 brew install ledger
 
