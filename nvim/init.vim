@@ -1,198 +1,132 @@
-call plug#begin('~/.vim/plugged')
-Plug 'benmills/vimux'
-Plug 'tpope/vim-sensible'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rails'
-Plug 'tpope/vim-endwise'
-Plug 'tpope/vim-vinegar'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-abolish'
-Plug 'tpope/vim-repeat'
-Plug 'spf13/vim-autoclose'
-Plug 'altercation/vim-colors-solarized'
-Plug 'vim-pandoc/vim-pandoc-syntax'
-Plug 'christoomey/vim-tmux-navigator'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'vim-scripts/tComment'
-" Plug 'rking/ag.vim'
-Plug 'mileszs/ack.vim'
-Plug 'neomake/neomake'
-Plug 'jszakmeister/vim-togglecursor'
-Plug 'Olical/vim-enmasse'
-Plug 'justinmk/vim-syntax-extra'
-Plug 'sheerun/vim-polyglot'
-
-" Javascript
-Plug 'moll/vim-node'
-Plug 'jiangmiao/simple-javascript-indenter'
-
-Plug 'skalnik/vim-vroom'
-
-Plug 'junegunn/rainbow_parentheses.vim' " Awesome for everything with parentheses!
-
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-call plug#end()
-
-" Sane defaults for vim
-set autoindent
-set magic
 set nobackup
-set noswapfile          
-set nowritebackup
-set showcmd
-set showmatch
-set smartcase
+set nowb
+set noswapfile
 set noerrorbells
-set novisualbell
-set relativenumber 
-set number 
-set ignorecase
 
-" Leader
-let mapleader = "," 
-nnoremap <leader>w :w<CR>
-nnoremap <leader>x :wq<CR>
+" set so=999
+set clipboard=unnamedplus
+set wildmenu
 
-" Ag/Ack
-if executable('ag')
-  let g:ackprg = 'ag --vimgrep'
+if has('mac')
+    set clipboard=unnamed
 endif
-" let g:ag_prg="ag --vimgrep --smart-case"
-let g:ack_working_path_mode="r"
 
-nnoremap <leader>a :Ack
-" Tabs and spaces
-set tabstop=2
-set shiftwidth=2
-set expandtab
+" Appearance "
 
-"Searching 
-set hlsearch
-set incsearch 
-set lazyredraw 
-
-" Color theme
 syntax enable
+
+set number
+set relativenumber
+set linespace=12
+
+set title
+set titlestring=%F\ -\ vim
+set showmode
+set modeline
+set laststatus=2
+
 set background=dark
-colorscheme solarized
 
-set guifont="Monoid:h16"
+" File behaviour "
 
-" Because of Dvorak
-nnoremap Q : 
-inoremap jk <ESC>
-"Switch between the last two files
-nmap <C-e> :e#<CR>
-
-" Javascript
-nmap <Leader>cl yiwoconsole.log('<c-r>"', <c-r>")<Esc>^
-
-" Share that damn clipboard
-set clipboard=unnamed " Share clipboard with System
-
-" Word wrapping
-set textwidth=95
-set tw=95
-set formatoptions+=t
+set expandtab
+set smarttab
+" set linebreak
+set breakindent
+set nostartofline
 set nowrap
 
-" CtrlP usage of ag
-" let g:ctrlp_working_path_mode = 'wa'
-if executable('ag')
-  " Use Ag over Grep
-  set grepprg=ag\ --nogroup\ --nocolor
+set shiftwidth=2
+set tabstop=2
 
-  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+" Search "
 
-  " ag is fast enough that CtrlP doesn't need to cache
-  let g:ctrlp_use_caching = 0
-endif
+set smartcase
+set hlsearch
+set incsearch
 
-let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
+" Panes "
 
-" Toggle numbers
-nnoremap <leader>n :exec &nu==&rnu? "se nu!" : "se rnu!"<CR>
+set splitbelow
+set splitright
 
-" Window control
-nnoremap <leader>v <C-w>v<C-w>l
-nmap <leader>h :sp<CR>
+" Bindings "
 
-" Ctrl P
-nnoremap <leader>b :CtrlPBuffer<CR>
+let mapleader="\<SPACE>"
+nnoremap <silent> <leader>f :Files<CR>
+nnoremap <silent> <leader>pf :GFiles<CR>
+nnoremap <silent> <leader>b :Buffers<CR>
+nnoremap <silent> <leader>a :Ag<CR>
+nnoremap <silent> <leader>r :Tags<CR>
 
-" Movement
-map <C-j> <C-W>j<C-W>_
-map <C-k> <C-W>k<C-W>_
-map <C-h> <C-W>h<C-W>_
-map <C-l> <C-W>l<C-W>_
+" window splitting
+nnoremap <leader>wv <C-W>v
+nnoremap <leader>ws <C-W>s
+nnoremap <silent> <leader>q :q<CR>
+nnoremap <silent> <leader>wq :wq<CR>
+nnoremap <silent> <leader>ww :w<CR>
 
-" Clear search
-nnoremap <silent><CR> :noh<CR><CR>
+" Window movement
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Toggle between last 2 buffers
+nnoremap <leader><tab> <c-^>
+
+" Explore
+nnoremap <silent> <leader>e :Explore<CR>
 
 " Netrw
-map <leader>e :Explore<CR>
+let g:netrw_liststyle = 3
+let g:netrw_banner = 0
 
-let g:netrw_banner       = 0
-let g:netrw_keepdir      = 0
-let g:netrw_liststyle    = 1 " or 3
-let g:netrw_sort_options = 'i'
+"" Plugins
 
-autocmd VimEnter * if !argc() | Explore | endif
+let g:gruvbox_vert_split = 'bg1'
+let g:gruvbox_sign_column = 'bg0'
 
-" Neomake
-let g:neomake_verbose = 0
-let g:neomake_ruby_enabled_makers = ['rubocop']
-let g:neomake_javascript_enabled_makers = ['standard']
-let g:neomake_jsx_enabled_makers = ['standard']
+so ~/.config/nvim/plugins.vim
 
-autocmd! BufWritePost * Neomake
+colorscheme gruvbox
+hi CursorLineNr ctermfg=white
 
-" Standard
-let g:jsx_ext_required = 0
+let g:lightline = {
+  \     'active': {
+  \         'left': [['mode', 'paste' ], ['readonly', 'filename', 'modified']],
+  \         'right': [['lineinfo'], ['percent'], ['gitbranch', 'fileformat', 'fileencoding']]
+  \     },
+  \     'component_function': {
+  \         'gitbranch': 'gitbranch#name'
+  \     }
+  \ }
 
-" Rename current file, thanks Gary Bernhardt via Ben Orenstein
-function! RenameFile()
-  let old_name = expand('%')
-  let new_name = input('New file name: ', expand('%'), 'file')
-  if new_name != '' && new_name != old_name
-    exec ':saveas ' . new_name
-    exec ':silent !rm ' . old_name
-    redraw!
-  endif
-endfunction
-map <leader>mv :call RenameFile()<cr>
+let NERDTreeShowHidden=1
 
-let g:vroom_use_spring = 0
-let g:vroom_use_dispatch = 0
-let g:vroom_clear_screen = 1
-let g:vroom_use_colors = 1
-let g:vroom_use_terminal = 1
-let g:vroom_use_binstubs = 1
-let g:vroom_write_all  = 0
-let g:vroom_test_unit_command = 'm'
-nmap <silent> <leader>R :VroomRunNearestTest<CR>
-nmap <silent> <leader>r :VroomRunTestFile<CR>
-nmap <silent> <leader>l :VroomRunLastTest<CR>
-nmap <silent> <leader>T :TestSuite<CR>
 
-" Journal
-:nnoremap <F5> "=strftime("%a %d/%m - %H:%M:%S")<CR>P
-:inoremap <F5> <C-R>=strftime("%a %d/%m - %H:%M:%S")<CR>
+let g:ale_fixers = {
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'javascript': ['prettier'],
+\   'graphql': ['prettier'],
+\   'python': ['black'],
+\   'css': ['prettier'],
+\   'json': ['prettier'],
+\}
 
-" Python
-set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\ [%l/%L]\ (%p%%)
-filetype plugin indent on
-au FileType py set autoindent
+let g:ale_fix_on_save = 1
+let g:ale_completion_enabled = 1
+" let g:ale_ruby_rufo_executable = 'bundle exec rufo'
 
-fun! <SID>StripTrailingWhitespaces()
-    let l = line(".")
-    let c = col(".")
-    %s/\s\+$//e
-    call cursor(l, c)
-endfun
+"" Testing
+let test#strategy = {
+      \ 'nearest': 'vtr',
+      \ 'file':    'vtr',
+      \ 'suite':   'vtr',
+      \}
 
-autocmd FileType c,cpp,java,php,ruby,python autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
-
-" Use deoplete
-let g:deoplete#enable_at_startup = 1
+nmap <silent> <leader>ts :TestNearest<CR>
+nmap <silent> <leader>tf :TestFile<CR>
+nmap <silent> <leader>ta :TestSuite<CR>
+nmap <silent> <leader>tr :TestLast<CR>
+nmap <silent> <leader>tv :TestVisit<CR>
