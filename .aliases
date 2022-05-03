@@ -2,53 +2,37 @@
 alias ..="cd .."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
+alias dl="cd ~/Downloads"
 
-# Base
+### Less
 alias less="less -r"
 
-# Irssi (fixes tmux issues)
-alias irssi="TERM=screen-256color irssi"
-
-# Shortcuts
-alias d="cd ~/Documents/Dropbox"
-alias dl="cd ~/Downloads"
+### Git
 alias g="git"
 alias gst="git status"
 alias git-clean='git branch --merged | grep -v "\*" | grep -v master | grep -v development | xargs -n 1 git branch -d'
-alias g-rails='git checkout master -- db/structure.sql && make rebuild-database && rails db:migrate && git add db/structure.sql && git rebase --continue'
 alias tss='tig status'
+
+### Rails specfic
+alias g-rails='git checkout master -- db/structure.sql && make rebuild-database && rails db:migrate && git add db/structure.sql && git rebase --continue'
 alias t='rails test'
 alias rdm='rails db:migrate'
 alias rdr='rails db:rollback'
-alias sps='spring stop'
 alias rdtp='rails db:test:prepare'
-alias find-my-pi="arp -na | grep -i b8:27:eb"
 
-# Postgres open connections
-alias whodatdata="psql -c \"select * from pg_stat_activity where datname = 'gaest_data';\""
-alias whodatdev="psql -c \"select * from pg_stat_activity where datname = 'gaest_development';\""
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
 # Get week number
 alias week='date +%V'
 
-# Flush Directory Service cache
-alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
-
-# Clean up LaunchServices to remove duplicates in the “Open With” menu
-alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
-
-# View HTTP traffic
+#  HTTP/DNS
 alias sniff="sudo ngrep -t '^(GET|POST) ' 'tcp and port 80'"
 alias httpdump="sudo tcpdump -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
+alias find-my-pi="arp -na | grep -i b8:27:eb"
 
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
-
-# Hide/show all desktop icons (useful when presenting)
-alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
-alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
 # Merge PDF files
 # Usage: `mergepdf -o output.pdf input{1,2,3}.pdf`
@@ -58,15 +42,12 @@ alias mergepdf='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Re
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume output volume 100'"
 
-# Lock the screen (when going AFK)
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
 # Neovim > Vim
 alias vim="nvim"
-alias vimc="nvim ~/.config/nvim/init.vim"
+alias v="nvim"
 
 # Brew
 alias bu="brew update && brew upgrade"
@@ -80,7 +61,8 @@ alias ta="tmux attach-session -t"
 alias tn="tmux new-session -s"
 
 # ZSH
-alias zshrc='nvim ~/.zshrc'
+alias zshrc='vim ~/.zshrc'
+alias zsh_alias='vim ~/.aliases'
 
 # Elixir & Mix
 alias iexm='iex --erl "-kernel shell_history enabled" -S mix'
@@ -100,6 +82,13 @@ alias la="exa -la"
 alias dc="docker-compose"
 
 # Kubernetes/Helm
+alias k="kubectl "
 alias kctldp="kubectl describe pod"
 alias ccontext="kubectl config current-context"
 alias hst="helm status"
+
+# dbt
+alias dtbf='dbt build --full-refresh'
+alias dtb='dbt build'
+alias dtbc='dbt build --select client'
+alias dtbp="dbt deps && dbt --warn-error build --fail-fast"
