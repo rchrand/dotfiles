@@ -1,0 +1,2 @@
+bind status D !@?rm %(file)
+bind status a !?git commit --amend

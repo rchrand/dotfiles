@@ -1,17 +1,21 @@
 # Movement
 alias ..="cd .."
-alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
-alias dl="cd ~/Downloads"
-
-### Less
-alias less="less -r"
 
 ### Git
 alias g="git"
 alias gst="git status"
 alias git-clean='git branch --merged | grep -v "\*" | grep -v master | grep -v development | xargs -n 1 git branch -d'
 alias tss='tig status'
+alias gpom='git pull origin main'
+alias gpb='git push origin `git rev-parse --abbrev-ref HEAD`'
+alias gpbf='git push --force-with-lease origin `git rev-parse --abbrev-ref HEAD`'
+alias grmi="git commit -am \"f\" && git rebase master -i"
+alias grc="git rebase --continue"
+
+gch() {
+ git checkout $(git branch | fzf| tr -d '[:space:]')
+}
 
 ### Rails specfic
 alias g-rails='git checkout master -- db/structure.sql && make rebuild-database && rails db:migrate && git add db/structure.sql && git rebase --continue'
@@ -34,14 +38,6 @@ alias find-my-pi="arp -na | grep -i b8:27:eb"
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
-# Merge PDF files
-# Usage: `mergepdf -o output.pdf input{1,2,3}.pdf`
-alias mergepdf='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py'
-
-# Stuff I never really use but cannot delete either because of http://xkcd.com/530/
-alias stfu="osascript -e 'set volume output muted true'"
-alias pumpitup="osascript -e 'set volume output volume 100'"
-
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
@@ -49,46 +45,37 @@ alias reload="exec $SHELL -l"
 alias vim="nvim"
 alias v="nvim"
 
-# Brew
-alias bu="brew update && brew upgrade"
-
-# Git
-alias grmi="git commit -am \"f\" && git rebase master -i"
-alias grc="git rebase --continue"
-
 # Tmux
 alias ta="tmux attach-session -t"
 alias tn="tmux new-session -s"
 
 # ZSH
 alias zshrc='vim ~/.zshrc'
+alias vimrc='nvim ~/.config/nvim'
+alias hxrc='hx ~/.config/helix'
 alias zsh_alias='vim ~/.aliases'
 
-# Elixir & Mix
-alias iexm='iex --erl "-kernel shell_history enabled" -S mix'
-alias phxs='mix phx.server'
-alias mt='mix test'
-
-# Python
-alias psa='source activate'
-alias psd='source deactivate'
-
-# Exa
-alias l="exa -l"
-alias ll="exa -l"
-alias la="exa -la"
-
-# Docker
-alias dc="docker-compose"
+# Eza
+alias l="eza -l -s modified"
+alias ll="eza -l -s modified"
+alias la="eza -la -s modified"
 
 # Kubernetes/Helm
 alias k="kubectl "
 alias kctldp="kubectl describe pod"
 alias ccontext="kubectl config current-context"
+alias mk="minikube kubectl --"
 alias hst="helm status"
 
 # dbt
 alias dtbf='dbt build --full-refresh'
 alias dtb='dbt build'
-alias dtbc='dbt build --select client'
+alias dbs='dbt build -s '
+alias drs='dbt run -s '
 alias dtbp="dbt deps && dbt --warn-error build --fail-fast"
+
+# Difftastic
+alias dt="difft"
+
+# Claude
+alias ccl='claude --dangerously-skip-permissions'

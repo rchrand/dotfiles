@@ -1,6 +1,6 @@
 # Oh my ZSH config
 export ZSH="$HOME/.oh-my-zsh"
-plugins=(git z fzf rust python minikube)
+plugins=(git z fzf)
 
 ZSH_THEME="robbyrussell"
 
@@ -9,15 +9,9 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 source ~/.aliases
 
-# Add sbin to `$PATH`
-export PATH="/usr/local/sbin:$PATH";
-
 # Standard UTF8
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-
-# Spelling - hunspell
-export DICTIONARY=en_US
 
 bindkey -e
 if [ -z "$HISTFILE" ]; then
@@ -45,3 +39,11 @@ setopt share_history # share command history data
 setopt hist_ignore_all_dups
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Custom completions
+fpath+=~/.zfunc
+fpath+=/opt/homebrew/share/zsh/site-functions
+autoload -Uz compinit && compinit
+
+# Exports
+export RIPGREP_CONFIG_PATH="$HOME/.ripgreprc"
