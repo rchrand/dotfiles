@@ -1,15 +1,30 @@
 [user]
-	email = rune.andersen92@gmail.com
-        name = Rune Andersen
+        email = rune.andersen92@gmail.com
+        name = Rune Hessner
 [push]
         default = matching
 [alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	co = checkout
-	st = status
-[core]
-	autocrlf = input
+ 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+ 	co = checkout
+ 	st = status
+	pushf = push --force-with-lease
 [pull]
-	rebase = true
+ 	rebase = true
 [fetch]
-	prune = true
+ 	prune = true
+[init]
+	defaultBranch = main
+[core]
+        editor = nvim
+[diff]
+        external = difft
+        tool = difftastic
+
+[difftool]
+        prompt = false
+
+[difftool "difftastic"]
+        cmd = difft "$LOCAL" "$REMOTE"
+
+[pager]
+        difftool = true
