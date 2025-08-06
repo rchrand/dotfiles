@@ -1,0 +1,5 @@
+theme = rose-pine-dawn
+font-size = 16
+window-inherit-font-size = false
+
+keybind = alt+C=ignore
