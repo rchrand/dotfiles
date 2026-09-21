@@ -5,7 +5,12 @@ alias -- -="cd -"
 ### Git
 alias g="git"
 alias gst="git status"
-alias git-clean='git branch --merged | grep -v "\*" | grep -v master | grep -v development | xargs -n 1 git branch -d'
+git-clean() {
+  local branches
+  branches=$(git branch --merged | grep -vE '^\*|^[[:space:]]*(main|master|development)$')
+  [[ -n "$branches" ]] || return 0
+  print -r -- "$branches" | xargs -n 1 git branch -d
+}
 alias tss='tig status'
 alias gpom='git pull origin main'
 alias gpb='git push origin `git rev-parse --abbrev-ref HEAD`'
@@ -14,7 +19,9 @@ alias grmi="git commit -am \"f\" && git rebase master -i"
 alias grc="git rebase --continue"
 
 gch() {
- git checkout $(git branch | fzf| tr -d '[:space:]')
+  local branch
+  branch=$(git branch --format='%(refname:short)' | fzf) || return
+  [[ -n "$branch" ]] && git checkout "$branch"
 }
 
 ### Rails specfic
@@ -58,10 +65,10 @@ alias zsh_alias='vim ~/.aliases'
 # Eza
 alias l="eza -l -s modified"
 alias ll="eza -l -s modified"
-alias la="eza -la -s modified"
+alias la="eza -la -s name"
 
 # Kubernetes/Helm
-alias k="kubectl "
+alias k="kubectl"
 alias kctldp="kubectl describe pod"
 alias ccontext="kubectl config current-context"
 alias mk="minikube kubectl --"
@@ -70,12 +77,29 @@ alias hst="helm status"
 # dbt
 alias dtbf='dbt build --full-refresh'
 alias dtb='dbt build'
-alias dbs='dbt build -s '
-alias drs='dbt run -s '
+dbs() {
+  dbt build -s "$@"
+}
+
+drs() {
+  dbt run -s "$@"
+}
 alias dtbp="dbt deps && dbt --warn-error build --fail-fast"
 
 # Difftastic
 alias dt="difft"
 
-# Claude
+# Claude & Codex
 alias ccl='claude --dangerously-skip-permissions'
+alias codex='codex --yolo'
+
+_new_pax_task() {
+  if [ "$#" -eq 0 ]; then
+    print -u2 'usage: new-pax-task "task_description"'
+    return 2
+  fi
+
+  /Users/runehessner/pax/bin/pax-task new "$*" --launcher tmux-window --tmux-layout pax-ui --no-startup-prompt
+}
+
+alias new-pax-task='_new_pax_task'

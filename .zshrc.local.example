@@ -1,0 +1,4 @@
+# Copy to ~/.zshrc.local for work credentials and machine-only settings.
+# This file is intentionally safe to commit; never add real credentials here.
+
+# export SERVICE_TOKEN="..."

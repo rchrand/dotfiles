@@ -1,0 +1,45 @@
+theme = "material_darker"
+
+[editor]
+line-number = "absolute"
+cursorline = false
+true-color = true
+color-modes = true
+scrolloff = 0
+rulers = [120]
+end-of-line-diagnostics = "hint"
+
+[editor.lsp]
+enable = true
+display-messages = true
+display-progress-messages = true
+auto-signature-help = true
+display-inlay-hints = true
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+character = "▏"
+skip-levels = 1
+
+# Render tabs and NBSP similar to your Neovim listchars
+[editor.whitespace]
+
+[editor.whitespace.render]
+space = "none"
+tab = "all"
+nbsp = "all"
+nnbsp = "none"
+newline = "none"
+
+[editor.whitespace.characters]
+tab = "»"
+tabpad = "·"
+nbsp = "␣"
+
+[keys.normal]
+"-" = "file_explorer_in_current_buffer_directory"
