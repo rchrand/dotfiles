@@ -11,8 +11,7 @@ emacs --batch --debug-init \
 (progn
   (dolist (feature (quote (environment editing completion git-config
                            project-config dashboard-config misc c-config lsp-config
-                           structural-editing common-lisp-config python-config
-                           landfolk-config)))
+                           structural-editing common-lisp-config python-config)))
     (unless (featurep feature)
       (error "Missing feature: %s" feature)))
   (dolist (command (quote (consult-buffer consult-ripgrep ghostel
@@ -28,8 +27,6 @@ emacs --batch --debug-init \
       (error "Missing tree-sitter grammar: %s" language)))
   (unless (executable-find "typescript-language-server")
     (error "typescript-language-server is unavailable"))
-  (unless (rchrand/landfolk-node-tool "prettier")
-    (error "Landfolk Prettier is unavailable"))
   (unless (and use-short-answers
                delete-by-moving-to-trash
                (not exchange-point-and-mark-highlight-region)
@@ -56,18 +53,6 @@ emacs --batch --debug-init \
         (unless (equal rchrand/c-run-command "make run")
           (error "Unexpected game run command: %s" rchrand/c-run-command))
         (kill-buffer (current-buffer)))))
-  (with-temp-buffer
-    (setq buffer-file-name (expand-file-name "mode-check.tsx"
-                                             rchrand/landfolk-root))
-    (rchrand/tsx-mode-dwim)
-    (unless (eq major-mode (quote tsx-ts-mode))
-      (error "TSX mode unavailable: %s" major-mode))
-    (unless (bound-and-true-p combobulate-tsx-minor-mode)
-      (error "Combobulate did not activate in TSX mode"))
-    (unless (equal combobulate-key-prefix "C-c n")
-      (error "Unexpected Combobulate prefix: %s" combobulate-key-prefix))
-    (unless (eq (key-binding (kbd "C-c n o")) (quote combobulate))
-      (error "Combobulate menu is not available on C-c n o")))
   (with-temp-buffer
     (c-mode)
     (when (key-binding (kbd "C-c n o"))

@@ -3,7 +3,7 @@
 #+DATE: 2026-09-09
 
 The active configuration includes writing, file-finding, project navigation,
-search, Git, terminal, C/Raylib, and Landfolk-focused coding tools.
+search, Git, terminal, and C/Raylib coding tools.
 
 Note on macOS modifiers in this config:
 - Meta (M-…) is the Command key.
@@ -224,9 +224,7 @@ syntax, search, and Avy movement cover distance with fewer commands.
 - Company completion: within popup
   - C-n / C-p → next/prev; TAB → cycle/complete; digits to accept numbered
 - Python: C-c f → ruff-format-buffer; Ruff formats on save when available.
-- Landfolk TypeScript/TSX: tree-sitter major modes + TypeScript LSP; Prettier
   formats on save using the repository's installed version.
-- Landfolk Ruby: tree-sitter + Sorbet LSP via Bundler; C-c f runs RuboCop
   autocorrection on the current file.
 
 * Structural editing (Combobulate)

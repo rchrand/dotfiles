@@ -92,14 +92,3 @@ alias dt="difft"
 # Claude & Codex
 alias ccl='claude --dangerously-skip-permissions'
 alias codex='codex --yolo'
-
-_new_pax_task() {
-  if [ "$#" -eq 0 ]; then
-    print -u2 'usage: new-pax-task "task_description"'
-    return 2
-  fi
-
-  /Users/runehessner/pax/bin/pax-task new "$*" --launcher tmux-window --tmux-layout pax-ui --no-startup-prompt
-}
-
-alias new-pax-task='_new_pax_task'

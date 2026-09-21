@@ -6,8 +6,7 @@
 ;;; Initial setup
 ;;;;;;;;;;;;;;;;;;;;
 
-(setq user-full-name "Rune Hessner"
-      user-mail-address "rune@landfolk.com")
+(setq user-full-name "Rune Hessner")
 
 ;; Always load newest byte code
 (setq load-prefer-newer t)
@@ -122,7 +121,9 @@
 (load "structural-editing" nil 'nomessage)
 (load "common-lisp-config" nil 'nomessage)
 (load "python-config" nil 'nomessage)
-(load "landfolk-config" nil 'nomessage)
+(let ((local-config (expand-file-name "rchrand/emacs/local.el" "~/.config")))
+  (when (file-readable-p local-config)
+    (load local-config nil 'nomessage)))
 (load "prose" nil 'nomessage)
 (load "theme" nil 'nomessage)
 

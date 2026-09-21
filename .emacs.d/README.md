@@ -1,6 +1,6 @@
 # Emacs configuration
 
-Personal Emacs 31 setup for writing and Landfolk development.
+Personal Emacs 31 setup for writing and development.
 
 ## Active modules
 
@@ -12,7 +12,6 @@ Personal Emacs 31 setup for writing and Landfolk development.
 - LSP, Company, Flycheck, snippets, and tree-sitter modes
 - Combobulate structural editing for supported tree-sitter languages
 - Plain C/Raylib editing, builds, runs, and TAGS navigation
-- Landfolk TypeScript/TSX, Ruby/Sorbet, and Python tooling
 - Common Lisp through SBCL, SLIME, and Quicklisp-aware REPL commands
 - Prose, ordinary Org editing, and themes
 
@@ -27,7 +26,7 @@ legacy Org module remain disabled in `init.el`.
 ## External tools
 
 The configuration expects `rg`, `fd`, `direnv`, and
-`typescript-language-server`. Landfolk's repository environment supplies its
+`typescript-language-server`.
 language runtimes and formatters. TypeScript uses the repository's own
 `tsserver` and Prettier; Ruby uses Bundler, Sorbet, and RuboCop; Python uses the
 nearest `.venv`, Pyright, and Ruff. C projects use Make or Just when present;
