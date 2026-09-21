@@ -1,0 +1,379 @@
+#+TITLE: Emacs Keybinding Cheat Sheet (custom + power features)
+#+AUTHOR: Rune Hessner
+#+DATE: 2026-09-09
+
+The active configuration includes writing, file-finding, project navigation,
+search, Git, terminal, C/Raylib, and Landfolk-focused coding tools.
+
+Note on macOS modifiers in this config:
+- Meta (M-…) is the Command key.
+- Super (s-…) is the Option/Alt key.
+
+* Disabled
+- Bindings omitted: work dashboard/agenda and capture, Rust, Zig, legacy Org,
+  journaling, and popup rules.
+
+* Global Navigation
+- Startup → dashboard with recent files, projects, and bookmarks
+- M-x dashboard-open → reopen or refresh the startup dashboard
+- C-x o → switch-window (pick window by number)
+- M-o → other-window
+- C-x C-b → ibuffer (buffer list)
+- C-x b → consult-buffer (buffers, files, bookmarks, and recent items)
+- C-x B → perspective buffer list (persp-list-buffers)
+- C-x u → vundo (visual undo history)
+- C-c I → open init.el
+- C-c R → reload init.el
+- C-c K → open this file
+- C-c t t → toggle theme (light/dark)
+- C-c t l → force light theme
+- C-c t d → force dark theme
+- C-c t s → select any installed theme
+- s-< / s-> → beginning/end of buffer
+- Unset: C-z (no accidental suspend)
+
+* Files & Projects
+- C-x C-f → find-file through Vertico
+- C-c F → find file in project (Projectile + Vertico)
+- C-x j → consult-find (find beneath the current directory)
+- C-x C-j → dired-jump (jump to Dired of current file)
+- M-x find-name-dired → recursively find files, then operate on them in Dired
+- Dired: press a to reuse the same buffer (enabled)
+- Dired: C-c C-e → wdired (rename/edit entries as text)
+- C-x p C-x s → save modified buffers belonging to the current project
+- M-x project-find-matching-buffer → matching file across Git worktrees
+- Projectile prefix: C-c p …
+  - B → project buffers through Consult
+  - p → switch project
+  - / → Consult ripgrep in project with live preview
+  - o → find-file DWIM in project
+  - m → open a Ghostel project terminal
+  - M → list Ghostel terminals for the project
+
+* Project environments
+- envrc loads each directory's direnv/Nix environment into its buffers.
+- C-c E … → envrc commands (update, reload, allow, and inspect errors)
+
+* Search and completion (Vertico, Consult, Embark, Ripgrep, Wgrep)
+- C-s / C-r → consult-line in the current buffer
+- C-S-s → consult-line seeded with the symbol at point
+- M-s s → native incremental search
+- M-s w → native whole-word search; M-s . → search symbol at point
+- C-M-s → native regexp search
+- C-c / → consult-ripgrep from the current directory
+- C-; → Embark actions for the thing at point or minibuffer candidate
+- Minibuffer C-c C-e → export results to a writable/list buffer
+- Minibuffer C-c C-c → collect results in a persistent buffer
+- RG prefix (provided by rg.el): C-c s …
+  - r → rg (prompted search)
+  - d → rg-dwim (search thing-at-point)
+  - p → rg-project (search current project)
+  - s / S → save search (named)
+  - l → list saved searches
+  - k → kill saved searches
+  - t → literal search
+- Edit grep results (wgrep):
+  - r → toggle editable mode in results buffers (configured)
+  - C-c C-c → apply edits; C-c C-k → abort
+
+* Editing & Text
+- C-= → expand-region (grow selection semantically)
+- M-z → zop-up-to-char (zap until char); M-Z → zop-to-char (zap to char)
+- M-% / C-M-% → anzu query-replace / query-replace-regexp (live counts)
+- While entering query-replace terms: M-s t → swap search and replacement
+- M-x re-builder → build and preview an Emacs regexp interactively
+- M-w (and [remap kill-ring-save]) → easy-kill (context-aware copy)
+- C-x \\ → align-regexp (quick column alignment)
+- s-k → kill-whole-line
+- C-a / C-e (mwim, smart line ends):
+  - C-a → first press: jump to first non-whitespace; second press: true BOL
+  - C-e → first press: end of code (skips trailing whitespace); second press: true EOL
+  - Use case: ~C-a C-SPC C-e~ now selects just the text on the line, no
+    trailing spaces.
+- Indent/dedent a region (Vim's > / <):
+  - C-x TAB → indent-rigidly; then →/← to shift by 1 col, TAB/S-TAB to next/prev tab stop, any other key exits
+  - Prefix shortcut: C-u 4 C-x TAB shifts +4 cols; C-u -4 C-x TAB shifts -4 cols
+  - C-M-\\ → indent-region (re-indents per major mode rules — different from rigid shift)
+- Crux helpers (C-c …):
+  - o open-with, f recentf find-file, e eval-and-replace, w swap-windows
+  - d duplicate line/region, D delete file+buffer, r rename file+buffer
+  - k kill other buffers, TAB indent-rigidly-and-copy, C-^ join line
+  - s-k kill whole line, C-o smart open line above, s spell/abbrev
+- Easy-kill submenu (after M-w with no region active):
+  - w word, s sentence, l line, e sexp/symbol, RET to copy
+  - digit before the letter to grab N units (~M-w 3 l~ → 3 lines)
+- M-x unfill-paragraph → undo paragraph filling performed by M-q
+
+** Kill ring, yanking, and transposition
+Emacs distinguishes deletion from killing.  Character deletion discards text;
+kill commands retain it in the global kill ring, shared by every buffer.
+
+- C-d → delete the next character; Backspace / DEL → delete the previous one
+- C-w → kill the active region
+- M-d / M-DEL → kill the next/previous word
+- C-k → kill through the end of the line; repeat it to include the newline
+- s-k / C-S-<backspace> → kill the whole line
+- Consecutive kill commands append into one kill-ring entry.  Moving, typing,
+  or running a non-kill command ends that chain.
+- C-M-w → make the next kill append to the latest kill-ring entry, even when
+  the kills are separated by other commands
+- C-y → yank the latest entry
+- M-y immediately after a yank → replace it with an earlier kill (yank-pop)
+- M-y at any other time → browse and preview the kill ring through Consult
+
+Prefer commands that operate on the right syntactic unit over marking text
+first.  Transposition fixes ordering mistakes without a manual cut and paste:
+
+- C-t → transpose characters
+- M-t → transpose words
+- C-M-t → transpose balanced expressions
+- C-x C-t → transpose lines
+- M-x transpose-sentences / M-x transpose-paragraphs → larger prose units
+
+* Shell commands and automation
+- M-! → run a shell command; C-u M-! inserts its output at point
+- M-& → run a shell command asynchronously
+- M-| → pipe the region through a shell command
+- C-u M-| → replace the region with the command output
+- F3 → start recording a keyboard macro; F4 → stop or replay it
+- C-x e → replay the last macro; use a numeric prefix to repeat it
+- C-x C-k C-h → show the complete keyboard-macro command map
+
+* Windows & Layout
+- C-S-<left/right/up/down> → resize windows
+- C-x o → switch-window chooser
+- C-x w r <left/right> → rotate the entire window layout
+- C-x w t → transpose horizontal and vertical splits
+- Perspective is the sole workspace layer; its prefix is s-p (Option-P, then follow
+  prompts).  It replaces Emacs' rarely used print-buffer binding, leaving M-p / M-n
+  available for structural navigation and compiler notes in programming modes.
+- Projectile switches automatically enter a perspective named after the project.
+- Tab bar and tab line are intentionally not enabled.  Tab line would duplicate
+  Consult's buffer navigation; if tab-bar workspaces are ever adopted, they
+  should replace Perspective instead of adding a second workspace model.
+- winner-mode: C-c <left> / C-c <right> restore/redo window layouts
+
+* Motion & Jumps
+Use the largest useful unit.  Character motion is for final positioning; word,
+syntax, search, and Avy movement cover distance with fewer commands.
+
+- C-f / C-b → forward/backward one character
+- C-n / C-p → next/previous line
+  - In visually wrapped prose these move by the visible screen line.
+- M-f / M-b → forward/backward one word
+- M-d / M-DEL → kill the next/previous word
+- In programming modes, these word commands operate on camelCase subwords.
+- A numeric prefix repeats movement: C-8 C-f moves forward eight characters;
+  a negative prefix reverses direction.
+- Word movement is intentionally asymmetric.  M-b followed by M-f may not
+  return to the same position because Emacs skips punctuation and symbols in
+  the direction of travel; this is useful when navigating and editing code.
+- C-h s → inspect the current mode's syntax table, which defines words,
+  punctuation, comments, and other syntactic units.
+- M-m → move to the first non-whitespace character on the line
+- C-l → recenter the current line; repeat to cycle middle, top, and bottom
+- C-M-l → reposition the current comment or definition so its context is visible
+- M-g M-g → jump to a line; M-g TAB → jump to a column
+- M-g c → jump to an absolute character position in the buffer
+- C-M-f / C-M-b → move forward/backward by balanced expression
+- C-M-u / C-M-d → move out of/into a nested structure
+- C-M-a / C-M-e → move to beginning/end of function
+- C-u C-SPC → jump backward through the local mark ring
+- C-M-v → scroll the other window
+- M-g M-n / M-g M-p → next/previous error, grep, or Occur result
+- avy:
+  - s-. → avy-goto-word-or-subword-1 (jump by word)
+  - s-, → avy-goto-char (jump by char)
+  - C-c . → avy-goto-word-or-subword-1
+
+* Org and prose
+- Org and Markdown prose wrap visually in a left-aligned 80-column reading area,
+  hide line numbers, and keep the underlying long lines unchanged.
+- C-n / C-p follow visible wrapped lines.  The mwim C-a / C-e bindings remain
+  intentionally logical: they jump between meaningful text and the real line
+  boundary rather than stopping at each visual wrap.
+- C-c C-o → open link at point
+- C-c s → spell-check word at point with aspell
+- M-q → fill the current paragraph to 80 columns
+- TAB / S-TAB → fold or unfold the current heading
+- S-<left> / S-<right> → cycle TODO state when a heading has one
+
+* Git
+- C-x g → magit-status
+- s-g → git-timemachine (browse history of current file)
+- Merge conflicts: C-c ^ n starts SMerge navigation; repeat with n/p and resolve
+  with u/l after the first command.
+- diff-hl shows Git changes in the fringe and refreshes after Magit operations.
+  - M-x diff-hl-next-hunk / diff-hl-previous-hunk
+  - M-x diff-hl-stage-current-hunk / diff-hl-revert-hunk
+
+* Terminal
+- C-x m → open Ghostel
+- C-c p m → open Ghostel at the current project root
+- C-c p M → list Ghostel terminals belonging to the project
+- Ghostel starts in semi-char mode: normal terminal input plus Emacs C-x/C-c keys.
+- C-x C-q → toggle Ghostel's preferred read-only/copy mode
+
+* LSP & Code Intelligence
+- LSP prefix in prog buffers: C-c C-l … (lsp-command-map)
+- lsp-ui (when active):
+  - C-c C-l . → peek definitions
+  - C-c C-l ? → peek references
+  - C-c C-l i → lsp-ui-imenu
+- C-c C-l s → Consult LSP workspace symbols
+- Company completion: within popup
+  - C-n / C-p → next/prev; TAB → cycle/complete; digits to accept numbered
+- Python: C-c f → ruff-format-buffer; Ruff formats on save when available.
+- Landfolk TypeScript/TSX: tree-sitter major modes + TypeScript LSP; Prettier
+  formats on save using the repository's installed version.
+- Landfolk Ruby: tree-sitter + Sorbet LSP via Bundler; C-c f runs RuboCop
+  autocorrection on the current file.
+
+* Structural editing (Combobulate)
+- Active in tree-sitter TypeScript/TSX, Python, YAML, JSON, and TOML buffers.
+- C-c n o → open the structural editing command menu
+- C-M-u / C-M-d → move to parent/child syntax nodes
+- C-M-p / C-M-n → move to previous/next sibling nodes
+- C-M-a / C-M-e → beginning/end of the surrounding function
+- M-h → expand the region by syntax node
+- M-P / M-N → drag the current node up/down
+- M-<up> / M-<down> → splice upward/downward
+- C-c n c → clone the node at point
+- C-c n t c → edit matching fields in a sequence
+- C remains plain ~c-mode~ without Combobulate or automatic LSP.
+
+* Common Lisp (SBCL, SLIME, Quicklisp)
+- ~.lisp~ and ASDF ~.asd~ files use ~lisp-mode~; rainbow delimiters and
+  electric pairs are already active through the general programming setup.
+- C-c l s → start SBCL through SLIME; M-x slime remains available.
+- SLIME is managed by Straight and pinned with this Emacs configuration.
+  Quicklisp manages Common Lisp libraries inside SBCL; do not load
+  ~quicklisp/slime-helper.el~, which would add a second Emacs-side SLIME.
+- First-time SBCL and Quicklisp setup:
+  - Install SBCL: ~brew install sbcl~.
+  - Install Quicklisp using its official bootstrap, then evaluate
+    ~(ql:add-to-init-file)~ in SBCL.  Future SLIME sessions then load it
+    automatically through SBCL's init file.
+  - In the SLIME REPL, ~,ql SYSTEM~ quickloads a Quicklisp system.
+- Core SLIME workflow in Lisp source buffers:
+  - C-x C-e → evaluate expression before point; C-M-x → evaluate top-level form
+  - C-c C-r → evaluate region; C-c : → evaluate a minibuffer expression
+  - C-c C-c → compile top-level form; C-c C-k → compile and load current file
+  - C-c C-l → load a Lisp file without compiling
+  - M-. / M-, → jump to a definition / return
+  - Compiler notes: M-n / M-p → next/previous; C-x ` → next note as an error
+
+** Quick guide: Common Lisp projects
+1. Open the project's ~.asd~ system definition and a source ~.lisp~ file.
+2. Start or return to SLIME with C-c l s.  C-c C-z switches from source to the
+   REPL.
+3. Load the system with ~M-x slime-load-system~.  It suggests the ~.asd~ file
+   in the current directory; in the REPL, ~,load-system SYSTEM~ does the same.
+4. Iterate in source: C-c C-c recompiles the form at point; C-c C-k compiles
+   and loads the whole current file.  Fix notes with M-n / M-p.
+5. For a full project refresh, use ~M-x slime-reload-system~.  Use
+   ~M-x slime-browse-system~ to see its files in Dired.
+6. Add third-party libraries from the REPL with ~,ql SYSTEM~, then load your
+   own ASDF system again.
+
+For a single exploratory file, skip the ~.asd~ step: start SLIME, use C-c C-c
+on definitions, and C-x C-e on small expressions.  When finished, use
+~M-x slime-quit-lisp~ to stop the REPL.
+
+* C / Raylib helpers
+- C buffers stay plain: no automatic LSP setup.
+- Build current C project: C-c b, C-c C-b, or F5
+- Run current C project: C-c r or C-c C-r
+- Generate/load TAGS: C-c C-t
+- Open Homebrew `raylib.h`: C-c h r
+- Build then run current C project: S-F5
+- Defaults:
+  - Makefile/GNUmakefile → `make`, and `make run` when target exists
+  - justfile/Justfile → `just build`, and `just run` when target exists
+  - bare Raylib single-file project → builds current/main C file into `build/`
+- `M-x compile` / `M-x recompile` still work; the config just seeds sane defaults.
+- Tags workflow:
+  - `C-c C-t` builds a `TAGS` file for project sources + raylib headers
+  - `M-.` jumps to definition
+  - `M-,` jumps back
+  - `C-c i` shows symbols in current file
+  - `C-c /` or `C-c S` is still fastest for finding references/usages
+
+* Learning Emacs from Emacs
+Emacs knows the live configuration better than any cheat sheet.  Use its
+self-documentation whenever a command, mode, or key feels unfamiliar; this
+also catches bindings changed by packages or this configuration.
+
+- M-X (Command-Shift-x) → show commands relevant to the current buffer and its modes
+- C-h k, then a key → describe what that key currently does
+- C-h m → describe the current major and minor modes
+- C-h a → search command names by word or regular expression
+- C-h d → search documentation text
+- C-h F → open the Emacs manual at the entry for a command
+- C-h i → open Info; C-h R → choose and open a manual
+- C-h C-q → toggle Emacs Quick Help
+- After a prefix, press C-h to discover its complete keymap.  Useful examples:
+  - C-c p C-h → Projectile
+  - C-c n C-h → structural editing
+  - C-x r C-h → registers, rectangles, and bookmarks
+  - C-x C-k C-h → keyboard macros
+
+Treat buffers as workspaces, not merely files.  Temporary text, command output,
+search results, terminals, help, and manuals all remain editable or navigable
+with the same Emacs vocabulary.  Likewise, the mark is a navigation anchor as
+well as the start of a visible selection:
+
+- C-x C-x → exchange point and mark
+- C-u C-SPC → walk backward through the local mark ring
+- C-x b → move among file and non-file buffers through Consult
+
+The Customize interface is useful for discovering options:
+
+- M-x customize-mode → options associated with the current major mode
+- M-x customize-option → inspect or try a named option
+- M-x customize-saved → audit options saved through Customize
+- M-x customize-changed → inspect options changed by an Emacs upgrade
+
+Customize saves into ignored ~savefile/custom.el~ in this setup.  Use it for
+experimentation, then move lasting choices into the appropriate tracked Lisp
+module so the configuration stays understandable and reproducible.
+
+** Practice this week
+Keep this deliberately short.  Reach for these before adding another binding:
+
+- M-X in an unfamiliar buffer
+- C-h k when a key surprises you
+- C-h m when entering an unfamiliar mode
+- C-h a when you know the idea but not the command name
+- C-h after C-c p, C-c n, or C-x r
+- One numeric or negative prefix argument each day
+
+* Small but mighty built-in power moves
+- repeat-mode is enabled: repeatable commands continue with their final key.
+- savehist preserves minibuffer history across restarts.
+- so-long protects Emacs from pathological generated/minified files.
+- Universal and numeric arguments modify the next command:
+  - C-u → argument 4; repeated C-u multiplies it by another 4
+  - M-0 … M-9 or C-0 … C-9 → supply an exact number
+  - M-- or C-- → make the argument negative
+  - Example: M-- M-d kills the previous word while keeping a smooth Meta rhythm
+- Repeat last command: C-x z, then press z z z to repeat again
+- Rectangle editing:
+  - C-x SPC → rectangle-mark-mode
+  - C-x r t → string-rectangle; C-x r k → kill-rectangle; C-x r y → yank-rectangle
+- Narrowing (focus on a region):
+  - C-x n n → narrow-to-region; C-x n d → narrow-to-defun
+  - C-x n p → narrow-to-page; C-x n w → widen back out
+- Registers and window/frame configs:
+  - C-x r s a → save region to register a; C-x r i a → insert
+  - C-x r SPC a → save point; C-x r j a → jump to point/register
+  - C-x r w a → save window config; C-x r f a → save frame config; C-x r j a → restore
+- Bookmarks:
+  - C-x r m → set bookmark; C-x r b → jump; C-x r l → list
+- Occur (quick index of matches in buffer):
+  - M-s o → occur (or M-x occur)
+  - In the *Occur* buffer: e → occur-edit-mode (edit matches, C-c C-c to apply)
+
+* Tips
+- Use ~M-x describe-mode~ to see Org commands relevant to the current buffer.
+- Use ~M-x ispell-buffer~ for a full-document spelling pass.

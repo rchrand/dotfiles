@@ -1,0 +1,32 @@
+# Package checkouts and build products
+/straight/build/
+/straight/repos/
+/straight/modified/
+/straight/build-cache.el
+/elpa/
+/eln-cache/
+/*.eln
+/**/*.elc
+
+# Runtime state
+/.cache/
+/.lsp-session-v1
+/auto-save-list/
+/savefile/
+/transient/
+/tree-sitter/
+/places
+/projects
+/projects.eld
+/projectile-bookmarks.eld
+/tramp
+
+# macOS
+.DS_Store
+
+# Local credentials and machine-only overrides
+/authinfo
+/authinfo.gpg
+/.authinfo
+/.authinfo.gpg
+/local.el

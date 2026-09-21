@@ -1,0 +1,136 @@
+#!/bin/sh
+set -eu
+
+config_dir=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+cd "$config_dir"
+
+emacs --batch --debug-init \
+  -l early-init.el \
+  -l init.el \
+  --eval '
+(progn
+  (dolist (feature (quote (environment editing completion git-config
+                           project-config dashboard-config misc c-config lsp-config
+                           structural-editing common-lisp-config python-config
+                           landfolk-config)))
+    (unless (featurep feature)
+      (error "Missing feature: %s" feature)))
+  (dolist (command (quote (consult-buffer consult-ripgrep ghostel
+                           ghostel-project projectile-switch-project
+                           consult-lsp-symbols dashboard-open magit-status
+                           rchrand/project-search-dwim rchrand/c-build
+                           rchrand/c-run combobulate-mode rchrand/slime-start
+                           slime)))
+    (unless (commandp command)
+      (error "Missing command: %s" command)))
+  (dolist (language (quote (ruby typescript tsx)))
+    (unless (treesit-language-available-p language)
+      (error "Missing tree-sitter grammar: %s" language)))
+  (unless (executable-find "typescript-language-server")
+    (error "typescript-language-server is unavailable"))
+  (unless (rchrand/landfolk-node-tool "prettier")
+    (error "Landfolk Prettier is unavailable"))
+  (unless (and use-short-answers
+               delete-by-moving-to-trash
+               (not exchange-point-and-mark-highlight-region)
+               (eq reb-re-syntax (quote string))
+               (eq (key-binding (kbd "M-s s")) (quote isearch-forward)))
+    (error "Native editing defaults are inactive"))
+  (unless (equal persp-mode-prefix-key (kbd "s-p"))
+    (error "Perspective prefix is not s-p"))
+  (unless (keymapp (key-binding (kbd "s-p")))
+    (error "s-p is not a Perspective prefix"))
+  (with-temp-buffer
+    (prog-mode)
+    (unless (bound-and-true-p subword-mode)
+      (error "Subword mode did not activate in a programming buffer")))
+  (let ((game-main (expand-file-name "~/projects/game/src/main.c")))
+    (when (file-exists-p game-main)
+      (with-current-buffer (find-file-noselect game-main)
+        (unless (eq (key-binding (kbd "C-c b")) (quote rchrand/c-build))
+          (error "C-c b is not bound to rchrand/c-build"))
+        (unless (eq (key-binding (kbd "C-c r")) (quote rchrand/c-run))
+          (error "C-c r is not bound to rchrand/c-run"))
+        (unless (equal compile-command "make")
+          (error "Unexpected game build command: %s" compile-command))
+        (unless (equal rchrand/c-run-command "make run")
+          (error "Unexpected game run command: %s" rchrand/c-run-command))
+        (kill-buffer (current-buffer)))))
+  (with-temp-buffer
+    (setq buffer-file-name (expand-file-name "mode-check.tsx"
+                                             rchrand/landfolk-root))
+    (rchrand/tsx-mode-dwim)
+    (unless (eq major-mode (quote tsx-ts-mode))
+      (error "TSX mode unavailable: %s" major-mode))
+    (unless (bound-and-true-p combobulate-tsx-minor-mode)
+      (error "Combobulate did not activate in TSX mode"))
+    (unless (equal combobulate-key-prefix "C-c n")
+      (error "Unexpected Combobulate prefix: %s" combobulate-key-prefix))
+    (unless (eq (key-binding (kbd "C-c n o")) (quote combobulate))
+      (error "Combobulate menu is not available on C-c n o")))
+  (with-temp-buffer
+    (c-mode)
+    (when (key-binding (kbd "C-c n o"))
+      (error "Combobulate unexpectedly activated in plain C mode")))
+  (mapc (lambda (feature) (require feature))
+        (quote (magit projectile diff-hl undo-fu-session ghostel)))
+  (unless (and (featurep (quote vertico))
+               (featurep (quote marginalia))
+               (equal completion-styles (quote (orderless basic)))
+               (eq projectile-completion-system (quote default))
+               (bound-and-true-p undo-fu-session-global-mode)
+               (bound-and-true-p global-so-long-mode))
+    (error "Completion, project, undo, or large-file defaults inactive"))
+  (unless (and (member (quote slime-fancy) slime-contribs)
+               (member (quote slime-asdf) slime-contribs)
+               (member (quote slime-quicklisp) slime-contribs)
+               (string-match-p "sbcl" inferior-lisp-program))
+    (error "Common Lisp defaults are inactive"))
+  (unless (functionp (quote rchrand/quicklisp-setup-file))
+    (error "Quicklisp setup discovery is unavailable"))
+  (require (quote slime))
+  (require (quote slime-asdf))
+  (require (quote slime-quicklisp))
+  (unless (and (featurep (quote slime-asdf))
+               (featurep (quote slime-quicklisp)))
+    (error "SLIME ASDF or Quicklisp integration is unavailable"))
+  (with-temp-buffer
+    (lisp-mode)
+    (slime-mode 1)
+    (dolist (binding (quote (("C-x C-e" . slime-eval-last-expression)
+                             ("C-M-x" . slime-eval-defun)
+                             ("C-c C-c" . slime-compile-defun)
+                             ("C-c C-k" . slime-compile-and-load-file)
+                             ("M-." . slime-edit-definition))))
+      (unless (eq (key-binding (kbd (car binding))) (cdr binding))
+        (error "Unexpected SLIME binding: %s" (car binding)))))
+  (with-temp-buffer
+    (setq buffer-file-name "example.asd")
+    (set-auto-mode)
+    (unless (derived-mode-p (quote lisp-mode))
+      (error "ASDF files do not use lisp-mode")))
+  (unless (ghostel--terminfo-directory)
+    (error "Ghostel bundled terminfo is unavailable"))
+  (unless (and (equal dashboard-items
+                      (quote ((recents . 8) (projects . 8) (bookmarks . 5))))
+               (eq dashboard-projects-backend (quote projectile))
+               (eq initial-buffer-choice (quote dashboard-open)))
+    (error "Startup dashboard configuration is inactive"))
+  (dashboard-open)
+  (with-current-buffer dashboard-buffer-name
+    (unless (derived-mode-p (quote dashboard-mode))
+      (error "Dashboard mode did not activate"))
+    (let ((contents (buffer-substring-no-properties (point-min) (point-max))))
+      (dolist (heading (quote ("Recent Files:" "Projects:" "Bookmarks:")))
+        (unless (string-match-p (regexp-quote heading) contents)
+          (error "Missing dashboard section: %s" heading)))
+      (when (string-match-p "Agenda" contents)
+        (error "Agenda unexpectedly present in startup dashboard"))))
+  (dolist (obsolete-feature (quote (ivy counsel swiper counsel-projectile
+                                     lsp-ivy git-gutter undo-tree eat)))
+    (when (featurep obsolete-feature)
+      (error "Replaced feature unexpectedly active: %s" obsolete-feature)))
+  (dolist (disabled-feature (quote (org-work popups rust-config zig-config)))
+    (when (featurep disabled-feature)
+      (error "Disabled module unexpectedly active: %s" disabled-feature)))
+  (message "CONFIG_OK"))'
