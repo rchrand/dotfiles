@@ -17,4 +17,3 @@ indent = { tab-width = 4, unit = "    " }
 [language.formatter]
 command = "ruff"
 args = ["format", "--stdin-filename", "%{buffer_name}", "--quiet", "-"]
-
