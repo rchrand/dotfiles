@@ -21,6 +21,7 @@ path_append() {
 
 [[ -r "$ZSH/oh-my-zsh.sh" ]] && source "$ZSH/oh-my-zsh.sh"
 [[ -r "$HOME/.aliases" ]] && source "$HOME/.aliases"
+[[ -r "$HOME/.aliases.local" ]] && source "$HOME/.aliases.local"
 [[ -r "$HOME/.fzf.zsh" ]] && source "$HOME/.fzf.zsh"
 
 export LC_ALL=en_US.UTF-8

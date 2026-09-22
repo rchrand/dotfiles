@@ -1,5 +1,6 @@
 # Credentials and machine-specific shell/Git overrides
 .zshrc.local
+.aliases.local
 .gitconfig.local
 
 # SSH and application account state
