@@ -144,9 +144,9 @@ first.  Transposition fixes ordering mistakes without a manual cut and paste:
 - C-x o → switch-window chooser
 - C-x w r <left/right> → rotate the entire window layout
 - C-x w t → transpose horizontal and vertical splits
-- Perspective is the sole workspace layer; its prefix is s-p (Option-P, then follow
-  prompts).  It replaces Emacs' rarely used print-buffer binding, leaving M-p / M-n
-  available for structural navigation and compiler notes in programming modes.
+- Perspective is the sole workspace layer; its prefix is C-c P (then follow prompts).
+  This works in both macOS Emacs and Linux/Hyprland, leaving M-p / M-n available for
+  structural navigation and compiler notes in programming modes.
 - Projectile switches automatically enter a perspective named after the project.
 - Tab bar and tab line are intentionally not enabled.  Tab line would duplicate
   Consult's buffer navigation; if tab-bar workspaces are ever adopted, they

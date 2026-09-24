@@ -71,7 +71,7 @@
 
 (use-package perspective
   :bind ("C-x B" . persp-list-buffers)
-  :custom (persp-mode-prefix-key (kbd "s-p"))
+  :custom (persp-mode-prefix-key (kbd "C-c P"))
   :init (persp-mode))
 
 (use-package hl-todo
