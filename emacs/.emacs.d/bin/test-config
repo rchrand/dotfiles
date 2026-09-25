@@ -17,7 +17,8 @@ emacs --batch --debug-init \
   (dolist (command (quote (consult-buffer consult-ripgrep ghostel
                            ghostel-project projectile-switch-project
                            consult-lsp-symbols dashboard-open magit-status
-                           rchrand/project-search-dwim rchrand/c-build
+                           rchrand/project-search-dwim rchrand/project-search-directory
+                           rchrand/dired-search-directory rchrand/c-build
                            rchrand/c-run combobulate-mode rchrand/slime-start
                            slime)))
     (unless (commandp command)
@@ -59,6 +60,12 @@ emacs --batch --debug-init \
       (error "Combobulate unexpectedly activated in plain C mode")))
   (mapc (lambda (feature) (require feature))
         (quote (magit projectile diff-hl undo-fu-session ghostel)))
+  (unless (eq (lookup-key projectile-command-map (kbd "/"))
+              (quote rchrand/project-search-directory))
+    (error "Projectile subdirectory search is not bound to C-c p /"))
+  (unless (eq (lookup-key dired-mode-map (kbd "C-c /"))
+              (quote rchrand/dired-search-directory))
+    (error "Dired directory search is not bound to C-c /"))
   (unless (and (featurep (quote vertico))
                (featurep (quote marginalia))
                (equal completion-styles (quote (orderless basic)))

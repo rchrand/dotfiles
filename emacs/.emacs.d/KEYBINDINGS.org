@@ -45,7 +45,7 @@ Note on macOS modifiers in this config:
 - Projectile prefix: C-c p …
   - B → project buffers through Consult
   - p → switch project
-  - / → Consult ripgrep in project with live preview
+  - / → choose a project subdirectory, then Consult ripgrep there
   - o → find-file DWIM in project
   - m → open a Ghostel project terminal
   - M → list Ghostel terminals for the project
@@ -60,7 +60,8 @@ Note on macOS modifiers in this config:
 - M-s s → native incremental search
 - M-s w → native whole-word search; M-s . → search symbol at point
 - C-M-s → native regexp search
-- C-c / → consult-ripgrep from the current directory
+- C-c / → Consult ripgrep from the current directory; in Dired, explicitly
+  searches the displayed directory rather than the Projectile root
 - C-; → Embark actions for the thing at point or minibuffer candidate
 - Minibuffer C-c C-e → export results to a writable/list buffer
 - Minibuffer C-c C-c → collect results in a persistent buffer

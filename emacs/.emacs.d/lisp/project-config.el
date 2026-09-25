@@ -25,7 +25,7 @@
   (define-key projectile-command-map (kbd "M") #'ghostel-project-list-buffers)
   (define-key projectile-command-map (kbd "s r") #'rchrand/project-search-dwim)
   (define-key projectile-command-map (kbd "s g") #'rchrand/project-search-dwim)
-  (define-key projectile-command-map (kbd "/") #'rchrand/project-search-dwim)
+  (define-key projectile-command-map (kbd "/") #'rchrand/project-search-directory)
   (define-key projectile-command-map (kbd "o") #'rchrand/find-file-in-project))
 
 ;; Ignore Zig build folders globally in Projectile
@@ -71,6 +71,23 @@
   (consult-ripgrep (if (projectile-project-p)
                        (projectile-project-root)
                      default-directory)))
+
+(defun rchrand/project-search-directory ()
+  "Search an existing directory chosen beneath the current project root."
+  (interactive)
+  (let* ((root (if (projectile-project-p)
+                   (projectile-project-root)
+                 default-directory))
+         (directory (read-directory-name "Search directory: " root root t)))
+    (unless (file-in-directory-p (file-truename directory)
+                                 (file-truename root))
+      (user-error "Directory must be inside the current project"))
+    (consult-ripgrep directory)))
+
+(defun rchrand/dired-search-directory ()
+  "Search from the directory displayed by the current Dired buffer."
+  (interactive)
+  (consult-ripgrep default-directory))
 
 (global-set-key (kbd "C-c S") #'rchrand/project-search-dwim)
 

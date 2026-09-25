@@ -31,7 +31,8 @@
 (use-package dired
   :straight nil
   :bind (:map dired-mode-map
-              ("C-c C-e" . wdired-change-to-wdired-mode))
+              ("C-c C-e" . wdired-change-to-wdired-mode)
+              ("C-c /" . rchrand/dired-search-directory))
   :config
   (put 'dired-find-alternate-file 'disabled nil)
   (setq dired-auto-revert-buffer #'dired-buffer-stale-p
