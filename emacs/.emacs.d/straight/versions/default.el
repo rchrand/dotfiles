@@ -69,6 +69,7 @@
  ("s.el" . "dda84d38fffdaf0c9b12837b504b402af910d01d")
  ("seq" . "da86da9bf111f68fb81efd466d76d53af5aebc00")
  ("slime" . "b7c25d3cf9d29f9babd0431de00e44ad744a81fd")
+ ("sly" . "3ffa216d0818972f7a7fea38a566a6b570349f3b")
  ("spinner" . "fa117f0893788f3fe24673715a6b83bb34d238dd")
  ("straight.el" . "4272a70d5a385c5c4f92f4f4b111f063db0afac7")
  ("super-save" . "b612da0b37859a23375366b725b1ab7e7fea02fd")

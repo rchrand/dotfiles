@@ -241,43 +241,29 @@ syntax, search, and Avy movement cover distance with fewer commands.
 - C-c n t c → edit matching fields in a sequence
 - C remains plain ~c-mode~ without Combobulate or automatic LSP.
 
-* Common Lisp (SBCL, SLIME, Quicklisp)
-- ~.lisp~ and ASDF ~.asd~ files use ~lisp-mode~; rainbow delimiters and
-  electric pairs are already active through the general programming setup.
-- C-c l s → start SBCL through SLIME; M-x slime remains available.
-- SLIME is managed by Straight and pinned with this Emacs configuration.
-  Quicklisp manages Common Lisp libraries inside SBCL; do not load
-  ~quicklisp/slime-helper.el~, which would add a second Emacs-side SLIME.
-- First-time SBCL and Quicklisp setup:
-  - Install SBCL: ~brew install sbcl~.
-  - Install Quicklisp using its official bootstrap, then evaluate
-    ~(ql:add-to-init-file)~ in SBCL.  Future SLIME sessions then load it
-    automatically through SBCL's init file.
-  - In the SLIME REPL, ~,ql SYSTEM~ quickloads a Quicklisp system.
-- Core SLIME workflow in Lisp source buffers:
-  - C-x C-e → evaluate expression before point; C-M-x → evaluate top-level form
-  - C-c C-r → evaluate region; C-c : → evaluate a minibuffer expression
-  - C-c C-c → compile top-level form; C-c C-k → compile and load current file
-  - C-c C-l → load a Lisp file without compiling
-  - M-. / M-, → jump to a definition / return
-  - Compiler notes: M-n / M-p → next/previous; C-x ` → next note as an error
+* Common Lisp (SBCL, SLY, Qlot)
+- C-c l s → start SLY; automatically use Qlot from the nearest parent with
+  a ~qlfile~, otherwise use plain SBCL.
+- SLY is managed by Straight. Its default extensions remain enabled.
+- Run ~qlot install~ in a Qlot project before starting its Lisp session.
+- ~M-- M-x sly~ lets you explicitly select ~sbcl~ or ~qlot~.
+- ~.lisp~ and ~.asd~ use ~lisp-mode~, with existing structural editing.
+- C-x C-e → evaluate expression; C-M-x → evaluate top-level form
+- C-c C-c → compile definition; C-c C-k → compile and load file
+- C-c C-z → switch to REPL; M-. / M-, → definition / return
 
-** Quick guide: Common Lisp projects
-1. Open the project's ~.asd~ system definition and a source ~.lisp~ file.
-2. Start or return to SLIME with C-c l s.  C-c C-z switches from source to the
-   REPL.
-3. Load the system with ~M-x slime-load-system~.  It suggests the ~.asd~ file
-   in the current directory; in the REPL, ~,load-system SYSTEM~ does the same.
-4. Iterate in source: C-c C-c recompiles the form at point; C-c C-k compiles
-   and loads the whole current file.  Fix notes with M-n / M-p.
-5. For a full project refresh, use ~M-x slime-reload-system~.  Use
-   ~M-x slime-browse-system~ to see its files in Dired.
-6. Add third-party libraries from the REPL with ~,ql SYSTEM~, then load your
-   own ASDF system again.
+** Quick guide
+1. Open a source file in the project and press C-c l s.
+2. In the REPL, evaluate ~(ql:quickload "playground")~ for the learning project.
+3. Evaluate ~(in-package #:playground)~, then ~(hello)~.
+4. Edit definitions and compile them with C-c C-c; the image stays running.
+5. Add dependencies with ~qlot add LIBRARY~ in the shell and declare them
+   in the project's ~.asd~. Commit ~qlfile~ and ~qlfile.lock~.
 
-For a single exploratory file, skip the ~.asd~ step: start SLIME, use C-c C-c
-on definitions, and C-x C-e on small expressions.  When finished, use
-~M-x slime-quit-lisp~ to stop the REPL.
+** Revert to SLIME
+The previous setup is preserved as comments in ~lisp/common-lisp-config.el~.
+Disable the SLY block, uncomment the SLIME block, and restart Emacs.
+Avoid enabling both minor modes in the same source buffer.
 
 * C / Raylib helpers
 - C buffers stay plain: no automatic LSP setup.
