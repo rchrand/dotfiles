@@ -24,6 +24,8 @@ local parsers = {
   'zig',
 }
 
+-- Lets headless machine setup wait until these parsers are built.
+vim.g.rchrand_treesitter_parsers = parsers
 treesitter.setup { install_dir = vim.fn.stdpath 'data' .. '/site' }
 if vim.fn.executable 'tree-sitter' == 1 then
   treesitter.install(parsers)
