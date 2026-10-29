@@ -110,6 +110,18 @@ local function system_is_dark()
     return false
   end
 
+  -- Over SSH (e.g. an Iron machine) the terminal's own background is fixed, so
+  -- prefer tmux's view of the attached terminal's light/dark report.
+  if vim.env.TMUX and vim.fn.executable 'tmux' == 1 then
+    local output = vim.fn.system { 'tmux', 'display-message', '-p', '#{client_theme}' }
+    if vim.v.shell_error == 0 then
+      local theme = vim.trim(output)
+      if theme == 'dark' or theme == 'light' then
+        return theme == 'dark'
+      end
+    end
+  end
+
   return vim.o.background == 'dark'
 end
 
