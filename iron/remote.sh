@@ -95,6 +95,11 @@ stow --dir "$dotfiles" --target "$HOME" --restow nvim zsh
 link_file "$dotfiles/.tmux.conf" "$HOME/.tmux.conf"
 link_file "$dotfiles/.ripgreprc" "$HOME/.ripgreprc"
 link_file "$dotfiles/.tigrc" "$HOME/.tigrc"
+# Machine name for the tmux IRON badge (the hostname is always "iron").
+if [[ -n ${IRON_SYNC_MACHINE:-} ]]; then
+  mkdir -p "$HOME/.config/rchrand"
+  printf '%s\n' "$IRON_SYNC_MACHINE" >"$HOME/.config/rchrand/iron-machine"
+fi
 clone_missing https://github.com/ohmyzsh/ohmyzsh.git "$HOME/.oh-my-zsh"
 clone_missing https://github.com/tmux-plugins/tpm.git "$HOME/.tmux/plugins/tpm"
 

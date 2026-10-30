@@ -71,7 +71,7 @@ fi
 
 # Expanded by the remote shell, not here.
 # shellcheck disable=SC2016
-remote='set -e; d=$(mktemp -d); trap "rm -rf -- \"$d\"" EXIT; tar -xzf - -C "$d"; IRON_SYNC_UPGRADE='"$upgrade"' bash "$d/remote.sh" "$d"'
+remote='set -e; d=$(mktemp -d); trap "rm -rf -- \"$d\"" EXIT; tar -xzf - -C "$d"; IRON_SYNC_UPGRADE='"$upgrade"' IRON_SYNC_MACHINE='"$machine"' bash "$d/remote.sh" "$d"'
 
 printf 'Syncing to %s...\n' "$machine"
 tar -C "$payload" -czf - . | iron exec --timeout 30m "$machine" -- bash -lc "$remote"
