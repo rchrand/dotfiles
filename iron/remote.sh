@@ -56,11 +56,23 @@ install_payload() {
 }
 
 step "Packages (user Nix profile)"
-packages=(bat claude-code codex difftastic eza gcc gnumake nodejs python3 stow tig tree tree-sitter watch zsh)
-installed=$(nix profile list --json 2>/dev/null | jq -r '.elements | keys[]' || true)
+# Agents move fast: take them from nixpkgs-unstable rather than the
+# machine's pinned release. Everything else follows the system's nixpkgs.
+unstable=github:NixOS/nixpkgs/nixpkgs-unstable
+packages=(bat difftastic eza gcc gnumake nodejs python3 stow tig tree tree-sitter watch zsh)
+agents=(claude-code codex)
+elements=$(nix profile list --json 2>/dev/null | jq -c '.elements' || echo '{}')
+source_of() { jq -r --arg name "$1" '.[$name].originalUrl // empty' <<<"$elements"; }
 missing=()
 for package in "${packages[@]}"; do
-  grep -qx "$package" <<<"$installed" || missing+=("nixpkgs#$package")
+  [[ -n $(source_of "$package") ]] || missing+=("nixpkgs#$package")
+done
+for agent in "${agents[@]}"; do
+  case $(source_of "$agent") in
+    "$unstable") ;;
+    "") missing+=("$unstable#$agent") ;;
+    *) nix profile remove "$agent" && missing+=("$unstable#$agent") ;;
+  esac
 done
 if ((${#missing[@]})); then
   NIXPKGS_ALLOW_UNFREE=1 nix profile add --impure "${missing[@]}"
@@ -77,6 +89,8 @@ if [[ -z $(git -C "$dotfiles" status --porcelain) ]]; then
 else
   printf 'warning: ~/dotfiles has local changes; not pulling\n' >&2
 fi
+# Keep ~/.config a real directory so stow links only ~/.config/nvim.
+mkdir -p "$HOME/.config"
 stow --dir "$dotfiles" --target "$HOME" --restow nvim zsh
 link_file "$dotfiles/.tmux.conf" "$HOME/.tmux.conf"
 link_file "$dotfiles/.ripgreprc" "$HOME/.ripgreprc"

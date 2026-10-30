@@ -24,7 +24,8 @@ done
 dotfiles=$(CDPATH='' cd -- "$(dirname -- "$0")/.." && pwd)
 
 git -C "$dotfiles" fetch -q origin
-if [[ -n $(git -C "$dotfiles" log --oneline '@{u}..HEAD') ]]; then
+branch=$(git -C "$dotfiles" branch --show-current)
+if [[ -n $(git -C "$dotfiles" log --oneline "origin/$branch..HEAD" 2>/dev/null) ]]; then
   printf 'warning: unpushed dotfiles commits will not reach %s\n' "$machine" >&2
 fi
 
