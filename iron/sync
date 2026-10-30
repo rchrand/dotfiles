@@ -1,0 +1,76 @@
+#!/usr/bin/env bash
+# Sync this Mac's shell, tmux, Neovim, Pax and agent setup to an Iron machine.
+#
+#   iron/sync [machine] [--upgrade]
+#
+# Dotfiles reach the machine through its own ~/dotfiles checkout (pulled from
+# GitHub), so push first. Machine-only files that are not in Git (Pax USER.md,
+# Codex AGENTS.md, the work Neovim formatter) and the portable subset of Pax,
+# Claude and Codex settings are streamed over `iron exec`. Secrets and logins
+# are never copied; sign in on the machine once.
+set -euo pipefail
+
+machine="rust-in-peace"
+upgrade=0
+for arg in "$@"; do
+  case $arg in
+    --upgrade) upgrade=1 ;;
+    -h | --help) sed -n '2,10p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
+    -*) printf 'Unknown option: %s\n' "$arg" >&2; exit 2 ;;
+    *) machine=$arg ;;
+  esac
+done
+
+dotfiles=$(CDPATH='' cd -- "$(dirname -- "$0")/.." && pwd)
+
+git -C "$dotfiles" fetch -q origin
+if [[ -n $(git -C "$dotfiles" log --oneline '@{u}..HEAD') ]]; then
+  printf 'warning: unpushed dotfiles commits will not reach %s\n' "$machine" >&2
+fi
+
+payload=$(mktemp -d)
+trap 'rm -rf -- "$payload"' EXIT
+cp "$dotfiles/iron/remote.sh" "$payload/remote.sh"
+
+copy_if_present() {
+  [[ -f $1 ]] && cp "$1" "$payload/$2"
+  return 0
+}
+copy_if_present "$HOME/.pax/config/USER.md" pax-USER.md
+copy_if_present "$HOME/.codex/AGENTS.md" codex-AGENTS.md
+copy_if_present "$HOME/.config/rchrand/nvim/formatting.lua" nvim-formatting.lua
+
+# Portable preference subsets; Mac-only paths, plugins and hooks stay behind.
+if [[ -f $HOME/.pax/config/settings.json ]]; then
+  jq '{theme, paxSupervised} | with_entries(select(.value != null))' \
+    "$HOME/.pax/config/settings.json" >"$payload/pax-settings.json"
+fi
+if [[ -f $HOME/.claude/settings.json ]]; then
+  jq '{model, effortLevel, skipDangerousModePermissionPrompt, theme, tui} | with_entries(select(.value != null))' \
+    "$HOME/.claude/settings.json" >"$payload/claude-settings.json"
+fi
+if [[ -f $HOME/.codex/config.toml ]]; then
+  python3 - "$HOME/.codex/config.toml" >"$payload/codex-config.toml" <<'PY'
+import json, sys, tomllib
+
+config = tomllib.load(open(sys.argv[1], "rb"))
+value = lambda v: json.dumps(v) if not isinstance(v, bool) else str(v).lower()
+for key, v in config.items():
+    if isinstance(v, (str, int, float, bool)) and key != "notify":
+        print(f"{key} = {value(v)}")
+features = {k: v for k, v in config.get("features", {}).items() if isinstance(v, bool)}
+if features:
+    print("\n[features]")
+    for key, v in features.items():
+        print(f"{key} = {value(v)}")
+for path in ("/home/dev", "/home/dev/landfolk", "/home/dev/pax"):
+    print(f'\n[projects."{path}"]\ntrust_level = "trusted"')
+PY
+fi
+
+# Expanded by the remote shell, not here.
+# shellcheck disable=SC2016
+remote='set -e; d=$(mktemp -d); trap "rm -rf -- \"$d\"" EXIT; tar -xzf - -C "$d"; IRON_SYNC_UPGRADE='"$upgrade"' bash "$d/remote.sh" "$d"'
+
+printf 'Syncing to %s...\n' "$machine"
+tar -C "$payload" -czf - . | iron exec --timeout 30m "$machine" -- bash -lc "$remote"
