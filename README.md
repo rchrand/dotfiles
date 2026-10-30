@@ -31,7 +31,7 @@ iron/sync [machine] [--upgrade]   # default machine: rust-in-peace
 
 Pulls these dotfiles into the machine's `~/dotfiles` (push first), links them,
 installs the CLI tools and agents into the user Nix profile, and copies the
-portable Pax, Claude and Codex preferences plus untracked machine files
+portable Pax (theme, default model, supervised repos), Claude and Codex preferences plus untracked machine files
 (`USER.md`, Codex `AGENTS.md`, the Neovim formatter). Rerun any time; `--upgrade`
 also upgrades the Nix packages. Sign in to Claude, Codex and Pax `/mcp` on the
 machine once; credentials are never copied.

@@ -43,7 +43,7 @@ copy_if_present "$HOME/.config/rchrand/nvim/formatting.lua" nvim-formatting.lua
 
 # Portable preference subsets; Mac-only paths, plugins and hooks stay behind.
 if [[ -f $HOME/.pax/config/settings.json ]]; then
-  jq '{theme, paxSupervised} | with_entries(select(.value != null))' \
+  jq '{theme, defaultProvider, defaultModel, paxSupervised} | with_entries(select(.value != null))' \
     "$HOME/.pax/config/settings.json" >"$payload/pax-settings.json"
 fi
 if [[ -f $HOME/.claude/settings.json ]]; then
